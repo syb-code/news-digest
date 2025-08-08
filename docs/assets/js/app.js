@@ -1,14 +1,9 @@
-/* News Digest app.js — v4 (fixed: single declaration for markAllBtn)
-   - Read/Unread tracking (localStorage)
-   - Fresh-today badge
-   - Filters + search (lunr)
-   - Select highlights → Summarize into deeper_dives
-   - Cloudflare Worker integration for article text + YouTube/Shorts transcripts
+/* News Digest app.js — v5
+   Uses Worker /analyze for full LLM analysis (fallback to extractive bullets).
 */
 (function(){
-  // ⬇️ SET THIS to your deployed Worker URL (from Cloudflare → Workers)
-  // e.g., 'https://news-extract.YOURNAME.workers.dev'
-  const WORKER_BASE_URL = 'https://news-extract.mikayell9.workers.dev/';
+  // ⬇️ SET THIS to your deployed Worker URL
+  const WORKER_BASE_URL = 'news-extract.mikayell9.workers.dev';
 
   // ---------- DOM ----------
   const listHighlights = document.getElementById('list-highlights');
@@ -18,7 +13,7 @@
   const filterTheme  = document.getElementById('filter-theme');
   const searchInput  = document.getElementById('search');
   const filterUnread = document.getElementById('filter-unread');
-  const markAllBtn   = document.getElementById('mark-all-read'); // <— declared ONCE only
+  const markAllBtn   = document.getElementById('mark-all-read');
   const summarizeBtn = document.getElementById('summarize-selected');
 
   // ---------- STATE ----------
@@ -86,9 +81,7 @@
   }
 
   function escapeHtml(s){
-    return (s||'').replace(/[&<>"']/g, m => ({
-      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-    }[m]));
+    return (s||'').replace(/[&<>"']/g, function(m){ return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[m]; });
   }
 
   // ---------- RENDER ----------
@@ -123,24 +116,24 @@
     const checked    = selectedSet.has(i.id) ? 'checked' : '';
     const freshBadge = (!isRead && i._fresh) ? '<span class="badge fresh" title="new today">NEW</span>' : '';
 
-    return `<li class="${classes.join(' ')}" data-id="${i.id}">
+    return `<li class="\${classes.join(' ')}" data-id="\${i.id}">
       <div class="row-top" style="display:flex;justify-content:space-between;gap:8px;align-items:center;">
         <div class="select-col">
-          <input class="select-box" type="checkbox" data-id="${i.id}" ${checked} aria-label="Select for summary">
-          <a href="${i.url}" target="_blank" rel="noopener noreferrer" class="item-link">${escapeHtml(i.title)}</a>
+          <input class="select-box" type="checkbox" data-id="\${i.id}" \${checked} aria-label="Select for analysis">
+          <a href="\${i.url}" target="_blank" rel="noopener noreferrer" class="item-link">\${escapeHtml(i.title)}</a>
         </div>
         <div class="row-actions" style="display:flex;gap:6px;align-items:center;">
-          ${freshBadge}
-          <button class="read-toggle btn-ghost" data-id="${i.id}" aria-pressed="${isRead}">${isRead ? 'mark_unread' : 'mark_read'}</button>
+          \${freshBadge}
+          <button class="read-toggle btn-ghost" data-id="\${i.id}" aria-pressed="\${isRead}">\${isRead ? 'mark_unread' : 'mark_read'}</button>
         </div>
       </div>
-      <div class="meta">${escapeHtml(i.source)} · ${when}${themes ? ' · ' + escapeHtml(themes) : ''}</div>
-      ${i.summary ? `<div class="meta">${escapeHtml(i.summary)}</div>` : ''}
+      <div class="meta">\${escapeHtml(i.source)} · \${when}\${themes ? ' · ' + escapeHtml(themes) : ''}</div>
+      \${i.summary ? `<div class="meta">\${escapeHtml(i.summary)}</div>` : ''}
     </li>`;
   }
 
   // ---------- EVENTS ----------
-  listHighlights.addEventListener('click', (e) => {
+  listHighlights.addEventListener('click', function(e){
     // Toggle read/unread
     const toggle = e.target.closest('.read-toggle');
     if (toggle){
@@ -158,7 +151,7 @@
       if (id){ readSet.add(id); saveSet(READ_KEY, readSet); }
       return; // let navigation happen
     }
-    // Select for deeper dive
+    // Select for analysis
     const cb = e.target.closest('.select-box');
     if (cb){
       const id = cb.getAttribute('data-id');
@@ -174,8 +167,7 @@
   searchInput.addEventListener('input', render);
 
   if (markAllBtn){
-    markAllBtn.addEventListener('click', () => {
-      // Mark currently visible highlight items as read
+    markAllBtn.addEventListener('click', function(){
       const q = (searchInput.value || '').trim();
       let subset = items.slice();
       if (q && idx){
@@ -186,45 +178,47 @@
       const th  = filterTheme.value;
       if (src) subset = subset.filter(i=>i.source === src);
       if (th)  subset = subset.filter(i=>(i.themes||[]).includes(th));
-      subset.filter(i=>i.bucket==='highlight').forEach(i => readSet.add(i.id));
+      subset.filter(i=>i.bucket==='highlight').forEach(function(i){ readSet.add(i.id); });
       saveSet(READ_KEY, readSet);
       render();
     });
   }
 
   if (summarizeBtn){
-    summarizeBtn.addEventListener('click', async () => {
-      const selected = items.filter(i => selectedSet.has(i.id) && i.bucket === 'highlight');
+    summarizeBtn.addEventListener('click', async function(){
+      const selected = items.filter(function(i){ return selectedSet.has(i.id) && i.bucket === 'highlight'; });
       if (!selected.length){
         deeperContainer.innerHTML = '<p class="meta">No highlights selected. Tick the boxes, then click summarize_selected.</p>';
         return;
       }
-      deeperContainer.innerHTML = '<p class="meta">Summarizing…</p>';
+      deeperContainer.innerHTML = '<p class="meta">Analyzing…</p>';
 
       const sections = [];
       for (const it of selected){
-        const text = await fetchFullText(it);
-        const summary = summarizeText(text || it.summary || it.title || '', 6);
-        const bullets = summaryToBullets(summary, 6);
-        sections.push(renderDeepSection(it, bullets));
+        const analysis = await analyzeViaWorker(it);
+        if (analysis){
+          sections.push(renderAnalysisSection(it, analysis));
+        } else {
+          const text = await fetchFullText(it);
+          const summary = summarizeText(text || it.summary || it.title || '', 6);
+          const bullets = summaryToBullets(summary, 6);
+          sections.push(renderFallbackSection(it, bullets));
+        }
       }
       deeperContainer.innerHTML = sections.join('');
       listDeeper.style.display = 'none';
     });
   }
 
-  // ---------- Worker / fetchFullText ----------
-  function isYouTube(u){
-    return /(?:^|\.)youtube\.com|youtu\.be/.test(u);
-  }
+  // ---------- Worker helpers ----------
+  function isYouTube(u){ return /(?:^|\.)youtube\.com|youtu\.be/.test(u); }
   function youTubeId(u){
     try {
       const url = new URL(u);
       if (url.hostname.includes('youtu.be')) return url.pathname.slice(1);
       if (url.pathname.startsWith('/shorts/')) return url.pathname.split('/')[2];
       if (url.searchParams.get('v')) return url.searchParams.get('v');
-      const m = url.pathname.match(/\/embed\/([\w-]+)/);
-      if (m) return m[1];
+      const m = url.pathname.match(/\/embed\/([\w-]+)/); if (m) return m[1];
     } catch(e){}
     return null;
   }
@@ -235,32 +229,71 @@
         if (isYouTube(it.url)){
           const id = youTubeId(it.url);
           if (id){
-            const r = await fetch(`${WORKER_BASE_URL}/yt-transcript?id=${encodeURIComponent(id)}`);
+            const r = await fetch(\`\${WORKER_BASE_URL}/yt-transcript?id=\${encodeURIComponent(id)}\`);
             if (r.ok){
               const j = await r.json();
               if (j && j.text) return j.text;
             }
           }
         }
-        const r2 = await fetch(`${WORKER_BASE_URL}/extract?url=${encodeURIComponent(it.url)}`);
+        const r2 = await fetch(\`\${WORKER_BASE_URL}/extract?url=\${encodeURIComponent(it.url)}\`);
         if (r2.ok){
           const j2 = await r2.json();
           if (j2 && j2.text) return j2.text;
         }
       }
-    } catch(e){
-      // swallow & fallback
-    }
+    } catch(e){}
     return (it.summary || it.title || '');
   }
 
-  // ---------- Deeper-dive rendering ----------
-  function renderDeepSection(it, bullets){
+  async function analyzeViaWorker(it){
+    if (!WORKER_BASE_URL) return null;
+    try {
+      const id = isYouTube(it.url) ? youTubeId(it.url) : null;
+      const payload = id ? { yt_id: id, title: it.title, url: it.url, source: it.source, published: it.published }
+                         : { url: it.url, title: it.title, source: it.source, published: it.published };
+      const r = await fetch(\`\${WORKER_BASE_URL}/analyze\`, {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+      if (!r.ok) return null;
+      const j = await r.json();
+      return j.analysis || null;
+    } catch(e){
+      return null;
+    }
+  }
+
+  // ---------- Rendering of analysis ----------
+  function renderAnalysisSection(it, a){
     const dt = new Date(it.published);
     const when = dt.toLocaleDateString();
-    const header = `<h4>${escapeHtml(it.title)} <span class="meta">· ${escapeHtml(it.source)} · ${when}</span> — <a href="${it.url}" target="_blank" rel="noopener">open</a></h4>`;
-    const list = `<ul>${bullets.map(b=>`<li>${escapeHtml(b)}</li>`).join('')}</ul>`;
-    return `<div class="deep-section">${header}${list}</div>`;
+    const header = \`<h4>\${escapeHtml(it.title)} <span class="meta">· \${escapeHtml(it.source)} · \${when}</span> — <a href="\${it.url}" target="_blank" rel="noopener">open</a></h4>\`;
+    const tldr = a.tldr ? \`<p><strong>TL;DR:</strong> \${escapeHtml(a.tldr)}</p>\` : '';
+    const keys = Array.isArray(a.key_points) ? a.key_points.map(function(s){ return \`<li>\${escapeHtml(s)}</li>\`; }).join('') : '';
+    const pros = Array.isArray(a.pros) ? a.pros.map(function(s){ return \`<li>\${escapeHtml(s)}</li>\`; }).join('') : '';
+    const cons = Array.isArray(a.cons) ? a.cons.map(function(s){ return \`<li>\${escapeHtml(s)}</li>\`; }).join('') : '';
+    const quotes = Array.isArray(a.notable_quotes) ? a.notable_quotes.map(function(q){ return \`<li>“\${escapeHtml(q.quote || '')}” \${q.at ? \`<span class="meta">(\${escapeHtml(q.at)})</span>\`:''}</li>\`; }).join('') : '';
+    const actions = Array.isArray(a.actions) ? a.actions.map(function(s){ return \`<li>\${escapeHtml(s)}</li>\`; }).join('') : '';
+
+    return \`<div class="deep-section">
+      \${header}
+      \${tldr}
+      \${keys ? \`<h5>Key Points</h5><ul>\${keys}</ul>\` : ''}
+      \${pros ? \`<h5>Upsides</h5><ul>\${pros}</ul>\` : ''}
+      \${cons ? \`<h5>Risks / Caveats</h5><ul>\${cons}</ul>\` : ''}
+      \${quotes ? \`<h5>Notable Quotes</h5><ul>\${quotes}</ul>\` : ''}
+      \${actions ? \`<h5>Actions</h5><ul>\${actions}</ul>\` : ''}
+    </div>\`;
+  }
+
+  function renderFallbackSection(it, bullets){
+    const dt = new Date(it.published);
+    const when = dt.toLocaleDateString();
+    const header = \`<h4>\${escapeHtml(it.title)} <span class="meta">· \${escapeHtml(it.source)} · \${when}</span> — <a href="\${it.url}" target="_blank" rel="noopener">open</a></h4>\`;
+    const list = \`<ul>\${bullets.map(function(b){ return \`<li>\${escapeHtml(b)}</li>\`; }).join('')}</ul>\`;
+    return \`<div class="deep-section">\${header}<p class="meta">Fallback summary</p>\${list}</div>\`;
   }
 
   // ---------- Tiny extractive summarizer ----------
@@ -270,13 +303,14 @@
     return (text||'')
       .replace(/\s+/g,' ')
       .split(/(?<=[.!?])\s+(?=[A-Z0-9"'(])/)
-      .filter(s => s && s.trim().length > 20)
+      .filter(function(s){ return s && s.trim().length > 20; })
       .slice(0, 60);
   }
   function tokenizeWords(s){
     return s.toLowerCase().match(/[a-z0-9']+/g) || [];
   }
-  function summarizeText(text, maxSentences=6){
+  function summarizeText(text, maxSentences){
+    maxSentences = maxSentences || 6;
     const sentences = tokenizeSentences(text);
     if (sentences.length <= maxSentences) return sentences;
     const tf = Object.create(null);
@@ -284,11 +318,12 @@
     for (const words of sWords){
       for (const w of words){ if (!STOP.has(w)) tf[w] = (tf[w]||0)+1; }
     }
-    const scores = sWords.map(words => words.reduce((acc,w)=>acc + (STOP.has(w)?0:(tf[w]||0)), 0));
-    const idxs = scores.map((s,i)=>[s,i]).sort((a,b)=>b[0]-a[0]).slice(0, maxSentences).map(x=>x[1]).sort((a,b)=>a-b);
-    return idxs.map(i=>sentences[i]);
+    const scores = sWords.map(function(words){ return words.reduce(function(acc,w){ return acc + (STOP.has(w)?0:(tf[w]||0)); }, 0); });
+    const idxs = scores.map(function(s,i){ return [s,i]; }).sort(function(a,b){ return b[0]-a[0]; }).slice(0, maxSentences).map(function(x){ return x[1]; }).sort(function(a,b){ return a-b; });
+    return idxs.map(function(i){ return sentences[i]; });
   }
-  function summaryToBullets(sentences, maxBullets=6){
-    return (sentences||[]).slice(0, maxBullets).map(s=>s.trim());
+  function summaryToBullets(sentences, maxBullets){
+    maxBullets = maxBullets || 6;
+    return (sentences||[]).slice(0, maxBullets).map(function(s){ return s.trim(); });
   }
 })();
