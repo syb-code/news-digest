@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2f0d957e0403b86355b56912f3028e2b",
+      "title": "Stagflation Summer Is Here | Jonny Matthews On Economic Slowdown In U.S. Data",
+      "url": "https://www.youtube.com/watch?v=OfErgY9xWEg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-08T19:22:21+00:00",
+      "summary": "For 26% off to SuperMacro: https://billing.super-macro.com/b/14A5kDfMVeim3VM5ZW7bW06\n\nFor many Jonny Matthews, former PM at Brevan Howard and publisher of SuperMacro, has emphatically rejected the case for a recession in the U.S. Recent economic data is causing him to reevaluate…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "f3b6ca214ee6a5a5514b709b844a87d9",
       "title": "Stock Market 2025 — Crash Coming or Time to Buy?",
       "url": "https://www.youtube.com/watch?v=8oovOhJNAdg",
@@ -889,19 +902,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "458b939550e5f8e028a91374219353a1",
-      "title": "Performance vs. Perception: Hedge Funds on the Chopping Block",
-      "url": "https://www.youtube.com/shorts/DlsunGWGsIY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-22T11:15:03+00:00",
-      "summary": "Jon Caplis, CEO of PivotalPath, shares a jaw-dropping real-world story of a $2 billion hedge fund book that got shut down—despite strong performance. Why? A shift in asset allocation strategy and reliance on flawed commercial database models. This is what happens when perception…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-08T19:13:43.049620+00:00"
+  "generated_at": "2025-08-08T20:18:45.394328+00:00"
 }
