@@ -168,7 +168,7 @@ async function analyzeViaWorker(it){
           // force proper long analysis for YouTube
           force_whisper: true,
           prefer_whisper: true,
-          mode: 'full',          // 'preview' (~10–12 min) or 'full' (whole video)
+          mode: 'preview',          // 'preview' (~10–12 min) or 'full' (whole video)
           detail: 'long'         // hint for the LLM to be thorough
         }
       : {
