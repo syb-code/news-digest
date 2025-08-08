@@ -1,11 +1,10 @@
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>News Digest Terminal</title>
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css?v=2">
   <script src="https://unpkg.com/lunr/lunr.js"></script>
   <style>
     :root {
@@ -17,106 +16,46 @@
       --border: #30363d;
       --radius: 6px;
     }
-    * {
-      box-sizing: border-box;
-    }
-    body {
-      margin: 0;
-      font-family: 'Courier New', Courier, monospace;
-      background: var(--bg);
-      color: var(--text);
-    }
-    header {
-      padding: 1rem;
-      background: var(--panel);
-      border-bottom: 1px solid var(--border);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-    header h1 {
-      font-size: 1.2rem;
-      margin: 0;
-      color: var(--accent);
-    }
-    .controls {
-      display: flex;
-      gap: 0.5rem;
-    }
-    .controls input, .controls select {
-      padding: 0.25rem 0.5rem;
-      background: var(--bg);
-      border: 1px solid var(--border);
-      color: var(--accent);
-      font-family: inherit;
-      border-radius: var(--radius);
-    }
-    main {
-      display: grid;
-      grid-template-columns: 1fr 1fr 320px;
-      gap: 1rem;
-      padding: 1rem;
-    }
-    section, aside {
-      background: var(--panel);
-      border: 1px solid var(--border);
-      padding: 1rem;
-      border-radius: var(--radius);
-    }
-    h2, h3 {
-      margin-top: 0;
-      color: var(--accent);
-      font-size: 1rem;
-    }
-    ul.itemlist {
-      list-style: none;
-      padding: 0;
-      display: flex;
-      flex-direction: column;
-      gap: 0.5rem;
-    }
-    .item {
-      background: var(--bg);
-      border: 1px solid var(--border);
-      padding: 0.5rem;
-      border-radius: var(--radius);
-    }
-    .item a {
-      color: var(--text);
-      text-decoration: none;
-    }
-    .item a:hover {
-      text-decoration: underline;
-    }
-    .meta {
-      font-size: 0.8rem;
-      color: var(--muted);
-      margin-top: 0.25rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      color: var(--muted);
-      border-top: 1px solid var(--border);
-      background: var(--panel);
-    }
-    @media (max-width: 1024px) {
-      main {
-        grid-template-columns: 1fr;
-      }
-      aside {
-        order: -1;
-      }
-    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: 'Courier New', Courier, monospace; background: var(--bg); color: var(--text); }
+    header { padding: 1rem; background: var(--panel); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+    header h1 { font-size: 1.2rem; margin: 0; color: var(--accent); }
+    .controls { display: flex; gap: 0.5rem; align-items: center; }
+    .controls input, .controls select { padding: 0.25rem 0.5rem; background: var(--bg); border: 1px solid var(--border); color: var(--accent); font-family: inherit; border-radius: var(--radius); }
+    main { display: grid; grid-template-columns: 1fr 1fr 320px; gap: 1rem; padding: 1rem; }
+    section, aside { background: var(--panel); border: 1px solid var(--border); padding: 1rem; border-radius: var(--radius); }
+    h2, h3 { margin-top: 0; color: var(--accent); font-size: 1rem; }
+    ul.itemlist { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 0.5rem; }
+    .item { background: var(--bg); border: 1px solid var(--border); padding: 0.5rem; border-radius: var(--radius); }
+    .item a { color: var(--text); text-decoration: none; }
+    .item a:hover { text-decoration: underline; }
+    .meta { font-size: 0.8rem; color: var(--muted); margin-top: 0.25rem; }
+    footer { text-align: center; padding: 1rem; color: var(--muted); border-top: 1px solid var(--border); background: var(--panel); }
+    @media (max-width: 1024px) { main { grid-template-columns: 1fr; } aside { order: -1; } }
+
+    /* --- Read/Unread + Fresh styles --- */
+    .item.unread a { font-weight: 700; }
+    .item.unread::before { content: "•"; color: var(--accent); margin-right: 6px; }
+    .item.fresh:not(.read) { border-color: var(--accent); box-shadow: 0 0 0 1px rgba(88,166,255,.25) inset; }
+    .badge { display:inline-block; font-size:.7rem; padding:.1rem .35rem; border:1px solid var(--border); border-radius:4px; color: var(--muted); }
+    .badge.fresh { color:#0b1220; background: var(--accent); border-color: var(--accent); }
+    .btn-ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); padding:.25rem .5rem; border-radius: var(--radius); cursor: pointer; }
+    .btn-ghost:hover { color: var(--text); border-color: var(--accent); }
+    .ctrl-inline { display:flex; align-items:center; gap:.35rem; color: var(--muted); }
+    /* --------------------------------- */
   </style>
 </head>
 <body>
   <header>
-    <h1>news-digest:~$</h1>
+    <h1>news-digest:~$ <span style="color:#8b949e">v3</span></h1>
     <div class="controls">
       <select id="filter-source"><option value="">all_sources</option></select>
       <select id="filter-theme"><option value="">all_themes</option></select>
       <input id="search" placeholder="grep...">
+      <label class="ctrl-inline" title="Show only unread">
+        <input type="checkbox" id="filter-unread"> unread_only
+      </label>
+      <button id="mark-all-read" class="btn-ghost" title="Mark all visible as read">mark_all_read</button>
     </div>
   </header>
 
@@ -142,6 +81,6 @@
   </footer>
 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src="assets/js/app.js"></script>
+  <script src="assets/js/app.js?v=3"></script>
 </body>
 </html>
