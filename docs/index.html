@@ -20,8 +20,10 @@
     body { margin: 0; font-family: 'Courier New', Courier, monospace; background: var(--bg); color: var(--text); }
     header { padding: 1rem; background: var(--panel); border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
     header h1 { font-size: 1.2rem; margin: 0; color: var(--accent); }
-    .controls { display: flex; gap: 0.5rem; align-items: center; }
+    .controls { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
     .controls input, .controls select { padding: 0.25rem 0.5rem; background: var(--bg); border: 1px solid var(--border); color: var(--accent); font-family: inherit; border-radius: var(--radius); }
+    .btn-ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); padding:.25rem .5rem; border-radius: var(--radius); cursor: pointer; }
+    .btn-ghost:hover { color: var(--text); border-color: var(--accent); }
     main { display: grid; grid-template-columns: 1fr 1fr 320px; gap: 1rem; padding: 1rem; }
     section, aside { background: var(--panel); border: 1px solid var(--border); padding: 1rem; border-radius: var(--radius); }
     h2, h3 { margin-top: 0; color: var(--accent); font-size: 1rem; }
@@ -33,21 +35,24 @@
     footer { text-align: center; padding: 1rem; color: var(--muted); border-top: 1px solid var(--border); background: var(--panel); }
     @media (max-width: 1024px) { main { grid-template-columns: 1fr; } aside { order: -1; } }
 
-    /* --- Read/Unread + Fresh styles --- */
+    /* Read/Unread + Fresh */
     .item.unread a { font-weight: 700; }
     .item.unread::before { content: "•"; color: var(--accent); margin-right: 6px; }
     .item.fresh:not(.read) { border-color: var(--accent); box-shadow: 0 0 0 1px rgba(88,166,255,.25) inset; }
     .badge { display:inline-block; font-size:.7rem; padding:.1rem .35rem; border:1px solid var(--border); border-radius:4px; color: var(--muted); }
     .badge.fresh { color:#0b1220; background: var(--accent); border-color: var(--accent); }
-    .btn-ghost { background: transparent; color: var(--muted); border: 1px solid var(--border); padding:.25rem .5rem; border-radius: var(--radius); cursor: pointer; }
-    .btn-ghost:hover { color: var(--text); border-color: var(--accent); }
-    .ctrl-inline { display:flex; align-items:center; gap:.35rem; color: var(--muted); }
-    /* --------------------------------- */
+
+    /* Selection UI */
+    .select-col { display:flex; align-items:center; gap:.5rem; }
+    .select-box { accent-color: var(--accent); }
+    .deep-section { border:1px dashed var(--border); border-radius: var(--radius); padding: .75rem; margin-bottom: .75rem; background: var(--bg); }
+    .deep-section h4 { margin: 0 0 .5rem; color: var(--text); }
+    .deep-section ul { margin: .25rem 0 0 1rem; }
   </style>
 </head>
 <body>
   <header>
-    <h1>news-digest:~$ <span style="color:#8b949e">v3</span></h1>
+    <h1>news-digest:~$ <span style="color:#8b949e">v4</span></h1>
     <div class="controls">
       <select id="filter-source"><option value="">all_sources</option></select>
       <select id="filter-theme"><option value="">all_themes</option></select>
@@ -56,6 +61,7 @@
         <input type="checkbox" id="filter-unread"> unread_only
       </label>
       <button id="mark-all-read" class="btn-ghost" title="Mark all visible as read">mark_all_read</button>
+      <button id="summarize-selected" class="btn-ghost" title="Summarize selected highlights into deeper_dives">summarize_selected →</button>
     </div>
   </header>
 
@@ -66,7 +72,10 @@
     </section>
     <section>
       <h2>deeper_dives</h2>
-      <ul id="list-deeper" class="itemlist"></ul>
+      <div id="deeper-container">
+        <p class="meta">Select one or more highlights and click <em>summarize_selected</em>.</p>
+      </div>
+      <ul id="list-deeper" class="itemlist" style="display:none;"></ul>
     </section>
     <aside>
       <h3>tail -f twitter</h3>
@@ -81,6 +90,6 @@
   </footer>
 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  <script src="assets/js/app.js?v=3"></script>
+  <script src="assets/js/app.js?v=4"></script>
 </body>
 </html>
