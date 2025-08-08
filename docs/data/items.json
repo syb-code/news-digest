@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "39f78c6926f9c2e51516835bd2e94a0e",
+      "title": "Agents Building Agents and a New Commercial AI Music Model",
+      "url": "https://www.youtube.com/watch?v=NH7Eb7aTgfM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-08T20:37:41+00:00",
+      "summary": "AI music generation has just achieved a major commercial breakthrough with the launch of ElevenLabs' first music service, which claims to be fully licensed for commercial use. Unlike Suno and Udio which face major record label lawsuits, ElevenLabs partnered with independent righ…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2f0d957e0403b86355b56912f3028e2b",
       "title": "Stagflation Summer Is Here | Jonny Matthews On Economic Slowdown In U.S. Data",
       "url": "https://www.youtube.com/watch?v=OfErgY9xWEg",
@@ -612,21 +627,6 @@
       "source_type": "youtube",
       "published": "2025-07-29T18:01:00+00:00",
       "summary": "Eli Lilly may have just unlocked a $1 trillion opportunity. Their phase two results on a combo drug—zappatide (a GLP-1/GIP appetite suppressant) and bemigramab (a myostatin-inhibiting monoclonal antibody)—showed 10% body fat loss and 5% lean muscle gain. A drug that curbs appeti…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c53e0cb5b866e96e88ec03140ce9d267",
-      "title": "Will GPT 5 Kick *** at Coding?",
-      "url": "https://www.youtube.com/watch?v=n-3obA_KAXQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-07-29T15:18:01+00:00",
-      "summary": "GPT-5 rumors are becoming increasingly specific, with the latest reports suggesting that OpenAI's upcoming model excels dramatically at coding tasks, potentially challenging Anthropic's long-standing dominance in software engineering use cases. According to The Information, GPT-…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-08T20:18:45.394328+00:00"
+  "generated_at": "2025-08-08T21:15:20.660479+00:00"
 }
