@@ -1,1 +1,657 @@
-{"items": [], "generated_at": "2025-08-07T23:08:54.406225Z"}
+{
+  "items": [
+    {
+      "id": "84f4e4935d8ac20beb089a74889838f4",
+      "title": "GPT-5: Everything You Need to Know",
+      "url": "https://www.youtube.com/watch?v=5ccTjCSjaM4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-07T22:47:12+00:00",
+      "summary": "NLW covers the big announcement from OpenAI, and explores why the big use case that they're clearly driving at is coding. Sharing the first impressions from early testers, we cover the good and bad of the AI model that will become the default for 700 million people. \n\nBrought to…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "531449c51ade7b4c61e1962810523ee1",
+      "title": "Tim Cook Tells Apple Staff \"AI Is Ours To Grab\"",
+      "url": "https://www.youtube.com/watch?v=zEueN2izKgA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-07T11:09:06+00:00",
+      "summary": "In a rare company-wide meeting, Apple CEO Tim Cook delivered an hour-long pep talk declaring AI \"as big or bigger than the internet, cloud computing, smartphones and apps.\" Following disappointing earnings, Cook told staff \"Apple Must do this. Apple will do this. This is sort of…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ec0a319d015efeb0cac8ab76241d0ce8",
+      "title": "Is GPT-OSS Actually Any Good?",
+      "url": "https://www.youtube.com/watch?v=bf3sg3-loUg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-07T01:54:31+00:00",
+      "summary": "A day after OpenAI's surprise open source release, we dig into how the model is performing in the wild. Early reactions are mixed—while some praise its speed and efficiency, others describe strange behavior, safety-maxed responses, and limited general knowledge. Is it optimized …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "de814d941d63fcf0ddad4b9efffdccac",
+      "title": "94.9% Chance of Interest Rate Cut in Sept – The Fed is in Trouble!",
+      "url": "https://www.youtube.com/watch?v=oPa8EGD92Ws",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-06T16:01:36+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "84d542e35b18c042ff83edfb6caaae49",
+      "title": "3 Huge New AI Model Releases: GPT-OSS, Claude Opus 4.1, Genie 3",
+      "url": "https://www.youtube.com/watch?v=cKf_0d5YjNc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-06T00:36:11+00:00",
+      "summary": "Three major AI model drops in one day signal a shifting landscape at the frontier. We break down OpenAI’s unexpected open-source GPT-OSS, Anthropic’s powerful Claude Opus 4.1, and Google’s ambitious Genie 3 world model—exploring what each reveals about the strategies, capabiliti…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5a890cda64649ad4219034d2444704b9",
+      "title": "Deep Engagement: A Banking Approach to Classical Value Investing | Donald Zilkha",
+      "url": "https://www.youtube.com/watch?v=ARshXM-KG94",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-05T14:05:00+00:00",
+      "summary": "Donald Zilkha, founder of Zilkha Investments joins Other People’s Money to discuss how his deep-rooted DNA in banking and deal making has evolved into an investment strategy focused on deep research and engagement with management to affect change without upsetting the apple cart…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ff01bf25edbcd7025547ac5c5ff5ef82",
+      "title": "Welcome to the AI Economy",
+      "url": "https://www.youtube.com/watch?v=gBmIHD4Ywo0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-04T23:33:40+00:00",
+      "summary": "Meta, Microsoft, Google, and Amazon are pouring nearly $400B into AI infrastructure this year—more than the EU’s defense budget and over 1% of US GDP. This wave rivals the fiber boom of the '90s and now outpaces consumer spending in driving US growth. Wall Street’s tone has flip…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0579a4fa2bdd94b702141496eef5048b",
+      "title": "Trump’s Tariffs Are Back — What This Means for Investors",
+      "url": "https://www.youtube.com/watch?v=qcj4XA0BG0Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-04T16:00:53+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a4731b800d3eb53d66465c3839cec0e7",
+      "title": "Where AI Is Right Now: 15 Charts in 15 Minutes",
+      "url": "https://www.youtube.com/watch?v=Hxowzqw8Ryk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-03T17:34:46+00:00",
+      "summary": "300% quarter-over-quarter growth in agent deployments.\n104% increase in tokens served by Gemini between May and July.\n50% of economically valuable knowledge work tasks done as well or better by ChatGPT agent.  \n\nIn today’s episode, we take a rapid-fire tour through 15(ish) chart…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "493367ac4ddefa150520a5bcbbdd0de7",
+      "title": "Liquidity Cycle Will Turn In 2026, Argues Liquidity Godfather Michael Howell",
+      "url": "https://www.youtube.com/watch?v=FXboQtNgkcY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-03T16:29:55+00:00",
+      "summary": "This episode of Monetary Matters is brought to you by VanEck.\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nMichael Howell of Crossborder Capital returns to…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9cf407d242d940cf2c4fd5a937352824",
+      "title": "Can Apple Acquire Its Way to AI Success?",
+      "url": "https://www.youtube.com/watch?v=4Mh7X3yYX_k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-02T17:28:41+00:00",
+      "summary": "Apple's AI problems are getting worse even as iPhone sales jumped 14% to $44.6 billion this quarter, beating forecasts by 10%. The market only gave Apple a tiny 2% stock boost because investors now care more about AI than iPhone sales. Microsoft and Meta saw massive earnings bea…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "fef47a8c6f5ebd12fcecab09fa77519c",
+      "title": "The AI Model Wars Just Heated WAY Up",
+      "url": "https://www.youtube.com/watch?v=9l6lNTifSd0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-01T19:47:51+00:00",
+      "summary": "Today’s AI Daily Brief dives into the escalating model wars between OpenAI, Google, and Apple. OpenAI seems to have leaked GPT-5 and their open weights model temporarily, plus the surprise launch of Google’s Gemini 2.5 Deep Think, and why Apple is scrambling to catch up—with M&A…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ea3755995a68d31385613c0acd09a84f",
+      "title": "Jobs Report Disaster — Fed Forced to Cut Interest Rates",
+      "url": "https://www.youtube.com/watch?v=qDSifRPDZZA",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-01T19:04:32+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a2a6f11c96f60e46ed3b81209bf8b251",
+      "title": "AI Is Making Oodles Of Money",
+      "url": "https://www.youtube.com/watch?v=pqlEY8KAN5k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-01T14:08:35+00:00",
+      "summary": "The AI boom is translating into cold, hard cash and the numbers are absolutely staggering. Meta just crushed earnings with 22% revenue growth and $18B in quarterly income, announcing they're doubling infrastructure spending to $72B because AI features are directly driving their …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "05cedc9e4442c07287def98e1181582b",
+      "title": "Can AI Trade Stocks?",
+      "url": "https://www.youtube.com/watch?v=1AruMpgbKgI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-01T01:00:06+00:00",
+      "summary": "Can AI really pick winning stocks? In this episode, we dive into the wild world of AI trading—where agents like ChatGPT and Perplexity aren’t just talking about the market, they’re playing it. From bold bets to biotech wins, we explore the surprising ways AI is learning to inves…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "171b2580d60a590064c84634a35b8ff7",
+      "title": "“Globalization Hollowed Out the U.S. Economy \"",
+      "url": "https://www.youtube.com/shorts/A2q2yeYzooc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-31T19:00:18+00:00",
+      "summary": "Oren Cass, chief economist at American Compass, breaks down how globalization has backfired for America. Instead of mutual benefit, the U.S. traded its productive capacity for foreign-made goods, offering debt and assets in return. The result? A $1 trillion trade deficit, hollow…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b055a67d424b003e69cc7e2a5d9db45b",
+      "title": "Microsoft is Feeling the AGI",
+      "url": "https://www.youtube.com/watch?v=z3YJwU1rZW8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-07-31T18:11:11+00:00",
+      "summary": "Microsoft and OpenAI are reportedly nearing a deal to resolve their ongoing dispute over AGI definitions and profit-sharing agreements, with sources indicating the companies are moving toward a revenue-based metric rather than OpenAI's board having sole discretion to declare whe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4dcc91f0f804008562173302a36d9ac2",
+      "title": "AI Starting to Self-Improve Says Zuckerberg",
+      "url": "https://www.youtube.com/watch?v=s_jYHx5W9PA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-07-31T02:10:25+00:00",
+      "summary": "Mark Zuckerberg just published a major essay on Meta’s vision for “Personal Superintelligence,” claiming their AI is beginning to show signs of self-improvement. This follows Meta’s aggressive talent push, with billion-dollar offers to AI researchers from OpenAI and Anthropic—ma…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bcc35f69ceeba348a9d225f00a7bad0c",
+      "title": "AI is Eating the Economy | Jack & Max on Fed, GDP, Earnings & Tariffs",
+      "url": "https://www.youtube.com/watch?v=Q6sZSAkeW1c",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-31T00:52:51+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai.\nSign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nJack Farley & Max Wiethe break down today’s FOMC rate cut decision, this morning’s GDP report, recent tariff developments as major…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2eaf6c940bb3eef146cd7250dcdeaa60",
+      "title": "Fed Decision: No Interest Rate Cut — Here’s What Comes Next",
+      "url": "https://www.youtube.com/watch?v=D_lYpf-8JMw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-30T23:03:56+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "07c4ddbd35f0ecd4a932c4eca6be0e79",
+      "title": "Optimizing the Investment Business for Long-term Results | David Steinberg of Marlowe Partners",
+      "url": "https://www.youtube.com/watch?v=KU5L5YZvAgU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-30T13:53:03+00:00",
+      "summary": "David Steinberg, founder and CIO of Marlowe Partners joins Other People’s Money to discuss why he believes the operational and capital raising side of the investment business is the most important factor in determining success. He also discusses how he is navigating the capital …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f572e0ef9561b62efc158b452a2868bc",
+      "title": "Devs Weep as Anthropic Announces Claude Rate Limits",
+      "url": "https://www.youtube.com/watch?v=St20RoyohH4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-07-30T12:00:06+00:00",
+      "summary": "Anthropic introduces new weekly rate limits for Claude Code after some power users consumed tens of thousands in model usage on $200 monthly plans, showing how our appetite for AI intelligence is becoming unlimited. Microsoft launches a major Edge browser overhaul with AI Copilo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "96fa037c889910d95702ffb7f29963ab",
+      "title": "Is Global AI Cooperation Even Possible?",
+      "url": "https://www.youtube.com/watch?v=Xj9C1wlSprw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-07-30T00:00:36+00:00",
+      "summary": "We explore the escalating AI competition between the US and China following the release of both nations' AI action plans. We analyze China's response to America's AI strategy, including their proposal for a World AI Cooperation Organization headquartered in Shanghai, and examine…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "171f428d536e5e1c94518188ae7b84b5",
+      "title": "Eli Lilly Just Made Getting Ripped WAY Easier",
+      "url": "https://www.youtube.com/shorts/u7-OfDgAwr8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-29T18:01:00+00:00",
+      "summary": "Eli Lilly may have just unlocked a $1 trillion opportunity. Their phase two results on a combo drug—zappatide (a GLP-1/GIP appetite suppressant) and bemigramab (a myostatin-inhibiting monoclonal antibody)—showed 10% body fat loss and 5% lean muscle gain. A drug that curbs appeti…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "c53e0cb5b866e96e88ec03140ce9d267",
+      "title": "Will GPT 5 Kick *** at Coding?",
+      "url": "https://www.youtube.com/watch?v=n-3obA_KAXQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-07-29T15:18:01+00:00",
+      "summary": "GPT-5 rumors are becoming increasingly specific, with the latest reports suggesting that OpenAI's upcoming model excels dramatically at coding tasks, potentially challenging Anthropic's long-standing dominance in software engineering use cases. According to The Information, GPT-…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ea886f169749864b67c6f744c8d19080",
+      "title": "This Builds Wealth Faster Than Anything Else",
+      "url": "https://www.youtube.com/watch?v=P7-GYUmxU00",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-28T16:00:45+00:00",
+      "summary": "📘 My Book is Now on Amazon: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) when you open a free stock market account.\n\n⭐ Support Ou…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "c9785328add84bf64029ed4418028bea",
+      "title": "ETFs Are Fueling Market Volatility 🔥📈📉",
+      "url": "https://www.youtube.com/shorts/9uVE2FqVT_A",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-28T11:15:01+00:00",
+      "summary": "Today’s ETF market isn’t what it used to be. Leveraged long and short products—especially on names like MSTR—can act like amplifiers in the system. As Dean Curnutt explains, these instruments often buy at the same time, regardless of direction, contributing to increased volatili…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7dc3b9da2b049dc7f18e998752d4c7e2",
+      "title": "A US Sovereign Debt Crisis is Bullish for the Dollar | Brent Johnson",
+      "url": "https://www.youtube.com/watch?v=V2L7oDkgRRo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-27T13:00:06+00:00",
+      "summary": "This Monetary Matters episode is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nBrent Johnson, CEO of Santiago Capital, joins Mon…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b18ac87127a11a58e508c15fd6f04207",
+      "title": "Why the U.S. Needs Tariffs Now More Than Ever",
+      "url": "https://www.youtube.com/shorts/lAW-mVJSGKk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-27T12:30:49+00:00",
+      "summary": "Oren Cass argues that tariffs are a necessary tool to ensure fair trade and restore balance in global commerce. When other countries' policies distort trade, the U.S. must be willing to negotiate—and impose tariffs if no deal is reached. This isn't protectionism, it's economic r…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ccc146ead1ebe387d27c7c4a1fc15af6",
+      "title": "The US Dollar's Decline is Signaling No Sovereign Debt Crisis #macro #dollar",
+      "url": "https://www.youtube.com/shorts/mipUSfZ8Wp4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-26T16:46:21+00:00",
+      "summary": "Brent Johnson, CEO of Santiago Capital, joins Monetary Matters to discuss why he believes the US dollar failing to rally after its recent decline signals that the US is not in a true sovereign debt crisis.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b2347303ec55198443f9bf6c9fe048b7",
+      "title": "The $400M Robot Hiding in Plain Sight",
+      "url": "https://www.youtube.com/shorts/dbbtwPFiPYw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-26T14:01:02+00:00",
+      "summary": "Citrini of Citrini Research breaks down a CNBC segment on Vulcan robots—and spots a hidden opportunity. With Universal Robots (owned by Terraine) priced at $150K–$250K each and potentially 5,000 deployed, this could conservatively drive $400 million in new revenue for Odynodyne.…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2c6467efb3a04e00ba8724b12d17c2d5",
+      "title": "Home Prices Hit a Record High — Trump Proposes a Solution",
+      "url": "https://www.youtube.com/watch?v=pqhYiopqI-E",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-25T16:01:34+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "aa4579dd82cfbdb468671c651f5eb86f",
+      "title": "How Market Crashes Really Happen!",
+      "url": "https://www.youtube.com/shorts/UEr7viOENcs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-24T11:01:00+00:00",
+      "summary": "Dean Curnutt, founder of Macro Risk Advisors, breaks down what really causes market meltdowns: the shattering of consensus. Reflecting on The Big Short and the 2008 crisis, he explains how massive leverage built on flawed assumptions can lead to violent price adjustments when th…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "aba9031ce1d1d921402ee1547a54d978",
+      "title": "Navigating High-Yield Credit Markets In A High-Tariff World | Oaktree's Wayne Dahl",
+      "url": "https://www.youtube.com/watch?v=LfBn4FXFqrc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-23T16:11:23+00:00",
+      "summary": "Wayne Dahl, managing director and co-portfolio manager of Global Credit at Oaktree Capital Management, joins Monetary Matters to share his views on navigating the world of credit. With spreads low not just in high-yield, but also in bank loans, collateralized loan obligations (C…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ee73495ef0aa6e34a7876e1e60e3fc1f",
+      "title": "Silver Hits 14-Year High – Price Manipulation is Breaking Down",
+      "url": "https://www.youtube.com/watch?v=mFgBZUHALbc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-23T16:01:30+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "352e0ba90eb22f4e4fcc7d1816f95201",
+      "title": "SPACs Are Booming but Are We Back in Bubble Territory? | Louis Camhi of RLH Capital",
+      "url": "https://www.youtube.com/watch?v=dPEtiT5PEug",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-22T18:28:26+00:00",
+      "summary": "Louis Camhi, founder and CIO of RLH Capital returns to Other People’s Money to discuss how SPACs are making a comeback in 2025. Camhi discusses the differences between SPACs and DeSPACs, common misconceptions about SPAC risk, and how 2025’s boom in SPAC issuance is a far cry fro…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "458b939550e5f8e028a91374219353a1",
+      "title": "Performance vs. Perception: Hedge Funds on the Chopping Block",
+      "url": "https://www.youtube.com/shorts/DlsunGWGsIY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-07-22T11:15:03+00:00",
+      "summary": "Jon Caplis, CEO of PivotalPath, shares a jaw-dropping real-world story of a $2 billion hedge fund book that got shut down—despite strong performance. Why? A shift in asset allocation strategy and reliance on flawed commercial database models. This is what happens when perception…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f9fbcd166691bc0b8f81bda641755cf3",
+      "title": "Interest Rate Cuts Delayed — Fed Blames Tariff Inflation",
+      "url": "https://www.youtube.com/watch?v=OYMpx5tSbLc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-21T16:00:41+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "16186c63bef18d48eaf8806644f16425",
+      "title": "The Wealth Gap Is Tearing America in Two — And It’s About to Get Worse",
+      "url": "https://www.youtube.com/watch?v=FjBJlSL3JNQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-18T16:00:33+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6ffa9e1fdd76baab0e3f1124d9d63e78",
+      "title": "CPI Inflation Report: Tariff Inflation is Just Beginning",
+      "url": "https://www.youtube.com/watch?v=SHSy1OuACNE",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-15T19:00:22+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "cdbea7774d1c24b9cfc61a175219ea59",
+      "title": "Trump Retaliates Against BRICS Plan to Replace US Dollar",
+      "url": "https://www.youtube.com/watch?v=wsLPqTVMsTE",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-14T16:31:31+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e978f09a3489594484f104b76f3a20ae",
+      "title": "Why I’m Investing in GigaStar — Before It Goes Mainstream",
+      "url": "https://www.youtube.com/watch?v=uVoL-VYBZAM",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-09T16:01:02+00:00",
+      "summary": "You can invest in GigaStar here: https://wefunder.com/gigastar/ \n\nClearValue Tax and affiliates and related parties do not provide tax, legal or accounting advice. This material has been prepared for informational purposes only, and is not intended to provide, and should not be …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b6df2f75028d157a2c900ae49638cd35",
+      "title": "US Debt Crisis Worsens After Trump's Bill Passes",
+      "url": "https://www.youtube.com/watch?v=cqFh4JcvnHA",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-07T16:00:59+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "22f2d44c200591ed2bf9ed8d68479407",
+      "title": "Stock Market Soars to Record High After Blowout Jobs Report",
+      "url": "https://www.youtube.com/watch?v=sNxRQm63sjw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-03T19:14:21+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "aca2acd55fd20fadab64007e1b68220e",
+      "title": "Trump’s New Tax Cuts Officially Pass: Final Details Revealed",
+      "url": "https://www.youtube.com/watch?v=5zfAp4oMtBc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-06-30T16:30:09+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    }
+  ],
+  "generated_at": "2025-08-08T00:22:42.582004+00:00"
+}
