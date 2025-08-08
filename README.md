@@ -141,3 +141,4 @@ themes:
 ## Notes
 - This starter avoids paid APIs. For robust **X/Twitter ingestion into email**, consider a paid RSS service or X API.
 - For Spotify or other sources later, you can add modules to `scripts/fetch_and_build.py`.
+# SY
