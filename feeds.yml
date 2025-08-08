@@ -4,22 +4,12 @@ youtube:
   - handle: Monetary-Matters
 
 rss:
-  - label: Last Week in AI (Substack)
-    feed_url: https://lastweekin.ai/feed
-  - label: Lenny’s Newsletter (Substack)
-    feed_url: https://www.lennysnewsletter.com/feed
-  - label: Exploring ChatGPT (Substack)
-    feed_url: https://exploringchatgpt.substack.com/feed
-  - label: Excellent AI Prompts (Substack)
-    feed_url: https://excellentprompts.substack.com/feed
-  - label: a16z speedrun (Substack)
-    feed_url: https://speedrun.substack.com/feed
-  - label: Design + AI (Substack)
-    feed_url: https://designplusai.com/feed
-  - label: Deep Learning Weekly
-    feed_url: https://www.deeplearningweekly.com/feed
+  - label: Example Newsletter
+    feed_url: https://example.com/rss.xml
 
-websites: []
+websites:
+  - label: Example Site
+    feed_url: https://example.com/feed
 
 twitter_embeds:
   - handle: Polymarket
