@@ -1,43 +1,144 @@
+
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>News Digest</title>
+  <title>News Digest Terminal</title>
   <link rel="stylesheet" href="assets/css/style.css">
-  <!-- Lunr.js for client-side search -->
   <script src="https://unpkg.com/lunr/lunr.js"></script>
+  <style>
+    :root {
+      --bg: #0d1117;
+      --panel: #161b22;
+      --accent: #58a6ff;
+      --text: #c9d1d9;
+      --muted: #8b949e;
+      --border: #30363d;
+      --radius: 6px;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: 'Courier New', Courier, monospace;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      padding: 1rem;
+      background: var(--panel);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      font-size: 1.2rem;
+      margin: 0;
+      color: var(--accent);
+    }
+    .controls {
+      display: flex;
+      gap: 0.5rem;
+    }
+    .controls input, .controls select {
+      padding: 0.25rem 0.5rem;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      color: var(--accent);
+      font-family: inherit;
+      border-radius: var(--radius);
+    }
+    main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 320px;
+      gap: 1rem;
+      padding: 1rem;
+    }
+    section, aside {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      padding: 1rem;
+      border-radius: var(--radius);
+    }
+    h2, h3 {
+      margin-top: 0;
+      color: var(--accent);
+      font-size: 1rem;
+    }
+    ul.itemlist {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .item {
+      background: var(--bg);
+      border: 1px solid var(--border);
+      padding: 0.5rem;
+      border-radius: var(--radius);
+    }
+    .item a {
+      color: var(--text);
+      text-decoration: none;
+    }
+    .item a:hover {
+      text-decoration: underline;
+    }
+    .meta {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.25rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      background: var(--panel);
+    }
+    @media (max-width: 1024px) {
+      main {
+        grid-template-columns: 1fr;
+      }
+      aside {
+        order: -1;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header class="topbar">
-    <h1>News Digest</h1>
+  <header>
+    <h1>news-digest:~$</h1>
     <div class="controls">
-      <select id="filter-source"><option value="">All sources</option></select>
-      <select id="filter-theme"><option value="">All themes</option></select>
-      <input id="search" placeholder="Search titles & summaries">
+      <select id="filter-source"><option value="">all_sources</option></select>
+      <select id="filter-theme"><option value="">all_themes</option></select>
+      <input id="search" placeholder="grep...">
     </div>
   </header>
 
-  <main class="layout">
-    <section class="column">
-      <h2>Highlights</h2>
+  <main>
+    <section>
+      <h2>highlights</h2>
       <ul id="list-highlights" class="itemlist"></ul>
     </section>
-    <section class="column">
-      <h2>Deeper Dives</h2>
+    <section>
+      <h2>deeper_dives</h2>
       <ul id="list-deeper" class="itemlist"></ul>
     </section>
-
-    <aside class="sidebar">
-      <h3>On X (web only)</h3>
-      <a class="twitter-timeline" data-height="400" href="https://twitter.com/Polymarket?ref_src=twsrc%5Etfw">Tweets by Polymarket</a>
-      <a class="twitter-timeline" data-height="400" href="https://twitter.com/zerohedge?ref_src=twsrc%5Etfw">Tweets by zerohedge</a>
-      <a class="twitter-timeline" data-height="400" href="https://twitter.com/danielrpopper?ref_src=twsrc%5Etfw">Tweets by danielrpopper</a>
+    <aside>
+      <h3>tail -f twitter</h3>
+      <a class="twitter-timeline" data-height="400" href="https://twitter.com/Polymarket">Polymarket</a>
+      <a class="twitter-timeline" data-height="400" href="https://twitter.com/zerohedge">zerohedge</a>
+      <a class="twitter-timeline" data-height="400" href="https://twitter.com/danielrpopper">danielrpopper</a>
     </aside>
   </main>
 
-  <footer class="foot">
-    <small>Generated hourly. Email goes out daily at 7:30 AM PT.</small>
+  <footer>
+    <small>cron@digest ~ emailed at 7:30 AM PT</small>
   </footer>
 
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
