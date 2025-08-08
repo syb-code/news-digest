@@ -153,17 +153,44 @@
     }catch(e){}
     return (it.summary||it.title||"");
   }
-  async function analyzeViaWorker(it){
-    if(!WORKER_BASE_URL) return null;
-    try{
-      var id=isYouTube(it.url)?youTubeId(it.url):null;
-      var payload=id?{yt_id:id,title:it.title,url:it.url,source:it.source,published:it.published}:{url:it.url,title:it.title,source:it.source,published:it.published};
-      var r=await fetch(WORKER_BASE_URL+"/analyze",{method:"POST",headers:{"content-type":"application/json"},body:JSON.stringify(payload)});
-      if(!r.ok) return null;
-      var j=await r.json();
-      return j.analysis||null;
-    }catch(e){ return null; }
+async function analyzeViaWorker(it){
+  if (!WORKER_BASE_URL) return null;
+  try {
+    var id = isYouTube(it.url) ? youTubeId(it.url) : null;
+
+    var payload = id
+      ? {
+          yt_id: id,
+          title: it.title,
+          url: it.url,
+          source: it.source,
+          published: it.published,
+          // force proper long analysis for YouTube
+          force_whisper: true,
+          prefer_whisper: true,
+          mode: 'full',          // 'preview' (~10–12 min) or 'full' (whole video)
+          detail: 'long'         // hint for the LLM to be thorough
+        }
+      : {
+          url: it.url,
+          title: it.title,
+          source: it.source,
+          published: it.published,
+          detail: 'long'
+        };
+
+    var r = await fetch(WORKER_BASE_URL + '/analyze', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(payload)
+    });
+    if (!r.ok) return null;
+    var j = await r.json();
+    return j.analysis || null;
+  } catch(e){
+    return null;
   }
+}
 
   function renderAnalysisSection(it,a){
     var dt=new Date(it.published), when=dt.toLocaleDateString();
