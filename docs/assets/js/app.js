@@ -1,11 +1,10 @@
-/* News Digest app.js — v4 full file
+/* News Digest app.js — v4 (fixed: single declaration for markAllBtn)
    - Read/Unread tracking (localStorage)
    - Fresh-today badge
    - Filters + search (lunr)
    - Select highlights → Summarize into deeper_dives
    - Cloudflare Worker integration for article text + YouTube/Shorts transcripts
 */
-
 (function(){
   // ⬇️ SET THIS to your deployed Worker URL (from Cloudflare → Workers)
   // e.g., 'https://news-extract.YOURNAME.workers.dev'
@@ -13,13 +12,13 @@
 
   // ---------- DOM ----------
   const listHighlights = document.getElementById('list-highlights');
-  const deeperContainer = document.getElementById('deeper-container'); // the middle column content area
-  const listDeeper = document.getElementById('list-deeper');           // not used now (we render HTML blocks)
+  const deeperContainer = document.getElementById('deeper-container');
+  const listDeeper = document.getElementById('list-deeper');
   const filterSource = document.getElementById('filter-source');
   const filterTheme  = document.getElementById('filter-theme');
   const searchInput  = document.getElementById('search');
   const filterUnread = document.getElementById('filter-unread');
-  const markAllBtn   = document.getElementById('mark-all-read');
+  const markAllBtn   = document.getElementById('mark-all-read'); // <— declared ONCE only
   const summarizeBtn = document.getElementById('summarize-selected');
 
   // ---------- STATE ----------
@@ -204,9 +203,7 @@
 
       const sections = [];
       for (const it of selected){
-        // Get full text (article or YouTube transcript) via Worker if possible
         const text = await fetchFullText(it);
-        // Build concise bullets from transcript/article text
         const summary = summarizeText(text || it.summary || it.title || '', 6);
         const bullets = summaryToBullets(summary, 6);
         sections.push(renderDeepSection(it, bullets));
@@ -235,7 +232,6 @@
   async function fetchFullText(it){
     try {
       if (WORKER_BASE_URL){
-        // Try YouTube transcript first (works for videos & Shorts with captions)
         if (isYouTube(it.url)){
           const id = youTubeId(it.url);
           if (id){
@@ -246,7 +242,6 @@
             }
           }
         }
-        // Fallback to generic article extraction
         const r2 = await fetch(`${WORKER_BASE_URL}/extract?url=${encodeURIComponent(it.url)}`);
         if (r2.ok){
           const j2 = await r2.json();
@@ -276,7 +271,7 @@
       .replace(/\s+/g,' ')
       .split(/(?<=[.!?])\s+(?=[A-Z0-9"'(])/)
       .filter(s => s && s.trim().length > 20)
-      .slice(0, 60); // cap for speed
+      .slice(0, 60);
   }
   function tokenizeWords(s){
     return s.toLowerCase().match(/[a-z0-9']+/g) || [];
