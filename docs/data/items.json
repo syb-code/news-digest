@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "02ecda922d6d199ef92dcea9b144820b",
+      "title": "How ChatGPT accidentally became the fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
+      "url": "https://www.lennysnewsletter.com/p/inside-chatgpt-nick-turley",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-09T11:02:45+00:00",
+      "summary": "Listen now | 🎙️ OpenAI’s VP on GPT-5, the 10-day sprint that launched ChatGPT, why “maximally accelerated” beats perfection, and how a Google Form determined the $20/month price that everyone copied",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "707bf759569b87becae8af6d42aa7251",
       "title": "The Most Important AI Stories This Week",
       "url": "https://www.youtube.com/watch?v=9xeckiIycT0",
@@ -1132,21 +1147,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "aae7d4523f56019adaf5bf8dd971bbb6",
-      "title": "How this PM streamlines 60k-page FDA submissions and saves millions with Claude, Streamlit, and clever AI workflows | Prerna Kaul",
-      "url": "https://www.lennysnewsletter.com/p/how-this-pm-streamlines-fda-submissions-prerna-kaul",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-14T11:03:12+00:00",
-      "summary": "Learn how Prerna uses Claude + Streamlit to generate 60k-page FDA filings in minutes and apply the same AI power to craft influential messages to win over even the toughest stakeholders",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "744dd5ab39138bdee23c3c72297a971e",
       "title": "Last Week in AI #315 - Grok 4, Windsurf->Google, Comet",
       "url": "https://lastweekin.ai/p/last-week-in-ai-315-grok-4-windsurf",
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-09T10:16:27.757183+00:00"
+  "generated_at": "2025-08-09T11:13:28.015695+00:00"
 }
