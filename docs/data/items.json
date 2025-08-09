@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "c8080b897dcb1e919d5b335d6b1a39b1",
+      "title": "🧠 Community Wisdom: Social-media-active CPOs, AI expectations in interviews, salary asks, resume gaps, analytics adoption vs. automation revenue, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-social-media-active",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-09T16:04:23+00:00",
+      "summary": "Community Wisdom 243",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "89eace2666afdda3d39c606594f5a740",
       "title": "What People Love and Hate About GPT-5",
       "url": "https://www.youtube.com/watch?v=BPgqRZG-TxA",
@@ -1089,19 +1105,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9dc522a8f3f2b65198455a6805f83086",
-      "title": "Essential reading for product builders—part 1",
-      "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-b56",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-15T09:02:07+00:00",
-      "summary": "7 timeless essays you likely haven’t read but should",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "93ab654e877992cababbd9f76a82d7c3",
       "title": "Dynamic UX is the new standard",
       "url": "https://designplusai.com/p/0bc",
@@ -1801,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-09T15:15:56.537012+00:00"
+  "generated_at": "2025-08-09T16:19:15.108153+00:00"
 }
