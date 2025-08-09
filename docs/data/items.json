@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "707bf759569b87becae8af6d42aa7251",
+      "title": "The Most Important AI Stories This Week",
+      "url": "https://www.youtube.com/watch?v=9xeckiIycT0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-09T00:34:46+00:00",
+      "summary": "This week delivered explosive AI developments that will reshape the entire industry, from heated battles over web scraping to the harsh economics behind AI coding startups. We break down Cloudflare's aggressive confrontation with Perplexity over \"stealth crawling\" and what it me…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "39f78c6926f9c2e51516835bd2e94a0e",
       "title": "Agents Building Agents and a New Commercial AI Music Model",
       "url": "https://www.youtube.com/watch?v=NH7Eb7aTgfM",
@@ -582,21 +597,6 @@
       "source_type": "youtube",
       "published": "2025-07-30T12:00:06+00:00",
       "summary": "Anthropic introduces new weekly rate limits for Claude Code after some power users consumed tens of thousands in model usage on $200 monthly plans, showing how our appetite for AI intelligence is becoming unlimited. Microsoft launches a major Edge browser overhaul with AI Copilo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "96fa037c889910d95702ffb7f29963ab",
-      "title": "Is Global AI Cooperation Even Possible?",
-      "url": "https://www.youtube.com/watch?v=Xj9C1wlSprw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-07-30T00:00:36+00:00",
-      "summary": "We explore the escalating AI competition between the US and China following the release of both nations' AI action plans. We analyze China's response to America's AI strategy, including their proposal for a World AI Cooperation Organization headquartered in Shanghai, and examine…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-08T23:15:55.399532+00:00"
+  "generated_at": "2025-08-09T01:18:40.446074+00:00"
 }
