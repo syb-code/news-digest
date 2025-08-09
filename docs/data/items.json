@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "89eace2666afdda3d39c606594f5a740",
+      "title": "What People Love and Hate About GPT-5",
+      "url": "https://www.youtube.com/watch?v=BPgqRZG-TxA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-09T13:00:06+00:00",
+      "summary": "GPT-5 launched this week. Users poured in and quickly discovered some things they love, and somethings they really, really don't. NLW covers all the first reactions, good and bad, as well as giving his first takes on the model. \n\nBrought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "02ecda922d6d199ef92dcea9b144820b",
       "title": "How ChatGPT accidentally became the fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
       "url": "https://www.lennysnewsletter.com/p/inside-chatgpt-nick-turley",
@@ -23,21 +38,6 @@
       "source_type": "youtube",
       "published": "2025-08-09T00:34:46+00:00",
       "summary": "This week delivered explosive AI developments that will reshape the entire industry, from heated battles over web scraping to the harsh economics behind AI coding startups. We break down Cloudflare's aggressive confrontation with Perplexity over \"stealth crawling\" and what it me…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "89eace2666afdda3d39c606594f5a740",
-      "title": "What People Love and Hate About GPT-5",
-      "url": "https://www.youtube.com/watch?v=BPgqRZG-TxA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-08T23:22:36+00:00",
-      "summary": "GPT-5 launched this week. Users poured in and quickly discovered some things they love, and somethings they really, really don't. NLW covers all the first reactions, good and bad, as well as giving his first takes on the model. \n\nBrought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-09T12:32:09.340228+00:00"
+  "generated_at": "2025-08-09T13:26:25.495315+00:00"
 }
