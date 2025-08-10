@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "93eb0abcf613fa4f1290e011415b10d8",
+      "title": "10 Things That GPT-5 Changes",
+      "url": "https://www.youtube.com/watch?v=7WOGnw_Kq3U",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-10T16:04:01+00:00",
+      "summary": "This episode explores ten practical shifts in the AI landscape following GPT-5’s release — from the plateau of raw LLM capability gains to the rise of tool-driven performance, consumer-first design choices, and the explosion of “vibe coding.” NLW breaks down how these changes re…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c8080b897dcb1e919d5b335d6b1a39b1",
       "title": "🧠 Community Wisdom: Social-media-active CPOs, AI expectations in interviews, salary asks, resume gaps, analytics adoption vs. automation revenue, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-social-media-active",
@@ -551,21 +566,6 @@
       "source_type": "rss",
       "published": "2025-07-31T10:49:02+00:00",
       "summary": "This is the stack I use to turn rough ideas into polished, working products — fast.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4dcc91f0f804008562173302a36d9ac2",
-      "title": "AI Starting to Self-Improve Says Zuckerberg",
-      "url": "https://www.youtube.com/watch?v=s_jYHx5W9PA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-07-31T02:10:25+00:00",
-      "summary": "Mark Zuckerberg just published a major essay on Meta’s vision for “Personal Superintelligence,” claiming their AI is beginning to show signs of self-improvement. This follows Meta’s aggressive talent push, with billion-dollar offers to AI researchers from OpenAI and Anthropic—ma…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-10T15:16:03.334860+00:00"
+  "generated_at": "2025-08-10T16:19:23.609038+00:00"
 }
