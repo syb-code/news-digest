@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3b6fc382a7dcea00a2d350c2e65b7d0d",
+      "title": "How Amplitude built an internal AI tool that the whole company’s obsessed with (and how you can too) | Wade Chambers",
+      "url": "https://www.lennysnewsletter.com/p/how-amplitude-built-an-internal-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-11T11:03:56+00:00",
+      "summary": "Watch now | 🎙️ A custom-built AI assistant that searches across all company data sources, helping teams analyze feedback, create PRDs, and build prototypes in a single meeting",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "93eb0abcf613fa4f1290e011415b10d8",
       "title": "10 Things GPT-5 Changes",
       "url": "https://www.youtube.com/watch?v=7WOGnw_Kq3U",
@@ -1092,19 +1107,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3b5d5052fc7bea91a2c1f2184f6a5411",
-      "title": "Essential reading for product builders—part 1",
-      "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-15T13:03:13+00:00",
-      "summary": "7 timeless essays you likely haven’t read but should",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "93ab654e877992cababbd9f76a82d7c3",
       "title": "Dynamic UX is the new standard",
       "url": "https://designplusai.com/p/0bc",
@@ -1804,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-11T10:19:15.575906+00:00"
+  "generated_at": "2025-08-11T11:15:35.710778+00:00"
 }
