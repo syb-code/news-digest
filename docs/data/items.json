@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8c0a3f90982112b3d04892a7b960c4fa",
+      "title": "Who Thinks There's an AI Bubble?",
+      "url": "https://www.youtube.com/watch?v=MYKjgvMG_Yg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-12T22:24:16+00:00",
+      "summary": "Today's AI Daily Brief covers how GPT-5's launch changed Wall Street's thinking about the AI bubble debate and why old market comparisons might not work anymore. We look at Leopold Aschenbrenner, a 23-year-old former OpenAI researcher who raised $1.5 billion for his hedge fund \"…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e1542d1df0228662680a6677583f14f4",
       "title": "CPI Inflation Report: Interest Rate Cuts Triggered for Sept",
       "url": "https://www.youtube.com/watch?v=hnmDcH9j_Qc",
@@ -565,21 +580,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "05cedc9e4442c07287def98e1181582b",
-      "title": "Can AI Trade Stocks?",
-      "url": "https://www.youtube.com/watch?v=1AruMpgbKgI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-01T01:00:06+00:00",
-      "summary": "Can AI really pick winning stocks? In this episode, we dive into the wild world of AI trading—where agents like ChatGPT and Perplexity aren’t just talking about the market, they’re playing it. From bold bets to biotech wins, we explore the surprising ways AI is learning to inves…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-12T22:15:31.482860+00:00"
+  "generated_at": "2025-08-12T23:15:52.360704+00:00"
 }
