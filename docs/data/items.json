@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "e1542d1df0228662680a6677583f14f4",
+      "title": "CPI Inflation Report: Interest Rate Cuts Triggered for Sept",
+      "url": "https://www.youtube.com/watch?v=hnmDcH9j_Qc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-12T19:58:34+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "05099756192c087575aea165137658f5",
       "title": "The Case For Bonds | Leland Clemons",
       "url": "https://www.youtube.com/watch?v=qFlFb3id5Mo",
@@ -1307,19 +1320,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "22f2d44c200591ed2bf9ed8d68479407",
-      "title": "Stock Market Soars to Record High After Blowout Jobs Report",
-      "url": "https://www.youtube.com/watch?v=sNxRQm63sjw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-07-03T19:14:21+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "e1b5045e61bb003561212fc13fb10cb6",
       "title": "Figma is the new photoshop",
       "url": "https://designplusai.com/p/figma-is-the-new-photoshop",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-12T20:18:55.488940+00:00"
+  "generated_at": "2025-08-12T21:15:42.359473+00:00"
 }
