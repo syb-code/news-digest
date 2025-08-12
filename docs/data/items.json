@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "222b38dc28d1a597806e34a74dd07e89",
+      "title": "Essential reading for product builders—part 2",
+      "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-0aa",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-12T09:00:39+00:00",
+      "summary": "10 more timeless essays you probably haven’t read but should",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "84cc2c51678f010af37deeb18a9c37d1",
       "title": "LWiAI Podcast #219 - GPT 5, Opus 4.1, OpenAI's Open Source, Astrocade",
       "url": "https://lastweekin.ai/p/lwiai-podcast-219-gpt-5-opus-41-openais",
@@ -1077,22 +1090,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "63703e71ab514b41a45c2571a693122a",
-      "title": "The AI-native startup: 5 products, 7-figure revenue, 100% AI-written code | Dan Shipper (co-founder/CEO of Every)",
-      "url": "https://www.lennysnewsletter.com/p/inside-every-dan-shipper",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-17T11:02:52+00:00",
-      "summary": "Inside a 15-person company where AI agents write 100% of the code, how an “AI operations lead” makes everyone more productive with AI, and the counterintuitive future of work that’s already here",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "beae76c2ae4f95eac6cacacce41ab95c",
       "title": "Deep Learning Weekly: Issue 413",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-413",
@@ -1805,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-12T08:22:44.833766+00:00"
+  "generated_at": "2025-08-12T09:19:26.003474+00:00"
 }
