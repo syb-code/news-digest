@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "aef48d4100f33676e610fb4052dcd69e",
+      "title": "A ChatGPT Rebellion Wins Back 4o",
+      "url": "https://www.youtube.com/watch?v=-1WeL9T8ztU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-12T00:35:41+00:00",
+      "summary": "When OpenAI replaced GPT-4o with its new GPT-5 rollout, the backlash was immediate and fierce. Power users decried hidden model switching, casual users mourned the loss of a “friend,” and debates erupted over AI’s role as strategic collaborator versus sterile assistant. In this …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3b6fc382a7dcea00a2d350c2e65b7d0d",
       "title": "How Amplitude built an internal AI tool that the whole company’s obsessed with (and how you can too) | Wade Chambers",
       "url": "https://www.lennysnewsletter.com/p/how-amplitude-built-an-internal-ai",
@@ -512,22 +527,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b055a67d424b003e69cc7e2a5d9db45b",
-      "title": "Microsoft is Feeling the AGI",
-      "url": "https://www.youtube.com/watch?v=z3YJwU1rZW8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-07-31T18:11:11+00:00",
-      "summary": "Microsoft and OpenAI are reportedly nearing a deal to resolve their ongoing dispute over AGI definitions and profit-sharing agreements, with sources indicating the companies are moving toward a revenue-based metric rather than OpenAI's board having sole discretion to declare whe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1806,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-11T23:15:26.045754+00:00"
+  "generated_at": "2025-08-12T01:17:52.370813+00:00"
 }
