@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "270bc760137e71d905228b42c31664df",
+      "title": "Essential reading for product builders—part 2",
+      "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-1ac",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-12T12:45:21+00:00",
+      "summary": "10 more timeless essays you probably haven’t read but should",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "222b38dc28d1a597806e34a74dd07e89",
       "title": "Essential reading for product builders—part 2",
       "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-0aa",
@@ -1038,19 +1051,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dfde6836594fcb63f42de17be7625d95",
-      "title": "🧠 Community Wisdom: Strategies for getting buy-in from leadership, design books we keep going back to, customer discovery when you have no customers, how much documentation you need, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-strategies-for-getting",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-19T17:00:26+00:00",
-      "summary": "Community Wisdom 240",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-12T12:34:41.589328+00:00"
+  "generated_at": "2025-08-12T13:31:40.225079+00:00"
 }
