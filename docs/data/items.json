@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "84cc2c51678f010af37deeb18a9c37d1",
+      "title": "LWiAI Podcast #219 - GPT 5, Opus 4.1, OpenAI's Open Source, Astrocade",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-219-gpt-5-opus-41-openais",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-12T04:49:35+00:00",
+      "summary": "OpenAI’s GPT-5 is here, Anthropic Releases Claude Opus 4.1, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "aef48d4100f33676e610fb4052dcd69e",
       "title": "A ChatGPT Rebellion Wins Back 4o",
       "url": "https://www.youtube.com/watch?v=-1WeL9T8ztU",
@@ -1676,21 +1691,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "91c8d7bfdae2ad20d1bcf00de622a2aa",
-      "title": "Last Week in AI #309 - OpenAI keeps non-profit & launches Codex, AlphaEvolve, and more!",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-309-openai-keeps",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-05-18T01:59:34+00:00",
-      "summary": "OpenAI says non-profit will remain in control after backlash, OpenAI launches Codex, an AI coding agent, in ChatGPT, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "30c0dbe32011d96e600f89a45fda95fc",
       "title": "Deep Learning Weekly: Issue 404",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-404",
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-12T04:25:16.866132+00:00"
+  "generated_at": "2025-08-12T05:16:40.131201+00:00"
 }
