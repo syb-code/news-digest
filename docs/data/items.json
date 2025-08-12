@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "05099756192c087575aea165137658f5",
+      "title": "The Case For Bonds | Leland Clemons",
+      "url": "https://www.youtube.com/watch?v=qFlFb3id5Mo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-12T17:48:20+00:00",
+      "summary": "Leland Clemons, co-founder and CEO of BondBloxx, shares his view on where he thinks fixed-income ETFs are headed. He talks about the creation of the first private credit ETF (consisting of tranches of middle-market CLOs), the mechanics of ETF creation via authorized participants…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "270bc760137e71d905228b42c31664df",
       "title": "Essential reading for product builders—part 2",
       "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-1ac",
@@ -963,19 +976,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "352e0ba90eb22f4e4fcc7d1816f95201",
-      "title": "SPACs Are Booming but Are We Back in Bubble Territory? | Louis Camhi of RLH Capital",
-      "url": "https://www.youtube.com/watch?v=dPEtiT5PEug",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-22T18:28:26+00:00",
-      "summary": "Louis Camhi, founder and CIO of RLH Capital returns to Other People’s Money to discuss how SPACs are making a comeback in 2025. Camhi discusses the differences between SPACs and DeSPACs, common misconceptions about SPAC risk, and how 2025’s boom in SPAC issuance is a far cry fro…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "747d1b0a137c77db9518fde7ab9108ab",
       "title": "Build your personal AI copilot",
       "url": "https://www.lennysnewsletter.com/p/build-your-personal-ai-copilot",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-12T17:16:44.328040+00:00"
+  "generated_at": "2025-08-12T18:25:28.633801+00:00"
 }
