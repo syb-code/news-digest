@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "4ee56b1972e90e97a219cc1991038404",
+      "title": "Nvidia Pays Up to Access China Markets",
+      "url": "https://www.youtube.com/watch?v=MFQmVsZPRp8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-13T13:28:50+00:00",
+      "summary": "Today's AI Daily Brief Headlines covers breaking news about Nvidia and AMD agreeing to give the US government 15% of their Chinese chip sales revenue in exchange for export licenses. We break down Trump's direct negotiation with Jensen Huang that started at 20% and settled at 15…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8c0a3f90982112b3d04892a7b960c4fa",
       "title": "Who Thinks There's an AI Bubble?",
       "url": "https://www.youtube.com/watch?v=MYKjgvMG_Yg",
@@ -564,22 +580,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a2a6f11c96f60e46ed3b81209bf8b251",
-      "title": "AI Is Making Oodles Of Money",
-      "url": "https://www.youtube.com/watch?v=pqlEY8KAN5k",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-01T14:08:35+00:00",
-      "summary": "The AI boom is translating into cold, hard cash and the numbers are absolutely staggering. Meta just crushed earnings with 22% revenue growth and $18B in quarterly income, announcing they're doubling infrastructure spending to $72B because AI features are directly driving their …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-13T12:35:17.178365+00:00"
+  "generated_at": "2025-08-13T13:32:41.961229+00:00"
 }
