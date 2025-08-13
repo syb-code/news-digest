@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5c7e9f75b4c97f699e6998acbc5118c4",
+      "title": "Deep Learning Weekly: Issue 417",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-08-13T15:02:28+00:00",
+      "summary": "How to Build Reliable AI Agent Architecture for Production, How Much Power Will Frontier AI Training Demand in 2030, a paper on TextQuests: How Good are LLMs at Text-Based Video Games, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4ee56b1972e90e97a219cc1991038404",
       "title": "Nvidia Pays Up to Access China Markets",
       "url": "https://www.youtube.com/watch?v=MFQmVsZPRp8",
@@ -1787,20 +1802,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "53fd4c152dc29c1c483d436d15c8b7ca",
-      "title": "Deep Learning Weekly: Issue 397",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-397",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-03-26T15:02:08+00:00",
-      "summary": "Gemini 2.5, Scaling Supervision or: How We Learned to Stop Worrying and Love Bitbucket Pipelines, a paper on VGGT: Visual Geometry Grounded Transformer, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-13T14:17:25.627990+00:00"
+  "generated_at": "2025-08-13T15:15:17.540407+00:00"
 }
