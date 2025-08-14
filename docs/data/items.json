@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "b7d49b5ff29db20526f9236c7884721a",
+      "title": "Wall Street is Crushing Main Street with Jack & Max",
+      "url": "https://www.youtube.com/watch?v=J-wYtrv0hZE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-14T12:35:35+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe break down recent economic data on inflation and the labor market, the parade of positive earnings repor…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9a202f508edf609981a7f14e7ccb24c7",
       "title": "The one question that saves product careers | Matt LeMay",
       "url": "https://www.lennysnewsletter.com/p/the-one-question-that-saves-product-careers-matt-lemay",
@@ -946,19 +962,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "aba9031ce1d1d921402ee1547a54d978",
-      "title": "Navigating High-Yield Credit Markets In A High-Tariff World | Oaktree's Wayne Dahl",
-      "url": "https://www.youtube.com/watch?v=LfBn4FXFqrc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-23T16:11:23+00:00",
-      "summary": "Wayne Dahl, managing director and co-portfolio manager of Global Credit at Oaktree Capital Management, joins Monetary Matters to share his views on navigating the world of credit. With spreads low not just in high-yield, but also in bank loans, collateralized loan obligations (C…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "ee73495ef0aa6e34a7876e1e60e3fc1f",
       "title": "Silver Hits 14-Year High – Price Manipulation is Breaking Down",
       "url": "https://www.youtube.com/watch?v=mFgBZUHALbc",
@@ -1802,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-14T12:35:57.034249+00:00"
+  "generated_at": "2025-08-14T13:33:03.328992+00:00"
 }
