@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9a202f508edf609981a7f14e7ccb24c7",
+      "title": "The one question that saves product careers | Matt LeMay",
+      "url": "https://www.lennysnewsletter.com/p/the-one-question-that-saves-product-careers-matt-lemay",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-14T11:03:08+00:00",
+      "summary": "🎙️ Matt LeMay shares the truth about why product teams really get laid off, the “low-impact PM death spiral” that’s killing careers, and the one question every PM should ask themselves",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6bbb029dcf370161b0395b9de45b9e59",
       "title": "How To Prompt GPT-5",
       "url": "https://www.youtube.com/watch?v=bIm4O97wj9c",
@@ -1062,21 +1077,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bad39a4c0d533a1c9c6733370672e980",
-      "title": "Anthropic co-founder on quitting OpenAI, AGI predictions, $100M talent wars, 20% unemployment, and the nightmare scenarios keeping him up at night | Ben Mann",
-      "url": "https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-20T11:02:34+00:00",
-      "summary": "Ben Mann on why scaling laws are accelerating, how 20% unemployment is coming, why AI safety creates better products, and what he’s teaching his kids for an AI future",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-14T10:18:56.821749+00:00"
+  "generated_at": "2025-08-14T11:14:54.644729+00:00"
 }
