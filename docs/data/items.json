@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6bbb029dcf370161b0395b9de45b9e59",
+      "title": "How To Prompt GPT-5",
+      "url": "https://www.youtube.com/watch?v=bIm4O97wj9c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-13T23:35:31+00:00",
+      "summary": "Nearly a week into the GPT-5 era, users are still divided on its quality—but one thing’s clear: it’s more steerable than any previous model, and prompts make or break results. In this episode, we cut through the debate and share 11 practical prompting techniques you can use righ…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5c7e9f75b4c97f699e6998acbc5118c4",
       "title": "Deep Learning Weekly: Issue 417",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
@@ -561,21 +574,6 @@
       "source_type": "rss",
       "published": "2025-08-02T15:50:01+00:00",
       "summary": "Community Wisdom 242",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fef47a8c6f5ebd12fcecab09fa77519c",
-      "title": "The AI Model Wars Just Heated WAY Up",
-      "url": "https://www.youtube.com/watch?v=9l6lNTifSd0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-01T19:47:51+00:00",
-      "summary": "Today’s AI Daily Brief dives into the escalating model wars between OpenAI, Google, and Apple. OpenAI seems to have leaked GPT-5 and their open weights model temporarily, plus the surprise launch of Google’s Gemini 2.5 Deep Think, and why Apple is scrambling to catch up—with M&A…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-13T23:15:42.002117+00:00"
+  "generated_at": "2025-08-14T01:19:49.699964+00:00"
 }
