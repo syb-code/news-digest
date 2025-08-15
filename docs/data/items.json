@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "95947dd4c7351268511a1f01e8c08340",
+      "title": "Anthropic Gets a 1M Token Context Window",
+      "url": "https://www.youtube.com/watch?v=Uv0mJ3AhqPw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-15T00:57:26+00:00",
+      "summary": "Anthropic has just announced a massive upgrade that could change how developers work with AI code. Claude Sonnet 4 now supports up to 1 million tokens in a single request. This is a 5x increase that lets developers analyze entire codebases of up to 75,000 lines without breaking …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ddd196704dd98eda5327f2d0ecefcb0f",
       "title": "Housing Market 2025 — Inventory Surges, Buyers Still Can’t Afford Homes",
       "url": "https://www.youtube.com/watch?v=uiVsr8XzXAI",
@@ -594,22 +609,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9cf407d242d940cf2c4fd5a937352824",
-      "title": "Can Apple Acquire Its Way to AI Success?",
-      "url": "https://www.youtube.com/watch?v=4Mh7X3yYX_k",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-02T17:28:41+00:00",
-      "summary": "Apple's AI problems are getting worse even as iPhone sales jumped 14% to $44.6 billion this quarter, beating forecasts by 10%. The market only gave Apple a tiny 2% stock boost because investors now care more about AI than iPhone sales. Microsoft and Meta saw massive earnings bea…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1807,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-14T23:15:54.753023+00:00"
+  "generated_at": "2025-08-15T01:20:21.480481+00:00"
 }
