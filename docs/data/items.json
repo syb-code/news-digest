@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bf89a53223c0ce8529143c8dda448728",
+      "title": "Everyone's Using AI and No One Knows What To Think About It",
+      "url": "https://www.youtube.com/watch?v=P6mLtCr8jog",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-15T12:27:36+00:00",
+      "summary": "A new survey shows AI has reached a major turning point in America, with half of all adults now using at least one AI tool. Researchers from Northeastern University asked 21,000 people across all 50 states about their AI habits and found widespread adoption - every state except …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "95947dd4c7351268511a1f01e8c08340",
       "title": "Anthropic Gets a 1M Token Context Window",
       "url": "https://www.youtube.com/watch?v=Uv0mJ3AhqPw",
@@ -550,21 +565,6 @@
       "source_type": "rss",
       "published": "2025-08-04T11:03:31+00:00",
       "summary": "Watch now | 🎙️ How a founder and a VC used Claude to launch a physical business: from space planning to custom categorization systems to an AI concierge that matches players with games",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a4731b800d3eb53d66465c3839cec0e7",
-      "title": "Where AI Is Right Now: 15 Charts in 15 Minutes",
-      "url": "https://www.youtube.com/watch?v=Hxowzqw8Ryk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-03T17:34:46+00:00",
-      "summary": "300% quarter-over-quarter growth in agent deployments.\n104% increase in tokens served by Gemini between May and July.\n50% of economically valuable knowledge work tasks done as well or better by ChatGPT agent.  \n\nIn today’s episode, we take a rapid-fire tour through 15(ish) chart…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-15T12:33:09.716858+00:00"
+  "generated_at": "2025-08-15T13:27:56.204751+00:00"
 }
