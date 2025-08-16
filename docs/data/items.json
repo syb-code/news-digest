@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "00e79f03d116d9801ae857840169ba37",
+      "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-16T13:02:31+00:00",
+      "summary": "OpenAI Finally Launched GPT-5. Here's Everything You Need to Know, Anthropic Claude to ‘all three branches of government’ for $1, Student Coders Seek Work at Chipotle",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "904c17f64cd6016e63d038170cc6a8c1",
       "title": "The Claude Code Problem",
       "url": "https://www.youtube.com/watch?v=IjqRMB2eh4c",
@@ -1690,21 +1705,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7058d3cd81232df60aa6affc70ce1cb0",
-      "title": "LWiAI Podcast #209 - OpenAI non-profit, US diffusion rules, AlphaEvolve",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-209-openai-non-profit",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-05-19T07:30:01+00:00",
-      "summary": "Microsoft Moves to Protect Its Turf as OpenAI Turns Into Rival, Trump administration officially rescinds Biden’s AI diffusion rules, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "30c0dbe32011d96e600f89a45fda95fc",
       "title": "Deep Learning Weekly: Issue 404",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-404",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-16T12:31:10.720824+00:00"
+  "generated_at": "2025-08-16T13:24:26.715093+00:00"
 }
