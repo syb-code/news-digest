@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3b41211a595134c47087d27a3e92d4cc",
+      "title": "🧠 Community Wisdom: The changing product development process, trials vs. freemium, critiquing in a public setting, SEO in the AI era, defining scope when everyone’s a stakeholder, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-defining-scope-when",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-16T16:07:21+00:00",
+      "summary": "Community Wisdom 244",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "00e79f03d116d9801ae857840169ba37",
       "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
       "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
@@ -1094,21 +1109,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "004a5ebcc2dee83f4ae918ff58846f68",
-      "title": "Successfully coding with AI in large enterprises: Centralized rules, workflows for tech debt, and training your team | Zach Davis (Director of Engineering at LaunchDarkly)",
-      "url": "https://www.lennysnewsletter.com/p/successfully-coding-with-ai-in-large-enterprises",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-21T11:03:37+00:00",
-      "summary": "Listen now | 🎙️ Learn how to go beyond vibe coding inside larger companies to create scalable AI workflows that reduce tech debt, improve documentation, and maintain high standards in hiring",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-16T15:14:42.897591+00:00"
+  "generated_at": "2025-08-16T16:18:04.510441+00:00"
 }
