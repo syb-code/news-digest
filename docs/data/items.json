@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "904c17f64cd6016e63d038170cc6a8c1",
+      "title": "The Claude Code Problem",
+      "url": "https://www.youtube.com/watch?v=IjqRMB2eh4c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-16T00:53:23+00:00",
+      "summary": "This episode examines how pricing challenges in AI coding platforms like Cursor and Claude Code reveal a fundamental shift in the software industry. While these tools currently struggle with unsustainable economics - where users pay far less than actual compute costs - this mism…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bf89a53223c0ce8529143c8dda448728",
       "title": "Everyone's Using AI and No One Knows What To Think About It",
       "url": "https://www.youtube.com/watch?v=P6mLtCr8jog",
@@ -522,21 +537,6 @@
       "source_type": "rss",
       "published": "2025-08-05T09:00:57+00:00",
       "summary": "If you’re a premium subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ff01bf25edbcd7025547ac5c5ff5ef82",
-      "title": "Welcome to the AI Economy",
-      "url": "https://www.youtube.com/watch?v=gBmIHD4Ywo0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-04T23:33:40+00:00",
-      "summary": "Meta, Microsoft, Google, and Amazon are pouring nearly $400B into AI infrastructure this year—more than the EU’s defense budget and over 1% of US GDP. This wave rivals the fiber boom of the '90s and now outpaces consumer spending in driving US growth. Wall Street’s tone has flip…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-15T23:15:51.739503+00:00"
+  "generated_at": "2025-08-16T01:16:12.964175+00:00"
 }
