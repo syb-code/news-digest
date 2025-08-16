@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "75d4aacf6458899fa689858da827d6a4",
+      "title": "USG to Buy Stake in Intel?",
+      "url": "https://www.youtube.com/watch?v=3PJ83Cw0TvA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-16T16:28:31+00:00",
+      "summary": "The Trump administration is reportedly in talks to have the US government take a direct stake in Intel to save its struggling Ohio factory plans. Bloomberg sources say the deal aims to rescue Intel's promise to build the world's largest chip facility, which has stalled due to po…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3b41211a595134c47087d27a3e92d4cc",
       "title": "🧠 Community Wisdom: The changing product development process, trials vs. freemium, critiquing in a public setting, SEO in the AI era, defining scope when everyone’s a stakeholder, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-defining-scope-when",
@@ -508,21 +523,6 @@
       "source_type": "rss",
       "published": "2025-08-06T11:07:26+00:00",
       "summary": "After 100 hours of prompting AI for UI design, I discovered most designers are doing it completely wrong.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "84d542e35b18c042ff83edfb6caaae49",
-      "title": "3 Huge New AI Model Releases: GPT-OSS, Claude Opus 4.1, Genie 3",
-      "url": "https://www.youtube.com/watch?v=cKf_0d5YjNc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-06T00:36:11+00:00",
-      "summary": "Three major AI model drops in one day signal a shifting landscape at the frontier. We break down OpenAI’s unexpected open-source GPT-OSS, Anthropic’s powerful Claude Opus 4.1, and Google’s ambitious Genie 3 world model—exploring what each reveals about the strategies, capabiliti…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-16T16:18:04.510441+00:00"
+  "generated_at": "2025-08-16T17:13:07.974283+00:00"
 }
