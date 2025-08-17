@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "35a58db21aa214c475dd6040805b8193",
+      "title": "Why ChatGPT will be the next big growth channel (and how to capitalize on it) | Brian Balfour (Reforge)",
+      "url": "https://www.lennysnewsletter.com/p/why-chatgpt-will-be-the-next-big-growth-channel-brian-balfour",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-17T11:03:01+00:00",
+      "summary": "Listen now | 🎙️ Reforge founder Brian Balfour on why ChatGPT is on track to become the next major distribution platform, how to capitalize on it, and why companies that don’t play this game will lose",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "75d4aacf6458899fa689858da827d6a4",
       "title": "USG to Buy Stake in Intel?",
       "url": "https://www.youtube.com/watch?v=3PJ83Cw0TvA",
@@ -1079,21 +1092,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "10dfb02fb1aa0e67dc0be0b87203b6f6",
-      "title": "Build your personal AI copilot",
-      "url": "https://www.lennysnewsletter.com/p/build-your-personal-ai-copilot-bbe",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-22T09:02:24+00:00",
-      "summary": "A guide to using AI as a long-term thinking partner (including prompts to get you started)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f9fbcd166691bc0b8f81bda641755cf3",
       "title": "Interest Rate Cuts Delayed — Fed Blames Tariff Inflation",
       "url": "https://www.youtube.com/watch?v=OYMpx5tSbLc",
@@ -1806,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-17T10:16:04.361544+00:00"
+  "generated_at": "2025-08-17T11:12:48.034698+00:00"
 }
