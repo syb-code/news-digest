@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bdfceb5f00383e8d4f52e0b1a7935025",
+      "title": "Will AI Destroy or Reinvent Education",
+      "url": "https://www.youtube.com/watch?v=V85dSQ_nPOc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-17T11:10:54+00:00",
+      "summary": "Is AI going to destroy education—or completely reinvent it? With millions of students and parents preparing for back-to-school, the debate over AI in classrooms raises a deeper question: is the purpose of education to teach people how to think, or simply how to do economically p…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "35a58db21aa214c475dd6040805b8193",
       "title": "Why ChatGPT will be the next big growth channel (and how to capitalize on it) | Brian Balfour (Reforge)",
       "url": "https://www.lennysnewsletter.com/p/why-chatgpt-will-be-the-next-big-growth-channel-brian-balfour",
@@ -465,21 +480,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ec0a319d015efeb0cac8ab76241d0ce8",
-      "title": "Is GPT-OSS Actually Any Good?",
-      "url": "https://www.youtube.com/watch?v=bf3sg3-loUg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-07T01:54:31+00:00",
-      "summary": "A day after OpenAI's surprise open source release, we dig into how the model is performing in the wild. Early reactions are mixed—while some praise its speed and efficiency, others describe strange behavior, safety-maxed responses, and limited general knowledge. Is it optimized …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-17T11:12:48.034698+00:00"
+  "generated_at": "2025-08-17T12:31:53.047292+00:00"
 }
