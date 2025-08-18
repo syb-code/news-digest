@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ada3af407810e415fb7de1e4e04a61e5",
+      "title": "Using Veo 3 to create AI-generated music videos, like a Tiny Desk Concert with Notorious B.I.G. and Kurt Cobain",
+      "url": "https://www.lennysnewsletter.com/p/using-veo-3-to-create-ai-generated-music-videos",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-18T11:03:29+00:00",
+      "summary": "Watch now | 🎙️ How a venture capitalist uses AI tools to create nostalgic music videos, catalog personal collections, and manage finances, showing how these technologies enable creative expression for everyone",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bdfceb5f00383e8d4f52e0b1a7935025",
       "title": "Will AI Destroy or Reinvent Education?",
       "url": "https://www.youtube.com/watch?v=V85dSQ_nPOc",
@@ -1077,21 +1092,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "747d1b0a137c77db9518fde7ab9108ab",
-      "title": "Build your personal AI copilot",
-      "url": "https://www.lennysnewsletter.com/p/build-your-personal-ai-copilot",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-22T13:03:30+00:00",
-      "summary": "A guide to using AI as a long-term thinking partner (including prompts to get you started)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f9fbcd166691bc0b8f81bda641755cf3",
       "title": "Interest Rate Cuts Delayed — Fed Blames Tariff Inflation",
       "url": "https://www.youtube.com/watch?v=OYMpx5tSbLc",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-18T10:19:03.868499+00:00"
+  "generated_at": "2025-08-18T11:15:05.881448+00:00"
 }
