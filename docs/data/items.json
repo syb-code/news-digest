@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "fede5bd212462269e2656a1032a20b64",
+      "title": "Biggest Trade Shock Since Civil War | Trade Historian Douglas Irwin on Tariffs",
+      "url": "https://www.youtube.com/watch?v=dG-gI0vzAb4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-18T19:17:59+00:00",
+      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nRenowned trade historian Douglas Irwin joins J…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "8df2b169ce2f4a26316d5c69236a77a6",
       "title": "Term Loan for Small Businesses — Watch This BEFORE You Need One",
       "url": "https://www.youtube.com/watch?v=g1oMv_NmRdM",
@@ -1032,21 +1045,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "aa4579dd82cfbdb468671c651f5eb86f",
-      "title": "How Market Crashes Really Happen!",
-      "url": "https://www.youtube.com/shorts/UEr7viOENcs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-24T11:01:00+00:00",
-      "summary": "Dean Curnutt, founder of Macro Risk Advisors, breaks down what really causes market meltdowns: the shattering of consensus. Reflecting on The Big Short and the 2008 crisis, he explains how massive leverage built on flawed assumptions can lead to violent price adjustments when th…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ee73495ef0aa6e34a7876e1e60e3fc1f",
       "title": "Silver Hits 14-Year High – Price Manipulation is Breaking Down",
       "url": "https://www.youtube.com/watch?v=mFgBZUHALbc",
@@ -1802,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-18T19:14:18.738086+00:00"
+  "generated_at": "2025-08-18T20:17:15.787316+00:00"
 }
