@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "7fa3dfd91a28fc231a576489ec99088e",
+      "title": "Is AI \"Model Welfare\" a Thing?",
+      "url": "https://www.youtube.com/watch?v=N9DIS0GzeFs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-19T13:14:11+00:00",
+      "summary": "Anthropic just gave Claude the ability to end conversations it deems harmful or abusive, sparking a heated debate about whether AI models can actually experience distress. The company framed this as part of their \"AI welfare\" research, claiming Claude shows aversion to harmful c…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "97c4d0aa271469204f4a4a12fe908be7",
+      "title": "The Golden Age of Commodities Trading | This Hedge Fund Has Crushed the S&P 500",
+      "url": "https://www.youtube.com/watch?v=tvC2SaLBycY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-19T13:01:39+00:00",
+      "summary": "Tor Svelland, CIO and Founder of Svelland Capital, has annualized over 18.5% net of fees since inception in 2017 in their strategy that trades a combination of commodity futures, commodity linked equities, freight derivatives, energy transition linked companies, and electricity …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ebf9928cb54f70b499f26db7aa828af5",
       "title": "Why your AI product needs a different development lifecycle",
       "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different",
@@ -524,21 +552,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "84f4e4935d8ac20beb089a74889838f4",
-      "title": "GPT-5: Everything You Need to Know",
-      "url": "https://www.youtube.com/watch?v=5ccTjCSjaM4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-07T22:47:12+00:00",
-      "summary": "NLW covers the big announcement from OpenAI, and explores why the big use case that they're clearly driving at is coding. Sharing the first impressions from early testers, we cover the good and bad of the AI model that will become the default for 700 million people. \n\nBrought to…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0120a266405db13453105906ac5483f1",
       "title": "An exclusive inside look at GPT-5",
       "url": "https://www.lennysnewsletter.com/p/an-exclusive-inside-look-at-gpt-5",
@@ -1000,22 +1013,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b2347303ec55198443f9bf6c9fe048b7",
-      "title": "The $400M Robot Hiding in Plain Sight",
-      "url": "https://www.youtube.com/shorts/dbbtwPFiPYw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-26T14:01:02+00:00",
-      "summary": "Citrini of Citrini Research breaks down a CNBC segment on Vulcan robots—and spots a hidden opportunity. With Universal Robots (owned by Terraine) priced at $150K–$250K each and potentially 5,000 deployed, this could conservatively drive $400 million in new revenue for Odynodyne.…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1801,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-19T12:33:17.313626+00:00"
+  "generated_at": "2025-08-19T13:27:13.425707+00:00"
 }
