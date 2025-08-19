@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ebf9928cb54f70b499f26db7aa828af5",
+      "title": "Why your AI product needs a different development lifecycle",
+      "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-19T12:31:00+00:00",
+      "summary": "Introducing the Continuous Calibration/Continuous Development (CC/CD) framework",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4edb3d5dedce0016bab1864a6b777eaa",
       "title": "Why your AI product needs a different development lifecycle",
       "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different-2ea",
@@ -974,21 +989,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5140323ad5906a35404d3d4abb9cfcd4",
-      "title": "Pricing your AI product: Lessons from 400+ companies and 50 unicorns | Madhavan Ramanujam",
-      "url": "https://www.lennysnewsletter.com/p/pricing-and-scaling-your-ai-product-madhavan-ramanujam",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-27T11:02:31+00:00",
-      "summary": "Madhavan Ramanujam shares why 95% of AI startups get pricing wrong, a simple 2x2 framework that can 10x your pricing power, how to 4x deals with one negotiation trick, and more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ccc146ead1ebe387d27c7c4a1fc15af6",
       "title": "The US Dollar's Decline is Signaling No Sovereign Debt Crisis #macro #dollar",
       "url": "https://www.youtube.com/shorts/mipUSfZ8Wp4",
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-19T11:13:46.654355+00:00"
+  "generated_at": "2025-08-19T12:33:17.313626+00:00"
 }
