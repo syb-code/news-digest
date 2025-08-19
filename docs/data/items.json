@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4edb3d5dedce0016bab1864a6b777eaa",
+      "title": "Why your AI product needs a different development lifecycle",
+      "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different-2ea",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-19T09:01:15+00:00",
+      "summary": "Introducing the Continuous Calibration/Continuous Development (CC/CD) framework",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cada7cf72317f690ba79034e4f90768d",
       "title": "Everything Sam Altman Is Thinking About Right Now",
       "url": "https://www.youtube.com/watch?v=6tid36jSLww",
@@ -974,19 +989,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3a61cc2a72bae8338f35faf14c4cac4f",
-      "title": "🧠 Community Wisdom: Breaking into big tech as a junior PM, building onboarding flows with no-code tools, managing a cultural transition, internal vs. external hiring, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-breaking-into-big",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-26T17:01:11+00:00",
-      "summary": "Community Wisdom 241",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "ccc146ead1ebe387d27c7c4a1fc15af6",
       "title": "The US Dollar's Decline is Signaling No Sovereign Debt Crisis #macro #dollar",
       "url": "https://www.youtube.com/shorts/mipUSfZ8Wp4",
@@ -1799,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-19T08:21:40.084277+00:00"
+  "generated_at": "2025-08-19T09:17:07.570503+00:00"
 }
