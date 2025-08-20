@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "052e029bceffe773c18afc54589b206e",
+      "title": "The US Government Invests in Our AI Future (Sort Of)",
+      "url": "https://www.youtube.com/watch?v=xaP0R6VnOE4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-20T12:23:02+00:00",
+      "summary": "Today's AI Daily Brief covers major developments in government AI investment, energy infrastructure, and productivity tools. The Trump administration plans to acquire a 10% stake in Intel in exchange for CHIPS Act funding, while SoftBank invests $2 billion in the chipmaker and t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3e1eae482010c9a7a08f9239ca7ad02c",
       "title": "Can AI Predict the Future?",
       "url": "https://www.youtube.com/watch?v=8x28aCTKC_w",
@@ -503,21 +518,6 @@
       "source_type": "rss",
       "published": "2025-08-09T11:02:45+00:00",
       "summary": "Listen now | 🎙️ OpenAI’s VP on GPT-5, the 10-day sprint that launched ChatGPT, why “maximally accelerated” beats perfection, and how a Google Form determined the $20/month price that everyone copied",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "707bf759569b87becae8af6d42aa7251",
-      "title": "The Most Important AI Stories This Week",
-      "url": "https://www.youtube.com/watch?v=9xeckiIycT0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-09T00:34:46+00:00",
-      "summary": "This week delivered explosive AI developments that will reshape the entire industry, from heated battles over web scraping to the harsh economics behind AI coding startups. We break down Cloudflare's aggressive confrontation with Perplexity over \"stealth crawling\" and what it me…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-20T12:33:14.277711+00:00"
+  "generated_at": "2025-08-20T13:27:47.485801+00:00"
 }
