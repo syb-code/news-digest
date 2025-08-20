@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3f963b1337f3d4e56e3c421b99581033",
+      "title": "Deep Learning Weekly: Issue 418",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-418",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-08-20T15:03:06+00:00",
+      "summary": "Gemma 3 270M, Best Practices for Building Agentic AI Systems: What Actually Works in Production, a paper on GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "052e029bceffe773c18afc54589b206e",
       "title": "The US Government Invests in Our AI Future (Sort Of)",
       "url": "https://www.youtube.com/watch?v=xaP0R6VnOE4",
@@ -1783,20 +1798,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "3f9073ccb9b31f552d20008e17ffd263",
-      "title": "Deep Learning Weekly: Issue 398",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-398",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-04-02T15:02:06+00:00",
-      "summary": "4o Image Generation, LLM Hallucination Detection in App Development, a paper on Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-20T14:17:10.446282+00:00"
+  "generated_at": "2025-08-20T15:17:06.202250+00:00"
 }
