@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "397fc5f1d4167449c32beb81f21790eb",
+      "title": "US Debt Crisis — 2025 Is Even Worse Than 2024",
+      "url": "https://www.youtube.com/watch?v=PhPKdtad5BI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-20T16:00:41+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3f963b1337f3d4e56e3c421b99581033",
       "title": "Deep Learning Weekly: Issue 418",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-418",
@@ -1213,21 +1226,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cdbea7774d1c24b9cfc61a175219ea59",
-      "title": "Trump Retaliates Against BRICS Plan to Replace US Dollar",
-      "url": "https://www.youtube.com/watch?v=wsLPqTVMsTE",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-07-14T16:31:31+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fd2ec293710cc0e2a851de85cb266916",
       "title": "LWiAI Podcast #216 - Grok 4, Project Rainier, Kimi K2",
       "url": "https://lastweekin.ai/p/lwiai-podcast-216-grok-4-project",
@@ -1800,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-20T15:17:06.202250+00:00"
+  "generated_at": "2025-08-20T16:20:06.198345+00:00"
 }
