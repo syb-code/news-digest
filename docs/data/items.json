@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3e1eae482010c9a7a08f9239ca7ad02c",
+      "title": "Can AI Predict the Future?",
+      "url": "https://www.youtube.com/watch?v=8x28aCTKC_w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-20T00:57:40+00:00",
+      "summary": "A breakthrough benchmark is testing whether AI can actually predict future events by analyzing real-world data. Researchers at the University of Chicago just launched Profit Arena, a new AI evaluation platform that measures \"predictive intelligence\" by having models forecast out…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7fa3dfd91a28fc231a576489ec99088e",
       "title": "Is AI \"Model Welfare\" a Thing?",
       "url": "https://www.youtube.com/watch?v=N9DIS0GzeFs",
@@ -503,21 +518,6 @@
       "source_type": "youtube",
       "published": "2025-08-09T00:34:46+00:00",
       "summary": "This week delivered explosive AI developments that will reshape the entire industry, from heated battles over web scraping to the harsh economics behind AI coding startups. We break down Cloudflare's aggressive confrontation with Perplexity over \"stealth crawling\" and what it me…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "39f78c6926f9c2e51516835bd2e94a0e",
-      "title": "Agents Building Agents and a New Commercial AI Music Model",
-      "url": "https://www.youtube.com/watch?v=NH7Eb7aTgfM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-08T20:37:41+00:00",
-      "summary": "AI music generation has just achieved a major commercial breakthrough with the launch of ElevenLabs' first music service, which claims to be fully licensed for commercial use. Unlike Suno and Udio which face major record label lawsuits, ElevenLabs partnered with independent righ…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-19T23:14:45.540888+00:00"
+  "generated_at": "2025-08-20T01:14:35.184045+00:00"
 }
