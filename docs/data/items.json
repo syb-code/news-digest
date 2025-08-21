@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a992a3295b9ef5ec132da021c8de4caf",
+      "title": "What AI Builders Are Actually Excited About",
+      "url": "https://www.youtube.com/watch?v=zCDQeKe-XMg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-20T23:10:55+00:00",
+      "summary": "Are we really witnessing the \"most expensive flop in tech history\" with AI, or is something else going on? While headlines scream about failed AI pilots and wasted billions, there's a massive disconnect between public narratives and what's actually happening in AI development. T…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "397fc5f1d4167449c32beb81f21790eb",
       "title": "US Debt Crisis — 2025 Is Even Worse Than 2024",
       "url": "https://www.youtube.com/watch?v=PhPKdtad5BI",
@@ -520,21 +535,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "89eace2666afdda3d39c606594f5a740",
-      "title": "What People Love and Hate About GPT-5",
-      "url": "https://www.youtube.com/watch?v=BPgqRZG-TxA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-09T13:00:06+00:00",
-      "summary": "GPT-5 launched this week. Users poured in and quickly discovered some things they love, and somethings they really, really don't. NLW covers all the first reactions, good and bad, as well as giving his first takes on the model. \n\nBrought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-20T23:14:38.133821+00:00"
+  "generated_at": "2025-08-21T01:13:35.328086+00:00"
 }
