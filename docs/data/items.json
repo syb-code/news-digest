@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d1340ca07fb6eedcc42b515e0bacd726",
+      "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
+      "url": "https://www.lennysnewsletter.com/p/how-intercom-rose-from-the-ashes-eoghan-mccabe",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-21T11:03:16+00:00",
+      "summary": "Listen now | 🎙️ Intercom's founder on betting $100M on AI, turning around a stagnant business, why he fired 40% of employees, and why you can't compete without working as hard as \"the kids\"",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a992a3295b9ef5ec132da021c8de4caf",
       "title": "What AI Builders Are Actually Excited About",
       "url": "https://www.youtube.com/watch?v=zCDQeKe-XMg",
@@ -987,21 +1002,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "972dca74608df019107bc6a44e908da4",
-      "title": "How Block’s custom AI agent supercharges every team, from sales to data to engineering | Jackie Brosamer & Brad Axen",
-      "url": "https://www.lennysnewsletter.com/p/blocks-custom-ai-agent-goose",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-28T11:04:12+00:00",
-      "summary": "Watch now (47 mins) | 🎙️ How open-source AI agent Goose transforms everyday workflows: from analyzing messy data to building MCPs that connect to real-world applications, all while eliminating tedious tasks",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7dc3b9da2b049dc7f18e998752d4c7e2",
       "title": "A US Sovereign Debt Crisis is Bullish for the Dollar | Brent Johnson",
       "url": "https://www.youtube.com/watch?v=V2L7oDkgRRo",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-21T10:17:05.352429+00:00"
+  "generated_at": "2025-08-21T11:14:01.664713+00:00"
 }
