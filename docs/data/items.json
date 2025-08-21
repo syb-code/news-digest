@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a8563b5c4046159eb7f5f08be2920f87",
+      "title": "Deepseek Drops its Latest Model",
+      "url": "https://www.youtube.com/watch?v=QaVSX1ogMZo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-21T12:44:51+00:00",
+      "summary": "DeepSeek just released V3.1, and the response isn't what you'd expect. The Chinese AI company that shocked everyone earlier this year with their free reasoning model has quietly dropped an updated version, but early reactions mirror the lukewarm GPT-5 reception we saw recently. …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d1340ca07fb6eedcc42b515e0bacd726",
       "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
       "url": "https://www.lennysnewsletter.com/p/how-intercom-rose-from-the-ashes-eoghan-mccabe",
@@ -515,21 +530,6 @@
       "source_type": "rss",
       "published": "2025-08-11T11:03:56+00:00",
       "summary": "Watch now | 🎙️ A custom-built AI assistant that searches across all company data sources, helping teams analyze feedback, create PRDs, and build prototypes in a single meeting",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "93eb0abcf613fa4f1290e011415b10d8",
-      "title": "10 Things GPT-5 Changes",
-      "url": "https://www.youtube.com/watch?v=7WOGnw_Kq3U",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-10T16:04:01+00:00",
-      "summary": "This episode explores ten practical shifts in the AI landscape following GPT-5’s release — from the plateau of raw LLM capability gains to the rise of tool-driven performance, consumer-first design choices, and the explosion of “vibe coding.” NLW breaks down how these changes re…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-21T12:32:46.338990+00:00"
+  "generated_at": "2025-08-21T13:27:05.865773+00:00"
 }
