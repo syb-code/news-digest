@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "69fe6063420ac01ff37f6a6b3700ee31",
+      "title": "No, 95% of AI Pilots Aren't Failing",
+      "url": "https://www.youtube.com/watch?v=5QzqyrnL010",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-22T20:52:46+00:00",
+      "summary": "Today, we're breaking down the MIT study claiming 95% of generative AI pilots at companies are failing - and why this headline is misleading the entire market. The report, based on just 52 interviews and 150 survey responses, has been cited as a reason for AI stock crashes, but …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "68d36d7e64b8c35f16ff00453c4efad4",
+      "title": "The Fed Signals September Rate Cuts at Jackson Hole (Markets Rip) | Jack & Max",
+      "url": "https://www.youtube.com/watch?v=UsViaQYzTG4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-22T20:03:04+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe break down Jerome Powell’s Jackson Hole speech that markets have interpreted as signaling rate cuts are …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "695a475534d02454ef34bde5de9161a0",
       "title": "Stocks Rally on September Rate Cut — Jackson Hole Speech Changes Everything",
       "url": "https://www.youtube.com/watch?v=S5wwqMPvuLg",
@@ -449,22 +480,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ee56b1972e90e97a219cc1991038404",
-      "title": "Nvidia Pays Up to Access China Markets",
-      "url": "https://www.youtube.com/watch?v=MFQmVsZPRp8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-13T13:28:50+00:00",
-      "summary": "Today's AI Daily Brief Headlines covers breaking news about Nvidia and AMD agreeing to give the US government 15% of their Chinese chip sales revenue in exchange for export licenses. We break down Trump's direct negotiation with Jensen Huang that started at 20% and settled at 15…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1035,21 +1050,6 @@
       "source_type": "youtube",
       "published": "2025-07-27T12:30:49+00:00",
       "summary": "Oren Cass argues that tariffs are a necessary tool to ensure fair trade and restore balance in global commerce. When other countries' policies distort trade, the U.S. must be willing to negotiate—and impose tariffs if no deal is reached. This isn't protectionism, it's economic r…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ccc146ead1ebe387d27c7c4a1fc15af6",
-      "title": "The US Dollar's Decline is Signaling No Sovereign Debt Crisis #macro #dollar",
-      "url": "https://www.youtube.com/shorts/mipUSfZ8Wp4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-26T16:46:21+00:00",
-      "summary": "Brent Johnson, CEO of Santiago Capital, joins Monetary Matters to discuss why he believes the US dollar failing to rally after its recent decline signals that the US is not in a true sovereign debt crisis.",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-22T20:17:42.572299+00:00"
+  "generated_at": "2025-08-22T21:14:14.351538+00:00"
 }
