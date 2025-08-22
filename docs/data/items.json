@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0ee20b42ce9745b6ca8716935e35094a",
+      "title": "Meta's New AI Org Takes Shape",
+      "url": "https://www.youtube.com/watch?v=Qd5UMTJ8iIk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-22T15:34:25+00:00",
+      "summary": "Meta restructures its AI division amid Wall Street fears of an AI spending pullback. The company announced a new organizational structure for its SuperIntelligence Labs, dividing it into four groups led by executives like Alexander Wang and Nat Friedman, while implementing hirin…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "366d2b5a36e1db95a3dfc466445ed6b1",
       "title": "Is Pixel 10 the AI Phone iPhone Never Was?",
       "url": "https://www.youtube.com/watch?v=4ORs3RlvlVs",
@@ -437,21 +452,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8c0a3f90982112b3d04892a7b960c4fa",
-      "title": "Who Thinks There's an AI Bubble?",
-      "url": "https://www.youtube.com/watch?v=MYKjgvMG_Yg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-12T22:24:16+00:00",
-      "summary": "Today's AI Daily Brief covers how GPT-5's launch changed Wall Street's thinking about the AI bubble debate and why old market comparisons might not work anymore. We look at Leopold Aschenbrenner, a 23-year-old former OpenAI researcher who raised $1.5 billion for his hedge fund \"…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-22T15:16:20.148154+00:00"
+  "generated_at": "2025-08-22T16:19:10.703661+00:00"
 }
