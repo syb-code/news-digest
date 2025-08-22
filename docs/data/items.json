@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "366d2b5a36e1db95a3dfc466445ed6b1",
+      "title": "Is Pixel 10 the AI Phone iPhone Never Was?",
+      "url": "https://www.youtube.com/watch?v=4ORs3RlvlVs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-21T23:42:01+00:00",
+      "summary": "Google's Pixel 10 delivers the AI phone features Apple promised but never shipped. While Apple continues to struggle with delayed and underwhelming AI rollouts, Google has just launched its most AI-integrated smartphone yet, featuring Magic Q (an agentic assistant that searches …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a8563b5c4046159eb7f5f08be2920f87",
       "title": "Deepseek Drops its Latest Model",
       "url": "https://www.youtube.com/watch?v=QaVSX1ogMZo",
@@ -500,21 +515,6 @@
       "source_type": "rss",
       "published": "2025-08-12T04:49:35+00:00",
       "summary": "OpenAI’s GPT-5 is here, Anthropic Releases Claude Opus 4.1, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "aef48d4100f33676e610fb4052dcd69e",
-      "title": "A ChatGPT Rebellion Wins Back 4o",
-      "url": "https://www.youtube.com/watch?v=-1WeL9T8ztU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-12T00:35:41+00:00",
-      "summary": "When OpenAI replaced GPT-4o with its new GPT-5 rollout, the backlash was immediate and fierce. Power users decried hidden model switching, casual users mourned the loss of a “friend,” and debates erupted over AI’s role as strategic collaborator versus sterile assistant. In this …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-21T23:14:48.549516+00:00"
+  "generated_at": "2025-08-22T01:14:13.489159+00:00"
 }
