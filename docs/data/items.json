@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "id": "23b32fd1467f439ac380972827d6d32c",
-      "title": "Inside the little-known expert network quietly training every frontier AI model | Garrett Lord (Handshake CEO)",
-      "url": "https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-24T11:02:51+00:00",
-      "summary": "Listen now | 🎙️ Inside the hidden economy of AI training: how PhDs make $200/hour breaking ChatGPT, why frontier labs have unlimited demand for human expertise, and the accidental $100M pivot no one saw coming",
+      "id": "b2bc88ac281b921cac7dc6867d7cd6b3",
+      "title": "The Problem of AI That Seems Alive",
+      "url": "https://www.youtube.com/watch?v=BPm_FaaOuMQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-24T13:00:06+00:00",
+      "summary": "Mustafa Suleyman, CEO of AI at Microsoft and co-founder of DeepMind, has published a provocative essay warning about the dangers of “seemingly conscious AI.” On today’s Big Think edition of The AI Daily Brief, we explore his argument that as AI systems develop memory, personalit…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -16,13 +16,13 @@
       "bucket": "highlight"
     },
     {
-      "id": "b2bc88ac281b921cac7dc6867d7cd6b3",
-      "title": "The Problem of AI That Seems Alive",
-      "url": "https://www.youtube.com/watch?v=BPm_FaaOuMQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-24T10:23:57+00:00",
-      "summary": "Mustafa Suleyman, CEO of AI at Microsoft and co-founder of DeepMind, has published a provocative essay warning about the dangers of “seemingly conscious AI.” On today’s Big Think edition of The AI Daily Brief, we explore his argument that as AI systems develop memory, personalit…",
+      "id": "23b32fd1467f439ac380972827d6d32c",
+      "title": "Inside the little-known expert network quietly training every frontier AI model | Garrett Lord (Handshake CEO)",
+      "url": "https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-24T11:02:51+00:00",
+      "summary": "Listen now | 🎙️ Inside the hidden economy of AI training: how PhDs make $200/hour breaking ChatGPT, why frontier labs have unlimited demand for human expertise, and the accidental $100M pivot no one saw coming",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-24T12:29:49.371942+00:00"
+  "generated_at": "2025-08-24T13:22:50.359141+00:00"
 }
