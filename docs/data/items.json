@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "23b32fd1467f439ac380972827d6d32c",
+      "title": "Inside the little-known expert network quietly training every frontier AI model | Garrett Lord (Handshake CEO)",
+      "url": "https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-24T11:02:51+00:00",
+      "summary": "Listen now | 🎙️ Inside the hidden economy of AI training: how PhDs make $200/hour breaking ChatGPT, why frontier labs have unlimited demand for human expertise, and the accidental $100M pivot no one saw coming",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b2bc88ac281b921cac7dc6867d7cd6b3",
+      "title": "The Problem of AI That Seems Alive",
+      "url": "https://www.youtube.com/watch?v=BPm_FaaOuMQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-24T10:23:57+00:00",
+      "summary": "Mustafa Suleyman, CEO of AI at Microsoft and co-founder of DeepMind, has published a provocative essay warning about the dangers of “seemingly conscious AI.” On today’s Big Think edition of The AI Daily Brief, we explore his argument that as AI systems develop memory, personalit…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "588c6a9439e7fb7f6e961c76a11e45f6",
       "title": "🧠 Community Wisdom: Sales 101 for engineers, standing out in the interview process, career transition after product management, how to push back on unrealistic role expansion, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-sales-101-for-engineers",
@@ -469,19 +499,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6bbb029dcf370161b0395b9de45b9e59",
-      "title": "How To Prompt GPT-5",
-      "url": "https://www.youtube.com/watch?v=bIm4O97wj9c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-13T23:35:31+00:00",
-      "summary": "Nearly a week into the GPT-5 era, users are still divided on its quality—but one thing’s clear: it’s more steerable than any previous model, and prompts make or break results. In this episode, we cut through the debate and share 11 practical prompting techniques you can use righ…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5c7e9f75b4c97f699e6998acbc5118c4",
       "title": "Deep Learning Weekly: Issue 417",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
@@ -890,21 +907,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2606f78ea6f0468c44f443802e0f6930",
-      "title": "He saved OpenAI, invented the “Like” button, and built Google Maps: Bret Taylor on the future of careers, coding, agents, and more",
-      "url": "https://www.lennysnewsletter.com/p/he-saved-openai-bret-taylor",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-31T11:02:55+00:00",
-      "summary": "Bret Taylor shares why agents are eating software, how to know whose advice to listen to, and the one question Sheryl Sandberg taught him that changed his career trajectory",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-24T10:15:32.081124+00:00"
+  "generated_at": "2025-08-24T11:12:18.732638+00:00"
 }
