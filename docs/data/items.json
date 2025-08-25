@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "fd145d465f2a456b0ef51e80abdeb6ae",
+      "title": "Stocks, Gold, and Crypto: Fed Rate Cuts to Trigger Melt-Up",
+      "url": "https://www.youtube.com/watch?v=dF_HKh7CMMQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-25T16:01:00+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Crypto",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "48104c6a55648e9c46604de0a2f70cbe",
       "title": "How to digest 36 weekly podcasts without spending 36 hours listening | Tomasz Tunguz (Theory Ventures)",
       "url": "https://www.lennysnewsletter.com/p/how-to-digest-36-weekly-podcasts",
@@ -1168,19 +1184,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "16186c63bef18d48eaf8806644f16425",
-      "title": "The Wealth Gap Is Tearing America in Two — And It’s About to Get Worse",
-      "url": "https://www.youtube.com/watch?v=FjBJlSL3JNQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-07-18T16:00:33+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "b89b9cbd9254cf5d0cae3750802f579d",
       "title": "10 Rules for High-Converting Websites",
       "url": "https://designplusai.com/p/10-rules-for-high-converting-websites",
@@ -1796,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-25T15:17:14.768779+00:00"
+  "generated_at": "2025-08-25T16:19:54.030761+00:00"
 }
