@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "48104c6a55648e9c46604de0a2f70cbe",
+      "title": "How to digest 36 weekly podcasts without spending 36 hours listening | Tomasz Tunguz (Theory Ventures)",
+      "url": "https://www.lennysnewsletter.com/p/how-to-digest-36-weekly-podcasts",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-25T11:03:35+00:00",
+      "summary": "Watch now | 🎙️ Tomasz Tunguz shares his terminal-based system for transforming podcasts into actionable insights and blog-worthy content",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b2bc88ac281b921cac7dc6867d7cd6b3",
       "title": "The Problem of AI That Seems Alive",
       "url": "https://www.youtube.com/watch?v=BPm_FaaOuMQ",
@@ -836,21 +849,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1f37e41f2eacf52b802d808140787966",
-      "title": "🧠 Community Wisdom: Claire Vo’s AMA + building executive presence as a PM, creating a referral program, product designers losing their edge, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-claire-vos-ama-building",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-02T15:50:01+00:00",
-      "summary": "Community Wisdom 242",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1798,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-25T10:18:22.390096+00:00"
+  "generated_at": "2025-08-25T11:14:06.312248+00:00"
 }
