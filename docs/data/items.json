@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "cd09396e1ac01d586302833a07633f84",
+      "title": "Banks Are Hiding Credit Losses (Here’s How) | Bill Moreland of BankRegData",
+      "url": "https://www.youtube.com/watch?v=f93kKmD4jDU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-26T12:20:06+00:00",
+      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nBill Moreland of BankRegData joins Jack to sha…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "525d9c901a4a8b0a2216365d35c91787",
       "title": "Meta Teams Up with Midjourney",
       "url": "https://www.youtube.com/watch?v=whNIRzLsA7Y",
@@ -1056,21 +1069,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b18ac87127a11a58e508c15fd6f04207",
-      "title": "Why the U.S. Needs Tariffs Now More Than Ever",
-      "url": "https://www.youtube.com/shorts/lAW-mVJSGKk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-27T12:30:49+00:00",
-      "summary": "Oren Cass argues that tariffs are a necessary tool to ensure fair trade and restore balance in global commerce. When other countries' policies distort trade, the U.S. must be willing to negotiate—and impose tariffs if no deal is reached. This isn't protectionism, it's economic r…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "37601b3682ee31e03b496cdfefeb27a5",
       "title": "Increase conversion with dynamic UX",
       "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
@@ -1798,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-26T11:14:29.627233+00:00"
+  "generated_at": "2025-08-26T12:35:29.440972+00:00"
 }
