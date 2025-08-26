@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c4118d853c7dfe8e3c19f0cdf2fe8d7d",
+      "title": "Taking the week off + a newsletter cadence update",
+      "url": "https://www.lennysnewsletter.com/p/taking-the-week-off-a-newsletter",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-26T14:03:48+00:00",
+      "summary": "Back next week!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "7e6a5da443f0ff9cb2ff7ab4a64ccf0e",
       "title": "What AI Backlash at YouTube Can Teach Other Companies",
       "url": "https://www.youtube.com/watch?v=VSqIaRc0eRQ",
@@ -861,19 +874,6 @@
       "source_type": "rss",
       "published": "2025-08-03T12:48:40+00:00",
       "summary": "Founders love to say their product needs better UX.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "cccc9b74221612daa58e6e3ed667ac76",
-      "title": "Brian Chesky's secret mentor who died 9 times, started the Burning Man board, and built the world's first midlife wisdom school | Chip Conley (founder of MEA)",
-      "url": "https://www.lennysnewsletter.com/p/chip-conley",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-03T11:02:41+00:00",
-      "summary": "Listen now | 🎙️ Chip Conley on reporting to a boss 21 years younger, overcoming ageism in tech, navigating founder mode, and turning a near-death experience into the world's first midlife wisdom school",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-26T13:29:40.858295+00:00"
+  "generated_at": "2025-08-26T14:15:03.995558+00:00"
 }
