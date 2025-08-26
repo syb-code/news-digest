@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7e6a5da443f0ff9cb2ff7ab4a64ccf0e",
+      "title": "What AI Backlash at YouTube Can Teach Other Companies",
+      "url": "https://www.youtube.com/watch?v=VSqIaRc0eRQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-26T12:41:31+00:00",
+      "summary": "Today we're covering the AI backlash at YouTube and Netflix's new rules for generative AI in content production. YouTube creators are angry after the platform secretly used AI to enhance their videos without asking, making content look artificially sharpened and potentially trai…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cd09396e1ac01d586302833a07633f84",
       "title": "Banks Are Hiding Credit Losses (Here’s How) | Bill Moreland of BankRegData",
       "url": "https://www.youtube.com/watch?v=f93kKmD4jDU",
@@ -471,21 +486,6 @@
       "source_type": "youtube",
       "published": "2025-08-16T00:53:23+00:00",
       "summary": "This episode examines how pricing challenges in AI coding platforms like Cursor and Claude Code reveal a fundamental shift in the software industry. While these tools currently struggle with unsustainable economics - where users pay far less than actual compute costs - this mism…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bf89a53223c0ce8529143c8dda448728",
-      "title": "Everyone's Using AI and No One Knows What To Think About It",
-      "url": "https://www.youtube.com/watch?v=P6mLtCr8jog",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-15T12:27:36+00:00",
-      "summary": "A new survey shows AI has reached a major turning point in America, with half of all adults now using at least one AI tool. Researchers from Northeastern University asked 21,000 people across all 50 states about their AI habits and found widespread adoption - every state except …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-26T12:35:29.440972+00:00"
+  "generated_at": "2025-08-26T13:29:40.858295+00:00"
 }
