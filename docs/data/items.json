@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "525d9c901a4a8b0a2216365d35c91787",
+      "title": "Meta Teams Up with Midjourney",
+      "url": "https://www.youtube.com/watch?v=whNIRzLsA7Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-26T01:06:51+00:00",
+      "summary": "Today we're covering Meta's new partnership with Midjourney and other major AI industry moves. Meta announced they're licensing Midjourney's aesthetic technology for future products, plus signed a massive $10 billion cloud deal with Google to power their AI infrastructure needs.…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fd145d465f2a456b0ef51e80abdeb6ae",
       "title": "Rate Cuts Trigger Inflation — Stocks, Gold, and Crypto Melt-Up",
       "url": "https://www.youtube.com/watch?v=dF_HKh7CMMQ",
@@ -458,21 +473,6 @@
       "source_type": "youtube",
       "published": "2025-08-15T12:27:36+00:00",
       "summary": "A new survey shows AI has reached a major turning point in America, with half of all adults now using at least one AI tool. Researchers from Northeastern University asked 21,000 people across all 50 states about their AI habits and found widespread adoption - every state except …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "95947dd4c7351268511a1f01e8c08340",
-      "title": "Anthropic Gets a 1M Token Context Window",
-      "url": "https://www.youtube.com/watch?v=Uv0mJ3AhqPw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-15T00:57:26+00:00",
-      "summary": "Anthropic has just announced a massive upgrade that could change how developers work with AI code. Claude Sonnet 4 now supports up to 1 million tokens in a single request. This is a 5x increase that lets developers analyze entire codebases of up to 75,000 lines without breaking …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-26T01:15:18.599234+00:00"
+  "generated_at": "2025-08-26T03:06:41.060347+00:00"
 }
