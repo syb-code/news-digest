@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "04c45c8f618b29bc2704c88e5044239f",
+      "title": "How to Break into Hedge Funds, Survive, and Launch Your Own Fund",
+      "url": "https://www.youtube.com/watch?v=-DVsz7n_CqI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-27T13:00:00+00:00",
+      "summary": "This episode is brought to you by Fundamental Edge, the leaders in buyside analyst training. Reserve your spot in their new AI Academy: https://www.fundamentedge.com/ai-academy\n\nIn the online community of FinTwit it is extremely common for hedge funders to have anonymous profile…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ce494db2a65fb3eb8ce8cf474b5bfed4",
       "title": "The New Politics of AI",
       "url": "https://www.youtube.com/watch?v=vLGXHp19dvE",
@@ -1056,19 +1071,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7dc3b9da2b049dc7f18e998752d4c7e2",
-      "title": "A US Sovereign Debt Crisis is Bullish for the Dollar | Brent Johnson",
-      "url": "https://www.youtube.com/watch?v=V2L7oDkgRRo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-27T13:00:06+00:00",
-      "summary": "This Monetary Matters episode is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nBrent Johnson, CEO of Santiago Capital, joins Mon…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "37601b3682ee31e03b496cdfefeb27a5",
       "title": "Increase conversion with dynamic UX",
       "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
@@ -1796,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-27T12:32:39.195588+00:00"
+  "generated_at": "2025-08-27T13:25:23.163837+00:00"
 }
