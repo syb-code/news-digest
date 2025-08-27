@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ce494db2a65fb3eb8ce8cf474b5bfed4",
+      "title": "The New Politics of AI",
+      "url": "https://www.youtube.com/watch?v=vLGXHp19dvE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-27T01:45:31+00:00",
+      "summary": "Today's AI Daily Brief explores how artificial intelligence has become a major geopolitical issue, with the US government taking unprecedented steps in the semiconductor industry. We cover the US government's historic 10% stake in Intel through the CHIPS Act funding, NVIDIA's pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c4118d853c7dfe8e3c19f0cdf2fe8d7d",
       "title": "Taking the week off + a newsletter cadence update",
       "url": "https://www.lennysnewsletter.com/p/taking-the-week-off-a-newsletter",
@@ -484,21 +499,6 @@
       "source_type": "rss",
       "published": "2025-08-16T13:02:31+00:00",
       "summary": "OpenAI Finally Launched GPT-5. Here's Everything You Need to Know, Anthropic Claude to ‘all three branches of government’ for $1, Student Coders Seek Work at Chipotle",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "904c17f64cd6016e63d038170cc6a8c1",
-      "title": "The Claude Code Problem",
-      "url": "https://www.youtube.com/watch?v=IjqRMB2eh4c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-16T00:53:23+00:00",
-      "summary": "This episode examines how pricing challenges in AI coding platforms like Cursor and Claude Code reveal a fundamental shift in the software industry. While these tools currently struggle with unsustainable economics - where users pay far less than actual compute costs - this mism…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-27T01:12:55.781350+00:00"
+  "generated_at": "2025-08-27T02:59:49.803961+00:00"
 }
