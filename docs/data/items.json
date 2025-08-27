@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "33c4e895c8e3439ac212d0b8a9251329",
+      "title": "Last Week in AI #320 - Gemini 2.5 Flash Image, Lawsuit Settled, Claude for Chrome",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-320-gemini-25-flash",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-27T18:03:14+00:00",
+      "summary": "Google Gemini’s AI image model gets a ‘bananas’ upgrade, Anthropic Settles High-Profile AI Copyright Lawsuit Brought by Book Authors, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ca368c71f00331a0b7a94d7cd303a0b7",
+      "title": "Car Market Update 2025 – Get Ready for Higher Prices from Tariffs",
+      "url": "https://www.youtube.com/watch?v=8xT8tUUJqUM",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-27T18:01:33+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "fffb2135638c5d6940b77a26332d8263",
       "title": "Google Gemini to Power Apple Siri (Thank Goodness)",
       "url": "https://www.youtube.com/watch?v=wCIWhA9xJt4",
@@ -1155,21 +1183,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f9fbcd166691bc0b8f81bda641755cf3",
-      "title": "Interest Rate Cuts Delayed — Fed Blames Tariff Inflation",
-      "url": "https://www.youtube.com/watch?v=OYMpx5tSbLc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-07-21T16:00:41+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1680,21 +1693,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "150578aa7a3afe5c7e5dc3dfba6fd3a2",
-      "title": "Last Week in AI #310 - Google's AI Mode, Veo 3, and much more, Claude 4",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-310-googles-ai-mode",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-05-26T08:58:49+00:00",
-      "summary": "A million things announced at Google I/O 2025, plus new models from Anthropic",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9862551069eadfbb5327fbd997309814",
       "title": "Deep Learning Weekly: Issue 405",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-405",
@@ -1798,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-27T17:13:38.647939+00:00"
+  "generated_at": "2025-08-27T18:21:57.921742+00:00"
 }
