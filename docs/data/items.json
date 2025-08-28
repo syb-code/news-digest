@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "1c941898a48f65177e1efb27878922d8",
+      "title": "Deep Learning Weekly: Issue 419",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-419",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-08-28T15:00:57+00:00",
+      "summary": "Anthropic launches Claude for Chrome in limited beta, How a 20-Year-Old Algorithm Can Help Us Understand Transformer Embeddings, a paper on: Fine-tuning LLM Agents without Fine-tuning LLMs, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "4faf570ff42d6e588d85cb6503cfef0c",
       "title": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
       "url": "https://www.lennysnewsletter.com/p/how-80000-companies-build-with-ai-asha-sharma",
@@ -1779,22 +1792,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "07e11b2573b1f71fcbcae5b82fc7c943",
-      "title": "Deep Learning Weekly: Issue 399",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-399",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-04-09T15:03:04+00:00",
-      "summary": "The 2025 AI Index Report, RL backlog: OpenAI's many RLs, clarifying distillation and latent reasoning, a paper on Do LLMs Estimate Uncertainty Well in Instruction-Following?, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-28T14:15:44.827521+00:00"
+  "generated_at": "2025-08-28T15:16:14.617143+00:00"
 }
