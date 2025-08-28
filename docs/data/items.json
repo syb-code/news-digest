@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4faf570ff42d6e588d85cb6503cfef0c",
+      "title": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
+      "url": "https://www.lennysnewsletter.com/p/how-80000-companies-build-with-ai-asha-sharma",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-28T11:03:31+00:00",
+      "summary": "Listen now | 🎙️ The Microsoft AI exec overseeing 15,000 enterprise customers on why products are becoming living organisms, agents are dissolving org charts, and generalists are having a renaissance",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f85755a596b57f8bcac3d56b05f95c0d",
       "title": "7 AI Use Cases Unlocked By Nano Banana",
       "url": "https://www.youtube.com/watch?v=-6NKS3eJAYE",
@@ -879,21 +894,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f6c4fb722c721e94d8ef58ede8f92bd9",
-      "title": "How a VC and a tech founder used AI to launch a brick-and-mortar business in their spare time | Andrew Mason (CEO of Descript) and Nabeel Hyatt (General Partner at Spark Capital)",
-      "url": "https://www.lennysnewsletter.com/p/how-a-vc-and-a-tech-founder-used",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-04T11:03:31+00:00",
-      "summary": "Watch now | 🎙️ How a founder and a VC used Claude to launch a physical business: from space planning to custom categorization systems to an AI concierge that matches players with games",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-28T10:16:49.671468+00:00"
+  "generated_at": "2025-08-28T11:12:59.518418+00:00"
 }
