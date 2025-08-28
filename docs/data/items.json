@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f85755a596b57f8bcac3d56b05f95c0d",
+      "title": "7 AI Use Cases Unlocked By Nano Banana",
+      "url": "https://www.youtube.com/watch?v=-6NKS3eJAYE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-28T01:11:11+00:00",
+      "summary": "Today's AI Daily Brief covers the groundbreaking release of Google's Nano Banana image generation model, which has taken the AI community by storm over the past few weeks. Google officially revealed that Nano Banana is actually Gemini 2.5 Flash, now available as a free preview i…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "33c4e895c8e3439ac212d0b8a9251329",
       "title": "Last Week in AI #320 - Gemini 2.5 Flash Image, Lawsuit Settled, Claude for Chrome",
       "url": "https://lastweekin.ai/p/last-week-in-ai-320-gemini-25-flash",
@@ -484,21 +499,6 @@
       "source_type": "rss",
       "published": "2025-08-18T11:03:29+00:00",
       "summary": "Watch now | 🎙️ How a venture capitalist uses AI tools to create nostalgic music videos, catalog personal collections, and manage finances, showing how these technologies enable creative expression for everyone",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bdfceb5f00383e8d4f52e0b1a7935025",
-      "title": "Will AI Destroy or Reinvent Education?",
-      "url": "https://www.youtube.com/watch?v=V85dSQ_nPOc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-17T13:00:06+00:00",
-      "summary": "Is AI going to destroy education—or completely reinvent it? With millions of students and parents preparing for back-to-school, the debate over AI in classrooms raises a deeper question: is the purpose of education to teach people how to think, or simply how to do economically p…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-28T01:12:16.263249+00:00"
+  "generated_at": "2025-08-28T02:59:40.255851+00:00"
 }
