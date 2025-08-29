@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bbc75f5e59e22c9ef55526bcae2dbd51",
+      "title": "The Most Used GenAI Tools",
+      "url": "https://www.youtube.com/watch?v=KrDCadK60yM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-29T14:48:16+00:00",
+      "summary": "On this episode, Andreessen Horowitz’s Top 100 Gen AI Consumer Apps report highlights big shifts in just six months. Google scored four web entries with Gemini at #2, Grok rocketed to #4 with 20 million mobile users, coding tools like Lovable and Replit cemented their dominance,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1c941898a48f65177e1efb27878922d8",
       "title": "Deep Learning Weekly: Issue 419",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-419",
@@ -471,21 +486,6 @@
       "source_type": "rss",
       "published": "2025-08-19T09:01:15+00:00",
       "summary": "Introducing the Continuous Calibration/Continuous Development (CC/CD) framework",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "cada7cf72317f690ba79034e4f90768d",
-      "title": "Everything Sam Altman Is Thinking About Right Now",
-      "url": "https://www.youtube.com/watch?v=6tid36jSLww",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-19T00:32:56+00:00",
-      "summary": "Sam Altman just had dinner with journalists and spilled details about OpenAI's biggest challenges and future plans. He admitted GPT-5's launch was botched, revealed the company is profitable on inference (minus training costs), and confirmed they're sitting on better models they…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-29T14:14:49.570714+00:00"
+  "generated_at": "2025-08-29T15:13:41.582908+00:00"
 }
