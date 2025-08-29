@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "94a74f028d945fa4419bcf9e8fabd071",
+      "title": "US Debt Crisis — Trump’s New Plan to Fix It with Crypto & Gold",
+      "url": "https://www.youtube.com/watch?v=siKfPK5jhtI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-08-29T16:01:41+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Crypto"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bbc75f5e59e22c9ef55526bcae2dbd51",
       "title": "The Most Used GenAI Tools",
       "url": "https://www.youtube.com/watch?v=KrDCadK60yM",
@@ -1138,19 +1153,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ee73495ef0aa6e34a7876e1e60e3fc1f",
-      "title": "Silver Hits 14-Year High – Price Manipulation is Breaking Down",
-      "url": "https://www.youtube.com/watch?v=mFgBZUHALbc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-07-23T16:01:30+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "b49358d4a8056a08e469abcd02261e4f",
       "title": "Deep Learning Weekly: Issue 414",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-414",
@@ -1794,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-29T15:13:41.582908+00:00"
+  "generated_at": "2025-08-29T16:18:56.873411+00:00"
 }
