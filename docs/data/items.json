@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "bb6aea0194cc06d2dabc319526fe941d",
+      "title": "🧠 Community Wisdom: Optimal meeting cadence for small teams, summarizing notes from customer interviews, managing conflict in a community, tools to create a product video, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-optimal-meeting",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-30T16:01:12+00:00",
+      "summary": "Community Wisdom 246",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "c6ba98ca62d28400d31e70ae71c71a5a",
+      "title": "Workers Don't Trust Their Companies on AI",
+      "url": "https://www.youtube.com/watch?v=lxLz5xqVR9A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-30T15:39:46+00:00",
+      "summary": "This episode examines a troubling disconnect between employees and employers regarding the implementation of AI in the workplace. New research from Stanford University suggests AI is already impacting entry-level job markets, with early-career workers in high AI-exposure fields …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "94a74f028d945fa4419bcf9e8fabd071",
       "title": "US Debt Crisis — Trump’s New Plan to Fix It with Crypto & Gold",
       "url": "https://www.youtube.com/watch?v=siKfPK5jhtI",
@@ -451,21 +479,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7fa3dfd91a28fc231a576489ec99088e",
-      "title": "Is AI \"Model Welfare\" a Thing?",
-      "url": "https://www.youtube.com/watch?v=N9DIS0GzeFs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-19T13:14:11+00:00",
-      "summary": "Anthropic just gave Claude the ability to end conversations it deems harmful or abusive, sparking a heated debate about whether AI models can actually experience distress. The company framed this as part of their \"AI welfare\" research, claiming Claude shows aversion to harmful c…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "97c4d0aa271469204f4a4a12fe908be7",
       "title": "The Golden Age of Commodities Trading | This Hedge Fund Has Crushed the S&P 500",
       "url": "https://www.youtube.com/watch?v=tvC2SaLBycY",
@@ -893,21 +906,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "faf5c2c283cb96c00142cd1042157045",
-      "title": "25 proven tactics to accelerate AI adoption at your company",
-      "url": "https://www.lennysnewsletter.com/p/25-proven-tactics-to-accelerate-ai-909",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-05T09:00:57+00:00",
-      "summary": "If you’re a premium subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1796,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-30T15:13:31.467929+00:00"
+  "generated_at": "2025-08-30T16:16:52.831270+00:00"
 }
