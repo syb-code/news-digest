@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "339cf59e3e2af0e1d77bae40a7e54d7b",
+      "title": "How we restructured Airtable’s entire org for AI | Howie Liu (co-founder and CEO)",
+      "url": "https://www.lennysnewsletter.com/p/how-we-restructured-airtables-entire-org-for-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-08-31T11:02:54+00:00",
+      "summary": "Listen now | 🎙️ Airtable’s founder on becoming an IC again, why he split his company into “fast thinking” and “slow thinking” teams, and the specific skills product managers need to thrive in the AI era",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bb6aea0194cc06d2dabc319526fe941d",
       "title": "🧠 Community Wisdom: Optimal meeting cadence for small teams, summarizing notes from customer interviews, managing conflict in a community, tools to create a product video, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-optimal-meeting",
@@ -894,22 +909,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8e90b3c7fc2086ef15b45849d2854120",
-      "title": "25 proven tactics to accelerate AI adoption at your company",
-      "url": "https://www.lennysnewsletter.com/p/25-proven-tactics-to-accelerate-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-05T13:03:39+00:00",
-      "summary": "Practical advice from AI-forward companies like Shopify, Ramp, Zapier, Duolingo, Intercom, and Whoop",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0579a4fa2bdd94b702141496eef5048b",
       "title": "Trump’s Tariffs Are Back — What This Means for Investors",
       "url": "https://www.youtube.com/watch?v=qcj4XA0BG0Q",
@@ -1794,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-31T10:14:32.999509+00:00"
+  "generated_at": "2025-08-31T11:11:34.022400+00:00"
 }
