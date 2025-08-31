@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b7c008e15c56b424a8759386f2039f08",
+      "title": "The Era of Mass Intelligence Arrives",
+      "url": "https://www.youtube.com/watch?v=oHAgAcdRO6A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-08-31T22:00:06+00:00",
+      "summary": "The era of mass intelligence has arrived - over a billion people now access powerful AI tools thanks to dramatic cost reductions and improved interfaces. This episode explores why AI democratization, not just better benchmarks, is 2025's defining story. From 300x cost improvemen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "468eccdd34bad6b09e50fe7c2fcb397c",
       "title": "Leverage In Shadow Banking | Financial Stability Board General Secretary John Schindler",
       "url": "https://www.youtube.com/watch?v=Uqw0zVt1S_4",
@@ -21,21 +36,6 @@
       "source_type": "youtube",
       "published": "2025-08-31T12:01:11+00:00",
       "summary": "Apple is finally getting serious about AI acquisitions to catch up with the competition, with reports suggesting the company is eyeing Mistral AI and Perplexity at billion-dollar valuations. Microsoft unveils their first in-house AI models to reduce OpenAI dependence, while Anth…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b7c008e15c56b424a8759386f2039f08",
-      "title": "The Era of Mass Intelligence Arrives",
-      "url": "https://www.youtube.com/watch?v=oHAgAcdRO6A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-31T12:01:08+00:00",
-      "summary": "The era of mass intelligence has arrived - over a billion people now access powerful AI tools thanks to dramatic cost reductions and improved interfaces. This episode explores why AI democratization, not just better benchmarks, is 2025's defining story. From 300x cost improvemen…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-31T21:12:58.070378+00:00"
+  "generated_at": "2025-08-31T22:13:57.077086+00:00"
 }
