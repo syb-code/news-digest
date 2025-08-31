@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "468eccdd34bad6b09e50fe7c2fcb397c",
+      "title": "Leverage In Shadow Banking | Financial Stability Board General Secretary John Schindler",
+      "url": "https://www.youtube.com/watch?v=Uqw0zVt1S_4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-08-31T17:43:45+00:00",
+      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nJohn Schindler, General Secretary of the Finan…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "29f1348f311c4494d7b60bd3ca5b3398",
       "title": "Apple AI Acquisition?",
       "url": "https://www.youtube.com/watch?v=xYdZ13UsIwc",
@@ -1109,21 +1122,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c9785328add84bf64029ed4418028bea",
-      "title": "ETFs Are Fueling Market Volatility 🔥📈📉",
-      "url": "https://www.youtube.com/shorts/9uVE2FqVT_A",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-28T11:15:01+00:00",
-      "summary": "Today’s ETF market isn’t what it used to be. Leveraged long and short products—especially on names like MSTR—can act like amplifiers in the system. As Dean Curnutt explains, these instruments often buy at the same time, regardless of direction, contributing to increased volatili…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "37601b3682ee31e03b496cdfefeb27a5",
       "title": "Increase conversion with dynamic UX",
       "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
@@ -1793,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-08-31T17:12:01.370934+00:00"
+  "generated_at": "2025-08-31T18:19:49.120148+00:00"
 }
