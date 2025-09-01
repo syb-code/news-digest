@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "541c4b2cfde2f4e145e419750a942bf4",
+      "title": "How to turn meeting notes into prototypes that your sales team can immediately demo to customers | Anjan Panneer Selvam (Acolyte Health)",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-meeting-notes-into-prototypes",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-01T11:03:38+00:00",
+      "summary": "Watch now | 🎙️ Acolyte Health’s CPTO on using AI to transform stakeholder meetings, create interactive prototypes in minutes, and solve product-engineering debates by building instead of arguing",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b7c008e15c56b424a8759386f2039f08",
       "title": "The Era of Mass Intelligence Arrives",
       "url": "https://www.youtube.com/watch?v=oHAgAcdRO6A",
@@ -831,21 +846,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0120a266405db13453105906ac5483f1",
-      "title": "An exclusive inside look at GPT-5",
-      "url": "https://www.lennysnewsletter.com/p/an-exclusive-inside-look-at-gpt-5",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-07T17:15:26+00:00",
-      "summary": "Watch now | 🎙️ A comprehensive analysis of OpenAI’s newest model: How GPT-5 excels at coding and technical tasks while showing different strengths than its predecessors",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-01T10:18:11.058251+00:00"
+  "generated_at": "2025-09-01T11:13:20.440349+00:00"
 }
