@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f81c32bbe775961e5123c678afef51bb",
+      "title": "How to find the perfect name",
+      "url": "https://www.lennysnewsletter.com/p/how-to-find-the-perfect-name-533",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-02T09:02:30+00:00",
+      "summary": "A step-by-step playbook for naming in a noisy and AI-driven product landscape",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8c98b009fb9e417c6eae4383c5cdadf6",
       "title": "LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome",
       "url": "https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash",
@@ -819,21 +834,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02ecda922d6d199ef92dcea9b144820b",
-      "title": "Inside ChatGPT: The fastest growing product in history | Nick Turley (Head of ChatGPT at OpenAI)",
-      "url": "https://www.lennysnewsletter.com/p/inside-chatgpt-nick-turley",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-09T11:02:45+00:00",
-      "summary": "Listen now | 🎙️ OpenAI’s VP on GPT-5, the 10-day sprint that launched ChatGPT, why “maximally accelerated” beats perfection, and how a Google Form determined the $20/month price that everyone copied",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-02T08:21:28.221519+00:00"
+  "generated_at": "2025-09-02T09:17:13.543986+00:00"
 }
