@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "1d212820a050515af95eab1b7639c1e4",
+      "title": "From Setbacks to Success: @hfreflection’s Journey",
+      "url": "https://www.youtube.com/shorts/mp3x4cg45Sc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-02T11:15:05+00:00",
+      "summary": "In this clip from the Other People’s Money podcast, @hfreflection shares his 18-year journey through the world of investment management. From early challenges and setbacks to a career-defining success—and the bold decision to leave it all behind to launch his own firm—this is a …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "f81c32bbe775961e5123c678afef51bb",
       "title": "How to find the perfect name",
       "url": "https://www.lennysnewsletter.com/p/how-to-find-the-perfect-name-533",
@@ -1109,21 +1122,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "171f428d536e5e1c94518188ae7b84b5",
-      "title": "Eli Lilly Just Made Getting Ripped WAY Easier",
-      "url": "https://www.youtube.com/shorts/u7-OfDgAwr8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-29T18:01:00+00:00",
-      "summary": "Eli Lilly may have just unlocked a $1 trillion opportunity. Their phase two results on a combo drug—zappatide (a GLP-1/GIP appetite suppressant) and bemigramab (a myostatin-inhibiting monoclonal antibody)—showed 10% body fat loss and 5% lean muscle gain. A drug that curbs appeti…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ea886f169749864b67c6f744c8d19080",
       "title": "This Builds Wealth Faster Than Anything Else",
       "url": "https://www.youtube.com/watch?v=P7-GYUmxU00",
@@ -1791,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-02T11:13:31.379277+00:00"
+  "generated_at": "2025-09-02T12:32:59.476230+00:00"
 }
