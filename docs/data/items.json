@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a15845e64af4cad757b264430c4a0b03",
+      "title": "How to find the perfect name",
+      "url": "https://www.lennysnewsletter.com/p/how-to-find-the-perfect-name",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-02T13:03:37+00:00",
+      "summary": "A step-by-step playbook for naming in a noisy and AI-driven product landscape",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1d212820a050515af95eab1b7639c1e4",
       "title": "From Setbacks to Success: @hfreflection’s Journey",
       "url": "https://www.youtube.com/shorts/mp3x4cg45Sc",
@@ -831,22 +846,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c8080b897dcb1e919d5b335d6b1a39b1",
-      "title": "🧠 Community Wisdom: Social-media-active CPOs, AI expectations in interviews, salary asks, resume gaps, analytics adoption vs. automation revenue, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-social-media-active",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-09T16:04:23+00:00",
-      "summary": "Community Wisdom 243",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1789,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-02T12:32:59.476230+00:00"
+  "generated_at": "2025-09-02T13:26:34.863782+00:00"
 }
