@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8c98b009fb9e417c6eae4383c5cdadf6",
+      "title": "LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-02T06:34:27+00:00",
+      "summary": "Google Gemini's AI image model gets a 'bananas' upgrade, Anthropic launches a Claude AI agent that lives in Chrome",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "541c4b2cfde2f4e145e419750a942bf4",
       "title": "How to turn meeting notes into prototypes that your sales team can immediately demo to customers | Anjan Panneer Selvam (Acolyte Health)",
       "url": "https://www.lennysnewsletter.com/p/how-to-turn-meeting-notes-into-prototypes",
@@ -1688,21 +1703,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f607b1547ec8d2c1202250fbed7c1be7",
-      "title": "LWiAI Podcast #210 - Claude 4, Google I/O 2025, Gemini Diffusion",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-210-claude-4-google",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-05-28T05:23:57+00:00",
-      "summary": "Anthropic’s new Claude 4 AI models can reason over many steps, Google has 10000 announcements, OpenAI makes a big acquisition",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9862551069eadfbb5327fbd997309814",
       "title": "Deep Learning Weekly: Issue 405",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-405",
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-02T06:24:35.183026+00:00"
+  "generated_at": "2025-09-02T07:15:36.166570+00:00"
 }
