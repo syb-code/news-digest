@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0b13be6cd5589b9d3b33f38467d9e71e",
+      "title": "How AI Tools Are Rapidly Disrupting the Investment Industry | Brett Caughran & David Plon",
+      "url": "https://www.youtube.com/watch?v=mrSsM_lS8Ok",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-03T13:01:29+00:00",
+      "summary": "Learn more about the new AI Academy from Fundamental Edge: https://www.fundamentedge.com/ai-academy\n\nThere’s no shortage of speculation about how AI will reshape the workforce, but one area where no speculation is needed is the investment industry. AI is already rapidly disrupti…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d1efa8465c124668ceccac0ea9cc0644",
       "title": "My Autumn AI Predictions",
       "url": "https://www.youtube.com/watch?v=hI4-Ckg0wn4",
@@ -1087,23 +1102,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bcc35f69ceeba348a9d225f00a7bad0c",
-      "title": "AI is Eating the Economy | Jack & Max on Fed, GDP, Earnings & Tariffs",
-      "url": "https://www.youtube.com/watch?v=Q6sZSAkeW1c",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-31T00:52:51+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai.\nSign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nJack Farley & Max Wiethe break down today’s FOMC rate cut decision, this morning’s GDP report, recent tariff developments as major…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2eaf6c940bb3eef146cd7250dcdeaa60",
       "title": "Fed Decision: No Interest Rate Cut — Here’s What Comes Next",
       "url": "https://www.youtube.com/watch?v=D_lYpf-8JMw",
@@ -1788,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-03T12:31:19.483425+00:00"
+  "generated_at": "2025-09-03T13:24:29.837681+00:00"
 }
