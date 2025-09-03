@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "550a61129888e5e9a4a00c144c17ce21",
+      "title": "Deep Learning Weekly: Issue 420",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-420",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-09-03T15:02:40+00:00",
+      "summary": "Tencent's Hunyuan-MT translation models, Le Chat. Custom MCP connectors. Memories, a paper on USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0b13be6cd5589b9d3b33f38467d9e71e",
       "title": "How AI Tools Are Rapidly Disrupting the Investment Industry | Brett Caughran & David Plon",
       "url": "https://www.youtube.com/watch?v=mrSsM_lS8Ok",
@@ -1769,22 +1782,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "fb3ef05a828962d35c17d3b37ccf882a",
-      "title": "Deep Learning Weekly: Issue 400",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-400",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-04-17T15:03:10+00:00",
-      "summary": "OpenAI launches o3 and o4-mini, An Overview of Late Interaction Retrieval Models, a paper on Less-to-More Generalization: Unlocking More Controllability by In-Context Generation, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-03T14:15:43.766862+00:00"
+  "generated_at": "2025-09-03T15:16:45.565697+00:00"
 }
