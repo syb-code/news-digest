@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d1efa8465c124668ceccac0ea9cc0644",
+      "title": "My Autumn AI Predictions",
+      "url": "https://www.youtube.com/watch?v=hI4-Ckg0wn4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-03T02:15:31+00:00",
+      "summary": "Back to school season means back to AI predictions! After a summer of skepticism around the MIT study claiming 95% of AI pilots fail, NLW dives nto what's really coming this fall and beyond. From simmering skepticism to multimodal model progress to the potential for AI M&A, NLW …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9d23ee0a81ea7963cce8cc57805d8731",
       "title": "Tax Refund Surge Ahead — These People Will Get the Biggest Refunds!",
       "url": "https://www.youtube.com/watch?v=J-oVapEhUHc",
@@ -557,21 +572,6 @@
       "source_type": "rss",
       "published": "2025-08-21T11:03:16+00:00",
       "summary": "Listen now | 🎙️ Intercom's founder on betting $100M on AI, turning around a stagnant business, why he fired 40% of employees, and why you can't compete without working as hard as \"the kids\"",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a992a3295b9ef5ec132da021c8de4caf",
-      "title": "What AI Builders Are Actually Excited About",
-      "url": "https://www.youtube.com/watch?v=zCDQeKe-XMg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-20T23:10:55+00:00",
-      "summary": "Are we really witnessing the \"most expensive flop in tech history\" with AI, or is something else going on? While headlines scream about failed AI pilots and wasted billions, there's a massive disconnect between public narratives and what's actually happening in AI development. T…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-03T01:09:33.633092+00:00"
+  "generated_at": "2025-09-03T02:52:32.304422+00:00"
 }
