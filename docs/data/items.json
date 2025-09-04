@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "867b554d569ad6613e73eeb784e77894",
+      "title": "Is Google Now the AI Leader?",
+      "url": "https://www.youtube.com/watch?v=KphHTLq-ilQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-03T23:32:11+00:00",
+      "summary": "Google’s AI comeback is turning into something bigger. Today’s AI Daily Brief covers whether Google has taken the lead in the AI race, with multimodal breakthroughs, Gemini’s surge, and a huge antitrust win around Chrome. We also dig into Anthropic’s $13B raise at a stunning $18…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "550a61129888e5e9a4a00c144c17ce21",
       "title": "Deep Learning Weekly: Issue 420",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-420",
@@ -570,21 +585,6 @@
       "source_type": "youtube",
       "published": "2025-08-21T23:42:01+00:00",
       "summary": "Google's Pixel 10 delivers the AI phone features Apple promised but never shipped. While Apple continues to struggle with delayed and underwhelming AI rollouts, Google has just launched its most AI-integrated smartphone yet, featuring Magic Q (an agentic assistant that searches …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a8563b5c4046159eb7f5f08be2920f87",
-      "title": "Deepseek Drops its Latest Model",
-      "url": "https://www.youtube.com/watch?v=QaVSX1ogMZo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-21T12:44:51+00:00",
-      "summary": "DeepSeek just released V3.1, and the response isn't what you'd expect. The Chinese AI company that shocked everyone earlier this year with their free reasoning model has quietly dropped an updated version, but early reactions mirror the lukewarm GPT-5 reception we saw recently. …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-03T23:13:21.186567+00:00"
+  "generated_at": "2025-09-04T01:09:03.126556+00:00"
 }
