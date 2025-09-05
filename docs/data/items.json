@@ -2,12 +2,12 @@
   "items": [
     {
       "id": "88c3c793778ef617902629ed72ab82d3",
-      "title": "How to Be An AI Leader",
+      "title": "How to Be An AI Leader (According to OpenAI)",
       "url": "https://www.youtube.com/watch?v=oU4gV5aIQ34",
       "source": "@AIDailyBrief",
       "source_type": "youtube",
       "published": "2025-09-05T00:55:26+00:00",
-      "summary": "...at least according to OpenAI. OpenAI has published a new leadership guide for executives, laying out five principles — align, activate, amplify, accelerate, and govern — designed to help organizations lead in the age of AI. This episode breaks down the most important lessons,…",
+      "summary": "OpenAI has published a new leadership guide for executives, laying out five principles — align, activate, amplify, accelerate, and govern — designed to help organizations lead in the age of AI. This episode breaks down the most important lessons, the subtext behind OpenAI’s reco…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-05T01:10:47.846976+00:00"
+  "generated_at": "2025-09-05T02:56:05.284952+00:00"
 }
