@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e02960836b9517fe905bce2638a71c8c",
+      "title": "Apple to Finally Make an AI Play",
+      "url": "https://www.youtube.com/watch?v=_6yj0sapa5Q",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-05T13:34:37+00:00",
+      "summary": "Apple may finally be making its big AI move, and it could come through a surprise partnership with Google. Bloomberg reports Apple is testing a new AI-powered search engine, World Knowledge Answers, that would power a rebuilt Siri and possibly Spotlight and Safari. \n\nBrought to …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "88c3c793778ef617902629ed72ab82d3",
       "title": "How to Be An AI Leader (According to OpenAI)",
       "url": "https://www.youtube.com/watch?v=oU4gV5aIQ34",
@@ -575,21 +590,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0ee20b42ce9745b6ca8716935e35094a",
-      "title": "Meta's New AI Org Takes Shape",
-      "url": "https://www.youtube.com/watch?v=Qd5UMTJ8iIk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-22T15:34:25+00:00",
-      "summary": "Meta restructures its AI division amid Wall Street fears of an AI spending pullback. The company announced a new organizational structure for its SuperIntelligence Labs, dividing it into four groups led by executives like Alexander Wang and Nat Friedman, while implementing hirin…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-05T13:23:24.148340+00:00"
+  "generated_at": "2025-09-05T14:14:14.841568+00:00"
 }
