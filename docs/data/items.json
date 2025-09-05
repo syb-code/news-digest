@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "88c3c793778ef617902629ed72ab82d3",
+      "title": "How to Be An AI Leader",
+      "url": "https://www.youtube.com/watch?v=oU4gV5aIQ34",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-05T00:55:26+00:00",
+      "summary": "...at least according to OpenAI. OpenAI has published a new leadership guide for executives, laying out five principles — align, activate, amplify, accelerate, and govern — designed to help organizations lead in the age of AI. This episode breaks down the most important lessons,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "867b554d569ad6613e73eeb784e77894",
       "title": "Is Google Now the AI Leader?",
       "url": "https://www.youtube.com/watch?v=KphHTLq-ilQ",
@@ -570,21 +585,6 @@
       "source_type": "youtube",
       "published": "2025-08-22T15:34:25+00:00",
       "summary": "Meta restructures its AI division amid Wall Street fears of an AI spending pullback. The company announced a new organizational structure for its SuperIntelligence Labs, dividing it into four groups led by executives like Alexander Wang and Nat Friedman, while implementing hirin…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "366d2b5a36e1db95a3dfc466445ed6b1",
-      "title": "Is Pixel 10 the AI Phone iPhone Never Was?",
-      "url": "https://www.youtube.com/watch?v=4ORs3RlvlVs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-21T23:42:01+00:00",
-      "summary": "Google's Pixel 10 delivers the AI phone features Apple promised but never shipped. While Apple continues to struggle with delayed and underwhelming AI rollouts, Google has just launched its most AI-integrated smartphone yet, featuring Magic Q (an agentic assistant that searches …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-04T23:13:38.819987+00:00"
+  "generated_at": "2025-09-05T01:10:47.846976+00:00"
 }
