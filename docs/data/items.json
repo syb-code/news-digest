@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "82e8833c91335d906946c3fab7d133b8",
+      "title": "Jobs Report Disaster — Fed Forced to Cut Rates More Quickly",
+      "url": "https://www.youtube.com/watch?v=ULjrJ605UUk",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-09-05T20:21:34+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e02960836b9517fe905bce2638a71c8c",
       "title": "Apple to Finally Make an AI Play",
       "url": "https://www.youtube.com/watch?v=_6yj0sapa5Q",
@@ -1145,19 +1160,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ea886f169749864b67c6f744c8d19080",
-      "title": "This Builds Wealth Faster Than Anything Else",
-      "url": "https://www.youtube.com/watch?v=P7-GYUmxU00",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-07-28T16:00:45+00:00",
-      "summary": "📘 My Book is Now on Amazon: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) when you open a free stock market account.\n\n⭐ Support Ou…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "37601b3682ee31e03b496cdfefeb27a5",
       "title": "Increase conversion with dynamic UX",
       "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
@@ -1784,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-05T20:16:56.695133+00:00"
+  "generated_at": "2025-09-05T21:13:24.771526+00:00"
 }
