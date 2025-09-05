@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b23481da761f4690d3ddc332f2da611d",
+      "title": "OpenAI Launches Jobs and Certifications",
+      "url": "https://www.youtube.com/watch?v=voy-VDg0iNU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-05T21:31:06+00:00",
+      "summary": "OpenAI just launched a jobs platform and AI certifications, sparking debate over whether it’s ambition, anxiety management, or a lack of focus. We dig into what’s really going on and why it matters. Plus: ChatGPT adds branching conversations, Lovable shifts its success metrics, …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "82e8833c91335d906946c3fab7d133b8",
       "title": "Jobs Report Disaster — Fed Forced to Cut Rates More Quickly",
       "url": "https://www.youtube.com/watch?v=ULjrJ605UUk",
@@ -561,21 +576,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "69fe6063420ac01ff37f6a6b3700ee31",
-      "title": "No, 95% of AI Pilots Aren't Failing",
-      "url": "https://www.youtube.com/watch?v=5QzqyrnL010",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-22T20:52:46+00:00",
-      "summary": "Today, we're breaking down the MIT study claiming 95% of generative AI pilots at companies are failing - and why this headline is misleading the entire market. The report, based on just 52 interviews and 150 survey responses, has been cited as a reason for AI stock crashes, but …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-05T21:13:24.771526+00:00"
+  "generated_at": "2025-09-05T22:14:07.761543+00:00"
 }
