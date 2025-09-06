@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "78ee0314716ecea4f4db002d83aae35e",
+      "title": "🧠 Community Wisdom: Jira vs. Linear, balancing personal tasks and team priorities, becoming more resilient, revealing that you’re a new mom to recruiters, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-jira-vs-linear-balancing",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-06T16:50:19+00:00",
+      "summary": "Community Wisdom 247",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b23481da761f4690d3ddc332f2da611d",
       "title": "OpenAI Launches Jobs and Certifications",
       "url": "https://www.youtube.com/watch?v=voy-VDg0iNU",
@@ -906,21 +919,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3b6fc382a7dcea00a2d350c2e65b7d0d",
-      "title": "How Amplitude built an internal AI tool that the whole company’s obsessed with (and how you can too) | Wade Chambers",
-      "url": "https://www.lennysnewsletter.com/p/how-amplitude-built-an-internal-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-11T11:03:56+00:00",
-      "summary": "Watch now | 🎙️ A custom-built AI assistant that searches across all company data sources, helping teams analyze feedback, create PRDs, and build prototypes in a single meeting",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2f0d957e0403b86355b56912f3028e2b",
       "title": "Stagflation Summer Is Here | Jonny Matthews On Economic Slowdown In U.S. Data",
       "url": "https://www.youtube.com/watch?v=OfErgY9xWEg",
@@ -1786,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-06T16:16:46.595937+00:00"
+  "generated_at": "2025-09-06T17:11:46.764400+00:00"
 }
