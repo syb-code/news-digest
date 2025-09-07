@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "92c2376aa4203cebf6bc91562b656618",
+      "title": "The AI Semiconductor Supercycle | Angus Shillington & Nick Frasse (Fireside Chat)",
+      "url": "https://www.youtube.com/watch?v=3mbERI2h4K4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-07T16:41:14+00:00",
+      "summary": "This episode of Monetary Matters is a Sponsored Fireside Chat brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nThe AI revolution ha…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "15afec6380cde1096ad15d05c5679cd5",
       "title": "For the Agent Era, Work Charts Beat Org Charts",
       "url": "https://www.youtube.com/watch?v=yCa1-UNg0N4",
@@ -1074,19 +1089,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "171b2580d60a590064c84634a35b8ff7",
-      "title": "“Globalization Hollowed Out the U.S. Economy \"",
-      "url": "https://www.youtube.com/shorts/A2q2yeYzooc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-07-31T19:00:18+00:00",
-      "summary": "Oren Cass, chief economist at American Compass, breaks down how globalization has backfired for America. Instead of mutual benefit, the U.S. traded its productive capacity for foreign-made goods, offering debt and assets in return. The result? A $1 trillion trade deficit, hollow…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8449f0484bd079ba5f3987ddfb9350cf",
       "title": "LWiAI Podcast #218 - Github Spark, MegaScience, US AI Action Plan",
       "url": "https://lastweekin.ai/p/lwiai-podcast-218-github-spark-megascience",
@@ -1786,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-07T16:16:47.168526+00:00"
+  "generated_at": "2025-09-07T17:11:47.006752+00:00"
 }
