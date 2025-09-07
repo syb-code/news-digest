@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "15afec6380cde1096ad15d05c5679cd5",
+      "title": "For the Agent Era, Work Charts Beat Org Charts",
+      "url": "https://www.youtube.com/watch?v=yCa1-UNg0N4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-07T11:25:05+00:00",
+      "summary": "As AI and Agents come online, the modern enterprise is changing. As it does, we need totally new ways of thinking about how to organize work. NLW explores the idea that the \"work chart\" is a better organizing tool than the \"org chart\" for this new agentic era. \n\nThe AI Daily Bri…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3015071bd773ee3e04a5119ddfadcc7e",
       "title": "How AI is reshaping the product role | Oji and Ezinne Udezue",
       "url": "https://www.lennysnewsletter.com/p/how-ai-is-reshaping-the-product-role",
@@ -561,21 +576,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b2bc88ac281b921cac7dc6867d7cd6b3",
-      "title": "The Problem of AI That Seems Alive",
-      "url": "https://www.youtube.com/watch?v=BPm_FaaOuMQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-24T13:00:06+00:00",
-      "summary": "Mustafa Suleyman, CEO of AI at Microsoft and co-founder of DeepMind, has published a provocative essay warning about the dangers of “seemingly conscious AI.” On today’s Big Think edition of The AI Daily Brief, we explore his argument that as AI systems develop memory, personalit…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-07T11:10:45.941778+00:00"
+  "generated_at": "2025-09-07T12:28:07.452756+00:00"
 }
