@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "acfc4c82e7e9dcf682de0c1848f74f9f",
+      "title": "5 Debates Shaping AI",
+      "url": "https://www.youtube.com/watch?v=C_ep8yKwx-0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-08T22:59:41+00:00",
+      "summary": "AI is at the center of five big debates: is massive AI spending fueling real growth or just a bubble, will entry-level jobs vanish, does AI truly boost productivity, is vibe coding overhyped, and should we accelerate or slow down with open-source and policy? These questions capt…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eec9b1d4933962f2cbd9d1ae46fa493e",
       "title": "Dollar Crisis — The World Is Dumping Dollars and Buying Gold",
       "url": "https://www.youtube.com/watch?v=fv3omZSt7hA",
@@ -547,21 +562,6 @@
       "published": "2025-08-27T13:00:00+00:00",
       "summary": "This episode is brought to you by Fundamental Edge, the leaders in buyside analyst training. Reserve your spot in their new AI Academy: https://www.fundamentedge.com/ai-academy\n\nIn the online community of FinTwit it is extremely common for hedge funders to have anonymous profile…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ce494db2a65fb3eb8ce8cf474b5bfed4",
-      "title": "The New Politics of AI",
-      "url": "https://www.youtube.com/watch?v=vLGXHp19dvE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-27T01:45:31+00:00",
-      "summary": "Today’s AI Daily Brief examines AI’s rise as a geopolitical flashpoint. The U.S. government’s unprecedented 10% Intel stake via CHIPS Act funding, NVIDIA’s halt of China-specific H20 production amid U.S.–China tensions, and the launch of a $100M+ PAC, “Leading the Future,” to sh…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-08T22:14:11.914105+00:00"
+  "generated_at": "2025-09-08T23:14:20.685174+00:00"
 }
