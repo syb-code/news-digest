@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a441eea93e59c6c3436491165203b21e",
+      "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
+      "url": "https://www.lennysnewsletter.com/p/how-devin-replaces-your-junior-engineers",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-08T11:03:38+00:00",
+      "summary": "Watch now | 🎙️Cognition Labs’ CEO shares how his team uses their AI coding agent Devin as a first-line responder for engineering tasks, multiplayer problem-solving, and asynchronous development",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2f55b0a557ff29a8ed38b530fec894cf",
       "title": "ChatGPT Gets Awesome New Branching Convos Feature",
       "url": "https://www.youtube.com/watch?v=Xxs3W2caRVw",
@@ -908,19 +923,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "270bc760137e71d905228b42c31664df",
-      "title": "Essential reading for product builders—part 2",
-      "url": "https://www.lennysnewsletter.com/p/essential-reading-for-product-builderspart-1ac",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-12T12:45:21+00:00",
-      "summary": "10 more timeless essays you probably haven’t read but should",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "84cc2c51678f010af37deeb18a9c37d1",
       "title": "LWiAI Podcast #219 - GPT 5, Opus 4.1, OpenAI's Open Source, Astrocade",
       "url": "https://lastweekin.ai/p/lwiai-podcast-219-gpt-5-opus-41-openais",
@@ -1786,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-08T10:17:10.800711+00:00"
+  "generated_at": "2025-09-08T11:12:54.506272+00:00"
 }
