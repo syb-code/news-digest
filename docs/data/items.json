@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "8bc7d5c7ab3e7c1e81a319dd1cd394d5",
+      "title": "Anthropic Confirms Monster Funding Round After 500% Revenue Growth",
+      "url": "https://www.youtube.com/watch?v=mc88rthLZzY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-08T12:42:30+00:00",
+      "summary": "We cover the massive funding rounds and talent shake-ups reshaping the AI landscape. Anthropic just closed a record $13 billion funding round at an $183 billion valuation, tripling their size since February, while OpenAI restructures with a $1.1 billion StatSig acquisition and n…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a441eea93e59c6c3436491165203b21e",
       "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
       "url": "https://www.lennysnewsletter.com/p/how-devin-replaces-your-junior-engineers",
@@ -550,21 +566,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7e6a5da443f0ff9cb2ff7ab4a64ccf0e",
-      "title": "What AI Backlash at YouTube Can Teach Other Companies",
-      "url": "https://www.youtube.com/watch?v=VSqIaRc0eRQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-26T12:41:31+00:00",
-      "summary": "Today we're covering the AI backlash at YouTube and Netflix's new rules for generative AI in content production. YouTube creators are angry after the platform secretly used AI to enhance their videos without asking, making content look artificially sharpened and potentially trai…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-08T12:34:09.910450+00:00"
+  "generated_at": "2025-09-08T13:26:40.593150+00:00"
 }
