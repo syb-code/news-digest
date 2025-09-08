@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2f55b0a557ff29a8ed38b530fec894cf",
+      "title": "ChatGPT Gets Awesome New Branching Convos Feature",
+      "url": "https://www.youtube.com/watch?v=Xxs3W2caRVw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-08T00:14:16+00:00",
+      "summary": "OpenAI has finally added a long-requested ChatGPT feature: the ability to branch conversations, making it easier to explore different directions without losing context. This move ties into Sam Altman’s vision of better memory and context control for future models.\n\nBrought to yo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "92c2376aa4203cebf6bc91562b656618",
       "title": "The AI Semiconductor Supercycle | Angus Shillington & Nick Frasse (Fireside Chat)",
       "url": "https://www.youtube.com/watch?v=3mbERI2h4K4",
@@ -548,21 +563,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "525d9c901a4a8b0a2216365d35c91787",
-      "title": "Meta Teams Up with Midjourney",
-      "url": "https://www.youtube.com/watch?v=whNIRzLsA7Y",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-26T01:06:51+00:00",
-      "summary": "Today we're covering Meta's new partnership with Midjourney and other major AI industry moves. Meta announced they're licensing Midjourney's aesthetic technology for future products, plus signed a massive $10 billion cloud deal with Google to power their AI infrastructure needs.…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-07T23:13:06.035313+00:00"
+  "generated_at": "2025-09-08T01:14:36.392174+00:00"
 }
