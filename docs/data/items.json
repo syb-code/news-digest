@@ -1074,21 +1074,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ea3755995a68d31385613c0acd09a84f",
-      "title": "Jobs Report Disaster — Fed Forced to Cut Interest Rates",
-      "url": "https://www.youtube.com/watch?v=qDSifRPDZZA",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-01T19:04:32+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8449f0484bd079ba5f3987ddfb9350cf",
       "title": "LWiAI Podcast #218 - Github Spark, MegaScience, US AI Action Plan",
       "url": "https://lastweekin.ai/p/lwiai-podcast-218-github-spark-megascience",
@@ -1159,6 +1144,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ea886f169749864b67c6f744c8d19080",
+      "title": "This Builds Wealth Faster Than Anything Else",
+      "url": "https://www.youtube.com/watch?v=P7-GYUmxU00",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-07-28T16:00:45+00:00",
+      "summary": "📘 My Book is Now on Amazon: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) when you open a free stock market account.\n\n⭐ Support Ou…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-08T06:24:30.504273+00:00"
+  "generated_at": "2025-09-08T07:15:38.897115+00:00"
 }
