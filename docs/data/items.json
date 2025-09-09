@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "eac99f74ae0545d3c139cb77ede87417",
+      "title": "Building eval systems that improve your AI product",
+      "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve-cec",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-09T14:01:43+00:00",
+      "summary": "A practical guide to moving beyond generic scores and measuring what matters",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d386ac32dd5ca5c9e702c9d6531d4db8",
+      "title": "Concentrated Investing in Change, Crisis, & Controversy with Stoic Point Capital Management",
+      "url": "https://www.youtube.com/watch?v=I9NeTDbM7rs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-09T13:36:54+00:00",
+      "summary": "This episode is brought to you by Fundamental Edge. Learn more about their new AI Academy for buyside professionals: https://www.fundamentedge.com/ai-academy\n\nRaj Shah and Cullen Rose of Stoic Point Capital Management join OPM for a specials double episode. In the first half we …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3893aefa9c8bbe264a0c67455e4cce11",
       "title": "Building eval systems that improve your AI product",
       "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve",
@@ -850,21 +880,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3b41211a595134c47087d27a3e92d4cc",
-      "title": "🧠 Community Wisdom: The changing product development process, trials vs. freemium, critiquing in a public setting, SEO in the AI era, defining scope when everyone’s a stakeholder, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-defining-scope-when",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-16T16:07:21+00:00",
-      "summary": "Community Wisdom 244",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "00e79f03d116d9801ae857840169ba37",
       "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
       "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
@@ -1073,19 +1088,6 @@
       "source_type": "youtube",
       "published": "2025-08-04T16:00:53+00:00",
       "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "493367ac4ddefa150520a5bcbbdd0de7",
-      "title": "Liquidity Cycle Will Turn In 2026, Argues Liquidity Godfather Michael Howell",
-      "url": "https://www.youtube.com/watch?v=FXboQtNgkcY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-03T16:29:55+00:00",
-      "summary": "This episode of Monetary Matters is brought to you by VanEck.\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nMichael Howell of Crossborder Capital returns to…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1791,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-09T13:28:04.096383+00:00"
+  "generated_at": "2025-09-09T14:13:55.657946+00:00"
 }
