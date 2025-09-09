@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3893aefa9c8bbe264a0c67455e4cce11",
+      "title": "Building eval systems that improve your AI product",
+      "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-09T13:03:34+00:00",
+      "summary": "A practical guide to moving beyond generic scores and measuring what matters",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "783d5542a824ceb4464788be1c3ae405",
       "title": "Ultimate AI Prompt Directory",
       "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
@@ -896,21 +911,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9a202f508edf609981a7f14e7ccb24c7",
-      "title": "The one question that saves product careers | Matt LeMay",
-      "url": "https://www.lennysnewsletter.com/p/the-one-question-that-saves-product-careers-matt-lemay",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-14T11:03:08+00:00",
-      "summary": "🎙️ Matt LeMay shares the truth about why product teams really get laid off, the “low-impact PM death spiral” that’s killing careers, and the one question every PM should ask themselves",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5c7e9f75b4c97f699e6998acbc5118c4",
       "title": "Deep Learning Weekly: Issue 417",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-09T12:33:46.622144+00:00"
+  "generated_at": "2025-09-09T13:28:04.096383+00:00"
 }
