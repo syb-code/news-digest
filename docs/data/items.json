@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "783d5542a824ceb4464788be1c3ae405",
+      "title": "Ultimate AI Prompt Directory",
+      "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-09T09:02:31+00:00",
+      "summary": "Over the past weeks I collected my favorite prompts and turned them into one \"master directory\" so you can just copy + paste what you need.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "acfc4c82e7e9dcf682de0c1848f74f9f",
       "title": "5 Debates Shaping AI",
       "url": "https://www.youtube.com/watch?v=C_ep8yKwx-0",
@@ -1703,19 +1718,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8c1fefd63ebe3c51ad153b83c0458c2f",
-      "title": "Everyone should build something",
-      "url": "https://designplusai.com/p/everyone-should-build-something",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-05-29T13:13:00+00:00",
-      "summary": "Especially in Europe.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9862551069eadfbb5327fbd997309814",
       "title": "Deep Learning Weekly: Issue 405",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-405",
@@ -1789,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-09T08:21:41.207387+00:00"
+  "generated_at": "2025-09-09T09:17:19.919841+00:00"
 }
