@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "a20951c29e2ac54117b53761efb5314f",
+      "title": "Last Week in AI #321 - Anthropic & Midjourney Lawsuits, Bad Jobs Data",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-321-anthropic-and",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-10T17:18:11+00:00",
+      "summary": "Judge puts Anthropic’s $1.5 billion book piracy settlement on hold, Warner Bros. Joins Studios’ AI Copyright Battle Against Midjourney, Anthropic endorses California’s AI safety bill SB 53",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "48250171a372639e7aa317efe55c7aff",
       "title": "Deep Learning Weekly: Issue 421",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-421",
@@ -1705,21 +1721,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8039955cfee56b4d0119e524a3d16a75",
-      "title": "Last Week in AI #311 - Claude 4 System Card, more Veo 3, Flux Kontext",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-311-claude-4-system",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-02T15:49:16+00:00",
-      "summary": "The Claude 4 System Card is a Wild Read, Google's Veo 3 Is generating mind-blowing AI videos, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ac8c8adfb3d3c12922d94e2116f958b3",
       "title": "Deep Learning Weekly: Issue 406",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-406",
@@ -1795,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-10T17:13:02.246657+00:00"
+  "generated_at": "2025-09-10T18:22:06.526124+00:00"
 }
