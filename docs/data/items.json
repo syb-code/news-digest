@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "787ec512efd6c2238862f4dfcb50aa5e",
+      "title": "AI Generated Code Reaching 50% in Some Companies",
+      "url": "https://www.youtube.com/watch?v=ePCct0GVmDU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-10T01:26:26+00:00",
+      "summary": "Today on the AI Daily Brief: AI isn’t just helping engineers anymore—it’s writing nearly half the code at companies like Robinhood and Coinbase, with some leaders saying human-written code is now in the minority. We explore what this milestone means for software development, the…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eac99f74ae0545d3c139cb77ede87417",
       "title": "Building eval systems that improve your AI product",
       "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve-cec",
@@ -596,21 +613,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fffb2135638c5d6940b77a26332d8263",
-      "title": "Google Gemini to Power Apple Siri (Thank Goodness)",
-      "url": "https://www.youtube.com/watch?v=wCIWhA9xJt4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-27T14:13:31+00:00",
-      "summary": "Today's AI Daily Brief covers the biggest tech partnerships and competitive moves shaping the AI landscape. Apple is reportedly in talks with Google to use Gemini as the foundation for a completely rebuilt Siri, marking a potential shift away from their internal AI development e…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1793,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-10T01:10:09.504688+00:00"
+  "generated_at": "2025-09-10T02:52:48.421953+00:00"
 }
