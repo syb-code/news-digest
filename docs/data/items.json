@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "48250171a372639e7aa317efe55c7aff",
+      "title": "Deep Learning Weekly: Issue 421",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-421",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-09-10T15:02:53+00:00",
+      "summary": "Claude can now create and use files, Measuring Thinking Efficiency in Reasoning Models, a paper on Parallel-R1: Towards Parallel Thinking via Reinforcement Learning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "787ec512efd6c2238862f4dfcb50aa5e",
       "title": "AI Generated Code Reaching 50% in Some Companies",
       "url": "https://www.youtube.com/watch?v=ePCct0GVmDU",
@@ -1780,20 +1793,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "d5cf438be240f3c2e77d280b27baebae",
-      "title": "Deep Learning Weekly: Issue 401",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-401",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-04-23T15:01:37+00:00",
-      "summary": "Generate videos in Gemini and Whisk with Veo 2, Speeding up Transformers by 80% by Removing Self Attention, a paper on Packing Input Frame Context in Next-Frame Prediction Models for Video Generation,",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-10T14:14:36.624322+00:00"
+  "generated_at": "2025-09-10T15:16:03.252744+00:00"
 }
