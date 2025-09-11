@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5025eb1c6367d6520450f62ddc37ccb8",
+      "title": "ChatGPT Makes a Movie",
+      "url": "https://www.youtube.com/watch?v=n8YS447MdKU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-11T14:15:06+00:00",
+      "summary": "OpenAI enters filmmaking: The company is backing Critters (with a Z), a $30M animated feature aimed at Cannes 2025. Creative specialist Chad Nelson, who previously experimented with OpenAI’s early DALL·E, is leading the project with Vertigo Films. The team plans to combine human…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6ad16b16d3c63bd1472bc1c2815b701a",
       "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
       "url": "https://www.lennysnewsletter.com/p/46b-of-hard-truths-from-ben-horowitz",
@@ -585,21 +600,6 @@
       "duration_sec": null,
       "themes": [
         "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bbc75f5e59e22c9ef55526bcae2dbd51",
-      "title": "The Most Used GenAI Tools",
-      "url": "https://www.youtube.com/watch?v=KrDCadK60yM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-29T14:48:16+00:00",
-      "summary": "On this episode, Andreessen Horowitz’s Top 100 Gen AI Consumer Apps report highlights big shifts in just six months. Google scored four web entries with Gemini at #2, Grok rocketed to #4 with 20 million mobile users, coding tools like Lovable and Replit cemented their dominance,…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-11T14:15:34.197846+00:00"
+  "generated_at": "2025-09-11T15:15:10.488921+00:00"
 }
