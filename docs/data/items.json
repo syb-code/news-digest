@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "3e392bc8c5de6d3ddc3c6356a0c24b0d",
+      "title": "The Real Reason Jobs Market Is Weakening | Aahan Menon of Prometheus Macro",
+      "url": "https://www.youtube.com/watch?v=BXwJfBd2Ru0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-11T17:33:41+00:00",
+      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nTake the Monetary Matters poll: \nhttps://docs.…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5025eb1c6367d6520450f62ddc37ccb8",
       "title": "ChatGPT Makes a Movie",
       "url": "https://www.youtube.com/watch?v=n8YS447MdKU",
@@ -1101,19 +1114,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5a890cda64649ad4219034d2444704b9",
-      "title": "Deep Engagement: A Banking Approach to Classical Value Investing | Donald Zilkha",
-      "url": "https://www.youtube.com/watch?v=ARshXM-KG94",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-05T14:05:00+00:00",
-      "summary": "Donald Zilkha, founder of Zilkha Investments joins Other People’s Money to discuss how his deep-rooted DNA in banking and deal making has evolved into an investment strategy focused on deep research and engagement with management to affect change without upsetting the apple cart…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "0579a4fa2bdd94b702141496eef5048b",
       "title": "Trump’s Tariffs Are Back — What This Means for Investors",
       "url": "https://www.youtube.com/watch?v=qcj4XA0BG0Q",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-11T17:12:45.819314+00:00"
+  "generated_at": "2025-09-11T18:22:02.553623+00:00"
 }
