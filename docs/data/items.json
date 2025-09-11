@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6ad16b16d3c63bd1472bc1c2815b701a",
+      "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
+      "url": "https://www.lennysnewsletter.com/p/46b-of-hard-truths-from-ben-horowitz",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-11T11:03:17+00:00",
+      "summary": "Listen now | 🎙️ a16z's co-founder on why he takes CEO advice from an ex-prison gang leader, the $2M IPO everyone called insane, why he backed Adam Neumann, and how hip-hop teaches business better than an MBA",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "07a0356529941f36fc3e6256037df3c3",
       "title": "Different AIs for Different Jobs",
       "url": "https://www.youtube.com/watch?v=MGMtwuJzKcc",
@@ -898,19 +913,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "35a58db21aa214c475dd6040805b8193",
-      "title": "Why ChatGPT will be the next big growth channel (and how to capitalize on it) | Brian Balfour (Reforge)",
-      "url": "https://www.lennysnewsletter.com/p/why-chatgpt-will-be-the-next-big-growth-channel-brian-balfour",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-17T11:03:01+00:00",
-      "summary": "Listen now | 🎙️ Reforge founder Brian Balfour on why ChatGPT is on track to become the next major distribution platform, how to capitalize on it, and why companies that don’t play this game will lose",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "00e79f03d116d9801ae857840169ba37",
       "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
       "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
@@ -1796,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-11T10:15:35.218952+00:00"
+  "generated_at": "2025-09-11T11:12:22.151675+00:00"
 }
