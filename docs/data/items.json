@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "07a0356529941f36fc3e6256037df3c3",
+      "title": "Different AIs for Different Jobs",
+      "url": "https://www.youtube.com/watch?v=MGMtwuJzKcc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-11T00:21:46+00:00",
+      "summary": "Even the biggest companies are learning that no single AI model can do it all. Microsoft, for example, is now bringing Anthropic’s Claude into Office 365 because it outperforms OpenAI in key areas like Excel and PowerPoint. This shift highlights a bigger truth: the future of AI …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a20951c29e2ac54117b53761efb5314f",
       "title": "Last Week in AI #321 - Anthropic & Midjourney Lawsuits, Bad Jobs Data",
       "url": "https://lastweekin.ai/p/last-week-in-ai-321-anthropic-and",
@@ -594,21 +609,6 @@
       "source_type": "rss",
       "published": "2025-08-28T11:03:31+00:00",
       "summary": "Listen now | 🎙️ The Microsoft AI exec overseeing 15,000 enterprise customers on why products are becoming living organisms, agents are dissolving org charts, and generalists are having a renaissance",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f85755a596b57f8bcac3d56b05f95c0d",
-      "title": "7 AI Use Cases Unlocked By Nano Banana",
-      "url": "https://www.youtube.com/watch?v=-6NKS3eJAYE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-28T01:11:11+00:00",
-      "summary": "Today's AI Daily Brief covers the groundbreaking release of Google's Nano Banana image generation model, which has taken the AI community by storm over the past few weeks. Google officially revealed that Nano Banana is actually Gemini 2.5 Flash, now available as a free preview i…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-10T23:13:54.250928+00:00"
+  "generated_at": "2025-09-11T01:11:37.002787+00:00"
 }
