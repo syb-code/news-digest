@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7ea3b9f5dd05516f8e2ab287d5643e94",
+      "title": "AI Skepticism is CANCELLED",
+      "url": "https://www.youtube.com/watch?v=nG2ry5eUX14",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-11T23:47:31+00:00",
+      "summary": "Wall Street just delivered one of the strongest signals yet that the AI boom is real and accelerating. Oracle revealed a record-breaking $300B cloud deal with OpenAI, sending its stock soaring and reshaping the narrative around AI infrastructure. In today’s episode, we break dow…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "942ecc52046a90b221622281a9ca60e6",
       "title": "CPI Inflation Rises — Fed Forced Into Rate Cuts",
       "url": "https://www.youtube.com/watch?v=Kw-wgCnR4QA",
@@ -571,21 +586,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "29f1348f311c4494d7b60bd3ca5b3398",
-      "title": "Apple AI Acquisition?",
-      "url": "https://www.youtube.com/watch?v=xYdZ13UsIwc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-31T12:01:11+00:00",
-      "summary": "Apple is finally getting serious about AI acquisitions to catch up with the competition, with reports suggesting the company is eyeing Mistral AI and Perplexity at billion-dollar valuations. Microsoft unveils their first in-house AI models to reduce OpenAI dependence, while Anth…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-11T23:14:08.130377+00:00"
+  "generated_at": "2025-09-12T01:08:39.570873+00:00"
 }
