@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f7628858bf27258b88020ccaa89eecc4",
+      "title": "Volkswagon's Billion $ AI Bet",
+      "url": "https://www.youtube.com/watch?v=z9uhPpqZgkw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-12T14:14:16+00:00",
+      "summary": "Volkswagen announced plans to invest $1.2 billion in AI by 2030, aiming for “no process without AI.” The company already uses 1,200+ AI applications, with hundreds more in development. Key goals include: AI-powered engineering apps across all brands. Cutting vehicle development …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7ea3b9f5dd05516f8e2ab287d5643e94",
       "title": "AI Skepticism is CANCELLED",
       "url": "https://www.youtube.com/watch?v=nG2ry5eUX14",
@@ -553,21 +568,6 @@
       "source_type": "rss",
       "published": "2025-09-01T11:03:38+00:00",
       "summary": "Watch now | 🎙️ Acolyte Health’s CPTO on using AI to transform stakeholder meetings, create interactive prototypes in minutes, and solve product-engineering debates by building instead of arguing",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b7c008e15c56b424a8759386f2039f08",
-      "title": "The Era of Mass Intelligence Arrives",
-      "url": "https://www.youtube.com/watch?v=oHAgAcdRO6A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-08-31T22:00:06+00:00",
-      "summary": "The era of mass intelligence has arrived - over a billion people now access powerful AI tools thanks to dramatic cost reductions and improved interfaces. This episode explores why AI democratization, not just better benchmarks, is 2025's defining story. From 300x cost improvemen…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-12T13:22:52.015406+00:00"
+  "generated_at": "2025-09-12T15:15:31.713639+00:00"
 }
