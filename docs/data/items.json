@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1e486956302666b9677294bb7ea435f7",
+      "title": "The AI Office Tools That Actually Work",
+      "url": "https://www.youtube.com/watch?v=9qFOzt1IAo8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-12T19:53:31+00:00",
+      "summary": "Today’s AI Daily Brief dug into a new Udacity survey (backed by Accenture) showing that while 90% of workers have tried AI tools, trust remains a major barrier—three in four abandon tools mid-task, half of managers pay out-of-pocket, and many employees use unauthorized apps. Ram…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f7628858bf27258b88020ccaa89eecc4",
       "title": "Volkswagon's Billion $ AI Bet",
       "url": "https://www.youtube.com/watch?v=z9uhPpqZgkw",
@@ -453,21 +468,6 @@
       "published": "2025-09-03T13:01:29+00:00",
       "summary": "Learn more about the new AI Academy from Fundamental Edge: https://www.fundamentedge.com/ai-academy\n\nThere’s no shortage of speculation about how AI will reshape the workforce, but one area where no speculation is needed is the investment industry. AI is already rapidly disrupti…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d1efa8465c124668ceccac0ea9cc0644",
-      "title": "My Autumn AI Predictions",
-      "url": "https://www.youtube.com/watch?v=hI4-Ckg0wn4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-03T02:15:31+00:00",
-      "summary": "Back to school season means back to AI predictions! After a summer of skepticism around the MIT study claiming 95% of AI pilots fail, NLW dives nto what's really coming this fall and beyond. From simmering skepticism to multimodal model progress to the potential for AI M&A, NLW …",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-12T19:12:07.414572+00:00"
+  "generated_at": "2025-09-12T20:16:26.959047+00:00"
 }
