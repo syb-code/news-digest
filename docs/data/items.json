@@ -7,7 +7,7 @@
       "source": "@AIDailyBrief",
       "source_type": "youtube",
       "published": "2025-09-12T19:53:31+00:00",
-      "summary": "Today’s AI Daily Brief dug into a new Udacity survey (backed by Accenture) showing that while 90% of workers have tried AI tools, trust remains a major barrier—three in four abandon tools mid-task, half of managers pay out-of-pocket, and many employees use unauthorized apps. Ram…",
+      "summary": "Not all AI office tools live up to the hype. Today we dig into new surveys, enterprise spending data, and an a16z analysis to uncover which AI tools actually perform in real-world workflows. From slides and spreadsheets to email, research, and meeting notes—we break down the too…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-12T23:13:15.850821+00:00"
+  "generated_at": "2025-09-13T01:05:33.583810+00:00"
 }
