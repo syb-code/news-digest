@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3c70c3b684677da9641212e3e00dd06e",
+      "title": "🧠 Community Wisdom: When leadership asks you to build an AI feature, giving feedback to people outside your team, transitioning from PM to BizOps, building an email verification flow, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-leadership",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-13T15:55:50+00:00",
+      "summary": "Community Wisdom 248",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1e486956302666b9677294bb7ea435f7",
       "title": "The AI Office Tools That Actually Work",
       "url": "https://www.youtube.com/watch?v=9qFOzt1IAo8",
@@ -926,21 +941,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ada3af407810e415fb7de1e4e04a61e5",
-      "title": "Using Veo 3 to create AI-generated music videos, like a Tiny Desk Concert with Notorious B.I.G. and Kurt Cobain",
-      "url": "https://www.lennysnewsletter.com/p/using-veo-3-to-create-ai-generated-music-videos",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-18T11:03:29+00:00",
-      "summary": "Watch now | 🎙️ How a venture capitalist uses AI tools to create nostalgic music videos, catalog personal collections, and manage finances, showing how these technologies enable creative expression for everyone",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "00e79f03d116d9801ae857840169ba37",
       "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
       "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-13T15:12:31.845750+00:00"
+  "generated_at": "2025-09-13T16:16:03.549070+00:00"
 }
