@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "50cf7264c6404fb3b0b083e8bf17ad66",
+      "title": "911,000 Jobs Set To Disappear By February 2026 (Here’s Why)",
+      "url": "https://www.youtube.com/watch?v=x79hwclCJjw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-13T16:48:49+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJack welcomes QI Research’s Danielle DiMartino Booth and Bloomberg Economics’ Chief U.S. Economist Anna Wong to interpret the Bureau of Labor Statistics’ (BLS) recent preliminary 911,000 downwa…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3c70c3b684677da9641212e3e00dd06e",
       "title": "🧠 Community Wisdom: When leadership asks you to build an AI feature, giving feedback to people outside your team, transitioning from PM to BizOps, building an email verification flow, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-leadership",
@@ -1043,19 +1056,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2f0d957e0403b86355b56912f3028e2b",
-      "title": "Stagflation Summer Is Here | Jonny Matthews On Economic Slowdown In U.S. Data",
-      "url": "https://www.youtube.com/watch?v=OfErgY9xWEg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-08T19:22:21+00:00",
-      "summary": "For 26% off to SuperMacro: https://billing.super-macro.com/b/14A5kDfMVeim3VM5ZW7bW06\n\nFor many Jonny Matthews, former PM at Brevan Howard and publisher of SuperMacro, has emphatically rejected the case for a recession in the U.S. Recent economic data is causing him to reevaluate…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "f3b6ca214ee6a5a5514b709b844a87d9",
       "title": "Stock Market 2025 — Crash Coming or Time to Buy?",
       "url": "https://www.youtube.com/watch?v=8oovOhJNAdg",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-13T16:16:03.549070+00:00"
+  "generated_at": "2025-09-13T17:10:58.659463+00:00"
 }
