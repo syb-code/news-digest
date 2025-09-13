@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c963cc0225ac8dc211267b918bfca3b0",
+      "title": "Microsoft Clears OpenAI's Path to For-Profit",
+      "url": "https://www.youtube.com/watch?v=uA34Qyu-bpk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-13T20:30:21+00:00",
+      "summary": "Major developments centered on OpenAI and Microsoft’s evolving partnership. The two companies signed a non-binding MOU that outlines OpenAI’s path to converting into a nonprofit-controlled structure, with the nonprofit gaining a massive equity stake worth over $100 billion—poten…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "50cf7264c6404fb3b0b083e8bf17ad66",
       "title": "911,000 Jobs Set To Disappear By February 2026 (Here’s Why)",
       "url": "https://www.youtube.com/watch?v=x79hwclCJjw",
@@ -452,21 +467,6 @@
       "source_type": "youtube",
       "published": "2025-09-05T00:55:26+00:00",
       "summary": "OpenAI has published a new leadership guide for executives, laying out five principles — align, activate, amplify, accelerate, and govern — designed to help organizations lead in the age of AI. This episode breaks down the most important lessons, the subtext behind OpenAI’s reco…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "867b554d569ad6613e73eeb784e77894",
-      "title": "Is Google Now the AI Leader?",
-      "url": "https://www.youtube.com/watch?v=KphHTLq-ilQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-03T23:32:11+00:00",
-      "summary": "Google’s AI comeback is turning into something bigger. Today’s AI Daily Brief covers whether Google has taken the lead in the AI race, with multimodal breakthroughs, Gemini’s surge, and a huge antitrust win around Chrome. We also dig into Anthropic’s $13B raise at a stunning $18…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-13T20:14:29.472105+00:00"
+  "generated_at": "2025-09-13T21:11:54.008614+00:00"
 }
