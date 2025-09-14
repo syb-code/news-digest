@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4f39af2a232c5b4e8f30af1b1fcc2b77",
+      "title": "The AI Slopocalypse",
+      "url": "https://www.youtube.com/watch?v=-RzMjdmPGIA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-14T11:07:47+00:00",
+      "summary": "A new AI-first podcast studio is churning out 3,000 episodes a week at a cost of just $1 per show. Is this the future of content creation in the agentic era—or the end of podcasting as we know it? Nathaniel Whittemore breaks down the economics, the backlash, and why the real cha…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "96c1fe525a71ecd7123f04e1fce996f7",
       "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
       "url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-aeo-ethan-smith",
@@ -465,21 +480,6 @@
       "source_type": "youtube",
       "published": "2025-09-05T13:34:37+00:00",
       "summary": "Apple may finally be making its big AI move, and it could come through a surprise partnership with Google. Bloomberg reports Apple is testing a new AI-powered search engine, World Knowledge Answers, that would power a rebuilt Siri and possibly Spotlight and Safari. \n\nBrought to …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "88c3c793778ef617902629ed72ab82d3",
-      "title": "How to Be An AI Leader (According to OpenAI)",
-      "url": "https://www.youtube.com/watch?v=oU4gV5aIQ34",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-05T00:55:26+00:00",
-      "summary": "OpenAI has published a new leadership guide for executives, laying out five principles — align, activate, amplify, accelerate, and govern — designed to help organizations lead in the age of AI. This episode breaks down the most important lessons, the subtext behind OpenAI’s reco…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-14T11:10:35.990866+00:00"
+  "generated_at": "2025-09-14T12:27:20.288585+00:00"
 }
