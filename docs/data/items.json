@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "96c1fe525a71ecd7123f04e1fce996f7",
+      "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
+      "url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-aeo-ethan-smith",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-14T11:03:23+00:00",
+      "summary": "🎙️ Graphite's CEO on why ChatGPT is driving more qualified leads than Google, how to optimize for Reddit without spamming, and why early-stage startups can win at AEO when they couldn't at SEO",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "c963cc0225ac8dc211267b918bfca3b0",
       "title": "Microsoft Clears OpenAI's Path to For-Profit",
       "url": "https://www.youtube.com/watch?v=uA34Qyu-bpk",
@@ -913,21 +926,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4edb3d5dedce0016bab1864a6b777eaa",
-      "title": "Why your AI product needs a different development lifecycle",
-      "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different-2ea",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-19T09:01:15+00:00",
-      "summary": "Introducing the Continuous Calibration/Continuous Development (CC/CD) framework",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fede5bd212462269e2656a1032a20b64",
       "title": "Biggest Trade Shock Since Civil War | Trade Historian Douglas Irwin on Tariffs",
       "url": "https://www.youtube.com/watch?v=dG-gI0vzAb4",
@@ -1798,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-14T10:13:17.767142+00:00"
+  "generated_at": "2025-09-14T11:10:35.990866+00:00"
 }
