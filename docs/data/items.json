@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "080bfa94b5013bbd30c8570f3c54a12d",
+      "title": "How I built an Apple Watch workout app using Cursor and Xcode (with zero mobile-app experience) | Terry Lin",
+      "url": "https://www.lennysnewsletter.com/p/how-i-built-an-apple-watch-workout-app",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-15T11:03:36+00:00",
+      "summary": "🎙️ How a product manager used Cursor, Xcode, and a structured AI workflow to build a voice-powered fitness tracker that works seamlessly across iPhone and Apple Watch",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4f39af2a232c5b4e8f30af1b1fcc2b77",
       "title": "The AI Slopocalypse",
       "url": "https://www.youtube.com/watch?v=-RzMjdmPGIA",
@@ -911,21 +926,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ebf9928cb54f70b499f26db7aa828af5",
-      "title": "Why your AI product needs a different development lifecycle",
-      "url": "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-19T12:31:00+00:00",
-      "summary": "Introducing the Continuous Calibration/Continuous Development (CC/CD) framework",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fede5bd212462269e2656a1032a20b64",
       "title": "Biggest Trade Shock Since Civil War | Trade Historian Douglas Irwin on Tariffs",
       "url": "https://www.youtube.com/watch?v=dG-gI0vzAb4",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-15T10:16:57.888939+00:00"
+  "generated_at": "2025-09-15T11:13:03.164977+00:00"
 }
