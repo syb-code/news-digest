@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c54e912caac73991aa5e6ed452801e7b",
+      "title": "How to Get to AGI",
+      "url": "https://www.youtube.com/watch?v=zNbM93cmrms",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-15T22:57:07+00:00",
+      "summary": "There's still an ongoing heated debate about what it will take to reach Artificial General Intelligence (AGI). The conversation centered on Google DeepMind CEO Demis Hassabis’ remarks at the All-In Summit, where he predicted AGI could arrive within 5–10 years and trigger a new g…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ca63596ee042a4fc7267544f5662ae0c",
       "title": "Are We Headed for a DOUBLE-DIP Recession?",
       "url": "https://www.youtube.com/shorts/rk-a44W_bQE",
@@ -512,21 +525,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e02960836b9517fe905bce2638a71c8c",
-      "title": "Apple to Finally Make an AI Play",
-      "url": "https://www.youtube.com/watch?v=_6yj0sapa5Q",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-05T13:34:37+00:00",
-      "summary": "Apple may finally be making its big AI move, and it could come through a surprise partnership with Google. Bloomberg reports Apple is testing a new AI-powered search engine, World Knowledge Answers, that would power a rebuilt Siri and possibly Spotlight and Safari. \n\nBrought to …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1795,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-15T22:13:37.695317+00:00"
+  "generated_at": "2025-09-15T23:13:14.477824+00:00"
 }
