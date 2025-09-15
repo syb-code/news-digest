@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ca63596ee042a4fc7267544f5662ae0c",
+      "title": "Are We Headed for a DOUBLE-DIP Recession?",
+      "url": "https://www.youtube.com/shorts/rk-a44W_bQE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-15T17:21:35+00:00",
+      "summary": "Economists Danielle DiMartino Booth of QI Research and Anna Wong, Chief U.S. Economist at Bloomberg, join host Jack Farley to discuss the preliminary stages of a potential double-dip recession.\n\nThey break down why the labor market is deteriorating, why job destruction may have …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "903439832a1bdbdde127d21338d4a6cf",
       "title": "Stock Market Bubble To Deflate By 2027 | Rob Arnott",
       "url": "https://www.youtube.com/watch?v=JtTsbNV6gZw",
@@ -997,22 +1010,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b7d49b5ff29db20526f9236c7884721a",
-      "title": "Wall Street is Crushing Main Street with Jack & Max",
-      "url": "https://www.youtube.com/watch?v=J-wYtrv0hZE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-14T12:35:35+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe break down recent economic data on inflation and the labor market, the parade of positive earnings repor…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5c7e9f75b4c97f699e6998acbc5118c4",
       "title": "Deep Learning Weekly: Issue 417",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
@@ -1798,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-15T17:13:23.109717+00:00"
+  "generated_at": "2025-09-15T18:22:03.810736+00:00"
 }
