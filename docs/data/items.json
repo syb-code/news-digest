@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "f6b0851777023b1a4df38567252c951a",
+      "title": "How to develop product sense",
+      "url": "https://www.lennysnewsletter.com/p/how-to-develop-product-sense",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-16T13:03:22+00:00",
+      "summary": "With guest author Jules Walter",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1c3ba1c1bd7072a512e41ea24f85bcf8",
+      "title": "Who Is Anthropic's $1.5B Author Settlement Good For?",
+      "url": "https://www.youtube.com/watch?v=00d-6NiZJFo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-16T13:02:40+00:00",
+      "summary": "This Headlines edition opens with the historic $1.5 billion settlement between Anthropic and authors—the largest in U.S. copyright history. The deal resolves claims of pirated training data and will pay out modest sums to affected authors, sparking debate over whether the outcom…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c54e912caac73991aa5e6ed452801e7b",
       "title": "How to Get to AGI",
       "url": "https://www.youtube.com/watch?v=zNbM93cmrms",
@@ -501,21 +529,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b23481da761f4690d3ddc332f2da611d",
-      "title": "OpenAI Launches Jobs and Certifications",
-      "url": "https://www.youtube.com/watch?v=voy-VDg0iNU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-05T21:31:06+00:00",
-      "summary": "OpenAI just launched a jobs platform and AI certifications, sparking debate over whether it’s ambition, anxiety management, or a lack of focus. We dig into what’s really going on and why it matters. Plus: ChatGPT adds branching conversations, Lovable shifts its success metrics, …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "82e8833c91335d906946c3fab7d133b8",
       "title": "Jobs Report Disaster — Fed Forced to Cut Rates More Quickly",
       "url": "https://www.youtube.com/watch?v=ULjrJ605UUk",
@@ -895,21 +908,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d1340ca07fb6eedcc42b515e0bacd726",
-      "title": "How Intercom rose from the ashes by betting everything on AI | Eoghan McCabe (founder and CEO)",
-      "url": "https://www.lennysnewsletter.com/p/how-intercom-rose-from-the-ashes-eoghan-mccabe",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-21T11:03:16+00:00",
-      "summary": "Listen now | 🎙️ Intercom's founder on betting $100M on AI, turning around a stagnant business, why he fired 40% of employees, and why you can't compete without working as hard as \"the kids\"",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-16T12:32:27.075570+00:00"
+  "generated_at": "2025-09-16T13:25:49.301141+00:00"
 }
