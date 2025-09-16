@@ -7,10 +7,12 @@
       "source": "@AIDailyBrief",
       "source_type": "youtube",
       "published": "2025-09-15T22:57:07+00:00",
-      "summary": "There's still an ongoing heated debate about what it will take to reach Artificial General Intelligence (AGI). The conversation centered on Google DeepMind CEO Demis Hassabis’ remarks at the All-In Summit, where he predicted AGI could arrive within 5–10 years and trigger a new g…",
+      "summary": "What will it actually take to get to AGI? Today we unpack the “jagged frontier” of AI capabilities — systems that can dazzle at PhD-level reasoning one moment but stumble on high school math the next. We look at Demis Hassabis’ timeline and critique of current models, the debate…",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [],
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -1793,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-15T23:13:14.477824+00:00"
+  "generated_at": "2025-09-16T01:09:57.258867+00:00"
 }
