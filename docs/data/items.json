@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "229e3792143978c353b5c2ea492a1366",
+      "title": "GPT-5-Codex and the Year of Agentic Coding",
+      "url": "https://www.youtube.com/watch?v=B-uiK-zid_A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-16T23:16:31+00:00",
+      "summary": "Today on the AI Daily Brief, OpenAI launches GPT 5 Codex, a model designed for real-world software engineering with dynamic reasoning, long-task persistence, and powerful code review capabilities. We break down why this release cements 2025 as the year of agentic coding and what…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9421290143470dd5516f3624c12eddae",
       "title": "Hedge Fund Manager Who Has Crushed the S&P 500 “Most Investors Don’t Understand Real Investing”",
       "url": "https://www.youtube.com/watch?v=bifiTb2FIgc",
@@ -492,21 +507,6 @@
       "published": "2025-09-07T16:41:14+00:00",
       "summary": "This episode of Monetary Matters is a Sponsored Fireside Chat brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nThe AI revolution ha…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "15afec6380cde1096ad15d05c5679cd5",
-      "title": "For the Agent Era, Work Charts Beat Org Charts",
-      "url": "https://www.youtube.com/watch?v=yCa1-UNg0N4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-07T13:00:06+00:00",
-      "summary": "As AI and Agents come online, the modern enterprise is changing. As it does, we need totally new ways of thinking about how to organize work. NLW explores the idea that the \"work chart\" is a better organizing tool than the \"org chart\" for this new agentic era. \n\nThe AI Daily Bri…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1793,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-16T23:11:50.077006+00:00"
+  "generated_at": "2025-09-17T01:09:36.890126+00:00"
 }
