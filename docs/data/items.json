@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "75f893f80a5605124fa701720c11f95f",
+      "title": "Is This a Bubble? 100x Sales & Unprecedented Market Weight",
+      "url": "https://www.youtube.com/shorts/aIjPeoJOqjo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-17T12:45:00+00:00",
+      "summary": "Research Affiliates founder Rob Arnott joins Jack Farley on the Monetary Matters Podcast to discuss why today’s U.S. stock market is more concentrated than any point in history.\n\nThe five largest companies now make up nearly 30% of the S&P 500, almost double the concentration at…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "229e3792143978c353b5c2ea492a1366",
       "title": "GPT-5-Codex and the Year of Agentic Coding",
       "url": "https://www.youtube.com/watch?v=B-uiK-zid_A",
@@ -952,19 +965,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "97c4d0aa271469204f4a4a12fe908be7",
-      "title": "The Golden Age of Commodities Trading | This Hedge Fund Has Crushed the S&P 500",
-      "url": "https://www.youtube.com/watch?v=tvC2SaLBycY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-19T13:01:39+00:00",
-      "summary": "Tor Svelland, CIO and Founder of Svelland Capital, has annualized over 18.5% net of fees since inception in 2017 in their strategy that trades a combination of commodity futures, commodity linked equities, freight derivatives, energy transition linked companies, and electricity …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8df2b169ce2f4a26316d5c69236a77a6",
       "title": "Term Loan for Small Businesses — Watch This BEFORE You Need One",
       "url": "https://www.youtube.com/watch?v=g1oMv_NmRdM",
@@ -1793,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-17T12:32:19.962553+00:00"
+  "generated_at": "2025-09-17T13:24:43.226707+00:00"
 }
