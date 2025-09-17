@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "baba41d1eb265b51d5276a8fde3cd014",
+      "title": "Gemini Nano-Banana's Its Way to #1",
+      "url": "https://www.youtube.com/watch?v=jX7e9BLGuAI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-17T17:23:36+00:00",
+      "summary": "Google’s Gemini app has overtaken ChatGPT at the top of the App Store, fueled by viral interest in its Nano Banana image model, which transforms base images into 3D figures. This surge brought 13 million new users in four days, boosted Google’s valuation past $3 trillion, and si…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "75f893f80a5605124fa701720c11f95f",
       "title": "Is This a Bubble? 100x Sales & Unprecedented Market Weight",
       "url": "https://www.youtube.com/shorts/aIjPeoJOqjo",
@@ -489,21 +502,6 @@
       "source_type": "rss",
       "published": "2025-09-08T11:03:38+00:00",
       "summary": "Watch now | 🎙️Cognition Labs’ CEO shares how his team uses their AI coding agent Devin as a first-line responder for engineering tasks, multiplayer problem-solving, and asynchronous development",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2f55b0a557ff29a8ed38b530fec894cf",
-      "title": "ChatGPT Gets Awesome New Branching Convos Feature",
-      "url": "https://www.youtube.com/watch?v=Xxs3W2caRVw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-08T00:14:16+00:00",
-      "summary": "OpenAI has finally added a long-requested ChatGPT feature: the ability to branch conversations, making it easier to explore different directions without losing context. This move ties into Sam Altman’s vision of better memory and context control for future models.\n\nBrought to yo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1793,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-17T17:13:00.802197+00:00"
+  "generated_at": "2025-09-17T18:21:43.276835+00:00"
 }
