@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dfa7e96458b85286733f79f462141c9c",
+      "title": "Fed Launches Aggressive Rate Cuts — Melt-Up to Continue",
+      "url": "https://www.youtube.com/watch?v=GcMyusQpGE0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-09-17T22:49:27+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "baba41d1eb265b51d5276a8fde3cd014",
       "title": "Gemini Nano-Banana's Its Way to #1",
       "url": "https://www.youtube.com/watch?v=jX7e9BLGuAI",
@@ -1122,19 +1137,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0579a4fa2bdd94b702141496eef5048b",
-      "title": "Trump’s Tariffs Are Back — What This Means for Investors",
-      "url": "https://www.youtube.com/watch?v=qcj4XA0BG0Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-04T16:00:53+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8698acc7858a3b33da0ec0259acca8bb",
       "title": "You don’t need better UX. You need fewer decisions",
       "url": "https://designplusai.com/p/you-dont-need-better-ux-you-need",
@@ -1791,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-17T22:13:37.224363+00:00"
+  "generated_at": "2025-09-17T23:13:24.636130+00:00"
 }
