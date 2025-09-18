@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "60751ae5cde62a2020e378adbbf68b87",
+      "title": "How People Actually Use ChatGPT",
+      "url": "https://www.youtube.com/watch?v=l4r6qPeYr7g",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-18T00:35:01+00:00",
+      "summary": "This episode of AI Daily Brief dives into two important reports on how people are really using AI tools like ChatGPT and Claude. OpenAI’s massive study with Harvard and NBER reveals consumer patterns across 1.5 million conversations, while Anthropic’s Economic Index tracks broad…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dfa7e96458b85286733f79f462141c9c",
       "title": "Fed Launches Aggressive Rate Cuts — Melt-Up to Continue",
       "url": "https://www.youtube.com/watch?v=GcMyusQpGE0",
@@ -491,22 +506,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8bc7d5c7ab3e7c1e81a319dd1cd394d5",
-      "title": "Anthropic Confirms Monster Funding Round After 500% Revenue Growth",
-      "url": "https://www.youtube.com/watch?v=mc88rthLZzY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-08T12:42:30+00:00",
-      "summary": "We cover the massive funding rounds and talent shake-ups reshaping the AI landscape. Anthropic just closed a record $13 billion funding round at an $183 billion valuation, tripling their size since February, while OpenAI restructures with a $1.1 billion StatSig acquisition and n…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1793,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-17T23:13:24.636130+00:00"
+  "generated_at": "2025-09-18T01:09:21.861063+00:00"
 }
