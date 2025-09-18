@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4890d764fd6266f0aa19632f5be96aab",
+      "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
+      "url": "https://www.lennysnewsletter.com/p/experts-writing-ai-evals-brendan-foody",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-18T11:03:20+00:00",
+      "summary": "Listen now | 🎙️ Mercor’s founder on growing from $1M to $500M in 17 months, why evals are the biggest bottleneck for AI labs, which specific skills will remain valuable, and why he doesn’t expect AGI anytime soon",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "60751ae5cde62a2020e378adbbf68b87",
       "title": "How People Actually Use ChatGPT",
       "url": "https://www.youtube.com/watch?v=l4r6qPeYr7g",
@@ -907,19 +922,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "588c6a9439e7fb7f6e961c76a11e45f6",
-      "title": "🧠 Community Wisdom: Sales 101 for engineers, standing out in the interview process, career transition after product management, how to push back on unrealistic role expansion, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-sales-101-for-engineers",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-23T16:38:29+00:00",
-      "summary": "Community Wisdom 245",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "68d36d7e64b8c35f16ff00453c4efad4",
       "title": "The Fed Signals September Rate Cuts at Jackson Hole (Markets Rip) | Jack & Max",
       "url": "https://www.youtube.com/watch?v=UsViaQYzTG4",
@@ -1792,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-18T10:15:59.722493+00:00"
+  "generated_at": "2025-09-18T11:12:35.441278+00:00"
 }
