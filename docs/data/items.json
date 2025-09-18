@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "45f238c369e1d2756e661b2174ea55ce",
+      "title": "AI Just Beat the World's Best Coders",
+      "url": "https://www.youtube.com/watch?v=eliZBT8iRoQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-18T15:58:46+00:00",
+      "summary": "AI just scored a historic win in the International Collegiate Programming Contest, with OpenAI’s GPT-5 and Google’s DeepMind outperforming nearly every human team. The discussion focuses on whether this marks a real inflection point for AI, shifting from competition success to t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e3a4f2c2b2b0c118f2f2b618d4547134",
       "title": "Deep Learning Weekly: Issue 422",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-422",
@@ -446,23 +461,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "787ec512efd6c2238862f4dfcb50aa5e",
-      "title": "AI Generated Code Reaching 50% in Some Companies",
-      "url": "https://www.youtube.com/watch?v=ePCct0GVmDU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-10T01:26:26+00:00",
-      "summary": "Today on the AI Daily Brief: AI isn’t just helping engineers anymore—it’s writing nearly half the code at companies like Robinhood and Coinbase, with some leaders saying human-written code is now in the minority. We explore what this milestone means for software development, the…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1794,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-18T21:14:06.463509+00:00"
+  "generated_at": "2025-09-18T22:12:47.640320+00:00"
 }
