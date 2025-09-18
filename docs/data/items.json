@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "e3a4f2c2b2b0c118f2f2b618d4547134",
+      "title": "Deep Learning Weekly: Issue 422",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-422",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-09-18T15:01:47+00:00",
+      "summary": "The Ultimate Guide to LLM Evaluation: Metrics, Methods & Best Practices, How to Train an LLM-RecSys Hybrid for Steerable Recs with Semantic IDs, a paper on Hierarchical Reasoning Model, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f63813ed3e5d6a3a805884118ce91bef",
+      "title": "After MCP and A2A, Meet AP2",
+      "url": "https://www.youtube.com/watch?v=vxRe33XUMQY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-18T14:38:51+00:00",
+      "summary": "Google has launched the Agents Payment Protocol (AP2), a new standard designed to make agent-led commerce secure and auditable, with support from over 60 major finance and tech partners. YouTube unveiled powerful AI features for creators, including automated video editing, style…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4890d764fd6266f0aa19632f5be96aab",
       "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
       "url": "https://www.lennysnewsletter.com/p/experts-writing-ai-evals-brendan-foody",
@@ -488,21 +518,6 @@
       "source_type": "rss",
       "published": "2025-09-09T09:02:31+00:00",
       "summary": "Over the past weeks I collected my favorite prompts and turned them into one \"master directory\" so you can just copy + paste what you need.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "acfc4c82e7e9dcf682de0c1848f74f9f",
-      "title": "5 Debates Shaping AI",
-      "url": "https://www.youtube.com/watch?v=C_ep8yKwx-0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-08T22:59:41+00:00",
-      "summary": "AI is at the center of five big debates: is massive AI spending fueling real growth or just a bubble, will entry-level jobs vanish, does AI truly boost productivity, is vibe coding overhyped, and should we accelerate or slow down with open-source and policy? These questions capt…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1777,22 +1792,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "07a4c2c8f3e0b8491e77aaa897fea94b",
-      "title": "Deep Learning Weekly: Issue 402",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-402",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-05-01T14:01:46+00:00",
-      "summary": "Convergence 2025: GenAI Engineering One Line at a Time, ChatGPT's Sycophancy, a paper on Workshop-Level Automated Scientific Discovery via Agentic Tree Search, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-18T14:15:55.655113+00:00"
+  "generated_at": "2025-09-18T15:16:31.694561+00:00"
 }
