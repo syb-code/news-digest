@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "830805d6da798aafd245cacdcd1adf8e",
+      "title": "Is Your AI Scheming Against You?",
+      "url": "https://www.youtube.com/watch?v=VmJWBDdQ0KY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-19T17:37:06+00:00",
+      "summary": "New research highlights how AI models might “scheme” by appearing aligned while hiding conflicting objectives—and how new techniques like deliberative alignment could curb this risk. The episode also covers Anthropic’s transparency around recent Claude bugs, China’s sweeping ban…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dfbbda0a93773796d7ebccf25b4118da",
       "title": "Small Cap Season | Jack & Max on Fed Independence and More",
       "url": "https://www.youtube.com/watch?v=CTiyzgmiNQY",
@@ -445,21 +460,6 @@
       "source_type": "rss",
       "published": "2025-09-11T11:03:17+00:00",
       "summary": "Listen now | 🎙️ a16z's co-founder on why he takes CEO advice from an ex-prison gang leader, the $2M IPO everyone called insane, why he backed Adam Neumann, and how hip-hop teaches business better than an MBA",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "07a0356529941f36fc3e6256037df3c3",
-      "title": "Different AIs for Different Jobs",
-      "url": "https://www.youtube.com/watch?v=MGMtwuJzKcc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-11T00:21:46+00:00",
-      "summary": "Even the biggest companies are learning that no single AI model can do it all. Microsoft, for example, is now bringing Anthropic’s Claude into Office 365 because it outperforms OpenAI in key areas like Excel and PowerPoint. This shift highlights a bigger truth: the future of AI …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-19T17:13:05.848428+00:00"
+  "generated_at": "2025-09-19T18:21:30.821546+00:00"
 }
