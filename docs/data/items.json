@@ -1,6 +1,39 @@
 {
   "items": [
     {
+      "id": "dfbbda0a93773796d7ebccf25b4118da",
+      "title": "Small Cap Season | Jack & Max on Fed Independence and More",
+      "url": "https://www.youtube.com/watch?v=CTiyzgmiNQY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-19T14:43:53+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai.\nSign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nJack and Max break down the September Fed meeting, threats to Federal Reserve Independence, and several stocks such as Acuren, Fra…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8a5cfe3f8ed92e6ddecbd69ae59b6ee9",
+      "title": "The Great Melt-Up Continues — Fed Rate Cuts to Fuel Stocks, Gold, Bitcoin",
+      "url": "https://www.youtube.com/watch?v=JREZlI9fSOw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-09-19T14:33:46+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Crypto",
+        "Macro/Fed",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "45f238c369e1d2756e661b2174ea55ce",
       "title": "AI Just Beat the World's Best Coders",
       "url": "https://www.youtube.com/watch?v=eliZBT8iRoQ",
@@ -935,22 +968,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "68d36d7e64b8c35f16ff00453c4efad4",
-      "title": "The Fed Signals September Rate Cuts at Jackson Hole (Markets Rip) | Jack & Max",
-      "url": "https://www.youtube.com/watch?v=UsViaQYzTG4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-22T20:03:04+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe break down Jerome Powell’s Jackson Hole speech that markets have interpreted as signaling rate cuts are …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "695a475534d02454ef34bde5de9161a0",
       "title": "Stocks Rally on September Rate Cut — Jackson Hole Speech Changes Everything",
       "url": "https://www.youtube.com/watch?v=S5wwqMPvuLg",
@@ -1102,21 +1119,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "de814d941d63fcf0ddad4b9efffdccac",
-      "title": "94.9% Chance of Interest Rate Cut in Sept – The Fed is in Trouble!",
-      "url": "https://www.youtube.com/watch?v=oPa8EGD92Ws",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-06T16:01:36+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1792,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-19T14:14:47.550293+00:00"
+  "generated_at": "2025-09-19T15:15:42.663427+00:00"
 }
