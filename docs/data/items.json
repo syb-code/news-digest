@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1c5b8069cda2c5e104e9689b3214d648",
+      "title": "Can Microsoft Survive the AI Era?",
+      "url": "https://www.youtube.com/watch?v=3kvHLvVufD4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-20T15:32:56+00:00",
+      "summary": "Microsoft’s future in the AI era is under the microscope as CEO Satya Nadella warns of the risks of becoming the next DEC—once great, now forgotten. Despite early momentum with OpenAI, the company has stumbled with Copilot adoption, employee morale, and strategy, even as it doub…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0521914465b9dda94ee9804eb971d43a",
       "title": "AI Agent Deployments Quadruple in 2025",
       "url": "https://www.youtube.com/watch?v=ZlHcSsJdtuI",
@@ -421,21 +436,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d9c5bb0162d06b510851eaabb826f374",
-      "title": "On Blind Tests, People Prefer GPT-5",
-      "url": "https://www.youtube.com/watch?v=RpFoED17fnQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-11T20:02:16+00:00",
-      "summary": "Surprising results from blind tests showing people actually prefer GPT-5 over GPT-4o, despite the massive outcry when OpenAI deprecated the older model. An anonymous developer created a blind testing app that revealed overwhelming user preference for GPT-5's more human-like resp…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-20T15:13:26.196811+00:00"
+  "generated_at": "2025-09-20T16:16:35.955362+00:00"
 }
