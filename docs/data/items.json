@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0521914465b9dda94ee9804eb971d43a",
+      "title": "AI Agent Deployments Quadruple in 2025",
+      "url": "https://www.youtube.com/watch?v=ZlHcSsJdtuI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-19T23:09:26+00:00",
+      "summary": "The latest KPMG AI Pulse survey offers a real-time report card on enterprise AI adoption, showing how fast large organizations are moving from exploration to deployment. The data highlights three major themes: agent deployments quadrupling in under a year, workforce resistance g…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "830805d6da798aafd245cacdcd1adf8e",
       "title": "Is Your AI Scheming Against You?",
       "url": "https://www.youtube.com/watch?v=VmJWBDdQ0KY",
@@ -435,21 +450,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5025eb1c6367d6520450f62ddc37ccb8",
-      "title": "ChatGPT Makes a Movie",
-      "url": "https://www.youtube.com/watch?v=n8YS447MdKU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-11T14:15:06+00:00",
-      "summary": "OpenAI enters filmmaking: The company is backing Critters (with a Z), a $30M animated feature aimed at Cannes 2025. Creative specialist Chad Nelson, who previously experimented with OpenAI’s early DALL·E, is leading the project with Vertigo Films. The team plans to combine human…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-19T23:13:31.209250+00:00"
+  "generated_at": "2025-09-20T01:08:19.878207+00:00"
 }
