@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "20b9b4ff53e6a51a9c28a3cb8b81c611",
+      "title": "🧠 Community Wisdom: AMA with Yuhki Yamashita + How to price a niche B2B product, consumer PM vs. enterprise PM, validating PMF without customers, when you need email verification, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ama-with-yuhki-yamashita-74d",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-20T18:06:07+00:00",
+      "summary": "Community Wisdom 249",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1c5b8069cda2c5e104e9689b3214d648",
       "title": "Can Microsoft Survive the AI Era?",
       "url": "https://www.youtube.com/watch?v=3kvHLvVufD4",
@@ -953,21 +968,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "23b32fd1467f439ac380972827d6d32c",
-      "title": "Inside the expert network training every frontier AI model | Garrett Lord (Handshake CEO)",
-      "url": "https://www.lennysnewsletter.com/p/inside-handshake-garrett-lord",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-24T11:02:51+00:00",
-      "summary": "Listen now | 🎙️ Inside the hidden economy of AI training: how PhDs make $200/hour breaking ChatGPT, why frontier labs have unlimited demand for human expertise, and the accidental $100M pivot no one saw coming",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "695a475534d02454ef34bde5de9161a0",
       "title": "Stocks Rally on September Rate Cut — Jackson Hole Speech Changes Everything",
       "url": "https://www.youtube.com/watch?v=S5wwqMPvuLg",
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-20T17:11:31.894871+00:00"
+  "generated_at": "2025-09-20T18:19:08.896777+00:00"
 }
