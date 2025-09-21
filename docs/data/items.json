@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "58f214b2f348de8419eec08b652555b3",
+      "title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo (Facebook VP, Sundial CEO, The Making of a Manager author)",
+      "url": "https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-21T11:03:00+00:00",
+      "summary": "Listen now | 🎙️ The author of The Making of a Manager on why AI is making teams smaller, how to give feedback that sticks, and why the best managers will thrive in an agentic future",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "20b9b4ff53e6a51a9c28a3cb8b81c611",
       "title": "🧠 Community Wisdom: AMA with Yuhki Yamashita + How to price a niche B2B product, consumer PM vs. enterprise PM, validating PMF without customers, when you need email verification, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-ama-with-yuhki-yamashita-74d",
@@ -955,19 +970,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "48104c6a55648e9c46604de0a2f70cbe",
-      "title": "How to digest 36 weekly podcasts without spending 36 hours listening | Tomasz Tunguz (Theory Ventures)",
-      "url": "https://www.lennysnewsletter.com/p/how-to-digest-36-weekly-podcasts",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-25T11:03:35+00:00",
-      "summary": "Watch now | 🎙️ Tomasz Tunguz shares his terminal-based system for transforming podcasts into actionable insights and blog-worthy content",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "695a475534d02454ef34bde5de9161a0",
       "title": "Stocks Rally on September Rate Cut — Jackson Hole Speech Changes Everything",
       "url": "https://www.youtube.com/watch?v=S5wwqMPvuLg",
@@ -1794,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-21T10:14:39.942927+00:00"
+  "generated_at": "2025-09-21T11:10:55.955331+00:00"
 }
