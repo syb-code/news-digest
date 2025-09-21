@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "a11eb074f242bc12967e6feb239d8d40",
+      "title": "Winning Teams Hire Founders",
+      "url": "https://designplusai.com/p/winning-teams-hire-founders",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-21T13:14:53+00:00",
+      "summary": "The best companies aren’t run by people doing jobs.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a6cba2cf64edd2520c65f7dc9c9cbfc3",
+      "title": "The Truth About the AI Bubble",
+      "url": "https://www.youtube.com/watch?v=DPFNiLW_yqg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-21T12:20:06+00:00",
+      "summary": "Is AI in a bubble, or just experiencing one of history’s biggest booms? This episode breaks down Azeem Azhar’s 5-guage framework for evaluating whether AI is bubble territory—or still solidly in growth mode. From trillions in CapEx spending and surging enterprise demand to valua…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "58f214b2f348de8419eec08b652555b3",
       "title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo (Facebook VP, Sundial CEO, The Making of a Manager author)",
       "url": "https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo",
@@ -432,21 +460,6 @@
       "source_type": "youtube",
       "published": "2025-09-12T14:14:16+00:00",
       "summary": "Volkswagen announced plans to invest $1.2 billion in AI by 2030, aiming for “no process without AI.” The company already uses 1,200+ AI applications, with hundreds more in development. Key goals include: AI-powered engineering apps across all brands. Cutting vehicle development …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7ea3b9f5dd05516f8e2ab287d5643e94",
-      "title": "AI Skepticism is CANCELLED",
-      "url": "https://www.youtube.com/watch?v=nG2ry5eUX14",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-11T23:47:31+00:00",
-      "summary": "Wall Street just delivered one of the strongest signals yet that the AI boom is real and accelerating. Oracle revealed a record-breaking $300B cloud deal with OpenAI, sending its stock soaring and reshaping the narrative around AI infrastructure. In today’s episode, we break dow…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1708,19 +1721,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "59d74aa146def1bf388f387faf2a4228",
-      "title": "Career Advice: Don't send a CV",
-      "url": "https://designplusai.com/p/career-advice-dont-send-a-cv",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-04T13:21:00+00:00",
-      "summary": "Instead, build a personal website with Lovable.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "c563370e159afa80d2b7789fb2a89555",
       "title": "LWiAI Podcast #211 - Claude Voice, Flux Kontext, wrong RL research?",
       "url": "https://lastweekin.ai/p/lwiai-podcast-211-claude-voice-flux",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-21T12:28:52.605754+00:00"
+  "generated_at": "2025-09-21T13:19:19.967179+00:00"
 }
