@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b8c2111f6cff481d1ce29af74d72453d",
+      "title": "Last Week in AI #322 - Robotaxi progress, OpenAI Business, Gemini in Chrome",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-322-robotaxi-progress",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-22T15:01:57+00:00",
+      "summary": "Amazon's Zoox jumps into U.S. robotaxi race with Las Vegas launch, OpenAI secures Microsoft’s blessing to transition its for-profit arm, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "23b9be43c0789d2d1305fdeb2c75b546",
       "title": "The beginner's guide to coding with Cursor | Lee Robinson (Head of AI education)",
       "url": "https://www.lennysnewsletter.com/p/the-beginners-guide-to-coding-with",
@@ -1723,21 +1738,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c563370e159afa80d2b7789fb2a89555",
-      "title": "LWiAI Podcast #211 - Claude Voice, Flux Kontext, wrong RL research?",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-211-claude-voice-flux",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-03T16:28:13+00:00",
-      "summary": "Anthropic launches a voice mode for Claude, Black Forest Labs’ Kontext AI models can edit pics as well as generate them, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ac8c8adfb3d3c12922d94e2116f958b3",
       "title": "Deep Learning Weekly: Issue 406",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-406",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-22T14:16:37.741231+00:00"
+  "generated_at": "2025-09-22T15:17:21.974058+00:00"
 }
