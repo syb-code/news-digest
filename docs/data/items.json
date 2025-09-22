@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "5fe6a2de25bc73f0d0f8463241b09de4",
+      "title": "Trump Gaining Control of the Fed — What’s Ahead in 2026",
+      "url": "https://www.youtube.com/watch?v=YLmhm-04mu0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-09-22T16:01:03+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b8c2111f6cff481d1ce29af74d72453d",
       "title": "Last Week in AI #322 - Robotaxi progress, OpenAI Business, Gemini in Chrome",
       "url": "https://lastweekin.ai/p/last-week-in-ai-322-robotaxi-progress",
@@ -1127,19 +1143,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f3b6ca214ee6a5a5514b709b844a87d9",
-      "title": "Stock Market 2025 — Crash Coming or Time to Buy?",
-      "url": "https://www.youtube.com/watch?v=8oovOhJNAdg",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-08T16:00:17+00:00",
-      "summary": "💵 Free Stock Market Account (Brokerage Account) that I use (sign-up bonus included): https://a.webull.com/i/ClearValueTax\n\n📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "7bf483b662588104f724d1eac1ae7679",
       "title": "Last Week in AI #318 - OpenAI OSS models, Opus 4.1, Gemini 2.5 Deep Think",
       "url": "https://lastweekin.ai/p/last-week-in-ai-318-openai-oss-models",
@@ -1798,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-22T15:17:21.974058+00:00"
+  "generated_at": "2025-09-22T16:19:58.500171+00:00"
 }
