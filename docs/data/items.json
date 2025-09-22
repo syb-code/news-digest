@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "23b9be43c0789d2d1305fdeb2c75b546",
+      "title": "The beginner's guide to coding with Cursor | Lee Robinson (Head of AI education)",
+      "url": "https://www.lennysnewsletter.com/p/the-beginners-guide-to-coding-with",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-22T11:04:20+00:00",
+      "summary": "Watch now | 🎙️How to leverage Cursor's AI-powered code editor to automate tasks, clean up your code, and make software development more accessible—whether you're a seasoned engineer or a beginner",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a11eb074f242bc12967e6feb239d8d40",
       "title": "Winning Teams Hire Founders",
       "url": "https://designplusai.com/p/winning-teams-hire-founders",
@@ -942,19 +957,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c4118d853c7dfe8e3c19f0cdf2fe8d7d",
-      "title": "Taking the week off + a newsletter cadence update",
-      "url": "https://www.lennysnewsletter.com/p/taking-the-week-off-a-newsletter",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-26T14:03:48+00:00",
-      "summary": "Back next week!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "cd09396e1ac01d586302833a07633f84",
       "title": "Banks Are Hiding Credit Losses (Here’s How) | Bill Moreland of BankRegData",
       "url": "https://www.youtube.com/watch?v=f93kKmD4jDU",
@@ -1796,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-22T10:17:44.138088+00:00"
+  "generated_at": "2025-09-22T11:13:32.709694+00:00"
 }
