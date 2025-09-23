@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c0b3dad9d3ebc2dbb6683f2d3f1091a7",
+      "title": "How to get the most out of your product pass, part 1",
+      "url": "https://www.lennysnewsletter.com/p/how-to-get-the-most-out-of-your-product-2d4",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-23T12:07:42+00:00",
+      "summary": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1dac9be7c12b1823dcb231cbf435b61e",
       "title": "How Apple Could Get Their AI Revenge",
       "url": "https://www.youtube.com/watch?v=-OpFBC8SlzY",
@@ -930,21 +945,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4faf570ff42d6e588d85cb6503cfef0c",
-      "title": "How 80,000 companies build with AI: products as organisms, the death of org charts, and why agents will outnumber employees by 2026 | Asha Sharma (CVP of AI Platform at Microsoft)",
-      "url": "https://www.lennysnewsletter.com/p/how-80000-companies-build-with-ai-asha-sharma",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-28T11:03:31+00:00",
-      "summary": "Listen now | 🎙️ The Microsoft AI exec overseeing 15,000 enterprise customers on why products are becoming living organisms, agents are dissolving org charts, and generalists are having a renaissance",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "33c4e895c8e3439ac212d0b8a9251329",
       "title": "Last Week in AI #320 - Gemini 2.5 Flash Image, Lawsuit Settled, Claude for Chrome",
       "url": "https://lastweekin.ai/p/last-week-in-ai-320-gemini-25-flash",
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-23T11:12:51.159358+00:00"
+  "generated_at": "2025-09-23T12:31:42.717863+00:00"
 }
