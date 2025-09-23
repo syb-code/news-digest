@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1dac9be7c12b1823dcb231cbf435b61e",
+      "title": "How Apple Could Get Their AI Revenge",
+      "url": "https://www.youtube.com/watch?v=-OpFBC8SlzY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-22T23:53:31+00:00",
+      "summary": "The debate over AI wearables is heating up, with OpenAI exploring new device concepts (and poaching Apple leaders to do so), Meta doubling down on smart glasses, and others exploring other form factors. The discussion centers on whether the future belongs to ambient AI devices o…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5fe6a2de25bc73f0d0f8463241b09de4",
       "title": "Trump Gaining Control of the Fed — What’s Ahead in 2026",
       "url": "https://www.youtube.com/watch?v=YLmhm-04mu0",
@@ -491,21 +506,6 @@
       "source_type": "youtube",
       "published": "2025-09-12T19:53:31+00:00",
       "summary": "Not all AI office tools live up to the hype. Today we dig into new surveys, enterprise spending data, and an a16z analysis to uncover which AI tools actually perform in real-world workflows. From slides and spreadsheets to email, research, and meeting notes—we break down the too…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f7628858bf27258b88020ccaa89eecc4",
-      "title": "Volkswagon's Billion $ AI Bet",
-      "url": "https://www.youtube.com/watch?v=z9uhPpqZgkw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-12T14:14:16+00:00",
-      "summary": "Volkswagen announced plans to invest $1.2 billion in AI by 2030, aiming for “no process without AI.” The company already uses 1,200+ AI applications, with hundreds more in development. Key goals include: AI-powered engineering apps across all brands. Cutting vehicle development …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-22T23:13:55.220721+00:00"
+  "generated_at": "2025-09-23T01:10:08.627353+00:00"
 }
