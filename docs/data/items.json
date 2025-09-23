@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2f6c29b3eb24e600df8a7a6a148ff3cb",
+      "title": "Great AI Gets Cheaper Again",
+      "url": "https://www.youtube.com/watch?v=fHvrkj2SyNU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-23T15:21:18+00:00",
+      "summary": "XAI has unveiled Grok-4 Fast, a cheaper, more efficient model that delivers near-frontier performance at a fraction of the cost, underscoring how quickly AI access is becoming more affordable. At the same time, new benchmarks like SWEBench Pro are pushing models to prove themsel…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "39d0e78f21c7da331ff52b9c4c0174b4",
       "title": "How to get the most out of your product pass, part 1",
       "url": "https://www.lennysnewsletter.com/p/how-to-get-the-most-out-of-your-product",
@@ -521,21 +536,6 @@
       "source_type": "rss",
       "published": "2025-09-13T15:55:50+00:00",
       "summary": "Community Wisdom 248",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1e486956302666b9677294bb7ea435f7",
-      "title": "The AI Office Tools That Actually Work",
-      "url": "https://www.youtube.com/watch?v=9qFOzt1IAo8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-12T19:53:31+00:00",
-      "summary": "Not all AI office tools live up to the hype. Today we dig into new surveys, enterprise spending data, and an a16z analysis to uncover which AI tools actually perform in real-world workflows. From slides and spreadsheets to email, research, and meeting notes—we break down the too…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-23T15:16:22.717598+00:00"
+  "generated_at": "2025-09-23T16:19:48.927244+00:00"
 }
