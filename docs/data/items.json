@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "147a423f6e023b9cb8f75598d0e79cb9",
+      "title": "Nvidia's $100B OpenAI Bet",
+      "url": "https://www.youtube.com/watch?v=uF19NkJ03Aw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-23T16:36:30+00:00",
+      "summary": "Nvidia and OpenAI's new $100B deal is one of the more massive moves of the new AI infrastructure era, securing massive compute capacity with billions of GPUs. The deal has sparked debate: some see it as the foundation of a new global economy built on real demand, while others wa…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2f6c29b3eb24e600df8a7a6a148ff3cb",
       "title": "Great AI Gets Cheaper Again",
       "url": "https://www.youtube.com/watch?v=fHvrkj2SyNU",
@@ -498,21 +513,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c963cc0225ac8dc211267b918bfca3b0",
-      "title": "Microsoft Clears OpenAI's Path to For-Profit",
-      "url": "https://www.youtube.com/watch?v=uA34Qyu-bpk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-13T20:30:21+00:00",
-      "summary": "Major developments centered on OpenAI and Microsoft’s evolving partnership. The two companies signed a non-binding MOU that outlines OpenAI’s path to converting into a nonprofit-controlled structure, with the nonprofit gaining a massive equity stake worth over $100 billion—poten…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-23T21:13:30.579557+00:00"
+  "generated_at": "2025-09-23T22:13:57.805222+00:00"
 }
