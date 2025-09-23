@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "39d0e78f21c7da331ff52b9c4c0174b4",
+      "title": "How to get the most out of your product pass, part 1",
+      "url": "https://www.lennysnewsletter.com/p/how-to-get-the-most-out-of-your-product",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-23T13:03:57+00:00",
+      "summary": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c0b3dad9d3ebc2dbb6683f2d3f1091a7",
       "title": "How to get the most out of your product pass, part 1",
       "url": "https://www.lennysnewsletter.com/p/how-to-get-the-most-out-of-your-product-2d4",
@@ -904,19 +919,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bb6aea0194cc06d2dabc319526fe941d",
-      "title": "🧠 Community Wisdom: Optimal meeting cadence for small teams, summarizing notes from customer interviews, managing conflict in a community, tools to create a product video, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-optimal-meeting",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-30T16:01:12+00:00",
-      "summary": "Community Wisdom 246",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "94a74f028d945fa4419bcf9e8fabd071",
       "title": "US Debt Crisis — Trump’s New Plan to Fix It with Crypto & Gold",
       "url": "https://www.youtube.com/watch?v=siKfPK5jhtI",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-23T12:31:42.717863+00:00"
+  "generated_at": "2025-09-23T13:25:39.448809+00:00"
 }
