@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "21c69be011e7d9f50a1f661420bf6978",
+      "title": "5000 Agent Teams at Citi",
+      "url": "https://www.youtube.com/watch?v=1yu2n426Iig",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-24T15:48:21+00:00",
+      "summary": "Citigroup is rolling out AI agents to 5,000 employees, marking a major step toward enterprise-scale autonomy as systems now link entire workflows instead of isolated tasks. At the same time, enterprise adoption challenges are fueling big funding rounds like Distill AI’s $175M ra…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c8b38689572ffa55562e78b7f0e7f17d",
       "title": "Deep Learning Weekly: Issue 423",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-423",
@@ -493,21 +508,6 @@
       "source_type": "rss",
       "published": "2025-09-15T11:03:36+00:00",
       "summary": "🎙️ How a product manager used Cursor, Xcode, and a structured AI workflow to build a voice-powered fitness tracker that works seamlessly across iPhone and Apple Watch",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4f39af2a232c5b4e8f30af1b1fcc2b77",
-      "title": "The AI Slopocalypse",
-      "url": "https://www.youtube.com/watch?v=-RzMjdmPGIA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-14T13:30:06+00:00",
-      "summary": "A new AI-first podcast studio is churning out 3,000 episodes a week at a cost of just $1 per show. Is this the future of content creation in the agentic era—or the end of podcasting as we know it? Nathaniel Whittemore breaks down the economics, the backlash, and why the real cha…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-24T15:16:20.872123+00:00"
+  "generated_at": "2025-09-24T16:20:16.061566+00:00"
 }
