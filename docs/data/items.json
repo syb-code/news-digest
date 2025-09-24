@@ -6,7 +6,7 @@
       "url": "https://www.youtube.com/watch?v=uF19NkJ03Aw",
       "source": "@AIDailyBrief",
       "source_type": "youtube",
-      "published": "2025-09-23T16:36:30+00:00",
+      "published": "2025-09-24T00:00:06+00:00",
       "summary": "Nvidia and OpenAI's new $100B deal is one of the more massive moves of the new AI infrastructure era, securing massive compute capacity with billions of GPUs. The deal has sparked debate: some see it as the foundation of a new global economy built on real demand, while others wa…",
       "read_minutes": 1,
       "duration_sec": null,
@@ -62,7 +62,7 @@
     },
     {
       "id": "1dac9be7c12b1823dcb231cbf435b61e",
-      "title": "How Apple Could Get Their AI Revenge",
+      "title": "Apple's AI Trojan Horse",
       "url": "https://www.youtube.com/watch?v=-OpFBC8SlzY",
       "source": "@AIDailyBrief",
       "source_type": "youtube",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-23T23:13:29.776713+00:00"
+  "generated_at": "2025-09-24T01:11:03.421869+00:00"
 }
