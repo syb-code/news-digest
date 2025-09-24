@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d17257d788967e2eddb7f9c2df1fa15b",
+      "title": "How AI Imperils The Electricity Grid | Imane Bakkar",
+      "url": "https://www.youtube.com/watch?v=x_Savtcd_74",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-24T18:37:46+00:00",
+      "summary": "Imane Bakkar, Founder and Managing Director of Logarisk, joins Monetary Matters to discuss her most recent White Paper, “Weather Is No Small Talk.” She argues that the electricity grid and the financial system are becoming more weather dependent because of the rise of renewable …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "21c69be011e7d9f50a1f661420bf6978",
       "title": "5000 Agent Teams at Citi",
       "url": "https://www.youtube.com/watch?v=1yu2n426Iig",
@@ -1003,19 +1018,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cd09396e1ac01d586302833a07633f84",
-      "title": "Banks Are Hiding Credit Losses (Here’s How) | Bill Moreland of BankRegData",
-      "url": "https://www.youtube.com/watch?v=f93kKmD4jDU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-26T12:20:06+00:00",
-      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nBill Moreland of BankRegData joins Jack to sha…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "fd145d465f2a456b0ef51e80abdeb6ae",
       "title": "Rate Cuts Trigger Inflation — Stocks, Gold, and Crypto Melt-Up",
       "url": "https://www.youtube.com/watch?v=dF_HKh7CMMQ",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-24T18:21:23.402325+00:00"
+  "generated_at": "2025-09-24T19:12:52.233445+00:00"
 }
