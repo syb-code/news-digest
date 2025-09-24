@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c8b38689572ffa55562e78b7f0e7f17d",
+      "title": "Deep Learning Weekly: Issue 423",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-423",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-09-24T15:02:42+00:00",
+      "summary": "DeepSeek-V3.1-Terminus, Introduction to LLM-as-a-Judge For Evals, a paper on LIMI: Less is More for Agency, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "147a423f6e023b9cb8f75598d0e79cb9",
       "title": "Nvidia's $100B OpenAI Bet is a Rorschach Test",
       "url": "https://www.youtube.com/watch?v=uF19NkJ03Aw",
@@ -1786,22 +1799,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "63b6a5f9e78224534138d1b8fbc50f6f",
-      "title": "Deep Learning Weekly: Issue 403",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-403",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-05-07T15:02:47+00:00",
-      "summary": "Qwen3: Think Deeper, Act Faster, What Every AI Engineer Should Know About A2A, MCP & ACP, a paper on FlowReasoner: Reinforcing Query-Level Meta-Agents, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-24T14:14:00.374525+00:00"
+  "generated_at": "2025-09-24T15:16:20.872123+00:00"
 }
