@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2209bd0081ce234bd2d064198570efc4",
+      "title": "LWiAI Podcast #221 - OpenAI Codex, Gemini in Chrome, K2-Think, SB 53",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-221-openai-codex-gemini",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-24T20:39:50+00:00",
+      "summary": "OpenAI upgrades Codex with a new version of GPT-5, Google Injects Gemini Into Chrome as AI Browsers Go Mainstream , and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d17257d788967e2eddb7f9c2df1fa15b",
       "title": "How AI Imperils The Electricity Grid | Imane Bakkar",
       "url": "https://www.youtube.com/watch?v=x_Savtcd_74",
@@ -1689,21 +1704,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "29a488fc02b0784925196410fe487568",
-      "title": "Last Week in AI #312 - Meta's Superintelligence lab, Anthropic & Midjourney sued",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-312-metas-superintelligence",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-16T14:02:55+00:00",
-      "summary": "Meta Is Creating a New A.I. Lab to Pursue ‘Superintelligence’, Reddit sues Anthropic for allegedly not paying for training data, Disney and Universal Sue A.I. Firm for Copyright Infringement",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f18af6c0b4460f6d46facb589c3c9285",
       "title": "Buzzwords are the ultimate prompt hacks",
       "url": "https://designplusai.com/p/buzzwords-are-the-ultimate-prompt",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-24T20:17:31.683910+00:00"
+  "generated_at": "2025-09-24T21:13:33.900182+00:00"
 }
