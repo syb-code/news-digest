@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dabf31678687a6c952061fb25e3fadae",
+      "title": "How These Top Performing Crypto Allocators Are Playing the Cycle | Pure Crypto LP",
+      "url": "https://www.youtube.com/watch?v=ozyb2JFJpdw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-25T13:01:43+00:00",
+      "summary": "This Other People’s Money episode is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHMax\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXMax\n\nJeremy Boynton and Zach Lindquist, managing par…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "Crypto"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f9db1816a3524c6df022f078708fb530",
       "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
       "url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
@@ -1018,21 +1033,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "04c45c8f618b29bc2704c88e5044239f",
-      "title": "How to Break into Hedge Funds, Survive, and Launch Your Own Fund",
-      "url": "https://www.youtube.com/watch?v=-DVsz7n_CqI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-27T13:00:00+00:00",
-      "summary": "This episode is brought to you by Fundamental Edge, the leaders in buyside analyst training. Reserve your spot in their new AI Academy: https://www.fundamentedge.com/ai-academy\n\nIn the online community of FinTwit it is extremely common for hedge funders to have anonymous profile…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fd145d465f2a456b0ef51e80abdeb6ae",
       "title": "Rate Cuts Trigger Inflation — Stocks, Gold, and Crypto Melt-Up",
       "url": "https://www.youtube.com/watch?v=dF_HKh7CMMQ",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-25T12:33:41.243746+00:00"
+  "generated_at": "2025-09-25T13:26:32.668878+00:00"
 }
