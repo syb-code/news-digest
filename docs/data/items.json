@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7090863887ca299806a971dbe52fe892",
+      "title": "Could Gemini 3.0 and Claude 4.5 Be Coming Soon?",
+      "url": "https://www.youtube.com/watch?v=rRDl-x-2Mpk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-25T17:43:47+00:00",
+      "summary": "The AI lab rivalry is heating up as rumors swirl about Gemini 3 and Anthropic 4.5. Anthropic faces reputational struggles after coding model stumbles and political headwinds, while OpenAI’s GPT-5 Codex is winning back developers. Meanwhile, Google has strong momentum, Microsoft …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "adc08145c6f08336397fece6d7028b27",
       "title": "This AI Video Model Is Going to Take Over Twitch",
       "url": "https://www.youtube.com/watch?v=LSG7GDZMQhU",
@@ -504,21 +519,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "229e3792143978c353b5c2ea492a1366",
-      "title": "GPT-5-Codex and the Year of Agentic Coding",
-      "url": "https://www.youtube.com/watch?v=B-uiK-zid_A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-16T23:16:31+00:00",
-      "summary": "Today on the AI Daily Brief, OpenAI launches GPT 5 Codex, a model designed for real-world software engineering with dynamic reasoning, long-task persistence, and powerful code review capabilities. We break down why this release cements 2025 as the year of agentic coding and what…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-25T21:13:43.893024+00:00"
+  "generated_at": "2025-09-25T22:12:52.257080+00:00"
 }
