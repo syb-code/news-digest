@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "adc08145c6f08336397fece6d7028b27",
+      "title": "This AI Video Model Is Going to Take Over Twitch",
+      "url": "https://www.youtube.com/watch?v=LSG7GDZMQhU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-25T16:47:26+00:00",
+      "summary": "Today’s headlines span both the bleeding edge of AI research and the massive scale of infrastructure ambition. A new open-source video model is going viral for its uncanny deepfake realism, raising questions about creative potential and ethical use. Meanwhile, Sam Altman and Ope…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "741b779e2c56ed269d0ee84c8c01805b",
       "title": "Housing Market 2025 — Prices Stuck, Sales Crashing",
       "url": "https://www.youtube.com/watch?v=CSiaTQCFAnY",
@@ -530,21 +545,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1c3ba1c1bd7072a512e41ea24f85bcf8",
-      "title": "Who Is Anthropic's $1.5B Author Settlement Good For?",
-      "url": "https://www.youtube.com/watch?v=00d-6NiZJFo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-16T13:02:40+00:00",
-      "summary": "This Headlines edition opens with the historic $1.5 billion settlement between Anthropic and authors—the largest in U.S. copyright history. The deal resolves claims of pirated training data and will pay out modest sums to affected authors, sparking debate over whether the outcom…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-25T16:19:17.927039+00:00"
+  "generated_at": "2025-09-25T17:13:35.215609+00:00"
 }
