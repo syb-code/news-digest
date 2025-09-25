@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4dcae4cb5eedf062d26dbafc3394bd98",
+      "title": "What 5000 Devs Can Teach Us About AI Adoption",
+      "url": "https://www.youtube.com/watch?v=8VbjaCwcWcM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-25T00:00:11+00:00",
+      "summary": "Google Cloud’s new Dora research report offers the most in-depth look yet at how developers are using AI—surveying nearly 5,000 professionals worldwide. The findings highlight soaring adoption (now at 90%), major gains in productivity and code quality, and a striking paradox whe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2209bd0081ce234bd2d064198570efc4",
       "title": "LWiAI Podcast #221 - OpenAI Codex, Gemini in Chrome, K2-Think, SB 53",
       "url": "https://lastweekin.ai/p/lwiai-podcast-221-openai-codex-gemini",
@@ -480,21 +495,6 @@
       "source_type": "youtube",
       "published": "2025-09-16T13:02:40+00:00",
       "summary": "This Headlines edition opens with the historic $1.5 billion settlement between Anthropic and authors—the largest in U.S. copyright history. The deal resolves claims of pirated training data and will pay out modest sums to affected authors, sparking debate over whether the outcom…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c54e912caac73991aa5e6ed452801e7b",
-      "title": "How to Get to AGI",
-      "url": "https://www.youtube.com/watch?v=zNbM93cmrms",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-15T22:57:07+00:00",
-      "summary": "What will it actually take to get to AGI? Today we unpack the “jagged frontier” of AI capabilities — systems that can dazzle at PhD-level reasoning one moment but stumble on high school math the next. We look at Demis Hassabis’ timeline and critique of current models, the debate…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-24T23:14:01.015465+00:00"
+  "generated_at": "2025-09-25T01:11:34.255506+00:00"
 }
