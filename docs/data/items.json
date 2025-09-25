@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f9db1816a3524c6df022f078708fb530",
+      "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
+      "url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-25T11:03:24+00:00",
+      "summary": "The #1 AI evals course instructors walk you through their step-by-step process, debunk misconceptions, and show why manual error analysis beats automation",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4dcae4cb5eedf062d26dbafc3394bd98",
       "title": "What 5000 Devs Can Teach Us About AI Adoption",
       "url": "https://www.youtube.com/watch?v=8VbjaCwcWcM",
@@ -947,21 +962,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "339cf59e3e2af0e1d77bae40a7e54d7b",
-      "title": "How we restructured Airtable’s entire org for AI | Howie Liu (co-founder and CEO)",
-      "url": "https://www.lennysnewsletter.com/p/how-we-restructured-airtables-entire-org-for-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-31T11:02:54+00:00",
-      "summary": "Listen now | 🎙️ Airtable’s founder on becoming an IC again, why he split his company into “fast thinking” and “slow thinking” teams, and the specific skills product managers need to thrive in the AI era",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "94a74f028d945fa4419bcf9e8fabd071",
       "title": "US Debt Crisis — Trump’s New Plan to Fix It with Crypto & Gold",
       "url": "https://www.youtube.com/watch?v=siKfPK5jhtI",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-25T10:16:44.149791+00:00"
+  "generated_at": "2025-09-25T11:13:44.559472+00:00"
 }
