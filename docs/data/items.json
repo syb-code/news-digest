@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8b7cf29be3a3393d85e14e73ce0f7d98",
+      "title": "Could AI Wipe Out 1/5 of Public Companies?",
+      "url": "https://www.youtube.com/watch?v=TVdEwvWtraY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-26T22:40:01+00:00",
+      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7090863887ca299806a971dbe52fe892",
       "title": "Could Gemini 3.0 and Claude 4.5 Be Coming Soon?",
       "url": "https://www.youtube.com/watch?v=rRDl-x-2Mpk",
@@ -493,19 +508,6 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "baba41d1eb265b51d5276a8fde3cd014",
-      "title": "Gemini Nano-Banana's Its Way to #1",
-      "url": "https://www.youtube.com/watch?v=jX7e9BLGuAI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-17T17:23:36+00:00",
-      "summary": "Google’s Gemini app has overtaken ChatGPT at the top of the App Store, fueled by viral interest in its Nano Banana image model, which transforms base images into 3D figures. This surge brought 13 million new users in four days, boosted Google’s valuation past $3 trillion, and si…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-26T22:13:37.746084+00:00"
+  "generated_at": "2025-09-26T23:13:44.676500+00:00"
 }
