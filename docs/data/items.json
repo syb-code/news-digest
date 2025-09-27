@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a36ddc16e88525cdcfd5c7f094d9940a",
+      "title": "How ChatGPT Pulse Changes AI",
+      "url": "https://www.youtube.com/watch?v=YZwDJBup4Rc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-27T11:14:01+00:00",
+      "summary": "OpenAI has unveiled ChatGPT Pulse, a new proactive background agent that shifts AI from reactive answers to daily, personalized insights. Pulse curates updates based on chats, preferences, and connected apps, effectively acting like a research assistant that anticipates needs in…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8b7cf29be3a3393d85e14e73ce0f7d98",
       "title": "Could AI Wipe Out 1/5 of Public Companies?",
       "url": "https://www.youtube.com/watch?v=TVdEwvWtraY",
@@ -473,21 +488,6 @@
       "source_type": "rss",
       "published": "2025-09-18T11:03:20+00:00",
       "summary": "Listen now | 🎙️ Mercor’s founder on growing from $1M to $500M in 17 months, why evals are the biggest bottleneck for AI labs, which specific skills will remain valuable, and why he doesn’t expect AGI anytime soon",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "60751ae5cde62a2020e378adbbf68b87",
-      "title": "How People Actually Use ChatGPT",
-      "url": "https://www.youtube.com/watch?v=l4r6qPeYr7g",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-18T00:35:01+00:00",
-      "summary": "This episode of AI Daily Brief dives into two important reports on how people are really using AI tools like ChatGPT and Claude. OpenAI’s massive study with Harvard and NBER reveals consumer patterns across 1.5 million conversations, while Anthropic’s Economic Index tracks broad…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1807,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-27T11:11:13.758156+00:00"
+  "generated_at": "2025-09-27T12:28:03.221498+00:00"
 }
