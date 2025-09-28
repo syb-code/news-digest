@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "a1b3d9636cfc89543cb5eb1813611fc3",
+      "title": "A 4-step framework for building delightful products | Nesrine Changuel (Spotify, Google, Skype)",
+      "url": "https://www.lennysnewsletter.com/p/a-4-step-framework-for-building-delightful-products",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-28T11:02:57+00:00",
+      "summary": "Listen now | 🎙️ Former Google \"Delight PM\" shares her framework for creating delightful product experiences that create emotional connections and increase retention",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "f1d6805ce8d033dc990658e78a8b573b",
       "title": "🧠 Community Wisdom: 250th issue 🎉 + Dealing with impostor syndrome as a founder, asking users how they heard about you, positioning your PM experience after working at a “feature factory,” and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-250th-issue-dealing",
@@ -949,21 +962,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f81c32bbe775961e5123c678afef51bb",
-      "title": "How to find the perfect name",
-      "url": "https://www.lennysnewsletter.com/p/how-to-find-the-perfect-name-533",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-02T09:02:30+00:00",
-      "summary": "A step-by-step playbook for naming in a noisy and AI-driven product landscape",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8c98b009fb9e417c6eae4383c5cdadf6",
       "title": "LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome",
       "url": "https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash",
@@ -1805,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-28T10:14:32.290387+00:00"
+  "generated_at": "2025-09-28T11:11:14.830994+00:00"
 }
