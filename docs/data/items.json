@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "af9bf77e8b0134e1e9fc918789bb3e2d",
+      "title": "Stop Blaming AI For Workslop",
+      "url": "https://www.youtube.com/watch?v=87IF1y--5Qk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-28T11:56:21+00:00",
+      "summary": "Everyone is suddenly talking about workslop—AI-generated content that looks polished but lacks substance. This episode argues that the problem isn’t underperforming AI, but broken incentives and unnecessary busywork that AI is exposing. It explores why workslop is really an orga…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a1b3d9636cfc89543cb5eb1813611fc3",
       "title": "A 4-step framework for building delightful products | Nesrine Changuel (Spotify, Google, Skype)",
       "url": "https://www.lennysnewsletter.com/p/a-4-step-framework-for-building-delightful-products",
@@ -484,21 +499,6 @@
       "source_type": "rss",
       "published": "2025-09-18T15:01:47+00:00",
       "summary": "The Ultimate Guide to LLM Evaluation: Metrics, Methods & Best Practices, How to Train an LLM-RecSys Hybrid for Steerable Recs with Semantic IDs, a paper on Hierarchical Reasoning Model, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f63813ed3e5d6a3a805884118ce91bef",
-      "title": "After MCP and A2A, Meet AP2",
-      "url": "https://www.youtube.com/watch?v=vxRe33XUMQY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-18T14:38:51+00:00",
-      "summary": "Google has launched the Agents Payment Protocol (AP2), a new standard designed to make agent-led commerce secure and auditable, with support from over 60 major finance and tech partners. YouTube unveiled powerful AI features for creators, including automated video editing, style…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-28T11:11:14.830994+00:00"
+  "generated_at": "2025-09-28T12:28:37.285053+00:00"
 }
