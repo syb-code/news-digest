@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6ec25cef2b13f5b0e9e8727c3954db19",
+      "title": "“Perfect Goldilocks Nirvana” Outcome Is Unlikely (Here’s Why) | Julian Brigden",
+      "url": "https://www.youtube.com/watch?v=G3I4B7b6zT0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-09-29T17:06:08+00:00",
+      "summary": "Sign up for MacroCapture by MI2 Partners today with coupon codes MM10 (for annual) and MM10Q (for quarterly) to save 10% at: https://portal.mi2partners.com/buy-macro-capture/\n\nThis episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconducto…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ca1c285b09c5420e69bfc388a826a271",
       "title": "The secret to better AI prototypes: Why Tinder’s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
       "url": "https://www.lennysnewsletter.com/p/the-secret-to-better-ai-prototypes",
@@ -977,19 +990,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "468eccdd34bad6b09e50fe7c2fcb397c",
-      "title": "Leverage In Shadow Banking | Financial Stability Board General Secretary John Schindler",
-      "url": "https://www.youtube.com/watch?v=Uqw0zVt1S_4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-08-31T17:43:45+00:00",
-      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nJohn Schindler, General Secretary of the Finan…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "94a74f028d945fa4419bcf9e8fabd071",
       "title": "US Debt Crisis — Trump’s New Plan to Fix It with Crypto & Gold",
       "url": "https://www.youtube.com/watch?v=siKfPK5jhtI",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-29T16:16:23.506140+00:00"
+  "generated_at": "2025-09-29T17:14:28.985916+00:00"
 }
