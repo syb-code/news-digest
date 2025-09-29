@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "da4a1e6b33d112cbd51c6d2f7cf9ea80",
+      "title": "The AI Benchmark We've All Been Waiting For",
+      "url": "https://www.youtube.com/watch?v=Sj1LGPVLLIM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-29T17:40:21+00:00",
+      "summary": "OpenAI has introduced GDP Val, a groundbreaking benchmark designed to measure AI on real-world, economically valuable tasks across 44 occupations and 1,320 professional deliverables. Unlike synthetic exams, GDP Val evaluates models on actual work products—like legal briefs, blue…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6ec25cef2b13f5b0e9e8727c3954db19",
       "title": "“Perfect Goldilocks Nirvana” Outcome Is Unlikely (Here’s Why) | Julian Brigden",
       "url": "https://www.youtube.com/watch?v=G3I4B7b6zT0",
@@ -501,21 +516,6 @@
         "Crypto",
         "Macro/Fed",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "45f238c369e1d2756e661b2174ea55ce",
-      "title": "AI Just Beat the World's Best Coders",
-      "url": "https://www.youtube.com/watch?v=eliZBT8iRoQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-19T00:30:06+00:00",
-      "summary": "AI just scored a historic win in the International Collegiate Programming Contest, with OpenAI’s GPT-5 and Google’s DeepMind outperforming nearly every human team. The discussion focuses on whether this marks a real inflection point for AI, shifting from competition success to t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-29T17:14:28.985916+00:00"
+  "generated_at": "2025-09-29T18:22:57.836255+00:00"
 }
