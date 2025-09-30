@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f81177426c161a6656940c8148e6b2d9",
+      "title": "CPI Inflation Report — Why You Can't Trust it",
+      "url": "https://www.youtube.com/watch?v=GJLOeA1yblY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-09-30T16:00:28+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec76c735ddcb40650568ed4968ac09aa",
       "title": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
       "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for",
@@ -1133,21 +1146,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ddd196704dd98eda5327f2d0ecefcb0f",
-      "title": "Housing Market 2025 — Inventory Surges, Buyers Still Can’t Afford Homes",
-      "url": "https://www.youtube.com/watch?v=uiVsr8XzXAI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-14T16:01:35+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5c7e9f75b4c97f699e6998acbc5118c4",
       "title": "Deep Learning Weekly: Issue 417",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
@@ -1806,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-30T15:13:57.174098+00:00"
+  "generated_at": "2025-09-30T16:19:59.140104+00:00"
 }
