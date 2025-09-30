@@ -16,6 +16,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "f764f01a7e69cee68729d25e00aae6b8",
+      "title": "Claude Sonnet 4.5 Can Code Autonomously for 30 Hours 🤯",
+      "url": "https://www.youtube.com/watch?v=pbwAMl2dAcE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-30T17:22:57+00:00",
+      "summary": "Anthropic's Claude Sonnet 4.5 reportedly demonstrates groundbreaking autonomy by coding for up to 30 hours non-stop, significantly outpacing prior benchmarks like GPT-5 Codex’s seven-hour runs. This leap is enabled by innovations such as enforced modular artifacts, persistent me…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "f81177426c161a6656940c8148e6b2d9",
       "title": "CPI Inflation Report — Why You Can't Trust it",
       "url": "https://www.youtube.com/watch?v=GJLOeA1yblY",
@@ -508,21 +521,6 @@
       "source_type": "rss",
       "published": "2025-09-20T18:06:07+00:00",
       "summary": "Community Wisdom 249",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1c5b8069cda2c5e104e9689b3214d648",
-      "title": "Can Microsoft Survive the AI Era?",
-      "url": "https://www.youtube.com/watch?v=3kvHLvVufD4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-20T15:32:56+00:00",
-      "summary": "Microsoft’s future in the AI era is under the microscope as CEO Satya Nadella warns of the risks of becoming the next DEC—once great, now forgotten. Despite early momentum with OpenAI, the company has stumbled with Copilot adoption, employee morale, and strategy, even as it doub…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-30T20:17:07.214828+00:00"
+  "generated_at": "2025-09-30T21:13:49.950546+00:00"
 }
