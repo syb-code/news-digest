@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "ec76c735ddcb40650568ed4968ac09aa",
+      "title": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-30T13:04:07+00:00",
+      "summary": "A step-by-step guide to crafting feedback you’ll want to give and people will want to get",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8e3a05e98fe84f9061a799443b78b18a",
+      "title": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
+      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-7da",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-09-30T12:58:45+00:00",
+      "summary": "A step-by-step guide to crafting feedback you’ll want to give and people will want to get",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "547848ae5707c93d8b54f005d89e0461",
       "title": "Firing 11000, Accenture Says \"Learn AI or Die\"",
       "url": "https://www.youtube.com/watch?v=Vtqpgh4rLvY",
@@ -861,34 +891,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3015071bd773ee3e04a5119ddfadcc7e",
-      "title": "How AI is reshaping the product role | Oji and Ezinne Udezue",
-      "url": "https://www.lennysnewsletter.com/p/how-ai-is-reshaping-the-product-role",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-07T11:03:01+00:00",
-      "summary": "Finding sharp problems, embracing chaos, PMs as the new bottleneck, and why simplicity still matters most",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "78ee0314716ecea4f4db002d83aae35e",
-      "title": "🧠 Community Wisdom: Jira vs. Linear, balancing personal tasks and team priorities, becoming more resilient, revealing that you’re a new mom to recruiters, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-jira-vs-linear-balancing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-06T16:50:19+00:00",
-      "summary": "Community Wisdom 247",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-30T12:33:44.407580+00:00"
+  "generated_at": "2025-09-30T13:26:23.605852+00:00"
 }
