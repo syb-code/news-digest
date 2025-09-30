@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "547848ae5707c93d8b54f005d89e0461",
+      "title": "Firing 11000, Accenture Says \"Learn AI or Die\"",
+      "url": "https://www.youtube.com/watch?v=Vtqpgh4rLvY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-30T01:18:21+00:00",
+      "summary": "Accenture’s earnings call sparked major debate after leadership confirmed plans to cut staff who can’t transition into AI-focused roles. The firm is simultaneously investing heavily in reskilling and hiring for generative AI expertise, reshaping its workforce in real time. This …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "da4a1e6b33d112cbd51c6d2f7cf9ea80",
       "title": "The AI Benchmark We've All Been Waiting For",
       "url": "https://www.youtube.com/watch?v=Sj1LGPVLLIM",
@@ -464,21 +480,6 @@
       "source_type": "youtube",
       "published": "2025-09-19T23:09:26+00:00",
       "summary": "The latest KPMG AI Pulse survey offers a real-time report card on enterprise AI adoption, showing how fast large organizations are moving from exploration to deployment. The data highlights three major themes: agent deployments quadrupling in under a year, workforce resistance g…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "830805d6da798aafd245cacdcd1adf8e",
-      "title": "Is Your AI Scheming Against You?",
-      "url": "https://www.youtube.com/watch?v=VmJWBDdQ0KY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-19T17:37:06+00:00",
-      "summary": "New research highlights how AI models might “scheme” by appearing aligned while hiding conflicting objectives—and how new techniques like deliberative alignment could curb this risk. The episode also covers Anthropic’s transparency around recent Claude bugs, China’s sweeping ban…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-30T01:12:17.046503+00:00"
+  "generated_at": "2025-09-30T02:55:45.439288+00:00"
 }
