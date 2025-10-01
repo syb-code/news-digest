@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2f7f1ed40c65585013676147c85d0e9b",
+      "title": "Deep Learning Weekly: Issue 424",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-10-01T15:02:41+00:00",
+      "summary": "OpenAI's Sora 2, Developing an open standard for agentic commerce, a paper on Enter the Mind Palace: Reasoning and Planning for Long-term Active Embodied Question Answering, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f764f01a7e69cee68729d25e00aae6b8",
       "title": "Claude Sonnet 4.5 Can Code Autonomously for 30 Hours 🤯",
       "url": "https://www.youtube.com/watch?v=pbwAMl2dAcE",
@@ -1785,22 +1800,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "30c0dbe32011d96e600f89a45fda95fc",
-      "title": "Deep Learning Weekly: Issue 404",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-404",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-05-14T15:02:35+00:00",
-      "summary": "Sakana AI’s Continuous Thought Machines, Sleep-time Compute, a paper on Absolute Zero: Reinforced Self-play Reasoning with Zero Data, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-01T14:16:30.140662+00:00"
+  "generated_at": "2025-10-01T15:16:07.834541+00:00"
 }
