@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "941ec91633d7fc69aaa0de1e0738085f",
+      "title": "The AI Cost Performance Frontier Keeps Improving",
+      "url": "https://www.youtube.com/watch?v=jqhnplwGUK0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-01T16:24:30+00:00",
+      "summary": "Today’s headlines cover major shifts across AI cost, products, and global growth. Google rolled out updates to its Gemini 2.5 Flash models, cutting costs by 50% while boosting efficiency and multimodal performance, while Apple tests a new AI-powered Siri that could finally bring…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2f7f1ed40c65585013676147c85d0e9b",
       "title": "Deep Learning Weekly: Issue 424",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
@@ -496,21 +511,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6cba2cf64edd2520c65f7dc9c9cbfc3",
-      "title": "The Truth About the AI Bubble",
-      "url": "https://www.youtube.com/watch?v=DPFNiLW_yqg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-21T12:20:06+00:00",
-      "summary": "Is AI in a bubble, or just experiencing one of history’s biggest booms? This episode breaks down Azeem Azhar’s 5-guage framework for evaluating whether AI is bubble territory—or still solidly in growth mode. From trillions in CapEx spending and surging enterprise demand to valua…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-01T16:19:48.580336+00:00"
+  "generated_at": "2025-10-01T17:14:15.301824+00:00"
 }
