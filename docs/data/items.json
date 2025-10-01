@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "00a0cf865806e15799e87403362680e5",
+      "title": "Sora 2 and the Brainrot Rebellion",
+      "url": "https://www.youtube.com/watch?v=Ke0yXxDUdWQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-01T20:27:48+00:00",
+      "summary": "Today on the AI Daily Brief, NLW goes deep on OpenAI’s release of Sora 2—its next-generation video generation model—and the launch of the new Sora social app, which some are calling an AI-powered TikTok. Is this the beginning of a Cambrian explosion of creativity, or just the ne…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d68c006d6df9df203f0dc0da7c341f84",
       "title": "The Bankruptcy Cycle Begins | Patrick Perret-Green on Shadow Banking Bust, China, & Bond Bull Case",
       "url": "https://www.youtube.com/watch?v=shBRT9qirlY",
@@ -445,21 +460,6 @@
       "source_type": "rss",
       "published": "2025-09-23T12:07:42+00:00",
       "summary": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1dac9be7c12b1823dcb231cbf435b61e",
-      "title": "Apple's AI Trojan Horse",
-      "url": "https://www.youtube.com/watch?v=-OpFBC8SlzY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-22T23:53:31+00:00",
-      "summary": "The debate over AI wearables is heating up, with OpenAI exploring new device concepts (and poaching Apple leaders to do so), Meta doubling down on smart glasses, and others exploring other form factors. The discussion centers on whether the future belongs to ambient AI devices o…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-01T20:18:04.233382+00:00"
+  "generated_at": "2025-10-01T21:13:54.940341+00:00"
 }
