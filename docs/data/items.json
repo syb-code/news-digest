@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "d68c006d6df9df203f0dc0da7c341f84",
+      "title": "The Bankruptcy Cycle Begins | Patrick Perret-Green on Shadow Banking Bust, China, & Bond Bull Case",
+      "url": "https://www.youtube.com/watch?v=shBRT9qirlY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-01T20:11:35+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nPatrick Perret-Green of PPG Macro is a veteran macro trader and analyst. He joins us today to share his concern over two recent high-profile bankruptcies that have caused jitters in the non-ban…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "941ec91633d7fc69aaa0de1e0738085f",
       "title": "The AI Cost Performance Frontier Keeps Improving",
       "url": "https://www.youtube.com/watch?v=jqhnplwGUK0",
@@ -991,19 +1004,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1d212820a050515af95eab1b7639c1e4",
-      "title": "From Setbacks to Success: @hfreflection’s Journey",
-      "url": "https://www.youtube.com/shorts/mp3x4cg45Sc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-02T11:15:05+00:00",
-      "summary": "In this clip from the Other People’s Money podcast, @hfreflection shares his 18-year journey through the world of investment management. From early challenges and setbacks to a career-defining success—and the bold decision to leave it all behind to launch his own firm—this is a …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8c98b009fb9e417c6eae4383c5cdadf6",
       "title": "LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome",
       "url": "https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-01T19:12:28.488891+00:00"
+  "generated_at": "2025-10-01T20:18:04.233382+00:00"
 }
