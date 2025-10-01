@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f764f01a7e69cee68729d25e00aae6b8",
+      "title": "Claude Sonnet 4.5 Can Code Autonomously for 30 Hours 🤯",
+      "url": "https://www.youtube.com/watch?v=pbwAMl2dAcE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-09-30T23:30:06+00:00",
+      "summary": "Anthropic's Claude Sonnet 4.5 reportedly demonstrates groundbreaking autonomy by coding for up to 30 hours non-stop, significantly outpacing prior benchmarks like GPT-5 Codex’s seven-hour runs. This leap is enabled by innovations such as enforced modular artifacts, persistent me…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a2a63670ff15222a61d41efd5eb380cf",
       "title": "OpenAI Preps AI Tik-Tok App",
       "url": "https://www.youtube.com/watch?v=MmgIBEDnqys",
@@ -13,19 +26,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f764f01a7e69cee68729d25e00aae6b8",
-      "title": "Claude Sonnet 4.5 Can Code Autonomously for 30 Hours 🤯",
-      "url": "https://www.youtube.com/watch?v=pbwAMl2dAcE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-30T17:22:57+00:00",
-      "summary": "Anthropic's Claude Sonnet 4.5 reportedly demonstrates groundbreaking autonomy by coding for up to 30 hours non-stop, significantly outpacing prior benchmarks like GPT-5 Codex’s seven-hour runs. This leap is enabled by innovations such as enforced modular artifacts, persistent me…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-09-30T23:13:44.865942+00:00"
+  "generated_at": "2025-10-01T01:19:25.676252+00:00"
 }
