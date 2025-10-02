@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ec553e718da54193840280ba7c899f1e",
+      "title": "Last Week in AI #323 - Sonnet 4.5, Sora 2, Vibes, SB 53",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-323-sonnet-45-sora",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-02T16:44:32+00:00",
+      "summary": "Anthropic releases Claude Sonnet 4.5, OpenAI announces Sora 2 with AI video app, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b2b8e7ba3390051196d686ee2e98f9cb",
       "title": "Government Shutdown 2025 — What It Means for Your Money",
       "url": "https://www.youtube.com/watch?v=ZstymTCQ7FE",
@@ -1690,21 +1705,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e2c2fdd9bd457438a6f122dc3aabbde9",
-      "title": "LWiAI Podcast #212 - o3 pro, Cursor 1.0, ProRL, Midjourney Sued",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-212-o3-pro-cursor-10",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-17T22:24:25+00:00",
-      "summary": "OpenAI adds o3 Pro to ChatGPT and drops o3 price by 80 per cent, ProRL: Prolonged Reinforcement Learning Expands Reasoning Boundaries",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c0f37243c7a7592f2a00f7fad47a289b",
       "title": "Thoughts on Liquid Glass",
       "url": "https://designplusai.com/p/my-thoughts-on-liquid-glass",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-02T16:19:02.627960+00:00"
+  "generated_at": "2025-10-02T17:11:56.889848+00:00"
 }
