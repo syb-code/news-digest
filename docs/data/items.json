@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "18f018a5d66522ba6f87a6003f31d2b1",
+      "title": "When Will AI Make Scientific Discoveries?",
+      "url": "https://www.youtube.com/watch?v=ObRsPL35-pI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-02T16:58:24+00:00",
+      "summary": "Today’s AI Daily Brief asks when artificial intelligence will begin making real scientific discoveries. We look at Periodic Labs, which just raised more than $300 million to build AI scientists and autonomous labs for physics and chemistry, and Thinking Machines, which is creati…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec553e718da54193840280ba7c899f1e",
       "title": "Last Week in AI #323 - Sonnet 4.5, Sora 2, Vibes, SB 53",
       "url": "https://lastweekin.ai/p/last-week-in-ai-323-sonnet-45-sora",
@@ -443,21 +458,6 @@
       "source_type": "youtube",
       "published": "2025-09-24T00:00:06+00:00",
       "summary": "Nvidia and OpenAI's new $100B deal is one of the more massive moves of the new AI infrastructure era, securing massive compute capacity with billions of GPUs. The deal has sparked debate: some see it as the foundation of a new global economy built on real demand, while others wa…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2f6c29b3eb24e600df8a7a6a148ff3cb",
-      "title": "Great AI Gets Cheaper Again",
-      "url": "https://www.youtube.com/watch?v=fHvrkj2SyNU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-23T15:21:18+00:00",
-      "summary": "XAI has unveiled Grok-4 Fast, a cheaper, more efficient model that delivers near-frontier performance at a fraction of the cost, underscoring how quickly AI access is becoming more affordable. At the same time, new benchmarks like SWEBench Pro are pushing models to prove themsel…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-02T18:21:34.706659+00:00"
+  "generated_at": "2025-10-02T19:12:36.589298+00:00"
 }
