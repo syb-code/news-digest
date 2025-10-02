@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "b2b8e7ba3390051196d686ee2e98f9cb",
+      "title": "Government Shutdown 2025 — What It Means for Your Money",
+      "url": "https://www.youtube.com/watch?v=ZstymTCQ7FE",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-10-02T14:30:23+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "00a0cf865806e15799e87403362680e5",
       "title": "Sora 2 and the Brainrot Rebellion",
       "url": "https://www.youtube.com/watch?v=Ke0yXxDUdWQ",
@@ -1131,19 +1144,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8df2b169ce2f4a26316d5c69236a77a6",
-      "title": "Term Loan for Small Businesses — Watch This BEFORE You Need One",
-      "url": "https://www.youtube.com/watch?v=g1oMv_NmRdM",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-18T16:01:07+00:00",
-      "summary": "💵 Need a Small Business Loan?\nWe can help you get financing at ClearValue Lending: https://clearvaluelending.com/small-business-financing/\n\n\nClearValue Tax and affiliates and related parties do not provide tax, legal or accounting advice. This material has been prepared for info…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "00e79f03d116d9801ae857840169ba37",
       "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
       "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-02T14:14:56.854069+00:00"
+  "generated_at": "2025-10-02T15:16:02.610347+00:00"
 }
