@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "acfc2f88352e6ad8e37deb41e1d026e3",
+      "title": "US Gov't: \"DeepSeek Sucks, Actually\"",
+      "url": "https://www.youtube.com/watch?v=yo6Lu5RpZXM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-03T13:26:31+00:00",
+      "summary": "The U.S. government has released a blistering new report claiming DeepSeek falls short on performance, security, and cost compared to American AI models, sparking debate over reliance on foreign systems. Apple is reportedly scrapping its Vision Pro roadmap in favor of AI-powered…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "18f018a5d66522ba6f87a6003f31d2b1",
       "title": "When Will AI Make Scientific Discoveries?",
       "url": "https://www.youtube.com/watch?v=ObRsPL35-pI",
@@ -448,21 +463,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "147a423f6e023b9cb8f75598d0e79cb9",
-      "title": "Nvidia's $100B OpenAI Bet is a Rorschach Test",
-      "url": "https://www.youtube.com/watch?v=uF19NkJ03Aw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-24T00:00:06+00:00",
-      "summary": "Nvidia and OpenAI's new $100B deal is one of the more massive moves of the new AI infrastructure era, securing massive compute capacity with billions of GPUs. The deal has sparked debate: some see it as the foundation of a new global economy built on real demand, while others wa…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-03T13:22:51.486035+00:00"
+  "generated_at": "2025-10-03T14:14:17.612797+00:00"
 }
