@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ae85775cfda2405cd320af555c2ae298",
+      "title": "Now You Can Buy Stuff in ChatGPT — But Does Anyone Want To?",
+      "url": "https://www.youtube.com/watch?v=lVDrHZY1mUc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-03T22:21:11+00:00",
+      "summary": "OpenAI has introduced Instant Checkout inside ChatGPT, allowing purchases to happen directly in the conversation. The update challenges the traditional search-to-cart model, raising questions about consumer adoption, advertising, and control of online shopping intent. Discussion…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "acfc2f88352e6ad8e37deb41e1d026e3",
       "title": "US Gov't: \"DeepSeek Sucks, Actually\"",
       "url": "https://www.youtube.com/watch?v=yo6Lu5RpZXM",
@@ -430,21 +445,6 @@
       "source_type": "youtube",
       "published": "2025-09-24T18:37:46+00:00",
       "summary": "Imane Bakkar, Founder and Managing Director of Logarisk, joins Monetary Matters to discuss her most recent White Paper, “Weather Is No Small Talk.” She argues that the electricity grid and the financial system are becoming more weather dependent because of the rise of renewable …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "21c69be011e7d9f50a1f661420bf6978",
-      "title": "5000 Agent Teams at Citi",
-      "url": "https://www.youtube.com/watch?v=1yu2n426Iig",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-24T15:48:21+00:00",
-      "summary": "Citigroup is rolling out AI agents to 5,000 employees, marking a major step toward enterprise-scale autonomy as systems now link entire workflows instead of isolated tasks. At the same time, enterprise adoption challenges are fueling big funding rounds like Distill AI’s $175M ra…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-03T22:13:32.373992+00:00"
+  "generated_at": "2025-10-03T23:13:06.313365+00:00"
 }
