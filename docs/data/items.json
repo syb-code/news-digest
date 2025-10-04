@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "003e16f98a140737aedd7d6d986c67cb",
+      "title": "🧠 Community Wisdom: AI growth hacking tactics, teaching kids how to program, communicating your work to C-suite execs, documentation as a solo founder, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-growth-hacking",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-04T17:01:16+00:00",
+      "summary": "Community Wisdom 226",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ae85775cfda2405cd320af555c2ae298",
       "title": "Now You Can Buy Stuff in ChatGPT — But Does Anyone Want To?",
       "url": "https://www.youtube.com/watch?v=lVDrHZY1mUc",
@@ -931,21 +946,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a441eea93e59c6c3436491165203b21e",
-      "title": "How Devin replaces your junior engineers with infinite AI interns that never sleep | Scott Wu (Cognition CEO)",
-      "url": "https://www.lennysnewsletter.com/p/how-devin-replaces-your-junior-engineers",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-08T11:03:38+00:00",
-      "summary": "Watch now | 🎙️Cognition Labs’ CEO shares how his team uses their AI coding agent Devin as a first-line responder for engineering tasks, multiplayer problem-solving, and asynchronous development",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "92c2376aa4203cebf6bc91562b656618",
       "title": "The AI Semiconductor Supercycle | Angus Shillington & Nick Frasse (Fireside Chat)",
       "url": "https://www.youtube.com/watch?v=3mbERI2h4K4",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-04T16:16:46.717687+00:00"
+  "generated_at": "2025-10-04T17:11:56.479548+00:00"
 }
