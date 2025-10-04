@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2bd394c8f9c1f4565ffb5c2c91a852f6",
+      "title": "Vibe Coding Comes to the Enterprise",
+      "url": "https://www.youtube.com/watch?v=RZDP8pMuSD0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-04T17:06:36+00:00",
+      "summary": "Salesforce is bringing vibe coding to the enterprise with Agent Force Vibes, a new AI-powered IDE built on GPT-5 and designed to integrate directly into Salesforce environments. Let's explore how this move signals the rise of agentic coding inside companies, the competition from…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "003e16f98a140737aedd7d6d986c67cb",
       "title": "🧠 Community Wisdom: AI growth hacking tactics, teaching kids how to program, communicating your work to C-suite execs, documentation as a solo founder, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-growth-hacking",
@@ -415,21 +430,6 @@
       "source_type": "rss",
       "published": "2025-09-25T11:03:24+00:00",
       "summary": "The #1 AI evals course instructors walk you through their step-by-step process, debunk misconceptions, and show why manual error analysis beats automation",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4dcae4cb5eedf062d26dbafc3394bd98",
-      "title": "What 5000 Devs Can Teach Us About AI Adoption",
-      "url": "https://www.youtube.com/watch?v=8VbjaCwcWcM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-25T00:00:11+00:00",
-      "summary": "Google Cloud’s new Dora research report offers the most in-depth look yet at how developers are using AI—surveying nearly 5,000 professionals worldwide. The findings highlight soaring adoption (now at 90%), major gains in productivity and code quality, and a striking paradox whe…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-04T17:11:56.479548+00:00"
+  "generated_at": "2025-10-04T18:19:28.619104+00:00"
 }
