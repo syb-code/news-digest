@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "404a271c9b6baa850364ccb498f6f9e7",
+      "title": "The AI Capex Bubble, Gold & Silver on the Rise, and Signs of Market Froth | Jack & Max",
+      "url": "https://www.youtube.com/watch?v=NMFSBhidS4k",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-05T13:00:41+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe react to the lack of employment data, discuss the “bubble” in AI capex, gold and silver’s recent rise an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "919817ef15d57b9d6a350dd727912c84",
       "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
       "url": "https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng",
@@ -1017,21 +1032,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bda2f64034c440da4f122f6caeaf3b1b",
-      "title": "Why You Don’t Need Everyone’s Money",
-      "url": "https://www.youtube.com/shorts/o22lqQ8bp5A",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-02T19:30:12+00:00",
-      "summary": "In this clip from the Other People’s Money podcast, @hfreflection breaks down a powerful truth about raising capital: your job isn’t to win everyone over—it’s to connect with the right investors who believe in you.\n\nHe explains why polarization can be an advantage, how long-term…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8c98b009fb9e417c6eae4383c5cdadf6",
       "title": "LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome",
       "url": "https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-05T12:28:16.344898+00:00"
+  "generated_at": "2025-10-05T13:18:50.437272+00:00"
 }
