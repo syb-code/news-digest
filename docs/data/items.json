@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "919817ef15d57b9d6a350dd727912c84",
+      "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
+      "url": "https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-05T11:02:39+00:00",
+      "summary": "Albert Cheng on the explore/exploit framework, AI-powered data analysis, doubling Grammarly conversions through reverse trials, freemium monetization, habit formation psychology, and more",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ac6711ebd692a5cda6a8a66288d3865d",
       "title": "I Tested ChatGPT As My Startup Cofounder for a Week - Here's My Grade",
       "url": "https://www.youtube.com/watch?v=ueCvU5c8ZLk",
@@ -903,21 +918,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3893aefa9c8bbe264a0c67455e4cce11",
-      "title": "Building eval systems that improve your AI product",
-      "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-09T13:03:34+00:00",
-      "summary": "A practical guide to moving beyond generic scores and measuring what matters",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "783d5542a824ceb4464788be1c3ae405",
       "title": "Ultimate AI Prompt Directory",
       "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-05T10:14:27.523719+00:00"
+  "generated_at": "2025-10-05T11:11:30.230941+00:00"
 }
