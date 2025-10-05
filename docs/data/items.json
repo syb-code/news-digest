@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ac6711ebd692a5cda6a8a66288d3865d",
+      "title": "I Tested ChatGPT As My Startup Cofounder for a Week - Here's My Grade",
+      "url": "https://www.youtube.com/watch?v=ueCvU5c8ZLk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-05T00:57:16+00:00",
+      "summary": "The AI Daily Brief puts ChatGPT’s new Pulse feature through its paces to see if it can truly act like a proactive startup cofounder. This episode explores how well Pulse extends strategic conversations, surfaces useful ideas, and bridges the gap between reactive chat and anticip…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2bd394c8f9c1f4565ffb5c2c91a852f6",
       "title": "Vibe Coding Comes to the Enterprise",
       "url": "https://www.youtube.com/watch?v=RZDP8pMuSD0",
@@ -370,21 +385,6 @@
       "source_type": "youtube",
       "published": "2025-09-26T00:00:06+00:00",
       "summary": "The AI lab rivalry is heating up as rumors swirl about Gemini 3 and Anthropic 4.5. Anthropic faces reputational struggles after coding model stumbles and political headwinds, while OpenAI’s GPT-5 Codex is winning back developers. Meanwhile, Google has strong momentum, Microsoft …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "adc08145c6f08336397fece6d7028b27",
-      "title": "This AI Video Model Is Going to Take Over Twitch",
-      "url": "https://www.youtube.com/watch?v=LSG7GDZMQhU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-25T16:47:26+00:00",
-      "summary": "Today’s headlines span both the bleeding edge of AI research and the massive scale of infrastructure ambition. A new open-source video model is going viral for its uncanny deepfake realism, raising questions about creative potential and ethical use. Meanwhile, Sam Altman and Ope…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-04T23:13:33.301716+00:00"
+  "generated_at": "2025-10-05T01:17:08.807268+00:00"
 }
