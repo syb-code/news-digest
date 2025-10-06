@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c3c92170fb1d94d43c579feb3391f265",
+      "title": "Jobs Report — Biggest Job Loss in Years, Fed Forced to Cut Rates",
+      "url": "https://www.youtube.com/watch?v=3sCckDU4irs",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-10-06T16:00:11+00:00",
+      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9ed9f57c1960b66b91499a52739af19f",
       "title": "“I’m incapable of doing my job without AI”: How this top PM uses Claude + ChatGPT as his second brain",
       "url": "https://www.lennysnewsletter.com/p/building-a-second-brain-with-ai",
@@ -1131,19 +1146,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "397fc5f1d4167449c32beb81f21790eb",
-      "title": "US Debt Crisis — 2025 Is Even Worse Than 2024",
-      "url": "https://www.youtube.com/watch?v=PhPKdtad5BI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-20T16:00:41+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "3f963b1337f3d4e56e3c421b99581033",
       "title": "Deep Learning Weekly: Issue 418",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-418",
@@ -1802,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-06T15:15:49.309939+00:00"
+  "generated_at": "2025-10-06T16:19:14.977850+00:00"
 }
