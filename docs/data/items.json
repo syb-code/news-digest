@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9ed9f57c1960b66b91499a52739af19f",
+      "title": "“I’m incapable of doing my job without AI”: How this top PM uses Claude + ChatGPT as his second brain",
+      "url": "https://www.lennysnewsletter.com/p/building-a-second-brain-with-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-06T11:03:32+00:00",
+      "summary": "Watch now | 🎙️ Monday.com’s AI PM on creating custom AI “brains” for context switching, using Claude to build Reddit scrapers, and practicing product interviews with GPT voice mode",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "404a271c9b6baa850364ccb498f6f9e7",
       "title": "The AI Capex Bubble, Gold & Silver on the Rise, and Signs of Market Froth | Jack & Max",
       "url": "https://www.youtube.com/watch?v=NMFSBhidS4k",
@@ -903,21 +918,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "eac99f74ae0545d3c139cb77ede87417",
-      "title": "Building eval systems that improve your AI product",
-      "url": "https://www.lennysnewsletter.com/p/building-eval-systems-that-improve-cec",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-09T14:01:43+00:00",
-      "summary": "A practical guide to moving beyond generic scores and measuring what matters",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d386ac32dd5ca5c9e702c9d6531d4db8",
       "title": "Concentrated Investing in Change, Crisis, & Controversy with Stoic Point Capital Management",
       "url": "https://www.youtube.com/watch?v=I9NeTDbM7rs",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-06T10:17:21.707863+00:00"
+  "generated_at": "2025-10-06T11:13:00.853647+00:00"
 }
