@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4dd7f6fdb327911460d35fc1a70af456",
+      "title": "A free year of Devin: the world’s most advanced autonomous AI software engineer",
+      "url": "https://www.lennysnewsletter.com/p/a-free-year-of-devin-the-worlds-first",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-07T15:12:21+00:00",
+      "summary": "An offer you won't find anywhere else—and an additional $1,350 in value for Insider subscribers",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2ea0cda9e0901952f581977da9277ff2",
       "title": "OpenAI DevDay 2025: Did OpenAI Just Kill A Bunch of Agent Startups?",
       "url": "https://www.youtube.com/watch?v=EGgLgmoRZQw",
@@ -886,21 +901,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6ad16b16d3c63bd1472bc1c2815b701a",
-      "title": "$46B of hard truths from Ben Horowitz: Why founders fail and why you need to run toward fear (a16z co-founder)",
-      "url": "https://www.lennysnewsletter.com/p/46b-of-hard-truths-from-ben-horowitz",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-11T11:03:17+00:00",
-      "summary": "Listen now | 🎙️ a16z's co-founder on why he takes CEO advice from an ex-prison gang leader, the $2M IPO everyone called insane, why he backed Adam Neumann, and how hip-hop teaches business better than an MBA",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-07T14:16:37.887376+00:00"
+  "generated_at": "2025-10-07T15:17:28.149897+00:00"
 }
