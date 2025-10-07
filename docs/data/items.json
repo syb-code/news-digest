@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2ea0cda9e0901952f581977da9277ff2",
+      "title": "OpenAI DevDay 2025: Did OpenAI Just Kill A Bunch of Agent Startups?",
+      "url": "https://www.youtube.com/watch?v=EGgLgmoRZQw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-06T23:41:59+00:00",
+      "summary": "OpenAI’s 2025 DevDay just redefined the agent landscape — and maybe wiped out a slew of startups in the process? In this instant reaction bonus episode, NLW breaks down the biggest announcements, including the new Agent Kit, Apps SDK, and API updates, and asks whether OpenAI’s l…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c3c92170fb1d94d43c579feb3391f265",
       "title": "Jobs Report — Biggest Job Loss in Years, Fed Forced to Cut Rates",
       "url": "https://www.youtube.com/watch?v=3sCckDU4irs",
@@ -430,21 +445,6 @@
       "source_type": "youtube",
       "published": "2025-09-26T22:40:01+00:00",
       "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7090863887ca299806a971dbe52fe892",
-      "title": "Could Gemini 3.0 and Claude 4.5 Be Coming Soon?",
-      "url": "https://www.youtube.com/watch?v=rRDl-x-2Mpk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-26T00:00:06+00:00",
-      "summary": "The AI lab rivalry is heating up as rumors swirl about Gemini 3 and Anthropic 4.5. Anthropic faces reputational struggles after coding model stumbles and political headwinds, while OpenAI’s GPT-5 Codex is winning back developers. Meanwhile, Google has strong momentum, Microsoft …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-06T23:13:45.552551+00:00"
+  "generated_at": "2025-10-07T01:10:42.652161+00:00"
 }
