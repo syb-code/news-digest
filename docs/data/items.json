@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "3eec6418aaa2c496146dbfa9a8d31d00",
+      "title": "“The End of the Anti-Crypto Movement",
+      "url": "https://www.youtube.com/shorts/1Vgl9vu_wqY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-08T11:30:04+00:00",
+      "summary": "Pure Crypto’s Jeremy Boynton and Zach Lindquist join Max Wiethe on Other People’s Money to discuss why the so-called “Elizabeth Warren anti-crypto army” has lost momentum. After the 2024 election cycle, crypto’s growing voter base and influence in campaign funding have made it a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5b28b8a9591c5d96cce29f84d6c4243d",
       "title": "LWiAI Podcast #222 - Sora 2, Sonnet 4.5, Vibes, Thinking Machines",
       "url": "https://lastweekin.ai/p/lwiai-podcast-222-sora-2-sonnet-45",
@@ -1034,21 +1050,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0b13be6cd5589b9d3b33f38467d9e71e",
-      "title": "How AI Tools Are Rapidly Disrupting the Investment Industry | Brett Caughran & David Plon",
-      "url": "https://www.youtube.com/watch?v=mrSsM_lS8Ok",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-03T13:01:29+00:00",
-      "summary": "Learn more about the new AI Academy from Fundamental Edge: https://www.fundamentedge.com/ai-academy\n\nThere’s no shortage of speculation about how AI will reshape the workforce, but one area where no speculation is needed is the investment industry. AI is already rapidly disrupti…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9d23ee0a81ea7963cce8cc57805d8731",
       "title": "Tax Refund Surge Ahead — These People Will Get the Biggest Refunds!",
       "url": "https://www.youtube.com/watch?v=J-oVapEhUHc",
@@ -1804,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-08T11:13:08.386932+00:00"
+  "generated_at": "2025-10-08T12:33:24.024919+00:00"
 }
