@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c96d1379ae4f4c380da1df38c7fdd1aa",
+      "title": "5 Reasons AI is A Bubble (And 5 It's Not)",
+      "url": "https://www.youtube.com/watch?v=hQGsLHr2JyE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-08T20:16:43+00:00",
+      "summary": "Today’s episode digs into a question that has been with us since ChatGPT launched: is AI a boom or a bubble? The conversation has surged this week after deals between OpenAI and AMD and Nvidia and xAI, as well as reports around the thinness of Oracle's margins. NLW breaks down f…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3bf5bdbb0752db15e16ffd2503250f5f",
       "title": "CEOs Think AI ROI Is Coming Faster",
       "url": "https://www.youtube.com/watch?v=ECyHWe7eDLY",
@@ -463,21 +478,6 @@
       "source_type": "rss",
       "published": "2025-09-29T11:03:52+00:00",
       "summary": "Watch now | 🎙️ Ravi Mehta on why your prototypes need real data to get meaningful feedback, why JSON beats design systems for AI prototyping, and how to structure Midjourney prompts for professional photos",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "af9bf77e8b0134e1e9fc918789bb3e2d",
-      "title": "Stop Blaming AI For Workslop",
-      "url": "https://www.youtube.com/watch?v=87IF1y--5Qk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-28T11:56:21+00:00",
-      "summary": "Everyone is suddenly talking about workslop—AI-generated content that looks polished but lacks substance. This episode argues that the problem isn’t underperforming AI, but broken incentives and unnecessary busywork that AI is exposing. It explores why workslop is really an orga…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-08T21:14:04.454878+00:00"
+  "generated_at": "2025-10-08T22:14:48.716902+00:00"
 }
