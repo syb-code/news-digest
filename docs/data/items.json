@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "67ca31b977b235f11f36e396fb2acee9",
+      "title": "Global Economy on Knife's Edge | Richard Murphy",
+      "url": "https://www.youtube.com/watch?v=ZVEj9CH35VU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-08T14:39:55+00:00",
+      "summary": "Richard J Murphy, a political economist, chartered accountant, tax reform advocate, and professor emeritus at the University of Sheffield, joins Jack on Monetary Matters to discuss tax reform, economic theory, inflation, deficits, central banking, and more. While the stock marke…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3eec6418aaa2c496146dbfa9a8d31d00",
       "title": "“The End of the Anti-Crypto Movement",
       "url": "https://www.youtube.com/shorts/1Vgl9vu_wqY",
@@ -1007,21 +1020,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "92c2376aa4203cebf6bc91562b656618",
-      "title": "The AI Semiconductor Supercycle | Angus Shillington & Nick Frasse (Fireside Chat)",
-      "url": "https://www.youtube.com/watch?v=3mbERI2h4K4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-07T16:41:14+00:00",
-      "summary": "This episode of Monetary Matters is a Sponsored Fireside Chat brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nThe AI revolution ha…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "82e8833c91335d906946c3fab7d133b8",
       "title": "Jobs Report Disaster — Fed Forced to Cut Rates More Quickly",
       "url": "https://www.youtube.com/watch?v=ULjrJ605UUk",
@@ -1805,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-08T14:16:02.058632+00:00"
+  "generated_at": "2025-10-08T15:16:48.422965+00:00"
 }
