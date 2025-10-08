@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3bf5bdbb0752db15e16ffd2503250f5f",
+      "title": "CEOs Think AI ROI Is Coming Faster",
+      "url": "https://www.youtube.com/watch?v=ECyHWe7eDLY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-08T17:24:51+00:00",
+      "summary": "KPMG’s new Global CEO Outlook shows a sharp shift in how executives view AI: 67% now expect returns on AI investments within three years, triple last year’s figure. The episode breaks down why leaders are increasing AI budgets despite falling economic confidence, and how compani…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "67ca31b977b235f11f36e396fb2acee9",
       "title": "Global Economy on Knife's Edge | Richard Murphy",
       "url": "https://www.youtube.com/watch?v=ZVEj9CH35VU",
@@ -494,21 +509,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a36ddc16e88525cdcfd5c7f094d9940a",
-      "title": "How ChatGPT Pulse Changes AI",
-      "url": "https://www.youtube.com/watch?v=YZwDJBup4Rc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-27T11:14:01+00:00",
-      "summary": "OpenAI has unveiled ChatGPT Pulse, a new proactive background agent that shifts AI from reactive answers to daily, personalized insights. Pulse curates updates based on chats, preferences, and connected apps, effectively acting like a research assistant that anticipates needs in…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-08T17:14:05.145445+00:00"
+  "generated_at": "2025-10-08T18:23:26.024553+00:00"
 }
