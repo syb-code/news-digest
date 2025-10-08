@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5b28b8a9591c5d96cce29f84d6c4243d",
+      "title": "LWiAI Podcast #222 - Sora 2, Sonnet 4.5, Vibes, Thinking Machines",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-222-sora-2-sonnet-45",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-08T06:04:52+00:00",
+      "summary": "ChatGPT parent company OpenAI announces Sora 2 with AI video app, Anthropic releases Claude Sonnet 4.5, Meta launches ‘Vibes’",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e61a09dcf844d40b3341a540e9c6005b",
       "title": "Why OpenAI's AMD Deal Could Be Bigger News than DevDay",
       "url": "https://www.youtube.com/watch?v=mgEnFOHmuO0",
@@ -1651,21 +1666,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "62426ff1a10a3f6246b788d67f5940d2",
-      "title": "Last Week in AI #313 - Fair Use Win, Gemini 2.5 Flash-Lite, MiniMax M1, Tesla Robotaxi",
-      "url": "https://lastweekin.ai/p/anthropics-copyright-case-gemini",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-25T23:48:11+00:00",
-      "summary": "Anthropic Nabs Partial Fair Use Win in Copyright Case, Google’s Gemini AI family updated with stable 2.5 Pro, super-efficient 2.5 Flash-Lite, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dfddc0971eecc297587e3f534eb25d84",
       "title": "Ultimate Prompt Hacks for Lovable",
       "url": "https://designplusai.com/p/ultimate-prompt-hacks-for-lovable",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-08T05:15:05.594166+00:00"
+  "generated_at": "2025-10-08T06:23:55.874997+00:00"
 }
