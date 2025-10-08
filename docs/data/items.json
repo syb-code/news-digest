@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e61a09dcf844d40b3341a540e9c6005b",
+      "title": "Why OpenAI's AMD Deal Could Be Bigger News than DevDay",
+      "url": "https://www.youtube.com/watch?v=mgEnFOHmuO0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-07T23:17:13+00:00",
+      "summary": "OpenAI’s massive new deal with AMD could reshape the AI hardware race — and may prove even more significant than DevDay itself. The episode explores the implications for OpenAI's relationship with Nvidia, the detials of a 6-gigawatt chip buildout, and why the deal’s stock-option…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4dd7f6fdb327911460d35fc1a70af456",
       "title": "A free year of Devin: the world’s most advanced autonomous AI software engineer",
       "url": "https://www.lennysnewsletter.com/p/a-free-year-of-devin-the-worlds-first",
@@ -445,21 +460,6 @@
       "source_type": "youtube",
       "published": "2025-09-27T11:14:01+00:00",
       "summary": "OpenAI has unveiled ChatGPT Pulse, a new proactive background agent that shifts AI from reactive answers to daily, personalized insights. Pulse curates updates based on chats, preferences, and connected apps, effectively acting like a research assistant that anticipates needs in…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8b7cf29be3a3393d85e14e73ce0f7d98",
-      "title": "Could AI Wipe Out 1/5 of Public Companies?",
-      "url": "https://www.youtube.com/watch?v=TVdEwvWtraY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-26T22:40:01+00:00",
-      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-07T23:13:38.864646+00:00"
+  "generated_at": "2025-10-08T01:10:29.381365+00:00"
 }
