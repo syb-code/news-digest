@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c944669b80b5b1c2a261f867b7df916b",
+      "title": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
+      "url": "https://www.lennysnewsletter.com/p/first-interview-with-scale-ais-ceo-jason-droege",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-09T11:03:40+00:00",
+      "summary": "Scale AI’s new CEO on Meta’s $14B bet, lessons from building Uber Eats to $20B, and why AI won't replace jobs anytime soon",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c96d1379ae4f4c380da1df38c7fdd1aa",
       "title": "5 Reasons AI is A Bubble (And 5 It's Not)",
       "url": "https://www.youtube.com/watch?v=hQGsLHr2JyE",
@@ -905,21 +920,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3c70c3b684677da9641212e3e00dd06e",
-      "title": "🧠 Community Wisdom: When leadership asks you to build an AI feature, giving feedback to people outside your team, transitioning from PM to BizOps, building an email verification flow, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-leadership",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-13T15:55:50+00:00",
-      "summary": "Community Wisdom 248",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "942ecc52046a90b221622281a9ca60e6",
       "title": "Fed Will Cut Interest Rates Next Week (Despite Rising Inflation)",
       "url": "https://www.youtube.com/watch?v=Kw-wgCnR4QA",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-09T10:17:38.870925+00:00"
+  "generated_at": "2025-10-09T11:13:22.749208+00:00"
 }
