@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c9cb4cb5fc11c2968d9046332cf28fb7",
+      "title": "Deep Learning Weekly: Issue 425",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-425",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-10-09T15:03:10+00:00",
+      "summary": "RTEB: A New Standard for Retrieval Evaluation, Building Multi-Agent Systems with Crew AI and Weaviate, a paper on MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use, and many",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c944669b80b5b1c2a261f867b7df916b",
       "title": "First interview with Scale AI’s CEO: $14B Meta deal, what’s working in enterprise AI, and what frontier labs are building next | Jason Droege",
       "url": "https://www.lennysnewsletter.com/p/first-interview-with-scale-ais-ceo-jason-droege",
@@ -1786,22 +1801,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "9862551069eadfbb5327fbd997309814",
-      "title": "Deep Learning Weekly: Issue 405",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-405",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-05-22T14:31:23+00:00",
-      "summary": "OpenAI Codex , The Opik Agent Optimizer Public Beta, a paper on Parallel Scaling Law for Language Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-09T14:16:16.963808+00:00"
+  "generated_at": "2025-10-09T15:29:19.643663+00:00"
 }
