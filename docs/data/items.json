@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b06ca50525e38eb902bcb7123e740ef3",
+      "title": "Sora 2 Prompting Guide",
+      "url": "https://www.youtube.com/watch?v=qFFRiUFzOGo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-09T23:41:11+00:00",
+      "summary": "OpenAI’s Sora 2 has exploded past a million downloads — and today’s episode breaks down how creators and businesses are using it. NLW explores the new Sora 2 Prompting Guide, explaining how to craft prompts that balance creativity and precision, from simple “open” shots to full …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "38af3ae386f0c034f817dd466ba3a6d0",
       "title": "Debasement Trade — The Hottest Investing Trend (My Advice)",
       "url": "https://www.youtube.com/watch?v=C6AVe-Hm8Ew",
@@ -482,21 +497,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "da4a1e6b33d112cbd51c6d2f7cf9ea80",
-      "title": "The AI Benchmark We've All Been Waiting For",
-      "url": "https://www.youtube.com/watch?v=Sj1LGPVLLIM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-29T17:40:21+00:00",
-      "summary": "OpenAI has introduced GDP Val, a groundbreaking benchmark designed to measure AI on real-world, economically valuable tasks across 44 occupations and 1,320 professional deliverables. Unlike synthetic exams, GDP Val evaluates models on actual work products—like legal briefs, blue…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-09T23:14:08.841062+00:00"
+  "generated_at": "2025-10-10T01:11:14.255344+00:00"
 }
