@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "515e4bb6440e5f33826fcee8671dcfd4",
+      "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
+      "url": "https://www.lennysnewsletter.com/p/how-google-built-ai-mode-in-under-a-year",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-10T23:11:27+00:00",
+      "summary": "Robby Stein on Google's AI comeback: Gemini hits #1 beating ChatGPT, why AI is expanding the pie for search, and his frameworks behind two billion-user products",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "75d73dc1488f8072767180d898232a42",
       "title": "How AI is Reducing Burnout at Work",
       "url": "https://www.youtube.com/watch?v=Qfow8pMA-e8",
@@ -921,19 +936,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "96c1fe525a71ecd7123f04e1fce996f7",
-      "title": "The ultimate guide to AEO: How to get ChatGPT to recommend your product | Ethan Smith (Graphite)",
-      "url": "https://www.lennysnewsletter.com/p/the-ultimate-guide-to-aeo-ethan-smith",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-14T11:03:23+00:00",
-      "summary": "🎙️ Graphite's CEO on why ChatGPT is driving more qualified leads than Google, how to optimize for Reddit without spamming, and why early-stage startups can win at AEO when they couldn't at SEO",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "50cf7264c6404fb3b0b083e8bf17ad66",
       "title": "911,000 Jobs Set To Disappear By February 2026 (Here’s Why)",
       "url": "https://www.youtube.com/watch?v=x79hwclCJjw",
@@ -1802,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-10T23:13:32.329339+00:00"
+  "generated_at": "2025-10-11T01:08:40.870580+00:00"
 }
