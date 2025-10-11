@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5b043ff898154c1c78122115f7fb34f5",
+      "title": "Is The Bull Market Over?",
+      "url": "https://www.youtube.com/watch?v=l1QlstHwfLI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-11T16:30:31+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe react to the weakness in the credit markets upon the large $10+ Billion bankruptcy of First Brands and t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bd5a13bfa7399b22f705fbf7d0dcbba4",
       "title": "🧠 Community Wisdom: Best path to becoming a mid-level PM, vibe coding a simple game, growth strategy for early-stage company, getting better at AI, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-best-path-to-becoming",
@@ -1006,21 +1021,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d386ac32dd5ca5c9e702c9d6531d4db8",
-      "title": "Concentrated Investing in Change, Crisis, & Controversy with Stoic Point Capital Management",
-      "url": "https://www.youtube.com/watch?v=I9NeTDbM7rs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-09T13:36:54+00:00",
-      "summary": "This episode is brought to you by Fundamental Edge. Learn more about their new AI Academy for buyside professionals: https://www.fundamentedge.com/ai-academy\n\nRaj Shah and Cullen Rose of Stoic Point Capital Management join OPM for a specials double episode. In the first half we …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "783d5542a824ceb4464788be1c3ae405",
       "title": "Ultimate AI Prompt Directory",
       "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-11T16:16:37.331342+00:00"
+  "generated_at": "2025-10-11T17:11:52.953787+00:00"
 }
