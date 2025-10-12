@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2ef74fafe57567a09cb107298e76aa6f",
+      "title": "Kind Products Win",
+      "url": "https://designplusai.com/p/kind-products-win",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-12T08:05:26+00:00",
+      "summary": "Why do so many products feel soulless?",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "f7dcaac252e811ee6ef0454df0d6c417",
       "title": "What 1000 Executives Say About AI Agents",
       "url": "https://www.youtube.com/watch?v=nDDWWCqnR60",
@@ -1763,19 +1776,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0619aa3a2f0cb9894c31c08757e2a13c",
-      "title": "A love letter to designers",
-      "url": "https://designplusai.com/p/a-love-letter-to-designers",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-11T13:23:00+00:00",
-      "summary": "Dear designers,",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a8a389e1e1bcd8b53333e7c39f6ca3a3",
       "title": "Deep Learning Weekly: Issue 407",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-407",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-12T07:13:24.728615+00:00"
+  "generated_at": "2025-10-12T08:18:14.335561+00:00"
 }
