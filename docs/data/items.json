@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f7dcaac252e811ee6ef0454df0d6c417",
+      "title": "What 1000 Executives Say About AI Agents",
+      "url": "https://www.youtube.com/watch?v=nDDWWCqnR60",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-12T01:32:41+00:00",
+      "summary": "In this special long-read episode, Nathaniel Whittemore digs into insights from thousands of executive interviews about AI and agents in the enterprise. Based on data from Superintelligent’s Agent Readiness and Opportunity Mapping audits, he unpacks where companies actually stan…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5b043ff898154c1c78122115f7fb34f5",
       "title": "Is The Bull Market Over?",
       "url": "https://www.youtube.com/watch?v=l1QlstHwfLI",
@@ -486,19 +501,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f764f01a7e69cee68729d25e00aae6b8",
-      "title": "Claude Sonnet 4.5 Can Code Autonomously for 30 Hours 🤯",
-      "url": "https://www.youtube.com/watch?v=pbwAMl2dAcE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-09-30T23:30:06+00:00",
-      "summary": "Anthropic's Claude Sonnet 4.5 reportedly demonstrates groundbreaking autonomy by coding for up to 30 hours non-stop, significantly outpacing prior benchmarks like GPT-5 Codex’s seven-hour runs. This leap is enabled by innovations such as enforced modular artifacts, persistent me…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-12T01:14:29.971374+00:00"
+  "generated_at": "2025-10-12T02:59:41.076919+00:00"
 }
