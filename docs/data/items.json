@@ -14,6 +14,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "a86aaa86675af9dd8b4a994a7d1f5cb2",
+      "title": "These Are the Jobs People Actually WANT AI to Automate",
+      "url": "https://www.youtube.com/watch?v=lDZLs-7uxH4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-13T18:41:53+00:00",
+      "summary": "A new study reveals which jobs people actually want AI to automate—and which ones they consider off-limits. The findings show surprising support for machines taking over many white-collar roles, while caregiving, therapy, and teaching remain deeply human domains. The discussion …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "97df53ee82e3a04e73084be0af1c9137",
       "title": "6 Business Ideas Using Sora 2",
       "url": "https://www.youtube.com/watch?v=NtpcSuKNKPM",
@@ -499,21 +514,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "00a0cf865806e15799e87403362680e5",
-      "title": "OpenAI’s Sora 2 Sparks a Brainrot Rebellion",
-      "url": "https://www.youtube.com/watch?v=Ke0yXxDUdWQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-02T00:00:06+00:00",
-      "summary": "Today on the AI Daily Brief, NLW goes deep on OpenAI’s release of Sora 2—its next-generation video generation model—and the launch of the new Sora social app, which some are calling an AI-powered TikTok. Is this the beginning of a Cambrian explosion of creativity, or just the ne…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-13T21:13:34.194993+00:00"
+  "generated_at": "2025-10-13T22:14:23.874903+00:00"
 }
