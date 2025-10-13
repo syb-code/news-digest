@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "97df53ee82e3a04e73084be0af1c9137",
+      "title": "6 Business Ideas Using Sora 2",
+      "url": "https://www.youtube.com/watch?v=NtpcSuKNKPM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-13T16:50:02+00:00",
+      "summary": "Sora 2 has officially become the fastest-growing AI app in history — and it’s already spawning real business opportunities. This episode explores six ways entrepreneurs are using Sora 2: from product prototyping and UGC ad automation to fashion try-ons, viral video testing, and …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6e78fe41949b6768f1a974abfea2e507",
       "title": "Evals, error analysis, and better prompts: A systematic approach to improving your AI products | Hamel Husain (ML engineer)",
       "url": "https://www.lennysnewsletter.com/p/evals-error-analysis-and-better-prompts",
@@ -499,21 +514,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "941ec91633d7fc69aaa0de1e0738085f",
-      "title": "The AI Cost Performance Frontier Keeps Improving",
-      "url": "https://www.youtube.com/watch?v=jqhnplwGUK0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-01T16:24:30+00:00",
-      "summary": "Today’s headlines cover major shifts across AI cost, products, and global growth. Google rolled out updates to its Gemini 2.5 Flash models, cutting costs by 50% while boosting efficiency and multimodal performance, while Apple tests a new AI-powered Siri that could finally bring…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-13T16:19:23.266288+00:00"
+  "generated_at": "2025-10-13T17:13:57.041827+00:00"
 }
