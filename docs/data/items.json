@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6e78fe41949b6768f1a974abfea2e507",
+      "title": "Evals, error analysis, and better prompts: A systematic approach to improving your AI products | Hamel Husain (ML engineer)",
+      "url": "https://www.lennysnewsletter.com/p/evals-error-analysis-and-better-prompts",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-13T11:03:43+00:00",
+      "summary": "Watch now | 🎙️ How to build better AI products through data-driven error analysis, evaluation frameworks, and systematic quality improvement",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f7dcaac252e811ee6ef0454df0d6c417",
       "title": "What 1,000+ Executives Say About AI Agents",
       "url": "https://www.youtube.com/watch?v=nDDWWCqnR60",
@@ -925,19 +940,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f6b0851777023b1a4df38567252c951a",
-      "title": "How to develop product sense",
-      "url": "https://www.lennysnewsletter.com/p/how-to-develop-product-sense",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-16T13:03:22+00:00",
-      "summary": "With guest author Jules Walter",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "ca63596ee042a4fc7267544f5662ae0c",
       "title": "Are We Headed for a DOUBLE-DIP Recession?",
       "url": "https://www.youtube.com/shorts/rk-a44W_bQE",
@@ -1806,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-13T10:18:47.949226+00:00"
+  "generated_at": "2025-10-13T11:14:01.515247+00:00"
 }
