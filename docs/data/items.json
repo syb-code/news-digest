@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "731cd7a9b1dddae823887e7465420e51",
+      "title": "How China Manipulates Its Currency To Dominate Global Trade | Brad Setser",
+      "url": "https://www.youtube.com/watch?v=HEY4Z_T1nTc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-13T19:44:52+00:00",
+      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nBrad Setser, Whitney Shepardson senior fellow …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "97df53ee82e3a04e73084be0af1c9137",
       "title": "6 Business Ideas Using Sora 2",
       "url": "https://www.youtube.com/watch?v=NtpcSuKNKPM",
@@ -996,19 +1009,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3e392bc8c5de6d3ddc3c6356a0c24b0d",
-      "title": "The Real Reason Jobs Market Is Weakening | Aahan Menon of Prometheus Macro",
-      "url": "https://www.youtube.com/watch?v=BXwJfBd2Ru0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-11T17:33:41+00:00",
-      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nTake the Monetary Matters poll: \nhttps://docs.…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a20951c29e2ac54117b53761efb5314f",
       "title": "Last Week in AI #321 - Anthropic & Midjourney Lawsuits, Bad Jobs Data",
       "url": "https://lastweekin.ai/p/last-week-in-ai-321-anthropic-and",
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-13T19:12:00.821698+00:00"
+  "generated_at": "2025-10-13T20:17:47.336106+00:00"
 }
