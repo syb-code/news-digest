@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a86aaa86675af9dd8b4a994a7d1f5cb2",
+      "title": "These Are the Jobs People Actually WANT AI to Automate",
+      "url": "https://www.youtube.com/watch?v=lDZLs-7uxH4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-14T00:00:06+00:00",
+      "summary": "A new study reveals which jobs people actually want AI to automate—and which ones they consider off-limits. The findings show surprising support for machines taking over many white-collar roles, while caregiving, therapy, and teaching remain deeply human domains. The discussion …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "731cd7a9b1dddae823887e7465420e51",
       "title": "How China Manipulates Its Currency To Dominate Global Trade | Brad Setser",
       "url": "https://www.youtube.com/watch?v=HEY4Z_T1nTc",
@@ -11,21 +26,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a86aaa86675af9dd8b4a994a7d1f5cb2",
-      "title": "These Are the Jobs People Actually WANT AI to Automate",
-      "url": "https://www.youtube.com/watch?v=lDZLs-7uxH4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-13T18:41:53+00:00",
-      "summary": "A new study reveals which jobs people actually want AI to automate—and which ones they consider off-limits. The findings show surprising support for machines taking over many white-collar roles, while caregiving, therapy, and teaching remain deeply human domains. The discussion …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-13T23:13:27.066603+00:00"
+  "generated_at": "2025-10-14T01:11:12.752509+00:00"
 }
