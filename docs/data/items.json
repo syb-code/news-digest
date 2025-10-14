@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f1858104259200ce592e1edaf16cc0a3",
+      "title": "Google Is Processing 500M AI Tokens Every Second",
+      "url": "https://www.youtube.com/watch?v=tsxwb_y5OEM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-14T15:42:37+00:00",
+      "summary": "Google’s AI systems are now processing an astonishing 500 million tokens every second, signaling explosive growth across its Gemini platform. At the same time, Meta reignites the billion-dollar AI talent wars, luring top researchers from rival labs, while XAI moves into world mo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ddaea7f48507efe01ec0260c5cedd580",
       "title": "Government Shutdown Disaster — Total Chaos in Washington",
       "url": "https://www.youtube.com/watch?v=6DkclgcTIfE",
@@ -505,21 +520,6 @@
       "source_type": "youtube",
       "published": "2025-10-03T13:26:31+00:00",
       "summary": "The U.S. government has released a blistering new report claiming DeepSeek falls short on performance, security, and cost compared to American AI models, sparking debate over reliance on foreign systems. Apple is reportedly scrapping its Vision Pro roadmap in favor of AI-powered…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "18f018a5d66522ba6f87a6003f31d2b1",
-      "title": "When Will AI Make Scientific Discoveries?",
-      "url": "https://www.youtube.com/watch?v=ObRsPL35-pI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-03T00:00:06+00:00",
-      "summary": "Today’s AI Daily Brief asks when artificial intelligence will begin making real scientific discoveries. We look at Periodic Labs, which just raised more than $300 million to build AI scientists and autonomous labs for physics and chemistry, and Thinking Machines, which is creati…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-14T15:17:53.830884+00:00"
+  "generated_at": "2025-10-14T16:20:04.358176+00:00"
 }
