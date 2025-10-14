@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "56c5e09c3d66d6ac7dbb908469225938",
+      "title": "Everyone should be using Claude Code more",
+      "url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code-8db",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-14T09:02:13+00:00",
+      "summary": "How to get started, and 50 ways non-technical people are using Claude Code in their work and life",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a86aaa86675af9dd8b4a994a7d1f5cb2",
       "title": "These Are the Jobs People Actually WANT AI to Automate",
       "url": "https://www.youtube.com/watch?v=lDZLs-7uxH4",
@@ -889,21 +902,6 @@
       "source_type": "rss",
       "published": "2025-09-18T15:01:47+00:00",
       "summary": "The Ultimate Guide to LLM Evaluation: Metrics, Methods & Best Practices, How to Train an LLM-RecSys Hybrid for Steerable Recs with Semantic IDs, a paper on Hierarchical Reasoning Model, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4890d764fd6266f0aa19632f5be96aab",
-      "title": "Why experts writing AI evals is creating the fastest-growing companies in history | Brendan Foody (CEO of Mercor)",
-      "url": "https://www.lennysnewsletter.com/p/experts-writing-ai-evals-brendan-foody",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-18T11:03:20+00:00",
-      "summary": "Listen now | 🎙️ Mercor’s founder on growing from $1M to $500M in 17 months, why evals are the biggest bottleneck for AI labs, which specific skills will remain valuable, and why he doesn’t expect AGI anytime soon",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1808,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-14T08:19:43.454764+00:00"
+  "generated_at": "2025-10-14T09:17:48.886463+00:00"
 }
