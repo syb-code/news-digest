@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fb5da46dbfb48e2dfb918f00e6e8b870",
+      "title": "The Next AI Platform Isn’t a Model — It’s Your Context",
+      "url": "https://www.youtube.com/watch?v=Hkdi-zXMZGo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-15T01:38:11+00:00",
+      "summary": "The next AI platform war isn’t about models, it’s about who controls your context. This episode breaks down why Slack, Google, Microsoft, and others are racing to own the data that fuels AI agents, how “context engineering” is becoming the new enterprise superpower, and why the …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f1858104259200ce592e1edaf16cc0a3",
       "title": "Google Is Processing 500M AI Tokens Every Second",
       "url": "https://www.youtube.com/watch?v=tsxwb_y5OEM",
@@ -505,21 +520,6 @@
       "source_type": "youtube",
       "published": "2025-10-03T22:21:11+00:00",
       "summary": "OpenAI has introduced Instant Checkout inside ChatGPT, allowing purchases to happen directly in the conversation. The update challenges the traditional search-to-cart model, raising questions about consumer adoption, advertising, and control of online shopping intent. Discussion…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "acfc2f88352e6ad8e37deb41e1d026e3",
-      "title": "US Gov't: \"DeepSeek Sucks, Actually\"",
-      "url": "https://www.youtube.com/watch?v=yo6Lu5RpZXM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-03T13:26:31+00:00",
-      "summary": "The U.S. government has released a blistering new report claiming DeepSeek falls short on performance, security, and cost compared to American AI models, sparking debate over reliance on foreign systems. Apple is reportedly scrapping its Vision Pro roadmap in favor of AI-powered…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-15T01:13:17.168099+00:00"
+  "generated_at": "2025-10-15T03:02:05.157165+00:00"
 }
