@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ec371756c32b7ea57b6c27a0c06bf97d",
+      "title": "Deep Learning Weekly: Issue 426",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-426",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-10-15T15:01:15+00:00",
+      "summary": "Introducing Gemini Enterprise, A small number of samples can poison LLMs of any size, a paper on Self-Adapting Language Models, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "fb5da46dbfb48e2dfb918f00e6e8b870",
       "title": "The Next AI Platform Isn’t a Model — It’s Your Context",
       "url": "https://www.youtube.com/watch?v=Hkdi-zXMZGo",
@@ -1785,22 +1798,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "ac8c8adfb3d3c12922d94e2116f958b3",
-      "title": "Deep Learning Weekly: Issue 406",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-406",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-05-29T15:30:19+00:00",
-      "summary": "Opik’s Guardrails, Jogging the Memory of Unlearned LLMs via Benign Relearning, a paper on DeepEyes: Incentivizing \"Thinking with Images\" via Reinforcement Learning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-15T14:17:08.026962+00:00"
+  "generated_at": "2025-10-15T15:15:50.013666+00:00"
 }
