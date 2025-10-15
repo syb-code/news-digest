@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6e411464d710d81e389c3b943593b449",
+      "title": "The Problem with ChatGPT Erotica",
+      "url": "https://www.youtube.com/watch?v=MJfkd1IH_HE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-15T18:12:05+00:00",
+      "summary": "OpenAI just confirmed an “adult mode” is coming to ChatGPT—complete with verified age gating, looser restrictions, and even erotica for adults. Today’s episode explores how this move reshapes AI’s cultural and moral debate, from questions about digital relationships and mental h…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec371756c32b7ea57b6c27a0c06bf97d",
       "title": "Deep Learning Weekly: Issue 426",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-426",
@@ -518,21 +533,6 @@
       "source_type": "rss",
       "published": "2025-10-04T17:01:16+00:00",
       "summary": "Community Wisdom 226",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ae85775cfda2405cd320af555c2ae298",
-      "title": "Now You Can Buy Stuff in ChatGPT — But Does Anyone Want To?",
-      "url": "https://www.youtube.com/watch?v=lVDrHZY1mUc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-03T22:21:11+00:00",
-      "summary": "OpenAI has introduced Instant Checkout inside ChatGPT, allowing purchases to happen directly in the conversation. The update challenges the traditional search-to-cart model, raising questions about consumer adoption, advertising, and control of online shopping intent. Discussion…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-15T21:14:00.604509+00:00"
+  "generated_at": "2025-10-15T22:13:01.525904+00:00"
 }
