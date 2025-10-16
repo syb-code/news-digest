@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "20a7ddbdf604335b487c7716efcb0a08",
+      "title": "How Hedge Funds Are Entering the ETF Game | David Orr",
+      "url": "https://www.youtube.com/watch?v=yDrvvqDI1-s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-16T21:39:37+00:00",
+      "summary": "This is a special bonus episode of OPM with David Orr. In my first conversation with David, we only discussed his hedge fund that has crushed the S&P 500 since its inception in 2021. In addition to his hedge fund, he also runs the Militia Long/Short Equity ETF ($ORR) which since…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "85f2a3ca4aa18735edee532e6ec72c74",
       "title": "The Fed Can’t Stop Now — Massive Money Printing Is Next",
       "url": "https://www.youtube.com/watch?v=hNiarkEYYRw",
@@ -1018,19 +1031,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "50cf7264c6404fb3b0b083e8bf17ad66",
-      "title": "911,000 Jobs Set To Disappear By February 2026 (Here’s Why)",
-      "url": "https://www.youtube.com/watch?v=x79hwclCJjw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-13T16:48:49+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJack welcomes QI Research’s Danielle DiMartino Booth and Bloomberg Economics’ Chief U.S. Economist Anna Wong to interpret the Bureau of Labor Statistics’ (BLS) recent preliminary 911,000 downwa…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "942ecc52046a90b221622281a9ca60e6",
       "title": "Fed Will Cut Interest Rates Next Week (Despite Rising Inflation)",
       "url": "https://www.youtube.com/watch?v=Kw-wgCnR4QA",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-16T21:13:52.523769+00:00"
+  "generated_at": "2025-10-16T22:12:22.095051+00:00"
 }
