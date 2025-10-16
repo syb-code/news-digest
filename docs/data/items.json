@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1d2eb6628e2a8f2a21e60df4c32cc470",
+      "title": "OpenAI’s Next Move is Custom Chips That Design Themselves",
+      "url": "https://www.youtube.com/watch?v=u4vONcnLb3Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-16T15:42:16+00:00",
+      "summary": "OpenAI just announced a massive shift — it’s building custom AI chips that design themselves, in partnership with Broadcom. This episode breaks down how GPT-5 is now helping optimize the hardware it will run on, why OpenAI’s 10-gigawatt plan could double America’s AI compute cap…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f3ad7b94d5e29183557aea3119099258",
       "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
       "url": "https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat",
@@ -518,21 +533,6 @@
       "source_type": "youtube",
       "published": "2025-10-05T00:57:16+00:00",
       "summary": "The AI Daily Brief puts ChatGPT’s new Pulse feature through its paces to see if it can truly act like a proactive startup cofounder. This episode explores how well Pulse extends strategic conversations, surfaces useful ideas, and bridges the gap between reactive chat and anticip…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2bd394c8f9c1f4565ffb5c2c91a852f6",
-      "title": "Vibe Coding Comes to the Enterprise",
-      "url": "https://www.youtube.com/watch?v=RZDP8pMuSD0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-04T17:06:36+00:00",
-      "summary": "Salesforce is bringing vibe coding to the enterprise with Agent Force Vibes, a new AI-powered IDE built on GPT-5 and designed to integrate directly into Salesforce environments. Let's explore how this move signals the rise of agentic coding inside companies, the competition from…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-16T15:17:18.022459+00:00"
+  "generated_at": "2025-10-16T16:20:41.545369+00:00"
 }
