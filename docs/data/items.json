@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f3ad7b94d5e29183557aea3119099258",
+      "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
+      "url": "https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-16T11:03:16+00:00",
+      "summary": "Figma’s founder on why design is how software wins now, why removing blockers often beats new features, sustaining momentum after 13 years, and how to build taste",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6e411464d710d81e389c3b943593b449",
       "title": "The Problem with ChatGPT Erotica",
       "url": "https://www.youtube.com/watch?v=MJfkd1IH_HE",
@@ -868,21 +883,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "58f214b2f348de8419eec08b652555b3",
-      "title": "From managing people to managing AI: The leadership skills everyone needs now | Julie Zhuo (Facebook VP, Sundial CEO, The Making of a Manager author)",
-      "url": "https://www.lennysnewsletter.com/p/from-managing-people-to-managing-ai-julie-zhuo",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-21T11:03:00+00:00",
-      "summary": "Listen now | 🎙️ The author of The Making of a Manager on why AI is making teams smaller, how to give feedback that sticks, and why the best managers will thrive in an agentic future",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-16T10:18:14.816442+00:00"
+  "generated_at": "2025-10-16T11:13:41.986698+00:00"
 }
