@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8daf6ed147065e7c73ec2317085414ed",
+      "title": "Maybe AI Will Cure Cancer After All",
+      "url": "https://www.youtube.com/watch?v=UrnmWFfp9X8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-17T01:25:56+00:00",
+      "summary": "Google’s new C2S-Scale 27B model may have just helped scientists uncover a novel pathway to fight cancer—an early but validated example of AI-driven discovery. This episode dives into how frontier models are quietly accelerating breakthroughs in biology, math, and physics, from …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "20a7ddbdf604335b487c7716efcb0a08",
       "title": "How Hedge Funds Are Entering the ETF Game | David Orr",
       "url": "https://www.youtube.com/watch?v=yDrvvqDI1-s",
@@ -546,21 +561,6 @@
       "source_type": "rss",
       "published": "2025-10-05T11:02:39+00:00",
       "summary": "Albert Cheng on the explore/exploit framework, AI-powered data analysis, doubling Grammarly conversions through reverse trials, freemium monetization, habit formation psychology, and more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ac6711ebd692a5cda6a8a66288d3865d",
-      "title": "I Tested ChatGPT As My Cofounder for a Week - Here's Everything I Learned",
-      "url": "https://www.youtube.com/watch?v=ueCvU5c8ZLk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-05T00:57:16+00:00",
-      "summary": "The AI Daily Brief puts ChatGPT’s new Pulse feature through its paces to see if it can truly act like a proactive startup cofounder. This episode explores how well Pulse extends strategic conversations, surfaces useful ideas, and bridges the gap between reactive chat and anticip…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-17T01:12:20.475766+00:00"
+  "generated_at": "2025-10-17T02:59:24.095861+00:00"
 }
