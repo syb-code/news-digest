@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "cfec180a290fd8501caf87ea0578e7f2",
+      "title": "Case Study: AI Saving 100,000 Hours Each Week",
+      "url": "https://www.youtube.com/watch?v=VM91rlUD7q4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-17T13:42:31+00:00",
+      "summary": "Citigroup just revealed AI is saving its developers 100,000 hours every week—and it’s not hype, it’s in their earnings report. Today’s episode dives into how enterprise AI is moving from promise to real ROI, with major updates from Walmart’s OpenAI partnership, Salesforce’s new …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8daf6ed147065e7c73ec2317085414ed",
       "title": "Maybe AI Will Cure Cancer After All",
       "url": "https://www.youtube.com/watch?v=UrnmWFfp9X8",
@@ -486,21 +502,6 @@
       "source_type": "rss",
       "published": "2025-10-07T15:12:21+00:00",
       "summary": "An offer you won't find anywhere else—and an additional $1,350 in value for Insider subscribers",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2ea0cda9e0901952f581977da9277ff2",
-      "title": "OpenAI DevDay 2025: Did OpenAI Just Kill A Bunch of Agent Startups?",
-      "url": "https://www.youtube.com/watch?v=EGgLgmoRZQw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-06T23:41:59+00:00",
-      "summary": "OpenAI’s 2025 DevDay just redefined the agent landscape — and maybe wiped out a slew of startups in the process? In this instant reaction bonus episode, NLW breaks down the biggest announcements, including the new Agent Kit, Apps SDK, and API updates, and asks whether OpenAI’s l…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-17T13:25:13.448583+00:00"
+  "generated_at": "2025-10-17T14:15:35.907026+00:00"
 }
