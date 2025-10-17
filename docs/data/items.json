@@ -60,6 +60,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "ab8281358f2955ab0e04861f3abf9ff3",
+      "title": "Veo 3.1 Is Here. Does is Beat Sora 2?",
+      "url": "https://www.youtube.com/watch?v=yjvtBmBAwdk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-16T18:35:34+00:00",
+      "summary": "Google’s Veo 3.1 update adds new editing tools, reference image control, and smoother audio — but creators are debating whether it truly beats OpenAI’s Sora 2 or just marks the start of the “product era” for AI video. Meanwhile, Anthropic’s Haiku 4.5 is winning attention for its…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1d2eb6628e2a8f2a21e60df4c32cc470",
       "title": "OpenAI’s Next Move is Custom Chips That Design Themselves",
       "url": "https://www.youtube.com/watch?v=u4vONcnLb3Y",
@@ -472,21 +487,6 @@
       "source_type": "rss",
       "published": "2025-10-08T06:04:52+00:00",
       "summary": "ChatGPT parent company OpenAI announces Sora 2 with AI video app, Anthropic releases Claude Sonnet 4.5, Meta launches ‘Vibes’",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e61a09dcf844d40b3341a540e9c6005b",
-      "title": "Why OpenAI's AMD Deal Could Be Bigger News than DevDay",
-      "url": "https://www.youtube.com/watch?v=mgEnFOHmuO0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-07T23:17:13+00:00",
-      "summary": "OpenAI’s massive new deal with AMD could reshape the AI hardware race — and may prove even more significant than DevDay itself. The episode explores the implications for OpenAI's relationship with Nvidia, the detials of a 6-gigawatt chip buildout, and why the deal’s stock-option…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-17T15:16:05.641062+00:00"
+  "generated_at": "2025-10-17T16:19:08.427920+00:00"
 }
