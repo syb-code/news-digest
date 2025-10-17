@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ab8281358f2955ab0e04861f3abf9ff3",
+      "title": "Veo 3.1 Is Here. Does is Beat Sora 2?",
+      "url": "https://www.youtube.com/watch?v=yjvtBmBAwdk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-17T19:00:06+00:00",
+      "summary": "Google’s Veo 3.1 update adds new editing tools, reference image control, and smoother audio — but creators are debating whether it truly beats OpenAI’s Sora 2 or just marks the start of the “product era” for AI video. Meanwhile, Anthropic’s Haiku 4.5 is winning attention for its…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cfec180a290fd8501caf87ea0578e7f2",
       "title": "Case Study: AI Saving 100,000 Hours Each Week",
       "url": "https://www.youtube.com/watch?v=VM91rlUD7q4",
@@ -56,21 +71,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ab8281358f2955ab0e04861f3abf9ff3",
-      "title": "Veo 3.1 Is Here. Does is Beat Sora 2?",
-      "url": "https://www.youtube.com/watch?v=yjvtBmBAwdk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-16T18:35:34+00:00",
-      "summary": "Google’s Veo 3.1 update adds new editing tools, reference image control, and smoother audio — but creators are debating whether it truly beats OpenAI’s Sora 2 or just marks the start of the “product era” for AI video. Meanwhile, Anthropic’s Haiku 4.5 is winning attention for its…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-17T18:20:21.757869+00:00"
+  "generated_at": "2025-10-17T19:12:29.018331+00:00"
 }
