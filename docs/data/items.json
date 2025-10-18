@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "94c5d3c118447587384a43eb121b9e6c",
+      "title": "Banks Point Fingers As Another Loan Deal Goes Bad",
+      "url": "https://www.youtube.com/watch?v=_qBV76Bg8Jk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-18T17:35:10+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack and Max break down the beginning of earnings season. Jack reviews a new credit flare-up in California’s commercial real esta…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cb9a901f6b80055a42310899788aa35b",
       "title": "🧠 Community Wisdom: Designing a career ladder, how to showcase your work for promotion, going from a feature factory to a product-led organization, getting press coverage for your startup, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-designing-a-career",
@@ -1030,21 +1047,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "903439832a1bdbdde127d21338d4a6cf",
-      "title": "Stock Market Bubble To Deflate By 2027 | Rob Arnott",
-      "url": "https://www.youtube.com/watch?v=JtTsbNV6gZw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-15T16:14:44+00:00",
-      "summary": "This episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHJack\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXJack\n\nRob Arnott, founder and chairman of the board …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "942ecc52046a90b221622281a9ca60e6",
       "title": "Fed Will Cut Interest Rates Next Week (Despite Rising Inflation)",
       "url": "https://www.youtube.com/watch?v=Kw-wgCnR4QA",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-18T17:11:45.107255+00:00"
+  "generated_at": "2025-10-18T18:19:55.632908+00:00"
 }
