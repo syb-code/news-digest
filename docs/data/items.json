@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "cb9a901f6b80055a42310899788aa35b",
+      "title": "🧠 Community Wisdom: Designing a career ladder, how to showcase your work for promotion, going from a feature factory to a product-led organization, getting press coverage for your startup, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-designing-a-career",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-18T16:02:28+00:00",
+      "summary": "Community Wisdom 258",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f2c0e48d2b3b6ab5deb6994eb8cc49af",
+      "title": "Last Week in AI #324: OpenAI Deals and DevDay, Haiku 4.5, Veo 3.1",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-324-openai-deals",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-18T16:00:58+00:00",
+      "summary": "OpenAI Inks Deal With Broadcom to Design Its Own Chips for AI, Everything OpenAI announced at DevDay, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ab8281358f2955ab0e04861f3abf9ff3",
       "title": "Veo 3.1 Is Here. Does is Beat Sora 2?",
       "url": "https://www.youtube.com/watch?v=yjvtBmBAwdk",
@@ -887,21 +915,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "23b9be43c0789d2d1305fdeb2c75b546",
-      "title": "The beginner's guide to coding with Cursor | Lee Robinson (Head of AI education)",
-      "url": "https://www.lennysnewsletter.com/p/the-beginners-guide-to-coding-with",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-22T11:04:20+00:00",
-      "summary": "Watch now | 🎙️How to leverage Cursor's AI-powered code editor to automate tasks, clean up your code, and make software development more accessible—whether you're a seasoned engineer or a beginner",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a11eb074f242bc12967e6feb239d8d40",
       "title": "Winning Teams Hire Founders",
       "url": "https://designplusai.com/p/winning-teams-hire-founders",
@@ -1693,21 +1706,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8cff2ca5c1cfb12d4412866425e0f326",
-      "title": "LWiAI Podcast #213 - Midjourney video, Gemini 2.5 Flash-Lite, LiveCodeBench Pro",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-213-midjourney-video",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-26T05:23:31+00:00",
-      "summary": "Midjourney launches its first AI video generation model, Google’s Gemini AI family updated with stable 2.5 Pro & super-efficient 2.5 Flash-Lite, The ‘OpenAI Files’",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dfddc0971eecc297587e3f534eb25d84",
       "title": "Ultimate Prompt Hacks for Lovable",
       "url": "https://designplusai.com/p/ultimate-prompt-hacks-for-lovable",
@@ -1803,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-18T15:13:27.077726+00:00"
+  "generated_at": "2025-10-18T16:17:16.189263+00:00"
 }
