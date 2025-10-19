@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "231457015eaa55948d126344374b4c0c",
+      "title": "Anthropic's New Claude Skills Could Be A Really Big Deal",
+      "url": "https://www.youtube.com/watch?v=PgSVBlZbpww",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-19T01:46:01+00:00",
+      "summary": "Anthropic just launched Claude Skills — a modular new system that lets users build reusable task packs for agents, combining instructions, scripts, and even code. This episode breaks down why Skills might reshape how we think about agent design, why experts like Simon Willison a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "94c5d3c118447587384a43eb121b9e6c",
       "title": "Banks Point Fingers As Another Loan Deal Goes Bad",
       "url": "https://www.youtube.com/watch?v=_qBV76Bg8Jk",
@@ -473,21 +486,6 @@
       "source_type": "youtube",
       "published": "2025-10-09T00:00:06+00:00",
       "summary": "Today’s episode digs into a question that has been with us since ChatGPT launched: is AI a boom or a bubble? The conversation has surged this week after deals between OpenAI and AMD and Nvidia and xAI, as well as reports around the thinness of Oracle's margins. NLW breaks down f…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3bf5bdbb0752db15e16ffd2503250f5f",
-      "title": "CEOs Think AI ROI Is Coming Faster",
-      "url": "https://www.youtube.com/watch?v=ECyHWe7eDLY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-08T17:24:51+00:00",
-      "summary": "KPMG’s new Global CEO Outlook shows a sharp shift in how executives view AI: 67% now expect returns on AI investments within three years, triple last year’s figure. The episode breaks down why leaders are increasing AI budgets despite falling economic confidence, and how compani…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-19T01:20:29.221768+00:00"
+  "generated_at": "2025-10-19T03:13:00.833860+00:00"
 }
