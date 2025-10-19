@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6b03d8e3a9b5f0d2a1c38fe67c5efee6",
+      "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
+      "url": "https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-19T11:02:51+00:00",
+      "summary": "Nicole Forsgren on AI's productivity paradox: how broken processes offset coding gains—plus her 7-step framework for fixing what metrics miss",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "231457015eaa55948d126344374b4c0c",
       "title": "Anthropic's New Claude Skills Could Be A Really Big Deal",
       "url": "https://www.youtube.com/watch?v=PgSVBlZbpww",
@@ -875,21 +890,6 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2025-09-23T13:03:57+00:00",
-      "summary": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c0b3dad9d3ebc2dbb6683f2d3f1091a7",
-      "title": "How to get the most out of your product pass, part 1",
-      "url": "https://www.lennysnewsletter.com/p/how-to-get-the-most-out-of-your-product-2d4",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-23T12:07:42+00:00",
       "summary": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
       "read_minutes": 1,
       "duration_sec": null,
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-19T10:14:53.746103+00:00"
+  "generated_at": "2025-10-19T11:11:30.880453+00:00"
 }
