@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "111862eff236c565d8afe3ec72d82bba",
+      "title": "Avalanche of U.S. Dollar Selling In 2026 as Fed Cuts Rates | Jon Turek",
+      "url": "https://www.youtube.com/watch?v=GI7tfeVepP8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-20T20:35:26+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJon Turek of JST Advisors explains why he thinks a decline in U.S. interest rates will make dollar hedging more attractive to for…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8f9db9129ae2101e9cb793b4b06a309d",
       "title": "The 60/40 Investing Rule is Dead — Here's What's Replacing It",
       "url": "https://www.youtube.com/watch?v=2avC4SFVJ-A",
@@ -1058,19 +1074,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ca63596ee042a4fc7267544f5662ae0c",
-      "title": "Are We Headed for a DOUBLE-DIP Recession?",
-      "url": "https://www.youtube.com/shorts/rk-a44W_bQE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-15T17:21:35+00:00",
-      "summary": "Economists Danielle DiMartino Booth of QI Research and Anna Wong, Chief U.S. Economist at Bloomberg, join host Jack Farley to discuss the preliminary stages of a potential double-dip recession.\n\nThey break down why the labor market is deteriorating, why job destruction may have …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "942ecc52046a90b221622281a9ca60e6",
       "title": "Fed Will Cut Interest Rates Next Week (Despite Rising Inflation)",
       "url": "https://www.youtube.com/watch?v=Kw-wgCnR4QA",
@@ -1799,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-20T20:18:25.139214+00:00"
+  "generated_at": "2025-10-20T21:14:44.759597+00:00"
 }
