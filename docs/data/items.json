@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "id": "455686ef9a301a9dffc2eb09d43d197c",
-      "title": "How this Yelp AI PM works backward from “golden conversations” to create high-quality prototypes using Claude Artifacts and Magic Patterns | Priya Badger",
-      "url": "https://www.lennysnewsletter.com/p/how-this-yelp-ai-pm-works-backward",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-20T11:27:36+00:00",
-      "summary": "Watch now | 🎙️ Yelp's product manager on prototyping AI conversations with Claude, designing interfaces with Magic Patterns, and why starting with example dialogues creates better AI products",
+      "id": "8e914ea378972547d5bc530161c29323",
+      "title": "5 Prompting Tricks to Make Your AI Less Average",
+      "url": "https://www.youtube.com/watch?v=JdXlQeQcFN4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-20T14:00:07+00:00",
+      "summary": "AI is trained on the sum total of human output—which means it often produces the average of averages. That’s fine for passable results, but not for unique, high-quality work. In this weekend big think episode, NLW explores what he calls AI’s tyranny of the average and shares fiv…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -16,13 +16,13 @@
       "bucket": "highlight"
     },
     {
-      "id": "8e914ea378972547d5bc530161c29323",
-      "title": "5 Prompting Tricks to Make Your AI Less Average",
-      "url": "https://www.youtube.com/watch?v=JdXlQeQcFN4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-20T11:02:44+00:00",
-      "summary": "AI is trained on the sum total of human output—which means it often produces the average of averages. That’s fine for passable results, but not for unique, high-quality work. In this weekend big think episode, NLW explores what he calls AI’s tyranny of the average and shares fiv…",
+      "id": "455686ef9a301a9dffc2eb09d43d197c",
+      "title": "How this Yelp AI PM works backward from “golden conversations” to create high-quality prototypes using Claude Artifacts and Magic Patterns | Priya Badger",
+      "url": "https://www.lennysnewsletter.com/p/how-this-yelp-ai-pm-works-backward",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-20T11:27:36+00:00",
+      "summary": "Watch now | 🎙️ Yelp's product manager on prototyping AI conversations with Claude, designing interfaces with Magic Patterns, and why starting with example dialogues creates better AI products",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-20T13:26:22.150096+00:00"
+  "generated_at": "2025-10-20T14:15:18.465711+00:00"
 }
