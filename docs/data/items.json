@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "8f9db9129ae2101e9cb793b4b06a309d",
+      "title": "The 60/40 Investing Rule is Dead — Here's What's Replacing It",
+      "url": "https://www.youtube.com/watch?v=2avC4SFVJ-A",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-10-20T18:02:45+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "04b44f55219ada76928d580e4fb5d344",
+      "title": "Top design hacks for Lovable",
+      "url": "https://designplusai.com/p/top-design-hacks-for-lovable",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-20T17:52:50+00:00",
+      "summary": "I built this quick to-do app using some of my favorite Lovable design hacks.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "8e914ea378972547d5bc530161c29323",
       "title": "5 Prompting Tricks to Make Your AI Less Average",
       "url": "https://www.youtube.com/watch?v=JdXlQeQcFN4",
@@ -1173,21 +1199,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "94a74f028d945fa4419bcf9e8fabd071",
-      "title": "US Debt Crisis — Trump’s New Plan to Fix It with Crypto & Gold",
-      "url": "https://www.youtube.com/watch?v=siKfPK5jhtI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-08-29T16:01:41+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1c941898a48f65177e1efb27878922d8",
       "title": "Deep Learning Weekly: Issue 419",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-419",
@@ -1760,19 +1771,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f18af6c0b4460f6d46facb589c3c9285",
-      "title": "Buzzwords are the ultimate prompt hacks",
-      "url": "https://designplusai.com/p/buzzwords-are-the-ultimate-prompt",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-15T15:04:00+00:00",
-      "summary": "If you include the right ones, your output will be 10x better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9b6764ae3274e0bcb1344d5df12a91a8",
       "title": "Deep Learning Weekly: Issue 408",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-408",
@@ -1801,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-20T17:14:02.058146+00:00"
+  "generated_at": "2025-10-20T18:24:09.440860+00:00"
 }
