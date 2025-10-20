@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8e914ea378972547d5bc530161c29323",
+      "title": "5 Prompting Tricks to Make Your AI Less Average",
+      "url": "https://www.youtube.com/watch?v=JdXlQeQcFN4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-20T11:02:44+00:00",
+      "summary": "AI is trained on the sum total of human output—which means it often produces the average of averages. That’s fine for passable results, but not for unique, high-quality work. In this weekend big think episode, NLW explores what he calls AI’s tyranny of the average and shares fiv…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6b03d8e3a9b5f0d2a1c38fe67c5efee6",
       "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
       "url": "https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity",
@@ -486,21 +501,6 @@
       "source_type": "rss",
       "published": "2025-10-09T11:03:40+00:00",
       "summary": "Scale AI’s new CEO on Meta’s $14B bet, lessons from building Uber Eats to $20B, and why AI won't replace jobs anytime soon",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c96d1379ae4f4c380da1df38c7fdd1aa",
-      "title": "5 Reasons AI is A Bubble (And 5 It's Not)",
-      "url": "https://www.youtube.com/watch?v=hQGsLHr2JyE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-09T00:00:06+00:00",
-      "summary": "Today’s episode digs into a question that has been with us since ChatGPT launched: is AI a boom or a bubble? The conversation has surged this week after deals between OpenAI and AMD and Nvidia and xAI, as well as reports around the thinness of Oracle's margins. NLW breaks down f…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-20T10:18:20.330519+00:00"
+  "generated_at": "2025-10-20T11:14:06.335957+00:00"
 }
