@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "455686ef9a301a9dffc2eb09d43d197c",
+      "title": "How this Yelp AI PM works backward from “golden conversations” to create high-quality prototypes using Claude Artifacts and Magic Patterns | Priya Badger",
+      "url": "https://www.lennysnewsletter.com/p/how-this-yelp-ai-pm-works-backward",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-20T11:27:36+00:00",
+      "summary": "Watch now | 🎙️ Yelp's product manager on prototyping AI conversations with Claude, designing interfaces with Magic Patterns, and why starting with example dialogues creates better AI products",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8e914ea378972547d5bc530161c29323",
       "title": "5 Prompting Tricks to Make Your AI Less Average",
       "url": "https://www.youtube.com/watch?v=JdXlQeQcFN4",
@@ -881,21 +896,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "39d0e78f21c7da331ff52b9c4c0174b4",
-      "title": "How to get the most out of your product pass, part 1",
-      "url": "https://www.lennysnewsletter.com/p/how-to-get-the-most-out-of-your-product",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-23T13:03:57+00:00",
-      "summary": "Tips for taking full advantage of the 15+ free premium products you have access to as a paid subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-20T11:14:06.335957+00:00"
+  "generated_at": "2025-10-20T12:34:01.759763+00:00"
 }
