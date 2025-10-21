@@ -17,6 +17,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "fe4dc920738ddaf0000dd52c39e3000a",
+      "title": "GPT-5 is 58% AGI",
+      "url": "https://www.youtube.com/watch?v=HNoM1_Fi_JQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-21T19:52:03+00:00",
+      "summary": "The debate over AGI just got measurable. Researchers from the Center for AI Safety released a framework ranking GPT-5 at 58% toward Artificial General Intelligence, sparking new discussions about how close we really are. This episode breaks down how experts define AGI, where GPT…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7fb9150df70842c37c1da0a8c73b2fe1",
       "title": "Why an AGI Delay Doesn't Mean an AI Bubble",
       "url": "https://www.youtube.com/watch?v=CbC3MsOGNyE",
@@ -486,21 +501,6 @@
       "source_type": "rss",
       "published": "2025-10-11T16:02:57+00:00",
       "summary": "Community Wisdom 252",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "23f72112f020e12a1706c75812f6fb67",
-      "title": "Why the Future of AI Has a Body",
-      "url": "https://www.youtube.com/watch?v=nnG5VVy_NxI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-11T15:28:16+00:00",
-      "summary": "This episode explores why the next era of artificial intelligence will take physical form. It examines the rise of humanoid robots, breakthroughs in embodied AI, and how advances in robotics and action models are closing the gap between digital intelligence and the real world. T…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-21T21:14:42.170236+00:00"
+  "generated_at": "2025-10-21T22:14:09.673005+00:00"
 }
