@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7fb9150df70842c37c1da0a8c73b2fe1",
+      "title": "Why an AGI Delay Doesn't Mean an AI Bubble",
+      "url": "https://www.youtube.com/watch?v=CbC3MsOGNyE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-21T02:07:47+00:00",
+      "summary": "Silicon Valley spent the weekend debating whether it’s time to delay AGI expectations by a decade — and what that would mean for the so-called “AI bubble.” NLW breaks down the chain reaction: Microsoft’s retreat from OpenAI’s infrastructure arms race, an OpenAI math gaffe that w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "111862eff236c565d8afe3ec72d82bba",
       "title": "Avalanche of U.S. Dollar Selling In 2026 as Fed Cuts Rates | Jon Turek",
       "url": "https://www.youtube.com/watch?v=GI7tfeVepP8",
@@ -500,21 +515,6 @@
       "source_type": "youtube",
       "published": "2025-10-10T20:53:41+00:00",
       "summary": "This episode examines how artificial intelligence is reshaping work by reducing burnout and improving focus. It highlights new data showing lower burnout rates among employees who use AI tools, alongside growing fears of job replacement and skill gaps. The discussion also explor…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b06ca50525e38eb902bcb7123e740ef3",
-      "title": "Sora 2 Prompting Guide",
-      "url": "https://www.youtube.com/watch?v=qFFRiUFzOGo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-09T23:41:11+00:00",
-      "summary": "OpenAI’s Sora 2 has exploded past a million downloads — and today’s episode breaks down how creators and businesses are using it. NLW explores the new Sora 2 Prompting Guide, explaining how to craft prompts that balance creativity and precision, from simple “open” shots to full …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-21T01:14:40.214285+00:00"
+  "generated_at": "2025-10-21T03:03:02.820204+00:00"
 }
