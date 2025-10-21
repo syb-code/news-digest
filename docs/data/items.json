@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "b9f62f33673cd7f7edc6d5bb534b928b",
+      "title": "15 Business Model Questions for OpenAI and Anthropic",
+      "url": "https://www.youtube.com/watch?v=5LimGZyd2Q0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-21T20:27:26+00:00",
+      "summary": "OpenAI and Anthropic are reporting explosive revenue growth — but can it last? This episode unpacks 15 critical questions shaping their business models, from trillion-dollar infrastructure bets to the balance between enterprise and consumer demand. It also examines what these tr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7fb9150df70842c37c1da0a8c73b2fe1",
       "title": "Why an AGI Delay Doesn't Mean an AI Bubble",
       "url": "https://www.youtube.com/watch?v=CbC3MsOGNyE",
@@ -500,21 +516,6 @@
       "source_type": "rss",
       "published": "2025-10-10T23:11:27+00:00",
       "summary": "Robby Stein on Google's AI comeback: Gemini hits #1 beating ChatGPT, why AI is expanding the pie for search, and his frameworks behind two billion-user products",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "75d73dc1488f8072767180d898232a42",
-      "title": "How AI is Reducing Burnout at Work",
-      "url": "https://www.youtube.com/watch?v=Qfow8pMA-e8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-10T20:53:41+00:00",
-      "summary": "This episode examines how artificial intelligence is reshaping work by reducing burnout and improving focus. It highlights new data showing lower burnout rates among employees who use AI tools, alongside growing fears of job replacement and skill gaps. The discussion also explor…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-21T20:18:42.929395+00:00"
+  "generated_at": "2025-10-21T21:14:42.170236+00:00"
 }
