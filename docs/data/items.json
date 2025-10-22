@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fe4dc920738ddaf0000dd52c39e3000a",
+      "title": "GPT-5 is 58% AGI",
+      "url": "https://www.youtube.com/watch?v=HNoM1_Fi_JQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-21T23:30:06+00:00",
+      "summary": "The debate over AGI just got measurable. Researchers from the Center for AI Safety released a framework ranking GPT-5 at 58% toward Artificial General Intelligence, sparking new discussions about how close we really are. This episode breaks down how experts define AGI, where GPT…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b9f62f33673cd7f7edc6d5bb534b928b",
       "title": "15 Business Model Questions for OpenAI and Anthropic",
       "url": "https://www.youtube.com/watch?v=5LimGZyd2Q0",
@@ -13,21 +28,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fe4dc920738ddaf0000dd52c39e3000a",
-      "title": "GPT-5 is 58% AGI",
-      "url": "https://www.youtube.com/watch?v=HNoM1_Fi_JQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-21T19:52:03+00:00",
-      "summary": "The debate over AGI just got measurable. Researchers from the Center for AI Safety released a framework ranking GPT-5 at 58% toward Artificial General Intelligence, sparking new discussions about how close we really are. This episode breaks down how experts define AGI, where GPT…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-21T23:15:25.879761+00:00"
+  "generated_at": "2025-10-22T01:16:04.061026+00:00"
 }
