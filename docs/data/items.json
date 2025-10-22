@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "875a15c877203870e5680fc3c02c11b3",
+      "title": "Deep Learning Weekly: Issue 427",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-427",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-10-22T15:01:11+00:00",
+      "summary": "Introducing Claude Haiku 4.5, The State of Open Models, a paper on TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "34275038b122336883bad89ce266b047",
       "title": "The Three Headwinds for the U.S. Dollar | George Saravelos, Head of FX Research at Deutsche Bank",
       "url": "https://www.youtube.com/watch?v=3pF6mJe50uk",
@@ -1786,22 +1801,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "a8a389e1e1bcd8b53333e7c39f6ca3a3",
-      "title": "Deep Learning Weekly: Issue 407",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-407",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-06-04T15:06:18+00:00",
-      "summary": "The State of Enterprise AI in 2025: Measured Progress Over Hype, Letta Leaderboard: Benchmarking LLMs on Agentic Memory, a paper on Insights into DeepSeek-V3, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-22T14:17:27.872911+00:00"
+  "generated_at": "2025-10-22T15:15:49.073512+00:00"
 }
