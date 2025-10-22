@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "05c6e51059091ad971f6d3d29ac8e00f",
+      "title": "ChatGPT Just Launched Atlas — Here’s How Get Value From Your AI Browser",
+      "url": "https://www.youtube.com/watch?v=Gu3RpHZblO8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-22T21:26:56+00:00",
+      "summary": "OpenAI has entered the AI browser wars with the launch of ChatGPT Atlas, blending chat, memory, and agentic automation directly into the web experience. The episode unpacks Atlas’s standout features—agent mode, context-aware assistance, and browser-integrated memory—alongside in…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "875a15c877203870e5680fc3c02c11b3",
       "title": "Deep Learning Weekly: Issue 427",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-427",
@@ -486,21 +501,6 @@
       "source_type": "rss",
       "published": "2025-10-13T11:03:43+00:00",
       "summary": "Watch now | 🎙️ How to build better AI products through data-driven error analysis, evaluation frameworks, and systematic quality improvement",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f7dcaac252e811ee6ef0454df0d6c417",
-      "title": "What 1,000+ Executives Say About AI Agents",
-      "url": "https://www.youtube.com/watch?v=nDDWWCqnR60",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-12T12:30:06+00:00",
-      "summary": "In this special long-read episode, Nathaniel Whittemore digs into insights from thousands of executive interviews about AI and agents in the enterprise. Based on data from Superintelligent’s Agent Readiness and Opportunity Mapping audits, he unpacks where companies actually stan…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-22T21:12:08.977855+00:00"
+  "generated_at": "2025-10-22T22:12:55.978383+00:00"
 }
