@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "34275038b122336883bad89ce266b047",
+      "title": "The Three Headwinds for the U.S. Dollar | George Saravelos, Head of FX Research at Deutsche Bank",
+      "url": "https://www.youtube.com/watch?v=3pF6mJe50uk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-22T12:15:45+00:00",
+      "summary": "George Saravelos, head of FX research at Deutsche Bank, joins Jack on Monetary Matters to go deep into the world of currency trading. Jack and George discuss central bank independence, emerging markets, carry positions, hedging, and more. George gives a clear and intelligent loo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "8de2cbe7f3dc1df0189708e704e0a693",
       "title": "Claude Skills explained: How to create reusable AI workflows",
       "url": "https://www.lennysnewsletter.com/p/claude-skills-explained",
@@ -1062,19 +1075,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9421290143470dd5516f3624c12eddae",
-      "title": "Hedge Fund Manager Who Has Crushed the S&P 500 “Most Investors Don’t Understand Real Investing”",
-      "url": "https://www.youtube.com/watch?v=bifiTb2FIgc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-16T13:52:38+00:00",
-      "summary": "This Other People’s Money episode is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHMax\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXMax\n\nSince launching Militia Capital in 2021, David …",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "942ecc52046a90b221622281a9ca60e6",
       "title": "Fed Will Cut Interest Rates Next Week (Despite Rising Inflation)",
       "url": "https://www.youtube.com/watch?v=Kw-wgCnR4QA",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-22T11:14:25.606862+00:00"
+  "generated_at": "2025-10-22T12:35:07.362693+00:00"
 }
