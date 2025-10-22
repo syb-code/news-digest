@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8de2cbe7f3dc1df0189708e704e0a693",
+      "title": "Claude Skills explained: How to create reusable AI workflows",
+      "url": "https://www.lennysnewsletter.com/p/claude-skills-explained",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-22T11:03:37+00:00",
+      "summary": "Watch now | 🎙️ Claire Vo breaks down Anthropic’s new Claude Skills—what they are, how to build them, and how she uses Cursor and Claude Code to create reusable AI workflows in minutes",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fe4dc920738ddaf0000dd52c39e3000a",
       "title": "GPT-5 is 58% AGI",
       "url": "https://www.youtube.com/watch?v=HNoM1_Fi_JQ",
@@ -880,21 +895,6 @@
       "duration_sec": null,
       "themes": [
         "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f9db1816a3524c6df022f078708fb530",
-      "title": "Why AI evals are the hottest new skill for product builders | Hamel Husain & Shreya Shankar (creators of the #1 eval course)",
-      "url": "https://www.lennysnewsletter.com/p/why-ai-evals-are-the-hottest-new-skill",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-25T11:03:24+00:00",
-      "summary": "The #1 AI evals course instructors walk you through their step-by-step process, debunk misconceptions, and show why manual error analysis beats automation",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-22T10:18:12.158443+00:00"
+  "generated_at": "2025-10-22T11:14:25.606862+00:00"
 }
