@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6012730bec10386b8e259f324970528a",
+      "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
+      "url": "https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-23T11:02:58+00:00",
+      "summary": "Chip Huyen on what improves AI apps: talking to users beats chasing models, why senior engineers gain most from AI, and why most AI failures aren't AI problems",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "05c6e51059091ad971f6d3d29ac8e00f",
       "title": "ChatGPT Just Launched Atlas — Here’s How Get Value From Your AI Browser",
       "url": "https://www.youtube.com/watch?v=Gu3RpHZblO8",
@@ -878,19 +893,6 @@
       "source_type": "rss",
       "published": "2025-09-28T11:02:57+00:00",
       "summary": "Listen now | 🎙️ Former Google \"Delight PM\" shares her framework for creating delightful product experiences that create emotional connections and increase retention",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f1d6805ce8d033dc990658e78a8b573b",
-      "title": "🧠 Community Wisdom: 250th issue 🎉 + Dealing with impostor syndrome as a founder, asking users how they heard about you, positioning your PM experience after working at a “feature factory,” and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-250th-issue-dealing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-27T16:56:28+00:00",
-      "summary": "Community Wisdom 250",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1803,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-23T10:17:52.342234+00:00"
+  "generated_at": "2025-10-23T11:14:23.589529+00:00"
 }
