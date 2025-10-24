@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "63b0672fe11711615a0eb04532c78105",
+      "title": "AI Context Gets Some Major Upgrades",
+      "url": "https://www.youtube.com/watch?v=ZGOVzdxNrQg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-24T22:13:02+00:00",
+      "summary": "AI is getting smarter by remembering more. This episode breaks down major upgrades across Claude, OpenAI, and Microsoft—each racing to give their models better long-term memory, deeper business context, and shared collaboration tools. From Claude’s new memory buckets to OpenAI’s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "df5c531be127fc32925cdf7e5f64b720",
       "title": "LWiAI Podcast #223 - Haiku 4.5, OpenAI DevDay, SB 243",
       "url": "https://lastweekin.ai/p/lwiai-podcast-223-haiku-45-openai",
@@ -508,21 +523,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a86aaa86675af9dd8b4a994a7d1f5cb2",
-      "title": "These Are the Jobs People Actually WANT AI to Automate",
-      "url": "https://www.youtube.com/watch?v=lDZLs-7uxH4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-14T00:00:06+00:00",
-      "summary": "A new study reveals which jobs people actually want AI to automate—and which ones they consider off-limits. The findings show surprising support for machines taking over many white-collar roles, while caregiving, therapy, and teaching remain deeply human domains. The discussion …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-24T22:15:14.450866+00:00"
+  "generated_at": "2025-10-24T23:14:41.795274+00:00"
 }
