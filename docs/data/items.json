@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "df5c531be127fc32925cdf7e5f64b720",
+      "title": "LWiAI Podcast #223 - Haiku 4.5, OpenAI DevDay, SB 243",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-223-haiku-45-openai",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-24T20:51:02+00:00",
+      "summary": "Anthropic launches new version of scaled-down ‘Haiku’ model, Everything OpenAI announced at DevDay 2025, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4ad639646e44233c9fdb633c79e45c69",
       "title": "CPI Inflation Report: Fed Cutting Rates, Money Printing Next!",
       "url": "https://www.youtube.com/watch?v=Rqn9Q54vvbA",
@@ -1654,21 +1669,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "96ecb1cd5139e3c4b01c860f1dd47e6e",
-      "title": "Last Week in AI #314 - Meta's Superintelligence hires, AlphaGenome, Gemini CLI",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-314-metas-superintelligence",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-03T22:52:25+00:00",
-      "summary": "Mark Zuckerberg announces his AI ‘superintelligence’ super-group, DeepMind launches AlphaGenome, aiming to predict gene regulation from DNA sequence, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e1b5045e61bb003561212fc13fb10cb6",
       "title": "Figma is the new photoshop",
       "url": "https://designplusai.com/p/figma-is-the-new-photoshop",
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-24T20:17:46.531030+00:00"
+  "generated_at": "2025-10-24T21:13:39.315591+00:00"
 }
