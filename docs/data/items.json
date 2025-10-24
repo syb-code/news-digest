@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a8c7c055002fbcecce8aa6a301643209",
+      "title": "Why Electricity is AI's Biggest Problem",
+      "url": "https://www.youtube.com/watch?v=tbxjl7cQXPY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-24T00:12:51+00:00",
+      "summary": "AI’s growth is colliding head-on with America’s aging power grid. This episode dives into why electricity—not compute or data—is emerging as AI’s biggest bottleneck, driving costs, political backlash, and stalled data-center projects across the U.S. From surging energy prices to…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6012730bec10386b8e259f324970528a",
       "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
       "url": "https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen",
@@ -491,21 +506,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "97df53ee82e3a04e73084be0af1c9137",
-      "title": "6 Business Ideas Using Sora 2",
-      "url": "https://www.youtube.com/watch?v=NtpcSuKNKPM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-13T16:50:02+00:00",
-      "summary": "Sora 2 has officially become the fastest-growing AI app in history — and it’s already spawning real business opportunities. This episode explores six ways entrepreneurs are using Sora 2: from product prototyping and UGC ad automation to fashion try-ons, viral video testing, and …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-23T23:14:04.465958+00:00"
+  "generated_at": "2025-10-24T01:10:20.219889+00:00"
 }
