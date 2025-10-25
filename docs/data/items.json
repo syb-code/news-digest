@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6843be451223542b6b9a13969b5e0a29",
+      "title": "Meta Cuts 600 AI Roles",
+      "url": "https://www.youtube.com/watch?v=zRcypAoR7Gc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-25T15:36:06+00:00",
+      "summary": "Meta just cut 600 roles from its AI division in a push to “move faster,” marking its fifth major restructuring this year. The shake-up spotlights growing pressure to streamline Meta’s Super Intelligence Lab while rivals like OpenAI and Adobe double down on their own AI bets. Fro…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "63b0672fe11711615a0eb04532c78105",
       "title": "AI Context Gets Some Major Upgrades",
       "url": "https://www.youtube.com/watch?v=ZGOVzdxNrQg",
@@ -464,21 +479,6 @@
       "source_type": "youtube",
       "published": "2025-10-15T01:38:11+00:00",
       "summary": "The next AI platform war isn’t about models, it’s about who controls your context. This episode breaks down why Slack, Google, Microsoft, and others are racing to own the data that fuels AI agents, how “context engineering” is becoming the new enterprise superpower, and why the …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f1858104259200ce592e1edaf16cc0a3",
-      "title": "Google Is Processing 500M AI Tokens Every Second",
-      "url": "https://www.youtube.com/watch?v=tsxwb_y5OEM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-14T15:42:37+00:00",
-      "summary": "Google’s AI systems are now processing an astonishing 500 million tokens every second, signaling explosive growth across its Gemini platform. At the same time, Meta reignites the billion-dollar AI talent wars, luring top researchers from rival labs, while XAI moves into world mo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-25T15:13:53.624211+00:00"
+  "generated_at": "2025-10-25T16:17:30.519873+00:00"
 }
