@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "8f8de81717bca97046382a63589936b0",
+      "title": "🧠 Community Wisdom: Diagnosing early-stage churn, automating cross-department release comms, paying for UserTesting.com, integrating prototypes into your product development process, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-diagnosing-early",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-26T02:13:14+00:00",
+      "summary": "Community Wisdom 258",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "6843be451223542b6b9a13969b5e0a29",
       "title": "Meta Cuts 600 AI Roles",
       "url": "https://www.youtube.com/watch?v=zRcypAoR7Gc",
@@ -916,19 +929,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a1b3d9636cfc89543cb5eb1813611fc3",
-      "title": "A 4-step framework for building delightful products | Nesrine Changuel (Spotify, Google, Skype)",
-      "url": "https://www.lennysnewsletter.com/p/a-4-step-framework-for-building-delightful-products",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-28T11:02:57+00:00",
-      "summary": "Listen now | 🎙️ Former Google \"Delight PM\" shares her framework for creating delightful product experiences that create emotional connections and increase retention",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "741b779e2c56ed269d0ee84c8c01805b",
       "title": "Housing Market 2025 — Prices Stuck, Sales Crashing",
       "url": "https://www.youtube.com/watch?v=CSiaTQCFAnY",
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-26T01:18:36.664514+00:00"
+  "generated_at": "2025-10-26T03:07:19.708362+00:00"
 }
