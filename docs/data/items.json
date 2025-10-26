@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8ba245192dcb9ab1ac4397dd35891b17",
+      "title": "The Biggest AI Debt Deal Yet",
+      "url": "https://www.youtube.com/watch?v=STecdFDuzTc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-26T20:18:06+00:00",
+      "summary": "Oracle just locked in the largest AI debt deal in history — a $38 billion financing package to fund massive data centers powering OpenAI. This episode breaks down how data centers have become the “oil fields” of the AI era, what this means for the financialization of compute, an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ada2ba65e32db98ece14eff5e546c49a",
       "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
       "url": "https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native",
@@ -497,21 +512,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fb5da46dbfb48e2dfb918f00e6e8b870",
-      "title": "The Next AI Platform Isn’t a Model — It’s Your Context",
-      "url": "https://www.youtube.com/watch?v=Hkdi-zXMZGo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-15T01:38:11+00:00",
-      "summary": "The next AI platform war isn’t about models, it’s about who controls your context. This episode breaks down why Slack, Google, Microsoft, and others are racing to own the data that fuels AI agents, how “context engineering” is becoming the new enterprise superpower, and why the …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-26T20:16:39.679266+00:00"
+  "generated_at": "2025-10-26T21:13:22.416020+00:00"
 }
