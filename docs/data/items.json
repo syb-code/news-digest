@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "711167192a0cbda9658c9615d48dd6d8",
+      "title": "“Danger Sign” From Fed Is Here, Warns Liquidity Expert Michael Howell",
+      "url": "https://www.youtube.com/watch?v=0zbknuIALD8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-26T23:03:25+00:00",
+      "summary": "Monetary Matters listeners can get 20% discounted access to an annual subscription of Michael Howell’s Capital Wars here: https://capitalwars.substack.com/MonetaryMatters\n\nMichael Howell of GL Indexes and the Capital Wars Substack returns to Monetary Matters with alarming news. …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8ba245192dcb9ab1ac4397dd35891b17",
       "title": "The Biggest AI Debt Deal Yet",
       "url": "https://www.youtube.com/watch?v=STecdFDuzTc",
@@ -1109,19 +1124,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "75f893f80a5605124fa701720c11f95f",
-      "title": "Is This a Bubble? 100x Sales & Unprecedented Market Weight",
-      "url": "https://www.youtube.com/shorts/aIjPeoJOqjo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-17T12:45:00+00:00",
-      "summary": "Research Affiliates founder Rob Arnott joins Jack Farley on the Monetary Matters Podcast to discuss why today’s U.S. stock market is more concentrated than any point in history.\n\nThe five largest companies now make up nearly 30% of the S&P 500, almost double the concentration at…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a20951c29e2ac54117b53761efb5314f",
       "title": "Last Week in AI #321 - Anthropic & Midjourney Lawsuits, Bad Jobs Data",
       "url": "https://lastweekin.ai/p/last-week-in-ai-321-anthropic-and",
@@ -1805,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-26T22:14:20.148238+00:00"
+  "generated_at": "2025-10-26T23:14:02.592991+00:00"
 }
