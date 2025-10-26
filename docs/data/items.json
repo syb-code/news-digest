@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ada2ba65e32db98ece14eff5e546c49a",
+      "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
+      "url": "https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-26T11:02:54+00:00",
+      "summary": "Block's CTO on productivity gains from their internal AI agent Goose, why non-engineers are seeing the biggest productivity gains from AI, and why leaders must use AI tools daily",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8f8de81717bca97046382a63589936b0",
       "title": "🧠 Community Wisdom: Diagnosing early-stage churn, automating cross-department release comms, paying for UserTesting.com, integrating prototypes into your product development process, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-diagnosing-early",
@@ -914,21 +929,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ca1c285b09c5420e69bfc388a826a271",
-      "title": "The secret to better AI prototypes: Why Tinder’s CPO starts with JSON, not design | Ravi Mehta (product advisor, previously EIR at Reforge)",
-      "url": "https://www.lennysnewsletter.com/p/the-secret-to-better-ai-prototypes",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-29T11:03:52+00:00",
-      "summary": "Watch now | 🎙️ Ravi Mehta on why your prototypes need real data to get meaningful feedback, why JSON beats design systems for AI prototyping, and how to structure Midjourney prompts for professional photos",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "741b779e2c56ed269d0ee84c8c01805b",
       "title": "Housing Market 2025 — Prices Stuck, Sales Crashing",
       "url": "https://www.youtube.com/watch?v=CSiaTQCFAnY",
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-26T10:14:51.973050+00:00"
+  "generated_at": "2025-10-26T11:11:50.263470+00:00"
 }
