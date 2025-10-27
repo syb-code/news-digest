@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d00cd1f37a19a8333d0f5cc216c1852a",
+      "title": "The Surprising Way AI Expands Markets Instead of Capturing Them",
+      "url": "https://www.youtube.com/watch?v=lBg9_4JiEFI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-27T21:34:48+00:00",
+      "summary": "AI music startup Suno has quietly become one of the most successful companies in the entire generative AI space — $150 million in ARR, 60% margins, and millions of users creating songs for everything from podcasts and ads to lullabies and dinner parties. In today’s episode, NLW …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ff5ac3983331bbe1db574f62f8765568",
       "title": "The Fed Is Turning Off the Money Tap 💧",
       "url": "https://www.youtube.com/shorts/JFy4asfKcno",
@@ -539,21 +554,6 @@
       "source_type": "rss",
       "published": "2025-10-16T11:03:16+00:00",
       "summary": "Figma’s founder on why design is how software wins now, why removing blockers often beats new features, sustaining momentum after 13 years, and how to build taste",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6e411464d710d81e389c3b943593b449",
-      "title": "The Problem with ChatGPT Erotica",
-      "url": "https://www.youtube.com/watch?v=MJfkd1IH_HE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-16T00:00:06+00:00",
-      "summary": "OpenAI just confirmed an “adult mode” is coming to ChatGPT—complete with verified age gating, looser restrictions, and even erotica for adults. Today’s episode explores how this move reshapes AI’s cultural and moral debate, from questions about digital relationships and mental h…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-27T21:14:06.022154+00:00"
+  "generated_at": "2025-10-27T22:14:51.332357+00:00"
 }
