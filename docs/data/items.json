@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2f6b9768ebc36c951bc9315c1cc423a3",
+      "title": "“Cursor is a much better product manager than I ever was”: How this PM uses AI for PRDs, Jira tickets, and replying to coworkers | Dennis Yang (Chime)",
+      "url": "https://www.lennysnewsletter.com/p/cursor-is-a-much-better-product-manager",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-27T11:03:27+00:00",
+      "summary": "Listen now | 🎙️ How a principal product manager at Chime uses Cursor for every PM task—creating PRDs, pushing to Confluence, and managing Jira tickets—all without writing a single line of code",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "711167192a0cbda9658c9615d48dd6d8",
       "title": "“Danger Sign” From Fed Is Here, Warns Liquidity Expert Michael Howell",
       "url": "https://www.youtube.com/watch?v=0zbknuIALD8",
@@ -916,21 +931,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8e3a05e98fe84f9061a799443b78b18a",
-      "title": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
-      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for-7da",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-30T12:58:45+00:00",
-      "summary": "A step-by-step guide to crafting feedback you’ll want to give and people will want to get",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ec25cef2b13f5b0e9e8727c3954db19",
       "title": "“Perfect Goldilocks Nirvana” Outcome Is Unlikely (Here’s Why) | Julian Brigden",
       "url": "https://www.youtube.com/watch?v=G3I4B7b6zT0",
@@ -1807,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-27T10:19:21.457100+00:00"
+  "generated_at": "2025-10-27T11:14:27.719021+00:00"
 }
