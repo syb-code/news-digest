@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "ff5ac3983331bbe1db574f62f8765568",
+      "title": "The Fed Is Turning Off the Money Tap 💧",
+      "url": "https://www.youtube.com/shorts/JFy4asfKcno",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-27T16:10:05+00:00",
+      "summary": "Michael Howell of GL Indexes joins Jack Farley on Monetary Matters to break down the growing signs of a tightening liquidity crisis in U.S. financial markets.\n\nAs the Federal Reserve acts as the global overseer of liquidity, every shift in policy — including turning off the “mon…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "00113f46e9f806abd4fe328d731e332c",
+      "title": "The Fed Will Print Trillions — What That Means for Home Prices",
+      "url": "https://www.youtube.com/watch?v=_yunaXHj-jU",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-10-27T16:01:04+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2f6b9768ebc36c951bc9315c1cc423a3",
       "title": "“Cursor is a much better product manager than I ever was”: How this PM uses AI for PRDs, Jira tickets, and replying to coworkers | Dennis Yang (Chime)",
       "url": "https://www.lennysnewsletter.com/p/cursor-is-a-much-better-product-manager",
@@ -1061,22 +1091,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dfbbda0a93773796d7ebccf25b4118da",
-      "title": "Small Cap Season | Jack & Max on Fed Independence and More",
-      "url": "https://www.youtube.com/watch?v=CTiyzgmiNQY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-19T14:43:53+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai.\nSign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nJack and Max break down the September Fed meeting, threats to Federal Reserve Independence, and several stocks such as Acuren, Fra…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8a5cfe3f8ed92e6ddecbd69ae59b6ee9",
       "title": "The Great Melt-Up Continues — Fed Rate Cuts to Fuel Stocks, Gold, Bitcoin",
       "url": "https://www.youtube.com/watch?v=JREZlI9fSOw",
@@ -1203,19 +1217,6 @@
       "source_type": "rss",
       "published": "2025-09-03T15:02:40+00:00",
       "summary": "Tencent's Hunyuan-MT translation models, Le Chat. Custom MCP connectors. Memories, a paper on USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9d23ee0a81ea7963cce8cc57805d8731",
-      "title": "Tax Refund Surge Ahead — These People Will Get the Biggest Refunds!",
-      "url": "https://www.youtube.com/watch?v=J-oVapEhUHc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-09-02T19:47:59+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1807,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-27T16:21:12.322290+00:00"
+  "generated_at": "2025-10-27T17:14:08.703112+00:00"
 }
