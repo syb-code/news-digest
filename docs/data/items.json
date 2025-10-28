@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "5787a0669840f2602dc1143fba1faa17",
+      "title": "A builder’s guide to living a long and healthy life",
+      "url": "https://www.lennysnewsletter.com/p/a-builders-guide-to-living-a-long-58b",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-28T09:30:37+00:00",
+      "summary": "For something a little different",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "d00cd1f37a19a8333d0f5cc216c1852a",
       "title": "The Surprising Way AI Expands Markets Instead of Capturing Them",
       "url": "https://www.youtube.com/watch?v=lBg9_4JiEFI",
@@ -946,21 +959,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ec76c735ddcb40650568ed4968ac09aa",
-      "title": "Introducing the GAIN framework for feedback: an evidence-based approach to giving feedback that people love, appreciate, and act on",
-      "url": "https://www.lennysnewsletter.com/p/introducing-the-gain-framework-for",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-30T13:04:07+00:00",
-      "summary": "A step-by-step guide to crafting feedback you’ll want to give and people will want to get",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ec25cef2b13f5b0e9e8727c3954db19",
       "title": "“Perfect Goldilocks Nirvana” Outcome Is Unlikely (Here’s Why) | Julian Brigden",
       "url": "https://www.youtube.com/watch?v=G3I4B7b6zT0",
@@ -1808,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-28T09:17:35.245044+00:00"
+  "generated_at": "2025-10-28T10:18:27.034572+00:00"
 }
