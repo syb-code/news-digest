@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "54981c54d2d5d64461150df0a9372e29",
+      "title": "Why Google's New Vibe Coding App is Actually Game Changing",
+      "url": "https://www.youtube.com/watch?v=tS76I3Bd5Q8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-28T13:43:26+00:00",
+      "summary": "Google’s new Vibe Coding experience might actually live up to the “game-changer” hype. This episode breaks down how Google AI Studio’s “prompt-to-production” system makes building AI-powered apps effortless — from adding chatbots to full voice agents in a click. Plus, we dive in…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "126873febfaf4e5f8b77032ab426e85b",
       "title": "A builder’s guide to living a long and healthy life",
       "url": "https://www.lennysnewsletter.com/p/a-builders-guide-to-living-a-long",
@@ -554,21 +569,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1d2eb6628e2a8f2a21e60df4c32cc470",
-      "title": "OpenAI’s Next Move is Custom Chips That Design Themselves",
-      "url": "https://www.youtube.com/watch?v=u4vONcnLb3Y",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-16T15:42:16+00:00",
-      "summary": "OpenAI just announced a massive shift — it’s building custom AI chips that design themselves, in partnership with Broadcom. This episode breaks down how GPT-5 is now helping optimize the hardware it will run on, why OpenAI’s 10-gigawatt plan could double America’s AI compute cap…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-28T13:27:51.424209+00:00"
+  "generated_at": "2025-10-28T14:16:56.271308+00:00"
 }
