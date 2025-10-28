@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6eece0c798b2f78dca9298ba516ff6b6",
+      "title": "Top Performing Hedge Fund Manager Says Credit Concern is Overblown | Derek Pilecki",
+      "url": "https://www.youtube.com/watch?v=ILAI4xBmCPQ",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-28T18:00:35+00:00",
+      "summary": "Derek Pilecki’s hedge fund Gator Capital has outperformed the S&P 500, compounding at over 22% since inception while focusing exclusively on financial sector stocks. In this interview Derek discusses why he thinks recent concern in the financial sector is overblown, how he has g…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "54981c54d2d5d64461150df0a9372e29",
       "title": "Why Google's New Vibe Coding App is Actually Game Changing",
       "url": "https://www.youtube.com/watch?v=tS76I3Bd5Q8",
@@ -1015,21 +1028,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d17257d788967e2eddb7f9c2df1fa15b",
-      "title": "How AI Imperils The Electricity Grid | Imane Bakkar",
-      "url": "https://www.youtube.com/watch?v=x_Savtcd_74",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-24T18:37:46+00:00",
-      "summary": "Imane Bakkar, Founder and Managing Director of Logarisk, joins Monetary Matters to discuss her most recent White Paper, “Weather Is No Small Talk.” She argues that the electricity grid and the financial system are becoming more weather dependent because of the rise of renewable …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c8b38689572ffa55562e78b7f0e7f17d",
       "title": "Deep Learning Weekly: Issue 423",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-423",
@@ -1804,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-28T17:15:34.473124+00:00"
+  "generated_at": "2025-10-28T18:25:06.669669+00:00"
 }
