@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "126873febfaf4e5f8b77032ab426e85b",
+      "title": "A builder’s guide to living a long and healthy life",
+      "url": "https://www.lennysnewsletter.com/p/a-builders-guide-to-living-a-long",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-28T12:45:40+00:00",
+      "summary": "For something a little different",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5787a0669840f2602dc1143fba1faa17",
       "title": "A builder’s guide to living a long and healthy life",
       "url": "https://www.lennysnewsletter.com/p/a-builders-guide-to-living-a-long-58b",
@@ -867,21 +880,6 @@
       "source_type": "rss",
       "published": "2025-10-05T11:02:39+00:00",
       "summary": "Albert Cheng on the explore/exploit framework, AI-powered data analysis, doubling Grammarly conversions through reverse trials, freemium monetization, habit formation psychology, and more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "003e16f98a140737aedd7d6d986c67cb",
-      "title": "🧠 Community Wisdom: AI growth hacking tactics, teaching kids how to program, communicating your work to C-suite execs, documentation as a solo founder, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-growth-hacking",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-04T17:01:16+00:00",
-      "summary": "Community Wisdom 226",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-28T12:33:47.178352+00:00"
+  "generated_at": "2025-10-28T13:27:51.424209+00:00"
 }
