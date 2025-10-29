@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "07c407547867fa66a423dbd466f073cf",
+      "title": "AI Becomes the Layoff Scapegoat",
+      "url": "https://www.youtube.com/watch?v=hu8AutbGW7I",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-29T15:40:16+00:00",
+      "summary": "Amazon and Chegg are the latest companies to cite AI as a reason for major layoffs—but is artificial intelligence really to blame, or just a convenient scapegoat? Today’s episode breaks down Amazon’s 14,000-person reduction, Chegg’s 45% workforce cut, and the deeper debate aroun…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "25aa2c827c0d071cdc8d75fc92a9202a",
       "title": "Last Week in AI #325 - OpenAI is for-profit, ChatGPT Atlas, Copilot Mico",
       "url": "https://lastweekin.ai/p/last-week-in-ai-325-openai-is-for",
@@ -551,22 +566,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "cfec180a290fd8501caf87ea0578e7f2",
-      "title": "Case Study: AI Saving 100,000 Hours Each Week",
-      "url": "https://www.youtube.com/watch?v=VM91rlUD7q4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-17T13:42:31+00:00",
-      "summary": "Citigroup just revealed AI is saving its developers 100,000 hours every week—and it’s not hype, it’s in their earnings report. Today’s episode dives into how enterprise AI is moving from promise to real ROI, with major updates from Walmart’s OpenAI partnership, Salesforce’s new …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1800,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-29T15:18:51.217660+00:00"
+  "generated_at": "2025-10-29T16:21:28.884295+00:00"
 }
