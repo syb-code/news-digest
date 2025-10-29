@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9734c009922543f883afcc7dc0fd5d70",
+      "title": "Where GenAI Spend is Already ROI Positive",
+      "url": "https://www.youtube.com/watch?v=PQ3mTd5ffm0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-29T00:29:46+00:00",
+      "summary": "While most companies are still trying to measure the impact of their AI deployments, a growing number are already seeing returns. In today’s AI Daily Brief, NLW looks at new data showing where GenAI is ROI-positive — from marketing and media generation to enterprise productivity…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6eece0c798b2f78dca9298ba516ff6b6",
       "title": "Top Performing Hedge Fund Manager Says Credit Concern is Overblown | Derek Pilecki",
       "url": "https://www.youtube.com/watch?v=ILAI4xBmCPQ",
@@ -116,7 +131,7 @@
     },
     {
       "id": "711167192a0cbda9658c9615d48dd6d8",
-      "title": "“Danger Sign” From Fed Is Here, Warns Liquidity Expert Michael Howell",
+      "title": "Liquidity Is Finally Falling. Here’s What That Means for Markets | Michael Howell",
       "url": "https://www.youtube.com/watch?v=0zbknuIALD8",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -124,9 +139,7 @@
       "summary": "Monetary Matters listeners can get 20% discounted access to an annual subscription of Michael Howell’s Capital Wars here: https://capitalwars.substack.com/MonetaryMatters\n\nMichael Howell of GL Indexes and the Capital Wars Substack returns to Monetary Matters with alarming news. …",
       "read_minutes": 2,
       "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -539,21 +552,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8daf6ed147065e7c73ec2317085414ed",
-      "title": "Maybe AI Will Cure Cancer After All",
-      "url": "https://www.youtube.com/watch?v=UrnmWFfp9X8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-17T01:25:56+00:00",
-      "summary": "Google’s new C2S-Scale 27B model may have just helped scientists uncover a novel pathway to fight cancer—an early but validated example of AI-driven discovery. This episode dives into how frontier models are quietly accelerating breakthroughs in biology, math, and physics, from …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1802,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-28T23:14:35.099677+00:00"
+  "generated_at": "2025-10-29T01:17:48.427416+00:00"
 }
