@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "25aa2c827c0d071cdc8d75fc92a9202a",
+      "title": "Last Week in AI #325 - OpenAI is for-profit, ChatGPT Atlas, Copilot Mico",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-325-openai-is-for",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-10-29T15:02:31+00:00",
+      "summary": "OpenAI completed its for-profit restructuring, OpenAI’s AI-powered browser is here, Google and Anthropic announce cloud deal worth tens of billions of dollars, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9734c009922543f883afcc7dc0fd5d70",
       "title": "Where GenAI Spend is Already ROI Positive",
       "url": "https://www.youtube.com/watch?v=PQ3mTd5ffm0",
@@ -1649,21 +1664,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a8cf8ef372bea035edd83617b1ab271e",
-      "title": "LWiAI Podcast #214 - Gemini CLI, io drama, AlphaGenome",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-214-gemini-cli-io-drama",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-04T22:45:49+00:00",
-      "summary": "Google is bringing Gemini CLI to developers’ terminals, Anthropic now lets you make apps right from its Claude AI chatbot, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e1b5045e61bb003561212fc13fb10cb6",
       "title": "Figma is the new photoshop",
       "url": "https://designplusai.com/p/figma-is-the-new-photoshop",
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-29T14:18:01.485023+00:00"
+  "generated_at": "2025-10-29T15:18:51.217660+00:00"
 }
