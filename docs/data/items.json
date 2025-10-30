@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "e6fe5bf1dbb59eb171461c4b48047a0e",
+      "title": "Deep Learning Weekly: Issue 428",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-428",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-10-30T15:01:16+00:00",
+      "summary": "DeepSeek-OCR, Introducing Chronos-2: From univariate to universal forecasting, a paper on InteractComp: Evaluating Search Agents With Ambiguous Queries, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "001c9367815a0305e976528371fa685d",
       "title": "This Is How Smart Investors Hedge Against Inflation",
       "url": "https://www.youtube.com/shorts/h31V50btgp4",
@@ -1789,20 +1802,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "9b6764ae3274e0bcb1344d5df12a91a8",
-      "title": "Deep Learning Weekly: Issue 408",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-408",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-06-13T13:31:19+00:00",
-      "summary": "Mistral's Magistral, Benchmarking Multi-Agent Architectures, a paper on The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-30T14:16:33.135935+00:00"
+  "generated_at": "2025-10-30T15:18:10.005232+00:00"
 }
