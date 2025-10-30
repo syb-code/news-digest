@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "001c9367815a0305e976528371fa685d",
+      "title": "This Is How Smart Investors Hedge Against Inflation",
+      "url": "https://www.youtube.com/shorts/h31V50btgp4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-30T12:45:06+00:00",
+      "summary": "On Monetary Matters, Michael Howell of GL Indexes breaks down his top picks for hedging against monetary inflation. From precious metals and large-cap equities to prime real estate — and even Bitcoin — Howell explains how each asset plays a role in protecting your portfolio when…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "92ebe973c6dbbd47717bc2174a51c95e",
       "title": "Bad News for Financial Assets in 2026?",
       "url": "https://www.youtube.com/shorts/7JzWDTAcY5M",
@@ -985,19 +1002,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d68c006d6df9df203f0dc0da7c341f84",
-      "title": "Credit Cracks Appear In Shadow Banking | Patrick Perret-Green",
-      "url": "https://www.youtube.com/watch?v=shBRT9qirlY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-01T20:11:35+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nPatrick Perret-Green of PPG Macro is a veteran macro trader and analyst. He joins us today to share his concern over two recent high-profile bankruptcies that have caused jitters in the non-ban…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "2f7f1ed40c65585013676147c85d0e9b",
       "title": "Deep Learning Weekly: Issue 424",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
@@ -1800,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-30T12:33:50.779687+00:00"
+  "generated_at": "2025-10-30T13:28:04.475284+00:00"
 }
