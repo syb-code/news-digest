@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "92ebe973c6dbbd47717bc2174a51c95e",
+      "title": "Bad News for Financial Assets in 2026?",
+      "url": "https://www.youtube.com/shorts/7JzWDTAcY5M",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-30T01:17:49+00:00",
+      "summary": "On Monetary Matters, Michael Howell of GL Indexes shares a sobering market outlook with Jack Farley — warning that the data points to a tough year ahead for financial assets.\n\nWhile he hopes to be proven wrong, current indicators suggest investors should prepare for a challengin…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "1aef669d5acbf4d6d71abb33e6bbf0ca",
       "title": "OpenAI is Now Officially a For-Profit Company",
       "url": "https://www.youtube.com/watch?v=RQTRYorqpwk",
@@ -1013,19 +1026,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6ec25cef2b13f5b0e9e8727c3954db19",
-      "title": "“Perfect Goldilocks Nirvana” Outcome Is Unlikely (Here’s Why) | Julian Brigden",
-      "url": "https://www.youtube.com/watch?v=G3I4B7b6zT0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-29T17:06:08+00:00",
-      "summary": "Sign up for MacroCapture by MI2 Partners today with coupon codes MM10 (for annual) and MM10Q (for quarterly) to save 10% at: https://portal.mi2partners.com/buy-macro-capture/\n\nThis episode of Monetary Matters is brought to you by VanEck.\n\nLearn more about the VanEck Semiconducto…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "741b779e2c56ed269d0ee84c8c01805b",
       "title": "Housing Market 2025 — Prices Stuck, Sales Crashing",
       "url": "https://www.youtube.com/watch?v=CSiaTQCFAnY",
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-30T01:17:21.537286+00:00"
+  "generated_at": "2025-10-30T03:08:25.254490+00:00"
 }
