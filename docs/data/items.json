@@ -1,6 +1,52 @@
 {
   "items": [
     {
+      "id": "1aef669d5acbf4d6d71abb33e6bbf0ca",
+      "title": "OpenAI is Now Officially a For-Profit Company",
+      "url": "https://www.youtube.com/watch?v=RQTRYorqpwk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-30T00:47:31+00:00",
+      "summary": "OpenAI has officially completed its for-profit conversion — a landmark moment reshaping the future of AI governance and commercialization. This episode breaks down the new corporate structure, the concessions negotiated with California and Delaware officials, and what it means f…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bb47318417c5c50486f4f93f61e0c407",
+      "title": "Why The Federal Reserve Will Start Expanding Its Balance Sheet | Joseph Wang",
+      "url": "https://www.youtube.com/watch?v=QZFR5zMljxk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-30T00:45:29+00:00",
+      "summary": "Joseph Wang, former senior trader for the New York Fed and author at FedGuy.com returns to Monetary Matters at a critical juncture to break down the October Fed meeting and the Fed's decision to stop reducing its balance sheet on December 1st and thereby end QT (Quantitative Tig…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a7b8b92417f51aad68df0f98c6e39eba",
+      "title": "The Fed Just Confirmed the Money Printing Pivot!",
+      "url": "https://www.youtube.com/watch?v=2oM1qW3hpNI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-10-29T23:52:09+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "07c407547867fa66a423dbd466f073cf",
       "title": "AI Becomes the Layoff Scapegoat",
       "url": "https://www.youtube.com/watch?v=hu8AutbGW7I",
@@ -555,21 +601,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ab8281358f2955ab0e04861f3abf9ff3",
-      "title": "Veo 3.1 Is Here. Does is Beat Sora 2?",
-      "url": "https://www.youtube.com/watch?v=yjvtBmBAwdk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-17T19:00:06+00:00",
-      "summary": "Google’s Veo 3.1 update adds new editing tools, reference image control, and smoother audio — but creators are debating whether it truly beats OpenAI’s Sora 2 or just marks the start of the “product era” for AI video. Meanwhile, Anthropic’s Haiku 4.5 is winning attention for its…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "20a7ddbdf604335b487c7716efcb0a08",
       "title": "How Hedge Funds Are Entering the ETF Game | David Orr",
       "url": "https://www.youtube.com/watch?v=yDrvvqDI1-s",
@@ -1010,21 +1041,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dabf31678687a6c952061fb25e3fadae",
-      "title": "Top Crypto Fund of Funds on the Current Crypto Cycle, Hedge Funds, & VCs | Pure Crypto LP",
-      "url": "https://www.youtube.com/watch?v=ozyb2JFJpdw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-09-25T13:01:43+00:00",
-      "summary": "This Other People’s Money episode is brought to you by VanEck.\n\nLearn more about the VanEck Semiconductor ETF (SMH): http://vaneck.com/SMHMax\n\nLearn more about the VanEck Fabless Semiconductor ETF (SMHX): http://vaneck.com/SMHXMax\n\nJeremy Boynton and Zach Lindquist, managing par…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2209bd0081ce234bd2d064198570efc4",
       "title": "LWiAI Podcast #221 - OpenAI Codex, Gemini in Chrome, K2-Think, SB 53",
       "url": "https://lastweekin.ai/p/lwiai-podcast-221-openai-codex-gemini",
@@ -1198,21 +1214,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "82e8833c91335d906946c3fab7d133b8",
-      "title": "Jobs Report Disaster — Fed Forced to Cut Rates More Quickly",
-      "url": "https://www.youtube.com/watch?v=ULjrJ605UUk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-09-05T20:21:34+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1799,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-29T23:15:15.936808+00:00"
+  "generated_at": "2025-10-30T01:17:21.537286+00:00"
 }
