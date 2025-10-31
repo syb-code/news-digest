@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "73f82f5e154ce1d5ee4cf6ea60de5045",
+      "title": "Liquidity Tensions Are Rising and Here’s Why It Matters 💥",
+      "url": "https://www.youtube.com/shorts/du9DNVoPTQ8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-10-31T13:15:15+00:00",
+      "summary": "On Monetary Matters, Jack Farley speaks with Michael Howell of GL Indexes about the growing liquidity stress in U.S. financial markets.\nHowell explains how tightening from the Federal Reserve is driving repo market tensions, with SOFR spreads widening a classic sign of pressure …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "28e5f69d5b80cf74b373fcf014c584f5",
       "title": "Why OpenAI's $1 Trillion IPO Can't Come Soon Enough",
       "url": "https://www.youtube.com/watch?v=3-BEnZCHrvI",
@@ -959,21 +975,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "404a271c9b6baa850364ccb498f6f9e7",
-      "title": "The AI Capex Bubble, Gold & Silver on the Rise, and Signs of Market Froth | Jack & Max",
-      "url": "https://www.youtube.com/watch?v=NMFSBhidS4k",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-05T13:00:41+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe react to the lack of employment data, discuss the “bubble” in AI capex, gold and silver’s recent rise an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "919817ef15d57b9d6a350dd727912c84",
       "title": "How to find hidden growth opportunities in your product | Albert Cheng (Duolingo, Grammarly, Chess.com)",
       "url": "https://www.lennysnewsletter.com/p/how-to-find-hidden-growth-opportunities-albert-cheng",
@@ -1806,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-31T12:33:49.461105+00:00"
+  "generated_at": "2025-10-31T13:27:06.175658+00:00"
 }
