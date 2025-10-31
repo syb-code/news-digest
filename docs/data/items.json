@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "28e5f69d5b80cf74b373fcf014c584f5",
+      "title": "Why OpenAI's $1 Trillion IPO Can't Come Soon Enough",
+      "url": "https://www.youtube.com/watch?v=3-BEnZCHrvI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-10-31T00:04:06+00:00",
+      "summary": "OpenAI is reportedly preparing for a historic $1 trillion IPO — a move that could reshape both AI and public markets. This episode breaks down why the timing matters, how OpenAI’s capital burn and partnerships with SoftBank and global funds make the IPO inevitable, and what it m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e6fe5bf1dbb59eb171461c4b48047a0e",
       "title": "Deep Learning Weekly: Issue 428",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-428",
@@ -583,19 +598,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "231457015eaa55948d126344374b4c0c",
-      "title": "Anthropic's New Claude Skills Could Be A Really Big Deal",
-      "url": "https://www.youtube.com/watch?v=PgSVBlZbpww",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-19T01:46:01+00:00",
-      "summary": "Anthropic just launched Claude Skills — a modular new system that lets users build reusable task packs for agents, combining instructions, scripts, and even code. This episode breaks down why Skills might reshape how we think about agent design, why experts like Simon Willison a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-10-30T23:14:38.196091+00:00"
+  "generated_at": "2025-10-31T01:14:57.096782+00:00"
 }
