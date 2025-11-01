@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6cdb63f9f9dc04ccbac77b43e8a61b72",
+      "title": "The Debasement Trade Is Alive And Well!",
+      "url": "https://www.youtube.com/shorts/jim4KaUJwio",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-01T13:30:46+00:00",
+      "summary": "On Monetary Matters, host Jack Farley speaks with Michael Howell, founder of GL Indexes and author of Capital Wars, about the hidden reality behind today’s fiscal policy.\n\nHowell argues that the “monetary debasement trade” is misunderstood — the real issue is that governments ar…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "01e8891994330b3a1095168aa082ac46",
       "title": "Vibe-coding a kid-friendly AI fortune teller for your Halloween festivities | Marco Casalaina (Microsoft VP)",
       "url": "https://www.lennysnewsletter.com/p/vibe-coding-a-kid-friendly-ai-fortune",
@@ -929,22 +942,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3eec6418aaa2c496146dbfa9a8d31d00",
-      "title": "“The End of the Anti-Crypto Movement",
-      "url": "https://www.youtube.com/shorts/1Vgl9vu_wqY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-08T11:30:04+00:00",
-      "summary": "Pure Crypto’s Jeremy Boynton and Zach Lindquist join Max Wiethe on Other People’s Money to discuss why the so-called “Elizabeth Warren anti-crypto army” has lost momentum. After the 2024 election cycle, crypto’s growing voter base and influence in campaign funding have made it a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5b28b8a9591c5d96cce29f84d6c4243d",
       "title": "LWiAI Podcast #222 - Sora 2, Sonnet 4.5, Vibes, Thinking Machines",
       "url": "https://lastweekin.ai/p/lwiai-podcast-222-sora-2-sonnet-45",
@@ -1809,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-01T13:21:01.866886+00:00"
+  "generated_at": "2025-11-01T14:13:07.657046+00:00"
 }
