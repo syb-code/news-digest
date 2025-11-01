@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "be32fe7798eeecaf6e53f48f7f4bb3b9",
+      "title": "🧠 Community Wisdom: Transitioning from IC to managing former peer, email deliverability best practices, measuring engineering productivity, negotiating salary increase after scope expansion, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-transitioning-from-1d3",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-01T17:43:37+00:00",
+      "summary": "🧠 Community Wisdom 259",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6cdb63f9f9dc04ccbac77b43e8a61b72",
       "title": "The Debasement Trade Is Alive And Well!",
       "url": "https://www.youtube.com/shorts/jim4KaUJwio",
@@ -987,21 +1002,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9ed9f57c1960b66b91499a52739af19f",
-      "title": "“I’m incapable of doing my job without AI”: How this top PM uses Claude + ChatGPT as his second brain",
-      "url": "https://www.lennysnewsletter.com/p/building-a-second-brain-with-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-06T11:03:32+00:00",
-      "summary": "Watch now | 🎙️ Monday.com’s AI PM on creating custom AI “brains” for context switching, using Claude to build Reddit scrapers, and practicing product interviews with GPT voice mode",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ec553e718da54193840280ba7c899f1e",
       "title": "Last Week in AI #323 - Sonnet 4.5, Sora 2, Vibes, SB 53",
       "url": "https://lastweekin.ai/p/last-week-in-ai-323-sonnet-45-sora",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-01T17:11:54.684494+00:00"
+  "generated_at": "2025-11-01T18:20:11.791456+00:00"
 }
