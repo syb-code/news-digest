@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8d229d6516fdb1e774c7054951829a80",
+      "title": "More Credit Problems, Mag 7 AI CapEX Continues, and Money Market Stress | Jack & Max",
+      "url": "https://www.youtube.com/watch?v=b3FDTw5IIyU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-02T17:28:09+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe breakdown yet another credit “cockroach” that appears to be more related to fraud than overall market we…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d11247864e9ea03d2e4d1d508f922d9e",
       "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
       "url": "https://www.lennysnewsletter.com/p/the-making-of-canva",
@@ -970,19 +985,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "67ca31b977b235f11f36e396fb2acee9",
-      "title": "Global Economy on Knife's Edge | Richard Murphy",
-      "url": "https://www.youtube.com/watch?v=ZVEj9CH35VU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-08T14:39:55+00:00",
-      "summary": "Richard J Murphy, a political economist, chartered accountant, tax reform advocate, and professor emeritus at the University of Sheffield, joins Jack on Monetary Matters to discuss tax reform, economic theory, inflation, deficits, central banking, and more. While the stock marke…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5b28b8a9591c5d96cce29f84d6c4243d",
       "title": "LWiAI Podcast #222 - Sora 2, Sonnet 4.5, Vibes, Thinking Machines",
       "url": "https://lastweekin.ai/p/lwiai-podcast-222-sora-2-sonnet-45",
@@ -1804,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-02T17:12:50.017860+00:00"
+  "generated_at": "2025-11-02T18:19:32.816140+00:00"
 }
