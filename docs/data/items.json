@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "d11247864e9ea03d2e4d1d508f922d9e",
+      "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
+      "url": "https://www.lennysnewsletter.com/p/the-making-of-canva",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-02T13:31:30+00:00",
+      "summary": "Canva's CEO and co-founder on column B thinking, surviving a 2-year code rewrite, and her mission to meet everyone's basic human needs by 2050.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3552421a1d5f89a2998ef62abfefcf14",
       "title": "The Golden Age of the Design Founder",
       "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
@@ -985,21 +998,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4dd7f6fdb327911460d35fc1a70af456",
-      "title": "A free year of Devin: the world’s most advanced autonomous AI software engineer",
-      "url": "https://www.lennysnewsletter.com/p/a-free-year-of-devin-the-worlds-first",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-07T15:12:21+00:00",
-      "summary": "An offer you won't find anywhere else—and an additional $1,350 in value for Insider subscribers",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c3c92170fb1d94d43c579feb3391f265",
       "title": "Jobs Report — Biggest Job Loss in Years, Fed Forced to Cut Rates",
       "url": "https://www.youtube.com/watch?v=3sCckDU4irs",
@@ -1806,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-02T13:20:25.106626+00:00"
+  "generated_at": "2025-11-02T14:13:09.575028+00:00"
 }
