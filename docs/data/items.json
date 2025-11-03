@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c54b16e93a2b3b11a13b07f6c9b209b9",
+      "title": "So Far, AI Can Only Automate 2.5% of Jobs",
+      "url": "https://www.youtube.com/watch?v=lRXJiLvLAJg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-03T14:13:31+00:00",
+      "summary": "A new study reveals that current AI systems can fully automate only 2.5% of real-world jobs, challenging widespread assumptions about mass automation. The episode examines how researchers tested AI agents on real freelance projects, where most failed due to poor quality or incom…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "51826c701cfbfae586bb3e0e934a69e1",
       "title": "“Vibe analysis”: How Faire’s data team uses AI to investigate conversion drops, analyze experiment results, and convert raw data into executive-ready insights",
       "url": "https://www.lennysnewsletter.com/p/vibe-analysis-how-faires-data-team",
@@ -683,21 +698,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8e914ea378972547d5bc530161c29323",
-      "title": "5 Prompting Tricks to Make Your AI Less Average",
-      "url": "https://www.youtube.com/watch?v=JdXlQeQcFN4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-20T14:00:07+00:00",
-      "summary": "AI is trained on the sum total of human output—which means it often produces the average of averages. That’s fine for passable results, but not for unique, high-quality work. In this weekend big think episode, NLW explores what he calls AI’s tyranny of the average and shares fiv…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-03T14:16:43.324991+00:00"
+  "generated_at": "2025-11-03T15:17:26.545888+00:00"
 }
