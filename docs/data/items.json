@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a682b7a89d8fcde490bbc333236f1397",
+      "title": "This week on How I AI: “Vibe analysis” with Faire + vibe coding a kid-friendly AI fortune teller",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-vibe-analysis",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-03T16:02:41+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c54b16e93a2b3b11a13b07f6c9b209b9",
       "title": "So Far, AI Can Only Automate 2.5% of Jobs",
       "url": "https://www.youtube.com/watch?v=lRXJiLvLAJg",
@@ -942,21 +957,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "515e4bb6440e5f33826fcee8671dcfd4",
-      "title": "Inside Google's AI turnaround: The rise of AI Mode, strategy behind AI Overviews, and their vision for AI-powered search | Robby Stein (VP of Product, Google Search)",
-      "url": "https://www.lennysnewsletter.com/p/how-google-built-ai-mode-in-under-a-year",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-10T23:11:27+00:00",
-      "summary": "Robby Stein on Google's AI comeback: Gemini hits #1 beating ChatGPT, why AI is expanding the pie for search, and his frameworks behind two billion-user products",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "38af3ae386f0c034f817dd466ba3a6d0",
       "title": "Debasement Trade — The Hottest Investing Trend (My Advice)",
       "url": "https://www.youtube.com/watch?v=C6AVe-Hm8Ew",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-03T15:17:26.545888+00:00"
+  "generated_at": "2025-11-03T16:19:33.054837+00:00"
 }
