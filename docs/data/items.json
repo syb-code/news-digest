@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "0c9f2295b65d33308fbbd7720bbdadb7",
+      "title": "America's $38 Trillion Debt Crisis — It's Spiraling Out of Control",
+      "url": "https://www.youtube.com/watch?v=C2tMd1VAh4Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-03T18:00:12+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a682b7a89d8fcde490bbc333236f1397",
       "title": "This week on How I AI: “Vibe analysis” with Faire + vibe coding a kid-friendly AI fortune teller",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-vibe-analysis",
@@ -1190,21 +1203,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dfa7e96458b85286733f79f462141c9c",
-      "title": "Fed Launches Aggressive Rate Cuts — Monetary Easing Cycle to Restart",
-      "url": "https://www.youtube.com/watch?v=GcMyusQpGE0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-09-17T22:49:27+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a20951c29e2ac54117b53761efb5314f",
       "title": "Last Week in AI #321 - Anthropic & Midjourney Lawsuits, Bad Jobs Data",
       "url": "https://lastweekin.ai/p/last-week-in-ai-321-anthropic-and",
@@ -1806,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-03T17:14:38.879887+00:00"
+  "generated_at": "2025-11-03T18:22:48.060559+00:00"
 }
