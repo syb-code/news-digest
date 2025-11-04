@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b5b0f1f2cb5da73a4c55caf5894c08e5",
+      "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
+      "url": "https://www.lennysnewsletter.com/p/part-2-of-how-to-get-the-most-out-d02",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-04T10:01:32+00:00",
+      "summary": "Tips for taking full advantage of the 17+ free premium products you have access to as a paid subscriber",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "201fb7bc8efee397731efdb23a6af5b6",
       "title": "RIP Vibe Coding. Feb 2025-Oct 2025.",
       "url": "https://www.youtube.com/watch?v=JF70OiDo-QQ",
@@ -955,21 +970,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bd5a13bfa7399b22f705fbf7d0dcbba4",
-      "title": "🧠 Community Wisdom: Best path to becoming a mid-level PM, vibe coding a simple game, growth strategy for early-stage company, getting better at AI, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-best-path-to-becoming",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-11T16:02:57+00:00",
-      "summary": "Community Wisdom 252",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "38af3ae386f0c034f817dd466ba3a6d0",
       "title": "Debasement Trade — The Hottest Investing Trend (My Advice)",
       "url": "https://www.youtube.com/watch?v=C6AVe-Hm8Ew",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-04T09:18:55.502725+00:00"
+  "generated_at": "2025-11-04T10:19:35.888596+00:00"
 }
