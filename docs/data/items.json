@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7232e6d5db431a235e9eeb4848f1c13c",
+      "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
+      "url": "https://www.lennysnewsletter.com/p/part-2-of-how-to-get-the-most-out",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-04T13:45:34+00:00",
+      "summary": "Tips for taking full advantage of the 17+ free premium products you have access to as a paid subscriber",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b5b0f1f2cb5da73a4c55caf5894c08e5",
       "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
       "url": "https://www.lennysnewsletter.com/p/part-2-of-how-to-get-the-most-out-d02",
@@ -927,21 +942,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6e78fe41949b6768f1a974abfea2e507",
-      "title": "Evals, error analysis, and better prompts: A systematic approach to improving your AI products | Hamel Husain (ML engineer)",
-      "url": "https://www.lennysnewsletter.com/p/evals-error-analysis-and-better-prompts",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-13T11:03:43+00:00",
-      "summary": "Watch now | 🎙️ How to build better AI products through data-driven error analysis, evaluation frameworks, and systematic quality improvement",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2ef74fafe57567a09cb107298e76aa6f",
       "title": "Kind Products Win",
       "url": "https://designplusai.com/p/kind-products-win",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-04T13:31:11.304683+00:00"
+  "generated_at": "2025-11-04T14:17:06.057666+00:00"
 }
