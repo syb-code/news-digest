@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "201fb7bc8efee397731efdb23a6af5b6",
+      "title": "RIP Vibe Coding. Feb 2025-Oct 2025.",
+      "url": "https://www.youtube.com/watch?v=JF70OiDo-QQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-03T23:53:31+00:00",
+      "summary": "With NLW currently on the road, he's joined in this conversation by Sean “Swyx” Wang — developer, writer, Latent Space host and newly joined member of Cognition. They explore how AI coding became 2025’s defining story, why “vibe coding” is ending (sort of), what comes next for d…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0c9f2295b65d33308fbbd7720bbdadb7",
       "title": "America's $38 Trillion Debt Crisis — It's Spiraling Out of Control",
       "url": "https://www.youtube.com/watch?v=C2tMd1VAh4Q",
@@ -668,21 +683,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7fb9150df70842c37c1da0a8c73b2fe1",
-      "title": "Why an AGI Delay Doesn't Mean an AI Bubble",
-      "url": "https://www.youtube.com/watch?v=CbC3MsOGNyE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-21T02:07:47+00:00",
-      "summary": "Silicon Valley spent the weekend debating whether it’s time to delay AGI expectations by a decade — and what that would mean for the so-called “AI bubble.” NLW breaks down the chain reaction: Microsoft’s retreat from OpenAI’s infrastructure arms race, an OpenAI math gaffe that w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-03T23:14:42.836298+00:00"
+  "generated_at": "2025-11-04T01:15:27.745462+00:00"
 }
