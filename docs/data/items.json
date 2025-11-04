@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "4a9079c78980fe62d70dfc6479837ca5",
+      "title": "The Hedge Fund Trying to Become the Top Pod Shop in Crypto",
+      "url": "https://www.youtube.com/watch?v=Y_VL2sgqH5w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-04T18:00:48+00:00",
+      "summary": "This Other People’s Money episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nAnatoly Crachilov,…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7232e6d5db431a235e9eeb4848f1c13c",
       "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
       "url": "https://www.lennysnewsletter.com/p/part-2-of-how-to-get-the-most-out",
@@ -955,21 +971,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5b043ff898154c1c78122115f7fb34f5",
-      "title": "Credit Falters As Huge Bankruptcy Shocks Market | Jack & Max on First Brands & Trump's Tariff",
-      "url": "https://www.youtube.com/watch?v=l1QlstHwfLI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-11T16:30:31+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe react to the weakness in the credit markets upon the large $10+ Billion bankruptcy of First Brands and t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "38af3ae386f0c034f817dd466ba3a6d0",
       "title": "Debasement Trade — The Hottest Investing Trend (My Advice)",
       "url": "https://www.youtube.com/watch?v=C6AVe-Hm8Ew",
@@ -1804,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-04T17:16:00.168084+00:00"
+  "generated_at": "2025-11-04T18:23:35.796723+00:00"
 }
