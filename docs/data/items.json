@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f65c856d4cbd50b24598d48a5d787e3b",
+      "title": "The complete beginner’s guide to coding with AI: from PRD to generating your very first lines of code",
+      "url": "https://www.lennysnewsletter.com/p/the-complete-beginners-guide-to-coding",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-05T12:03:11+00:00",
+      "summary": "Watch now | 🎙️ A step-by-step walkthrough for non-technical people to create their first coding project using AI tools—from setting up a repository to building a functional personal project hub.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4a9079c78980fe62d70dfc6479837ca5",
       "title": "The Hedge Fund Trying to Become the Top Pod Shop in Crypto",
       "url": "https://www.youtube.com/watch?v=Y_VL2sgqH5w",
@@ -932,19 +947,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "56c5e09c3d66d6ac7dbb908469225938",
-      "title": "Everyone should be using Claude Code more",
-      "url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code-8db",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-14T09:02:13+00:00",
-      "summary": "How to get started, and 50 ways non-technical people are using Claude Code in their work and life",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "731cd7a9b1dddae823887e7465420e51",
       "title": "China’s Shock To Global Economy Is Here | Brad Setser",
       "url": "https://www.youtube.com/watch?v=HEY4Z_T1nTc",
@@ -1805,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-05T11:14:41.141011+00:00"
+  "generated_at": "2025-11-05T12:34:43.471815+00:00"
 }
