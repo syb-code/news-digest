@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6bbeb898cb7dc3ce4394f39c1bf2ed3b",
+      "title": "LWiAI Podcast #224 - OpenAI is for-profit! Cursor 2, Minimax M2, Udio copyright",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-224-openai-is-for-profit",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-05T22:58:01+00:00",
+      "summary": "Cursor 2.0 shifts to in-house AI with Composer model and parallel agents, OpenAI completed its for-profit restructuring, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "962123de371e16bb6bcc00172267e1aa",
       "title": "IRS $600 Tax Rule for 2025 Changed (Venmo - Cash App - PayPal)",
       "url": "https://www.youtube.com/watch?v=w_iS2JNEtYM",
@@ -1680,21 +1695,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "082b35f61674251e9118056e7e9334c8",
-      "title": "LWiAI Podcast #215 - Runway games, Meta Superintelligence, ERNIE 4.5",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-215-runway-games-meta",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-08T06:30:29+00:00",
-      "summary": "Cloudflare Introduces Default Blocking of A.I. Data Scrapers, Runway is going to let people generate video games with AI, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "abc222d8ab843cc8f157fda95ba5ca8e",
       "title": "Invisible UX is coming",
       "url": "https://designplusai.com/p/invisible-ux-is-coming",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-05T22:15:16.587667+00:00"
+  "generated_at": "2025-11-05T23:15:19.812046+00:00"
 }
