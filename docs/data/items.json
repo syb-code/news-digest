@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b82d6ff219ffef22da8b689fa3b2ce45",
+      "title": "Deep Learning Weekly: Issue 429",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-429",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-11-05T16:45:55+00:00",
+      "summary": "OpenAI’s agentic security researcher, Stress-testing model specs reveals character differences among models, a paper on Kimi Linear: An Expressive, Efficient Attention Architecture, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f65c856d4cbd50b24598d48a5d787e3b",
       "title": "The complete beginner’s guide to coding with AI: from PRD to generating your very first lines of code",
       "url": "https://www.lennysnewsletter.com/p/the-complete-beginners-guide-to-coding",
@@ -1790,22 +1805,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "cefcd06df94391ff432e3c7f3db6ce46",
-      "title": "Deep Learning Weekly: Issue 409",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-409",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-06-18T15:05:23+00:00",
-      "summary": "Mistral Compute, BountyBench: Dollar Impact of AI Agent Attackers and Defenders on Real-World Cybersecurity Systems, a paper on Beyond Text Compression: Evaluating Tokenizers Across Scales, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-05T16:21:30.810155+00:00"
+  "generated_at": "2025-11-05T17:15:57.064656+00:00"
 }
