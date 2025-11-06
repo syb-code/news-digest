@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1d01ae0341df8650e0d496286ec58621",
+      "title": "Is OpenAI Too Big to Fail?",
+      "url": "https://www.youtube.com/watch?v=lWc3mM9sHXQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-05T23:50:51+00:00",
+      "summary": "OpenAI just signed a $38 billion deal with Amazon, deepening its network of mega-partnerships across Big Tech and reigniting debate over whether it’s now too big to fail. This episode breaks down the details of the Amazon-OpenAI alliance, Sam Altman’s fiery response to investors…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6bbeb898cb7dc3ce4394f39c1bf2ed3b",
       "title": "LWiAI Podcast #224 - OpenAI is for-profit! Cursor 2, Minimax M2, Udio copyright",
       "url": "https://lastweekin.ai/p/lwiai-podcast-224-openai-is-for-profit",
@@ -771,22 +786,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b9f62f33673cd7f7edc6d5bb534b928b",
-      "title": "15 Business Model Questions for OpenAI and Anthropic",
-      "url": "https://www.youtube.com/watch?v=5LimGZyd2Q0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-21T20:27:26+00:00",
-      "summary": "OpenAI and Anthropic are reporting explosive revenue growth — but can it last? This episode unpacks 15 critical questions shaping their business models, from trillion-dollar infrastructure bets to the balance between enterprise and consumer demand. It also examines what these tr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-05T23:15:19.812046+00:00"
+  "generated_at": "2025-11-06T01:16:29.893312+00:00"
 }
