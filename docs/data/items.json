@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "31b3ab5ebb0af5e10a2d9d647bfa2d42",
+      "title": "Why Consulting is a Perfect Case Study for AI Disruption",
+      "url": "https://www.youtube.com/watch?v=9osIWH69P_4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-06T18:58:16+00:00",
+      "summary": "As AI reshapes white-collar industries, consulting stands out as a prime example of how disruption unfolds in practice. This episode breaks down the forces transforming professional services—from automation and cost compression to brand trust, new AI-native challengers, and the …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1d01ae0341df8650e0d496286ec58621",
       "title": "Is OpenAI Too Big to Fail?",
       "url": "https://www.youtube.com/watch?v=lWc3mM9sHXQ",
@@ -767,21 +782,6 @@
       "source_type": "rss",
       "published": "2025-10-22T11:03:37+00:00",
       "summary": "Watch now | 🎙️ Claire Vo breaks down Anthropic’s new Claude Skills—what they are, how to build them, and how she uses Cursor and Claude Code to create reusable AI workflows in minutes",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fe4dc920738ddaf0000dd52c39e3000a",
-      "title": "GPT-5 is 58% AGI",
-      "url": "https://www.youtube.com/watch?v=HNoM1_Fi_JQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-21T23:30:06+00:00",
-      "summary": "The debate over AGI just got measurable. Researchers from the Center for AI Safety released a framework ranking GPT-5 at 58% toward Artificial General Intelligence, sparking new discussions about how close we really are. This episode breaks down how experts define AGI, where GPT…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-06T18:24:23.463161+00:00"
+  "generated_at": "2025-11-06T19:13:25.387885+00:00"
 }
