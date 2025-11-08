@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dacb1cb924597bd956959e00d924d525",
+      "title": "🧠 Community Wisdom: Communicating pricing increases to customers, explaining AI limitations to new hires, creating a copilot with your work knowledge, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-communicating-pricing",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-08T17:01:30+00:00",
+      "summary": "Community Wisdom 260",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "72f452bcc995b6cbfa5d30c5b3d8838c",
       "title": "America's Labor Market is Crashing — Fed Can't Ignore This",
       "url": "https://www.youtube.com/watch?v=m92GE57Rn7o",
@@ -1006,19 +1021,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "171ec90a212ad803b75ab65df416a79a",
-      "title": "Everyone should be using Claude Code more",
-      "url": "https://www.lennysnewsletter.com/p/everyone-should-be-using-claude-code",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-14T13:03:49+00:00",
-      "summary": "How to get started, and 50 ways non-technical people are using Claude Code in their work and life",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "2ef74fafe57567a09cb107298e76aa6f",
       "title": "Kind Products Win",
       "url": "https://designplusai.com/p/kind-products-win",
@@ -1803,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-08T16:17:49.783156+00:00"
+  "generated_at": "2025-11-08T17:12:27.078893+00:00"
 }
