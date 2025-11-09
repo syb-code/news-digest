@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d46afb1a350b1eecaf466f9b3adb1086",
+      "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-09T18:57:47+00:00",
+      "summary": "Qualcomm announces AI chips to compete with AMD and Nvidia, MiniMax Releases MiniMax M2, Universal partners with Udio, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ff5ba43e5145b2b4594361054c66b860",
       "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
       "url": "https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr",
@@ -1637,21 +1652,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "744dd5ab39138bdee23c3c72297a971e",
-      "title": "Last Week in AI #315 - Grok 4, Windsurf->Google, Comet",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-315-grok-4-windsurf",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-12T18:33:00+00:00",
-      "summary": "Elon Musk’s xAI launches Grok 4 alongside a $300 monthly subscription, OpenAI’s Windsurf deal is off — and Windsurf’s CEO is going to Google, Replit Launches New Feature for its Agent",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ce370ceabce816e8bfe3c48d076ba51c",
       "title": "Mastering Lovable Playbook",
       "url": "https://designplusai.com/p/mastering-lovable-playbook",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-09T18:20:21.170870+00:00"
+  "generated_at": "2025-11-09T19:11:29.470482+00:00"
 }
