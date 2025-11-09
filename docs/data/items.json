@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ff5ba43e5145b2b4594361054c66b860",
+      "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
+      "url": "https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-09T13:31:40+00:00",
+      "summary": "Jen Abel drops a masterclass on $1-$10m ARR enterprise sales",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "dacb1cb924597bd956959e00d924d525",
       "title": "🧠 Community Wisdom: Communicating pricing increases to customers, explaining AI limitations to new hires, creating a copilot with your work knowledge, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-communicating-pricing",
@@ -980,21 +993,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f3ad7b94d5e29183557aea3119099258",
-      "title": "Figma’s CEO: Why AI makes design, craft, and quality the new moat for startups | Dylan Field",
-      "url": "https://www.lennysnewsletter.com/p/why-ai-makes-design-craft-and-quality-the-new-moat",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-16T11:03:16+00:00",
-      "summary": "Figma’s founder on why design is how software wins now, why removing blockers often beats new features, sustaining momentum after 13 years, and how to build taste",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ec371756c32b7ea57b6c27a0c06bf97d",
       "title": "Deep Learning Weekly: Issue 426",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-426",
@@ -1805,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-09T13:20:54.757497+00:00"
+  "generated_at": "2025-11-09T14:12:51.678011+00:00"
 }
