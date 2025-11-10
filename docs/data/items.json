@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "34d05d44bf52616cd79af86527fed159",
+      "title": "Wharton Finds AI is ROI Positive for 75% of Firms",
+      "url": "https://www.youtube.com/watch?v=sGCqGhwtLYI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-10T12:51:36+00:00",
+      "summary": "Wharton finds 82% of enterprise leaders use GenAI weekly and 46% use GenAI daily, with top use cases in data analysis, document and meeting summarization, presentation creation, ideation, marketing content, customer support, and internal help desks.  Formalized ROI tracking appe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "00ec0fdb4194c52fa0be4708cf346d88",
       "title": "How this CEO turned 25,000 hours of sales calls into a self-learning go-to-market engine | Matt Britton (Suzy)",
       "url": "https://www.lennysnewsletter.com/p/how-this-ceo-turned-25000-hours-of",
@@ -825,21 +840,6 @@
       "source_type": "rss",
       "published": "2025-10-23T11:02:58+00:00",
       "summary": "Chip Huyen on what improves AI apps: talking to users beats chasing models, why senior engineers gain most from AI, and why most AI failures aren't AI problems",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "05c6e51059091ad971f6d3d29ac8e00f",
-      "title": "ChatGPT Just Launched Atlas — Here’s How Get Value From Your AI Browser",
-      "url": "https://www.youtube.com/watch?v=Gu3RpHZblO8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-23T00:00:06+00:00",
-      "summary": "OpenAI has entered the AI browser wars with the launch of ChatGPT Atlas, blending chat, memory, and agentic automation directly into the web experience. The episode unpacks Atlas’s standout features—agent mode, context-aware assistance, and browser-integrated memory—alongside in…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-10T12:34:58.576425+00:00"
+  "generated_at": "2025-11-10T13:28:39.757727+00:00"
 }
