@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "00ec0fdb4194c52fa0be4708cf346d88",
+      "title": "How this CEO turned 25,000 hours of sales calls into a self-learning go-to-market engine | Matt Britton (Suzy)",
+      "url": "https://www.lennysnewsletter.com/p/how-this-ceo-turned-25000-hours-of",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-10T12:03:42+00:00",
+      "summary": "Watch now | 🎙️ Learn how a non-technical CEO built a comprehensive AI workflow that transforms customer call transcripts into actionable intelligence, marketing assets, and predictive insights",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cc77a676b7a4a84e21f20463bb7a07ec",
       "title": "$2,000 Stimulus Check —Trump Confirms Tariff Dividend",
       "url": "https://www.youtube.com/watch?v=CdVGvbNvKU0",
@@ -965,19 +980,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cb9a901f6b80055a42310899788aa35b",
-      "title": "🧠 Community Wisdom: Designing a career ladder, how to showcase your work for promotion, going from a feature factory to a product-led organization, getting press coverage for your startup, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-designing-a-career",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-18T16:02:28+00:00",
-      "summary": "Community Wisdom 258",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "f2c0e48d2b3b6ab5deb6994eb8cc49af",
       "title": "Last Week in AI #324: OpenAI Deals and DevDay, Haiku 4.5, Veo 3.1",
       "url": "https://lastweekin.ai/p/last-week-in-ai-324-openai-deals",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-10T11:14:21.687358+00:00"
+  "generated_at": "2025-11-10T12:34:58.576425+00:00"
 }
