@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6659064c0beaa8a2f4290778116208cf",
+      "title": "This week on How I AI: 0-to-1 AI guide for absolute beginners + how this CEO turned 25,000 hours of sales calls into a self-learning GTM engine",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-0-to-1-ai-guide",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-10T16:03:20+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "34d05d44bf52616cd79af86527fed159",
       "title": "Wharton Finds AI is ROI Positive for 75% of Firms",
       "url": "https://www.youtube.com/watch?v=sGCqGhwtLYI",
@@ -948,21 +963,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6b03d8e3a9b5f0d2a1c38fe67c5efee6",
-      "title": "How to measure AI developer productivity in 2025 | Nicole Forsgren",
-      "url": "https://www.lennysnewsletter.com/p/how-to-measure-ai-developer-productivity",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-19T11:02:51+00:00",
-      "summary": "Nicole Forsgren on AI's productivity paradox: how broken processes offset coding gains—plus her 7-step framework for fixing what metrics miss",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "94c5d3c118447587384a43eb121b9e6c",
       "title": "Banks Point Fingers As Another Loan Deal Goes Bad",
       "url": "https://www.youtube.com/watch?v=_qBV76Bg8Jk",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-10T15:18:14.814285+00:00"
+  "generated_at": "2025-11-10T16:21:22.757338+00:00"
 }
