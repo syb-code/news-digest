@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "62bb508d3ef68ab108418381ad92ff0a",
+      "title": "Falling Liquidity Creates Cash Shortage In Repo Markets | Michael Howell",
+      "url": "https://www.youtube.com/watch?v=KtqFB9lsElk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-10T21:56:27+00:00",
+      "summary": "Monetary Matters listeners can get 20% discounted access to an annual subscription of Michael Howell’s Capital Wars here: https://capitalwars.substack.com/MonetaryMatters\n\nWith the Federal Reserve announcing the end of Quantitative Tightening (QT) on December 1st, Jack welcomes …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6659064c0beaa8a2f4290778116208cf",
       "title": "This week on How I AI: 0-to-1 AI guide for absolute beginners + how this CEO turned 25,000 hours of sales calls into a self-learning GTM engine",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-0-to-1-ai-guide",
@@ -995,19 +1010,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "20a7ddbdf604335b487c7716efcb0a08",
-      "title": "How Hedge Funds Are Entering the ETF Game | David Orr",
-      "url": "https://www.youtube.com/watch?v=yDrvvqDI1-s",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-16T21:39:37+00:00",
-      "summary": "This is a special bonus episode of OPM with David Orr. In my first conversation with David, we only discussed his hedge fund that has crushed the S&P 500 since its inception in 2021. In addition to his hedge fund, he also runs the Militia Long/Short Equity ETF ($ORR) which since…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "85f2a3ca4aa18735edee532e6ec72c74",
       "title": "The Fed Can’t Stop Now — Massive Money Printing Is Next",
       "url": "https://www.youtube.com/watch?v=hNiarkEYYRw",
@@ -1803,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-10T21:15:16.109570+00:00"
+  "generated_at": "2025-11-10T22:15:57.548546+00:00"
 }
