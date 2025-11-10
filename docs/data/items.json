@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "cc77a676b7a4a84e21f20463bb7a07ec",
+      "title": "$2,000 Stimulus Check —Trump Confirms Tariff Dividend",
+      "url": "https://www.youtube.com/watch?v=CdVGvbNvKU0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-10T04:31:55+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "d46afb1a350b1eecaf466f9b3adb1086",
       "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
       "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
@@ -1161,21 +1174,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "741b779e2c56ed269d0ee84c8c01805b",
-      "title": "Housing Market 2025 — Prices Stuck, Sales Crashing",
-      "url": "https://www.youtube.com/watch?v=CSiaTQCFAnY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-09-25T16:00:30+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2209bd0081ce234bd2d064198570efc4",
       "title": "LWiAI Podcast #221 - OpenAI Codex, Gemini in Chrome, K2-Think, SB 53",
       "url": "https://lastweekin.ai/p/lwiai-podcast-221-openai-codex-gemini",
@@ -1803,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-10T04:24:08.366761+00:00"
+  "generated_at": "2025-11-10T05:17:41.553264+00:00"
 }
