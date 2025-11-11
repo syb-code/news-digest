@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ebbc356237794225e667c3c5766a30de",
+      "title": "Ecosystem is the next big growth channel",
+      "url": "https://www.lennysnewsletter.com/p/ecosystem-is-the-next-big-growth",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-11T13:45:43+00:00",
+      "summary": "How to stand out in a noisy landscape",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5cb1c9babefd103569fcc630c97544a7",
       "title": "Ecosystem is the next big growth channel",
       "url": "https://www.lennysnewsletter.com/p/ecosystem-is-the-next-big-growth-a53",
@@ -919,21 +932,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8de2cbe7f3dc1df0189708e704e0a693",
-      "title": "Claude Skills explained: How to create reusable AI workflows",
-      "url": "https://www.lennysnewsletter.com/p/claude-skills-explained",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-22T11:03:37+00:00",
-      "summary": "Watch now | 🎙️ Claire Vo breaks down Anthropic’s new Claude Skills—what they are, how to build them, and how she uses Cursor and Claude Code to create reusable AI workflows in minutes",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "111862eff236c565d8afe3ec72d82bba",
       "title": "Avalanche of U.S. Dollar Selling In 2026 as Fed Cuts Rates | Jon Turek",
       "url": "https://www.youtube.com/watch?v=GI7tfeVepP8",
@@ -1803,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-11T13:28:13.992503+00:00"
+  "generated_at": "2025-11-11T14:16:41.174486+00:00"
 }
