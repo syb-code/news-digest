@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dc39de6f16505d6b0ec5085b5e562359",
+      "title": "With AI, What Should the Government's Role Be?",
+      "url": "https://www.youtube.com/watch?v=XNzDJjhoQkI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-11T00:22:51+00:00",
+      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "62bb508d3ef68ab108418381ad92ff0a",
       "title": "Falling Liquidity Creates Cash Shortage In Repo Markets | Michael Howell",
       "url": "https://www.youtube.com/watch?v=KtqFB9lsElk",
@@ -844,21 +859,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a8c7c055002fbcecce8aa6a301643209",
-      "title": "Why Electricity is AI's Biggest Problem",
-      "url": "https://www.youtube.com/watch?v=tbxjl7cQXPY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-24T00:12:51+00:00",
-      "summary": "AI’s growth is colliding head-on with America’s aging power grid. This episode dives into why electricity—not compute or data—is emerging as AI’s biggest bottleneck, driving costs, political backlash, and stalled data-center projects across the U.S. From surging energy prices to…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-10T23:15:46.857633+00:00"
+  "generated_at": "2025-11-11T01:17:13.138434+00:00"
 }
