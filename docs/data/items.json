@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "5cb1c9babefd103569fcc630c97544a7",
+      "title": "Ecosystem is the next big growth channel",
+      "url": "https://www.lennysnewsletter.com/p/ecosystem-is-the-next-big-growth-a53",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-11T10:01:45+00:00",
+      "summary": "How to stand out in a noisy landscape by leveraging partners who already have access and trust with your target audience",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "dc39de6f16505d6b0ec5085b5e562359",
       "title": "With AI, What Should the Government's Role Be?",
       "url": "https://www.youtube.com/watch?v=XNzDJjhoQkI",
@@ -963,21 +976,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "455686ef9a301a9dffc2eb09d43d197c",
-      "title": "How this Yelp AI PM works backward from “golden conversations” to create high-quality prototypes using Claude Artifacts and Magic Patterns | Priya Badger",
-      "url": "https://www.lennysnewsletter.com/p/how-this-yelp-ai-pm-works-backward",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-20T11:27:36+00:00",
-      "summary": "Watch now | 🎙️ Yelp's product manager on prototyping AI conversations with Claude, designing interfaces with Magic Patterns, and why starting with example dialogues creates better AI products",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "94c5d3c118447587384a43eb121b9e6c",
       "title": "Banks Point Fingers As Another Loan Deal Goes Bad",
       "url": "https://www.youtube.com/watch?v=_qBV76Bg8Jk",
@@ -1805,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-11T09:18:22.251497+00:00"
+  "generated_at": "2025-11-11T10:18:54.369175+00:00"
 }
