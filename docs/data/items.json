@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "965087de7aeaa57cac1e90570f644f98",
+      "title": "Lovable Boasts 8m Users: Long-Live Vibe Coding?",
+      "url": "https://www.youtube.com/watch?v=Wklrvo9bQWg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-12T13:19:11+00:00",
+      "summary": "Lovable grew to 8 million users and crossed $100M ARR while reporting 100% net dollar retention and pursuing a reported $5B funding round. Meta released Lingual, an open-source ASR that recognizes 1,600+ languages and can scale via zero-shot in-context learning to thousands more…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "f786cc97cf3f9587b4e756c07a223a82",
       "title": "The Open Source AI Model Beating GPT-5 on Agentic Performance",
       "url": "https://www.youtube.com/watch?v=fblzzgnhZo4",
@@ -854,21 +867,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6843be451223542b6b9a13969b5e0a29",
-      "title": "Meta Cuts 600 AI Roles",
-      "url": "https://www.youtube.com/watch?v=zRcypAoR7Gc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-25T15:36:06+00:00",
-      "summary": "Meta just cut 600 roles from its AI division in a push to “move faster,” marking its fifth major restructuring this year. The shake-up spotlights growing pressure to streamline Meta’s Super Intelligence Lab while rivals like OpenAI and Adobe double down on their own AI bets. Fro…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1801,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-12T12:35:02.720774+00:00"
+  "generated_at": "2025-11-12T13:30:35.966828+00:00"
 }
