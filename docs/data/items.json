@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f786cc97cf3f9587b4e756c07a223a82",
+      "title": "The Open Source AI Model Beating GPT-5 on Agentic Performance",
+      "url": "https://www.youtube.com/watch?v=fblzzgnhZo4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-12T00:23:06+00:00",
+      "summary": "China’s latest open-source model, Kimi K2 Thinking, has stunned the AI world—outperforming GPT-5 and Claude 4.5 on key benchmarks while running locally at a fraction of the cost. This episode of AI Daily Brief unpacks how Kimi’s release reignites the U.S.–China AI race, shifts m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "76f12c941810c52674f4e759a5f60a2f",
       "title": "Government Shutdown Resolved — BUT Another Crisis Hits in December & January",
       "url": "https://www.youtube.com/watch?v=cdt3n5yLj3o",
@@ -849,21 +864,6 @@
       "source_type": "youtube",
       "published": "2025-10-25T15:36:06+00:00",
       "summary": "Meta just cut 600 roles from its AI division in a push to “move faster,” marking its fifth major restructuring this year. The shake-up spotlights growing pressure to streamline Meta’s Super Intelligence Lab while rivals like OpenAI and Adobe double down on their own AI bets. Fro…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "63b0672fe11711615a0eb04532c78105",
-      "title": "AI Context Gets Some Major Upgrades",
-      "url": "https://www.youtube.com/watch?v=ZGOVzdxNrQg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-24T22:13:02+00:00",
-      "summary": "AI is getting smarter by remembering more. This episode breaks down major upgrades across Claude, OpenAI, and Microsoft—each racing to give their models better long-term memory, deeper business context, and shared collaboration tools. From Claude’s new memory buckets to OpenAI’s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-11T23:14:50.605454+00:00"
+  "generated_at": "2025-11-12T01:16:25.717903+00:00"
 }
