@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5f61fc6f187692e6b98c0449853cc9c0",
+      "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+      "url": "https://www.lennysnewsletter.com/p/how-50-people-built-a-profitable-ai-unicorn",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-13T13:31:58+00:00",
+      "summary": "How Gamma built a $100M ARR AI startup everyone said shouldn't exist",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9c050a516f2c447f912849d1255d0138",
       "title": "Nano Banana 2 is Coming. Is it Part of Gemini 3?",
       "url": "https://www.youtube.com/watch?v=jh200zwfpEc",
@@ -900,21 +915,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6012730bec10386b8e259f324970528a",
-      "title": "Al Engineering 101 with Chip Huyen (Nvidia, Stanford, Netflix)",
-      "url": "https://www.lennysnewsletter.com/p/al-engineering-101-with-chip-huyen",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-23T11:02:58+00:00",
-      "summary": "Chip Huyen on what improves AI apps: talking to users beats chasing models, why senior engineers gain most from AI, and why most AI failures aren't AI problems",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "875a15c877203870e5680fc3c02c11b3",
       "title": "Deep Learning Weekly: Issue 427",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-427",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-13T13:29:54.096456+00:00"
+  "generated_at": "2025-11-13T14:16:23.864338+00:00"
 }
