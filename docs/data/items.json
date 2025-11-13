@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "18d1e5009664c0b057919a24cc19ee0a",
+      "title": "Deep Learning Weekly: Issue 430",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-11-13T16:02:08+00:00",
+      "summary": "Kimi K2 Thinking, Nested Learning: A new ML paradigm for continual learning, a paper on SPICE: Self-Play In Corpus Environments Improves Reasoning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5d3545bd439a9b4dca1e18af79e95233",
+      "title": "Why Beating the Market Isn’t Enough for Investment Managers | Corey Hoffstein",
+      "url": "https://www.youtube.com/watch?v=znI5tYcoW6M",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-13T15:56:03+00:00",
+      "summary": "This Other People’s Money episode is brought you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nCorey Hoffstein, CEO and CIO of Newfound Research and co-founder and PM of Return Stacked ETFs, joins OPM to discuss his journey …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5f61fc6f187692e6b98c0449853cc9c0",
       "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
       "url": "https://www.lennysnewsletter.com/p/how-50-people-built-a-profitable-ai-unicorn",
@@ -985,23 +1013,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "94c5d3c118447587384a43eb121b9e6c",
-      "title": "Banks Point Fingers As Another Loan Deal Goes Bad",
-      "url": "https://www.youtube.com/watch?v=_qBV76Bg8Jk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-18T17:35:10+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack and Max break down the beginning of earnings season. Jack reviews a new credit flare-up in California’s commercial real esta…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f2c0e48d2b3b6ab5deb6994eb8cc49af",
       "title": "Last Week in AI #324: OpenAI Deals and DevDay, Haiku 4.5, Veo 3.1",
       "url": "https://lastweekin.ai/p/last-week-in-ai-324-openai-deals",
@@ -1758,21 +1769,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "848fd2b6efa99cfd257df1eb88c01f8b",
-      "title": "Deep Learning Weekly: Issue 410",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-410",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-06-26T15:01:29+00:00",
-      "summary": "ChatGPT's Impact On Our Brains, Midjourney's first image-to-video model, a paper on Self-Adapting Language Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dfddc0971eecc297587e3f534eb25d84",
       "title": "Ultimate Prompt Hacks for Lovable",
       "url": "https://designplusai.com/p/ultimate-prompt-hacks-for-lovable",
@@ -1799,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-13T15:18:54.497980+00:00"
+  "generated_at": "2025-11-13T16:23:16.162738+00:00"
 }
