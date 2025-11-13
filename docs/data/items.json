@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2b9d89945bd4d616f4fa26c2a09e1153",
+      "title": "Are World Models AI's Next Big Thing?",
+      "url": "https://www.youtube.com/watch?v=qo1ergUvK5U",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-13T16:54:21+00:00",
+      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "18d1e5009664c0b057919a24cc19ee0a",
       "title": "Deep Learning Weekly: Issue 430",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
@@ -809,21 +824,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d00cd1f37a19a8333d0f5cc216c1852a",
-      "title": "The Surprising Way AI Expands Markets Instead of Capturing Them",
-      "url": "https://www.youtube.com/watch?v=lBg9_4JiEFI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-28T00:00:07+00:00",
-      "summary": "AI music startup Suno has quietly become one of the most successful companies in the entire generative AI space — $150 million in ARR, 60% margins, and millions of users creating songs for everything from podcasts and ads to lullabies and dinner parties. In today’s episode, NLW …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-13T16:23:16.162738+00:00"
+  "generated_at": "2025-11-13T17:16:37.886844+00:00"
 }
