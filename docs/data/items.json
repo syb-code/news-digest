@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "63d20340141a386ff5e7b37b7357f4f5",
+      "title": "Apps vs Models: Who Wins AI?",
+      "url": "https://www.youtube.com/watch?v=q9gzesGntdg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-14T20:43:46+00:00",
+      "summary": "A debate centers on whether application-layer startups or foundation model providers will capture AI's value, with Cursor's $2.3B raise and Composer model as a test case. Rapid evolution of foundational models threatens to obsolete apps before they reach scale. Counterarguments …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5a209e4bbde75e0c4d825f92bc3ed881",
       "title": "10,000 on S&P 500 By 2027, Why Not? | Erik YWR",
       "url": "https://www.youtube.com/watch?v=uF2fJGOg3pA",
@@ -795,21 +810,6 @@
       "source_type": "rss",
       "published": "2025-10-29T15:02:31+00:00",
       "summary": "OpenAI completed its for-profit restructuring, OpenAI’s AI-powered browser is here, Google and Anthropic announce cloud deal worth tens of billions of dollars, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9734c009922543f883afcc7dc0fd5d70",
-      "title": "Where GenAI Spend is Already ROI Positive",
-      "url": "https://www.youtube.com/watch?v=PQ3mTd5ffm0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-29T00:29:46+00:00",
-      "summary": "While most companies are still trying to measure the impact of their AI deployments, a growing number are already seeing returns. In today’s AI Daily Brief, NLW looks at new data showing where GenAI is ROI-positive — from marketing and media generation to enterprise productivity…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-14T20:18:39.004079+00:00"
+  "generated_at": "2025-11-14T21:15:03.926860+00:00"
 }
