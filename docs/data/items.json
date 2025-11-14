@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5a209e4bbde75e0c4d825f92bc3ed881",
+      "title": "10,000 on S&P 500 By 2027, Why Not? | Erik YWR",
+      "url": "https://www.youtube.com/watch?v=uF2fJGOg3pA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-14T20:11:52+00:00",
+      "summary": "Erik YWR, global investor and author of the Your Weekend Reading Substack, joins Monetary Matters to make the case that the stock market is headed higher, and that investors are far too bearish. Erik argues that with corporate earnings growing at double digit levels, valuations …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3f4fe1419c8ede27bb33ec6531c526f1",
       "title": "The Plan to Turn Americans into Permanent Renters (50 Year Mortgage)",
       "url": "https://www.youtube.com/watch?v=zSw9Wbzn-Nc",
@@ -986,22 +1001,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "111862eff236c565d8afe3ec72d82bba",
-      "title": "Avalanche of U.S. Dollar Selling In 2026 as Fed Cuts Rates | Jon Turek",
-      "url": "https://www.youtube.com/watch?v=GI7tfeVepP8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-20T20:35:26+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJon Turek of JST Advisors explains why he thinks a decline in U.S. interest rates will make dollar hedging more attractive to for…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8f9db9129ae2101e9cb793b4b06a309d",
       "title": "The 60/40 Investing Rule is Dead — Here's What's Replacing It",
       "url": "https://www.youtube.com/watch?v=2avC4SFVJ-A",
@@ -1797,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-14T19:12:56.542269+00:00"
+  "generated_at": "2025-11-14T20:18:39.004079+00:00"
 }
