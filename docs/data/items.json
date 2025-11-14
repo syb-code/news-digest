@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "abb3b0a7ea1dcb7621fdbfb820506f4c",
+      "title": "6 Things GPT-5.1 Does Better",
+      "url": "https://www.youtube.com/watch?v=wWHeqYZJH5c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-14T00:56:01+00:00",
+      "summary": "OpenAI released GPT-5.1 with two modes: Instant for quick chat and Thinking for deeper problem solving. Major improvements include warmer conversational style, stronger instruction following, and adaptive thinking spending more time on complex tasks. Coverage focuses on communit…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2b9d89945bd4d616f4fa26c2a09e1153",
       "title": "Are World Models AI's Next Big Thing?",
       "url": "https://www.youtube.com/watch?v=qo1ergUvK5U",
@@ -783,21 +798,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "54981c54d2d5d64461150df0a9372e29",
-      "title": "Why Google's New Vibe Coding App is Actually Game Changing",
-      "url": "https://www.youtube.com/watch?v=tS76I3Bd5Q8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-28T13:43:26+00:00",
-      "summary": "Google’s new Vibe Coding experience might actually live up to the “game-changer” hype. This episode breaks down how Google AI Studio’s “prompt-to-production” system makes building AI-powered apps effortless — from adding chatbots to full voice agents in a click. Plus, we dive in…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-13T23:15:30.269895+00:00"
+  "generated_at": "2025-11-14T01:16:27.986210+00:00"
 }
