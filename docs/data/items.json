@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3f4fe1419c8ede27bb33ec6531c526f1",
+      "title": "The 50-Year Mortgage — You'll Own Nothing While Banks Profit",
+      "url": "https://www.youtube.com/watch?v=zSw9Wbzn-Nc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-14T17:01:51+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "abb3b0a7ea1dcb7621fdbfb820506f4c",
       "title": "6 Things GPT-5.1 Does Better",
       "url": "https://www.youtube.com/watch?v=wWHeqYZJH5c",
@@ -1155,19 +1170,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b2b8e7ba3390051196d686ee2e98f9cb",
-      "title": "Government Shutdown 2025 — What It Means for Your Money",
-      "url": "https://www.youtube.com/watch?v=ZstymTCQ7FE",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-10-02T14:30:23+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "2f7f1ed40c65585013676147c85d0e9b",
       "title": "Deep Learning Weekly: Issue 424",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
@@ -1795,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-14T16:20:45.389699+00:00"
+  "generated_at": "2025-11-14T17:14:23.319726+00:00"
 }
