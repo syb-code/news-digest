@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6fd26c04f1e18ec9ccf53e1877516a69",
+      "title": "🧠 Community Wisdom: Dealing with a manager who is a poor listener, crafting effective all-hands meetings, choosing a community platform for privacy-conscious users, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-dealing-with-a-manager",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-15T17:00:23+00:00",
+      "summary": "Community Wisdom 161",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "63d20340141a386ff5e7b37b7357f4f5",
       "title": "Apps vs Models: Who Wins AI?",
       "url": "https://www.youtube.com/watch?v=q9gzesGntdg",
@@ -930,19 +943,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8f8de81717bca97046382a63589936b0",
-      "title": "🧠 Community Wisdom: Diagnosing early-stage churn, automating cross-department release comms, paying for UserTesting.com, integrating prototypes into your product development process, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-diagnosing-early",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-26T02:13:14+00:00",
-      "summary": "Community Wisdom 258",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "df5c531be127fc32925cdf7e5f64b720",
       "title": "LWiAI Podcast #223 - Haiku 4.5, OpenAI DevDay, SB 243",
       "url": "https://lastweekin.ai/p/lwiai-podcast-223-haiku-45-openai",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-15T16:17:29.122446+00:00"
+  "generated_at": "2025-11-15T17:12:41.093575+00:00"
 }
