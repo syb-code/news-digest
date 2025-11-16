@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "805b4158e0f11b3fa9d1daf94baadd24",
+      "title": "The State of Real Estate Credit | Satish Mansukhani of Rithm Capital on Mortgages, CRE, and More",
+      "url": "https://www.youtube.com/watch?v=4VsX6Ut8Eg4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-16T21:23:06+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN:\nhttps://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nSatish Mansukhani, managing director at…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c0ad20914c512c78f5c89eba58005d44",
       "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
       "url": "https://www.lennysnewsletter.com/p/the-godmother-of-ai",
@@ -988,19 +1004,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "34275038b122336883bad89ce266b047",
-      "title": "Currency Maestro Reveals Why Dollar Set for Rough Patch | George Saravelos, Top FX Researcher at DB",
-      "url": "https://www.youtube.com/watch?v=3pF6mJe50uk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-22T12:15:45+00:00",
-      "summary": "George Saravelos, head of FX research at Deutsche Bank, joins Jack on Monetary Matters to go deep into the world of currency trading. Jack and George discuss central bank independence, emerging markets, carry positions, hedging, and more. George gives a clear and intelligent loo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8f9db9129ae2101e9cb793b4b06a309d",
       "title": "The 60/40 Investing Rule is Dead — Here's What's Replacing It",
       "url": "https://www.youtube.com/watch?v=2avC4SFVJ-A",
@@ -1796,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-16T21:13:26.935515+00:00"
+  "generated_at": "2025-11-16T22:14:29.326257+00:00"
 }
