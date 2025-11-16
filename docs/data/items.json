@@ -44,6 +44,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "75f91c21e47ddf4d86118150e79d1294",
+      "title": "The Agent Hacker Era Begins",
+      "url": "https://www.youtube.com/watch?v=AMwrBD2gRrk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-14T20:02:41+00:00",
+      "summary": "Anthropic detected an AI-enabled cyberespionage campaign that used Claude Code to automate infiltration of global targets. Autonomous agents performed most attack steps, exposing a new scale of cyber risk and prompting expanded detection and defense efforts. Industry responses a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3f4fe1419c8ede27bb33ec6531c526f1",
       "title": "The Plan to Turn Americans into Permanent Renters (50 Year Mortgage)",
       "url": "https://www.youtube.com/watch?v=zSw9Wbzn-Nc",
@@ -797,21 +812,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "07c407547867fa66a423dbd466f073cf",
-      "title": "AI Becomes the Layoff Scapegoat",
-      "url": "https://www.youtube.com/watch?v=hu8AutbGW7I",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-29T15:40:16+00:00",
-      "summary": "Amazon and Chegg are the latest companies to cite AI as a reason for major layoffs—but is artificial intelligence really to blame, or just a convenient scapegoat? Today’s episode breaks down Amazon’s 14,000-person reduction, Chegg’s 45% workforce cut, and the deeper debate aroun…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-16T11:12:00.459627+00:00"
+  "generated_at": "2025-11-16T12:29:45.390552+00:00"
 }
