@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "c0ad20914c512c78f5c89eba58005d44",
+      "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
+      "url": "https://www.lennysnewsletter.com/p/the-godmother-of-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-16T14:03:30+00:00",
+      "summary": "The \"Godmother of AI\" on why everyone has a role to play in AI's future",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "75f91c21e47ddf4d86118150e79d1294",
+      "title": "The Agent Hacker Era Begins",
+      "url": "https://www.youtube.com/watch?v=AMwrBD2gRrk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-16T14:00:06+00:00",
+      "summary": "Anthropic detected an AI-enabled cyberespionage campaign that used Claude Code to automate infiltration of global targets. Autonomous agents performed most attack steps, exposing a new scale of cyber risk and prompting expanded detection and defense efforts. Industry responses a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6fd26c04f1e18ec9ccf53e1877516a69",
       "title": "🧠 Community Wisdom: Dealing with a manager who is a poor listener, crafting effective all-hands meetings, choosing a community platform for privacy-conscious users, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-dealing-with-a-manager",
@@ -40,21 +70,6 @@
       "duration_sec": null,
       "themes": [
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "75f91c21e47ddf4d86118150e79d1294",
-      "title": "The Agent Hacker Era Begins",
-      "url": "https://www.youtube.com/watch?v=AMwrBD2gRrk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-14T20:02:41+00:00",
-      "summary": "Anthropic detected an AI-enabled cyberespionage campaign that used Claude Code to automate infiltration of global targets. Autonomous agents performed most attack steps, exposing a new scale of cyber risk and prompting expanded detection and defense efforts. Industry responses a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -928,21 +943,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ada2ba65e32db98ece14eff5e546c49a",
-      "title": "How Block is becoming the most AI-native enterprise in the world | Dhanji R. Prasanna",
-      "url": "https://www.lennysnewsletter.com/p/how-block-is-becoming-the-most-ai-native",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-26T11:02:54+00:00",
-      "summary": "Block's CTO on productivity gains from their internal AI agent Goose, why non-engineers are seeing the biggest productivity gains from AI, and why leaders must use AI tools daily",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "df5c531be127fc32925cdf7e5f64b720",
       "title": "LWiAI Podcast #223 - Haiku 4.5, OpenAI DevDay, SB 243",
       "url": "https://lastweekin.ai/p/lwiai-podcast-223-haiku-45-openai",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-16T13:21:21.818360+00:00"
+  "generated_at": "2025-11-16T14:13:36.730912+00:00"
 }
