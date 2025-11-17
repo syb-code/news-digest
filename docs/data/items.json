@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "ec0f1b5840e4abff13fa668697e586ca",
+      "title": "Anthropic's Monster Projections: Profitable by 2028?",
+      "url": "https://www.youtube.com/watch?v=3nT-8Rv-cbE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-17T00:56:31+00:00",
+      "summary": "Anthropic forecasts explosive growth and large profits, targeting $70 billion in revenue and $17 billion in positive cash flow by 2028. Market sentiment is volatile as big short positions and bank hedging plans collide with massive debt needs for AI infrastructure. Snap's $400 m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "805b4158e0f11b3fa9d1daf94baadd24",
       "title": "The State of Real Estate Credit | Satish Mansukhani of Rithm Capital on Mortgages, CRE, and More",
       "url": "https://www.youtube.com/watch?v=4VsX6Ut8Eg4",
@@ -798,22 +814,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1aef669d5acbf4d6d71abb33e6bbf0ca",
-      "title": "OpenAI is Now Officially a For-Profit Company",
-      "url": "https://www.youtube.com/watch?v=RQTRYorqpwk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-30T00:47:31+00:00",
-      "summary": "OpenAI has officially completed its for-profit conversion — a landmark moment reshaping the future of AI governance and commercialization. This episode breaks down the new corporate structure, the concessions negotiated with California and Delaware officials, and what it means f…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-16T23:14:33.946434+00:00"
+  "generated_at": "2025-11-17T01:17:30.502357+00:00"
 }
