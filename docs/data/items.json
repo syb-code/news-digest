@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "cd9ba4e43f5ebe820ee4ec34db4a4ed6",
+      "title": "“Nobody wanted to do this work”: How Emmy Award–winning filmmakers use AI to automate the tedious parts of documentaries",
+      "url": "https://www.lennysnewsletter.com/p/nobody-wanted-to-do-this-work-how",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-17T12:03:18+00:00",
+      "summary": "Listen now | 🎙️ How AI transformed Ken Burns' documentary team's production process",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec0f1b5840e4abff13fa668697e586ca",
       "title": "Anthropic's Monster Projections: Profitable by 2028?",
       "url": "https://www.youtube.com/watch?v=3nT-8Rv-cbE",
@@ -931,21 +946,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2f6b9768ebc36c951bc9315c1cc423a3",
-      "title": "“Cursor is a much better product manager than I ever was”: How this PM uses AI for PRDs, Jira tickets, and replying to coworkers | Dennis Yang (Chime)",
-      "url": "https://www.lennysnewsletter.com/p/cursor-is-a-much-better-product-manager",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-27T11:03:27+00:00",
-      "summary": "Listen now | 🎙️ How a principal product manager at Chime uses Cursor for every PM task—creating PRDs, pushing to Confluence, and managing Jira tickets—all without writing a single line of code",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "711167192a0cbda9658c9615d48dd6d8",
       "title": "Liquidity Is Finally Falling. Here’s What That Means for Markets | Michael Howell",
       "url": "https://www.youtube.com/watch?v=0zbknuIALD8",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-17T11:14:31.882973+00:00"
+  "generated_at": "2025-11-17T12:35:17.580018+00:00"
 }
