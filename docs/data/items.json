@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2b6d4ba160d6e36c00c81f4a4dfcf309",
+      "title": "This week on How I AI: How Emmy Award–winning filmmakers use AI to automate the tedious parts of documentaries",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-emmy-awardwinning",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-17T16:03:26+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cd9ba4e43f5ebe820ee4ec34db4a4ed6",
       "title": "“Nobody wanted to do this work”: How Emmy Award–winning filmmakers use AI to automate the tedious parts of documentaries",
       "url": "https://www.lennysnewsletter.com/p/nobody-wanted-to-do-this-work-how",
@@ -903,19 +918,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5787a0669840f2602dc1143fba1faa17",
-      "title": "A builder’s guide to living a long and healthy life",
-      "url": "https://www.lennysnewsletter.com/p/a-builders-guide-to-living-a-long-58b",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-28T09:30:37+00:00",
-      "summary": "For something a little different",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "ff5ac3983331bbe1db574f62f8765568",
       "title": "The Fed Is Turning Off the Money Tap 💧",
       "url": "https://www.youtube.com/shorts/JFy4asfKcno",
@@ -1799,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-17T15:18:54.957012+00:00"
+  "generated_at": "2025-11-17T16:22:23.566702+00:00"
 }
