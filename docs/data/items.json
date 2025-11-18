@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7925ddadb9b79735fb481aa7e2ee978f",
+      "title": "Gemini 3 Anticipation Reaches Fever Pitch",
+      "url": "https://www.youtube.com/watch?v=FO91u3McYcw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-18T01:03:11+00:00",
+      "summary": "Gemini 3 hype has consumed the AI community after Google and prominent figures teased an imminent model release. Berkshire Hathaway's roughly $4.9 billion Alphabet stake fueled investor debate over long-term tech exposure and AI leadership. Michael Burry's fund closure and Palan…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3a259956c735f8a1840dcf52a81154b5",
       "title": "$2,000 Stimulus Check Update — Trump Says \"Dividend Will Be Paid\"",
       "url": "https://www.youtube.com/watch?v=Xo6onlBKFL8",
@@ -787,21 +802,6 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "28e5f69d5b80cf74b373fcf014c584f5",
-      "title": "Why OpenAI's $1 Trillion IPO Can't Come Soon Enough",
-      "url": "https://www.youtube.com/watch?v=3-BEnZCHrvI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-10-31T00:04:06+00:00",
-      "summary": "OpenAI is reportedly preparing for a historic $1 trillion IPO — a move that could reshape both AI and public markets. This episode breaks down why the timing matters, how OpenAI’s capital burn and partnerships with SoftBank and global funds make the IPO inevitable, and what it m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-17T23:15:05.427366+00:00"
+  "generated_at": "2025-11-18T01:16:24.480122+00:00"
 }
