@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4e094608d90761a3f9493d1cfd1f6975",
+      "title": "Gemini 3 Launches! Here's Everything You Need to Know",
+      "url": "https://www.youtube.com/watch?v=TPC1NLdZhDU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-18T20:45:41+00:00",
+      "summary": "Google’s Gemini 3 has officially landed, sparking a massive wave of hype, skepticism, and early testing insights across the AI world. This episode breaks down the stakes for Google, OpenAI, and Anthropic, the wild benchmark jumps, and the debut of Anti-Gravity—Google’s new agent…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "26e55dbff58b08766a5bca201d966556",
       "title": "The AI Scientist That Does 6 Months of Work in a Day",
       "url": "https://www.youtube.com/watch?v=cIpnxYZSAZs",
@@ -653,21 +668,6 @@
       "source_type": "rss",
       "published": "2025-11-04T10:01:32+00:00",
       "summary": "Tips for taking full advantage of the 17+ free premium products you have access to as a paid subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "201fb7bc8efee397731efdb23a6af5b6",
-      "title": "RIP Vibe Coding. Feb 2025-Oct 2025.",
-      "url": "https://www.youtube.com/watch?v=JF70OiDo-QQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-03T23:53:31+00:00",
-      "summary": "With NLW currently on the road, he's joined in this conversation by Sean “Swyx” Wang — developer, writer, Latent Space host and newly joined member of Cognition. They explore how AI coding became 2025’s defining story, why “vibe coding” is ending (sort of), what comes next for d…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-18T20:19:28.300516+00:00"
+  "generated_at": "2025-11-18T22:16:15.353465+00:00"
 }
