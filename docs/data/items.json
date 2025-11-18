@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "41dc1dc562447c1b6527b696f7667b84",
+      "title": "Harnessing the Hidden Alpha in Fundamental Investing | David Stemerman CenterBook Partners",
+      "url": "https://www.youtube.com/watch?v=Li2hamW9qbk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-18T14:00:49+00:00",
+      "summary": "This Other People’s Money episode is brought you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nFundamental long-short equity investing has been in decline with fewer new fund launches and dwindling assets, but David Stemerma…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7925ddadb9b79735fb481aa7e2ee978f",
       "title": "Gemini 3 Anticipation Reaches Fever Pitch",
       "url": "https://www.youtube.com/watch?v=FO91u3McYcw",
@@ -659,19 +674,6 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "711167192a0cbda9658c9615d48dd6d8",
-      "title": "Liquidity Is Finally Falling. Here’s What That Means for Markets | Michael Howell",
-      "url": "https://www.youtube.com/watch?v=0zbknuIALD8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-26T23:03:25+00:00",
-      "summary": "Monetary Matters listeners can learn more about Capital Wars here (offer expired November 12th): https://capitalwars.substack.com/MonetaryMatters\n\nMichael Howell of GL Indexes and the Capital Wars Substack returns to Monetary Matters with alarming news. His readings of liquidity…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1515,5 +1517,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-18T13:29:09.600909+00:00"
+  "generated_at": "2025-11-18T14:16:57.296120+00:00"
 }
