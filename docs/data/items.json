@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "54560204690f8584e92a64cf6376f13b",
+      "title": "Housing Market Crash Fears Rise — Foreclosures Up 20% and Climbing",
+      "url": "https://www.youtube.com/watch?v=WVfWrObOyRc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-19T18:30:41+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "83967139cbb788661e5ef377641df6ac",
       "title": "Deep Learning Weekly: Issue 431",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-431",
@@ -1161,21 +1176,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c3c92170fb1d94d43c579feb3391f265",
-      "title": "Jobs Report — Biggest Job Loss in Years, Fed Forced to Cut Rates",
-      "url": "https://www.youtube.com/watch?v=3sCckDU4irs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-10-06T16:00:11+00:00",
-      "summary": "📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOCKS: https://a.webull.com/i/ClearValueTax\nReceive FREE STOCKS (as a sign-up bonus) w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ec553e718da54193840280ba7c899f1e",
       "title": "Last Week in AI #323 - Sonnet 4.5, Sora 2, Vibes, SB 53",
       "url": "https://lastweekin.ai/p/last-week-in-ai-323-sonnet-45-sora",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-19T18:24:18.183489+00:00"
+  "generated_at": "2025-11-19T19:13:37.205579+00:00"
 }
