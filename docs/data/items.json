@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "83967139cbb788661e5ef377641df6ac",
+      "title": "Deep Learning Weekly: Issue 431",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-431",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-11-19T16:31:36+00:00",
+      "summary": "Gemini 3, The Definitive Guide to Agentic AI, a paper on Depth Anything 3: Recovering the Visual Space from Any Views, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d657f8fdadfd5a52d650c8bb2265f399",
       "title": "“Farm-to-table software”: How I built a Thanksgiving party hub using Lovable for managing invites, dishes, shared recipes, and photos",
       "url": "https://www.lennysnewsletter.com/p/farm-to-table-software-how-i-built",
@@ -1736,21 +1751,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6ca9213185962ff9f22521c38b56041e",
-      "title": "Deep Learning Weekly: Issue 411",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-411",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-07-02T15:02:43+00:00",
-      "summary": "AlphaGenome: AI for better understanding the genome, TPU Deep Dive, a paper on OmniGen2: Exploration to Advanced Multimodal Generation, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "11c8993bc3b5797e6e888a38f1bb123c",
       "title": "Prompt hacks to 10x your design (Part 2)",
       "url": "https://designplusai.com/p/prompt-hacks-to-10x-your-design-part",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-19T16:22:03.906177+00:00"
+  "generated_at": "2025-11-19T17:15:52.146159+00:00"
 }
