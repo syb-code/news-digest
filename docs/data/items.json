@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "d657f8fdadfd5a52d650c8bb2265f399",
+      "title": "“Farm-to-table software”: How I built a Thanksgiving party hub using Lovable for managing invites, dishes, shared recipes, and photos",
+      "url": "https://www.lennysnewsletter.com/p/farm-to-table-software-how-i-built",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-19T13:03:41+00:00",
+      "summary": "Watch now | 🎙️ I share my personal tips for using Lovable to vibe code a party hub for hosting, how to uplevel designs with Google Fonts and Midjourney, and my favorite ChatGPT recipe hack for cooking with kids",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "4e094608d90761a3f9493d1cfd1f6975",
       "title": "Gemini 3 Launches! Here's Everything You Need to Know",
       "url": "https://www.youtube.com/watch?v=TPC1NLdZhDU",
@@ -785,21 +798,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "01e8891994330b3a1095168aa082ac46",
-      "title": "Vibe-coding a kid-friendly AI fortune teller for your Halloween festivities | Marco Casalaina (Microsoft VP)",
-      "url": "https://www.lennysnewsletter.com/p/vibe-coding-a-kid-friendly-ai-fortune",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-31T21:00:18+00:00",
-      "summary": "Watch now | 🎙️ Learn how to quickly build a mobile fortune teller app using GitHub Spark that generates kid-friendly, humorous predictions perfect for neighborhood Halloween festivities",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-19T12:35:27.553102+00:00"
+  "generated_at": "2025-11-19T13:29:13.358144+00:00"
 }
