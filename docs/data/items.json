@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bb531ed0b08e01e392b72357dea4c102",
+      "title": "AI Is Hiding A Weak Economy, Argues Lyn Alden",
+      "url": "https://www.youtube.com/watch?v=TjNpAH6gYws",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-19T23:19:09+00:00",
+      "summary": "Learn more about the VanEck Rare Earth and Strategic Metals ETF: www.vaneck.com/REMXJack\n\nIn a change of pace, Lyn Alden of Lyn Alden Investment Strategy returns to Monetary Matters not to talk macro, but to discuss in-depth her views on AI capital expenditures that are driving …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "54560204690f8584e92a64cf6376f13b",
       "title": "Housing Market Crash Fears Rise — Foreclosures Up 20% and Climbing",
       "url": "https://www.youtube.com/watch?v=WVfWrObOyRc",
@@ -963,21 +978,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ff5ac3983331bbe1db574f62f8765568",
-      "title": "The Fed Is Turning Off the Money Tap 💧",
-      "url": "https://www.youtube.com/shorts/JFy4asfKcno",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-27T16:10:05+00:00",
-      "summary": "Michael Howell of GL Indexes joins Jack Farley on Monetary Matters to break down the growing signs of a tightening liquidity crisis in U.S. financial markets.\n\nAs the Federal Reserve acts as the global overseer of liquidity, every shift in policy — including turning off the “mon…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "00113f46e9f806abd4fe328d731e332c",
       "title": "The Fed Will Print Trillions — What That Means for Home Prices",
       "url": "https://www.youtube.com/watch?v=_yunaXHj-jU",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-19T23:15:47.424799+00:00"
+  "generated_at": "2025-11-20T01:14:50.621147+00:00"
 }
