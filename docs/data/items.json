@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ce9a27610d472b32549b0dba6f7a2d44",
+      "title": "AI Winners and Losers After Gemini 3",
+      "url": "https://www.youtube.com/watch?v=wlBMcCl2WVk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-20T02:04:36+00:00",
+      "summary": "Gemini 3's launch raises urgent questions about real-world performance versus benchmark claims. A multibillion-dollar partnership among Nvidia, Microsoft, and Anthropic reshapes cloud, compute, and funding dynamics. \nWinners include AI market bulls, consumer-facing \"vibecoders\",…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bb531ed0b08e01e392b72357dea4c102",
       "title": "AI Is Hiding A Weak Economy, Argues Lyn Alden",
       "url": "https://www.youtube.com/watch?v=TjNpAH6gYws",
@@ -607,21 +622,6 @@
       "source_type": "youtube",
       "published": "2025-11-06T18:58:16+00:00",
       "summary": "As AI reshapes white-collar industries, consulting stands out as a prime example of how disruption unfolds in practice. This episode breaks down the forces transforming professional services—from automation and cost compression to brand trust, new AI-native challengers, and the …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1d01ae0341df8650e0d496286ec58621",
-      "title": "Is OpenAI Too Big to Fail?",
-      "url": "https://www.youtube.com/watch?v=lWc3mM9sHXQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-05T23:50:51+00:00",
-      "summary": "OpenAI just signed a $38 billion deal with Amazon, deepening its network of mega-partnerships across Big Tech and reigniting debate over whether it’s now too big to fail. This episode breaks down the details of the Amazon-OpenAI alliance, Sam Altman’s fiery response to investors…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-20T01:14:50.621147+00:00"
+  "generated_at": "2025-11-20T03:07:03.134385+00:00"
 }
