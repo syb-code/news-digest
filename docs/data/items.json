@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9fed604aecb55e108207dcfeb2e18e31",
+      "title": "Bezos is Back to Build AI",
+      "url": "https://www.youtube.com/watch?v=N4GkrD6aVaA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-20T19:38:46+00:00",
+      "summary": "Jeff Bezos is officially back, launching Project Prometheus, a massively funded AI venture aimed at applying artificial intelligence to physical industries like manufacturing, engineering, and even space. It also breaks down xAI’s Grok 4.1 upgrade, which brings significant jumps…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0c95aaac21e4e50d759e9471a16f623e",
       "title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
       "url": "https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield",
@@ -624,21 +639,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "31b3ab5ebb0af5e10a2d9d647bfa2d42",
-      "title": "Why Consulting is a Perfect Case Study for AI Disruption",
-      "url": "https://www.youtube.com/watch?v=9osIWH69P_4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-06T18:58:16+00:00",
-      "summary": "As AI reshapes white-collar industries, consulting stands out as a prime example of how disruption unfolds in practice. This episode breaks down the forces transforming professional services—from automation and cost compression to brand trust, new AI-native challengers, and the …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-20T19:13:06.683829+00:00"
+  "generated_at": "2025-11-20T20:19:11.035237+00:00"
 }
