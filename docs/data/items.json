@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "989d16a813bbb88571d7cd29954aad91",
+      "title": "Is The AI Bubble Popping?",
+      "url": "https://www.youtube.com/watch?v=bqfn2U_CrRQ",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-21T22:32:05+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nAs investors’ outlook on AI capital expenditure sours, Jack and Max explore the rising debt issuance to fund artificial intelligen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2a933d73b249038d69857a858b562b6b",
       "title": "The Fed Is Conflicted — Markets Are Losing Confidence (Bitcoin • Stocks • Gold • Silver)",
       "url": "https://www.youtube.com/watch?v=c-zKIMsPtks",
@@ -982,19 +997,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6eece0c798b2f78dca9298ba516ff6b6",
-      "title": "Top Performing Hedge Fund Manager Says Credit Concern is Overblown | Derek Pilecki",
-      "url": "https://www.youtube.com/watch?v=ILAI4xBmCPQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-28T18:00:35+00:00",
-      "summary": "Derek Pilecki’s hedge fund Gator Capital has outperformed the S&P 500, compounding at over 22% since inception while focusing exclusively on financial sector stocks. In this interview Derek discusses why he thinks recent concern in the financial sector is overblown, how he has g…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "00113f46e9f806abd4fe328d731e332c",
       "title": "The Fed Will Print Trillions — What That Means for Home Prices",
       "url": "https://www.youtube.com/watch?v=_yunaXHj-jU",
@@ -1807,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-21T22:16:03.400375+00:00"
+  "generated_at": "2025-11-21T23:14:59.944196+00:00"
 }
