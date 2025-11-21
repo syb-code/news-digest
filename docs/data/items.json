@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "b794a4f3b9f080b8648be24019bbf3a3",
+      "title": "Nvidia's Blowout Earnings Pops the AI Bubble Bubble",
+      "url": "https://www.youtube.com/watch?v=ouaqfgp-elU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-21T16:08:26+00:00",
+      "summary": "Nvidia reported blowout results and framed three platform shifts: GPU-accelerated computing, generative AI transforming applications, and the emergence of agentic and physical AI. U.S. approval of advanced AI chip sales to Middle Eastern firms and a proposed federal \"Genesis\" AI…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "641d9a1bc44bbdd68342a855e8fd148f",
       "title": "More New AI Models! OpenAI Drops 5.1 Pro and Codex Pro",
       "url": "https://www.youtube.com/watch?v=1hI1Pi11Uzo",
@@ -507,21 +524,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dc39de6f16505d6b0ec5085b5e562359",
-      "title": "With AI, What Should the Government's Role Be?",
-      "url": "https://www.youtube.com/watch?v=XNzDJjhoQkI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-11T00:22:51+00:00",
-      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-21T15:15:27.425992+00:00"
+  "generated_at": "2025-11-21T16:20:47.615982+00:00"
 }
