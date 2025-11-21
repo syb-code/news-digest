@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "2a933d73b249038d69857a858b562b6b",
+      "title": "The Fed Is Conflicted — Markets Are Losing Confidence (Bitcoin • Stocks • Gold • Silver)",
+      "url": "https://www.youtube.com/watch?v=c-zKIMsPtks",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-21T18:00:44+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Crypto",
+        "Macro/Fed",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b794a4f3b9f080b8648be24019bbf3a3",
       "title": "Nvidia's Blowout Earnings Pops the AI Bubble Bubble",
       "url": "https://www.youtube.com/watch?v=ouaqfgp-elU",
@@ -1133,19 +1150,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "38af3ae386f0c034f817dd466ba3a6d0",
-      "title": "Debasement Trade — The Hottest Investing Trend (My Advice)",
-      "url": "https://www.youtube.com/watch?v=C6AVe-Hm8Ew",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-10-09T20:34:30+00:00",
-      "summary": "Join our investing community on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book is Now on Amazon (How to Build Wealth More Effectively)\nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE S…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9cb4cb5fc11c2968d9046332cf28fb7",
       "title": "Deep Learning Weekly: Issue 425",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-425",
@@ -1803,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-21T17:14:42.375164+00:00"
+  "generated_at": "2025-11-21T18:22:45.455921+00:00"
 }
