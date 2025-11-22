@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b76e968089bd1bc3a9a0ef58d54c014f",
+      "title": "25 Things Nano Banana Pro Does That AI Couldn't Before",
+      "url": "https://www.youtube.com/watch?v=8_yeRvhn5r4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-22T00:12:21+00:00",
+      "summary": "Today’s AI Daily Brief breaks down the stunning leap unlocked by Google’s Nano Banana Pro image model, which isn’t just an upgrade but a wholesale expansion of what’s possible with AI image generation. From real text rendering to accurate charts, whiteboard-style compression of …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "989d16a813bbb88571d7cd29954aad91",
       "title": "Is The AI Bubble Popping?",
       "url": "https://www.youtube.com/watch?v=bqfn2U_CrRQ",
@@ -502,21 +517,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f786cc97cf3f9587b4e756c07a223a82",
-      "title": "The Open Source AI Model Beating GPT-5 on Agentic Performance",
-      "url": "https://www.youtube.com/watch?v=fblzzgnhZo4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-12T00:23:06+00:00",
-      "summary": "China’s latest open-source model, Kimi K2 Thinking, has stunned the AI world—outperforming GPT-5 and Claude 4.5 on key benchmarks while running locally at a fraction of the cost. This episode of AI Daily Brief unpacks how Kimi’s release reignites the U.S.–China AI race, shifts m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-21T23:14:59.944196+00:00"
+  "generated_at": "2025-11-22T01:13:07.530663+00:00"
 }
