@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1eb4b7ad1d9f7ece181ff9d01f8c35e0",
+      "title": "LWiAI Podcast #225 - GPT 5.1, Kimi K2 Thinking, Remote Labor Index",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-225-gpt-51-kimi-k2",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-22T08:27:26+00:00",
+      "summary": "OpenAI says the brand-new GPT-5.1 is ‘warmer’, Baidu Unveils ERNIE 5.0, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b76e968089bd1bc3a9a0ef58d54c014f",
       "title": "25 Things Nano Banana Pro Does That AI Couldn't Before",
       "url": "https://www.youtube.com/watch?v=8_yeRvhn5r4",
@@ -1673,21 +1688,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fd2ec293710cc0e2a851de85cb266916",
-      "title": "LWiAI Podcast #216 - Grok 4, Project Rainier, Kimi K2",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-216-grok-4-project",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-14T14:36:16+00:00",
-      "summary": "Elon Musk's xAI launches Grok 4 alongside a $300 monthly subscription, Amazon built a massive AI supercluster for Anthropic called Project Rainier, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ce370ceabce816e8bfe3c48d076ba51c",
       "title": "Mastering Lovable Playbook",
       "url": "https://designplusai.com/p/mastering-lovable-playbook",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-22T08:20:02.661764+00:00"
+  "generated_at": "2025-11-22T09:15:37.044246+00:00"
 }
