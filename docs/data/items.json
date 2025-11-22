@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "01587e826c13674106a36335e6f9744b",
+      "title": "🧠 Community Wisdom: Resurrecting churned users, doing performance reviews for 50 people, getting users to give you product feedback, managing a large backlog effectively, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-resurrecting-churned",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-22T19:37:41+00:00",
+      "summary": "Community Wisdom 162",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "1eb4b7ad1d9f7ece181ff9d01f8c35e0",
       "title": "LWiAI Podcast #225 - GPT 5.1, Kimi K2 Thinking, Remote Labor Index",
       "url": "https://lastweekin.ai/p/lwiai-podcast-225-gpt-51-kimi-k2",
@@ -851,19 +864,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d11247864e9ea03d2e4d1d508f922d9e",
-      "title": "The woman behind Canva shares how she built a $42B company from nothing | Melanie Perkins",
-      "url": "https://www.lennysnewsletter.com/p/the-making-of-canva",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-02T13:31:30+00:00",
-      "summary": "Canva's CEO and co-founder on column B thinking, surviving a 2-year code rewrite, and her mission to meet everyone's basic human needs by 2050.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-22T19:11:56.864314+00:00"
+  "generated_at": "2025-11-22T20:17:10.167002+00:00"
 }
