@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f1fe015de32a186544cacd17a7718784",
+      "title": "The AI Trade Is Shifting: Why Investors Must \"Avoid The Middle\" | Dan Krausz",
+      "url": "https://www.youtube.com/watch?v=d-jbOHkJOPk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-23T19:39:15+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nDan Krausz of Blue Door Asset Management joins Monetary Matters to argue that the global economy is currently driven by two domin…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bd8d4b16e9c9a5217df986fc1192bba3",
       "title": "Everyone is a builder now",
       "url": "https://designplusai.com/p/everyone-is-a-builder-now",
@@ -978,21 +993,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bb47318417c5c50486f4f93f61e0c407",
-      "title": "Money Market Stress Is Here. Why Joseph Wang Thinks Fed Will Have To Start Expanding Balance Sheet",
-      "url": "https://www.youtube.com/watch?v=QZFR5zMljxk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-30T00:45:29+00:00",
-      "summary": "Joseph Wang, former senior trader for the New York Fed and author at FedGuy.com returns to Monetary Matters at a critical juncture to break down the October Fed meeting and the Fed's decision to stop reducing its balance sheet on December 1st and thereby end QT (Quantitative Tig…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a7b8b92417f51aad68df0f98c6e39eba",
       "title": "The Fed Just Confirmed the Money Printing Pivot!",
       "url": "https://www.youtube.com/watch?v=2oM1qW3hpNI",
@@ -1807,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-23T19:12:24.857446+00:00"
+  "generated_at": "2025-11-23T20:18:00.816778+00:00"
 }
