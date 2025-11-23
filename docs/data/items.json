@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "bd8d4b16e9c9a5217df986fc1192bba3",
+      "title": "Everyone is a builder now",
+      "url": "https://designplusai.com/p/everyone-is-a-builder-now",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-23T13:54:06+00:00",
+      "summary": "Something different is happening in software teams right now.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "cb6d018702017c10a2771ba2882e5534",
       "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
       "url": "https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations",
@@ -1792,20 +1805,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "56166127a7e1bb351cc9585f3d7f3c99",
-      "title": "Ignore the noise, think long-term",
-      "url": "https://designplusai.com/p/ignore-the-noise-think-long-term",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-23T13:24:00+00:00",
-      "summary": "Stop obsessing over perfection.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-23T13:20:45.064219+00:00"
+  "generated_at": "2025-11-23T14:13:46.623369+00:00"
 }
