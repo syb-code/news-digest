@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "be1e6ea2d7db1faf48385b672ccbb4e7",
+      "title": "How to create your own AI performance coach: Optimizing your unique nutrition, recovery, and injury management needs | Lucas Werthein (Cactus)",
+      "url": "https://www.lennysnewsletter.com/p/how-to-create-your-own-ai-performance-coach",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-24T12:03:47+00:00",
+      "summary": "Watch now | 🎙️ Cactus’s Head of Technology on using AI to synthesize health data, how he optimized his performance after multiple surgeries, and why AI health coaches will transform health care",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f1fe015de32a186544cacd17a7718784",
       "title": "The AI Trade Is Shifting: Why Investors Must \"Avoid The Middle\" | Dan Krausz",
       "url": "https://www.youtube.com/watch?v=d-jbOHkJOPk",
@@ -860,21 +875,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a682b7a89d8fcde490bbc333236f1397",
-      "title": "This week on How I AI: “Vibe analysis” with Faire + vibe coding a kid-friendly AI fortune teller",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-vibe-analysis",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-03T16:02:41+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1807,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-24T11:14:58.824899+00:00"
+  "generated_at": "2025-11-24T12:35:24.740063+00:00"
 }
