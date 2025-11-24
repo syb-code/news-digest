@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "9fb11cf6e75e71b346c211bf13dc6990",
+      "title": "This week on How I AI: How to create your own AI performance coach & “Farm-to-table software”",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-create",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-24T16:02:50+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "fa6b810fb8369092b5798941c032ff83",
+      "title": "First Brands Group’s $12 Billion Bankruptcy Has Panicked Many (Here’s Why) | The FT's Robert Smith",
+      "url": "https://www.youtube.com/watch?v=kBucYLGKB0w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-24T15:39:35+00:00",
+      "summary": "Robert Smith, Corporate Finance Editor at the FT, joins Jack to discuss the recent $12 billion bankruptcy of First Brands Group that has shocked the financial world. He explains the history of First Brands, its collapse, and the company’s ongoing bankruptcy proceedings. Robert a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "be1e6ea2d7db1faf48385b672ccbb4e7",
       "title": "How to create your own AI performance coach: Optimizing your unique nutrition, recovery, and injury management needs | Lucas Werthein (Cactus)",
       "url": "https://www.lennysnewsletter.com/p/how-to-create-your-own-ai-performance-coach",
@@ -850,21 +880,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b5b0f1f2cb5da73a4c55caf5894c08e5",
-      "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
-      "url": "https://www.lennysnewsletter.com/p/part-2-of-how-to-get-the-most-out-d02",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-04T10:01:32+00:00",
-      "summary": "Tips for taking full advantage of the 17+ free premium products you have access to as a paid subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0c9f2295b65d33308fbbd7720bbdadb7",
       "title": "America's $38 Trillion Debt Crisis — It's Spiraling Out of Control",
       "url": "https://www.youtube.com/watch?v=C2tMd1VAh4Q",
@@ -977,19 +992,6 @@
         "Crypto",
         "Tech/Earnings"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "92ebe973c6dbbd47717bc2174a51c95e",
-      "title": "Bad News for Financial Assets in 2026?",
-      "url": "https://www.youtube.com/shorts/7JzWDTAcY5M",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-30T01:17:49+00:00",
-      "summary": "On Monetary Matters, Michael Howell of GL Indexes shares a sobering market outlook with Jack Farley — warning that the data points to a tough year ahead for financial assets.\n\nWhile he hopes to be proven wrong, current indicators suggest investors should prepare for a challengin…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1807,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-24T15:19:21.338812+00:00"
+  "generated_at": "2025-11-24T16:19:02.981112+00:00"
 }
