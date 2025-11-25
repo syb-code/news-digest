@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "426b4d67ae0b8e803fa52428dcd6d0f9",
+      "title": "Venture Capital’s Collision with Public Markets, the Dry Powder Bubble, and VC Metrics that Lie",
+      "url": "https://www.youtube.com/watch?v=O-i41_kdS_Q",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-25T21:01:51+00:00",
+      "summary": "This Other People’s Money episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nJames Wang, Genera…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b1c4183371bb149e66750c34ce40e6cd",
       "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
       "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
@@ -998,23 +1013,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "001c9367815a0305e976528371fa685d",
-      "title": "This Is How Smart Investors Hedge Against Inflation",
-      "url": "https://www.youtube.com/shorts/h31V50btgp4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-30T12:45:06+00:00",
-      "summary": "On Monetary Matters, Michael Howell of GL Indexes breaks down his top picks for hedging against monetary inflation. From precious metals and large-cap equities to prime real estate — and even Bitcoin — Howell explains how each asset plays a role in protecting your portfolio when…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a7b8b92417f51aad68df0f98c6e39eba",
       "title": "The Fed Just Confirmed the Money Printing Pivot!",
       "url": "https://www.youtube.com/watch?v=2oM1qW3hpNI",
@@ -1814,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-25T20:18:56.473534+00:00"
+  "generated_at": "2025-11-25T21:15:18.812471+00:00"
 }
