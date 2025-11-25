@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "802ee8e2a7b50d4c1239edd9581573b1",
+      "title": "Why the AI Bubble Conversation is Useless",
+      "url": "https://www.youtube.com/watch?v=yjjVnmpvtVM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-25T00:14:01+00:00",
+      "summary": "The AI bubble debate is mainly a market discussion with limited relevance for operators and end-users. Sentiment is concentrated in a few big companies, macroeconomic pressures stem from weak consumer finances and tight Fed policies, and unprecedented multi-year capital expendit…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9fb11cf6e75e71b346c211bf13dc6990",
       "title": "This week on How I AI: How to create your own AI performance coach & “Farm-to-table software”",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-create",
@@ -618,19 +634,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "965087de7aeaa57cac1e90570f644f98",
-      "title": "Lovable Boasts 8m Users: Long-Live Vibe Coding?",
-      "url": "https://www.youtube.com/watch?v=Wklrvo9bQWg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-12T13:19:11+00:00",
-      "summary": "Lovable grew to 8 million users and crossed $100M ARR while reporting 100% net dollar retention and pursuing a reported $5B funding round. Meta released Lingual, an open-source ASR that recognizes 1,600+ languages and can scale via zero-shot in-context learning to thousands more…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1809,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-24T23:15:48.160135+00:00"
+  "generated_at": "2025-11-25T01:16:38.937100+00:00"
 }
