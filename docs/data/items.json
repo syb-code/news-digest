@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "b1c4183371bb149e66750c34ce40e6cd",
+      "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-25T19:21:47+00:00",
+      "summary": "It's a big week! Lots of exciting releases, plus nvidia earnings and a whole bunch of cool research.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9388eb2afa80bfa0c19c19df05f52010",
       "title": "AI Executive Order Gets Paused",
       "url": "https://www.youtube.com/watch?v=GRZ78RkHySE",
@@ -1634,21 +1650,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cc4005031222cd161d342bed3ddb130d",
-      "title": "Last Week in AI #316 - ChatGPT Agent, AI IMO gold, $200 million from DoD",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-316-chatgpt-agent",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-22T20:41:03+00:00",
-      "summary": "OpenAI’s new ChatGPT Agent can control an entire computer and do tasks for you, Google and OpenAI A.I. Systems Win Gold In International Math Olympiad, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1813,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-25T19:14:07.793594+00:00"
+  "generated_at": "2025-11-25T20:18:56.473534+00:00"
 }
