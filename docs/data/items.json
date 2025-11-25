@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "9388eb2afa80bfa0c19c19df05f52010",
+      "title": "AI Executive Order Gets Paused",
+      "url": "https://www.youtube.com/watch?v=GRZ78RkHySE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-25T13:38:16+00:00",
+      "summary": "The White House pauses a proposed AI executive order after Republican pushback highlights a battle over federal preemption of state AI rules and an emerging political shift ahead of the midterms. Insurers are seeking to exclude AI risk amid growing litigation and fears about opa…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "802ee8e2a7b50d4c1239edd9581573b1",
       "title": "Why the AI Bubble Conversation is Useless",
       "url": "https://www.youtube.com/watch?v=yjjVnmpvtVM",
@@ -614,21 +630,6 @@
       "source_type": "rss",
       "published": "2025-11-13T13:31:58+00:00",
       "summary": "How Gamma built a $100M ARR AI startup everyone said shouldn't exist",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9c050a516f2c447f912849d1255d0138",
-      "title": "Nano Banana 2 is Coming. Is it Part of Gemini 3?",
-      "url": "https://www.youtube.com/watch?v=jh200zwfpEc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-12T18:27:41+00:00",
-      "summary": "Nano Banana 2 leak showcased photorealistic, highly steerable image generation with vastly improved text rendering and an iterative visual-reasoning workflow. AI stocks pulled back as the Nasdaq fell roughly 3%, fueling profit-taking, valuation concerns, and broader macro scruti…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-25T13:31:28.612512+00:00"
+  "generated_at": "2025-11-25T14:17:05.988096+00:00"
 }
