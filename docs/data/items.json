@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "56bd1bcbf88daf16b6ea807a215acf08",
+      "title": "Deep Learning Weekly: Issue 432",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-432",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-11-26T18:01:52+00:00",
+      "summary": "Claude Opus 4.5, Continuous batching from first principles, HunyuanOCR Technical Report, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "fbea3f8cd98dabab17859e6c29e74611",
       "title": "Why Claude Opus 4.5 Changes What's Possible with Vibe Coding",
       "url": "https://www.youtube.com/watch?v=wvoNi4lR2rg",
@@ -1719,21 +1732,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f4a6c24893bb1911c21ee4477f8026f9",
-      "title": "Deep Learning Weekly: Issue 412",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-412",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-07-10T15:29:22+00:00",
-      "summary": "Mistral AI's AI for Citizens, Integrating Long-Term Memory with Gemini 2.5, a paper on Masked Autoencoders Are Effective Tokenizers for Diffusion Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2fbcafd81fe8d23c2fb72929ae661836",
       "title": "Most people still don’t know how to use AI.",
       "url": "https://designplusai.com/p/most-people-still-dont-know-how-to",
@@ -1814,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-26T17:15:26.870507+00:00"
+  "generated_at": "2025-11-26T18:20:58.776337+00:00"
 }
