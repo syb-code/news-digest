@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9be9d5fead510e2f9da76771fe3ee64e",
+      "title": "Black Friday GPT",
+      "url": "https://www.youtube.com/watch?v=vx--h2ErQ2Q",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-27T19:51:11+00:00",
+      "summary": "OpenAI, Perplexity and Google are launching AI shopping assistants that combine deep product research, personalized follow-ups, and integrated checkout ahead of Black Friday. Nvidia reacted defensively to TPU competition and Gemini 3 news, prompting scrutiny of corporate communi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "67757376e31c29ec74e5db79d4fe4b1c",
       "title": "AI prompt hacks for design",
       "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
@@ -621,21 +636,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "63d20340141a386ff5e7b37b7357f4f5",
-      "title": "Apps vs Models: Who Wins AI?",
-      "url": "https://www.youtube.com/watch?v=q9gzesGntdg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-14T20:43:46+00:00",
-      "summary": "A debate centers on whether application-layer startups or foundation model providers will capture AI's value, with Cursor's $2.3B raise and Composer model as a test case. Rapid evolution of foundational models threatens to obsolete apps before they reach scale. Counterarguments …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-27T19:12:59.851326+00:00"
+  "generated_at": "2025-11-27T20:16:32.782851+00:00"
 }
