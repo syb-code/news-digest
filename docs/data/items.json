@@ -2,7 +2,7 @@
   "items": [
     {
       "id": "67757376e31c29ec74e5db79d4fe4b1c",
-      "title": "Lovable Prompt hacks for premium UI",
+      "title": "AI prompt hacks for design",
       "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
       "source": "Design + AI (Substack)",
       "source_type": "rss",
@@ -10,7 +10,9 @@
       "summary": "Here are my favorite design hacks from building 100+ Lovable projects:",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [],
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-27T12:35:47.871131+00:00"
+  "generated_at": "2025-11-27T13:29:12.730853+00:00"
 }
