@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "59e3e53f295f4ff7c4dd045d78fb99e5",
+      "title": "Study Says AI Can Automate 57% of Current Human Work Hours",
+      "url": "https://www.youtube.com/watch?v=WPGaIJACR9c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-27T00:58:41+00:00",
+      "summary": "Anthropic and McKinsey research quantifies how AI agents and conversational models can automate and augment work while mapping task-level impacts across occupations. Anthropic reports median task time savings near 80% with wide variation by occupation, and McKinsey finds 57% of …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "56bd1bcbf88daf16b6ea807a215acf08",
       "title": "Deep Learning Weekly: Issue 432",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-432",
@@ -635,21 +650,6 @@
       "duration_sec": null,
       "themes": [
         "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "abb3b0a7ea1dcb7621fdbfb820506f4c",
-      "title": "6 Things GPT-5.1 Does Better",
-      "url": "https://www.youtube.com/watch?v=wWHeqYZJH5c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-14T00:56:01+00:00",
-      "summary": "OpenAI released GPT-5.1 with two modes: Instant for quick chat and Thinking for deeper problem solving. Major improvements include warmer conversational style, stronger instruction following, and adaptive thinking spending more time on complex tasks. Coverage focuses on communit…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-26T23:15:15.057202+00:00"
+  "generated_at": "2025-11-27T01:15:42.810154+00:00"
 }
