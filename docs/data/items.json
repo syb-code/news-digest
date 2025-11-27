@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "67757376e31c29ec74e5db79d4fe4b1c",
+      "title": "Lovable Prompt hacks for premium UI",
+      "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-27T12:32:16+00:00",
+      "summary": "Here are my favorite design hacks from building 100+ Lovable projects:",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "59e3e53f295f4ff7c4dd045d78fb99e5",
       "title": "Study Says AI Can Automate 57% of Current Human Work Hours",
       "url": "https://www.youtube.com/watch?v=WPGaIJACR9c",
@@ -1797,20 +1810,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "dfddc0971eecc297587e3f534eb25d84",
-      "title": "Ultimate Prompt Hacks for Lovable",
-      "url": "https://designplusai.com/p/ultimate-prompt-hacks-for-lovable",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-24T14:58:00+00:00",
-      "summary": "After 100+ builds, mistakes, resets, and wins, here’s the ultimate list to help you build better products:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-27T11:15:12.253765+00:00"
+  "generated_at": "2025-11-27T12:35:47.871131+00:00"
 }
