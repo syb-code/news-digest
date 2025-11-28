@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b2ae839708cc2866f809d336f843e1e6",
+      "title": "Breaking Down Michael Burry’s Big Nvidia Short Thesis",
+      "url": "https://www.youtube.com/watch?v=m4BQCedE0Dg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-28T14:01:24+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal AI. Save 30% off any paid tier at for Black Friday: http://fiscal.ai/mm\n\nJack Farley & Max Wiethe breakdown Michael Burry’s big Nvidia short thesis and the recent projections from HSBC that Open AI will lose nearly half a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9be9d5fead510e2f9da76771fe3ee64e",
       "title": "Black Friday GPT",
       "url": "https://www.youtube.com/watch?v=vx--h2ErQ2Q",
@@ -1027,22 +1042,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "73f82f5e154ce1d5ee4cf6ea60de5045",
-      "title": "Liquidity Tensions Are Rising and Here’s Why It Matters 💥",
-      "url": "https://www.youtube.com/shorts/du9DNVoPTQ8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-10-31T13:15:15+00:00",
-      "summary": "On Monetary Matters, Jack Farley speaks with Michael Howell of GL Indexes about the growing liquidity stress in U.S. financial markets.\nHowell explains how tightening from the Federal Reserve is driving repo market tensions, with SOFR spreads widening a classic sign of pressure …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e6fe5bf1dbb59eb171461c4b48047a0e",
       "title": "Deep Learning Weekly: Issue 428",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-428",
@@ -1814,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-28T13:28:06.429529+00:00"
+  "generated_at": "2025-11-28T14:16:44.056315+00:00"
 }
