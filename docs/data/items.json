@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "67a3bdd38a44488a65c1069c1e7d9168",
+      "title": "This Might Be As Good As It Gets For U.S. Stocks | Meb Faber",
+      "url": "https://www.youtube.com/watch?v=VvRu-c60TBo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-28T23:00:47+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN:\nhttps://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nIn this episode of Monetary Matters, Ja…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b2ae839708cc2866f809d336f843e1e6",
       "title": "Breaking Down Michael Burry’s Big Nvidia Short Thesis",
       "url": "https://www.youtube.com/watch?v=m4BQCedE0Dg",
@@ -1014,19 +1029,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6cdb63f9f9dc04ccbac77b43e8a61b72",
-      "title": "The Debasement Trade Is Alive And Well!",
-      "url": "https://www.youtube.com/shorts/jim4KaUJwio",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-01T13:30:46+00:00",
-      "summary": "On Monetary Matters, host Jack Farley speaks with Michael Howell, founder of GL Indexes and author of Capital Wars, about the hidden reality behind today’s fiscal policy.\n\nHowell argues that the “monetary debasement trade” is misunderstood — the real issue is that governments ar…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5b819ec36dcf374850d5a1f42a61072e",
       "title": "Government Shutdown Turning Into a National Crisis — SNAP Cuts, TSA Unpaid, Markets on Edge",
       "url": "https://www.youtube.com/watch?v=V9EYGMogrwM",
@@ -1813,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-28T22:15:07.220556+00:00"
+  "generated_at": "2025-11-28T23:15:19.353223+00:00"
 }
