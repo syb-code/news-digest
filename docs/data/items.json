@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "02a370cc4232deead756395366230d8f",
+      "title": "Lopsided Status Quo Is Unstable: Labor Market Weakens While AI CapEx Soars | Aahan Menon",
+      "url": "https://www.youtube.com/watch?v=QaoKtPtXtUk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-29T21:00:25+00:00",
+      "summary": "Monetary Matters listeners can get 20% of Prometheus Macro Substack here: https://www.prometheus-macro.com/subscribe?coupon=a60c1c9f\n\nAahan Menon, founder of Prometheus Macro and a trusted \"quant's quant\" for sophisticated hedge funds, joins Jack Farley to explain why his models…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "67a3bdd38a44488a65c1069c1e7d9168",
       "title": "This Might Be As Good As It Gets For U.S. Stocks | Meb Faber",
       "url": "https://www.youtube.com/watch?v=VvRu-c60TBo",
@@ -1001,21 +1016,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8d229d6516fdb1e774c7054951829a80",
-      "title": "More Credit Problems, Mag 7 AI CapEX Continues, and Money Market Stress | Jack & Max",
-      "url": "https://www.youtube.com/watch?v=b3FDTw5IIyU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-02T17:28:09+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nJack Farley & Max Wiethe breakdown yet another credit “cockroach” that appears to be more related to fraud than overall market we…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3552421a1d5f89a2998ef62abfefcf14",
       "title": "The Golden Age of the Design Founder",
       "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-29T20:17:29.624597+00:00"
+  "generated_at": "2025-11-29T21:14:14.026240+00:00"
 }
