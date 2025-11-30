@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "528bfa637f19db7c192de454d3663dd0",
+      "title": "The Rise of the Founding Designer",
+      "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-30T12:36:54+00:00",
+      "summary": "Something has changed in the last few years.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "534b2ba8d2cdef4dcf62022ddb20c9be",
       "title": "How Big a Deal is the USA's AI Genesis Mission?",
       "url": "https://www.youtube.com/watch?v=5O_iCMqBvH8",
@@ -1801,20 +1814,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "36d5fc6bc77332de8d73f1150b0287a5",
-      "title": "Scroll is the most broken interaction in product design",
-      "url": "https://designplusai.com/p/1da",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-06-28T14:44:00+00:00",
-      "summary": "We’ve designed our entire digital world around one lazy gesture:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-30T12:31:26.197411+00:00"
+  "generated_at": "2025-11-30T13:23:21.021690+00:00"
 }
