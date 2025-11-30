@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a7c82102f242bc4dd113e21794b7dc77",
+      "title": "LWiAI Podcast #226 - Gemini 3, Claude Opus 4.5, Nano Banana Pro, LeJEPA",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-226-gemini-3-claude",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-30T08:20:26+00:00",
+      "summary": "Google launches Gemini 3 & Nano Banana Pro, Anthropic releases Opus 4.5, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "02a370cc4232deead756395366230d8f",
       "title": "Lopsided Status Quo Is Unstable: Labor Market Weakens While AI CapEx Soars | Aahan Menon",
       "url": "https://www.youtube.com/watch?v=QaoKtPtXtUk",
@@ -1664,21 +1679,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9b7030e1e0de2bfe38f5928654523605",
-      "title": "LWiAI Podcast #217 - ChatGPT Agent, Kimi k2, Hiring Drama",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-217-chatgpt-agent-kimi",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-23T06:19:51+00:00",
-      "summary": "OpenAI’s new ChatGPT Agent can control an entire computer and do tasks for you, OpenAI’s Windsurf deal is off — and Windsurf’s CEO is going to Google, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-30T08:19:43.902411+00:00"
+  "generated_at": "2025-11-30T09:15:22.061000+00:00"
 }
