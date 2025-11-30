@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2577aaf686b4b508dc736aa1b2efcad6",
+      "title": "🧠 Community Wisdom: Using Cursor for PM work, AI workflows for writers, tips for writing cold emails, building defensible moats, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-using-cursor-for",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-30T17:32:37+00:00",
+      "summary": "Community Wisdom 163",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "528bfa637f19db7c192de454d3663dd0",
       "title": "The Rise of the Founding Designer",
       "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
@@ -1001,21 +1016,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f65c856d4cbd50b24598d48a5d787e3b",
-      "title": "The complete beginner’s guide to coding with AI: from PRD to generating your very first lines of code",
-      "url": "https://www.lennysnewsletter.com/p/the-complete-beginners-guide-to-coding",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-05T12:03:11+00:00",
-      "summary": "Watch now | 🎙️ A step-by-step walkthrough for non-technical people to create their first coding project using AI tools—from setting up a repository to building a functional personal project hub.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4a9079c78980fe62d70dfc6479837ca5",
       "title": "The Hedge Fund Trying to Become the Top Pod Shop in Crypto",
       "url": "https://www.youtube.com/watch?v=Y_VL2sgqH5w",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-30T17:13:45.106339+00:00"
+  "generated_at": "2025-11-30T18:21:58.894085+00:00"
 }
