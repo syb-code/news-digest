@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "534b2ba8d2cdef4dcf62022ddb20c9be",
+      "title": "How Big a Deal is the USA's AI Genesis Mission?",
+      "url": "https://www.youtube.com/watch?v=5O_iCMqBvH8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-11-30T12:18:41+00:00",
+      "summary": "The Genesis Mission establishes a Manhattan Project–scale national AI science program to centralize federal datasets, train scientific foundation models, and build a closed-loop AI experimentation platform using DOE supercomputers. Amazon pledged up to $50 billion to expand AWS …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d9f91c2a3b5f59d58ebef4ac64ee98dd",
+      "title": "The future of AI-powered sales with Vercel COO, Jeanne DeWitt",
+      "url": "https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-30T12:03:26+00:00",
+      "summary": "How Vercel replaced 10 SDRs with 1 person + AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a7c82102f242bc4dd113e21794b7dc77",
       "title": "LWiAI Podcast #226 - Gemini 3, Claude Opus 4.5, Nano Banana Pro, LeJEPA",
       "url": "https://lastweekin.ai/p/lwiai-podcast-226-gemini-3-claude",
@@ -671,21 +702,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "75f91c21e47ddf4d86118150e79d1294",
-      "title": "The Agent Hacker Era Begins",
-      "url": "https://www.youtube.com/watch?v=AMwrBD2gRrk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-16T14:00:06+00:00",
-      "summary": "Anthropic detected an AI-enabled cyberespionage campaign that used Claude Code to automate infiltration of global targets. Autonomous agents performed most attack steps, exposing a new scale of cyber risk and prompting expanded detection and defense efforts. Industry responses a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6fd26c04f1e18ec9ccf53e1877516a69",
       "title": "🧠 Community Wisdom: Dealing with a manager who is a poor listener, crafting effective all-hands meetings, choosing a community platform for privacy-conscious users, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-dealing-with-a-manager",
@@ -999,21 +1015,6 @@
       "themes": [
         "AI/ML",
         "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7232e6d5db431a235e9eeb4848f1c13c",
-      "title": "Part 2 of how to get the most out of your product pass—and welcome, Stripe Atlas, to the bundle!",
-      "url": "https://www.lennysnewsletter.com/p/part-2-of-how-to-get-the-most-out",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-04T13:45:34+00:00",
-      "summary": "Tips for taking full advantage of the 17+ free premium products you have access to as a paid subscriber",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1815,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-11-30T11:12:52.403640+00:00"
+  "generated_at": "2025-11-30T12:31:26.197411+00:00"
 }
