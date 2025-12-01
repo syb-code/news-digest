@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3c9bc926d7bc5010fa592deeeed8610f",
+      "title": "This week on How I AI: “PMs who use AI will replace those who don’t” with Marily Nika",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-pms-who-use",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-01T16:03:01+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e79bbcb9a4092099636ede5d33c22270",
       "title": "“PMs who use AI will replace those who don’t”: Google’s AI product lead on the new PM toolkit | Marily Nika",
       "url": "https://www.lennysnewsletter.com/p/pms-who-use-ai-will-replace-those",
@@ -930,19 +945,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ff5ba43e5145b2b4594361054c66b860",
-      "title": "\"Sell the alpha, not the feature\": The enterprise sales playbook for $1M to $10M ARR | Jen Abel",
-      "url": "https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-09T13:31:40+00:00",
-      "summary": "Jen Abel drops a masterclass on $1-$10m ARR enterprise sales",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "72f452bcc995b6cbfa5d30c5b3d8838c",
       "title": "America's Labor Market is Crashing — Fed Can't Ignore This",
       "url": "https://www.youtube.com/watch?v=m92GE57Rn7o",
@@ -1816,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-01T15:18:19.767740+00:00"
+  "generated_at": "2025-12-01T16:23:49.295145+00:00"
 }
