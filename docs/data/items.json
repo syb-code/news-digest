@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "34be04560891c7a069351a898bc84714",
+      "title": "Michael Pettis: The Global Trade Reset Is Inevitable",
+      "url": "https://www.youtube.com/watch?v=hoSNdzfydRU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-01T17:04:55+00:00",
+      "summary": "Learn more about the VanEck Rare Earth and Strategic Metals ETF: www.vaneck.com/REMXJack\n\nIn this episode of Monetary Matters, Jack sits down with Michael Pettis, Senior Fellow at the Carnegie Endowment, to deconstruct the massive economic imbalances between China and the rest o…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3c9bc926d7bc5010fa592deeeed8610f",
       "title": "This week on How I AI: “PMs who use AI will replace those who don’t” with Marily Nika",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-pms-who-use",
@@ -1018,22 +1031,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4a9079c78980fe62d70dfc6479837ca5",
-      "title": "The Hedge Fund Trying to Become the Top Pod Shop in Crypto",
-      "url": "https://www.youtube.com/watch?v=Y_VL2sgqH5w",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-04T18:00:48+00:00",
-      "summary": "This Other People’s Money episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nAnatoly Crachilov,…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0c9f2295b65d33308fbbd7720bbdadb7",
       "title": "America's $38 Trillion Debt Crisis — It's Spiraling Out of Control",
       "url": "https://www.youtube.com/watch?v=C2tMd1VAh4Q",
@@ -1818,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-01T16:23:49.295145+00:00"
+  "generated_at": "2025-12-01T17:18:43.025077+00:00"
 }
