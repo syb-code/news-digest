@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ae4d2dc71b5123064e09ee29d5e13fc8",
+      "title": "A Practical Guide to Scaling AI",
+      "url": "https://www.youtube.com/watch?v=0UPdkPoZPJw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-02T16:10:46+00:00",
+      "summary": "OpenAI's practical roadmap identifies four mental shifts: move from tools to systems, accept rapid product velocity, surface solutions from any role, and pursue compounding ROI. A four-part scaling framework recommends foundations, AI fluency, open idea intake with clear priorit…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "07e5d03946eae5825edb11184a50efdb",
       "title": "A year free of PostHog ($16,500 value): The all-in-one analytics, experimentation, feature flag, surveys, session replay, error tracking, data warehouse, LLM analytics platform",
       "url": "https://www.lennysnewsletter.com/p/a-year-free-of-posthog-16500-value",
@@ -748,22 +763,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ec0f1b5840e4abff13fa668697e586ca",
-      "title": "Anthropic's Monster Projections: Profitable by 2028?",
-      "url": "https://www.youtube.com/watch?v=3nT-8Rv-cbE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-17T00:56:31+00:00",
-      "summary": "Anthropic forecasts explosive growth and large profits, targeting $70 billion in revenue and $17 billion in positive cash flow by 2028. Market sentiment is volatile as big short positions and bank hedging plans collide with massive debt needs for AI infrastructure. Snap's $400 m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1811,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-02T15:19:38.875408+00:00"
+  "generated_at": "2025-12-02T16:23:27.361009+00:00"
 }
