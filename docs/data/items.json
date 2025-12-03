@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2f148f3e1382c04869cc000f8d8fe97a",
+      "title": "Gemini 3 vs. Claude Opus 4.5 vs. GPT-5.1 Codex: Which AI model is the best designer?",
+      "url": "https://www.lennysnewsletter.com/p/which-ai-model-is-the-best-designer",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-03T12:03:30+00:00",
+      "summary": "Watch now | 🎙️ Testing Gemini 3, Opus 4.5, and GPT-5.1 Codex on the same redesign task to see which AI model is the best designer. The winner is clear.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ae4d2dc71b5123064e09ee29d5e13fc8",
       "title": "A Practical Guide to Scaling AI",
       "url": "https://www.youtube.com/watch?v=0UPdkPoZPJw",
@@ -938,21 +953,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6659064c0beaa8a2f4290778116208cf",
-      "title": "This week on How I AI: 0-to-1 AI guide for absolute beginners + how this CEO turned 25,000 hours of sales calls into a self-learning GTM engine",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-0-to-1-ai-guide",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-10T16:03:20+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d46afb1a350b1eecaf466f9b3adb1086",
       "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
       "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-03T11:15:56.810449+00:00"
+  "generated_at": "2025-12-03T12:36:51.480800+00:00"
 }
