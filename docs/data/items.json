@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8508b2bda3a1b31a851baa617b952066",
+      "title": "OpenAI Declares Code Red",
+      "url": "https://www.youtube.com/watch?v=g82rNlYYe8I",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-03T15:24:41+00:00",
+      "summary": "Sam Altman declared a \"code red\" at OpenAI to concentrate resources on improving ChatGPT amid rising pressure from Google's Gemini 3. Priority moves include personalization, improved model behavior, faster responses, and fewer unjustified refusals while advertising, AI agents, a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2f148f3e1382c04869cc000f8d8fe97a",
       "title": "Gemini 3 vs. Claude Opus 4.5 vs. GPT-5.1 Codex: Which AI model is the best designer?",
       "url": "https://www.lennysnewsletter.com/p/which-ai-model-is-the-best-designer",
@@ -719,21 +734,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7925ddadb9b79735fb481aa7e2ee978f",
-      "title": "Gemini 3 Anticipation Reaches Fever Pitch",
-      "url": "https://www.youtube.com/watch?v=FO91u3McYcw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-18T01:03:11+00:00",
-      "summary": "Gemini 3 hype has consumed the AI community after Google and prominent figures teased an imminent model release. Berkshire Hathaway's roughly $4.9 billion Alphabet stake fueled investor debate over long-term tech exposure and AI leadership. Michael Burry's fund closure and Palan…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-03T15:19:51.215940+00:00"
+  "generated_at": "2025-12-03T16:24:11.078342+00:00"
 }
