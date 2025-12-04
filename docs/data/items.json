@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f13ecb54ebec3934164ae394559ce447",
+      "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
+      "url": "https://www.lennysnewsletter.com/p/why-linkedin-is-replacing-pms",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-04T13:32:07+00:00",
+      "summary": "LinkedIn's CPO on killing the APM program, inventing \"full-stack builders\" and going all-in on AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8508b2bda3a1b31a851baa617b952066",
       "title": "OpenAI Declares Code Red",
       "url": "https://www.youtube.com/watch?v=g82rNlYYe8I",
@@ -925,19 +940,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5cb1c9babefd103569fcc630c97544a7",
-      "title": "Ecosystem is the next big growth channel",
-      "url": "https://www.lennysnewsletter.com/p/ecosystem-is-the-next-big-growth-a53",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-11T10:01:45+00:00",
-      "summary": "How to stand out in a noisy landscape by leveraging partners who already have access and trust with your target audience",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "62bb508d3ef68ab108418381ad92ff0a",
       "title": "Falling Liquidity Creates Cash Shortage In Repo Markets | Michael Howell",
       "url": "https://www.youtube.com/watch?v=KtqFB9lsElk",
@@ -1810,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-04T13:33:53.305621+00:00"
+  "generated_at": "2025-12-04T14:18:05.562093+00:00"
 }
