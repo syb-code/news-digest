@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6e2e7107e708308ff7ac3c80d18f7956",
+      "title": "The Fed Just Set The Stage for a Major Market Rally in 2026",
+      "url": "https://www.youtube.com/watch?v=lFea8Gntr-4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-12-04T20:00:49+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dd1eb0fb7764722e023868a12bc8063f",
       "title": "Deep Learning Weekly: Issue 433",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-433",
@@ -1200,19 +1215,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8f9db9129ae2101e9cb793b4b06a309d",
-      "title": "The 60/40 Investing Rule is Dead — Here's What's Replacing It",
-      "url": "https://www.youtube.com/watch?v=2avC4SFVJ-A",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-10-20T18:02:45+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "04b44f55219ada76928d580e4fb5d344",
       "title": "Top design hacks for Lovable",
       "url": "https://designplusai.com/p/top-design-hacks-for-lovable",
@@ -1810,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-04T19:16:15.045072+00:00"
+  "generated_at": "2025-12-04T20:19:27.419460+00:00"
 }
