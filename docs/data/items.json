@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "dd1eb0fb7764722e023868a12bc8063f",
+      "title": "Deep Learning Weekly: Issue 433",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-433",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-12-04T16:03:08+00:00",
+      "summary": "Mistral 3, MCP Explorer, a paper on Agentic Bridge Framework: Closing the Gap Between Agentic Capability and Performance Benchmarks, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ac981142f565a264fe07cd416c76c7d0",
       "title": "OpenAI Preps New \"Garlic\" Model",
       "url": "https://www.youtube.com/watch?v=8GJcv-kTZrs",
@@ -1715,21 +1728,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "beae76c2ae4f95eac6cacacce41ab95c",
-      "title": "Deep Learning Weekly: Issue 413",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-413",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-07-16T15:02:53+00:00",
-      "summary": "The General-Purpose AI Code of Practice, Stop Saying RAG Is Dead, a paper on WebDancer: Towards Autonomous Information Seeking Agency, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "93ab654e877992cababbd9f76a82d7c3",
       "title": "Dynamic UX is the new standard",
       "url": "https://designplusai.com/p/0bc",
@@ -1812,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-04T15:20:12.787082+00:00"
+  "generated_at": "2025-12-04T16:24:09.117989+00:00"
 }
