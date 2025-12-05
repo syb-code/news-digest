@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4ee80caa4a796f678bb8e1656bafdada",
+      "title": "Can Today's AI Replace 12% of Work?",
+      "url": "https://www.youtube.com/watch?v=aNifWzsFOq8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-05T21:38:46+00:00",
+      "summary": "Project Iceberg's Iceberg Index maps skill-centered AI exposure and finds roughly 11.7% overlap with US wage-earning skills. The overlap concentrates in software and hidden cognitive tasks, and the index measures technical skill overlap rather than predicting job losses. Anthrop…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6e2e7107e708308ff7ac3c80d18f7956",
       "title": "The Fed Just Set The Stage for a Major Market Rally in 2026",
       "url": "https://www.youtube.com/watch?v=lFea8Gntr-4",
@@ -734,21 +749,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4e094608d90761a3f9493d1cfd1f6975",
-      "title": "Gemini 3 Launches! Here's Everything You Need to Know",
-      "url": "https://www.youtube.com/watch?v=TPC1NLdZhDU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-18T20:45:41+00:00",
-      "summary": "Google’s Gemini 3 has officially landed, sparking a massive wave of hype, skepticism, and early testing insights across the AI world. This episode breaks down the stakes for Google, OpenAI, and Anthropic, the wild benchmark jumps, and the debut of Anti-Gravity—Google’s new agent…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-05T21:15:24.870722+00:00"
+  "generated_at": "2025-12-05T22:16:08.658386+00:00"
 }
