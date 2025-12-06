@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "be2e13e6e5a71560e99e44be71871dc4",
+      "title": "Microsoft Changing AI Targets?",
+      "url": "https://www.youtube.com/watch?v=r7w8aGYGrME",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-06T04:08:01+00:00",
+      "summary": "Microsoft quota revisions ignite debate over AI demand versus company execution and trigger investor jitters. Nvidia CEO Jensen Huang frames AI as long-term infrastructure amid geopolitical competition, and OpenAI moves to deepen model-training observability with a Neptune acqui…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4ee80caa4a796f678bb8e1656bafdada",
       "title": "Can Today's AI Replace 12% of Work?",
       "url": "https://www.youtube.com/watch?v=aNifWzsFOq8",
@@ -676,21 +691,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ce9a27610d472b32549b0dba6f7a2d44",
-      "title": "AI Winners and Losers After Gemini 3",
-      "url": "https://www.youtube.com/watch?v=wlBMcCl2WVk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-20T02:04:36+00:00",
-      "summary": "Gemini 3's launch raises urgent questions about real-world performance versus benchmark claims. A multibillion-dollar partnership among Nvidia, Microsoft, and Anthropic reshapes cloud, compute, and funding dynamics. \nWinners include AI market bulls, consumer-facing \"vibecoders\",…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-06T03:06:32.482229+00:00"
+  "generated_at": "2025-12-06T04:18:52.969382+00:00"
 }
