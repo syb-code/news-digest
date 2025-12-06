@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b4177d77fe87749821a60afc4874ced9",
+      "title": "Ultimate Prompt Library for UI",
+      "url": "https://designplusai.com/p/ultimate-prompt-library-for-ui",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-06T17:46:48+00:00",
+      "summary": "I’ve been quietly building something I wish existed when I started designing with AI.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "12974618c7905c19b06248777da7282a",
       "title": "🧠 Community Wisdom: Combating ageism, facilitating roadmap discussions, 90-day onboarding plan, staying stealth pre-launch, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-combating-ageism",
@@ -1797,20 +1812,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "11c8993bc3b5797e6e888a38f1bb123c",
-      "title": "Prompt hacks to 10x your design (Part 2)",
-      "url": "https://designplusai.com/p/prompt-hacks-to-10x-your-design-part",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-01T14:48:00+00:00",
-      "summary": "I recently gave a lecture as part of our new Lovable Shipped program and shared some of the prompt hacks I use to build better products with Lovable.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-06T17:13:43.591122+00:00"
+  "generated_at": "2025-12-06T18:21:43.422047+00:00"
 }
