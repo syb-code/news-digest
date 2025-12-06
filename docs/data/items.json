@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "12974618c7905c19b06248777da7282a",
+      "title": "🧠 Community Wisdom: Combating ageism, facilitating roadmap discussions, 90-day onboarding plan, staying stealth pre-launch, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-combating-ageism",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-06T17:01:25+00:00",
+      "summary": "Community Wisdom 264",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "be2e13e6e5a71560e99e44be71871dc4",
       "title": "Microsoft Changing AI Targets?",
       "url": "https://www.youtube.com/watch?v=r7w8aGYGrME",
@@ -955,19 +968,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ebbc356237794225e667c3c5766a30de",
-      "title": "Ecosystem is the next big growth channel",
-      "url": "https://www.lennysnewsletter.com/p/ecosystem-is-the-next-big-growth",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-11T13:45:43+00:00",
-      "summary": "How to stand out in a noisy landscape",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "62bb508d3ef68ab108418381ad92ff0a",
       "title": "Falling Liquidity Creates Cash Shortage In Repo Markets | Michael Howell",
       "url": "https://www.youtube.com/watch?v=KtqFB9lsElk",
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-06T16:18:56.117922+00:00"
+  "generated_at": "2025-12-06T17:13:43.591122+00:00"
 }
