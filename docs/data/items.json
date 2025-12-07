@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "eb3c188c09403f2c896fc7dcbd7bff3b",
+      "title": "What 1250 Professionals Said About Working With AI",
+      "url": "https://www.youtube.com/watch?v=ZwXY0U6l8yQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-07T18:12:51+00:00",
+      "summary": "Anthropic's semi-structured interviews of 1,250 professionals show broad optimism about AI boosting productivity while revealing concerns about creative identity, job displacement, stigma, and security. The research demonstrates a new genre of AI-assisted conversational surveys …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eece526992c57ee7b28555f657589cdd",
       "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
       "url": "https://www.lennysnewsletter.com/p/surge-ai-edwin-chen",
@@ -701,21 +716,6 @@
       "source_type": "youtube",
       "published": "2025-11-21T01:35:46+00:00",
       "summary": "OpenAI unveiled GPT-5.1, GPT-5.1 Pro and GPT-5.1 Codex Max. Compaction enables coherent work across millions of tokens and long-running autonomous coding agents with major token-efficiency gains. Benchmarks, early reviews and market reactions signal a recalibration of AI expecta…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9fed604aecb55e108207dcfeb2e18e31",
-      "title": "Bezos is Back to Build AI",
-      "url": "https://www.youtube.com/watch?v=N4GkrD6aVaA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-20T19:38:46+00:00",
-      "summary": "Jeff Bezos is officially back, launching Project Prometheus, a massively funded AI venture aimed at applying artificial intelligence to physical industries like manufacturing, engineering, and even space. It also breaks down xAI’s Grok 4.1 upgrade, which brings significant jumps…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-07T18:21:58.010224+00:00"
+  "generated_at": "2025-12-07T19:12:31.740435+00:00"
 }
