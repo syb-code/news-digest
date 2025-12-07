@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "eece526992c57ee7b28555f657589cdd",
+      "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
+      "url": "https://www.lennysnewsletter.com/p/surge-ai-edwin-chen",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-07T13:31:23+00:00",
+      "summary": "Surge's founder on building a billion-dollar AI data company with 60 people, why AI is being optimized for dopamine instead of truth, and how taste shapes the future of intelligence",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b4177d77fe87749821a60afc4874ced9",
       "title": "Ultimate Prompt Library for UI",
       "url": "https://designplusai.com/p/ultimate-prompt-library-for-ui",
@@ -955,21 +970,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5f61fc6f187692e6b98c0449853cc9c0",
-      "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
-      "url": "https://www.lennysnewsletter.com/p/how-50-people-built-a-profitable-ai-unicorn",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-13T13:31:58+00:00",
-      "summary": "How Gamma built a $100M ARR AI startup everyone said shouldn't exist",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "76f12c941810c52674f4e759a5f60a2f",
       "title": "Government Shutdown Resolved — BUT Another Crisis Hits in December & January",
       "url": "https://www.youtube.com/watch?v=cdt3n5yLj3o",
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-07T13:22:35.854974+00:00"
+  "generated_at": "2025-12-07T14:14:31.283833+00:00"
 }
