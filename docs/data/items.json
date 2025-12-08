@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "53de4bd549fd926ea53cde9b82b92cea",
+      "title": "This week on How I AI: Which AI model is the best designer? and ChatGPT agent mode, the “little helper” that transformed recruiting",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-which-ai-model",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-08T16:03:21+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0ca2eabe5539c5a64fa641e786382c7d",
+      "title": "Why Metals Are Soaring While Oil Stalls | CME Chief Economist Erik Norland",
+      "url": "https://www.youtube.com/watch?v=J9Z6gfV3SBk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-08T15:59:35+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nErik Norland, Chief Economist at the CME Group, joins Jack Farley to discuss the wild volatility in commodity markets. With Silver up over 80% in the past year, Erik breaks down the technologic…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a62ff397163ee0a60313d17f55177173",
       "title": "ChatGPT agent mode: The “little helper” that transformed recruiting, crafted user personas, and solved parking nightmares | Michal Peled (Honeybook)",
       "url": "https://www.lennysnewsletter.com/p/chatgpt-agent-mode-the-little-helper",
@@ -914,21 +942,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c0ad20914c512c78f5c89eba58005d44",
-      "title": "The Godmother of AI on jobs, robots & why world models are next | Dr. Fei-Fei Li",
-      "url": "https://www.lennysnewsletter.com/p/the-godmother-of-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-16T14:03:30+00:00",
-      "summary": "The \"Godmother of AI\" on why everyone has a role to play in AI's future",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5a209e4bbde75e0c4d825f92bc3ed881",
       "title": "10,000 on S&P 500 By 2027, Why Not? | Erik YWR",
       "url": "https://www.youtube.com/watch?v=uF2fJGOg3pA",
@@ -1038,21 +1051,6 @@
       "published": "2025-11-07T18:13:33+00:00",
       "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7650d0b0e9e25311a5b1a5846434a093",
-      "title": "Fed Governor Miran Wants to Cut Interest Rates A Lot (Here’s Why)",
-      "url": "https://www.youtube.com/watch?v=nozWOxL6mBg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-06T19:42:48+00:00",
-      "summary": "Learn more about the VanEck Rare Earth and Strategic Metals ETF: https://vaneck.com/REMXJack\n\nStephen Miran, member of the Federal Reserve Board of Governors, has dissented in two consecutive Fed FOMC meetings since his joining the Board in September 2025, preferring to cut by 5…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
@@ -1816,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-08T15:19:13.776728+00:00"
+  "generated_at": "2025-12-08T16:23:02.891299+00:00"
 }
