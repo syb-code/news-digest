@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a62ff397163ee0a60313d17f55177173",
+      "title": "ChatGPT agent mode: The “little helper” that transformed recruiting, crafted user personas, and solved parking nightmares | Michal Peled (Honeybook)",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-agent-mode-the-little-helper",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-08T13:03:55+00:00",
+      "summary": "Watch now | 🎙️ Michal Peled on using ChatGPT agent mode to automate LinkedIn recruiting, creating AI personas from customer research, and building practical AI tools that solve real business problems",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "423eb33884f1e405005de613d76b692b",
       "title": "Last Week in AI #328 - DeepSeek 3.2, Mistral 3, Trainium3, Runway Gen-4.5",
       "url": "https://lastweekin.ai/p/last-week-in-ai-328-deepseek-32-mistral",
@@ -914,19 +929,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6fd26c04f1e18ec9ccf53e1877516a69",
-      "title": "🧠 Community Wisdom: Dealing with a manager who is a poor listener, crafting effective all-hands meetings, choosing a community platform for privacy-conscious users, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-dealing-with-a-manager",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-15T17:00:23+00:00",
-      "summary": "Community Wisdom 161",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5a209e4bbde75e0c4d825f92bc3ed881",
       "title": "10,000 on S&P 500 By 2027, Why Not? | Erik YWR",
       "url": "https://www.youtube.com/watch?v=uF2fJGOg3pA",
@@ -1814,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-08T12:35:59.359413+00:00"
+  "generated_at": "2025-12-08T13:32:23.283314+00:00"
 }
