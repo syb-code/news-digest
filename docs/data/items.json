@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c44d7fc3ce630b8e6e4d78a96293da0b",
+      "title": "Is GPT-5.2 \"Garlic\" Coming This Week?",
+      "url": "https://www.youtube.com/watch?v=Qmn187sGAUY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-08T19:16:36+00:00",
+      "summary": "Insider chatter suggests OpenAI may be preparing a GPT-5.2 release as early as this week with theinternal codename: “Garlic.” Today’s headlines episode breaks down the stakes for OpenAI. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ea21b2be605b33b329ca8a2528e238eb",
       "title": "Another U.S. Credit Downgrade Is Coming — Get Ready",
       "url": "https://www.youtube.com/watch?v=8rjHhvucdXo",
@@ -776,21 +791,6 @@
         "AI/ML",
         "Macro/Fed",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "641d9a1bc44bbdd68342a855e8fd148f",
-      "title": "More New AI Models! OpenAI Drops 5.1 Pro and Codex Pro",
-      "url": "https://www.youtube.com/watch?v=1hI1Pi11Uzo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-21T01:35:46+00:00",
-      "summary": "OpenAI unveiled GPT-5.1, GPT-5.1 Pro and GPT-5.1 Codex Max. Compaction enables coherent work across millions of tokens and long-running autonomous coding agents with major token-efficiency gains. Benchmarks, early reviews and market reactions signal a recalibration of AI expecta…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-08T19:14:24.238279+00:00"
+  "generated_at": "2025-12-08T20:19:48.100619+00:00"
 }
