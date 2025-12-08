@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "423eb33884f1e405005de613d76b692b",
+      "title": "Last Week in AI #328 - DeepSeek 3.2, Mistral 3, Trainium3, Runway Gen-4.5",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-328-deepseek-32-mistral",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-08T04:44:04+00:00",
+      "summary": "DeepSeek Releases New Reasoning Models, Mistral closes in on Big AI rivals with new open-weight frontier and small models, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eb3c188c09403f2c896fc7dcbd7bff3b",
       "title": "What 1250 Professionals Said About Working With AI",
       "url": "https://www.youtube.com/watch?v=ZwXY0U6l8yQ",
@@ -1676,21 +1691,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "526308b87375292dbfc819dfffbba7f0",
-      "title": "Last Week in AI #317 - US AI Action Plan, EU AI guidelines split, ChatGPT Study Mode",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-317-us-ai-action",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-30T20:05:52+00:00",
-      "summary": "White House Releases AI Action Plan, Google to sign EU’s AI guidelines despite Meta snub, OpenAI launches Study Mode in ChatGPT, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "37601b3682ee31e03b496cdfefeb27a5",
       "title": "Increase conversion with dynamic UX",
       "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-08T04:30:52.904527+00:00"
+  "generated_at": "2025-12-08T05:19:17.847586+00:00"
 }
