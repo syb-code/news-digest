@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0c3b40a30eaef4caa2ad8ef50f37056b",
+      "title": "AI Has a PR Problem",
+      "url": "https://www.youtube.com/watch?v=ETptuOlOnZE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-09T17:07:06+00:00",
+      "summary": "Edelman and Pew surveys reveal deep public distrust of AI in the US, UK, and Germany while China and Brazil show much higher enthusiasm. Major drivers include fears of job loss, perceived corporate secrecy about layoffs, unequal economic impacts, and backlash against attention-h…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "185a8e06860ff6612ea15038ab823449",
       "title": "How Directional Crypto Hedge Funds Are Evolving",
       "url": "https://www.youtube.com/watch?v=zbZxkI_8Zgg",
@@ -794,21 +809,6 @@
       "source_type": "rss",
       "published": "2025-11-22T08:27:26+00:00",
       "summary": "OpenAI says the brand-new GPT-5.1 is ‘warmer’, Baidu Unveils ERNIE 5.0, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b76e968089bd1bc3a9a0ef58d54c014f",
-      "title": "25 Things Nano Banana Pro Does That AI Couldn't Before",
-      "url": "https://www.youtube.com/watch?v=8_yeRvhn5r4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-22T00:12:21+00:00",
-      "summary": "Today’s AI Daily Brief breaks down the stunning leap unlocked by Google’s Nano Banana Pro image model, which isn’t just an upgrade but a wholesale expansion of what’s possible with AI image generation. From real text rendering to accurate charts, whiteboard-style compression of …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-09T16:23:24.437053+00:00"
+  "generated_at": "2025-12-09T17:17:42.953813+00:00"
 }
