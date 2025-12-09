@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "7730a1b1bb59146374cf2341bdadee58",
+      "title": "How to spot a 1% startup early",
+      "url": "https://www.lennysnewsletter.com/p/how-to-spot-a-1-startup-early",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-09T10:01:51+00:00",
+      "summary": "Three key lessons from people who picked multiple iconic companies before they were obvious",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "149ed16055905c3d653d7b1ada1cfaaa",
       "title": "LWiAI Podcast #227 - Jeremie is back! DeepSeek 3.2, TPUs, Nested Learning",
       "url": "https://lastweekin.ai/p/lwiai-podcast-227-jeremie-is-back",
@@ -937,21 +950,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cd9ba4e43f5ebe820ee4ec34db4a4ed6",
-      "title": "“Nobody wanted to do this work”: How Emmy Award–winning filmmakers use AI to automate the tedious parts of documentaries",
-      "url": "https://www.lennysnewsletter.com/p/nobody-wanted-to-do-this-work-how",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-17T12:03:18+00:00",
-      "summary": "Listen now | 🎙️ How AI transformed Ken Burns' documentary team's production process",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "805b4158e0f11b3fa9d1daf94baadd24",
       "title": "The State of Real Estate Credit | Satish Mansukhani of Rithm Capital on Mortgages, CRE, and More",
       "url": "https://www.youtube.com/watch?v=4VsX6Ut8Eg4",
@@ -1810,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-09T09:20:34.593832+00:00"
+  "generated_at": "2025-12-09T10:20:33.611610+00:00"
 }
