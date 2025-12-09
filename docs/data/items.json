@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "149ed16055905c3d653d7b1ada1cfaaa",
+      "title": "LWiAI Podcast #227 - Jeremie is back! DeepSeek 3.2, TPUs, Nested Learning",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-227-jeremie-is-back",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-09T08:41:54+00:00",
+      "summary": "Deepseek 3.2 New AI Model is Faster, Cheaper and Smarter, NVIDIA’s Partners Are Beginning to Tilt Toward Google’s TPU Ecosystem, Nested Learning: The Illusion of Deep Learning Architecture",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "98342fe7850359365ce9b40c68514177",
       "title": "What People Are Actually Using AI for Right Now",
       "url": "https://www.youtube.com/watch?v=BWTU9h0qjf0",
@@ -1644,21 +1659,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8449f0484bd079ba5f3987ddfb9350cf",
-      "title": "LWiAI Podcast #218 - Github Spark, MegaScience, US AI Action Plan",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-218-github-spark-megascience",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-31T16:14:30+00:00",
-      "summary": "GitHub introduces Vibe Coding with Spark, US releases AI Action Plan outlining economic, technical, and policy strategies to maintain leadership in AI technology.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "47c085dfc7fc56ea3141834f8c6f0768",
       "title": "Deep Learning Weekly: Issue 415",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-415",
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-09T08:25:11.888460+00:00"
+  "generated_at": "2025-12-09T09:20:34.593832+00:00"
 }
