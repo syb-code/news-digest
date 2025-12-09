@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "185a8e06860ff6612ea15038ab823449",
+      "title": "How Directional Crypto Hedge Funds Are Evolving",
+      "url": "https://www.youtube.com/watch?v=zbZxkI_8Zgg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-09T14:01:55+00:00",
+      "summary": "This episode is brought to you by VanEck. Learn more about the VanEck Rare Earth and Strategic Metals ETF: http://vaneck.com/REMXMax\n\nSam Gaer, CIO of Directional Strategies at Monarq Asset Management, joins Other People’s Money to discuss how he uses quantitative directional st…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Crypto"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8c55bc980b286560dab592a4b97163f6",
       "title": "How to spot a top 1% startup early",
       "url": "https://www.lennysnewsletter.com/p/how-to-spot-a-top-1-startup-early",
@@ -1035,21 +1050,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "62bb508d3ef68ab108418381ad92ff0a",
-      "title": "Falling Liquidity Creates Cash Shortage In Repo Markets | Michael Howell",
-      "url": "https://www.youtube.com/watch?v=KtqFB9lsElk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-10T21:56:27+00:00",
-      "summary": "Monetary Matters listeners can learn more about Capital Wars here (offer expired November 12th): https://capitalwars.substack.com/subscribe?coupon=b4b9cef7\n\nWith the Federal Reserve announcing the end of Quantitative Tightening (QT) on December 1st, Jack welcomes Michael Howell …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d46afb1a350b1eecaf466f9b3adb1086",
       "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
       "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-09T13:33:29.141340+00:00"
+  "generated_at": "2025-12-09T14:19:00.423590+00:00"
 }
