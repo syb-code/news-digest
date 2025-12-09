@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "8c55bc980b286560dab592a4b97163f6",
+      "title": "How to spot a top 1% startup early",
+      "url": "https://www.lennysnewsletter.com/p/how-to-spot-a-top-1-startup-early",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-09T13:30:55+00:00",
+      "summary": "Three key lessons from employees who picked multiple iconic companies",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "7730a1b1bb59146374cf2341bdadee58",
       "title": "How to spot a 1% startup early",
       "url": "https://www.lennysnewsletter.com/p/how-to-spot-a-1-startup-early",
@@ -935,21 +948,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2b6d4ba160d6e36c00c81f4a4dfcf309",
-      "title": "This week on How I AI: How Emmy Award–winning filmmakers use AI to automate the tedious parts of documentaries",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-emmy-awardwinning",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-17T16:03:26+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "805b4158e0f11b3fa9d1daf94baadd24",
       "title": "The State of Real Estate Credit | Satish Mansukhani of Rithm Capital on Mortgages, CRE, and More",
       "url": "https://www.youtube.com/watch?v=4VsX6Ut8Eg4",
@@ -1808,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-09T12:37:04.701856+00:00"
+  "generated_at": "2025-12-09T13:33:29.141340+00:00"
 }
