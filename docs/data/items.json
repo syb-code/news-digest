@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "de47ec6fef7d0ad3509c68c6532b2aa5",
+      "title": "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5",
+      "url": "https://www.youtube.com/watch?v=fRgzQXFlaFg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-10T14:01:31+00:00",
+      "summary": "Overview of major AI model releases: Gemini 3, NanoBanana, 5.1/5.1 Pro, Opus 4.5, and NotebookLM upgrades. Ten hands-on project ideas include speech-to-text automation, multimodal infographics and data visualization, precision image editing, and vibecoded web apps with voice age…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a3998c2a17a35f9d926dfc38426a7926",
       "title": "The 5 Biggest AI Stories To Watch In December",
       "url": "https://www.youtube.com/watch?v=IJla9e2NpB8",
@@ -682,22 +697,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9388eb2afa80bfa0c19c19df05f52010",
-      "title": "AI Executive Order Gets Paused",
-      "url": "https://www.youtube.com/watch?v=GRZ78RkHySE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-25T13:38:16+00:00",
-      "summary": "The White House pauses a proposed AI executive order after Republican pushback highlights a battle over federal preemption of state AI rules and an emerging political shift ahead of the midterms. Insurers are seeking to exclude AI risk amid growing litigation and fears about opa…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1805,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-10T13:34:46.554348+00:00"
+  "generated_at": "2025-12-10T14:19:23.335321+00:00"
 }
