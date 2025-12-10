@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a3998c2a17a35f9d926dfc38426a7926",
+      "title": "The 5 Biggest AI Stories To Watch In December",
+      "url": "https://www.youtube.com/watch?v=IJla9e2NpB8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-10T03:17:26+00:00",
+      "summary": "Gemini 3 and NanoBananaPro accelerated Google's momentum and intensified competition with OpenAI. Vibecoding and agentic versus assisted AI debates intersected with politicization and major tech layoffs, reframing jobs and regulatory concerns. Enterprise focus shifted to ROI, co…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0c3b40a30eaef4caa2ad8ef50f37056b",
       "title": "AI Has a PR Problem",
       "url": "https://www.youtube.com/watch?v=ETptuOlOnZE",
@@ -678,22 +693,6 @@
       "source_type": "youtube",
       "published": "2025-11-25T13:38:16+00:00",
       "summary": "The White House pauses a proposed AI executive order after Republican pushback highlights a battle over federal preemption of state AI rules and an emerging political shift ahead of the midterms. Insurers are seeking to exclude AI risk amid growing litigation and fears about opa…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "802ee8e2a7b50d4c1239edd9581573b1",
-      "title": "Why the AI Bubble Conversation is Useless",
-      "url": "https://www.youtube.com/watch?v=yjjVnmpvtVM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-25T00:14:01+00:00",
-      "summary": "The AI bubble debate is mainly a market discussion with limited relevance for operators and end-users. Sentiment is concentrated in a few big companies, macroeconomic pressures stem from weak consumer finances and tight Fed policies, and unprecedented multi-year capital expendit…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-10T03:19:42.511683+00:00"
+  "generated_at": "2025-12-10T04:30:17.350275+00:00"
 }
