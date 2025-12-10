@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2fa584785e255a739f67be053babd244",
+      "title": "Speed is not quality",
+      "url": "https://designplusai.com/p/speed-is-not-quality",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-10T19:25:49+00:00",
+      "summary": "There’s a seductive idea going around that speed is the new quality.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "de47ec6fef7d0ad3509c68c6532b2aa5",
       "title": "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5",
       "url": "https://www.youtube.com/watch?v=fRgzQXFlaFg",
@@ -1789,20 +1802,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "e1b5045e61bb003561212fc13fb10cb6",
-      "title": "Figma is the new photoshop",
-      "url": "https://designplusai.com/p/figma-is-the-new-photoshop",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-03T14:52:00+00:00",
-      "summary": "Figma is the new Photoshop.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-10T19:15:14.201634+00:00"
+  "generated_at": "2025-12-10T20:20:25.712736+00:00"
 }
