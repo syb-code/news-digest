@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "ea647dedcea259be796acded8f838ee5",
+      "title": "Deep Learning Weekly: Issue 434",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-12-11T16:00:36+00:00",
+      "summary": "Devstral 2 and Mistral Vibe CLI, AI Agent Orchestration Flows, a paper on Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d2d3711a7977d3c4963b6d76ec016979",
+      "title": "The State of Enterprise AI The State of Enterprise AI",
+      "url": "https://www.youtube.com/watch?v=FzGPptXjM0w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-11T15:25:06+00:00",
+      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1e15c33c874fc9dd7e59103320688a13",
       "title": "Anthropic Donates MCP to New Agentic AI Foundation",
       "url": "https://www.youtube.com/watch?v=YVdtjxw0DLA",
@@ -647,21 +677,6 @@
       "source_type": "rss",
       "published": "2025-11-27T12:32:16+00:00",
       "summary": "Here are my favorite design hacks from building 100+ Lovable projects:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "59e3e53f295f4ff7c4dd045d78fb99e5",
-      "title": "Study Says AI Can Automate 57% of Current Human Work Hours",
-      "url": "https://www.youtube.com/watch?v=WPGaIJACR9c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-27T00:58:41+00:00",
-      "summary": "Anthropic and McKinsey research quantifies how AI agents and conversational models can automate and augment work while mapping task-level impacts across occupations. Anthropic reports median task time savings near 80% with wide variation by occupation, and McKinsey finds 57% of …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1707,21 +1722,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b49358d4a8056a08e469abcd02261e4f",
-      "title": "Deep Learning Weekly: Issue 414",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-414",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-07-23T15:30:47+00:00",
-      "summary": "Gemini with Deep Think achieves gold-medal standard at the International Mathematical Olympiad, a paper on Chain of Thought Monitorability, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
       "title": "Good writing is the most underrated design skill",
       "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-11T15:20:48.571547+00:00"
+  "generated_at": "2025-12-11T16:25:50.524715+00:00"
 }
