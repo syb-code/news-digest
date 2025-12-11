@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a396c02f4f66652f717751c4cb427999",
+      "title": "Luke Gromen: Why AI Capital Spending Will Break the US Treasury Market",
+      "url": "https://www.youtube.com/watch?v=xqtalk5v4ts",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-11T18:12:19+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nLuke Gromen of Forrest For The Trees argues that the US is facing the \"Mother of All Crises\": a forced choice between losing the AI race to China or destroying the US Treasury market. In this d…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ea647dedcea259be796acded8f838ee5",
       "title": "Deep Learning Weekly: Issue 434",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
@@ -1063,21 +1078,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5d3545bd439a9b4dca1e18af79e95233",
-      "title": "Why Beating the Market Isn’t Enough for Investment Managers | Corey Hoffstein",
-      "url": "https://www.youtube.com/watch?v=znI5tYcoW6M",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-13T15:56:03+00:00",
-      "summary": "This Other People’s Money episode is brought you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nCorey Hoffstein, CEO and CIO of Newfound Research and co-founder and PM of Return Stacked ETFs, joins OPM to discuss his journey …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "76f12c941810c52674f4e759a5f60a2f",
       "title": "Government Shutdown Resolved — BUT Another Crisis Hits in December & January",
       "url": "https://www.youtube.com/watch?v=cdt3n5yLj3o",
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-11T17:22:43.335311+00:00"
+  "generated_at": "2025-12-11T18:24:42.335474+00:00"
 }
