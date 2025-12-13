@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "81880a2b9bbedaa5b4e6be2b13336c0f",
+      "title": "Why AI Advantage Compounds",
+      "url": "https://www.youtube.com/watch?v=QONt74CTUyE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-13T15:39:56+00:00",
+      "summary": "AI advantage compounds as organizations integrate GenAI into workflows and scale beyond isolated experiments. Surveys reveal widespread productivity and financial gains, attribution challenges, and gaps between expected and actual AI investment. Reinvestment into AI capabilities…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4ef0b4af9c7517a2e483439f3695c659",
       "title": "GPT-5.2 is Here",
       "url": "https://www.youtube.com/watch?v=_6WTIDY7aYs",
@@ -591,22 +606,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "534b2ba8d2cdef4dcf62022ddb20c9be",
-      "title": "How Big a Deal is the USA's AI Genesis Mission?",
-      "url": "https://www.youtube.com/watch?v=5O_iCMqBvH8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-11-30T12:18:41+00:00",
-      "summary": "The Genesis Mission establishes a Manhattan Project–scale national AI science program to centralize federal datasets, train scientific foundation models, and build a closed-loop AI experimentation platform using DOE supercomputers. Amazon pledged up to $50 billion to expand AWS …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-13T15:15:50.747713+00:00"
+  "generated_at": "2025-12-13T16:19:38.180682+00:00"
 }
