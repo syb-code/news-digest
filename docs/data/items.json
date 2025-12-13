@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b5e452bdac2ebe90c9df3be78aab2b2c",
+      "title": "🧠 Community Wisdom: The ROI of “wrapped” campaigns, identifying early product-market-fit, working with a non-PM manager, using Google AI Studio for rapid prototyping, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-roi-of-wrapped",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-13T16:36:52+00:00",
+      "summary": "Community Wisdom 165",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "81880a2b9bbedaa5b4e6be2b13336c0f",
       "title": "Why AI Advantage Compounds",
       "url": "https://www.youtube.com/watch?v=QONt74CTUyE",
@@ -990,19 +1005,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "84655c51fe6d3edd428480d0408c6177",
-      "title": "A holiday gift guide for tech people with taste 🤌",
-      "url": "https://www.lennysnewsletter.com/p/a-holiday-gift-guide-for-tech-people",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-18T13:45:40+00:00",
-      "summary": "No slop here",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "3a259956c735f8a1840dcf52a81154b5",
       "title": "$2,000 Stimulus Check Update — Trump Says \"Dividend Will Be Paid\"",
       "url": "https://www.youtube.com/watch?v=Xo6onlBKFL8",
@@ -1803,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-13T16:19:38.180682+00:00"
+  "generated_at": "2025-12-13T17:14:15.966950+00:00"
 }
