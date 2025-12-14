@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a45b2fd8a5d8904e8ee6a4c9221e82be",
+      "title": "Why humans are AI’s biggest bottleneck (and what’s coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)",
+      "url": "https://www.lennysnewsletter.com/p/why-humans-are-ais-biggest-bottleneck",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-14T13:31:26+00:00",
+      "summary": "OpenAI's Codex lead on 20x growth, how the Sora Android app hit #1 in 18 day, and why the best way to use AI coding tools is giving them your hardest problems.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
       "title": "The AI Race Gets a Massive Power Shift",
       "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
@@ -978,19 +993,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d657f8fdadfd5a52d650c8bb2265f399",
-      "title": "“Farm-to-table software”: How I built a Thanksgiving party hub using Lovable for managing invites, dishes, shared recipes, and photos",
-      "url": "https://www.lennysnewsletter.com/p/farm-to-table-software-how-i-built",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-19T13:03:41+00:00",
-      "summary": "Watch now | 🎙️ I share my personal tips for using Lovable to vibe code a party hub for hosting, how to uplevel designs with Google Fonts and Midjourney, and my favorite ChatGPT recipe hack for cooking with kids",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "41dc1dc562447c1b6527b696f7667b84",
       "title": "Harnessing the Hidden Alpha in Fundamental Investing | David Stemerman CenterBook Partners",
       "url": "https://www.youtube.com/watch?v=Li2hamW9qbk",
@@ -1806,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-14T13:24:37.544178+00:00"
+  "generated_at": "2025-12-14T14:15:12.537702+00:00"
 }
