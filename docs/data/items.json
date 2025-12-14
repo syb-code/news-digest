@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
+      "title": "The AI Race Gets a Massive Power Shift",
+      "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-14T01:29:16+00:00",
+      "summary": "President Trump approved exports of Nvidia H200 GPUs to China with a negotiated 25% revenue cut, reversing prior US export controls. Analysts warn the move trades national-security and compute advantage for short-term economic gains, with models projecting China’s AI compute sha…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b5e452bdac2ebe90c9df3be78aab2b2c",
       "title": "🧠 Community Wisdom: The ROI of “wrapped” campaigns, identifying early product-market-fit, working with a non-PM manager, using Google AI Studio for rapid prototyping, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-roi-of-wrapped",
@@ -504,21 +520,6 @@
       "source_type": "rss",
       "published": "2025-12-03T12:03:30+00:00",
       "summary": "Watch now | 🎙️ Testing Gemini 3, Opus 4.5, and GPT-5.1 Codex on the same redesign task to see which AI model is the best designer. The winner is clear.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ae4d2dc71b5123064e09ee29d5e13fc8",
-      "title": "A Practical Guide to Scaling AI",
-      "url": "https://www.youtube.com/watch?v=0UPdkPoZPJw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-02T16:10:46+00:00",
-      "summary": "OpenAI's practical roadmap identifies four mental shifts: move from tools to systems, accept rapid product velocity, surface solutions from any role, and pursue compounding ROI. A four-part scaling framework recommends foundations, AI fluency, open idea intake with clear priorit…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-14T01:26:11.636661+00:00"
+  "generated_at": "2025-12-14T03:25:57.848567+00:00"
 }
