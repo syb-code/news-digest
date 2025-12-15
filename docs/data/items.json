@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
+      "title": "Real World AI Evaluations",
+      "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-15T14:11:26+00:00",
+      "summary": "ArtificialAnalysis applied OpenAI's GDPVal real‑world benchmark and ranked Opus 4.5 first and GPT‑5 second, with one GPT variant trading a slight quality drop for far fewer tokens. Reports allege DeepSeek built a Blackwell chip training cluster through smuggling and Beijing held…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a850e53449e72fea4f22f989bb0041ab",
       "title": "How Zapier’s EA built an army of AI interns to automate meeting prep, strengthen team culture, and scale internal alignment | Cortney Hickey",
       "url": "https://www.lennysnewsletter.com/p/how-zapiers-ea-built-an-army-of-ai",
@@ -520,21 +535,6 @@
       "source_type": "rss",
       "published": "2025-12-04T13:32:07+00:00",
       "summary": "LinkedIn's CPO on killing the APM program, inventing \"full-stack builders\" and going all-in on AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8508b2bda3a1b31a851baa617b952066",
-      "title": "OpenAI Declares Code Red",
-      "url": "https://www.youtube.com/watch?v=g82rNlYYe8I",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-03T15:24:41+00:00",
-      "summary": "Sam Altman declared a \"code red\" at OpenAI to concentrate resources on improving ChatGPT amid rising pressure from Google's Gemini 3. Priority moves include personalization, improved model behavior, faster responses, and fewer unjustified refusals while advertising, AI agents, a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-15T13:37:49.288350+00:00"
+  "generated_at": "2025-12-15T14:21:51.322746+00:00"
 }
