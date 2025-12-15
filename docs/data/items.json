@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "a6454b99cb44f842fdabc4a59cc07cf5",
+      "title": "Trump's One Rule AI Order",
+      "url": "https://www.youtube.com/watch?v=jOGNcwWjB2M",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-15T22:23:31+00:00",
+      "summary": "Trump's executive order seeks federal preemption of state AI laws, empowers DOJ litigation, and ties Commerce funding to compliance, triggering legal challenges and GOP infighting. Approval of Nvidia H200 exports reshapes global chip strategy as China weighs massive subsidies an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8ed26b805ae4b255ae76cd90ef749b49",
       "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
@@ -525,21 +541,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ac981142f565a264fe07cd416c76c7d0",
-      "title": "OpenAI Preps New \"Garlic\" Model",
-      "url": "https://www.youtube.com/watch?v=8GJcv-kTZrs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-04T14:45:11+00:00",
-      "summary": "OpenAI’s new “Garlic” model takes center stage as fresh reporting reveals major breakthroughs in pre-training, internal benchmarks, and the roadmap toward GPT-5.2. At the same time, Anthropic surges with Opus 4.5, a billion-dollar run-rate for Claude Code, a new acquisition of B…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-15T22:17:09.310129+00:00"
+  "generated_at": "2025-12-15T23:17:02.324806+00:00"
 }
