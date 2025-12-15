@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a850e53449e72fea4f22f989bb0041ab",
+      "title": "How Zapier’s EA built an army of AI interns to automate meeting prep, strengthen team culture, and scale internal alignment | Cortney Hickey",
+      "url": "https://www.lennysnewsletter.com/p/how-zapiers-ea-built-an-army-of-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-15T13:03:34+00:00",
+      "summary": "Watch now | 🎙️ A Zapier EA shows how she automated meeting prep, executive feedback, and cultural reinforcement—turning AI agents into her own team of interns",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a45b2fd8a5d8904e8ee6a4c9221e82be",
       "title": "Why humans are AI’s biggest bottleneck (and what’s coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)",
       "url": "https://www.lennysnewsletter.com/p/why-humans-are-ais-biggest-bottleneck",
@@ -935,19 +950,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0c95aaac21e4e50d759e9471a16f623e",
-      "title": "Slack founder: Mental models for building products people love ft. Stewart Butterfield",
-      "url": "https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-20T14:03:33+00:00",
-      "summary": "The founder of Slack and Flickr on the \"owner's delusion,\" why reducing friction can be counterproductive, why generous leadership wins and more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "bb531ed0b08e01e392b72357dea4c102",
       "title": "AI Is Hiding A Weak Economy, Argues Lyn Alden",
       "url": "https://www.youtube.com/watch?v=TjNpAH6gYws",
@@ -1808,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-15T12:39:34.191813+00:00"
+  "generated_at": "2025-12-15T13:37:49.288350+00:00"
 }
