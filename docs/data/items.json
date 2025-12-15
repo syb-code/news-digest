@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8ed26b805ae4b255ae76cd90ef749b49",
+      "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-15T16:02:14+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
       "title": "Real World AI Evaluations",
       "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
@@ -884,19 +899,6 @@
       "source_type": "rss",
       "published": "2025-11-23T12:03:19+00:00",
       "summary": "Executive Coach Rachel Lockett: When to coach vs. tell, preventing burnout, co-founder relationships, difficult conversations, and her one-page plan framework",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "01587e826c13674106a36335e6f9744b",
-      "title": "🧠 Community Wisdom: Resurrecting churned users, doing performance reviews for 50 people, getting users to give you product feedback, managing a large backlog effectively, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-resurrecting-churned",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-22T19:37:41+00:00",
-      "summary": "Community Wisdom 162",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1810,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-15T15:21:12.205013+00:00"
+  "generated_at": "2025-12-15T16:25:54.319750+00:00"
 }
