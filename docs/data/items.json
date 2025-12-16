@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dff95064d2838cc0ce373f82689121ed",
+      "title": "Last Week in AI #329 - GPT 5.2, GenAI.mil, Disney in Sora",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-329-gpt-52-genaimil",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-16T07:45:13+00:00",
+      "summary": "GPT-5.2 is OpenAI’s latest move in the agentic AI battle, Google is powering a new US military AI platform, Trump Moves to Stop States From Regulating AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f7c940e3833b8211f4e6b1bf530fee0c",
       "title": "\"It's A Confidence Game\": AI Financing Warning From Jim Chanos",
       "url": "https://www.youtube.com/watch?v=R1HrPsfUkbk",
@@ -1632,21 +1647,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7bf483b662588104f724d1eac1ae7679",
-      "title": "Last Week in AI #318 - OpenAI OSS models, Opus 4.1, Gemini 2.5 Deep Think",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-318-openai-oss-models",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-06T22:08:11+00:00",
-      "summary": "OpenAI launches two ‘open’ AI reasoning models, Anthropic Releases Claude Opus 4.1 With Agentic, Google rolls out Gemini Deep Think AI, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dceabba31b0b12b3dc6ff97c4c93664f",
       "title": "Deep Learning Weekly: Issue 416",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-416",
@@ -1813,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-16T07:20:28.746521+00:00"
+  "generated_at": "2025-12-16T08:25:37.120964+00:00"
 }
