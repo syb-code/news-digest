@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6778ea3e527725fa0e1eae53a29104d9",
+      "title": "How to build your PM second brain with ChatGPT",
+      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain-e59",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-16T10:02:14+00:00",
+      "summary": "Use AI to amplify your craft, not replace it",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dff95064d2838cc0ce373f82689121ed",
       "title": "Last Week in AI #329 - GPT 5.2, GenAI.mil, Disney in Sora",
       "url": "https://lastweekin.ai/p/last-week-in-ai-329-gpt-52-genaimil",
@@ -923,19 +938,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cb6d018702017c10a2771ba2882e5534",
-      "title": "A guide to difficult conversations, building high-trust teams, and designing a life you love | Rachel Lockett",
-      "url": "https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-23T12:03:19+00:00",
-      "summary": "Executive Coach Rachel Lockett: When to coach vs. tell, preventing burnout, co-founder relationships, difficult conversations, and her one-page plan framework",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "1eb4b7ad1d9f7ece181ff9d01f8c35e0",
       "title": "LWiAI Podcast #225 - GPT 5.1, Kimi K2 Thinking, Remote Labor Index",
       "url": "https://lastweekin.ai/p/lwiai-podcast-225-gpt-51-kimi-k2",
@@ -1813,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-16T09:23:13.019173+00:00"
+  "generated_at": "2025-12-16T10:20:40.408604+00:00"
 }
