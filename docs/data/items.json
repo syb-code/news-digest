@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "322fae2e07a143e250218f03d29449cf",
+      "title": "AI Design Stack 2026",
+      "url": "https://designplusai.com/p/ai-design-stack-2026",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-16T18:35:23+00:00",
+      "summary": "Every tool, prompt, and workflow to turn rough ideas into polished, working products.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7ba697a08d652f60b6bb6c8ebf01e26d",
       "title": "How to build your PM second brain with ChatGPT",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain",
@@ -1800,20 +1815,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "abc222d8ab843cc8f157fda95ba5ca8e",
-      "title": "Invisible UX is coming",
-      "url": "https://designplusai.com/p/invisible-ux-is-coming",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-05T14:53:00+00:00",
-      "summary": "And it’s going to change how we design products, forever.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-16T18:26:54.907782+00:00"
+  "generated_at": "2025-12-16T19:16:51.267674+00:00"
 }
