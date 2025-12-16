@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7ba697a08d652f60b6bb6c8ebf01e26d",
+      "title": "How to build your PM second brain with ChatGPT",
+      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-16T13:45:33+00:00",
+      "summary": "Use AI to amplify your craft, not replace it",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6778ea3e527725fa0e1eae53a29104d9",
       "title": "How to build your PM second brain with ChatGPT",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain-e59",
@@ -887,21 +902,6 @@
       "source_type": "youtube",
       "published": "2025-11-24T15:39:35+00:00",
       "summary": "Robert Smith, Corporate Finance Editor at the FT, joins Jack to discuss the recent $12 billion bankruptcy of First Brands Group that has shocked the financial world. He explains the history of First Brands, its collapse, and the company’s ongoing bankruptcy proceedings. Robert a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "be1e6ea2d7db1faf48385b672ccbb4e7",
-      "title": "How to create your own AI performance coach: Optimizing your unique nutrition, recovery, and injury management needs | Lucas Werthein (Cactus)",
-      "url": "https://www.lennysnewsletter.com/p/how-to-create-your-own-ai-performance-coach",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-24T12:03:47+00:00",
-      "summary": "Watch now | 🎙️ Cactus’s Head of Technology on using AI to synthesize health data, how he optimized his performance after multiple surgeries, and why AI health coaches will transform health care",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-16T13:35:50.778793+00:00"
+  "generated_at": "2025-12-16T14:20:44.381197+00:00"
 }
