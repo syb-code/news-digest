@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1888d7277cecf6f0139d00412046a66d",
+      "title": "How This Value Investor Beat the Market and Grew His Hedge Fund | Yaron Naymark | 1 Main Capital",
+      "url": "https://www.youtube.com/watch?v=9zPaSq_nZ14",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-17T14:00:25+00:00",
+      "summary": "This episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nOver the last 8 years, Yaron Naymark, founder and managing partner of 1 Main Capital, has patiently grown his concentrated long-biased hedge fund b…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e262edfa6429ed1a76c29e3ed308ebe1",
       "title": "The Jobs Report Shows a Labor Market in Big Trouble",
       "url": "https://www.youtube.com/watch?v=Do8wVaeJ3JY",
@@ -1088,22 +1103,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "805b4158e0f11b3fa9d1daf94baadd24",
-      "title": "The State of Real Estate Credit | Satish Mansukhani of Rithm Capital on Mortgages, CRE, and More",
-      "url": "https://www.youtube.com/watch?v=4VsX6Ut8Eg4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-16T21:23:06+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN:\nhttps://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nSatish Mansukhani, managing director at…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3f4fe1419c8ede27bb33ec6531c526f1",
       "title": "The Plan to Turn Americans into Permanent Renters (50 Year Mortgage)",
       "url": "https://www.youtube.com/watch?v=zSw9Wbzn-Nc",
@@ -1815,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-17T13:31:07.967490+00:00"
+  "generated_at": "2025-12-17T14:18:50.237728+00:00"
 }
