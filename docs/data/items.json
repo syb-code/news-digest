@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1a3baa2191a5936bb68ae95e8e277a2c",
+      "title": "The new AI growth playbook for 2026: How Lovable hit $200M ARR in one year | Elena Verna (Head of Growth)",
+      "url": "https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-18T13:31:55+00:00",
+      "summary": "Elena Verna returns to break down Lovable’s explosive $200M ARR climb—and why AI forces every company to reinvent its growth playbook from the ground up",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ed6a428a6091893eaa4fb19c4199ca52",
       "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
       "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
@@ -938,21 +953,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9fb11cf6e75e71b346c211bf13dc6990",
-      "title": "This week on How I AI: How to create your own AI performance coach & “Farm-to-table software”",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-create",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-24T16:02:50+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fa6b810fb8369092b5798941c032ff83",
       "title": "Inside the $12 Billion Bankruptcy That Has Wall Street Worried | Robert Smith of the Financial Times",
       "url": "https://www.youtube.com/watch?v=kBucYLGKB0w",
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-18T13:33:50.874399+00:00"
+  "generated_at": "2025-12-18T14:19:11.321461+00:00"
 }
