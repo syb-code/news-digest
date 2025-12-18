@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ed6a428a6091893eaa4fb19c4199ca52",
+      "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
+      "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-18T13:24:31+00:00",
+      "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
       "title": "Will this Update from OpenAI Make AI Agents Work Better?",
       "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
@@ -616,21 +631,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "be2e13e6e5a71560e99e44be71871dc4",
-      "title": "Microsoft Changing AI Targets?",
-      "url": "https://www.youtube.com/watch?v=r7w8aGYGrME",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-06T04:08:01+00:00",
-      "summary": "Microsoft quota revisions ignite debate over AI demand versus company execution and trigger investor jitters. Nvidia CEO Jensen Huang frames AI as long-term infrastructure amid geopolitical competition, and OpenAI moves to deepen model-training observability with a Neptune acqui…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-18T12:36:31.815750+00:00"
+  "generated_at": "2025-12-18T13:33:50.874399+00:00"
 }
