@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
+      "title": "Will this Update from OpenAI Make AI Agents Work Better?",
+      "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-18T00:48:27+00:00",
+      "summary": "Anthropic's skill standard packages include instructions, scripts, and resources as folder-based Markdown modules for progressive disclosure and dynamic loading by agents. OpenAI's integration of skills into ChatGPT and Codex signals fast cross-platform standardization and a shi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f65b1da84e7c3c0de41afbbe865642ec",
       "title": "LWiAI Podcast #228 - GPT 5.2, Scaling Agents, Weird Generalization",
       "url": "https://lastweekin.ai/p/lwiai-podcast-228-gpt-52-scaling",
@@ -611,21 +626,6 @@
       "source_type": "youtube",
       "published": "2025-12-06T04:08:01+00:00",
       "summary": "Microsoft quota revisions ignite debate over AI demand versus company execution and trigger investor jitters. Nvidia CEO Jensen Huang frames AI as long-term infrastructure amid geopolitical competition, and OpenAI moves to deepen model-training observability with a Neptune acqui…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ee80caa4a796f678bb8e1656bafdada",
-      "title": "Can Today's AI Replace 12% of Work?",
-      "url": "https://www.youtube.com/watch?v=aNifWzsFOq8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-05T21:38:46+00:00",
-      "summary": "Project Iceberg's Iceberg Index maps skill-centered AI exposure and finds roughly 11.7% overlap with US wage-earning skills. The overlap concentrates in software and hidden cognitive tasks, and the index measures technical skill overlap rather than predicting job losses. Anthrop…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-17T23:16:37.161741+00:00"
+  "generated_at": "2025-12-18T01:17:27.568540+00:00"
 }
