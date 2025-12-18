@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0c5bcec973876baafe5ea38a66abb393",
+      "title": "Deep Learning Weekly: Issue 435",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2025-12-18T16:02:52+00:00",
+      "summary": "Announcing the Future of AI Engineering: Self-Optimizing Agents, Fantastic Bugs and Where to Find Them in AI Benchmarks, Motif-2-12.7B-Reasoning: A Guide to RL Training Recipes, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1a3baa2191a5936bb68ae95e8e277a2c",
       "title": "The new AI growth playbook for 2026: How Lovable hit $200M ARR in one year | Elena Verna (Head of Growth)",
       "url": "https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna",
@@ -1704,19 +1719,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "47c085dfc7fc56ea3141834f8c6f0768",
-      "title": "Deep Learning Weekly: Issue 415",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-415",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-07-31T15:02:36+00:00",
-      "summary": "Evaluating Grok 4’s Math Capabilities, Introducing Letta Filesystem, a paper on ASPERA: A Simulated Environment to Evaluate Planning for Complex Action Execution, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "fb73eee071b60f4f0dc1b9df5519251d",
       "title": "Ultimate AI Design Stack",
       "url": "https://designplusai.com/p/ultimate-ai-design-stack",
@@ -1814,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-18T15:19:35.569881+00:00"
+  "generated_at": "2025-12-18T16:24:48.644786+00:00"
 }
