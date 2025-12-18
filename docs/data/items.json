@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "999f7235dae7574b1643fc8246a686a4",
+      "title": "What If Hedge Funds Are Actually Good? | Andrew Beer",
+      "url": "https://www.youtube.com/watch?v=cc9CCAuYV70",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-18T18:36:01+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nWhy do institutional investors continue…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0c5bcec973876baafe5ea38a66abb393",
       "title": "Deep Learning Weekly: Issue 435",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
@@ -1103,21 +1118,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "41dc1dc562447c1b6527b696f7667b84",
-      "title": "Harnessing the Hidden Alpha in Fundamental Investing | David Stemerman CenterBook Partners",
-      "url": "https://www.youtube.com/watch?v=Li2hamW9qbk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-18T14:00:49+00:00",
-      "summary": "This Other People’s Money episode is brought you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nFundamental long-short equity investing has been in decline with fewer new fund launches and dwindling assets, but David Stemerma…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3a259956c735f8a1840dcf52a81154b5",
       "title": "$2,000 Stimulus Check Update — Trump Says \"Dividend Will Be Paid\"",
       "url": "https://www.youtube.com/watch?v=Xo6onlBKFL8",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-18T18:26:28.139111+00:00"
+  "generated_at": "2025-12-18T19:15:43.834600+00:00"
 }
