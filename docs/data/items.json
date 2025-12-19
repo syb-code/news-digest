@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f4f06c36a08b1e663377420b7217c7b0",
+      "title": "The Fed Isn’t Serious About Inflation — Money Printers Back On",
+      "url": "https://www.youtube.com/watch?v=ePPpAdfV0H8",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-12-19T17:01:21+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "44d244fefca8b928ae9f431b5f95a3ff",
       "title": "82% of Companies Are Seeing Positive AI ROI",
       "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
@@ -1273,21 +1288,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5b819ec36dcf374850d5a1f42a61072e",
-      "title": "Government Shutdown Turning Into a National Crisis — SNAP Cuts, TSA Unpaid, Markets on Edge",
-      "url": "https://www.youtube.com/watch?v=V9EYGMogrwM",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-10-31T15:38:49+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e6fe5bf1dbb59eb171461c4b48047a0e",
       "title": "Deep Learning Weekly: Issue 428",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-428",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-19T16:21:37.237152+00:00"
+  "generated_at": "2025-12-19T17:16:32.271127+00:00"
 }
