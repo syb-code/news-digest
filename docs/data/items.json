@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "44d244fefca8b928ae9f431b5f95a3ff",
+      "title": "82% of Companies Are Seeing Positive AI ROI",
+      "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-19T00:44:56+00:00",
+      "summary": "An AI ROI benchmarking study of over 1,200 respondents and 5,000 use cases found 82% positive ROI with 37% reporting significant or transformational impact. Timesavings was the most common benefit, averaging about eight hours saved per week, while strategic gains, new capabiliti…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "999f7235dae7574b1643fc8246a686a4",
       "title": "What If Hedge Funds Are Actually Good? | Andrew Beer",
       "url": "https://www.youtube.com/watch?v=cc9CCAuYV70",
@@ -613,21 +628,6 @@
       "source_type": "rss",
       "published": "2025-12-08T04:44:04+00:00",
       "summary": "DeepSeek Releases New Reasoning Models, Mistral closes in on Big AI rivals with new open-weight frontier and small models, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "eb3c188c09403f2c896fc7dcbd7bff3b",
-      "title": "What 1250 Professionals Said About Working With AI",
-      "url": "https://www.youtube.com/watch?v=ZwXY0U6l8yQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-07T18:12:51+00:00",
-      "summary": "Anthropic's semi-structured interviews of 1,250 professionals show broad optimism about AI boosting productivity while revealing concerns about creative identity, job displacement, stigma, and security. The research demonstrates a new genre of AI-assisted conversational surveys …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-18T23:16:46.526578+00:00"
+  "generated_at": "2025-12-19T01:21:00.782160+00:00"
 }
