@@ -1,18 +1,16 @@
 {
   "items": [
     {
-      "id": "44d244fefca8b928ae9f431b5f95a3ff",
-      "title": "82% of Companies Are Seeing Positive AI ROI",
-      "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
-      "source": "@AIDailyBrief",
+      "id": "f4f06c36a08b1e663377420b7217c7b0",
+      "title": "Inflation Cools to 2.7% — Even With Money Printers Back On",
+      "url": "https://www.youtube.com/watch?v=ePPpAdfV0H8",
+      "source": "@clearvaluetax9382",
       "source_type": "youtube",
-      "published": "2025-12-19T00:44:56+00:00",
-      "summary": "An AI ROI benchmarking study of over 1,200 respondents and 5,000 use cases found 82% positive ROI with 37% reporting significant or transformational impact. Timesavings was the most common benefit, averaging about eight hours saved per week, while strategic gains, new capabiliti…",
+      "published": "2025-12-19T17:01:21+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -46,36 +44,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ed6a428a6091893eaa4fb19c4199ca52",
-      "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
-      "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T13:24:31+00:00",
-      "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
-      "title": "Will this Update from OpenAI Make AI Agents Work Better?",
-      "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T00:48:27+00:00",
-      "summary": "Anthropic's skill standard packages include instructions, scripts, and resources as folder-based Markdown modules for progressive disclosure and dynamic loading by agents. OpenAI's integration of skills into ChatGPT and Codex signals fast cross-platform standardization and a shi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f65b1da84e7c3c0de41afbbe865642ec",
       "title": "LWiAI Podcast #228 - GPT 5.2, Scaling Agents, Weird Generalization",
       "url": "https://lastweekin.ai/p/lwiai-podcast-228-gpt-52-scaling",
@@ -88,6 +56,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e262edfa6429ed1a76c29e3ed308ebe1",
+      "title": "The Jobs Report Shows a Labor Market in Big Trouble",
+      "url": "https://www.youtube.com/watch?v=Do8wVaeJ3JY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-12-16T21:09:27+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -151,22 +132,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a6454b99cb44f842fdabc4a59cc07cf5",
-      "title": "Trump's One Rule AI Order",
-      "url": "https://www.youtube.com/watch?v=jOGNcwWjB2M",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T22:23:31+00:00",
-      "summary": "Trump's executive order seeks federal preemption of state AI laws, empowers DOJ litigation, and ties Commerce funding to compliance, triggering legal challenges and GOP infighting. Approval of Nvidia H200 exports reshapes global chip strategy as China weighs massive subsidies an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8ed26b805ae4b255ae76cd90ef749b49",
       "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
@@ -174,21 +139,6 @@
       "source_type": "rss",
       "published": "2025-12-15T16:02:14+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
-      "title": "Real World AI Evaluations",
-      "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T14:11:26+00:00",
-      "summary": "ArtificialAnalysis applied OpenAI's GDPVal real‑world benchmark and ranked Opus 4.5 first and GPT‑5 second, with one GPT variant trading a slight quality drop for far fewer tokens. Reports allege DeepSeek built a Blackwell chip training cluster through smuggling and Beijing held…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -227,22 +177,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
-      "title": "The AI Race Gets a Massive Power Shift",
-      "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-14T01:29:16+00:00",
-      "summary": "President Trump approved exports of Nvidia H200 GPUs to China with a negotiated 25% revenue cut, reversing prior US export controls. Analysts warn the move trades national-security and compute advantage for short-term economic gains, with models projecting China’s AI compute sha…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b5e452bdac2ebe90c9df3be78aab2b2c",
       "title": "🧠 Community Wisdom: The ROI of “wrapped” campaigns, identifying early product-market-fit, working with a non-PM manager, using Google AI Studio for rapid prototyping, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-roi-of-wrapped",
@@ -250,36 +184,6 @@
       "source_type": "rss",
       "published": "2025-12-13T16:36:52+00:00",
       "summary": "Community Wisdom 165",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "81880a2b9bbedaa5b4e6be2b13336c0f",
-      "title": "Why AI Advantage Compounds",
-      "url": "https://www.youtube.com/watch?v=QONt74CTUyE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-13T15:39:56+00:00",
-      "summary": "AI advantage compounds as organizations integrate GenAI into workflows and scale beyond isolated experiments. Surveys reveal widespread productivity and financial gains, attribution challenges, and gaps between expected and actual AI investment. Reinvestment into AI capabilities…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ef0b4af9c7517a2e483439f3695c659",
-      "title": "GPT-5.2 is Here",
-      "url": "https://www.youtube.com/watch?v=_6WTIDY7aYs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-12T00:52:36+00:00",
-      "summary": "GPT-5.2 debuts as a professional-focused model, boosting performance on spreadsheets, presentations, coding, long-context reasoning, and multi-step projects. Benchmark results highlight large gains on OpenAI's GDPVal metric and coding tests, plus lower hallucination rates and ro…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -303,32 +207,17 @@
       "bucket": "highlight"
     },
     {
-      "id": "d2d3711a7977d3c4963b6d76ec016979",
-      "title": "The State of Enterprise AI The State of Enterprise AI",
-      "url": "https://www.youtube.com/watch?v=FzGPptXjM0w",
-      "source": "@AIDailyBrief",
+      "id": "3f82fd031bfb09c8a76f7cf3ffd56823",
+      "title": "Fed Money Printing Starts on December 12th — Inflation Warning!",
+      "url": "https://www.youtube.com/watch?v=eTZzrIk2Imc",
+      "source": "@clearvaluetax9382",
       "source_type": "youtube",
-      "published": "2025-12-11T15:25:06+00:00",
-      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "published": "2025-12-10T23:19:55+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1e15c33c874fc9dd7e59103320688a13",
-      "title": "Anthropic Donates MCP to New Agentic AI Foundation",
-      "url": "https://www.youtube.com/watch?v=YVdtjxw0DLA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-11T03:17:06+00:00",
-      "summary": "Anthropic donated the Model Context Protocol to the Agent AI Foundation hosted by the Linux Foundation, creating neutral stewardship for agent standards, safety, and interoperability.  Rumors about OpenAI's GPT‑5.2 and new image models Chestnut and Hazelnut point to near‑term ga…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
+        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -343,51 +232,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "de47ec6fef7d0ad3509c68c6532b2aa5",
-      "title": "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5",
-      "url": "https://www.youtube.com/watch?v=fRgzQXFlaFg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-10T14:01:31+00:00",
-      "summary": "Overview of major AI model releases: Gemini 3, NanoBanana, 5.1/5.1 Pro, Opus 4.5, and NotebookLM upgrades. Ten hands-on project ideas include speech-to-text automation, multimodal infographics and data visualization, precision image editing, and vibecoded web apps with voice age…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a3998c2a17a35f9d926dfc38426a7926",
-      "title": "The 5 Biggest AI Stories To Watch In December",
-      "url": "https://www.youtube.com/watch?v=IJla9e2NpB8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-10T03:17:26+00:00",
-      "summary": "Gemini 3 and NanoBananaPro accelerated Google's momentum and intensified competition with OpenAI. Vibecoding and agentic versus assisted AI debates intersected with politicization and major tech layoffs, reframing jobs and regulatory concerns. Enterprise focus shifted to ROI, co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0c3b40a30eaef4caa2ad8ef50f37056b",
-      "title": "AI Has a PR Problem",
-      "url": "https://www.youtube.com/watch?v=ETptuOlOnZE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-09T17:07:06+00:00",
-      "summary": "Edelman and Pew surveys reveal deep public distrust of AI in the US, UK, and Germany while China and Brazil show much higher enthusiasm. Major drivers include fears of job loss, perceived corporate secrecy about layoffs, unequal economic impacts, and backlash against attention-h…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -432,33 +276,16 @@
       "bucket": "highlight"
     },
     {
-      "id": "98342fe7850359365ce9b40c68514177",
-      "title": "What People Are Actually Using AI for Right Now",
-      "url": "https://www.youtube.com/watch?v=BWTU9h0qjf0",
-      "source": "@AIDailyBrief",
+      "id": "ea21b2be605b33b329ca8a2528e238eb",
+      "title": "Another U.S. Credit Downgrade Is Coming — Get Ready",
+      "url": "https://www.youtube.com/watch?v=8rjHhvucdXo",
+      "source": "@clearvaluetax9382",
       "source_type": "youtube",
-      "published": "2025-12-09T01:19:06+00:00",
-      "summary": "A 100-trillion-token study from OpenRouter and A16Z analyzes real-world LLM interactions and documents a paradigm shift toward reasoning models and more tool invocation. Programming surged to dominate token consumption, rising from about 11% to over 50%, while roleplay and creat…",
+      "published": "2025-12-08T17:00:16+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c44d7fc3ce630b8e6e4d78a96293da0b",
-      "title": "Is GPT-5.2 \"Garlic\" Coming This Week?",
-      "url": "https://www.youtube.com/watch?v=Qmn187sGAUY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-08T19:16:36+00:00",
-      "summary": "Insider chatter suggests OpenAI may be preparing a GPT-5.2 release as early as this week with theinternal codename: “Garlic.” Today’s headlines episode breaks down the stakes for OpenAI. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -550,6 +377,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "6e2e7107e708308ff7ac3c80d18f7956",
+      "title": "The Fed Just Set The Stage for a Major Market Rally in 2026",
+      "url": "https://www.youtube.com/watch?v=lFea8Gntr-4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-12-04T20:00:49+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dd1eb0fb7764722e023868a12bc8063f",
       "title": "Deep Learning Weekly: Issue 433",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-433",
@@ -600,6 +442,19 @@
       "source_type": "rss",
       "published": "2025-12-02T15:05:36+00:00",
       "summary": "A deal you won’t find anywhere else—bringing the total value of the Product Pass to over $25,000",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9fbd36c9c100ac1676599a2cf4101801",
+      "title": "Silver Just Hit a New All-Time High — Is This The Top or the Beginning?",
+      "url": "https://www.youtube.com/watch?v=xllQnIKYzYw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-12-01T17:35:28+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -722,6 +577,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "1b840c8a04005119af8a6fa15bb4e7ff",
+      "title": "Fed's Money Printing is About to Start — Melt-Up Will Accelerate",
+      "url": "https://www.youtube.com/watch?v=ro4GIl1NG9Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-25T22:12:35+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b1c4183371bb149e66750c34ce40e6cd",
       "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
       "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
@@ -766,6 +636,38 @@
       "bucket": "highlight"
     },
     {
+      "id": "2a933d73b249038d69857a858b562b6b",
+      "title": "The Fed Is Conflicted — Markets Are Losing Confidence (Bitcoin • Stocks • Gold • Silver)",
+      "url": "https://www.youtube.com/watch?v=c-zKIMsPtks",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-21T18:00:44+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Crypto",
+        "Macro/Fed",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "54560204690f8584e92a64cf6376f13b",
+      "title": "Housing Market Crash Fears Rise — Foreclosures Up 20% and Climbing",
+      "url": "https://www.youtube.com/watch?v=WVfWrObOyRc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-19T18:30:41+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "83967139cbb788661e5ef377641df6ac",
       "title": "Deep Learning Weekly: Issue 431",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-431",
@@ -781,6 +683,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "3a259956c735f8a1840dcf52a81154b5",
+      "title": "$2,000 Stimulus Check Update — Trump Says \"Dividend Will Be Paid\"",
+      "url": "https://www.youtube.com/watch?v=Xo6onlBKFL8",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-17T17:01:05+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3f4fe1419c8ede27bb33ec6531c526f1",
+      "title": "The Plan to Turn Americans into Permanent Renters (50 Year Mortgage)",
+      "url": "https://www.youtube.com/watch?v=zSw9Wbzn-Nc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-14T17:01:51+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "18d1e5009664c0b057919a24cc19ee0a",
       "title": "Deep Learning Weekly: Issue 430",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
@@ -788,6 +720,19 @@
       "source_type": "rss",
       "published": "2025-11-13T16:02:08+00:00",
       "summary": "Kimi K2 Thinking, Nested Learning: A new ML paradigm for continual learning, a paper on SPICE: Self-Play In Corpus Environments Improves Reasoning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "76f12c941810c52674f4e759a5f60a2f",
+      "title": "Government Shutdown Resolved — BUT Another Crisis Hits in December & January",
+      "url": "https://www.youtube.com/watch?v=cdt3n5yLj3o",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-11T18:00:55+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -809,6 +754,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "72f452bcc995b6cbfa5d30c5b3d8838c",
+      "title": "America's Labor Market is Crashing — Fed Can't Ignore This",
+      "url": "https://www.youtube.com/watch?v=m92GE57Rn7o",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-07T18:13:33+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6bbeb898cb7dc3ce4394f39c1bf2ed3b",
       "title": "LWiAI Podcast #224 - OpenAI is for-profit! Cursor 2, Minimax M2, Udio copyright",
       "url": "https://lastweekin.ai/p/lwiai-podcast-224-openai-is-for-profit",
@@ -824,6 +784,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "962123de371e16bb6bcc00172267e1aa",
+      "title": "IRS $600 Tax Rule for 2025 Changed (Venmo - Cash App - PayPal)",
+      "url": "https://www.youtube.com/watch?v=w_iS2JNEtYM",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-05T18:01:00+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b82d6ff219ffef22da8b689fa3b2ce45",
       "title": "Deep Learning Weekly: Issue 429",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-429",
@@ -836,6 +809,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0c9f2295b65d33308fbbd7720bbdadb7",
+      "title": "America's $38 Trillion Debt Crisis — It's Spiraling Out of Control",
+      "url": "https://www.youtube.com/watch?v=C2tMd1VAh4Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-11-03T18:00:12+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1380,5 +1366,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-20T05:16:50.914571+00:00"
+  "generated_at": "2025-12-20T06:25:36.034052+00:00"
 }
