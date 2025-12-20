@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "898751c08845d68b93abaa54afb02e96",
+      "title": "🧠 Community Wisdom: What PMs need to master in the age of AI, testing product activation with AI browsers, splitting time between PM work and prompt engineering, Mixpanel vs. PostHog, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-pms-need-to",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-20T17:00:41+00:00",
+      "summary": "Community Wisdom 166",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f4f06c36a08b1e663377420b7217c7b0",
       "title": "Inflation Cools to 2.7% — Even With Money Printers Back On",
       "url": "https://www.youtube.com/watch?v=ePPpAdfV0H8",
@@ -844,21 +859,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d9f91c2a3b5f59d58ebef4ac64ee98dd",
-      "title": "What world-class GTM looks like in 2026 | Jeanne DeWitt Grosser (Vercel, Stripe, Google)",
-      "url": "https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-30T12:03:26+00:00",
-      "summary": "How Vercel replaced 10 SDRs with 1 person + AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-20T16:19:40.543503+00:00"
+  "generated_at": "2025-12-20T17:13:46.888941+00:00"
 }
