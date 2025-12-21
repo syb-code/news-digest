@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
+      "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
+      "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-21T14:00:58+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nRead about Indian Aerospace & Defense and sign up for Dispatches From India: https://www.gymkhanapartners.com/dispatches/major-sec…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f48a859e53a5c6820f8e06f238fa4148",
+      "title": "The coming AI security crisis (and what to do about it) | Sander Schulhoff",
+      "url": "https://www.lennysnewsletter.com/p/the-coming-ai-security-crisis",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-21T13:31:22+00:00",
+      "summary": "AI guardrails don't work. Security researcher Sander Schulhoff on prompt injection, red teaming, why AI defenses fail, and what actually secures AI products.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ba1431ddc1a8e66ded9ebc211fc47d50",
       "title": "The Most Important AI Stories This Week",
       "url": "https://www.youtube.com/watch?v=z50UOrFJDgo",
@@ -847,21 +877,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2577aaf686b4b508dc736aa1b2efcad6",
-      "title": "🧠 Community Wisdom: Using Cursor for PM work, AI workflows for writers, tips for writing cold emails, building defensible moats, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-using-cursor-for",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-30T17:32:37+00:00",
-      "summary": "Community Wisdom 163",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "528bfa637f19db7c192de454d3663dd0",
       "title": "The Rise of the Founding Designer",
       "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
@@ -1059,21 +1074,6 @@
       "source_type": "rss",
       "published": "2025-11-22T08:27:26+00:00",
       "summary": "OpenAI says the brand-new GPT-5.1 is ‘warmer’, Baidu Unveils ERNIE 5.0, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "989d16a813bbb88571d7cd29954aad91",
-      "title": "Is The AI Bubble Popping?",
-      "url": "https://www.youtube.com/watch?v=bqfn2U_CrRQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-21T22:32:05+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nAs investors’ outlook on AI capital expenditure sours, Jack and Max explore the rising debt issuance to fund artificial intelligen…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-21T13:25:02.846618+00:00"
+  "generated_at": "2025-12-21T14:15:29.666933+00:00"
 }
