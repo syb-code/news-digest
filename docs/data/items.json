@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "19ccad02473441191ab35386c01f4e35",
+      "title": "This week on How I AI: How to get your whole team excited about AI",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-get",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-22T16:02:34+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "11ec16156c4931789b8db661df9db84c",
       "title": "How to get your whole team excited about AI (and actually using it) | Brian Greenbaum (product designer at Pendo)",
       "url": "https://www.lennysnewsletter.com/p/how-to-get-your-whole-team-excited",
@@ -859,21 +874,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3c9bc926d7bc5010fa592deeeed8610f",
-      "title": "This week on How I AI: “PMs who use AI will replace those who don’t” with Marily Nika",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-pms-who-use",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-01T16:03:01+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-22T15:19:13.053299+00:00"
+  "generated_at": "2025-12-22T16:21:28.672190+00:00"
 }
