@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fe8a8ac0cd890bc515cfbe9b75a3c63e",
+      "title": "10 Holiday-Themed Kids AI Activities",
+      "url": "https://www.youtube.com/watch?v=axZhe6W-FEY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-22T00:22:41+00:00",
+      "summary": "Ten holiday-themed AI activities for children include a digital scrapbook, a gratitude coloring book, and an AI-illustrated storybook. Additional projects feature printable holiday cards, a kindness advent calendar, a shelter \"underdog\" adoption campaign, personalized elf audio …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
       "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
       "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
@@ -613,21 +628,6 @@
       "source_type": "rss",
       "published": "2025-12-09T08:41:54+00:00",
       "summary": "Deepseek 3.2 New AI Model is Faster, Cheaper and Smarter, NVIDIA’s Partners Are Beginning to Tilt Toward Google’s TPU Ecosystem, Nested Learning: The Illusion of Deep Learning Architecture",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "98342fe7850359365ce9b40c68514177",
-      "title": "What People Are Actually Using AI for Right Now",
-      "url": "https://www.youtube.com/watch?v=BWTU9h0qjf0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-09T01:19:06+00:00",
-      "summary": "A 100-trillion-token study from OpenRouter and A16Z analyzes real-world LLM interactions and documents a paradigm shift toward reasoning models and more tool invocation. Programming surged to dominate token consumption, rising from about 11% to over 50%, while roleplay and creat…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-21T23:15:52.626937+00:00"
+  "generated_at": "2025-12-22T01:24:21.194137+00:00"
 }
