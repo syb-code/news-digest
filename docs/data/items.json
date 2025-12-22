@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "11ec16156c4931789b8db661df9db84c",
+      "title": "How to get your whole team excited about AI (and actually using it) | Brian Greenbaum (product designer at Pendo)",
+      "url": "https://www.lennysnewsletter.com/p/how-to-get-your-whole-team-excited",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-22T13:03:27+00:00",
+      "summary": "Watch now | 🎙️ How to transform your organization from AI-curious to AI-proficient: synchronous workshops, asynchronous sharing channels, and measuring adoption success",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fe8a8ac0cd890bc515cfbe9b75a3c63e",
       "title": "10 Holiday-Themed Kids AI Activities",
       "url": "https://www.youtube.com/watch?v=axZhe6W-FEY",
@@ -854,21 +869,6 @@
       "source_type": "rss",
       "published": "2025-12-01T16:03:01+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e79bbcb9a4092099636ede5d33c22270",
-      "title": "“PMs who use AI will replace those who don’t”: Google’s AI product lead on the new PM toolkit | Marily Nika",
-      "url": "https://www.lennysnewsletter.com/p/pms-who-use-ai-will-replace-those",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-01T12:03:59+00:00",
-      "summary": "Watch now | 🎙️ Google’s AI product lead shares her end-to-end workflow for using AI to conduct market research, generate PRDs, build interactive prototypes, and create compelling videos that sell your vision",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-22T12:36:31.202425+00:00"
+  "generated_at": "2025-12-22T13:31:42.147411+00:00"
 }
