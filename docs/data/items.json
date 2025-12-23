@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b8447d2d5169b15db828547a226ee09d",
+      "title": "How to Invest in 2026: Don’t Fight the Fed",
+      "url": "https://www.youtube.com/watch?v=gksY8Vj6KCQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2025-12-23T17:15:06+00:00",
+      "summary": "⭐ Visit our Patreon to see what I'm investing in for 2026 and more investing content: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.c…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "32501e07cfe8ded3a99f122974e66658",
       "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
       "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
@@ -1260,19 +1275,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0c9f2295b65d33308fbbd7720bbdadb7",
-      "title": "America's $38 Trillion Debt Crisis — It's Spiraling Out of Control",
-      "url": "https://www.youtube.com/watch?v=C2tMd1VAh4Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-11-03T18:00:12+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "3552421a1d5f89a2998ef62abfefcf14",
       "title": "The Golden Age of the Design Founder",
       "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
@@ -1814,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-23T17:17:37.508089+00:00"
+  "generated_at": "2025-12-23T18:25:44.140532+00:00"
 }
