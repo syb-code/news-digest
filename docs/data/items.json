@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "32501e07cfe8ded3a99f122974e66658",
+      "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-23T13:45:19+00:00",
+      "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "19ccad02473441191ab35386c01f4e35",
       "title": "This week on How I AI: How to get your whole team excited about AI",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-get",
@@ -835,19 +850,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "07e5d03946eae5825edb11184a50efdb",
-      "title": "A year free of PostHog ($16,500 value): The all-in-one analytics, experimentation, feature flag, surveys, session replay, error tracking, data warehouse, LLM analytics platform",
-      "url": "https://www.lennysnewsletter.com/p/a-year-free-of-posthog-16500-value",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-02T15:05:36+00:00",
-      "summary": "A deal you won’t find anywhere else—bringing the total value of the Product Pass to over $25,000",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-23T13:33:30.417040+00:00"
+  "generated_at": "2025-12-23T14:17:35.783985+00:00"
 }
