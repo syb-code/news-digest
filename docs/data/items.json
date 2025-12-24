@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "995519fc2d16084231835f8b3c146a7c",
+      "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
+      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results-c08",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-24T02:50:17+00:00",
+      "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7148ec086f75899f100907cba62f87fe",
       "title": "How AI Starts Doing the Work in 2026 with Anthropic CPO Mike Krieger",
       "url": "https://www.youtube.com/watch?v=VSLEGpCemtE",
@@ -845,21 +860,6 @@
       "source_type": "rss",
       "published": "2025-12-04T13:32:07+00:00",
       "summary": "LinkedIn's CPO on killing the APM program, inventing \"full-stack builders\" and going all-in on AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2f148f3e1382c04869cc000f8d8fe97a",
-      "title": "Gemini 3 vs. Claude Opus 4.5 vs. GPT-5.1 Codex: Which AI model is the best designer?",
-      "url": "https://www.lennysnewsletter.com/p/which-ai-model-is-the-best-designer",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-03T12:03:30+00:00",
-      "summary": "Watch now | 🎙️ Testing Gemini 3, Opus 4.5, and GPT-5.1 Codex on the same redesign task to see which AI model is the best designer. The winner is clear.",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-24T01:19:59.600211+00:00"
+  "generated_at": "2025-12-24T03:21:07.094581+00:00"
 }
