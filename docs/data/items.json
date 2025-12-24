@@ -16,21 +16,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7148ec086f75899f100907cba62f87fe",
-      "title": "How AI Starts Doing the Work in 2026 with Anthropic CPO Mike Krieger",
-      "url": "https://www.youtube.com/watch?v=VSLEGpCemtE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-24T00:25:11+00:00",
-      "summary": "Anthropic CPO Mike Krieger joins AI Daily Brief to map where “vibe coding” is headed in 2026—from Claude’s early coding focus to the rise of longer-horizon, more autonomous coding agents like Claude Code. The conversation breaks down what’s changing across three worlds: software…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "32501e07cfe8ded3a99f122974e66658",
       "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
       "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
@@ -76,21 +61,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fe8a8ac0cd890bc515cfbe9b75a3c63e",
-      "title": "10 Holiday-Themed Kids AI Activities",
-      "url": "https://www.youtube.com/watch?v=axZhe6W-FEY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-22T00:22:41+00:00",
-      "summary": "Ten holiday-themed AI activities for children include a digital scrapbook, a gratitude coloring book, and an AI-illustrated storybook. Additional projects feature printable holiday cards, a kindness advent calendar, a shelter \"underdog\" adoption campaign, personalized elf audio …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f48a859e53a5c6820f8e06f238fa4148",
       "title": "The coming AI security crisis (and what to do about it) | Sander Schulhoff",
       "url": "https://www.lennysnewsletter.com/p/the-coming-ai-security-crisis",
@@ -106,21 +76,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ba1431ddc1a8e66ded9ebc211fc47d50",
-      "title": "The Most Important AI Stories This Week",
-      "url": "https://www.youtube.com/watch?v=z50UOrFJDgo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-21T00:37:11+00:00",
-      "summary": "A rapid-fire roundup of the biggest AI stories of the week, from Google’s Gemini 3 Flash pushing the speed and efficiency frontier to fresh OpenAI fundraising rumors that highlight the escalating cost of compute and shifting cloud alliances. Amazon’s AI reorganization and leader…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "898751c08845d68b93abaa54afb02e96",
       "title": "🧠 Community Wisdom: What PMs need to master in the age of AI, testing product activation with AI browsers, splitting time between PM work and prompt engineering, Mixpanel vs. PostHog, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-pms-need-to",
@@ -128,21 +83,6 @@
       "source_type": "rss",
       "published": "2025-12-20T17:00:41+00:00",
       "summary": "Community Wisdom 166",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "44d244fefca8b928ae9f431b5f95a3ff",
-      "title": "82% of Companies Are Seeing Positive AI ROI",
-      "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-19T00:44:56+00:00",
-      "summary": "An AI ROI benchmarking study of over 1,200 respondents and 5,000 use cases found 82% positive ROI with 37% reporting significant or transformational impact. Timesavings was the most common benefit, averaging about eight hours saved per week, while strategic gains, new capabiliti…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -173,36 +113,6 @@
       "source_type": "rss",
       "published": "2025-12-18T13:31:55+00:00",
       "summary": "Elena Verna returns to break down Lovable’s explosive $200M ARR climb—and why AI forces every company to reinvent its growth playbook from the ground up",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ed6a428a6091893eaa4fb19c4199ca52",
-      "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
-      "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T13:24:31+00:00",
-      "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
-      "title": "Will this Update from OpenAI Make AI Agents Work Better?",
-      "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T00:48:27+00:00",
-      "summary": "Anthropic's skill standard packages include instructions, scripts, and resources as folder-based Markdown modules for progressive disclosure and dynamic loading by agents. OpenAI's integration of skills into ChatGPT and Codex signals fast cross-platform standardization and a shi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -286,22 +196,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a6454b99cb44f842fdabc4a59cc07cf5",
-      "title": "Trump's One Rule AI Order",
-      "url": "https://www.youtube.com/watch?v=jOGNcwWjB2M",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T22:23:31+00:00",
-      "summary": "Trump's executive order seeks federal preemption of state AI laws, empowers DOJ litigation, and ties Commerce funding to compliance, triggering legal challenges and GOP infighting. Approval of Nvidia H200 exports reshapes global chip strategy as China weighs massive subsidies an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8ed26b805ae4b255ae76cd90ef749b49",
       "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
@@ -309,21 +203,6 @@
       "source_type": "rss",
       "published": "2025-12-15T16:02:14+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
-      "title": "Real World AI Evaluations",
-      "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T14:11:26+00:00",
-      "summary": "ArtificialAnalysis applied OpenAI's GDPVal real‑world benchmark and ranked Opus 4.5 first and GPT‑5 second, with one GPT variant trading a slight quality drop for far fewer tokens. Reports allege DeepSeek built a Blackwell chip training cluster through smuggling and Beijing held…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -362,22 +241,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
-      "title": "The AI Race Gets a Massive Power Shift",
-      "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-14T01:29:16+00:00",
-      "summary": "President Trump approved exports of Nvidia H200 GPUs to China with a negotiated 25% revenue cut, reversing prior US export controls. Analysts warn the move trades national-security and compute advantage for short-term economic gains, with models projecting China’s AI compute sha…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b5e452bdac2ebe90c9df3be78aab2b2c",
       "title": "🧠 Community Wisdom: The ROI of “wrapped” campaigns, identifying early product-market-fit, working with a non-PM manager, using Google AI Studio for rapid prototyping, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-roi-of-wrapped",
@@ -385,36 +248,6 @@
       "source_type": "rss",
       "published": "2025-12-13T16:36:52+00:00",
       "summary": "Community Wisdom 165",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "81880a2b9bbedaa5b4e6be2b13336c0f",
-      "title": "Why AI Advantage Compounds",
-      "url": "https://www.youtube.com/watch?v=QONt74CTUyE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-13T15:39:56+00:00",
-      "summary": "AI advantage compounds as organizations integrate GenAI into workflows and scale beyond isolated experiments. Surveys reveal widespread productivity and financial gains, attribution challenges, and gaps between expected and actual AI investment. Reinvestment into AI capabilities…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ef0b4af9c7517a2e483439f3695c659",
-      "title": "GPT-5.2 is Here",
-      "url": "https://www.youtube.com/watch?v=_6WTIDY7aYs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-12T00:52:36+00:00",
-      "summary": "GPT-5.2 debuts as a professional-focused model, boosting performance on spreadsheets, presentations, coding, long-context reasoning, and multi-step projects. Benchmark results highlight large gains on OpenAI's GDPVal metric and coding tests, plus lower hallucination rates and ro…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -438,36 +271,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d2d3711a7977d3c4963b6d76ec016979",
-      "title": "The State of Enterprise AI The State of Enterprise AI",
-      "url": "https://www.youtube.com/watch?v=FzGPptXjM0w",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-11T15:25:06+00:00",
-      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1e15c33c874fc9dd7e59103320688a13",
-      "title": "Anthropic Donates MCP to New Agentic AI Foundation",
-      "url": "https://www.youtube.com/watch?v=YVdtjxw0DLA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-11T03:17:06+00:00",
-      "summary": "Anthropic donated the Model Context Protocol to the Agent AI Foundation hosted by the Linux Foundation, creating neutral stewardship for agent standards, safety, and interoperability.  Rumors about OpenAI's GPT‑5.2 and new image models Chestnut and Hazelnut point to near‑term ga…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2fa584785e255a739f67be053babd244",
       "title": "Speed is not quality",
       "url": "https://designplusai.com/p/speed-is-not-quality",
@@ -478,36 +281,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "de47ec6fef7d0ad3509c68c6532b2aa5",
-      "title": "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5",
-      "url": "https://www.youtube.com/watch?v=fRgzQXFlaFg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-10T14:01:31+00:00",
-      "summary": "Overview of major AI model releases: Gemini 3, NanoBanana, 5.1/5.1 Pro, Opus 4.5, and NotebookLM upgrades. Ten hands-on project ideas include speech-to-text automation, multimodal infographics and data visualization, precision image editing, and vibecoded web apps with voice age…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a3998c2a17a35f9d926dfc38426a7926",
-      "title": "The 5 Biggest AI Stories To Watch In December",
-      "url": "https://www.youtube.com/watch?v=IJla9e2NpB8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-10T03:17:26+00:00",
-      "summary": "Gemini 3 and NanoBananaPro accelerated Google's momentum and intensified competition with OpenAI. Vibecoding and agentic versus assisted AI debates intersected with politicization and major tech layoffs, reframing jobs and regulatory concerns. Enterprise focus shifted to ROI, co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1382,5 +1155,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-24T06:28:33.328807+00:00"
+  "generated_at": "2025-12-24T07:20:41.714711+00:00"
 }
