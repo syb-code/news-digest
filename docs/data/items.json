@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7148ec086f75899f100907cba62f87fe",
+      "title": "How AI Starts Doing the Work in 2026 with Anthropic CPO Mike Krieger",
+      "url": "https://www.youtube.com/watch?v=VSLEGpCemtE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-24T00:25:11+00:00",
+      "summary": "Anthropic CPO Mike Krieger joins AI Daily Brief to map where “vibe coding” is headed in 2026—from Claude’s early coding focus to the rise of longer-horizon, more autonomous coding agents like Claude Code. The conversation breaks down what’s changing across three worlds: software…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b8447d2d5169b15db828547a226ee09d",
       "title": "How to Invest in 2026: Don’t Fight the Fed",
       "url": "https://www.youtube.com/watch?v=gksY8Vj6KCQ",
@@ -617,21 +632,6 @@
       "source_type": "youtube",
       "published": "2025-12-10T03:17:26+00:00",
       "summary": "Gemini 3 and NanoBananaPro accelerated Google's momentum and intensified competition with OpenAI. Vibecoding and agentic versus assisted AI debates intersected with politicization and major tech layoffs, reframing jobs and regulatory concerns. Enterprise focus shifted to ROI, co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0c3b40a30eaef4caa2ad8ef50f37056b",
-      "title": "AI Has a PR Problem",
-      "url": "https://www.youtube.com/watch?v=ETptuOlOnZE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-09T17:07:06+00:00",
-      "summary": "Edelman and Pew surveys reveal deep public distrust of AI in the US, UK, and Germany while China and Brazil show much higher enthusiasm. Major drivers include fears of job loss, perceived corporate secrecy about layoffs, unequal economic impacts, and backlash against attention-h…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-23T23:15:51.452850+00:00"
+  "generated_at": "2025-12-24T01:19:59.600211+00:00"
 }
