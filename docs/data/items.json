@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6aa6b69fd063da323031d7faa13146c5",
+      "title": "“Nothing Terrifies Chinese Policymakers More” | Former Chief U.S. Treasury Diplomat Jay Shambaugh",
+      "url": "https://www.youtube.com/watch?v=uE6U7SFZz-s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-24T21:08:19+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJay Shambaugh, former Under Secretary of the Treasury for International Affairs, joins Jack to discuss U.S. economic relations, China, and more. He draws on his years of expertise to deliver im…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "544ed2c4e7260a02a1c781dae55d0d02",
       "title": "The 10 Biggest AI Stories of 2025",
       "url": "https://www.youtube.com/watch?v=BpAlN1KBHEQ",
@@ -1056,21 +1071,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f1fe015de32a186544cacd17a7718784",
-      "title": "The AI Trade Is Shifting: Why Investors Must \"Avoid The Middle\" | Dan Krausz",
-      "url": "https://www.youtube.com/watch?v=d-jbOHkJOPk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-23T19:39:15+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm \n\nDan Krausz of Blue Door Asset Management joins Monetary Matters to argue that the global economy is currently driven by two domin…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bd8d4b16e9c9a5217df986fc1192bba3",
       "title": "Everyone is a builder now",
       "url": "https://designplusai.com/p/everyone-is-a-builder-now",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-24T20:18:19.793739+00:00"
+  "generated_at": "2025-12-24T21:15:09.432930+00:00"
 }
