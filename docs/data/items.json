@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f1d24e99570a7e6d18d1b81f9150e278",
+      "title": "Last Week in AI #330 - Groq->Nvidia , ChatGPT Apps, US AI Genesis Mission",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-330-groq-nvidia-chatgpt",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-25T08:51:51+00:00",
+      "summary": "Nvidia buying AI chip startup Groq’s assets for about $20 billion in largest deal on record, OpenAI opens ChatGPT to third-party apps via its Platform, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6aa6b69fd063da323031d7faa13146c5",
       "title": "“Nothing Terrifies Chinese Policymakers More” | Former Chief U.S. Treasury Diplomat Jay Shambaugh",
       "url": "https://www.youtube.com/watch?v=uE6U7SFZz-s",
@@ -1646,21 +1661,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "00e79f03d116d9801ae857840169ba37",
-      "title": "Last Week in AI #319 - GPT-5, $1 Models for US, DINOv3, Tech Jobs",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-319-gpt-5-1-models",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-16T13:02:31+00:00",
-      "summary": "OpenAI Finally Launched GPT-5. Here's Everything You Need to Know, Anthropic Claude to ‘all three branches of government’ for $1, Student Coders Seek Work at Chipotle",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5c7e9f75b4c97f699e6998acbc5118c4",
       "title": "Deep Learning Weekly: Issue 417",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-25T08:24:00.481847+00:00"
+  "generated_at": "2025-12-25T09:19:44.401634+00:00"
 }
