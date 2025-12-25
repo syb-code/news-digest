@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "58aad7db8874d01c514bd133536b2477",
+      "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-25T21:29:26+00:00",
+      "summary": "Google launches Gemini 3 Flash, ChatGPT launches an app store, Introducing GPT-5.2-Codex",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f1d24e99570a7e6d18d1b81f9150e278",
       "title": "Last Week in AI #330 - Groq->Nvidia , ChatGPT Apps, US AI Genesis Mission",
       "url": "https://lastweekin.ai/p/last-week-in-ai-330-groq-nvidia-chatgpt",
@@ -1631,21 +1646,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "33c4e895c8e3439ac212d0b8a9251329",
-      "title": "Last Week in AI #320 - Gemini 2.5 Flash Image, Lawsuit Settled, Claude for Chrome",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-320-gemini-25-flash",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-27T18:03:14+00:00",
-      "summary": "Google Gemini’s AI image model gets a ‘bananas’ upgrade, Anthropic Settles High-Profile AI Copyright Lawsuit Brought by Book Authors, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3f963b1337f3d4e56e3c421b99581033",
       "title": "Deep Learning Weekly: Issue 418",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-418",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-25T21:15:55.807575+00:00"
+  "generated_at": "2025-12-25T22:16:39.718218+00:00"
 }
