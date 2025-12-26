@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b668210014901d0d3bf051da97a5a774",
+      "title": "51 Charts Explaining AI in 2026",
+      "url": "https://www.youtube.com/watch?v=HcyUUvxkykE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-26T14:24:56+00:00",
+      "summary": "51 charts map the AI landscape heading into 2026—showing why capabilities keep accelerating (reasoning tokens, longer task horizons, usable long-context), even as progress stays jagged and bottlenecked by process + verification. The episode then zooms out to the big forces shapi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "58aad7db8874d01c514bd133536b2477",
       "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
       "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
@@ -682,21 +697,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "de47ec6fef7d0ad3509c68c6532b2aa5",
-      "title": "10 AI Projects to Learn Gemini 3, Nano Banana and Opus 4.5",
-      "url": "https://www.youtube.com/watch?v=fRgzQXFlaFg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-10T14:01:31+00:00",
-      "summary": "Overview of major AI model releases: Gemini 3, NanoBanana, 5.1/5.1 Pro, Opus 4.5, and NotebookLM upgrades. Ten hands-on project ideas include speech-to-text automation, multimodal infographics and data visualization, precision image editing, and vibecoded web apps with voice age…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-26T14:16:57.694688+00:00"
+  "generated_at": "2025-12-26T15:17:45.116046+00:00"
 }
