@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e3fa6737fc15642eb8cc72ecf2c8f77d",
+      "title": "The 5 Most Impactful AI Model Releases of 2025",
+      "url": "https://www.youtube.com/watch?v=1KUKh7TofLg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-27T20:32:46+00:00",
+      "summary": "A countdown of the 2025 model releases that most changed how AI is built, used, and talked about—plus a few notable omissions. The list runs from GPT-5’s backlash and Gemini 3’s rebound effect on the “AI plateau” narrative, to the rise of Chinese open-weight models, to Nano Bana…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2009ff99f4aa1464933e60749672d8cb",
       "title": "🧠 Community Wisdom: Measuring business impact after rollout, clarity vs. capacity as the real bottleneck, what makes podcast content valuable, keeping secondary users engaged, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-measuring-business",
@@ -662,21 +677,6 @@
       "source_type": "youtube",
       "published": "2025-12-11T15:25:06+00:00",
       "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1e15c33c874fc9dd7e59103320688a13",
-      "title": "Anthropic Donates MCP to New Agentic AI Foundation",
-      "url": "https://www.youtube.com/watch?v=YVdtjxw0DLA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-11T03:17:06+00:00",
-      "summary": "Anthropic donated the Model Context Protocol to the Agent AI Foundation hosted by the Linux Foundation, creating neutral stewardship for agent standards, safety, and interoperability.  Rumors about OpenAI's GPT‑5.2 and new image models Chestnut and Hazelnut point to near‑term ga…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-27T20:18:34.192033+00:00"
+  "generated_at": "2025-12-27T21:14:43.722774+00:00"
 }
