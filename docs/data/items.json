@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2009ff99f4aa1464933e60749672d8cb",
+      "title": "🧠 Community Wisdom: Measuring business impact after rollout, clarity vs. capacity as the real bottleneck, what makes podcast content valuable, keeping secondary users engaged, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-measuring-business",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-27T16:59:19+00:00",
+      "summary": "Community Wisdom 167",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b668210014901d0d3bf051da97a5a774",
       "title": "51 Charts Explaining AI in 2026",
       "url": "https://www.youtube.com/watch?v=HcyUUvxkykE",
@@ -895,21 +908,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f13ecb54ebec3934164ae394559ce447",
-      "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
-      "url": "https://www.lennysnewsletter.com/p/why-linkedin-is-replacing-pms",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-04T13:32:07+00:00",
-      "summary": "LinkedIn's CPO on killing the APM program, inventing \"full-stack builders\" and going all-in on AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1816,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-27T16:19:53.064265+00:00"
+  "generated_at": "2025-12-27T17:13:52.327753+00:00"
 }
