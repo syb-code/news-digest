@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b668210014901d0d3bf051da97a5a774",
+      "title": "51 Charts Explaining AI in 2026",
+      "url": "https://www.youtube.com/watch?v=HcyUUvxkykE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-26T14:24:56+00:00",
+      "summary": "51 charts map the AI landscape heading into 2026—showing why capabilities keep accelerating (reasoning tokens, longer task horizons, usable long-context), even as progress stays jagged and bottlenecked by process + verification. The episode then zooms out to the big forces shapi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "58aad7db8874d01c514bd133536b2477",
       "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
       "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
@@ -31,6 +46,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "6aa6b69fd063da323031d7faa13146c5",
+      "title": "“Nothing Terrifies Chinese Policymakers More” | Former Chief U.S. Treasury Diplomat Jay Shambaugh",
+      "url": "https://www.youtube.com/watch?v=uE6U7SFZz-s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-24T21:08:19+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJay Shambaugh, former Under Secretary of the Treasury for International Affairs, joins Jack to discuss U.S. economic relations, China, and more. He draws on his years of expertise to deliver im…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "544ed2c4e7260a02a1c781dae55d0d02",
+      "title": "The 10 Biggest AI Stories of 2025",
+      "url": "https://www.youtube.com/watch?v=BpAlN1KBHEQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-24T16:54:22+00:00",
+      "summary": "This episode covers the 10 biggest AI stories of 2025—how DeepSeek’s R1 shook markets, pushed reasoning into the mainstream, and intensified the US–China model race. It also breaks down the massive AI infrastructure boom (Stargate, hyperscaler capex, energy + data centers), the …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "995519fc2d16084231835f8b3c146a7c",
       "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
       "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results-c08",
@@ -38,6 +83,21 @@
       "source_type": "rss",
       "published": "2025-12-24T02:50:17+00:00",
       "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7148ec086f75899f100907cba62f87fe",
+      "title": "How AI Starts Doing the Work in 2026 with Anthropic CPO Mike Krieger",
+      "url": "https://www.youtube.com/watch?v=VSLEGpCemtE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-24T00:25:11+00:00",
+      "summary": "Anthropic CPO Mike Krieger joins AI Daily Brief to map where “vibe coding” is headed in 2026—from Claude’s early coding focus to the rise of longer-horizon, more autonomous coding agents like Claude Code. The conversation breaks down what’s changing across three worlds: software…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -106,6 +166,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "fe8a8ac0cd890bc515cfbe9b75a3c63e",
+      "title": "10 Holiday-Themed Kids AI Activities",
+      "url": "https://www.youtube.com/watch?v=axZhe6W-FEY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-22T00:22:41+00:00",
+      "summary": "Ten holiday-themed AI activities for children include a digital scrapbook, a gratitude coloring book, and an AI-illustrated storybook. Additional projects feature printable holiday cards, a kindness advent calendar, a shelter \"underdog\" adoption campaign, personalized elf audio …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
+      "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
+      "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-21T14:00:58+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nRead about Indian Aerospace & Defense and sign up for Dispatches From India: https://www.gymkhanapartners.com/dispatches/major-sec…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f48a859e53a5c6820f8e06f238fa4148",
       "title": "The coming AI security crisis (and what to do about it) | Sander Schulhoff",
       "url": "https://www.lennysnewsletter.com/p/the-coming-ai-security-crisis",
@@ -118,6 +208,34 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ba1431ddc1a8e66ded9ebc211fc47d50",
+      "title": "The Most Important AI Stories This Week",
+      "url": "https://www.youtube.com/watch?v=z50UOrFJDgo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-21T00:37:11+00:00",
+      "summary": "A rapid-fire roundup of the biggest AI stories of the week, from Google’s Gemini 3 Flash pushing the speed and efficiency frontier to fresh OpenAI fundraising rumors that highlight the escalating cost of compute and shifting cloud alliances. Amazon’s AI reorganization and leader…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3dca75be8d877c417fdf3c8425accc79",
+      "title": "From Bad to Less Bad: A Quantitative Approach to Turnarounds | Bloomberg Indices’ Steve Hou",
+      "url": "https://www.youtube.com/watch?v=DNO_wT82CKc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-21T00:35:37+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nIn this episode of Monetary Matters, Jack sits down with Steve Hou, Senior Quant Researcher at Bloomberg, to discuss the structural forces reshaping the global economy. Hou argues that we have …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -146,6 +264,36 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "44d244fefca8b928ae9f431b5f95a3ff",
+      "title": "82% of Companies Are Seeing Positive AI ROI",
+      "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-19T00:44:56+00:00",
+      "summary": "An AI ROI benchmarking study of over 1,200 respondents and 5,000 use cases found 82% positive ROI with 37% reporting significant or transformational impact. Timesavings was the most common benefit, averaging about eight hours saved per week, while strategic gains, new capabiliti…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "999f7235dae7574b1643fc8246a686a4",
+      "title": "Volatility Laundering Is What Investors Want, Actually | Andrew Beer",
+      "url": "https://www.youtube.com/watch?v=cc9CCAuYV70",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-18T18:36:01+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nWhy do institutional investors continue…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -179,6 +327,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "ed6a428a6091893eaa4fb19c4199ca52",
+      "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
+      "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-18T13:24:31+00:00",
+      "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
+      "title": "Will this Update from OpenAI Make AI Agents Work Better?",
+      "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-18T00:48:27+00:00",
+      "summary": "Anthropic's skill standard packages include instructions, scripts, and resources as folder-based Markdown modules for progressive disclosure and dynamic loading by agents. OpenAI's integration of skills into ChatGPT and Codex signals fast cross-platform standardization and a shi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f65b1da84e7c3c0de41afbbe865642ec",
       "title": "LWiAI Podcast #228 - GPT 5.2, Scaling Agents, Weird Generalization",
       "url": "https://lastweekin.ai/p/lwiai-podcast-228-gpt-52-scaling",
@@ -187,6 +365,21 @@
       "published": "2025-12-17T22:31:17+00:00",
       "summary": "GPT-5.2 is OpenAI’s latest move in the agentic AI battle, Towards a Science of Scaling Agent Systems, and more!",
       "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1888d7277cecf6f0139d00412046a66d",
+      "title": "How This Value Investor Beat the Market and Grew His Hedge Fund | Yaron Naymark | 1 Main Capital",
+      "url": "https://www.youtube.com/watch?v=9zPaSq_nZ14",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-17T14:00:25+00:00",
+      "summary": "This episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nOver the last 8 years, Yaron Naymark, founder and managing partner of 1 Main Capital, has patiently grown his concentrated long-biased hedge fund b…",
+      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -267,6 +460,37 @@
       "bucket": "highlight"
     },
     {
+      "id": "f7c940e3833b8211f4e6b1bf530fee0c",
+      "title": "\"It's A Confidence Game\": AI Financing Warning From Jim Chanos",
+      "url": "https://www.youtube.com/watch?v=R1HrPsfUkbk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-16T02:09:33+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nIn this interview, Chanos breaks down why hosting GPUs is a commodity business with low returns and why the depreciation of AI chips (like Nvidia’s) creates a massive financial risk for compani…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a6454b99cb44f842fdabc4a59cc07cf5",
+      "title": "Trump's One Rule AI Order",
+      "url": "https://www.youtube.com/watch?v=jOGNcwWjB2M",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-15T22:23:31+00:00",
+      "summary": "Trump's executive order seeks federal preemption of state AI laws, empowers DOJ litigation, and ties Commerce funding to compliance, triggering legal challenges and GOP infighting. Approval of Nvidia H200 exports reshapes global chip strategy as China weighs massive subsidies an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8ed26b805ae4b255ae76cd90ef749b49",
       "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
@@ -274,6 +498,21 @@
       "source_type": "rss",
       "published": "2025-12-15T16:02:14+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
+      "title": "Real World AI Evaluations",
+      "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-15T14:11:26+00:00",
+      "summary": "ArtificialAnalysis applied OpenAI's GDPVal real‑world benchmark and ranked Opus 4.5 first and GPT‑5 second, with one GPT variant trading a slight quality drop for far fewer tokens. Reports allege DeepSeek built a Blackwell chip training cluster through smuggling and Beijing held…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -312,6 +551,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
+      "title": "The AI Race Gets a Massive Power Shift",
+      "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-14T01:29:16+00:00",
+      "summary": "President Trump approved exports of Nvidia H200 GPUs to China with a negotiated 25% revenue cut, reversing prior US export controls. Analysts warn the move trades national-security and compute advantage for short-term economic gains, with models projecting China’s AI compute sha…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b5e452bdac2ebe90c9df3be78aab2b2c",
       "title": "🧠 Community Wisdom: The ROI of “wrapped” campaigns, identifying early product-market-fit, working with a non-PM manager, using Google AI Studio for rapid prototyping, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-roi-of-wrapped",
@@ -327,6 +582,51 @@
       "bucket": "highlight"
     },
     {
+      "id": "81880a2b9bbedaa5b4e6be2b13336c0f",
+      "title": "Why AI Advantage Compounds",
+      "url": "https://www.youtube.com/watch?v=QONt74CTUyE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-13T15:39:56+00:00",
+      "summary": "AI advantage compounds as organizations integrate GenAI into workflows and scale beyond isolated experiments. Surveys reveal widespread productivity and financial gains, attribution challenges, and gaps between expected and actual AI investment. Reinvestment into AI capabilities…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4ef0b4af9c7517a2e483439f3695c659",
+      "title": "GPT-5.2 is Here",
+      "url": "https://www.youtube.com/watch?v=_6WTIDY7aYs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-12T00:52:36+00:00",
+      "summary": "GPT-5.2 debuts as a professional-focused model, boosting performance on spreadsheets, presentations, coding, long-context reasoning, and multi-step projects. Benchmark results highlight large gains on OpenAI's GDPVal metric and coding tests, plus lower hallucination rates and ro…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a396c02f4f66652f717751c4cb427999",
+      "title": "Luke Gromen: We Are Facing \"The Mother of All Crises\" (And It’s Physical)",
+      "url": "https://www.youtube.com/watch?v=xqtalk5v4ts",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-11T18:12:19+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nLuke Gromen of Forrest For The Trees argues that the US is facing the \"Mother of All Crises\": a forced choice between losing the AI race to China or destroying the US Treasury market. In this d…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ea647dedcea259be796acded8f838ee5",
       "title": "Deep Learning Weekly: Issue 434",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
@@ -334,6 +634,36 @@
       "source_type": "rss",
       "published": "2025-12-11T16:00:36+00:00",
       "summary": "Devstral 2 and Mistral Vibe CLI, AI Agent Orchestration Flows, a paper on Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d2d3711a7977d3c4963b6d76ec016979",
+      "title": "The State of Enterprise AI The State of Enterprise AI",
+      "url": "https://www.youtube.com/watch?v=FzGPptXjM0w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-11T15:25:06+00:00",
+      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1e15c33c874fc9dd7e59103320688a13",
+      "title": "Anthropic Donates MCP to New Agentic AI Foundation",
+      "url": "https://www.youtube.com/watch?v=YVdtjxw0DLA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-11T03:17:06+00:00",
+      "summary": "Anthropic donated the Model Context Protocol to the Agent AI Foundation hosted by the Linux Foundation, creating neutral stewardship for agent standards, safety, and interoperability.  Rumors about OpenAI's GPT‑5.2 and new image models Chestnut and Hazelnut point to near‑term ga…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -367,6 +697,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "185a8e06860ff6612ea15038ab823449",
+      "title": "How Directional Crypto Hedge Funds Are Evolving",
+      "url": "https://www.youtube.com/watch?v=zbZxkI_8Zgg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-09T14:01:55+00:00",
+      "summary": "This episode is brought to you by VanEck. Learn more about the VanEck Rare Earth and Strategic Metals ETF: http://vaneck.com/REMXMax\n\nSam Gaer, CIO of Directional Strategies at Monarq Asset Management, joins Other People’s Money to discuss how he uses quantitative directional st…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Crypto"
+      ],
       "bucket": "highlight"
     },
     {
@@ -436,6 +781,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0ca2eabe5539c5a64fa641e786382c7d",
+      "title": "Why Metals Are Soaring While Oil Stalls | CME Chief Economist Erik Norland",
+      "url": "https://www.youtube.com/watch?v=J9Z6gfV3SBk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-08T15:59:35+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nErik Norland, Chief Economist at the CME Group, joins Jack Farley to discuss the wild volatility in commodity markets. With Silver up over 80% in the past year, Erik breaks down the technologic…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -568,6 +926,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "34be04560891c7a069351a898bc84714",
+      "title": "Michael Pettis: China’s Consumption Crisis Is The World’s Crisis",
+      "url": "https://www.youtube.com/watch?v=hoSNdzfydRU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-01T17:04:55+00:00",
+      "summary": "Learn more about the VanEck Rare Earth and Strategic Metals ETF: www.vaneck.com/REMXJack\n\nIn this episode of Monetary Matters, Jack sits down with Michael Pettis, Senior Fellow at the Carnegie Endowment, to deconstruct the massive economic imbalances between China and the rest o…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "528bfa637f19db7c192de454d3663dd0",
       "title": "The Rise of the Founding Designer",
       "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
@@ -588,6 +959,51 @@
       "source_type": "rss",
       "published": "2025-11-30T08:20:26+00:00",
       "summary": "Google launches Gemini 3 & Nano Banana Pro, Anthropic releases Opus 4.5, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "02a370cc4232deead756395366230d8f",
+      "title": "Quant Phenom See Challenging Period For U.S. Equities | Aahan Menon",
+      "url": "https://www.youtube.com/watch?v=QaoKtPtXtUk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-29T21:00:25+00:00",
+      "summary": "Monetary Matters listeners can get 20% of Prometheus Macro Substack here: https://www.prometheus-macro.com/subscribe?coupon=a60c1c9f\n\nAahan Menon, founder of Prometheus Macro and a trusted \"quant's quant\" for sophisticated hedge funds, joins Jack Farley to explain why his models…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "67a3bdd38a44488a65c1069c1e7d9168",
+      "title": "This Might Be As Good As It Gets For U.S. Stocks | Meb Faber",
+      "url": "https://www.youtube.com/watch?v=VvRu-c60TBo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-28T23:00:47+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN:\nhttps://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nIn this episode of Monetary Matters, Ja…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b2ae839708cc2866f809d336f843e1e6",
+      "title": "Breaking Down Michael Burry’s Big Nvidia Short Thesis",
+      "url": "https://www.youtube.com/watch?v=m4BQCedE0Dg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-28T14:01:24+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal AI. Save 30% off any paid tier at for Black Friday: http://fiscal.ai/mm\n\nJack Farley & Max Wiethe breakdown Michael Burry’s big Nvidia short thesis and the recent projections from HSBC that Open AI will lose nearly half a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -639,6 +1055,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "426b4d67ae0b8e803fa52428dcd6d0f9",
+      "title": "Venture Capital’s Collision with Public Markets, the Dry Powder Bubble, and VC Metrics that Lie",
+      "url": "https://www.youtube.com/watch?v=O-i41_kdS_Q",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-25T21:01:51+00:00",
+      "summary": "This Other People’s Money episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nJames Wang, Genera…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b1c4183371bb149e66750c34ce40e6cd",
       "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
       "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
@@ -651,6 +1082,21 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "fa6b810fb8369092b5798941c032ff83",
+      "title": "Inside the $12 Billion Bankruptcy That Has Wall Street Worried | Robert Smith of the Financial Times",
+      "url": "https://www.youtube.com/watch?v=kBucYLGKB0w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-11-24T15:39:35+00:00",
+      "summary": "Robert Smith, Corporate Finance Editor at the FT, joins Jack to discuss the recent $12 billion bankruptcy of First Brands Group that has shocked the financial world. He explains the history of First Brands, its collapse, and the company’s ongoing bankruptcy proceedings. Robert a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1370,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-27T07:16:17.822921+00:00"
+  "generated_at": "2025-12-27T08:21:42.444097+00:00"
 }
