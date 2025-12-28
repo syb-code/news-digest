@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a50f0a6f1425ebfc0d530779028978f7",
+      "title": "The Most Important AI Lesson for Businesses From 2025",
+      "url": "https://www.youtube.com/watch?v=Ef5KG4hS2SE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-28T21:03:26+00:00",
+      "summary": "Deloitte's 17th Tech Trends report prioritizes operational redesign, agent-ready architectures, and robust orchestration for real AI value. Primary obstacles include legacy-system integration, poor data searchability and reusability, and governance unprepared for autonomous deci…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2cabf66cf2b75f023138b278dfa30be2",
       "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
       "url": "https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths",
@@ -677,21 +692,6 @@
       "source_type": "rss",
       "published": "2025-12-11T16:00:36+00:00",
       "summary": "Devstral 2 and Mistral Vibe CLI, AI Agent Orchestration Flows, a paper on Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d2d3711a7977d3c4963b6d76ec016979",
-      "title": "The State of Enterprise AI The State of Enterprise AI",
-      "url": "https://www.youtube.com/watch?v=FzGPptXjM0w",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-11T15:25:06+00:00",
-      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-28T20:18:52.084103+00:00"
+  "generated_at": "2025-12-28T21:15:26.722334+00:00"
 }
