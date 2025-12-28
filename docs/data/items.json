@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2cabf66cf2b75f023138b278dfa30be2",
+      "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
+      "url": "https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-28T13:31:26+00:00",
+      "summary": "Rippling's CPO on why you should deliberately understaff projects, how to recognize true product-market fit, why VCs want you to keep failing, and the frameworks that built a $16B company",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e3fa6737fc15642eb8cc72ecf2c8f77d",
       "title": "The 5 Most Impactful AI Model Releases of 2025",
       "url": "https://www.youtube.com/watch?v=1KUKh7TofLg",
@@ -867,19 +882,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "12974618c7905c19b06248777da7282a",
-      "title": "🧠 Community Wisdom: Combating ageism, facilitating roadmap discussions, 90-day onboarding plan, staying stealth pre-launch, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-combating-ageism",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-06T17:01:25+00:00",
-      "summary": "Community Wisdom 264",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1814,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-28T13:27:07.921573+00:00"
+  "generated_at": "2025-12-28T14:15:52.360907+00:00"
 }
