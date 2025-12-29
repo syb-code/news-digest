@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6a7abf69dfa605ab2ad3037ac8e4a41a",
+      "title": "How Webflow’s CPO built an AI chief of staff to manage her calendar, prep for meetings, and drive AI adoption | Rachel Wolan",
+      "url": "https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-29T12:03:21+00:00",
+      "summary": "Watch now | 🎙️ The CPO’s custom AI chief-of-staff app helps prep for meetings, audit her calendar, and level up her entire organization",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a50f0a6f1425ebfc0d530779028978f7",
       "title": "The Most Important AI Lesson for Businesses From 2025",
       "url": "https://www.youtube.com/watch?v=Ef5KG4hS2SE",
@@ -847,21 +862,6 @@
       "source_type": "rss",
       "published": "2025-12-08T04:44:04+00:00",
       "summary": "DeepSeek Releases New Reasoning Models, Mistral closes in on Big AI rivals with new open-weight frontier and small models, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "eece526992c57ee7b28555f657589cdd",
-      "title": "The 100-person AI lab that became Anthropic and Google's secret weapon | Edwin Chen (Surge AI)",
-      "url": "https://www.lennysnewsletter.com/p/surge-ai-edwin-chen",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-07T13:31:23+00:00",
-      "summary": "Surge's founder on building a billion-dollar AI data company with 60 people, why AI is being optimized for dopamine instead of truth, and how taste shapes the future of intelligence",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-29T11:16:06.900190+00:00"
+  "generated_at": "2025-12-29T12:37:55.049461+00:00"
 }
