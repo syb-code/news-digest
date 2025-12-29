@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "b0fed20505cc9695e23a3896ab9713b3",
+      "title": "Investors: Prepare For A World That Gets Much, Much Older | Maria Vassalou",
+      "url": "https://www.youtube.com/watch?v=cH8jDr1t9So",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-29T20:30:29+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJack welcomes Maria Vassalou, head of the Pictet Research Institute, to discuss global demographic decline and how technological revolution is imperative to prevent economic stagnation. They ta…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "797558cba90b9f93c72e0b7c2ae3a64a",
       "title": "Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika",
       "url": "https://www.youtube.com/watch?v=Nfy9BCSOTF4",
@@ -1101,21 +1114,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fa6b810fb8369092b5798941c032ff83",
-      "title": "Inside the $12 Billion Bankruptcy That Has Wall Street Worried | Robert Smith of the Financial Times",
-      "url": "https://www.youtube.com/watch?v=kBucYLGKB0w",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-24T15:39:35+00:00",
-      "summary": "Robert Smith, Corporate Finance Editor at the FT, joins Jack to discuss the recent $12 billion bankruptcy of First Brands Group that has shocked the financial world. He explains the history of First Brands, its collapse, and the company’s ongoing bankruptcy proceedings. Robert a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bd8d4b16e9c9a5217df986fc1192bba3",
       "title": "Everyone is a builder now",
       "url": "https://designplusai.com/p/everyone-is-a-builder-now",
@@ -1818,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-29T20:20:10.869698+00:00"
+  "generated_at": "2025-12-29T21:15:59.946018+00:00"
 }
