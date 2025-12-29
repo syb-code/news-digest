@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "797558cba90b9f93c72e0b7c2ae3a64a",
+      "title": "Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika",
+      "url": "https://www.youtube.com/watch?v=Nfy9BCSOTF4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-29T17:58:46+00:00",
+      "summary": "Lovable CEO Anton Osika joins the AI Daily Brief to unpack how AI-assisted coding evolved from early GitHub experiments into load-bearing infrastructure inside companies, why 2025 marked the inflection point for vibe coding, and why 2026 will belong to builders who can think, pl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "54f299364196017a6288dbbbc5e84889",
       "title": "Will The Housing Market Finally Crash in 2026? (My Prediction)",
       "url": "https://www.youtube.com/watch?v=3WI_rCsiFFg",
@@ -692,21 +707,6 @@
       "source_type": "youtube",
       "published": "2025-12-13T15:39:56+00:00",
       "summary": "AI advantage compounds as organizations integrate GenAI into workflows and scale beyond isolated experiments. Surveys reveal widespread productivity and financial gains, attribution challenges, and gaps between expected and actual AI investment. Reinvestment into AI capabilities…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ef0b4af9c7517a2e483439f3695c659",
-      "title": "GPT-5.2 is Here",
-      "url": "https://www.youtube.com/watch?v=_6WTIDY7aYs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-12T00:52:36+00:00",
-      "summary": "GPT-5.2 debuts as a professional-focused model, boosting performance on spreadsheets, presentations, coding, long-context reasoning, and multi-step projects. Benchmark results highlight large gains on OpenAI's GDPVal metric and coding tests, plus lower hallucination rates and ro…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1818,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-29T17:15:47.470864+00:00"
+  "generated_at": "2025-12-29T18:25:59.794882+00:00"
 }
