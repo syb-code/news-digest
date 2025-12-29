@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3be12a0d7190dabe688f3d2538292910",
+      "title": "This week on How I AI: How Webflow’s CPO built an AI chief of staff",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-webflows",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-29T16:03:32+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6a7abf69dfa605ab2ad3037ac8e4a41a",
       "title": "How Webflow’s CPO built an AI chief of staff to manage her calendar, prep for meetings, and drive AI adoption | Rachel Wolan",
       "url": "https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief",
@@ -837,21 +852,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a62ff397163ee0a60313d17f55177173",
-      "title": "ChatGPT agent mode: The “little helper” that transformed recruiting, crafted user personas, and solved parking nightmares | Michal Peled (Honeybook)",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-agent-mode-the-little-helper",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-08T13:03:55+00:00",
-      "summary": "Watch now | 🎙️ Michal Peled on using ChatGPT agent mode to automate LinkedIn recruiting, creating AI personas from customer research, and building practical AI tools that solve real business problems",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-29T15:18:51.086248+00:00"
+  "generated_at": "2025-12-29T16:21:05.243882+00:00"
 }
