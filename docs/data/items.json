@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5bf78c04cad833c6ea7463d3ccbdcf0a",
+      "title": "50 AI Predictions for 2026 - Part 1",
+      "url": "https://www.youtube.com/watch?v=p97xD1fBLXo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-30T15:37:26+00:00",
+      "summary": "Fifty AI predictions for 2026 explore model and capability trajectories, accelerating release cadence, multimodal competition, emerging world models, and next‑generation hardware like Blackwell. Vibecoding and personal software will move from prototypes into production across no…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ed275b74d97dce9f0eb3c8ac0fb0fe45",
       "title": "Investing Data is Evolving: AI, The Degenerate Economy & More | Matt Ober | Social Leverage",
       "url": "https://www.youtube.com/watch?v=K6KhJ61shlY",
@@ -720,21 +735,6 @@
       "source_type": "rss",
       "published": "2025-12-13T16:36:52+00:00",
       "summary": "Community Wisdom 165",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "81880a2b9bbedaa5b4e6be2b13336c0f",
-      "title": "Why AI Advantage Compounds",
-      "url": "https://www.youtube.com/watch?v=QONt74CTUyE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-13T15:39:56+00:00",
-      "summary": "AI advantage compounds as organizations integrate GenAI into workflows and scale beyond isolated experiments. Surveys reveal widespread productivity and financial gains, attribution challenges, and gaps between expected and actual AI investment. Reinvestment into AI capabilities…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-30T15:18:33.491264+00:00"
+  "generated_at": "2025-12-30T16:22:41.563535+00:00"
 }
