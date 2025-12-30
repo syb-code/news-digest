@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ed275b74d97dce9f0eb3c8ac0fb0fe45",
+      "title": "Investing Data is Evolving: AI, The Degenerate Economy & More | Matt Ober | Social Leverage",
+      "url": "https://www.youtube.com/watch?v=K6KhJ61shlY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-30T14:00:30+00:00",
+      "summary": "In this episode of Other People’s Money, Matt Ober, General Partner at Social Leverage, discusses how the data economy is evolving for providers, vendors, and investors. He explains how AI is reshaping data business models, highlights emerging data sources in what he calls the “…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b0fed20505cc9695e23a3896ab9713b3",
       "title": "Investors: Prepare For A World That Gets Much, Much Older | Maria Vassalou",
       "url": "https://www.youtube.com/watch?v=cH8jDr1t9So",
@@ -1083,21 +1098,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "426b4d67ae0b8e803fa52428dcd6d0f9",
-      "title": "Venture Capital’s Collision with Public Markets, the Dry Powder Bubble, and VC Metrics that Lie",
-      "url": "https://www.youtube.com/watch?v=O-i41_kdS_Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-25T21:01:51+00:00",
-      "summary": "This Other People’s Money episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nJames Wang, Genera…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b1c4183371bb149e66750c34ce40e6cd",
       "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
       "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-30T13:33:19.517021+00:00"
+  "generated_at": "2025-12-30T14:17:50.119620+00:00"
 }
