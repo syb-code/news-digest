@@ -1,36 +1,6 @@
 {
   "items": [
     {
-      "id": "5bf78c04cad833c6ea7463d3ccbdcf0a",
-      "title": "50 AI Predictions for 2026 - Part 1",
-      "url": "https://www.youtube.com/watch?v=p97xD1fBLXo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-30T15:37:26+00:00",
-      "summary": "Fifty AI predictions for 2026 explore model and capability trajectories, accelerating release cadence, multimodal competition, emerging world models, and next‑generation hardware like Blackwell. Vibecoding and personal software will move from prototypes into production across no…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "797558cba90b9f93c72e0b7c2ae3a64a",
-      "title": "Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika",
-      "url": "https://www.youtube.com/watch?v=Nfy9BCSOTF4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-29T17:58:46+00:00",
-      "summary": "Lovable CEO Anton Osika joins the AI Daily Brief to unpack how AI-assisted coding evolved from early GitHub experiments into load-bearing infrastructure inside companies, why 2025 marked the inflection point for vibe coding, and why 2026 will belong to builders who can think, pl…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "54f299364196017a6288dbbbc5e84889",
       "title": "Will The Housing Market Finally Crash in 2026? (My Prediction)",
       "url": "https://www.youtube.com/watch?v=3WI_rCsiFFg",
@@ -76,21 +46,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a50f0a6f1425ebfc0d530779028978f7",
-      "title": "The Most Important AI Lesson for Businesses From 2025",
-      "url": "https://www.youtube.com/watch?v=Ef5KG4hS2SE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-28T21:03:26+00:00",
-      "summary": "Deloitte's 17th Tech Trends report prioritizes operational redesign, agent-ready architectures, and robust orchestration for real AI value. Primary obstacles include legacy-system integration, poor data searchability and reusability, and governance unprepared for autonomous deci…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2cabf66cf2b75f023138b278dfa30be2",
       "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
       "url": "https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths",
@@ -98,21 +53,6 @@
       "source_type": "rss",
       "published": "2025-12-28T13:31:26+00:00",
       "summary": "Rippling's CPO on why you should deliberately understaff projects, how to recognize true product-market fit, why VCs want you to keep failing, and the frameworks that built a $16B company",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e3fa6737fc15642eb8cc72ecf2c8f77d",
-      "title": "The 5 Most Impactful AI Model Releases of 2025",
-      "url": "https://www.youtube.com/watch?v=1KUKh7TofLg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-27T20:32:46+00:00",
-      "summary": "A countdown of the 2025 model releases that most changed how AI is built, used, and talked about—plus a few notable omissions. The list runs from GPT-5’s backlash and Gemini 3’s rebound effect on the “AI plateau” narrative, to the rise of Chinese open-weight models, to Nano Bana…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -131,21 +71,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b668210014901d0d3bf051da97a5a774",
-      "title": "51 Charts Explaining AI in 2026",
-      "url": "https://www.youtube.com/watch?v=HcyUUvxkykE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-26T14:24:56+00:00",
-      "summary": "51 charts map the AI landscape heading into 2026—showing why capabilities keep accelerating (reasoning tokens, longer task horizons, usable long-context), even as progress stays jagged and bottlenecked by process + verification. The episode then zooms out to the big forces shapi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -179,21 +104,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "544ed2c4e7260a02a1c781dae55d0d02",
-      "title": "The 10 Biggest AI Stories of 2025",
-      "url": "https://www.youtube.com/watch?v=BpAlN1KBHEQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-24T16:54:22+00:00",
-      "summary": "This episode covers the 10 biggest AI stories of 2025—how DeepSeek’s R1 shook markets, pushed reasoning into the mainstream, and intensified the US–China model race. It also breaks down the massive AI infrastructure boom (Stargate, hyperscaler capex, energy + data centers), the …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "995519fc2d16084231835f8b3c146a7c",
       "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
       "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results-c08",
@@ -201,21 +111,6 @@
       "source_type": "rss",
       "published": "2025-12-24T02:50:17+00:00",
       "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7148ec086f75899f100907cba62f87fe",
-      "title": "How AI Starts Doing the Work in 2026 with Anthropic CPO Mike Krieger",
-      "url": "https://www.youtube.com/watch?v=VSLEGpCemtE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-24T00:25:11+00:00",
-      "summary": "Anthropic CPO Mike Krieger joins AI Daily Brief to map where “vibe coding” is headed in 2026—from Claude’s early coding focus to the rise of longer-horizon, more autonomous coding agents like Claude Code. The conversation breaks down what’s changing across three worlds: software…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -284,21 +179,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fe8a8ac0cd890bc515cfbe9b75a3c63e",
-      "title": "10 Holiday-Themed Kids AI Activities",
-      "url": "https://www.youtube.com/watch?v=axZhe6W-FEY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-22T00:22:41+00:00",
-      "summary": "Ten holiday-themed AI activities for children include a digital scrapbook, a gratitude coloring book, and an AI-illustrated storybook. Additional projects feature printable holiday cards, a kindness advent calendar, a shelter \"underdog\" adoption campaign, personalized elf audio …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f48a859e53a5c6820f8e06f238fa4148",
       "title": "The coming AI security crisis (and what to do about it) | Sander Schulhoff",
       "url": "https://www.lennysnewsletter.com/p/the-coming-ai-security-crisis",
@@ -306,21 +186,6 @@
       "source_type": "rss",
       "published": "2025-12-21T13:31:22+00:00",
       "summary": "AI guardrails don't work. Security researcher Sander Schulhoff on prompt injection, red teaming, why AI defenses fail, and what actually secures AI products.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ba1431ddc1a8e66ded9ebc211fc47d50",
-      "title": "The Most Important AI Stories This Week",
-      "url": "https://www.youtube.com/watch?v=z50UOrFJDgo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-21T00:37:11+00:00",
-      "summary": "A rapid-fire roundup of the biggest AI stories of the week, from Google’s Gemini 3 Flash pushing the speed and efficiency frontier to fresh OpenAI fundraising rumors that highlight the escalating cost of compute and shifting cloud alliances. Amazon’s AI reorganization and leader…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -357,21 +222,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "44d244fefca8b928ae9f431b5f95a3ff",
-      "title": "82% of Companies Are Seeing Positive AI ROI",
-      "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-19T00:44:56+00:00",
-      "summary": "An AI ROI benchmarking study of over 1,200 respondents and 5,000 use cases found 82% positive ROI with 37% reporting significant or transformational impact. Timesavings was the most common benefit, averaging about eight hours saved per week, while strategic gains, new capabiliti…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0c5bcec973876baafe5ea38a66abb393",
       "title": "Deep Learning Weekly: Issue 435",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
@@ -394,36 +244,6 @@
       "source_type": "rss",
       "published": "2025-12-18T13:31:55+00:00",
       "summary": "Elena Verna returns to break down Lovable’s explosive $200M ARR climb—and why AI forces every company to reinvent its growth playbook from the ground up",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ed6a428a6091893eaa4fb19c4199ca52",
-      "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
-      "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T13:24:31+00:00",
-      "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
-      "title": "Will this Update from OpenAI Make AI Agents Work Better?",
-      "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T00:48:27+00:00",
-      "summary": "Anthropic's skill standard packages include instructions, scripts, and resources as folder-based Markdown modules for progressive disclosure and dynamic loading by agents. OpenAI's integration of skills into ChatGPT and Codex signals fast cross-platform standardization and a shi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -520,22 +340,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a6454b99cb44f842fdabc4a59cc07cf5",
-      "title": "Trump's One Rule AI Order",
-      "url": "https://www.youtube.com/watch?v=jOGNcwWjB2M",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T22:23:31+00:00",
-      "summary": "Trump's executive order seeks federal preemption of state AI laws, empowers DOJ litigation, and ties Commerce funding to compliance, triggering legal challenges and GOP infighting. Approval of Nvidia H200 exports reshapes global chip strategy as China weighs massive subsidies an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8ed26b805ae4b255ae76cd90ef749b49",
       "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
@@ -543,21 +347,6 @@
       "source_type": "rss",
       "published": "2025-12-15T16:02:14+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
-      "title": "Real World AI Evaluations",
-      "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T14:11:26+00:00",
-      "summary": "ArtificialAnalysis applied OpenAI's GDPVal real‑world benchmark and ranked Opus 4.5 first and GPT‑5 second, with one GPT variant trading a slight quality drop for far fewer tokens. Reports allege DeepSeek built a Blackwell chip training cluster through smuggling and Beijing held…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -592,22 +381,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
-      "title": "The AI Race Gets a Massive Power Shift",
-      "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-14T01:29:16+00:00",
-      "summary": "President Trump approved exports of Nvidia H200 GPUs to China with a negotiated 25% revenue cut, reversing prior US export controls. Analysts warn the move trades national-security and compute advantage for short-term economic gains, with models projecting China’s AI compute sha…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1599,5 +1372,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-31T03:23:49.418236+00:00"
+  "generated_at": "2025-12-31T04:35:34.159327+00:00"
 }
