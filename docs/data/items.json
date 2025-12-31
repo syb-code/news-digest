@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8307c791de89ccc3e2d10f13c8706b71",
+      "title": "50 AI Predictions for 2026 Part 2",
+      "url": "https://www.youtube.com/watch?v=wi7F3veEEvU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2025-12-31T13:10:46+00:00",
+      "summary": "Predictions for the 2026 AI race focus on competitive dynamics, market financing, and political fallout. Expect Microsoft to deepen Anthropic ties while OpenAI faces fragmented priorities and likely ad monetization of chat products. Other highlights include Grok's rapid rise, Me…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5bf78c04cad833c6ea7463d3ccbdcf0a",
       "title": "50 AI Predictions for 2026 - Part 1",
       "url": "https://www.youtube.com/watch?v=p97xD1fBLXo",
@@ -708,22 +723,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5da63c378141c7bd5d91fc8bddc2ac4d",
-      "title": "The AI Race Gets a Massive Power Shift",
-      "url": "https://www.youtube.com/watch?v=aeGueDitA4A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-14T01:29:16+00:00",
-      "summary": "President Trump approved exports of Nvidia H200 GPUs to China with a negotiated 25% revenue cut, reversing prior US export controls. Analysts warn the move trades national-security and compute advantage for short-term economic gains, with models projecting China’s AI compute sha…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1816,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2025-12-31T12:36:22.822963+00:00"
+  "generated_at": "2025-12-31T13:30:14.215124+00:00"
 }
