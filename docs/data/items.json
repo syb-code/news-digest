@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bbbead62987ca4cd369072c762c405e4",
+      "title": "AI New Year's: The 10 Week AI Resolution",
+      "url": "https://www.youtube.com/watch?v=EhQeGgZxdHU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-01T15:38:36+00:00",
+      "summary": "This final episode of 2025 lays out a practical, self-guided 10-week plan to build real AI fluency by actually doing the work. Each weekend focuses on a concrete project—from model mapping and deep research to data analysis, visual reasoning, automations, context engineering, an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "48d83a8cd053719e369e13e047786230",
       "title": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
       "url": "https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents",
@@ -689,21 +704,6 @@
       "source_type": "rss",
       "published": "2025-12-15T16:02:14+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7e4ea2f8c9f0e2b2a31a3460766e8938",
-      "title": "Real World AI Evaluations",
-      "url": "https://www.youtube.com/watch?v=DLppD1aqn0A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T14:11:26+00:00",
-      "summary": "ArtificialAnalysis applied OpenAI's GDPVal real‑world benchmark and ranked Opus 4.5 first and GPT‑5 second, with one GPT variant trading a slight quality drop for far fewer tokens. Reports allege DeepSeek built a Blackwell chip training cluster through smuggling and Beijing held…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-01T15:17:43.175996+00:00"
+  "generated_at": "2026-01-01T16:22:05.640084+00:00"
 }
