@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "48d83a8cd053719e369e13e047786230",
+      "title": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
+      "url": "https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-01T13:31:28+00:00",
+      "summary": "Jason Lemkin on why he replaced his entire sales team with AI agents, how he fine-tuned them to work better than his human sales people, which vendors to choose, and how to become hyper-employable in the AI area",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8307c791de89ccc3e2d10f13c8706b71",
       "title": "50 AI Predictions for 2026 Part 2",
       "url": "https://www.youtube.com/watch?v=wi7F3veEEvU",
@@ -866,21 +881,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "53de4bd549fd926ea53cde9b82b92cea",
-      "title": "This week on How I AI: Which AI model is the best designer? and ChatGPT agent mode, the “little helper” that transformed recruiting",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-which-ai-model",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-08T16:03:21+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-01T13:30:43.915204+00:00"
+  "generated_at": "2026-01-01T14:16:18.708577+00:00"
 }
