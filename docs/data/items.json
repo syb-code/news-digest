@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "89654fc672079b6aefccbd91d6d9c93e",
+      "title": "Deep Learning Weekly: Issue 436",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-436",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-01-01T16:25:58+00:00",
+      "summary": "GPT-5.2-Codex, Prompt Drift: The Hidden Failure Mode Undermining Agentic Systems, a paper on Adaptation of Agentic AI, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bbbead62987ca4cd369072c762c405e4",
       "title": "AI New Year's: The 10 Week AI Resolution",
       "url": "https://www.youtube.com/watch?v=EhQeGgZxdHU",
@@ -1675,21 +1690,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dceabba31b0b12b3dc6ff97c4c93664f",
-      "title": "Deep Learning Weekly: Issue 416",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-416",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-08-06T15:02:51+00:00",
-      "summary": "OpenAI's gpt-oss, Pretraining: Breaking Down the Modern LLM Training Pipeline, a paper on Routine: A Structural Planning Framework for LLM Agent System in Enterprise, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7bfe9a33b83053ff0f55f520559e8cab",
       "title": "10 AI prompt lessons I learned the hard way",
       "url": "https://designplusai.com/p/10-ai-prompt-lessons-i-learned-the",
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-01T16:22:05.640084+00:00"
+  "generated_at": "2026-01-01T17:16:51.771202+00:00"
 }
