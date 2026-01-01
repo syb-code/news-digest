@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5ce903f7a02f13d3bd2433c1f8618355",
+      "title": "Citrini’s 26 Trades for 2026 | Citrini on BS Jobs, AI Materials, Advanced Packaging, & More",
+      "url": "https://www.youtube.com/watch?v=YJDDhz8xTQY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-01T19:31:48+00:00",
+      "summary": "Monetary Matters can get 25% off Citrini Bundle (Citrindex and Citrini Research) here through January 14: https://www.citriniresearch.com/mmjack\n\nThe investor known only as Citrini returns to share his thematic watchlist for the new year, aka “26 Trades for 2026.” The conversati…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "89654fc672079b6aefccbd91d6d9c93e",
       "title": "Deep Learning Weekly: Issue 436",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-436",
@@ -1054,21 +1069,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b2ae839708cc2866f809d336f843e1e6",
-      "title": "Breaking Down Michael Burry’s Big Nvidia Short Thesis",
-      "url": "https://www.youtube.com/watch?v=m4BQCedE0Dg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-28T14:01:24+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal AI. Save 30% off any paid tier at for Black Friday: http://fiscal.ai/mm\n\nJack Farley & Max Wiethe breakdown Michael Burry’s big Nvidia short thesis and the recent projections from HSBC that Open AI will lose nearly half a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "67757376e31c29ec74e5db79d4fe4b1c",
       "title": "AI prompt hacks for design",
       "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
@@ -1815,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-01T19:14:03.488392+00:00"
+  "generated_at": "2026-01-01T20:19:39.813451+00:00"
 }
