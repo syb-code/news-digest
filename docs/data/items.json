@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "111f092a2bacbbf044e1f441ff9a57fb",
+      "title": "Claude Code is Now Writing Claude Code",
+      "url": "https://www.youtube.com/watch?v=0zdLr7xiOFw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-03T17:37:40+00:00",
+      "summary": "XAI accelerates the compute arms race with a third MacroHarder facility targeting nearly two gigawatts of training power and hundreds of thousands of GPUs. OpenAI refocuses on advanced audio models and a voice-first consumer device. NVIDIA’s $5 billion Intel investment, SoftBank…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5ce903f7a02f13d3bd2433c1f8618355",
       "title": "Citrini’s 26 Trades for 2026 | Citrini on BS Jobs, AI Materials, Advanced Packaging, & More",
       "url": "https://www.youtube.com/watch?v=YJDDhz8xTQY",
@@ -707,22 +722,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6454b99cb44f842fdabc4a59cc07cf5",
-      "title": "Trump's One Rule AI Order",
-      "url": "https://www.youtube.com/watch?v=jOGNcwWjB2M",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-15T22:23:31+00:00",
-      "summary": "Trump's executive order seeks federal preemption of state AI laws, empowers DOJ litigation, and ties Commerce funding to compliance, triggering legal challenges and GOP infighting. Approval of Nvidia H200 exports reshapes global chip strategy as China weighs massive subsidies an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1815,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-03T17:14:48.930088+00:00"
+  "generated_at": "2026-01-03T18:23:49.566070+00:00"
 }
