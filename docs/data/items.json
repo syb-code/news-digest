@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "247e76b01e912c13ff50cebafabd777d",
+      "title": "What Manus and Groq Acquisitions Tell Us About AI Competition",
+      "url": "https://www.youtube.com/watch?v=h1mQF0J6r9k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-04T16:05:36+00:00",
+      "summary": "Two major transactions reshaped early 2026 AI competition: Meta's acquisition of Manus for about $2 billion and Nvidia's $20 billion licensing deal with Groq. Meta's purchase wagers on autonomous general-purpose agents and distribution as the new moat while exposing geopolitical…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5de39c6693dacbfd9d8c9ef8ae2ade54",
       "title": "Harley Bassman Explains the Next Bond Crisis No One Is Pricing In",
       "url": "https://www.youtube.com/watch?v=cYabLwti67E",
@@ -613,21 +628,6 @@
       "source_type": "youtube",
       "published": "2025-12-18T13:24:31+00:00",
       "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1cd4e3c7bdeefa7178517cf8af70f91c",
-      "title": "Will this Update from OpenAI Make AI Agents Work Better?",
-      "url": "https://www.youtube.com/watch?v=vjlk3aKZv20",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T00:48:27+00:00",
-      "summary": "Anthropic's skill standard packages include instructions, scripts, and resources as folder-based Markdown modules for progressive disclosure and dynamic loading by agents. OpenAI's integration of skills into ChatGPT and Codex signals fast cross-platform standardization and a shi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-04T16:20:22.338780+00:00"
+  "generated_at": "2026-01-04T17:15:00.490182+00:00"
 }
