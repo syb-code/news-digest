@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "5de39c6693dacbfd9d8c9ef8ae2ade54",
+      "title": "Harley Bassman Explains the Next Bond Crisis No One Is Pricing In",
+      "url": "https://www.youtube.com/watch?v=cYabLwti67E",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-04T14:01:05+00:00",
+      "summary": "Harley Bassman, managing partner at Simplify Asset Management and widely known as the “Convexity Maven,” joins Monetary Matters to break down the hidden risks shaping today’s markets. He explains why inflation is likely to remain structurally higher, why massive fiscal deficits …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "13f3f09a9fa05ac6ba51e86cad912e2b",
+      "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+      "url": "https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-04T13:31:22+00:00",
+      "summary": "Former Facebook, Google, and CZI leader shares her battle-tested frameworks for managing rapid growth, why giving away your job is the path to success, and how to stay sane while your company scales 10x",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "111f092a2bacbbf044e1f441ff9a57fb",
       "title": "Claude Code is Now Writing Claude Code",
       "url": "https://www.youtube.com/watch?v=0zdLr7xiOFw",
@@ -872,19 +900,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7730a1b1bb59146374cf2341bdadee58",
-      "title": "How to spot a 1% startup early",
-      "url": "https://www.lennysnewsletter.com/p/how-to-spot-a-1-startup-early",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-09T10:01:51+00:00",
-      "summary": "Three key lessons from people who picked multiple iconic companies before they were obvious",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "149ed16055905c3d653d7b1ada1cfaaa",
       "title": "LWiAI Podcast #227 - Jeremie is back! DeepSeek 3.2, TPUs, Nested Learning",
       "url": "https://lastweekin.ai/p/lwiai-podcast-227-jeremie-is-back",
@@ -1046,21 +1061,6 @@
       "published": "2025-11-29T21:00:25+00:00",
       "summary": "Monetary Matters listeners can get 20% of Prometheus Macro Substack here: https://www.prometheus-macro.com/subscribe?coupon=a60c1c9f\n\nAahan Menon, founder of Prometheus Macro and a trusted \"quant's quant\" for sophisticated hedge funds, joins Jack Farley to explain why his models…",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "67a3bdd38a44488a65c1069c1e7d9168",
-      "title": "This Might Be As Good As It Gets For U.S. Stocks | Meb Faber",
-      "url": "https://www.youtube.com/watch?v=VvRu-c60TBo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-28T23:00:47+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN:\nhttps://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nIn this episode of Monetary Matters, Ja…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-04T13:27:18.997741+00:00"
+  "generated_at": "2026-01-04T14:15:43.287914+00:00"
 }
