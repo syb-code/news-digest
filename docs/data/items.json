@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "de985210e6bcfffca39c267be4be876e",
+      "title": "Context Graphs: AI's Next Big Idea",
+      "url": "https://www.youtube.com/watch?v=SVUymPVBvfo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-06T01:32:06+00:00",
+      "summary": "Context graphs capture decision traces, exceptions, precedents, and cross-system signals explaining why past choices occurred and making automated decisions auditable. Analysis contrasts traditional systems of record and data warehouses with cross-system agents requiring accessi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fc6e189dbdd8a0031d816535910b3d65",
       "title": "IRS Cracking Down on Side Hustle Income (Avoid These Mistakes!)",
       "url": "https://www.youtube.com/watch?v=j-Y2PbG7b1k",
@@ -656,21 +671,6 @@
       "source_type": "rss",
       "published": "2025-12-18T13:31:55+00:00",
       "summary": "Elena Verna returns to break down Lovable’s explosive $200M ARR climb—and why AI forces every company to reinvent its growth playbook from the ground up",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ed6a428a6091893eaa4fb19c4199ca52",
-      "title": "4 Reasons to Use ImageGen 1.5 Over Nano Banana Pro",
-      "url": "https://www.youtube.com/watch?v=tK2nyI4NCWk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-18T13:24:31+00:00",
-      "summary": "OpenAI's GPT Image 1.5 boosts instruction following, precision edits, text fidelity, and generation speed. Comparisons with NanoBanana Pro reveal trade-offs: advantages for infographics, complex prompts, and aesthetic polish, but regressions in certain art styles and face consis…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-06T01:22:45.843602+00:00"
+  "generated_at": "2026-01-06T03:26:11.887068+00:00"
 }
