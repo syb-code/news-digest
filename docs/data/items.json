@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "fe9205aea6c28ff2a6ca412aafbfddce",
+      "title": "Best of Lenny’s Newsletter 2026",
+      "url": "https://www.lennysnewsletter.com/p/best-of-lennys-newsletter-2026",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-06T13:45:22+00:00",
+      "summary": "The 25 best posts from the past year, plus a few all-time classics",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0b7666c06dbfc3ac66b7c29cd7bedd17",
       "title": "Last Week in AI #331 - Nvidia announcements, Grok bikini prompts, RAISE Act",
       "url": "https://lastweekin.ai/p/last-week-in-ai-331-nvidia-announcements",
@@ -834,21 +847,6 @@
       "source_type": "rss",
       "published": "2025-12-15T13:03:34+00:00",
       "summary": "Watch now | 🎙️ A Zapier EA shows how she automated meeting prep, executive feedback, and cultural reinforcement—turning AI agents into her own team of interns",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a45b2fd8a5d8904e8ee6a4c9221e82be",
-      "title": "Why humans are AI’s biggest bottleneck (and what’s coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)",
-      "url": "https://www.lennysnewsletter.com/p/why-humans-are-ais-biggest-bottleneck",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-14T13:31:26+00:00",
-      "summary": "OpenAI's Codex lead on 20x growth, how the Sora Android app hit #1 in 18 day, and why the best way to use AI coding tools is giving them your hardest problems.",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1814,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-06T13:34:44.006458+00:00"
+  "generated_at": "2026-01-06T14:19:15.177055+00:00"
 }
