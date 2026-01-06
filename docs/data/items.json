@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0b7666c06dbfc3ac66b7c29cd7bedd17",
+      "title": "Last Week in AI #331 - Nvidia announcements, Grok bikini prompts, RAISE Act",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-331-nvidia-announcements",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-06T11:56:58+00:00",
+      "summary": "Nvidia Details New A.I. Chips and Autonomous Car Project, Grok is undressing anyone, NY passes AI regulation",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "de985210e6bcfffca39c267be4be876e",
       "title": "Context Graphs: AI's Next Big Idea",
       "url": "https://www.youtube.com/watch?v=SVUymPVBvfo",
@@ -1631,21 +1646,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8c98b009fb9e417c6eae4383c5cdadf6",
-      "title": "LWiAI Podcast #220 - Gemini 2.5 Flash Image, Claude for Chrome",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-220-gemini-25-flash",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-02T06:34:27+00:00",
-      "summary": "Google Gemini's AI image model gets a 'bananas' upgrade, Anthropic launches a Claude AI agent that lives in Chrome",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1c941898a48f65177e1efb27878922d8",
       "title": "Deep Learning Weekly: Issue 419",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-419",
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-06T11:16:01.135676+00:00"
+  "generated_at": "2026-01-06T12:37:57.845022+00:00"
 }
