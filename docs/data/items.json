@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ee5749e6eed5135b683fd1e2d57dfeda",
+      "title": "Venezuela — Why This Matters for Americans and Investors",
+      "url": "https://www.youtube.com/watch?v=9bhbEzqasGQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-01-07T17:00:14+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0d8812d6679070d4fa5af44bcee1d3ec",
       "title": "LWiAI Podcast #230 - 2025 Retrospective, Nvidia buys Groq, GLM 4.7, METR",
       "url": "https://lastweekin.ai/p/lwiai-podcast-230-2025-retrospective",
@@ -1288,19 +1301,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "76f12c941810c52674f4e759a5f60a2f",
-      "title": "Government Shutdown Resolved — BUT Another Crisis Hits in December & January",
-      "url": "https://www.youtube.com/watch?v=cdt3n5yLj3o",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-11-11T18:00:55+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "d46afb1a350b1eecaf466f9b3adb1086",
       "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
       "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-07T16:25:48.517753+00:00"
+  "generated_at": "2026-01-07T17:23:13.028987+00:00"
 }
