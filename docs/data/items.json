@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "83766a9b604f5b08f1459ced16b2c102",
+      "title": "These Foreign Markets Are Crushing US Stocks | Jack & Max",
+      "url": "https://www.youtube.com/watch?v=BcDi389eaR8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-07T20:30:20+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠http://fiscal.ai/mm⁠\n\nIn this episode, Jack Farley and Max Wiethe break down what really happened in markets in 2025 and what it means for investors h…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "41bbca352285174efdaeafeed7db8a55",
       "title": "AI at CES is Not Just Cheesy Gadgets Anymore",
       "url": "https://www.youtube.com/watch?v=19NE_to9I-8",
@@ -1109,21 +1124,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "02a370cc4232deead756395366230d8f",
-      "title": "Quant Phenom See Challenging Period For U.S. Equities | Aahan Menon",
-      "url": "https://www.youtube.com/watch?v=QaoKtPtXtUk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-11-29T21:00:25+00:00",
-      "summary": "Monetary Matters listeners can get 20% of Prometheus Macro Substack here: https://www.prometheus-macro.com/subscribe?coupon=a60c1c9f\n\nAahan Menon, founder of Prometheus Macro and a trusted \"quant's quant\" for sophisticated hedge funds, joins Jack Farley to explain why his models…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "67757376e31c29ec74e5db79d4fe4b1c",
       "title": "AI prompt hacks for design",
       "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-07T20:20:54.823391+00:00"
+  "generated_at": "2026-01-07T21:16:57.746145+00:00"
 }
