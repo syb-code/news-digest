@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "41bbca352285174efdaeafeed7db8a55",
+      "title": "AI at CES is Not Just Cheesy Gadgets Anymore",
+      "url": "https://www.youtube.com/watch?v=19NE_to9I-8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-07T17:59:36+00:00",
+      "summary": "CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ee5749e6eed5135b683fd1e2d57dfeda",
       "title": "Venezuela — Why This Matters for Americans and Investors",
       "url": "https://www.youtube.com/watch?v=9bhbEzqasGQ",
@@ -672,21 +687,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "44d244fefca8b928ae9f431b5f95a3ff",
-      "title": "82% of Companies Are Seeing Positive AI ROI",
-      "url": "https://www.youtube.com/watch?v=-Eaie89b0z0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-19T00:44:56+00:00",
-      "summary": "An AI ROI benchmarking study of over 1,200 respondents and 5,000 use cases found 82% positive ROI with 37% reporting significant or transformational impact. Timesavings was the most common benefit, averaging about eight hours saved per week, while strategic gains, new capabiliti…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-07T17:23:13.028987+00:00"
+  "generated_at": "2026-01-07T18:27:34.807945+00:00"
 }
