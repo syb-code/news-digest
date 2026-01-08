@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6ae9c63a57f303c774b0465d439dc058",
+      "title": "Deep Learning Weekly: Issue 437",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-01-08T16:02:39+00:00",
+      "summary": "Comet, Vercel, and Google DeepMind launch month-long AI Agents hackathon with $30K prizes, 2025: The year in LLMs by Simon Willison, a paper on NitroGen: An Open Foundation Model for Generalist Gaming",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "83766a9b604f5b08f1459ced16b2c102",
       "title": "These Foreign Markets Are Crushing US Stocks | Jack & Max",
       "url": "https://www.youtube.com/watch?v=BcDi389eaR8",
@@ -1671,21 +1686,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5c7e9f75b4c97f699e6998acbc5118c4",
-      "title": "Deep Learning Weekly: Issue 417",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-417",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-08-13T15:02:28+00:00",
-      "summary": "How to Build Reliable AI Agent Architecture for Production, How Much Power Will Frontier AI Training Demand in 2030, a paper on TextQuests: How Good are LLMs at Text-Based Video Games, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7bfe9a33b83053ff0f55f520559e8cab",
       "title": "10 AI prompt lessons I learned the hard way",
       "url": "https://designplusai.com/p/10-ai-prompt-lessons-i-learned-the",
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-08T15:21:38.635022+00:00"
+  "generated_at": "2026-01-08T16:25:29.479861+00:00"
 }
