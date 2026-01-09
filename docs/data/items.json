@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7f42d5358e05c38275c964eedd766692",
+      "title": "Why Everyone Is Obsessed with Claude Code",
+      "url": "https://www.youtube.com/watch?v=_WXyavHYb5c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-09T00:35:56+00:00",
+      "summary": "Claude Code and Opus 4.5 sparked a leap in AI coding, enabling autonomous agents to build complex apps without traditional code. Predicted impacts include a post‑UI world with agent‑first products, enterprise workflow transformation, and new management skills for orchestrating A…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6ae9c63a57f303c774b0465d439dc058",
       "title": "Deep Learning Weekly: Issue 437",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
@@ -656,21 +671,6 @@
       "source_type": "rss",
       "published": "2025-12-21T13:31:22+00:00",
       "summary": "AI guardrails don't work. Security researcher Sander Schulhoff on prompt injection, red teaming, why AI defenses fail, and what actually secures AI products.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ba1431ddc1a8e66ded9ebc211fc47d50",
-      "title": "The Most Important AI Stories This Week",
-      "url": "https://www.youtube.com/watch?v=z50UOrFJDgo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-21T00:37:11+00:00",
-      "summary": "A rapid-fire roundup of the biggest AI stories of the week, from Google’s Gemini 3 Flash pushing the speed and efficiency frontier to fresh OpenAI fundraising rumors that highlight the escalating cost of compute and shifting cloud alliances. Amazon’s AI reorganization and leader…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-08T23:15:50.397963+00:00"
+  "generated_at": "2026-01-09T01:23:30.581501+00:00"
 }
