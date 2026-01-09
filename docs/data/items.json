@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "1474aab0a08d195da3cd4b278c6e4ca8",
+      "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
+      "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-01-09T20:48:53+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "7f42d5358e05c38275c964eedd766692",
       "title": "Why Everyone Is Obsessed with Claude Code",
       "url": "https://www.youtube.com/watch?v=_WXyavHYb5c",
@@ -792,19 +805,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e262edfa6429ed1a76c29e3ed308ebe1",
-      "title": "The Jobs Report Shows a Labor Market in Big Trouble",
-      "url": "https://www.youtube.com/watch?v=Do8wVaeJ3JY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-12-16T21:09:27+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-09T20:20:30.331836+00:00"
+  "generated_at": "2026-01-09T21:17:28.999440+00:00"
 }
