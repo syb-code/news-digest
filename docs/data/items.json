@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f66be5ce190aa6ce3fa7b7188e800526",
+      "title": "🧠 Community Wisdom: Building a PM copilot with a large context window, navigating career growth and relocation, managing product backlogs effectively, office seating dynamics, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-a-pm-copilot",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-10T17:18:36+00:00",
+      "summary": "Community Wisdom 168",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "1474aab0a08d195da3cd4b278c6e4ca8",
       "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
       "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
@@ -890,21 +903,6 @@
       "source_type": "rss",
       "published": "2025-12-15T16:02:14+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a850e53449e72fea4f22f989bb0041ab",
-      "title": "How Zapier’s EA built an army of AI interns to automate meeting prep, strengthen team culture, and scale internal alignment | Cortney Hickey",
-      "url": "https://www.lennysnewsletter.com/p/how-zapiers-ea-built-an-army-of-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-15T13:03:34+00:00",
-      "summary": "Watch now | 🎙️ A Zapier EA shows how she automated meeting prep, executive feedback, and cultural reinforcement—turning AI agents into her own team of interns",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1811,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-10T17:14:40.813007+00:00"
+  "generated_at": "2026-01-10T18:24:57.443857+00:00"
 }
