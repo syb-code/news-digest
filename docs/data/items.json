@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "58165611d27808b3df5dcce2c9033728",
+      "title": "How People Are Using AI for Health",
+      "url": "https://www.youtube.com/watch?v=RVVO0JNo8c0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-10T21:24:36+00:00",
+      "summary": "OpenAI launched ChatGPT Health as a dedicated encrypted workspace connecting medical records and wellness apps with isolated health memory. Company data shows over 40 million weekly users ask about symptoms, test results, treatments, insurance navigation, and after-hours care, e…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f66be5ce190aa6ce3fa7b7188e800526",
       "title": "🧠 Community Wisdom: Building a PM copilot with a large context window, navigating career growth and relocation, managing product backlogs effectively, office seating dynamics, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-a-pm-copilot",
@@ -652,21 +667,6 @@
       "source_type": "rss",
       "published": "2025-12-22T13:03:27+00:00",
       "summary": "Watch now | 🎙️ How to transform your organization from AI-curious to AI-proficient: synchronous workshops, asynchronous sharing channels, and measuring adoption success",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fe8a8ac0cd890bc515cfbe9b75a3c63e",
-      "title": "10 Holiday-Themed Kids AI Activities",
-      "url": "https://www.youtube.com/watch?v=axZhe6W-FEY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-22T00:22:41+00:00",
-      "summary": "Ten holiday-themed AI activities for children include a digital scrapbook, a gratitude coloring book, and an AI-illustrated storybook. Additional projects feature printable holiday cards, a kindness advent calendar, a shelter \"underdog\" adoption campaign, personalized elf audio …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-10T21:15:00.258461+00:00"
+  "generated_at": "2026-01-10T22:16:23.183040+00:00"
 }
