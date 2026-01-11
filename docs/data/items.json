@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2a9ef444a20dd21933338722b8c1b948",
+      "title": "What OpenAI and Google engineers learned deploying 50+ AI products in production",
+      "url": "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-11T13:31:22+00:00",
+      "summary": "Lessons from 50+ enterprise AI deployments",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "58165611d27808b3df5dcce2c9033728",
       "title": "How People Are Using AI for Health",
       "url": "https://www.youtube.com/watch?v=RVVO0JNo8c0",
@@ -888,21 +903,6 @@
       "source_type": "youtube",
       "published": "2025-12-16T02:09:33+00:00",
       "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nIn this interview, Chanos breaks down why hosting GPUs is a commodity business with low returns and why the depreciation of AI chips (like Nvidia’s) creates a massive financial risk for compani…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8ed26b805ae4b255ae76cd90ef749b49",
-      "title": "This week on How I AI: How Zapier’s EA built an army of AI interns",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-zapiers",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-15T16:02:14+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-11T13:27:36.787089+00:00"
+  "generated_at": "2026-01-11T14:15:49.562694+00:00"
 }
