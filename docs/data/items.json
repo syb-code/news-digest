@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6b43e5a4e5422c98147173938806ba07",
+      "title": "Why Venezuela Won’t Solve America’s Real Energy Crisis | Michael Kao",
+      "url": "https://www.youtube.com/watch?v=MApxYy8jK6g",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-11T14:07:11+00:00",
+      "summary": "In this episode of Monetary Matters, Max Wiethe sits down with Michael Kao, CIO of Cantos Capital Management and the Kao Family Office, to unpack the real energy risks facing the U.S. economy.\n\nThe conversation opens with Venezuela and the Trump administration’s push to reshape …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "2a9ef444a20dd21933338722b8c1b948",
       "title": "What OpenAI and Google engineers learned deploying 50+ AI products in production",
       "url": "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned",
@@ -1096,19 +1109,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "34be04560891c7a069351a898bc84714",
-      "title": "Michael Pettis: China’s Consumption Crisis Is The World’s Crisis",
-      "url": "https://www.youtube.com/watch?v=hoSNdzfydRU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-01T17:04:55+00:00",
-      "summary": "Learn more about the VanEck Rare Earth and Strategic Metals ETF: www.vaneck.com/REMXJack\n\nIn this episode of Monetary Matters, Jack sits down with Michael Pettis, Senior Fellow at the Carnegie Endowment, to deconstruct the massive economic imbalances between China and the rest o…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "528bfa637f19db7c192de454d3663dd0",
       "title": "The Rise of the Founding Designer",
       "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-11T14:15:49.562694+00:00"
+  "generated_at": "2026-01-11T15:16:46.797271+00:00"
 }
