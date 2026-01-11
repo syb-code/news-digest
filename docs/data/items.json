@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "0247b090f069d8bac8ad5b6ae40f226d",
+      "title": "What Happens When AI Obliterates Your Business Model?",
+      "url": "https://www.youtube.com/watch?v=nflqTdNvUGs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-11T16:57:46+00:00",
+      "summary": "AI-driven coding agents are reshaping developer workflows and exposing fragile revenue models across knowledge work. Tailwind's mass layoffs and Stack Overflow's collapse show LLMs boosting usage while collapsing documentation traffic and paid conversions. Potential fixes includ…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6b43e5a4e5422c98147173938806ba07",
       "title": "Why Venezuela Won’t Solve America’s Real Energy Crisis | Michael Kao",
       "url": "https://www.youtube.com/watch?v=MApxYy8jK6g",
@@ -620,21 +636,6 @@
       "source_type": "rss",
       "published": "2025-12-24T02:50:17+00:00",
       "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7148ec086f75899f100907cba62f87fe",
-      "title": "How AI Starts Doing the Work in 2026 with Anthropic CPO Mike Krieger",
-      "url": "https://www.youtube.com/watch?v=VSLEGpCemtE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-24T00:25:11+00:00",
-      "summary": "Anthropic CPO Mike Krieger joins AI Daily Brief to map where “vibe coding” is headed in 2026—from Claude’s early coding focus to the rise of longer-horizon, more autonomous coding agents like Claude Code. The conversation breaks down what’s changing across three worlds: software…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1809,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-11T16:20:32.325641+00:00"
+  "generated_at": "2026-01-11T17:14:24.574379+00:00"
 }
