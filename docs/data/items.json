@@ -89,7 +89,7 @@
     },
     {
       "id": "6b43e5a4e5422c98147173938806ba07",
-      "title": "Why Venezuela Won’t Solve America’s Real Energy Crisis | Michael Kao",
+      "title": "AI, Electrification, and the Hidden Energy Bottleneck | Michael Kao",
       "url": "https://www.youtube.com/watch?v=MApxYy8jK6g",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -97,7 +97,9 @@
       "summary": "In this episode of Monetary Matters, Max Wiethe sits down with Michael Kao, CIO of Cantos Capital Management and the Kao Family Office, to unpack the real energy risks facing the U.S. economy.\n\nThe conversation opens with Venezuela and the Trump administration’s push to reshape …",
       "read_minutes": 2,
       "duration_sec": null,
-      "themes": [],
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -1808,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-12T19:18:17.856793+00:00"
+  "generated_at": "2026-01-12T20:20:59.300487+00:00"
 }
