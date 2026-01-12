@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
+      "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
+      "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-01-12T15:01:09+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "c23be9a615179c82dbf6aea5360630ac",
+      "title": "AI Wearables Round 2: Will Anyone Care This Time?",
+      "url": "https://www.youtube.com/watch?v=YcR2-XRIxVs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-12T14:43:11+00:00",
+      "summary": "AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollba…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e74b554d63702c12f2dfba08cbf8c2cb",
       "title": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
       "url": "https://www.lennysnewsletter.com/p/a-full-software-engineering-teammate",
@@ -619,21 +647,6 @@
       "source_type": "youtube",
       "published": "2025-12-24T21:08:19+00:00",
       "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJay Shambaugh, former Under Secretary of the Treasury for International Affairs, joins Jack to discuss U.S. economic relations, China, and more. He draws on his years of expertise to deliver im…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "544ed2c4e7260a02a1c781dae55d0d02",
-      "title": "The 10 Biggest AI Stories of 2025",
-      "url": "https://www.youtube.com/watch?v=BpAlN1KBHEQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-24T16:54:22+00:00",
-      "summary": "This episode covers the 10 biggest AI stories of 2025—how DeepSeek’s R1 shook markets, pushed reasoning into the mainstream, and intensified the US–China model race. It also breaks down the massive AI infrastructure boom (Stargate, hyperscaler capex, energy + data centers), the …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1285,21 +1298,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3f4fe1419c8ede27bb33ec6531c526f1",
-      "title": "The Plan to Turn Americans into Permanent Renters (50 Year Mortgage)",
-      "url": "https://www.youtube.com/watch?v=zSw9Wbzn-Nc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-11-14T17:01:51+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "18d1e5009664c0b057919a24cc19ee0a",
       "title": "Deep Learning Weekly: Issue 430",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
@@ -1808,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-12T14:22:05.677691+00:00"
+  "generated_at": "2026-01-12T15:21:39.213500+00:00"
 }
