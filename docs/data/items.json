@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "19a3b860c37d42445f1bd0860fbe4fd4",
+      "title": "🎙️This week on How I AI: The power user’s guide to Codex",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-power-users",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-12T16:03:09+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
       "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
       "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
@@ -883,21 +898,6 @@
       "source_type": "rss",
       "published": "2025-12-16T18:35:23+00:00",
       "summary": "Every tool, prompt, and workflow to turn rough ideas into polished, working products.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7ba697a08d652f60b6bb6c8ebf01e26d",
-      "title": "How to build your PM second brain with ChatGPT",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-16T13:45:33+00:00",
-      "summary": "Use AI to amplify your craft, not replace it",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-12T15:21:39.213500+00:00"
+  "generated_at": "2026-01-12T16:23:22.049275+00:00"
 }
