@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6e5595116cb403b9081d66f29cd4c7d1",
+      "title": "China Could Turn the Tables on the U.S. in the A.I. Race | Dr. Michael Power of Kaskazi Consulting",
+      "url": "https://www.youtube.com/watch?v=KKtbq-w4mzg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-12T17:47:44+00:00",
+      "summary": "Dr. Michael Power, a seasoned financial analyst, consultant, and strategist, joins Jack to discuss his recent work that predicts the Chinese A.I. industry may soon beat the U.S. at its own game. Dr. Power explains what makes the Chinese approach fundamentally different from U.S.…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "19a3b860c37d42445f1bd0860fbe4fd4",
       "title": "🎙️This week on How I AI: The power user’s guide to Codex",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-power-users",
@@ -1037,19 +1052,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0ca2eabe5539c5a64fa641e786382c7d",
-      "title": "Why Metals Are Soaring While Oil Stalls | CME Chief Economist Erik Norland",
-      "url": "https://www.youtube.com/watch?v=J9Z6gfV3SBk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-08T15:59:35+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nErik Norland, Chief Economist at the CME Group, joins Jack Farley to discuss the wild volatility in commodity markets. With Silver up over 80% in the past year, Erik breaks down the technologic…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "423eb33884f1e405005de613d76b692b",
       "title": "Last Week in AI #328 - DeepSeek 3.2, Mistral 3, Trainium3, Runway Gen-4.5",
       "url": "https://lastweekin.ai/p/last-week-in-ai-328-deepseek-32-mistral",
@@ -1806,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-12T17:20:26.088578+00:00"
+  "generated_at": "2026-01-12T18:27:39.170085+00:00"
 }
