@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "e74b554d63702c12f2dfba08cbf8c2cb",
+      "title": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
+      "url": "https://www.lennysnewsletter.com/p/a-full-software-engineering-teammate",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-12T12:03:51+00:00",
+      "summary": "Listen now | 🎙️ The power user's guide to Codex: Parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, more",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0247b090f069d8bac8ad5b6ae40f226d",
       "title": "What Happens When AI Obliterates Your Business Model?",
       "url": "https://www.youtube.com/watch?v=nflqTdNvUGs",
@@ -871,21 +884,6 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2025-12-16T13:45:33+00:00",
-      "summary": "Use AI to amplify your craft, not replace it",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6778ea3e527725fa0e1eae53a29104d9",
-      "title": "How to build your PM second brain with ChatGPT",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-pm-second-brain-e59",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-16T10:02:14+00:00",
       "summary": "Use AI to amplify your craft, not replace it",
       "read_minutes": 1,
       "duration_sec": null,
@@ -1810,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-12T11:17:47.765721+00:00"
+  "generated_at": "2026-01-12T12:39:48.592103+00:00"
 }
