@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "545bdf2d748876040fc2e7e5e0b59ebf",
+      "title": "The Fed’s Emergency Playbook Isn’t Gone",
+      "url": "https://www.youtube.com/shorts/PLQuJbWRz6I",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-13T12:45:04+00:00",
+      "summary": "On Monetary Matters, host Max Wiethe is joined by Harley Bassman of Simplify, who breaks down what happens when policymakers are truly cornered.\n\nHistory shows that when the government’s back is against the wall, the response is clear:\n➡️ Rates to zero\n➡️ Treasury buying resumes…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6e5595116cb403b9081d66f29cd4c7d1",
       "title": "How Chinese A.I. Could Change Everything | Dr. Michael Power of Kaskazi Consulting",
       "url": "https://www.youtube.com/watch?v=KKtbq-w4mzg",
@@ -1011,21 +1027,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "185a8e06860ff6612ea15038ab823449",
-      "title": "How Directional Crypto Hedge Funds Are Evolving",
-      "url": "https://www.youtube.com/watch?v=zbZxkI_8Zgg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-09T14:01:55+00:00",
-      "summary": "This episode is brought to you by VanEck. Learn more about the VanEck Rare Earth and Strategic Metals ETF: http://vaneck.com/REMXMax\n\nSam Gaer, CIO of Directional Strategies at Monarq Asset Management, joins Other People’s Money to discuss how he uses quantitative directional st…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "149ed16055905c3d653d7b1ada1cfaaa",
       "title": "LWiAI Podcast #227 - Jeremie is back! DeepSeek 3.2, TPUs, Nested Learning",
       "url": "https://lastweekin.ai/p/lwiai-podcast-227-jeremie-is-back",
@@ -1810,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-13T12:39:53.482346+00:00"
+  "generated_at": "2026-01-13T13:38:16.836095+00:00"
 }
