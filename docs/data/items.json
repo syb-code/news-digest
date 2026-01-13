@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "236ca6d181d9b1dd0204eb95243ca28b",
+      "title": "The Market’s Biggest Whales are Making Huge Changes: Total Portfolio Revolution | Steve Novakovic",
+      "url": "https://www.youtube.com/watch?v=OtBDcNV6ix4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-13T14:00:51+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nSteven Novakovic, Managing Director of …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "545bdf2d748876040fc2e7e5e0b59ebf",
       "title": "The Fed’s Emergency Playbook Isn’t Gone",
       "url": "https://www.youtube.com/shorts/PLQuJbWRz6I",
@@ -969,21 +984,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a396c02f4f66652f717751c4cb427999",
-      "title": "Luke Gromen: We Are Facing \"The Mother of All Crises\" (And It’s Physical)",
-      "url": "https://www.youtube.com/watch?v=xqtalk5v4ts",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-11T18:12:19+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nLuke Gromen of Forrest For The Trees argues that the US is facing the \"Mother of All Crises\": a forced choice between losing the AI race to China or destroying the US Treasury market. In this d…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ea647dedcea259be796acded8f838ee5",
       "title": "Deep Learning Weekly: Issue 434",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-13T13:38:16.836095+00:00"
+  "generated_at": "2026-01-13T14:21:56.144679+00:00"
 }
