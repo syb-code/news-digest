@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "cc22d6e70c4eb7c8e01fbe5a9ecde56c",
+      "title": "Jerome Powell Under Criminal Investigation — Here's Why This Matters",
+      "url": "https://www.youtube.com/watch?v=AbvZVwrYJ0Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-01-14T17:00:16+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "81db115179966a2c5af4597224f77a75",
       "title": "Washington Is Missing the Real Risk",
       "url": "https://www.youtube.com/shorts/K7jQ3_ZZ9Oc",
@@ -1286,21 +1301,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3a259956c735f8a1840dcf52a81154b5",
-      "title": "$2,000 Stimulus Check Update — Trump Says \"Dividend Will Be Paid\"",
-      "url": "https://www.youtube.com/watch?v=Xo6onlBKFL8",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-11-17T17:01:05+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "18d1e5009664c0b057919a24cc19ee0a",
       "title": "Deep Learning Weekly: Issue 430",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-14T16:25:35.659838+00:00"
+  "generated_at": "2026-01-14T17:24:20.437266+00:00"
 }
