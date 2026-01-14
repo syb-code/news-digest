@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ca86b859e45233ba5ec137da4d9a07f0",
+      "title": "Why Claude Cowork is a Big Deal",
+      "url": "https://www.youtube.com/watch?v=mJWi_koYY70",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-14T01:47:36+00:00",
+      "summary": "Claude Cowork brings Claude Code agent capabilities to non‑technical users by enabling local file and connector access and automating multi‑step workflows. Audience reactions mix excitement about APIs, scheduling, and parallel task automation with warnings about prompt‑injection…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "236ca6d181d9b1dd0204eb95243ca28b",
       "title": "The Market’s Biggest Whales are Making Huge Changes: Total Portfolio Revolution | Steve Novakovic",
       "url": "https://www.youtube.com/watch?v=OtBDcNV6ix4",
@@ -655,21 +668,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b668210014901d0d3bf051da97a5a774",
-      "title": "51 Charts Explaining AI in 2026",
-      "url": "https://www.youtube.com/watch?v=HcyUUvxkykE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-26T14:24:56+00:00",
-      "summary": "51 charts map the AI landscape heading into 2026—showing why capabilities keep accelerating (reasoning tokens, longer task horizons, usable long-context), even as progress stays jagged and bottlenecked by process + verification. The episode then zooms out to the big forces shapi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1811,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-14T01:26:06.281824+00:00"
+  "generated_at": "2026-01-14T03:44:02.737110+00:00"
 }
