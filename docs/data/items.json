@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "81db115179966a2c5af4597224f77a75",
+      "title": "Washington Is Missing the Real Risk",
+      "url": "https://www.youtube.com/shorts/K7jQ3_ZZ9Oc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-14T14:30:17+00:00",
+      "summary": "On Monetary Matters, Michael Kao, author of KAOBOY MUSINGS, explains why U.S. energy policy may be aimed at the wrong target.\n\nWhile policymakers remain hyper-focused on oil prices as a geopolitical lever, Kao argues the real strategic vulnerability lies elsewhere — natural gas.…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ca86b859e45233ba5ec137da4d9a07f0",
       "title": "Why Claude Cowork is a Big Deal",
       "url": "https://www.youtube.com/watch?v=mJWi_koYY70",
@@ -967,21 +982,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f7c940e3833b8211f4e6b1bf530fee0c",
-      "title": "\"It's A Confidence Game\": AI Financing Warning From Jim Chanos",
-      "url": "https://www.youtube.com/watch?v=R1HrPsfUkbk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-16T02:09:33+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nIn this interview, Chanos breaks down why hosting GPUs is a commodity business with low returns and why the depreciation of AI chips (like Nvidia’s) creates a massive financial risk for compani…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ea647dedcea259be796acded8f838ee5",
       "title": "Deep Learning Weekly: Issue 434",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-14T14:22:36.009851+00:00"
+  "generated_at": "2026-01-14T15:22:04.785943+00:00"
 }
