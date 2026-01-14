@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "dc9f2beb7395c0bfd55987f3bd2a1dd0",
+      "title": "President Trump Shocks Markets With Sweeping Actions In Credit Cards, Mortgages, Defense, and More",
+      "url": "https://www.youtube.com/watch?v=b8uXzpRYwXI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-14T18:33:52+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/?via=monetarymatters\n\nPresident Trump has shaken the financial markets by proposing a strict 10% interest rate cap on credit card…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cc22d6e70c4eb7c8e01fbe5a9ecde56c",
       "title": "Jerome Powell Under Criminal Investigation — Here's Why This Matters",
       "url": "https://www.youtube.com/watch?v=AbvZVwrYJ0Q",
@@ -269,7 +285,7 @@
       "source": "@Monetary-Matters",
       "source_type": "youtube",
       "published": "2026-01-07T20:30:20+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠http://fiscal.ai/mm⁠\n\nIn this episode, Jack Farley and Max Wiethe break down what really happened in markets in 2025 and what it means for investors h…",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm\n\nIn this episode, Jack Farley and Max Wiethe break down what really happened in markets in 2025 and what it means for investors h…",
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [
@@ -945,21 +961,6 @@
       "published": "2025-12-17T22:31:17+00:00",
       "summary": "GPT-5.2 is OpenAI’s latest move in the agentic AI battle, Towards a Science of Scaling Agent Systems, and more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1888d7277cecf6f0139d00412046a66d",
-      "title": "How This Value Investor Beat the Market and Grew His Hedge Fund | Yaron Naymark | 1 Main Capital",
-      "url": "https://www.youtube.com/watch?v=9zPaSq_nZ14",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-17T14:00:25+00:00",
-      "summary": "This episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nOver the last 8 years, Yaron Naymark, founder and managing partner of 1 Main Capital, has patiently grown his concentrated long-biased hedge fund b…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1809,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-14T18:28:42.450309+00:00"
+  "generated_at": "2026-01-14T19:16:55.309711+00:00"
 }
