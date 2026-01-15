@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "98402f5ff49f08db69ba87ed335b83f5",
+      "title": "Deep Learning Weekly: Issue 438",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-438",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-01-15T16:02:53+00:00",
+      "summary": "Comet, Vercel, and Google DeepMind launch a month-long AI Agents hackathon with $30K prizes, Claude Cowork, a paper on Prompt Repetition Improves Non-Reasoning LLMs, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "de4355bdc6f1087ae074bad759f3916a",
       "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin",
       "url": "https://www.lennysnewsletter.com/p/silicon-valleys-missing-etiquette-playbook",
@@ -1668,21 +1683,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3f963b1337f3d4e56e3c421b99581033",
-      "title": "Deep Learning Weekly: Issue 418",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-418",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-08-20T15:03:06+00:00",
-      "summary": "Gemma 3 270M, Best Practices for Building Agentic AI Systems: What Actually Works in Production, a paper on GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7bfe9a33b83053ff0f55f520559e8cab",
       "title": "10 AI prompt lessons I learned the hard way",
       "url": "https://designplusai.com/p/10-ai-prompt-lessons-i-learned-the",
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-15T15:21:32.957939+00:00"
+  "generated_at": "2026-01-15T16:30:37.233275+00:00"
 }
