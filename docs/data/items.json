@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "60f2bd629ca66c4caadf099f8b44ee5d",
+      "title": "The Biggest Battle in AI is for Your Personal Context",
+      "url": "https://www.youtube.com/watch?v=w9xkk58hT3E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-15T21:53:27+00:00",
+      "summary": "The AI race centers on the battle for personal context. Google Gemini's Personal Intelligence links Gmail, Photos, Search and YouTube to deliver tailored, privacy‑focused recommendations via opt‑in connectors. Anthropic's Claude Cowork and Claude Code surface desktop context and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "972ce9f76f8c0bceb295c3b2dd678f33",
       "title": "Gold at Record Highs — Is a Crash Coming in 2026?",
       "url": "https://www.youtube.com/watch?v=pz30JmUu6pc",
@@ -722,21 +737,6 @@
       "source_type": "rss",
       "published": "2025-12-29T12:03:21+00:00",
       "summary": "Watch now | 🎙️ The CPO’s custom AI chief-of-staff app helps prep for meetings, audit her calendar, and level up her entire organization",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a50f0a6f1425ebfc0d530779028978f7",
-      "title": "The Most Important AI Lesson for Businesses From 2025",
-      "url": "https://www.youtube.com/watch?v=Ef5KG4hS2SE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-28T21:03:26+00:00",
-      "summary": "Deloitte's 17th Tech Trends report prioritizes operational redesign, agent-ready architectures, and robust orchestration for real AI value. Primary obstacles include legacy-system integration, poor data searchability and reusability, and governance unprepared for autonomous deci…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-15T21:18:22.237188+00:00"
+  "generated_at": "2026-01-15T22:18:37.282651+00:00"
 }
