@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "146d273fa24788a63860b8946b5cc78b",
+      "title": "Last Week in AI #332 - Apple + Gemini, OpenAI + Cerebras, Claude Cowork",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-332-apple-gemini",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-15T07:06:16+00:00",
+      "summary": "Google’s Gemini to power Apple’s AI features like Siri, OpenAI signs deal worth $10B for compute from Cerebras, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "66887feb83f80a504ecaf2b4e4e7841e",
       "title": "ChatGPT 5.5 Rumors Start to Bubble",
       "url": "https://www.youtube.com/watch?v=Smh50q7UTcY",
@@ -1573,21 +1588,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b8c2111f6cff481d1ce29af74d72453d",
-      "title": "Last Week in AI #322 - Robotaxi progress, OpenAI Business, Gemini in Chrome",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-322-robotaxi-progress",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-22T15:01:57+00:00",
-      "summary": "Amazon's Zoox jumps into U.S. robotaxi race with Las Vegas launch, OpenAI secures Microsoft’s blessing to transition its for-profit arm, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a11eb074f242bc12967e6feb239d8d40",
       "title": "Winning Teams Hire Founders",
       "url": "https://designplusai.com/p/winning-teams-hire-founders",
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-15T06:28:15.400710+00:00"
+  "generated_at": "2026-01-15T07:22:30.425682+00:00"
 }
