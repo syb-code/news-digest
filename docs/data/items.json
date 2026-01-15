@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "66887feb83f80a504ecaf2b4e4e7841e",
+      "title": "ChatGPT 5.5 Rumors Start to Bubble",
+      "url": "https://www.youtube.com/watch?v=Smh50q7UTcY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-15T01:05:21+00:00",
+      "summary": "Leaked signals point to major updates, including a rumored GPT‑5.3 \"Garlic\", a full GPT‑5 rollout after the 5.2 checkpoint, and DeepSeek V4 aimed at superior coding and long‑context handling. Gemini 3, ChatGPT Images, GPT‑5.2 and Claude Opus 4.5 shifted momentum toward Anthropic…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dc9f2beb7395c0bfd55987f3bd2a1dd0",
       "title": "President Trump Shocks Markets With Sweeping Actions In Credit Cards, Mortgages, Defense, and More",
       "url": "https://www.youtube.com/watch?v=b8uXzpRYwXI",
@@ -681,21 +696,6 @@
       "source_type": "rss",
       "published": "2025-12-28T13:31:26+00:00",
       "summary": "Rippling's CPO on why you should deliberately understaff projects, how to recognize true product-market fit, why VCs want you to keep failing, and the frameworks that built a $16B company",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e3fa6737fc15642eb8cc72ecf2c8f77d",
-      "title": "The 5 Most Impactful AI Model Releases of 2025",
-      "url": "https://www.youtube.com/watch?v=1KUKh7TofLg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-27T20:32:46+00:00",
-      "summary": "A countdown of the 2025 model releases that most changed how AI is built, used, and talked about—plus a few notable omissions. The list runs from GPT-5’s backlash and Gemini 3’s rebound effect on the “AI plateau” narrative, to the rise of Chinese open-weight models, to Nano Bana…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-14T23:15:24.503346+00:00"
+  "generated_at": "2026-01-15T01:21:52.920671+00:00"
 }
