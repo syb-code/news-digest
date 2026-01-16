@@ -295,7 +295,7 @@
     },
     {
       "id": "2a9ef444a20dd21933338722b8c1b948",
-      "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google & Amazon",
+      "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google, and Amazon",
       "url": "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned",
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-16T17:21:05.145953+00:00"
+  "generated_at": "2026-01-16T18:27:46.320999+00:00"
 }
