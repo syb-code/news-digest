@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d6844b10fc01da678ae95ca320ed679e",
+      "title": "Microsoft's Plan to Make People Less Angry About AI and Electricity",
+      "url": "https://www.youtube.com/watch?v=fk89VMo88tI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-16T15:05:31+00:00",
+      "summary": "Datacenter policy and rising electricity costs are driving 2026 campaign fights over affordability and prompting presidential pressure on Big Tech to cover local utility impacts. Microsoft unveiled a five-part community-first plan to pay local utility equivalents, cut water use,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "60f2bd629ca66c4caadf099f8b44ee5d",
       "title": "The Biggest Battle in AI is for Your Personal Context",
       "url": "https://www.youtube.com/watch?v=w9xkk58hT3E",
@@ -682,21 +697,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "797558cba90b9f93c72e0b7c2ae3a64a",
-      "title": "Why 2026 is the Year of the AI Builder with Lovable CEO Anton Osika",
-      "url": "https://www.youtube.com/watch?v=Nfy9BCSOTF4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-29T17:58:46+00:00",
-      "summary": "Lovable CEO Anton Osika joins the AI Daily Brief to unpack how AI-assisted coding evolved from early GitHub experiments into load-bearing infrastructure inside companies, why 2025 marked the inflection point for vibe coding, and why 2026 will belong to builders who can think, pl…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-16T14:20:15.202262+00:00"
+  "generated_at": "2026-01-16T15:20:09.259121+00:00"
 }
