@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9ef9b7129fb4deee9d6582e972c7d305",
+      "title": "Why CEOs Need to Lead AI Strategy",
+      "url": "https://www.youtube.com/watch?v=9UWShopAFaE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-16T20:38:56+00:00",
+      "summary": "Recent enterprise surveys show CEOs taking direct control of AI strategy as investments rise and ROI horizons shorten. Agent deployments are moving from experimentation to production while complexity, governance and cybersecurity challenges grow. Surveyed leaders report new AI-s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d6844b10fc01da678ae95ca320ed679e",
       "title": "Microsoft's Plan to Make People Less Angry About AI and Electricity",
       "url": "https://www.youtube.com/watch?v=fk89VMo88tI",
@@ -649,21 +664,6 @@
       "source_type": "youtube",
       "published": "2025-12-31T13:10:46+00:00",
       "summary": "Predictions for the 2026 AI race focus on competitive dynamics, market financing, and political fallout. Expect Microsoft to deepen Anthropic ties while OpenAI faces fragmented priorities and likely ad monetization of chat products. Other highlights include Grok's rapid rise, Me…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5bf78c04cad833c6ea7463d3ccbdcf0a",
-      "title": "50 AI Predictions for 2026 - Part 1",
-      "url": "https://www.youtube.com/watch?v=p97xD1fBLXo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-30T15:37:26+00:00",
-      "summary": "Fifty AI predictions for 2026 explore model and capability trajectories, accelerating release cadence, multimodal competition, emerging world models, and next‑generation hardware like Blackwell. Vibecoding and personal software will move from prototypes into production across no…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-16T20:18:55.086113+00:00"
+  "generated_at": "2026-01-16T21:17:43.873015+00:00"
 }
