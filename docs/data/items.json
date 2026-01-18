@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9a1af7182f0397aa7ff0e266d03ee60a",
+      "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
+      "url": "https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-18T13:31:19+00:00",
+      "summary": "Meta PM Zevi Arnovitz on his complete AI workflow for non-technical builders, the slash commands that make it possible, and why this is the best time to be a junior in tech",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7ccec41441519e0bb2b403fd1b940f48",
       "title": "🧠 Community Wisdom: Managing fragmented AI usage across teams, avoiding generic UX when building with AI, tracking funnel metrics at the pre-PMF stage, thoughts on Anthropic’s Cowork, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-managing-fragmented",
@@ -923,21 +938,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f48a859e53a5c6820f8e06f238fa4148",
-      "title": "The coming AI security crisis (and what to do about it) | Sander Schulhoff",
-      "url": "https://www.lennysnewsletter.com/p/the-coming-ai-security-crisis",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-21T13:31:22+00:00",
-      "summary": "AI guardrails don't work. Security researcher Sander Schulhoff on prompt injection, red teaming, why AI defenses fail, and what actually secures AI products.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3dca75be8d877c417fdf3c8425accc79",
       "title": "From Bad to Less Bad: A Quantitative Approach to Turnarounds | Bloomberg Indices’ Steve Hou",
       "url": "https://www.youtube.com/watch?v=DNO_wT82CKc",
@@ -1806,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-18T13:26:22.329769+00:00"
+  "generated_at": "2026-01-18T14:15:08.213249+00:00"
 }
