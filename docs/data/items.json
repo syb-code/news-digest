@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "7a08ec11f95aaa0e0bf3a21ad60e3f2f",
+      "title": "The Triumphs & Crises of China’s Economy | Dr. Barry Naughton",
+      "url": "https://www.youtube.com/watch?v=FqCyq3CIhwQ",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-18T20:00:11+00:00",
+      "summary": "Barry Naughton, a renowned professor and chair of Chinese International Affairs at UC San Diego, provides a deep dive into the current crises and triumphs of the Chinese economy. In this interview, Naughton analyzes why China is grappling with its most difficult challenges in de…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9a1af7182f0397aa7ff0e266d03ee60a",
       "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
       "url": "https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor",
@@ -964,21 +980,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "999f7235dae7574b1643fc8246a686a4",
-      "title": "Volatility Laundering Is What Investors Want, Actually | Andrew Beer",
-      "url": "https://www.youtube.com/watch?v=cc9CCAuYV70",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-18T18:36:01+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nWhy do institutional investors continue…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0c5bcec973876baafe5ea38a66abb393",
       "title": "Deep Learning Weekly: Issue 435",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
@@ -1806,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-18T19:12:52.543634+00:00"
+  "generated_at": "2026-01-18T20:19:07.277314+00:00"
 }
