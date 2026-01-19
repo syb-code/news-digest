@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "36adce1fdff713ed90523e3b0cae0ef5",
+      "title": "You Can Now Vibecode Mobile Apps",
+      "url": "https://www.youtube.com/watch?v=ltPO1ZgH4yw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-19T19:21:21+00:00",
+      "summary": "Replit unveils native mobile app publishing with one-click app-store submission to streamline building, payments, security, and publishing. Bloomberg reports a Replit funding round that could value the company near $9 billion, and HiggsField closes funding around a $1.3 billion …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "06f1f18a74d72bba7c8c012699965661",
       "title": "My Silver Exit Strategy in 2026 — When I Plan to Sell",
       "url": "https://www.youtube.com/watch?v=pKeSSI8YdeQ",
@@ -736,21 +749,6 @@
       "source_type": "rss",
       "published": "2026-01-01T13:31:28+00:00",
       "summary": "Jason Lemkin on why he replaced his entire sales team with AI agents, how he fine-tuned them to work better than his human sales people, which vendors to choose, and how to become hyper-employable in the AI area",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8307c791de89ccc3e2d10f13c8706b71",
-      "title": "50 AI Predictions for 2026 Part 2",
-      "url": "https://www.youtube.com/watch?v=wi7F3veEEvU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2025-12-31T13:10:46+00:00",
-      "summary": "Predictions for the 2026 AI race focus on competitive dynamics, market financing, and political fallout. Expect Microsoft to deepen Anthropic ties while OpenAI faces fragmented priorities and likely ad monetization of chat products. Other highlights include Grok's rapid rise, Me…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-19T19:17:06.760487+00:00"
+  "generated_at": "2026-01-19T20:20:08.972874+00:00"
 }
