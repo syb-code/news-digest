@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "06f1f18a74d72bba7c8c012699965661",
+      "title": "My Silver Exit Strategy in 2026 — When I Plan to Sell",
+      "url": "https://www.youtube.com/watch?v=pKeSSI8YdeQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-01-19T17:01:19+00:00",
+      "summary": "Join me on Patreon to see what I'm doing with silver, gold, stocks: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "319a2ac09a48e6342900fef0f448d270",
       "title": "🎙️ This week on How I AI: Claude Code for product managers",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-code",
@@ -1295,23 +1308,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2a933d73b249038d69857a858b562b6b",
-      "title": "The Fed Is Conflicted — Markets Are Losing Confidence (Bitcoin • Stocks • Gold • Silver)",
-      "url": "https://www.youtube.com/watch?v=c-zKIMsPtks",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-11-21T18:00:44+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Crypto",
-        "Macro/Fed",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "83967139cbb788661e5ef377641df6ac",
       "title": "Deep Learning Weekly: Issue 431",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-431",
@@ -1805,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-19T16:24:58.806161+00:00"
+  "generated_at": "2026-01-19T17:20:59.629569+00:00"
 }
