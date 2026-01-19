@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
+      "title": "How to build stunning slide decks with AI",
+      "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-19T22:33:41+00:00",
+      "summary": "I recently posted a slide deck that I built fully with AI on LinkedIn and it took completely off.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "36adce1fdff713ed90523e3b0cae0ef5",
       "title": "You Can Now Vibecode Mobile Apps",
       "url": "https://www.youtube.com/watch?v=ltPO1ZgH4yw",
@@ -1782,22 +1797,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "2fbcafd81fe8d23c2fb72929ae661836",
-      "title": "Most people still don’t know how to use AI.",
-      "url": "https://designplusai.com/p/most-people-still-dont-know-how-to",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-08T14:30:45+00:00",
-      "summary": "In the 70s, computers were for engineers.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-19T22:18:18.042888+00:00"
+  "generated_at": "2026-01-19T23:17:36.695574+00:00"
 }
