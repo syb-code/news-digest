@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "319a2ac09a48e6342900fef0f448d270",
+      "title": "🎙️ This week on How I AI: Claude Code for product managers",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-code",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-19T16:02:13+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eb6a3d8d4f4ea42b501c2de9b76664ab",
       "title": "Claude Code for product managers: research, writing, context libraries, custom to-do system, and more | Teresa Torres",
       "url": "https://www.lennysnewsletter.com/p/claude-code-for-product-managers",
@@ -922,21 +937,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "19ccad02473441191ab35386c01f4e35",
-      "title": "This week on How I AI: How to get your whole team excited about AI",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-get",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-22T16:02:34+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
       "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
       "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-19T15:22:37.462415+00:00"
+  "generated_at": "2026-01-19T16:24:58.806161+00:00"
 }
