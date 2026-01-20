@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "fdaa00515252d0a5d523394ad5683844",
+      "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the-172",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-20T10:01:32+00:00",
+      "summary": "A step-by-step guide to jumping in and building your first ChatGPT app",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
       "title": "How to build stunning slide decks with AI",
       "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
@@ -948,21 +961,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "32501e07cfe8ded3a99f122974e66658",
-      "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
-      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-23T13:45:19+00:00",
-      "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
       "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
       "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
@@ -1799,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-20T09:29:32.241800+00:00"
+  "generated_at": "2026-01-20T10:23:57.032625+00:00"
 }
