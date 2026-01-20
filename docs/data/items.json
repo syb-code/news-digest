@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "e35286f98bdd57bb69c3ddb8097a3c0d",
+      "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-20T13:45:31+00:00",
+      "summary": "A step-by-step guide to jumping in and building your first ChatGPT app",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "fdaa00515252d0a5d523394ad5683844",
       "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
       "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the-172",
@@ -931,21 +944,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "995519fc2d16084231835f8b3c146a7c",
-      "title": "AI tools are overdelivering: results from our large-scale AI productivity survey",
-      "url": "https://www.lennysnewsletter.com/p/ai-tools-are-overdelivering-results-c08",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-24T02:50:17+00:00",
-      "summary": "What exactly AI is doing for people, which AI tools have product-market fit, where the biggest opportunities remain, and what it all means",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b8447d2d5169b15db828547a226ee09d",
       "title": "How to Invest in 2026: Don’t Fight the Fed",
       "url": "https://www.youtube.com/watch?v=gksY8Vj6KCQ",
@@ -1797,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-20T13:43:15.037311+00:00"
+  "generated_at": "2026-01-20T14:27:04.379504+00:00"
 }
