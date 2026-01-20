@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0eaca4758cc922a0a857883706c6685c",
+      "title": "How to Make ChatGPT Ads Not Suck",
+      "url": "https://www.youtube.com/watch?v=b7LNP1RZemI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-20T15:33:53+00:00",
+      "summary": "OpenAI announced plans to test clearly labeled ads in ChatGPT's free and lower-tier plans. Announcements emphasized conversational privacy, mission alignment, and long-term-value principles. Public skepticism centered on potential answer influence and trust erosion while propose…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e35286f98bdd57bb69c3ddb8097a3c0d",
       "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
       "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the",
@@ -760,21 +775,6 @@
       "source_type": "rss",
       "published": "2026-01-01T16:25:58+00:00",
       "summary": "GPT-5.2-Codex, Prompt Drift: The Hidden Failure Mode Undermining Agentic Systems, a paper on Adaptation of Agentic AI, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bbbead62987ca4cd369072c762c405e4",
-      "title": "AI New Year's: The 10 Week AI Resolution",
-      "url": "https://www.youtube.com/watch?v=EhQeGgZxdHU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-01T15:38:36+00:00",
-      "summary": "This final episode of 2025 lays out a practical, self-guided 10-week plan to build real AI fluency by actually doing the work. Each weekend focuses on a concrete project—from model mapping and deep research to data analysis, visual reasoning, automations, context engineering, an…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-20T15:29:08.557213+00:00"
+  "generated_at": "2026-01-20T16:30:36.173923+00:00"
 }
