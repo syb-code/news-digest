@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5e5c744e8e108f60305be6f4e2dfb6d3",
+      "title": "The Whole World Gets Claude-Pilled",
+      "url": "https://www.youtube.com/watch?v=YDQ4Fpcv4Z8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-21T03:52:31+00:00",
+      "summary": "Anthropic's Claude breakout centers on Claude Code and Claude Cowork making coding and automation accessible to nontechnical users. Coverage highlights a potential $25 billion fundraising round with major backers like Microsoft and Nvidia and a wave of social-media enthusiasm. O…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0b9dd83dfb379ccf3c74523f5fade52e",
       "title": "LWiAI Podcast #231 - Claude Cowork, Anthropic $10B, Deep Delta Learning",
       "url": "https://lastweekin.ai/p/lwiai-podcast-231-claude-cowork-anthropic",
@@ -8,6 +23,21 @@
       "source_type": "rss",
       "published": "2026-01-21T03:22:53+00:00",
       "summary": "Anthropic’s new Cowork tool, Anthropic Raising $10 Billion at $350 Billion Value, Deep Delta Learning",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0eaca4758cc922a0a857883706c6685c",
+      "title": "How to Make ChatGPT Ads Not Suck",
+      "url": "https://www.youtube.com/watch?v=b7LNP1RZemI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-20T15:33:53+00:00",
+      "summary": "OpenAI announced plans to test clearly labeled ads in ChatGPT's free and lower-tier plans. Announcements emphasized conversational privacy, mission alignment, and long-term-value principles. Public skepticism centered on potential answer influence and trust erosion while propose…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -57,6 +87,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "36adce1fdff713ed90523e3b0cae0ef5",
+      "title": "You Can Now Vibecode Mobile Apps",
+      "url": "https://www.youtube.com/watch?v=ltPO1ZgH4yw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-19T19:21:21+00:00",
+      "summary": "Replit unveils native mobile app publishing with one-click app-store submission to streamline building, payments, security, and publishing. Bloomberg reports a Replit funding round that could value the company near $9 billion, and HiggsField closes funding around a $1.3 billion …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "06f1f18a74d72bba7c8c012699965661",
       "title": "My Silver Exit Strategy in 2026 — When I Plan to Sell",
       "url": "https://www.youtube.com/watch?v=pKeSSI8YdeQ",
@@ -98,6 +141,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "7a08ec11f95aaa0e0bf3a21ad60e3f2f",
+      "title": "The Triumphs & Crises of China’s Economy | Dr. Barry Naughton",
+      "url": "https://www.youtube.com/watch?v=FqCyq3CIhwQ",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-18T20:00:11+00:00",
+      "summary": "Barry Naughton, a renowned professor and chair of Chinese International Affairs at UC San Diego, provides a deep dive into the current crises and triumphs of the Chinese economy. In this interview, Naughton analyzes why China is grappling with its most difficult challenges in de…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9a1af7182f0397aa7ff0e266d03ee60a",
       "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
       "url": "https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor",
@@ -120,6 +179,51 @@
       "source_type": "rss",
       "published": "2026-01-17T19:35:00+00:00",
       "summary": "Community Wisdom 169",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9ef9b7129fb4deee9d6582e972c7d305",
+      "title": "Why CEOs Need to Lead AI Strategy",
+      "url": "https://www.youtube.com/watch?v=9UWShopAFaE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-16T20:38:56+00:00",
+      "summary": "Recent enterprise surveys show CEOs taking direct control of AI strategy as investments rise and ROI horizons shorten. Agent deployments are moving from experimentation to production while complexity, governance and cybersecurity challenges grow. Surveyed leaders report new AI-s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d6844b10fc01da678ae95ca320ed679e",
+      "title": "Microsoft's Plan to Make People Less Angry About AI and Electricity",
+      "url": "https://www.youtube.com/watch?v=fk89VMo88tI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-16T15:05:31+00:00",
+      "summary": "Datacenter policy and rising electricity costs are driving 2026 campaign fights over affordability and prompting presidential pressure on Big Tech to cover local utility impacts. Microsoft unveiled a five-part community-first plan to pay local utility equivalents, cut water use,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "60f2bd629ca66c4caadf099f8b44ee5d",
+      "title": "The Biggest Battle in AI is for Your Personal Context",
+      "url": "https://www.youtube.com/watch?v=w9xkk58hT3E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-15T21:53:27+00:00",
+      "summary": "The AI race centers on the battle for personal context. Google Gemini's Personal Intelligence links Gmail, Photos, Search and YouTube to deliver tailored, privacy‑focused recommendations via opt‑in connectors. Anthropic's Claude Cowork and Claude Code surface desktop context and…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -184,6 +288,37 @@
       "bucket": "highlight"
     },
     {
+      "id": "66887feb83f80a504ecaf2b4e4e7841e",
+      "title": "ChatGPT 5.5 Rumors Start to Bubble",
+      "url": "https://www.youtube.com/watch?v=Smh50q7UTcY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-15T01:05:21+00:00",
+      "summary": "Leaked signals point to major updates, including a rumored GPT‑5.3 \"Garlic\", a full GPT‑5 rollout after the 5.2 checkpoint, and DeepSeek V4 aimed at superior coding and long‑context handling. Gemini 3, ChatGPT Images, GPT‑5.2 and Claude Opus 4.5 shifted momentum toward Anthropic…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "dc9f2beb7395c0bfd55987f3bd2a1dd0",
+      "title": "President Trump Shocks Markets With Sweeping Actions In Credit Cards, Mortgages, Defense, and More",
+      "url": "https://www.youtube.com/watch?v=b8uXzpRYwXI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-14T18:33:52+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/?via=monetarymatters\n\nPresident Trump has shaken the financial markets by proposing a strict 10% interest rate cap on credit card…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cc22d6e70c4eb7c8e01fbe5a9ecde56c",
       "title": "Jerome Powell Under Criminal Investigation — Here's Why This Matters",
       "url": "https://www.youtube.com/watch?v=AbvZVwrYJ0Q",
@@ -195,6 +330,80 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "81db115179966a2c5af4597224f77a75",
+      "title": "Washington Is Missing the Real Risk",
+      "url": "https://www.youtube.com/shorts/K7jQ3_ZZ9Oc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-14T14:30:17+00:00",
+      "summary": "On Monetary Matters, Michael Kao, author of KAOBOY MUSINGS, explains why U.S. energy policy may be aimed at the wrong target.\n\nWhile policymakers remain hyper-focused on oil prices as a geopolitical lever, Kao argues the real strategic vulnerability lies elsewhere — natural gas.…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ca86b859e45233ba5ec137da4d9a07f0",
+      "title": "Why Claude Cowork is a Big Deal",
+      "url": "https://www.youtube.com/watch?v=mJWi_koYY70",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-14T01:47:36+00:00",
+      "summary": "Claude Cowork brings Claude Code agent capabilities to non‑technical users by enabling local file and connector access and automating multi‑step workflows. Audience reactions mix excitement about APIs, scheduling, and parallel task automation with warnings about prompt‑injection…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "236ca6d181d9b1dd0204eb95243ca28b",
+      "title": "The Market’s Biggest Whales are Making Huge Changes: Total Portfolio Revolution | Steve Novakovic",
+      "url": "https://www.youtube.com/watch?v=OtBDcNV6ix4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-13T14:00:51+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nSteven Novakovic, Managing Director of …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "545bdf2d748876040fc2e7e5e0b59ebf",
+      "title": "The Fed’s Emergency Playbook Isn’t Gone",
+      "url": "https://www.youtube.com/shorts/PLQuJbWRz6I",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-13T12:45:04+00:00",
+      "summary": "On Monetary Matters, host Max Wiethe is joined by Harley Bassman of Simplify, who breaks down what happens when policymakers are truly cornered.\n\nHistory shows that when the government’s back is against the wall, the response is clear:\n➡️ Rates to zero\n➡️ Treasury buying resumes…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6e5595116cb403b9081d66f29cd4c7d1",
+      "title": "How Chinese A.I. Could Change Everything | Dr. Michael Power of Kaskazi Consulting",
+      "url": "https://www.youtube.com/watch?v=KKtbq-w4mzg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-12T17:47:44+00:00",
+      "summary": "Dr. Michael Power, a seasoned financial analyst, consultant, and strategist, joins Jack to discuss his recent work that predicts the Chinese A.I. industry may soon beat the U.S. at its own game. Dr. Power explains what makes the Chinese approach fundamentally different from U.S.…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -227,6 +436,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "c23be9a615179c82dbf6aea5360630ac",
+      "title": "AI Wearables Round 2: Will Anyone Care This Time?",
+      "url": "https://www.youtube.com/watch?v=YcR2-XRIxVs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-12T14:43:11+00:00",
+      "summary": "AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollba…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e74b554d63702c12f2dfba08cbf8c2cb",
       "title": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
       "url": "https://www.lennysnewsletter.com/p/a-full-software-engineering-teammate",
@@ -240,6 +464,37 @@
       "bucket": "highlight"
     },
     {
+      "id": "0247b090f069d8bac8ad5b6ae40f226d",
+      "title": "What Happens When AI Obliterates Your Business Model?",
+      "url": "https://www.youtube.com/watch?v=nflqTdNvUGs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-11T16:57:46+00:00",
+      "summary": "AI-driven coding agents are reshaping developer workflows and exposing fragile revenue models across knowledge work. Tailwind's mass layoffs and Stack Overflow's collapse show LLMs boosting usage while collapsing documentation traffic and paid conversions. Potential fixes includ…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6b43e5a4e5422c98147173938806ba07",
+      "title": "AI, Electrification, and the Hidden Energy Bottleneck | Michael Kao",
+      "url": "https://www.youtube.com/watch?v=MApxYy8jK6g",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-11T14:07:11+00:00",
+      "summary": "In this episode of Monetary Matters, Max Wiethe sits down with Michael Kao, CIO of Cantos Capital Management and the Kao Family Office, to unpack the real energy risks facing the U.S. economy.\n\nThe conversation opens with Venezuela and the Trump administration’s push to reshape …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2a9ef444a20dd21933338722b8c1b948",
       "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google, and Amazon",
       "url": "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned",
@@ -247,6 +502,21 @@
       "source_type": "rss",
       "published": "2026-01-11T13:31:22+00:00",
       "summary": "Lessons from 50+ enterprise AI deployments",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "58165611d27808b3df5dcce2c9033728",
+      "title": "How People Are Using AI for Health",
+      "url": "https://www.youtube.com/watch?v=RVVO0JNo8c0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-10T21:24:36+00:00",
+      "summary": "OpenAI launched ChatGPT Health as a dedicated encrypted workspace connecting medical records and wellness apps with isolated health memory. Company data shows over 40 million weekly users ask about symptoms, test results, treatments, insurance navigation, and after-hours care, e…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -281,6 +551,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "7f42d5358e05c38275c964eedd766692",
+      "title": "Why Everyone Is Obsessed with Claude Code",
+      "url": "https://www.youtube.com/watch?v=_WXyavHYb5c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-09T00:35:56+00:00",
+      "summary": "Claude Code and Opus 4.5 sparked a leap in AI coding, enabling autonomous agents to build complex apps without traditional code. Predicted impacts include a post‑UI world with agent‑first products, enterprise workflow transformation, and new management skills for orchestrating A…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6ae9c63a57f303c774b0465d439dc058",
       "title": "Deep Learning Weekly: Issue 437",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
@@ -288,6 +573,36 @@
       "source_type": "rss",
       "published": "2026-01-08T16:02:39+00:00",
       "summary": "Comet, Vercel, and Google DeepMind launch month-long AI Agents hackathon with $30K prizes, 2025: The year in LLMs by Simon Willison, a paper on NitroGen: An Open Foundation Model for Generalist Gaming",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "83766a9b604f5b08f1459ced16b2c102",
+      "title": "These Foreign Markets Are Crushing US Stocks | Jack & Max",
+      "url": "https://www.youtube.com/watch?v=BcDi389eaR8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-07T20:30:20+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm\n\nIn this episode, Jack Farley and Max Wiethe break down what really happened in markets in 2025 and what it means for investors h…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "41bbca352285174efdaeafeed7db8a55",
+      "title": "AI at CES is Not Just Cheesy Gadgets Anymore",
+      "url": "https://www.youtube.com/watch?v=19NE_to9I-8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-07T17:59:36+00:00",
+      "summary": "CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung an…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -352,6 +667,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "de985210e6bcfffca39c267be4be876e",
+      "title": "Context Graphs: AI's Next Big Idea",
+      "url": "https://www.youtube.com/watch?v=SVUymPVBvfo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-06T01:32:06+00:00",
+      "summary": "Context graphs capture decision traces, exceptions, precedents, and cross-system signals explaining why past choices occurred and making automated decisions auditable. Analysis contrasts traditional systems of record and data warehouses with cross-system agents requiring accessi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fc6e189dbdd8a0031d816535910b3d65",
       "title": "IRS Cracking Down on Side Hustle Income (Avoid These Mistakes!)",
       "url": "https://www.youtube.com/watch?v=j-Y2PbG7b1k",
@@ -395,6 +725,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "247e76b01e912c13ff50cebafabd777d",
+      "title": "What Manus and Groq Acquisitions Tell Us About AI Competition",
+      "url": "https://www.youtube.com/watch?v=h1mQF0J6r9k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-04T16:05:36+00:00",
+      "summary": "Two major transactions reshaped early 2026 AI competition: Meta's acquisition of Manus for about $2 billion and Nvidia's $20 billion licensing deal with Groq. Meta's purchase wagers on autonomous general-purpose agents and distribution as the new moat while exposing geopolitical…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5de39c6693dacbfd9d8c9ef8ae2ade54",
+      "title": "Harley Bassman Explains the Next Bond Crisis No One Is Pricing In",
+      "url": "https://www.youtube.com/watch?v=cYabLwti67E",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-04T14:01:05+00:00",
+      "summary": "Harley Bassman, managing partner at Simplify Asset Management and widely known as the “Convexity Maven,” joins Monetary Matters to break down the hidden risks shaping today’s markets. He explains why inflation is likely to remain structurally higher, why massive fiscal deficits …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "13f3f09a9fa05ac6ba51e86cad912e2b",
       "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
       "url": "https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham",
@@ -405,6 +765,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5ce903f7a02f13d3bd2433c1f8618355",
+      "title": "Citrini’s 26 Trades for 2026 | Citrini on BS Jobs, AI Materials, Advanced Packaging, & More",
+      "url": "https://www.youtube.com/watch?v=YJDDhz8xTQY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-01T19:31:48+00:00",
+      "summary": "Monetary Matters can get 25% off Citrini Bundle (Citrindex and Citrini Research) here through January 14: https://www.citriniresearch.com/mmjack\n\nThe investor known only as Citrini returns to share his thematic watchlist for the new year, aka “26 Trades for 2026.” The conversati…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -435,6 +810,34 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ed275b74d97dce9f0eb3c8ac0fb0fe45",
+      "title": "Investing Data is Evolving: AI, The Degenerate Economy & More | Matt Ober | Social Leverage",
+      "url": "https://www.youtube.com/watch?v=K6KhJ61shlY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-30T14:00:30+00:00",
+      "summary": "In this episode of Other People’s Money, Matt Ober, General Partner at Social Leverage, discusses how the data economy is evolving for providers, vendors, and investors. He explains how AI is reshaping data business models, highlights emerging data sources in what he calls the “…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b0fed20505cc9695e23a3896ab9713b3",
+      "title": "Workers Are Disappearing As Demographics Age Around The World | Maria Vassalou",
+      "url": "https://www.youtube.com/watch?v=cH8jDr1t9So",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-29T20:30:29+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJack welcomes Maria Vassalou, head of the Pictet Research Institute, to discuss global demographic decline and how technological revolution is imperative to prevent economic stagnation. They ta…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -541,6 +944,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "6aa6b69fd063da323031d7faa13146c5",
+      "title": "“Nothing Terrifies Chinese Policymakers More” | Former Chief U.S. Treasury Diplomat Jay Shambaugh",
+      "url": "https://www.youtube.com/watch?v=uE6U7SFZz-s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-24T21:08:19+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJay Shambaugh, former Under Secretary of the Treasury for International Affairs, joins Jack to discuss U.S. economic relations, China, and more. He draws on his years of expertise to deliver im…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b8447d2d5169b15db828547a226ee09d",
       "title": "How to Invest in 2026: Don’t Fight the Fed",
       "url": "https://www.youtube.com/watch?v=gksY8Vj6KCQ",
@@ -553,6 +971,34 @@
       "themes": [
         "Macro/Fed"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
+      "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
+      "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-21T14:00:58+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nRead about Indian Aerospace & Defense and sign up for Dispatches From India: https://www.gymkhanapartners.com/dispatches/major-sec…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3dca75be8d877c417fdf3c8425accc79",
+      "title": "From Bad to Less Bad: A Quantitative Approach to Turnarounds | Bloomberg Indices’ Steve Hou",
+      "url": "https://www.youtube.com/watch?v=DNO_wT82CKc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2025-12-21T00:35:37+00:00",
+      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nIn this episode of Monetary Matters, Jack sits down with Steve Hou, Senior Quant Researcher at Bloomberg, to discuss the structural forces reshaping the global economy. Hou argues that we have …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1349,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-21T07:24:45.061987+00:00"
+  "generated_at": "2026-01-21T08:27:24.982236+00:00"
 }
