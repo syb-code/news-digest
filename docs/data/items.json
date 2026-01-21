@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5e5c744e8e108f60305be6f4e2dfb6d3",
+      "title": "The Whole World Gets Claude-Pilled",
+      "url": "https://www.youtube.com/watch?v=YDQ4Fpcv4Z8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-21T03:52:31+00:00",
+      "summary": "Anthropic's Claude breakout centers on Claude Code and Claude Cowork making coding and automation accessible to nontechnical users. Coverage highlights a potential $25 billion fundraising round with major backers like Microsoft and Nvidia and a wave of social-media enthusiasm. O…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0b9dd83dfb379ccf3c74523f5fade52e",
       "title": "LWiAI Podcast #231 - Claude Cowork, Anthropic $10B, Deep Delta Learning",
       "url": "https://lastweekin.ai/p/lwiai-podcast-231-claude-cowork-anthropic",
@@ -750,21 +765,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "111f092a2bacbbf044e1f441ff9a57fb",
-      "title": "Claude Code is Now Writing Claude Code",
-      "url": "https://www.youtube.com/watch?v=0zdLr7xiOFw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-03T17:37:40+00:00",
-      "summary": "XAI accelerates the compute arms race with a third MacroHarder facility targeting nearly two gigawatts of training power and hundreds of thousands of GPUs. OpenAI refocuses on advanced audio models and a voice-first consumer device. NVIDIA’s $5 billion Intel investment, SoftBank…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-21T03:40:36.418085+00:00"
+  "generated_at": "2026-01-21T04:41:05.118007+00:00"
 }
