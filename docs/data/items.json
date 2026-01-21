@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0b9dd83dfb379ccf3c74523f5fade52e",
+      "title": "LWiAI Podcast #231 - Claude Cowork, Anthropic $10B, Deep Delta Learning",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-231-claude-cowork-anthropic",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-21T03:22:53+00:00",
+      "summary": "Anthropic’s new Cowork tool, Anthropic Raising $10 Billion at $350 Billion Value, Deep Delta Learning",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0eaca4758cc922a0a857883706c6685c",
       "title": "How to Make ChatGPT Ads Not Suck",
       "url": "https://www.youtube.com/watch?v=b7LNP1RZemI",
@@ -1575,21 +1590,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2209bd0081ce234bd2d064198570efc4",
-      "title": "LWiAI Podcast #221 - OpenAI Codex, Gemini in Chrome, K2-Think, SB 53",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-221-openai-codex-gemini",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-24T20:39:50+00:00",
-      "summary": "OpenAI upgrades Codex with a new version of GPT-5, Google Injects Gemini Into Chrome as AI Browsers Go Mainstream , and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c8b38689572ffa55562e78b7f0e7f17d",
       "title": "Deep Learning Weekly: Issue 423",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-423",
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-21T01:25:52.789323+00:00"
+  "generated_at": "2026-01-21T03:40:36.418085+00:00"
 }
