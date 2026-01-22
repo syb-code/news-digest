@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7d8295bfd73608269f1e74c60a782ca2",
+      "title": "Trump Is Forcing Mortgage Rates Down — Here’s How",
+      "url": "https://www.youtube.com/watch?v=JA1V1HVCMVg",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-01-22T17:00:35+00:00",
+      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0a073844706d436cb82c67aee4ae5b64",
       "title": "Deep Learning Weekly: Issue 439",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-439",
@@ -1288,21 +1303,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1b840c8a04005119af8a6fa15bb4e7ff",
-      "title": "Fed's Money Printing is About to Start — Melt-Up Will Accelerate",
-      "url": "https://www.youtube.com/watch?v=ro4GIl1NG9Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-11-25T22:12:35+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b1c4183371bb149e66750c34ce40e6cd",
       "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
       "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-22T16:30:16.097636+00:00"
+  "generated_at": "2026-01-22T17:25:21.173486+00:00"
 }
