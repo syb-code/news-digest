@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c6ca143f902f9483800abb8541e117d2",
+      "title": "Google Says No Ads Planned for Gemini",
+      "url": "https://www.youtube.com/watch?v=koL152ByfPM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-22T21:07:21+00:00",
+      "summary": "Davos highlighted debates over ads in ChatGPT and contradictory reports about Google adding ads to Gemini. Meta is reportedly scaling back custom silicon and shifting to large AMD chip purchases. OpenAI struck a ServiceNow deal for agentic AI in enterprise workflows and signaled…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7d8295bfd73608269f1e74c60a782ca2",
       "title": "Trump Is Forcing Mortgage Rates Down — Here’s How",
       "url": "https://www.youtube.com/watch?v=JA1V1HVCMVg",
@@ -544,7 +559,7 @@
       "source": "@Monetary-Matters",
       "source_type": "youtube",
       "published": "2026-01-11T14:07:11+00:00",
-      "summary": "In this episode of Monetary Matters, Max Wiethe sits down with Michael Kao, CIO of Cantos Capital Management and the Kao Family Office, to unpack the real energy risks facing the U.S. economy.\n\nThe conversation opens with Venezuela and the Trump administration’s push to reshape …",
+      "summary": "In this episode of Monetary Matters, Max Wiethe sits down with Michael Kao, CIO of Akanthos Capital Management and the Kao Family Office, to unpack the real energy risks facing the U.S. economy.\n\nThe conversation opens with Venezuela and the Trump administration’s push to reshap…",
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [
@@ -717,21 +732,6 @@
       "source_type": "rss",
       "published": "2026-01-06T11:56:58+00:00",
       "summary": "Nvidia Details New A.I. Chips and Autonomous Car Project, Grok is undressing anyone, NY passes AI regulation",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "de985210e6bcfffca39c267be4be876e",
-      "title": "Context Graphs: AI's Next Big Idea",
-      "url": "https://www.youtube.com/watch?v=SVUymPVBvfo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-06T01:32:06+00:00",
-      "summary": "Context graphs capture decision traces, exceptions, precedents, and cross-system signals explaining why past choices occurred and making automated decisions auditable. Analysis contrasts traditional systems of record and data warehouses with cross-system agents requiring accessi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-22T20:22:29.061191+00:00"
+  "generated_at": "2026-01-22T21:20:00.888961+00:00"
 }
