@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "043a2d5dd50f42cb16e4cd6f410a0e57",
+      "title": "AGI Timelines Shift Forward",
+      "url": "https://www.youtube.com/watch?v=8m3dXbUWLuo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-22T01:59:56+00:00",
+      "summary": "Davos discussions focused on accelerating AI timelines and starkly different predictions from Demis Hassabis and Dario Amodei. Dario Amodei equated exporting advanced chips to China with supplying nuclear weapons, sparking debate over chip controls and national security. Convers…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5e5c744e8e108f60305be6f4e2dfb6d3",
       "title": "The Whole World Gets Claude-Pilled",
       "url": "https://www.youtube.com/watch?v=YDQ4Fpcv4Z8",
@@ -717,21 +732,6 @@
       "source_type": "rss",
       "published": "2026-01-05T12:03:50+00:00",
       "summary": "Watch now | 🎙️ Wade Foster (co-founder and CEO of Zapier) on extracting company culture from meeting transcripts, building interview evaluation agents, and finding hidden talent with Grok",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "247e76b01e912c13ff50cebafabd777d",
-      "title": "What Manus and Groq Acquisitions Tell Us About AI Competition",
-      "url": "https://www.youtube.com/watch?v=h1mQF0J6r9k",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-04T16:05:36+00:00",
-      "summary": "Two major transactions reshaped early 2026 AI competition: Meta's acquisition of Manus for about $2 billion and Nvidia's $20 billion licensing deal with Groq. Meta's purchase wagers on autonomous general-purpose agents and distribution as the new moat while exposing geopolitical…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-22T01:25:57.676783+00:00"
+  "generated_at": "2026-01-22T03:44:26.794967+00:00"
 }
