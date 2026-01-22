@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "0a073844706d436cb82c67aee4ae5b64",
+      "title": "Deep Learning Weekly: Issue 439",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-439",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-01-22T16:03:07+00:00",
+      "summary": "FLUX.2 [klein], Heaps do lie: debugging a memory leak in vLLM. a paper on Toward Efficient Agents: Memory, Tool learning, and Planning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5693f29a3cd76c00f952137e3eb8d7a8",
+      "title": "The “Sell America” Trade | Andy Constan on Why Rest of World Stands to Outperform U.S. Assets",
+      "url": "https://www.youtube.com/watch?v=9_IQr9TJJlA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-22T15:30:03+00:00",
+      "summary": "In this episode, Andy Constan of Damped Spring Advisors reveals why he has liquidated 100% of his US asset positions to bet on the \"Rest of the World\". He breaks down the looming financing headwinds created by massive AI capital expenditures and political promises, explaining ho…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "043a2d5dd50f42cb16e4cd6f410a0e57",
       "title": "AGI Timelines Shift Forward",
       "url": "https://www.youtube.com/watch?v=8m3dXbUWLuo",
@@ -989,19 +1017,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3dca75be8d877c417fdf3c8425accc79",
-      "title": "From Bad to Less Bad: A Quantitative Approach to Turnarounds | Bloomberg Indices’ Steve Hou",
-      "url": "https://www.youtube.com/watch?v=DNO_wT82CKc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-21T00:35:37+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nIn this episode of Monetary Matters, Jack sits down with Steve Hou, Senior Quant Researcher at Bloomberg, to discuss the structural forces reshaping the global economy. Hou argues that we have …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "f4f06c36a08b1e663377420b7217c7b0",
       "title": "Inflation Cools to 2.7% — Even With Money Printers Back On",
       "url": "https://www.youtube.com/watch?v=ePPpAdfV0H8",
@@ -1672,19 +1687,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1c941898a48f65177e1efb27878922d8",
-      "title": "Deep Learning Weekly: Issue 419",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-419",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-08-28T15:00:57+00:00",
-      "summary": "Anthropic launches Claude for Chrome in limited beta, How a 20-Year-Old Algorithm Can Help Us Understand Transformer Embeddings, a paper on: Fine-tuning LLM Agents without Fine-tuning LLMs, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "7bfe9a33b83053ff0f55f520559e8cab",
       "title": "10 AI prompt lessons I learned the hard way",
       "url": "https://designplusai.com/p/10-ai-prompt-lessons-i-learned-the",
@@ -1795,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-22T15:27:17.106722+00:00"
+  "generated_at": "2026-01-22T16:30:16.097636+00:00"
 }
