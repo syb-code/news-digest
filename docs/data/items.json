@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b446359146d5b59b1669da4f41362b2a",
+      "title": "Why Deeply Integrating AI 3x's Likelihood of Financial Gains from AI",
+      "url": "https://www.youtube.com/watch?v=LNxjvhgEikI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-23T13:15:11+00:00",
+      "summary": "New surveys from PwC, Workday and Section reveal a widening gap between AI leaders and laggards rather than blanket AI underperformance. Senior executives report efficiency gains while frontline workers report high rework, anxiety, low tool access and minimal training. Companies…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "90033c0599c790c5cf766322bdb54390",
       "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
       "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
@@ -677,21 +692,6 @@
       "published": "2026-01-07T20:30:20+00:00",
       "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm\n\nIn this episode, Jack Farley and Max Wiethe break down what really happened in markets in 2025 and what it means for investors h…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "41bbca352285174efdaeafeed7db8a55",
-      "title": "AI at CES is Not Just Cheesy Gadgets Anymore",
-      "url": "https://www.youtube.com/watch?v=19NE_to9I-8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-07T17:59:36+00:00",
-      "summary": "CES 2026 signaled a shift from quirky AI gadgets to major players defining product categories and accelerating roadmap rollouts. NVIDIA unveiled Vera Rubin chips with multi-fold speed and energy-efficiency gains plus a full robotics and embodied-AI stack. AMD, Google, Samsung an…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-23T12:39:36.924025+00:00"
+  "generated_at": "2026-01-23T13:39:44.746552+00:00"
 }
