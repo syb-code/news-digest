@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "90033c0599c790c5cf766322bdb54390",
+      "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-23T05:14:53+00:00",
+      "summary": "OpenAI to test ads in ChatGPT as it burns through billions, Sequoia to invest in Anthropic, Zhipu AI breaks US chip reliance, The Drama at Thinking Machines Is Riveting Silicon Valley",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c6ca143f902f9483800abb8541e117d2",
       "title": "Google Says No Ads Planned for Gemini",
       "url": "https://www.youtube.com/watch?v=koL152ByfPM",
@@ -1575,21 +1590,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ec553e718da54193840280ba7c899f1e",
-      "title": "Last Week in AI #323 - Sonnet 4.5, Sora 2, Vibes, SB 53",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-323-sonnet-45-sora",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-02T16:44:32+00:00",
-      "summary": "Anthropic releases Claude Sonnet 4.5, OpenAI announces Sora 2 with AI video app, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2f7f1ed40c65585013676147c85d0e9b",
       "title": "Deep Learning Weekly: Issue 424",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-23T04:39:16.504042+00:00"
+  "generated_at": "2026-01-23T05:24:25.935366+00:00"
 }
