@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2d367b899b77ecd7c652dd1831b475d1",
+      "title": "🧠 Community Wisdom: Setting up product ops at a pre-seed startup, breaking into PM from a non-tech background, and being an AI champion without burning out",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-setting-up-product",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-24T17:00:36+00:00",
+      "summary": "Community Wisdom 170",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a001505eefda880105c5c4ded2fdd748",
       "title": "More AI Datacenter Community Commitments",
       "url": "https://www.youtube.com/watch?v=nfchOeBJxtc",
@@ -959,19 +974,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2009ff99f4aa1464933e60749672d8cb",
-      "title": "🧠 Community Wisdom: Measuring business impact after rollout, clarity vs. capacity as the real bottleneck, what makes podcast content valuable, keeping secondary users engaged, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-measuring-business",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-27T16:59:19+00:00",
-      "summary": "Community Wisdom 167",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "58aad7db8874d01c514bd133536b2477",
       "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
       "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
@@ -1797,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-24T16:20:31.876493+00:00"
+  "generated_at": "2026-01-24T17:14:55.171944+00:00"
 }
