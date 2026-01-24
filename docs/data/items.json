@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5490a2f551f277621ec49dba2f9b2703",
+      "title": "Gold, Silver, & Natural Gas Are Exploding Higher | Jack & Max",
+      "url": "https://www.youtube.com/watch?v=iDq53-oR4Ug",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-24T19:35:33+00:00",
+      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/\n\nJack & Max break down the bull market in silver and gold, how they are expressing their bullish views via royalty companies, an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d367b899b77ecd7c652dd1831b475d1",
       "title": "🧠 Community Wisdom: Setting up product ops at a pre-seed startup, breaking into PM from a non-tech background, and being an AI champion without burning out",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-setting-up-product",
@@ -1034,21 +1049,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e13d8fe1319ec2c4520acb6ff46e2c58",
-      "title": "The Relentless Engine Powering India’s Next Decade | Andrei Stetsenko",
-      "url": "https://www.youtube.com/watch?v=b-cGX2h73S8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-21T14:00:58+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: http://fiscal.ai/mm\n\nRead about Indian Aerospace & Defense and sign up for Dispatches From India: https://www.gymkhanapartners.com/dispatches/major-sec…",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f4f06c36a08b1e663377420b7217c7b0",
       "title": "Inflation Cools to 2.7% — Even With Money Printers Back On",
       "url": "https://www.youtube.com/watch?v=ePPpAdfV0H8",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-24T19:14:09.439118+00:00"
+  "generated_at": "2026-01-24T20:18:12.552761+00:00"
 }
