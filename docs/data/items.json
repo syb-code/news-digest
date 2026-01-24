@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a001505eefda880105c5c4ded2fdd748",
+      "title": "More AI Datacenter Community Commitments",
+      "url": "https://www.youtube.com/watch?v=nfchOeBJxtc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-24T01:31:26+00:00",
+      "summary": "OpenAI announced Stargate Community commitments to minimize datacenter energy and water impacts while funding local grid upgrades and workforce training. The White House urged a PJM emergency auction, enabling tech firms to bid for 15‑year power contracts to accelerate new gener…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b446359146d5b59b1669da4f41362b2a",
       "title": "Why Deeply Integrating AI 3x's Likelihood of Financial Gains from AI",
       "url": "https://www.youtube.com/watch?v=LNxjvhgEikI",
@@ -651,21 +666,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7f42d5358e05c38275c964eedd766692",
-      "title": "Why Everyone Is Obsessed with Claude Code",
-      "url": "https://www.youtube.com/watch?v=_WXyavHYb5c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-09T00:35:56+00:00",
-      "summary": "Claude Code and Opus 4.5 sparked a leap in AI coding, enabling autonomous agents to build complex apps without traditional code. Predicted impacts include a post‑UI world with agent‑first products, enterprise workflow transformation, and new management skills for orchestrating A…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-24T01:21:38.049584+00:00"
+  "generated_at": "2026-01-24T03:23:51.086948+00:00"
 }
