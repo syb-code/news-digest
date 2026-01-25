@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "360d4b055a9e15c7022e3c11de8e47de",
+      "title": "AI Needs More Revenue To Justify Valuations, Argues \"Dean of Valuation\" Aswath Damodaran",
+      "url": "https://www.youtube.com/watch?v=ZE-hqrDRyzg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-25T20:34:44+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this deep-dive interview, NYU Finance Professor Aswath Damodaran, the \"Dean of Valuation,\" assesses the current state of the U.S. stock market, describing the S&P 500 as richly priced but stopping short …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "64ab6b892aeca3e0cb949042e7402008",
       "title": "Why your product stopped growing (and the 5-step framework to restart it) | Jason Cohen",
       "url": "https://www.lennysnewsletter.com/p/why-your-product-stopped-growing",
@@ -1019,21 +1035,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6aa6b69fd063da323031d7faa13146c5",
-      "title": "“Nothing Terrifies Chinese Policymakers More” | Former Chief U.S. Treasury Diplomat Jay Shambaugh",
-      "url": "https://www.youtube.com/watch?v=uE6U7SFZz-s",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-24T21:08:19+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJay Shambaugh, former Under Secretary of the Treasury for International Affairs, joins Jack to discuss U.S. economic relations, China, and more. He draws on his years of expertise to deliver im…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b8447d2d5169b15db828547a226ee09d",
       "title": "How to Invest in 2026: Don’t Fight the Fed",
       "url": "https://www.youtube.com/watch?v=gksY8Vj6KCQ",
@@ -1799,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-25T20:19:54.772530+00:00"
+  "generated_at": "2026-01-25T21:15:58.189463+00:00"
 }
