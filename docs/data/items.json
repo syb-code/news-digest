@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "64ab6b892aeca3e0cb949042e7402008",
+      "title": "Why your product stopped growing (and the 5-step framework to restart it) | Jason Cohen",
+      "url": "https://www.lennysnewsletter.com/p/why-your-product-stopped-growing",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-25T13:31:25+00:00",
+      "summary": "Listen now | WP Engine founder Jason Cohen on how to diagnose stalled growth, why \"too expensive\" is never the real reason customers leave, and the positioning shift that can 8X your revenue",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5490a2f551f277621ec49dba2f9b2703",
       "title": "Will Gold & Silver’s Surge Lead to a Commodity Crash? | Jack & Max",
       "url": "https://www.youtube.com/watch?v=iDq53-oR4Ug",
@@ -974,21 +989,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2cabf66cf2b75f023138b278dfa30be2",
-      "title": "10 contrarian leadership truths every leader needs to hear | Matt MacInnis (Rippling)",
-      "url": "https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-28T13:31:26+00:00",
-      "summary": "Rippling's CPO on why you should deliberately understaff projects, how to recognize true product-market fit, why VCs want you to keep failing, and the frameworks that built a $16B company",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "58aad7db8874d01c514bd133536b2477",
       "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
       "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-25T13:29:50.971247+00:00"
+  "generated_at": "2026-01-25T14:16:08.940542+00:00"
 }
