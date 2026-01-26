@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6d2d7ae69e51651c2bc8a280784a2aec",
+      "title": "Advanced Claude Code techniques: context loading, mermaid diagrams, stop hooks, and more | John Lindquist",
+      "url": "https://www.lennysnewsletter.com/p/advanced-claude-code-techniques-context",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-26T13:04:32+00:00",
+      "summary": "Watch now | 🎙️ egghead.io's co-founder on preloading context with mermaid diagrams, building custom hooks for code quality, and creating efficient AI workflows that senior engineers actually need",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "360d4b055a9e15c7022e3c11de8e47de",
       "title": "AI Needs More Revenue To Justify Valuations, Argues \"Dean of Valuation\" Aswath Damodaran",
       "url": "https://www.youtube.com/watch?v=ZE-hqrDRyzg",
@@ -990,21 +1005,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6a7abf69dfa605ab2ad3037ac8e4a41a",
-      "title": "How Webflow’s CPO built an AI chief of staff to manage her calendar, prep for meetings, and drive AI adoption | Rachel Wolan",
-      "url": "https://www.lennysnewsletter.com/p/how-webflows-cpo-built-an-ai-chief",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-29T12:03:21+00:00",
-      "summary": "Watch now | 🎙️ The CPO’s custom AI chief-of-staff app helps prep for meetings, audit her calendar, and level up her entire organization",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "58aad7db8874d01c514bd133536b2477",
       "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
       "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-26T12:40:18.935255+00:00"
+  "generated_at": "2026-01-26T13:41:06.838899+00:00"
 }
