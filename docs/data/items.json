@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1881ce2fad57b7bd83d36d4eb353968e",
+      "title": "Who Will Adapt Best to AI Disruption?",
+      "url": "https://www.youtube.com/watch?v=GbxFFOAdn0Q",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-26T13:41:26+00:00",
+      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6d2d7ae69e51651c2bc8a280784a2aec",
       "title": "Advanced Claude Code techniques: context loading, mermaid diagrams, stop hooks, and more | John Lindquist",
       "url": "https://www.lennysnewsletter.com/p/advanced-claude-code-techniques-context",
@@ -696,21 +711,6 @@
       "source_type": "rss",
       "published": "2026-01-11T13:31:22+00:00",
       "summary": "Lessons from 50+ enterprise AI deployments",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "58165611d27808b3df5dcce2c9033728",
-      "title": "How People Are Using AI for Health",
-      "url": "https://www.youtube.com/watch?v=RVVO0JNo8c0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-10T21:24:36+00:00",
-      "summary": "OpenAI launched ChatGPT Health as a dedicated encrypted workspace connecting medical records and wellness apps with isolated health memory. Company data shows over 40 million weekly users ask about symptoms, test results, treatments, insurance navigation, and after-hours care, e…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-26T13:41:06.838899+00:00"
+  "generated_at": "2026-01-26T14:25:02.364296+00:00"
 }
