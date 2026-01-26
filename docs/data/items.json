@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ccf0d1fd6d4e2115d52fe363c13ee4fa",
+      "title": "Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026",
+      "url": "https://www.youtube.com/watch?v=wWpjf_aShHE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-26T22:10:16+00:00",
+      "summary": "Explore the rapid evolution of \"vibe coding\" and the rise of agentic AI development. Key discussions clarify emerging industry terms like Claude Code, Agent SDK, and Cowork while highlighting a massive shift in how developers utilize AI models. Real-world examples demonstrate th…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dd88923298e6cda294c8cfbcc8b71d7f",
       "title": "🎙️ This week on How I AI: Advanced Claude Code and Cursor techniques for power users",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-advanced-claude",
@@ -698,22 +713,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0247b090f069d8bac8ad5b6ae40f226d",
-      "title": "What Happens When AI Obliterates Your Business Model?",
-      "url": "https://www.youtube.com/watch?v=nflqTdNvUGs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-11T16:57:46+00:00",
-      "summary": "AI-driven coding agents are reshaping developer workflows and exposing fragile revenue models across knowledge work. Tailwind's mass layoffs and Stack Overflow's collapse show LLMs boosting usage while collapsing documentation traffic and paid conversions. Potential fixes includ…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1800,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-26T21:20:28.366333+00:00"
+  "generated_at": "2026-01-26T22:18:28.208543+00:00"
 }
