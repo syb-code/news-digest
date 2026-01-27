@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2ae8959c6ae7f89e86845e877873cae4",
+      "title": "How $100B Asset Managers Are Making Tokenized Funds a Reality | Maredith Hannon of WisdomTree",
+      "url": "https://www.youtube.com/watch?v=xMjPH32cHRM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-27T14:53:32+00:00",
+      "summary": "Maredith Hannon, Head of Business Development at Wisdom Tree Digital, joins Other People’s Money to discuss how tokenized real-world assets are taking off at a pace eerily similar to the early growth of ETFs. Crypto enthusiasts have long touted the potential for fund vehicles to…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Crypto"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d89566814ceaffffdb728bff10cde2d",
       "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
       "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs-ef2",
@@ -989,19 +1004,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b0fed20505cc9695e23a3896ab9713b3",
-      "title": "Workers Are Disappearing As Demographics Age Around The World | Maria Vassalou",
-      "url": "https://www.youtube.com/watch?v=cH8jDr1t9So",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-29T20:30:29+00:00",
-      "summary": "Today's episode is brought to you by Teucrium. Learn more at: https://bit.ly/4gfI0fe\n\nJack welcomes Maria Vassalou, head of the Pictet Research Institute, to discuss global demographic decline and how technological revolution is imperative to prevent economic stagnation. They ta…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "54f299364196017a6288dbbbc5e84889",
       "title": "Will The Housing Market Finally Crash in 2026? (My Prediction)",
       "url": "https://www.youtube.com/watch?v=3WI_rCsiFFg",
@@ -1799,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-27T14:26:15.891091+00:00"
+  "generated_at": "2026-01-27T15:28:07.078751+00:00"
 }
