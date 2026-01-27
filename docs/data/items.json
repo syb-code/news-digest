@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2d89566814ceaffffdb728bff10cde2d",
+      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
+      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs-ef2",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-27T10:02:45+00:00",
+      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ccf0d1fd6d4e2115d52fe363c13ee4fa",
       "title": "Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026",
       "url": "https://www.youtube.com/watch?v=wWpjf_aShHE",
@@ -959,21 +974,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "48d83a8cd053719e369e13e047786230",
-      "title": "We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr)",
-      "url": "https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-01T13:31:28+00:00",
-      "summary": "Jason Lemkin on why he replaced his entire sales team with AI agents, how he fine-tuned them to work better than his human sales people, which vendors to choose, and how to become hyper-employable in the AI area",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ed275b74d97dce9f0eb3c8ac0fb0fe45",
       "title": "Investing Data is Evolving: AI, The Degenerate Economy & More | Matt Ober | Social Leverage",
       "url": "https://www.youtube.com/watch?v=K6KhJ61shlY",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-27T09:29:04.296093+00:00"
+  "generated_at": "2026-01-27T10:24:03.331160+00:00"
 }
