@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "aabd7fe93c9602ddba37a5004b4cc63a",
+      "title": "The Final AI Word from Davos",
+      "url": "https://www.youtube.com/watch?v=OIi4giIYa8Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-27T19:57:51+00:00",
+      "summary": "Davos centered on AI's economic impact and the tension between job creation and job displacement. Tech leaders emphasized chip-driven infrastructure growth, enterprise ROI, and rapid productivity gains. Unions and the IMF warned of mass displacement and stagnant middle-class wag…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "496d9e728a33533e3316c86124304112",
       "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
       "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs",
@@ -730,21 +745,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c23be9a615179c82dbf6aea5360630ac",
-      "title": "AI Wearables Round 2: Will Anyone Care This Time?",
-      "url": "https://www.youtube.com/watch?v=YcR2-XRIxVs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-12T14:43:11+00:00",
-      "summary": "AI wearables return with Claude's notepin adding a physical record button and SwitchBot introducing a lightweight mindclip for voice-to-note automation. A Chinese hospital pilot uses AI to screen CT scans and detect early pancreatic tumors without radioactive dyes. Grok's rollba…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-27T19:23:24.403525+00:00"
+  "generated_at": "2026-01-27T20:19:26.690463+00:00"
 }
