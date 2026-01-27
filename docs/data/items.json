@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "496d9e728a33533e3316c86124304112",
+      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
+      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-27T16:45:57+00:00",
+      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2ae8959c6ae7f89e86845e877873cae4",
       "title": "How $100B Asset Managers Are Making Tokenized Funds a Reality | Maredith Hannon of WisdomTree",
       "url": "https://www.youtube.com/watch?v=xMjPH32cHRM",
@@ -946,19 +961,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "13f3f09a9fa05ac6ba51e86cad912e2b",
-      "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
-      "url": "https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-04T13:31:22+00:00",
-      "summary": "Former Facebook, Google, and CZI leader shares her battle-tested frameworks for managing rapid growth, why giving away your job is the path to success, and how to stay sane while your company scales 10x",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5ce903f7a02f13d3bd2433c1f8618355",
       "title": "Citrini’s 26 Trades for 2026 | Citrini on BS Jobs, AI Materials, Advanced Packaging, & More",
       "url": "https://www.youtube.com/watch?v=YJDDhz8xTQY",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-27T16:26:27.152667+00:00"
+  "generated_at": "2026-01-27T17:25:02.712201+00:00"
 }
