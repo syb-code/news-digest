@@ -1,8 +1,23 @@
 {
   "items": [
     {
+      "id": "70eecabaa3acde285743464e455d3dd6",
+      "title": "🎙️ Today on How I AI: I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
+      "url": "https://www.lennysnewsletter.com/p/today-on-how-i-ai-i-gave-clawdbot",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-28T18:18:28+00:00",
+      "summary": "What happens when you give an autonomous AI agent full access to your computer?",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9ebafe3f80fe1add12547497d10ee90b",
-      "title": "SaaS, Jobs, Housing, & Consumer Spending: The Macro & Micro Signals That Matter in 2026",
+      "title": "What Investors Don't Understand About the Software Meltdown | Deiya Pernas",
       "url": "https://www.youtube.com/watch?v=YfUH30Lw634",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -10,9 +25,7 @@
       "summary": "Deiya Pernas, co-founder of Pernas Research, has crushed the market and compounded at over 30% since he and his partners began tracking their portfolio in 2017. In this interview, Deiya examines 10 key micro and macro questions that he believes could be the key to continued outp…",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -22,7 +35,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-01-28T13:04:06+00:00",
-      "summary": "Watch now | 🎙️ What happens when you invite an autonomous AI agent onto your podcast—and your computer?",
+      "summary": "What happens when you invite an autonomous AI agent onto your podcast—and your computer?",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -170,7 +183,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-01-26T13:04:32+00:00",
-      "summary": "Watch now | 🎙️ egghead.io's co-founder on preloading context with mermaid diagrams, building custom hooks for code quality, and creating efficient AI workflows that senior engineers actually need",
+      "summary": "egghead.io's co-founder on preloading context with mermaid diagrams, building custom hooks for code quality, and creating efficient AI workflows that senior engineers actually need",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -491,7 +504,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-01-19T13:03:44+00:00",
-      "summary": "Watch now | 🎙️ How a product coach built a personalized productivity system using Claude Code in the terminal",
+      "summary": "How a product coach built a personalized productivity system using Claude Code in the terminal",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -799,7 +812,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-01-12T12:03:51+00:00",
-      "summary": "Listen now | 🎙️ The power user's guide to Codex: Parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, more",
+      "summary": "Parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, more",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -958,21 +971,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fbc5d35444e84bdceda0f7537528319e",
-      "title": "This week on How I AI: Zapier's CEO shares his personal AI stack",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-zapiers-ceo",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-05T16:03:32+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1803,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-28T17:29:12.108069+00:00"
+  "generated_at": "2026-01-28T18:32:53.091185+00:00"
 }
