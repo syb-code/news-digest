@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9c0b525108f76a2de121bbcb969b5c21",
+      "title": "I gave Clawdbot (aka Moltbot) access to my computer, calendar, and emails: Here’s what happened",
+      "url": "https://www.lennysnewsletter.com/p/i-gave-clawdbot-now-moltbot-access",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-28T13:04:06+00:00",
+      "summary": "Watch now | 🎙️ What happens when you invite an autonomous AI agent onto your podcast—and your computer?",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
       "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
       "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
@@ -946,21 +961,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "57ae46d0be274419b6c0adc8db63a6e4",
-      "title": "Zapier’s CEO shares his personal AI stack | Wade Foster",
-      "url": "https://www.lennysnewsletter.com/p/zapiers-ceo-shares-his-personal-ai-stack",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-05T12:03:50+00:00",
-      "summary": "Watch now | 🎙️ Wade Foster (co-founder and CEO of Zapier) on extracting company culture from meeting transcripts, building interview evaluation agents, and finding hidden talent with Grok",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5de39c6693dacbfd9d8c9ef8ae2ade54",
       "title": "Harley Bassman Explains the Next Bond Crisis No One Is Pricing In",
       "url": "https://www.youtube.com/watch?v=cYabLwti67E",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-28T12:41:42.465981+00:00"
+  "generated_at": "2026-01-28T13:44:40.892670+00:00"
 }
