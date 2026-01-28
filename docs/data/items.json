@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
+      "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-28T09:51:53+00:00",
+      "summary": "OpenAI to test ads in ChatGPT as it burns through billions, The Drama at Thinking Machines, STEM: Scaling Transformers with Embedding Modules",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "aabd7fe93c9602ddba37a5004b4cc63a",
       "title": "The Final AI Word from Davos",
       "url": "https://www.youtube.com/watch?v=OIi4giIYa8Y",
@@ -1581,21 +1596,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5b28b8a9591c5d96cce29f84d6c4243d",
-      "title": "LWiAI Podcast #222 - Sora 2, Sonnet 4.5, Vibes, Thinking Machines",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-222-sora-2-sonnet-45",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-08T06:04:52+00:00",
-      "summary": "ChatGPT parent company OpenAI announces Sora 2 with AI video app, Anthropic releases Claude Sonnet 4.5, Meta launches ‘Vibes’",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2f7f1ed40c65585013676147c85d0e9b",
       "title": "Deep Learning Weekly: Issue 424",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-28T09:30:49.189644+00:00"
+  "generated_at": "2026-01-28T10:24:28.001044+00:00"
 }
