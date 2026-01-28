@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9ebafe3f80fe1add12547497d10ee90b",
+      "title": "SaaS, Jobs, Housing, & Consumer Spending: The Macro & Micro Signals That Matter in 2026",
+      "url": "https://www.youtube.com/watch?v=YfUH30Lw634",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-28T14:28:17+00:00",
+      "summary": "Deiya Pernas, co-founder of Pernas Research, has crushed the market and compounded at over 30% since he and his partners began tracking their portfolio in 2017. In this interview, Deiya examines 10 key micro and macro questions that he believes could be the key to continued outp…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9c0b525108f76a2de121bbcb969b5c21",
       "title": "I gave Clawdbot (aka Moltbot) access to my computer, calendar, and emails: Here’s what happened",
       "url": "https://www.lennysnewsletter.com/p/i-gave-clawdbot-now-moltbot-access",
@@ -1006,21 +1021,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ed275b74d97dce9f0eb3c8ac0fb0fe45",
-      "title": "Investing Data is Evolving: AI, The Degenerate Economy & More | Matt Ober | Social Leverage",
-      "url": "https://www.youtube.com/watch?v=K6KhJ61shlY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2025-12-30T14:00:30+00:00",
-      "summary": "In this episode of Other People’s Money, Matt Ober, General Partner at Social Leverage, discusses how the data economy is evolving for providers, vendors, and investors. He explains how AI is reshaping data business models, highlights emerging data sources in what he calls the “…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "54f299364196017a6288dbbbc5e84889",
       "title": "Will The Housing Market Finally Crash in 2026? (My Prediction)",
       "url": "https://www.youtube.com/watch?v=3WI_rCsiFFg",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-28T14:26:16.287656+00:00"
+  "generated_at": "2026-01-28T15:28:49.019076+00:00"
 }
