@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "27a9d699265d3fa50e6a2c21b476c79b",
+      "title": "Deep Learning Weekly: Issue 440",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-440",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-01-29T16:02:09+00:00",
+      "summary": "Terminally online Mistral Vibe, ATLAS: Practical scaling laws for multilingual models, a paper on GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization, and m",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ddc8bbe88799065b6c06f09cecb6356c",
       "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
       "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
@@ -1680,19 +1693,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "550a61129888e5e9a4a00c144c17ce21",
-      "title": "Deep Learning Weekly: Issue 420",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-420",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-09-03T15:02:40+00:00",
-      "summary": "Tencent's Hunyuan-MT translation models, Le Chat. Custom MCP connectors. Memories, a paper on USO: Unified Style and Subject-Driven Generation via Disentangled and Reward Learning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "7bfe9a33b83053ff0f55f520559e8cab",
       "title": "10 AI prompt lessons I learned the hard way",
       "url": "https://designplusai.com/p/10-ai-prompt-lessons-i-learned-the",
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-29T15:32:07.006385+00:00"
+  "generated_at": "2026-01-29T16:39:05.092779+00:00"
 }
