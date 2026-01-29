@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ddc8bbe88799065b6c06f09cecb6356c",
+      "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+      "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-29T13:32:06+00:00",
+      "summary": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "70eecabaa3acde285743464e455d3dd6",
       "title": "🎙️ Today on How I AI: I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
       "url": "https://www.lennysnewsletter.com/p/today-on-how-i-ai-i-gave-clawdbot",
@@ -933,19 +948,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fe9205aea6c28ff2a6ca412aafbfddce",
-      "title": "Best of Lenny’s Newsletter 2025",
-      "url": "https://www.lennysnewsletter.com/p/best-of-lennys-newsletter-2026",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-06T13:45:22+00:00",
-      "summary": "The 25 best posts from the past year, plus a few all-time classics",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "0b7666c06dbfc3ac66b7c29cd7bedd17",
       "title": "Last Week in AI #331 - Nvidia announcements, Grok bikini prompts, RAISE Act",
       "url": "https://lastweekin.ai/p/last-week-in-ai-331-nvidia-announcements",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-29T12:50:40.466222+00:00"
+  "generated_at": "2026-01-29T13:57:03.608655+00:00"
 }
