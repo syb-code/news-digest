@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ea1df266a72012b58d06861a440dd9ba",
+      "title": "Are Agent Swarms the Next AI Paradigm?",
+      "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-30T20:00:06+00:00",
+      "summary": "Moonshot's K2.5 (Kimi) emerges as a leading open-weights model with native image and video inputs and benchmark performance approaching frontier-level systems. AgentSwarm functionality showcases parallelized, role-based agents and orchestrates complex workflows such as coding, s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "27e63a5a93f4747db946b495ed6e6371",
       "title": "The AI Acceleration Gap",
       "url": "https://www.youtube.com/watch?v=cRhLXGGwOmQ",
@@ -99,21 +114,6 @@
       "source_type": "rss",
       "published": "2026-01-29T13:32:06+00:00",
       "summary": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ea1df266a72012b58d06861a440dd9ba",
-      "title": "Are Agent Swarms the Next AI Paradigm?",
-      "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-28T22:15:40+00:00",
-      "summary": "Moonshot's K2.5 (Kimi) emerges as a leading open-weights model with native image and video inputs and benchmark performance approaching frontier-level systems. AgentSwarm functionality showcases parallelized, role-based agents and orchestrates complex workflows such as coding, s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-30T19:28:42.271430+00:00"
+  "generated_at": "2026-01-30T20:25:44.341619+00:00"
 }
