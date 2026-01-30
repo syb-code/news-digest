@@ -1,6 +1,52 @@
 {
   "items": [
     {
+      "id": "27e63a5a93f4747db946b495ed6e6371",
+      "title": "The AI Acceleration Gap",
+      "url": "https://www.youtube.com/watch?v=cRhLXGGwOmQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-30T13:38:51+00:00",
+      "summary": "Examination of the AI acceleration gap and widening divergence between frontier adopters and mainstream users. Exploration of career and equity risks from compounding advantages alongside cultural and political polarization around AI adoption. Recommendation to adopt modest, reg…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "42b88b5e2eb4d1676d3ceca7dded76ea",
+      "title": "\"This Is Not a Bond-Friendly Setup\" Andy Constan",
+      "url": "https://www.youtube.com/shorts/ebqBASPxHko",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-30T13:30:51+00:00",
+      "summary": "On Monetary Matters, Andy Constan of DampedSpring.com breaks down why the near-term macro setup favors equities over bonds.\n\nWith heavy CapEx spending, strong semiconductor earnings, and meaningful impacts from tax policy on individual returns, Constan argues that Q1 looks unusu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f4dd8f17dd154503ed07cc87dcaf0409",
+      "title": "Are Markets Still Worried About an AI Bubble?",
+      "url": "https://www.youtube.com/watch?v=LGNs5g1j8KE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-29T21:23:08+00:00",
+      "summary": "Debate over an AI bubble faces a market test as Meta's aggressive AI spending and massive CapEx guidance contrast with Microsoft's cautious cloud growth and an OpenAI-heavy backlog. Meta pushed AI wearables and ad-driven revenue growth while signaling heavy data-center investmen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e3ea526daf34ea291ec3df783c74e8ca",
       "title": "The Fed and Interest Rates: Why Rates Aren’t Coming Down Yet",
       "url": "https://www.youtube.com/watch?v=cdAAvKMcMs4",
@@ -53,6 +99,21 @@
       "source_type": "rss",
       "published": "2026-01-29T13:32:06+00:00",
       "summary": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ea1df266a72012b58d06861a440dd9ba",
+      "title": "Are Agent Swarms the Next AI Paradigm?",
+      "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-28T22:15:40+00:00",
+      "summary": "Moonshot's K2.5 (Kimi) emerges as a leading open-weights model with native image and video inputs and benchmark performance approaching frontier-level systems. AgentSwarm functionality showcases parallelized, role-based agents and orchestrates complex workflows such as coding, s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -644,21 +705,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "60f2bd629ca66c4caadf099f8b44ee5d",
-      "title": "The Biggest Battle in AI is for Your Personal Context",
-      "url": "https://www.youtube.com/watch?v=w9xkk58hT3E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-15T21:53:27+00:00",
-      "summary": "The AI race centers on the battle for personal context. Google Gemini's Personal Intelligence links Gmail, Photos, Search and YouTube to deliver tailored, privacy‑focused recommendations via opt‑in connectors. Anthropic's Claude Cowork and Claude Code surface desktop context and…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "972ce9f76f8c0bceb295c3b2dd678f33",
       "title": "Gold at Record Highs — Is a Crash Coming in 2026?",
       "url": "https://www.youtube.com/watch?v=pz30JmUu6pc",
@@ -715,21 +761,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "66887feb83f80a504ecaf2b4e4e7841e",
-      "title": "ChatGPT 5.5 Rumors Start to Bubble",
-      "url": "https://www.youtube.com/watch?v=Smh50q7UTcY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-15T01:05:21+00:00",
-      "summary": "Leaked signals point to major updates, including a rumored GPT‑5.3 \"Garlic\", a full GPT‑5 rollout after the 5.2 checkpoint, and DeepSeek V4 aimed at superior coding and long‑context handling. Gemini 3, ChatGPT Images, GPT‑5.2 and Claude Opus 4.5 shifted momentum toward Anthropic…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dc9f2beb7395c0bfd55987f3bd2a1dd0",
       "title": "President Trump Shocks Markets With Sweeping Actions In Credit Cards, Mortgages, Defense, and More",
       "url": "https://www.youtube.com/watch?v=b8uXzpRYwXI",
@@ -773,19 +804,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ca86b859e45233ba5ec137da4d9a07f0",
-      "title": "Why Claude Cowork is a Big Deal",
-      "url": "https://www.youtube.com/watch?v=mJWi_koYY70",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-14T01:47:36+00:00",
-      "summary": "Claude Cowork brings Claude Code agent capabilities to non‑technical users by enabling local file and connector access and automating multi‑step workflows. Audience reactions mix excitement about APIs, scheduling, and parallel task automation with warnings about prompt‑injection…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1015,21 +1033,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5de39c6693dacbfd9d8c9ef8ae2ade54",
-      "title": "Harley Bassman Explains the Next Bond Crisis No One Is Pricing In",
-      "url": "https://www.youtube.com/watch?v=cYabLwti67E",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-04T14:01:05+00:00",
-      "summary": "Harley Bassman, managing partner at Simplify Asset Management and widely known as the “Convexity Maven,” joins Monetary Matters to break down the hidden risks shaping today’s markets. He explains why inflation is likely to remain structurally higher, why massive fiscal deficits …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1802,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-30T12:46:46.844262+00:00"
+  "generated_at": "2026-01-30T13:53:23.764368+00:00"
 }
