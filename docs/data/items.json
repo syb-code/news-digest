@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7cd714d5f0246bd7a60057672b09e6fa",
+      "title": "What We Learned from OpenAI's Town Hall",
+      "url": "https://www.youtube.com/watch?v=CRQA4rK4-7c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-31T14:00:00+00:00",
+      "summary": "Sam Altman hosted a town hall covering GPT-5.2's strong reasoning but clumsy prose, a hiring slowdown, and goals for deep personalization with portable memory. OpenAI unveiled premium ad pricing near $60 CPM, pledged not to sell personal data to advertisers, and introduced a 4% …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b072e4431342fb13b70cb7fa74eb7954",
       "title": "Moltbook, the Agent Social Nework, is the Craziest AI Phenomena Yet",
       "url": "https://www.youtube.com/watch?v=TibOeou4cIg",
@@ -682,21 +697,6 @@
       "source_type": "rss",
       "published": "2026-01-17T19:35:00+00:00",
       "summary": "Community Wisdom 169",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9ef9b7129fb4deee9d6582e972c7d305",
-      "title": "Why CEOs Need to Lead AI Strategy",
-      "url": "https://www.youtube.com/watch?v=9UWShopAFaE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-16T20:38:56+00:00",
-      "summary": "Recent enterprise surveys show CEOs taking direct control of AI strategy as investments rise and ROI horizons shorten. Agent deployments are moving from experimentation to production while complexity, governance and cybersecurity challenges grow. Surveyed leaders report new AI-s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-31T13:38:20.179039+00:00"
+  "generated_at": "2026-01-31T14:20:53.871482+00:00"
 }
