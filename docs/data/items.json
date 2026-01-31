@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b072e4431342fb13b70cb7fa74eb7954",
+      "title": "Moltbook, the Agent Social Nework, is the Craziest AI Phenomena Yet",
+      "url": "https://www.youtube.com/watch?v=TibOeou4cIg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-31T01:38:56+00:00",
+      "summary": "OpenClaw (formerly ClaudeBot) demonstrates emergent agent capabilities like autonomous voice, 24/7 task automation, and business workflow orchestration. MT.Book documents thousands of AI agents collaborating, building services, creating communities, and experimenting with coordi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ea1df266a72012b58d06861a440dd9ba",
       "title": "Are Agent Swarms the Next AI Paradigm?",
       "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
@@ -682,21 +697,6 @@
       "source_type": "youtube",
       "published": "2026-01-16T20:38:56+00:00",
       "summary": "Recent enterprise surveys show CEOs taking direct control of AI strategy as investments rise and ROI horizons shorten. Agent deployments are moving from experimentation to production while complexity, governance and cybersecurity challenges grow. Surveyed leaders report new AI-s…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d6844b10fc01da678ae95ca320ed679e",
-      "title": "Microsoft's Plan to Make People Less Angry About AI and Electricity",
-      "url": "https://www.youtube.com/watch?v=fk89VMo88tI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-16T15:05:31+00:00",
-      "summary": "Datacenter policy and rising electricity costs are driving 2026 campaign fights over affordability and prompting presidential pressure on Big Tech to cover local utility impacts. Microsoft unveiled a five-part community-first plan to pay local utility equivalents, cut water use,…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-31T01:43:00.622288+00:00"
+  "generated_at": "2026-01-31T04:02:21.755787+00:00"
 }
