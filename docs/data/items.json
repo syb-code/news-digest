@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "5219ed77bdd9301a39881af5bfbc41f4",
+      "title": "Trump Doesn’t Need The Fed To Pump Housing (Here’s Why) | Joseph Wang",
+      "url": "https://www.youtube.com/watch?v=iCsa2zq7jAE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-01-31T21:43:46+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nIn this interview, Joseph Wang of FedGuy.com discusses various levers the Trump administration could pull to lower mortgage rates, even without the Federal…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "654a3ee412615631a1233e1b17ff8503",
       "title": "🧠 Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses, making your product roadmap public, chasing big exits vs. sustainable bootstrapping, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-lennys-poll-driving",
@@ -967,21 +984,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "83766a9b604f5b08f1459ced16b2c102",
-      "title": "These Foreign Markets Are Crushing US Stocks | Jack & Max",
-      "url": "https://www.youtube.com/watch?v=BcDi389eaR8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-07T20:30:20+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm\n\nIn this episode, Jack Farley and Max Wiethe break down what really happened in markets in 2025 and what it means for investors h…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ee5749e6eed5135b683fd1e2d57dfeda",
       "title": "Venezuela — Why This Matters for Americans and Investors",
       "url": "https://www.youtube.com/watch?v=9bhbEzqasGQ",
@@ -1807,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-31T21:18:16.800777+00:00"
+  "generated_at": "2026-01-31T22:19:00.610693+00:00"
 }
