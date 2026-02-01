@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e53202a1444e0557a6121d8eee9af4b1",
+      "title": "Credit Expert Explains What’s Happening in Lending | Oaktree’s Raghav Khanna",
+      "url": "https://www.youtube.com/watch?v=hMP49-paJO4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-01T15:14:43+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nRaghav Khanna, managing director at Oak…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dbdba03ac87ba3cac123b852a53057db",
       "title": "Dr. Becky on the surprising overlap between great parenting and great leadership",
       "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
@@ -941,21 +956,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6b43e5a4e5422c98147173938806ba07",
-      "title": "AI, Electrification, and the Hidden Energy Bottleneck | Michael Kao",
-      "url": "https://www.youtube.com/watch?v=MApxYy8jK6g",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-11T14:07:11+00:00",
-      "summary": "In this episode of Monetary Matters, Max Wiethe sits down with Michael Kao, CIO of Akanthos Capital Management and the Kao Family Office, to unpack the real energy risks facing the U.S. economy.\n\nThe conversation opens with Venezuela and the Trump administration’s push to reshap…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1474aab0a08d195da3cd4b278c6e4ca8",
       "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
       "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-01T14:22:12.475112+00:00"
+  "generated_at": "2026-02-01T15:20:58.906370+00:00"
 }
