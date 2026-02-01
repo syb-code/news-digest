@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dbdba03ac87ba3cac123b852a53057db",
+      "title": "Dr. Becky on the surprising overlap between great parenting and great leadership",
+      "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-01T13:31:43+00:00",
+      "summary": "Listen now | Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f4dd8f17dd154503ed07cc87dcaf0409",
       "title": "Are Markets Still Worried About an AI Bubble?",
       "url": "https://www.youtube.com/watch?v=LGNs5g1j8KE",
@@ -941,21 +956,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2a9ef444a20dd21933338722b8c1b948",
-      "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google, and Amazon",
-      "url": "https://www.lennysnewsletter.com/p/what-openai-and-google-engineers-learned",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-11T13:31:22+00:00",
-      "summary": "Lessons from 50+ enterprise AI deployments",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1474aab0a08d195da3cd4b278c6e4ca8",
       "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
       "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-01T12:41:10.866718+00:00"
+  "generated_at": "2026-02-01T13:40:04.041701+00:00"
 }
