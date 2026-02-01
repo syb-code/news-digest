@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "f4dd8f17dd154503ed07cc87dcaf0409",
+      "title": "Are Markets Still Worried About an AI Bubble?",
+      "url": "https://www.youtube.com/watch?v=LGNs5g1j8KE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-01T00:00:06+00:00",
+      "summary": "Debate over an AI bubble faces a market test as Meta's aggressive AI spending and massive CapEx guidance contrast with Microsoft's cautious cloud growth and an OpenAI-heavy backlog. Meta pushed AI wearables and ad-driven revenue growth while signaling heavy data-center investmen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5219ed77bdd9301a39881af5bfbc41f4",
       "title": "Trump Doesn’t Need The Fed To Pump Housing (Here’s Why) | Joseph Wang",
       "url": "https://www.youtube.com/watch?v=iCsa2zq7jAE",
@@ -103,22 +119,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f4dd8f17dd154503ed07cc87dcaf0409",
-      "title": "Are Markets Still Worried About an AI Bubble?",
-      "url": "https://www.youtube.com/watch?v=LGNs5g1j8KE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-29T21:23:08+00:00",
-      "summary": "Debate over an AI bubble faces a market test as Meta's aggressive AI spending and massive CapEx guidance contrast with Microsoft's cautious cloud growth and an OpenAI-heavy backlog. Meta pushed AI wearables and ad-driven revenue growth while signaling heavy data-center investmen…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
         "Tech/Earnings"
       ],
       "bucket": "highlight"
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-01-31T23:18:29.826567+00:00"
+  "generated_at": "2026-02-01T02:01:10.229156+00:00"
 }
