@@ -109,6 +109,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "0069c3e38ae6778c6502d2f9aceb0f41",
+      "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
+      "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-30T20:08:42+00:00",
+      "summary": "Apple acquired QAI for $2 billion to pursue silent speech detection via optical sensors and pair hardware with foundation models. Amazon is weighing a multibillion-dollar OpenAI stake while trimming 16,000 corporate roles, signaling simultaneous AI investment and workforce reduc…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ea1df266a72012b58d06861a440dd9ba",
       "title": "Are Agent Swarms the Next AI Paradigm?",
       "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
@@ -664,19 +679,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "36adce1fdff713ed90523e3b0cae0ef5",
-      "title": "You Can Now Vibecode Mobile Apps",
-      "url": "https://www.youtube.com/watch?v=ltPO1ZgH4yw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-19T19:21:21+00:00",
-      "summary": "Replit unveils native mobile app publishing with one-click app-store submission to streamline building, payments, security, and publishing. Bloomberg reports a Replit funding round that could value the company near $9 billion, and HiggsField closes funding around a $1.3 billion …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1809,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-02T01:53:42.243916+00:00"
+  "generated_at": "2026-02-02T04:21:52.537598+00:00"
 }
