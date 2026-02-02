@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c64b1298e017be68038064f81d14e36c",
+      "title": "How this PM uses MCPs to automate his meeting prep, CRM updates, and customer feedback synthesis | Reid Robinson (Zapier)",
+      "url": "https://www.lennysnewsletter.com/p/how-this-pm-uses-mcps-to-automate",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-02T13:04:58+00:00",
+      "summary": "Watch now | 🎙️ How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e53202a1444e0557a6121d8eee9af4b1",
       "title": "Credit Expert Explains What’s Happening in Lending | Oaktree’s Raghav Khanna",
       "url": "https://www.youtube.com/watch?v=hMP49-paJO4",
@@ -945,19 +958,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e74b554d63702c12f2dfba08cbf8c2cb",
-      "title": "The power user’s guide to Codex: parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, and more | Alexander Embiricos",
-      "url": "https://www.lennysnewsletter.com/p/a-full-software-engineering-teammate",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-12T12:03:51+00:00",
-      "summary": "Parallelizing workflows, planning techniques, advanced context engineering tips, automating code reviews, more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "1474aab0a08d195da3cd4b278c6e4ca8",
       "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
       "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-02T12:52:16.662089+00:00"
+  "generated_at": "2026-02-02T13:59:52.444786+00:00"
 }
