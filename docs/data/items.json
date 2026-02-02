@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "02a264ff8e06da5ee2241591f8242ddb",
+      "title": "Washington Has More Power Than You Think",
+      "url": "https://www.youtube.com/shorts/DdTdSzldD5I",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-02T21:33:00+00:00",
+      "summary": "On Monetary Matters, Joseph Wang, the Fed guy, explains why the federal government has powerful tools that can influence asset prices — even without direct action from the Federal Reserve.\n\nFrom mortgage rates to market expectations, Wang breaks down how political pressure, poli…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0069c3e38ae6778c6502d2f9aceb0f41",
       "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
       "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
@@ -915,21 +932,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6e5595116cb403b9081d66f29cd4c7d1",
-      "title": "How Chinese A.I. Could Change Everything | Dr. Michael Power of Kaskazi Consulting",
-      "url": "https://www.youtube.com/watch?v=KKtbq-w4mzg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-12T17:47:44+00:00",
-      "summary": "Dr. Michael Power, a seasoned financial analyst, consultant, and strategist, joins Jack to discuss his recent work that predicts the Chinese A.I. industry may soon beat the U.S. at its own game. Dr. Power explains what makes the Chinese approach fundamentally different from U.S.…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "19a3b860c37d42445f1bd0860fbe4fd4",
       "title": "🎙️This week on How I AI: The power user’s guide to Codex",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-power-users",
@@ -1811,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-02T18:38:03.113195+00:00"
+  "generated_at": "2026-02-02T23:24:22.539814+00:00"
 }
