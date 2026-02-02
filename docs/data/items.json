@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0069c3e38ae6778c6502d2f9aceb0f41",
+      "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
+      "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-02T14:30:06+00:00",
+      "summary": "Apple acquired QAI for $2 billion to pursue silent speech detection via optical sensors and pair hardware with foundation models. Amazon is weighing a multibillion-dollar OpenAI stake while trimming 16,000 corporate roles, signaling simultaneous AI investment and workforce reduc…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c64b1298e017be68038064f81d14e36c",
       "title": "How this PM uses MCPs to automate his meeting prep, CRM updates, and customer feedback synthesis | Reid Robinson (Zapier)",
       "url": "https://www.lennysnewsletter.com/p/how-this-pm-uses-mcps-to-automate",
@@ -114,21 +129,6 @@
       "source_type": "youtube",
       "published": "2026-01-31T01:38:56+00:00",
       "summary": "OpenClaw (formerly ClaudeBot) demonstrates emergent agent capabilities like autonomous voice, 24/7 task automation, and business workflow orchestration. MT.Book documents thousands of AI agents collaborating, building services, creating communities, and experimenting with coordi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0069c3e38ae6778c6502d2f9aceb0f41",
-      "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
-      "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-30T20:08:42+00:00",
-      "summary": "Apple acquired QAI for $2 billion to pursue silent speech detection via optical sensors and pair hardware with foundation models. Amazon is weighing a multibillion-dollar OpenAI stake while trimming 16,000 corporate roles, signaling simultaneous AI investment and workforce reduc…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1811,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-02T13:59:52.444786+00:00"
+  "generated_at": "2026-02-02T14:52:12.799483+00:00"
 }
