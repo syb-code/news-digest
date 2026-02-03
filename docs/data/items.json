@@ -1,6 +1,24 @@
 {
   "items": [
     {
+      "id": "359f5a69eaf151d12520756e50984d2f",
+      "title": "Stocks, Bitcoin, Gold: The New Fed Chair Changes Everything",
+      "url": "https://www.youtube.com/watch?v=cS9S5KituzU",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-03T21:24:42+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Macro/Fed",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1a3d36756009eefc48c36d64b5d034f5",
       "title": "The Real Reason Silver Is Squeezing | Alex Campbell",
       "url": "https://www.youtube.com/watch?v=Cb5Vxim2nEA",
@@ -1249,19 +1267,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ea21b2be605b33b329ca8a2528e238eb",
-      "title": "Another U.S. Credit Downgrade Is Coming — Get Ready",
-      "url": "https://www.youtube.com/watch?v=8rjHhvucdXo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-12-08T17:00:16+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "423eb33884f1e405005de613d76b692b",
       "title": "Last Week in AI #328 - DeepSeek 3.2, Mistral 3, Trainium3, Runway Gen-4.5",
       "url": "https://lastweekin.ai/p/last-week-in-ai-328-deepseek-32-mistral",
@@ -1812,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-03T20:31:32.274503+00:00"
+  "generated_at": "2026-02-03T21:30:13.753792+00:00"
 }
