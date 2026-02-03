@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "aa5e042802a4f761fbc8ad9204acd671",
+      "title": "Why Moltbook Matters (Even Though the Agents Aren't Actually Trying to Take Over)",
+      "url": "https://www.youtube.com/watch?v=kRgQotgNwrw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-03T14:00:06+00:00",
+      "summary": "Moltbook and OpenClaw reveal emergent social coordination among autonomous agents, including invented religions, coordinated projects, and persistent conversational state. Skeptics argue that behaviors often reduce to next-token prediction, human-seeded or spoofed posts, and ram…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "601f0e38696700f404b28f45d94fafbb",
       "title": "How to build AI product sense",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
@@ -663,21 +678,6 @@
       "source_type": "rss",
       "published": "2026-01-21T03:22:53+00:00",
       "summary": "Anthropic’s new Cowork tool, Anthropic Raising $10 Billion at $350 Billion Value, Deep Delta Learning",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0eaca4758cc922a0a857883706c6685c",
-      "title": "How to Make ChatGPT Ads Not Suck",
-      "url": "https://www.youtube.com/watch?v=b7LNP1RZemI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-20T15:33:53+00:00",
-      "summary": "OpenAI announced plans to test clearly labeled ads in ChatGPT's free and lower-tier plans. Announcements emphasized conversational privacy, mission alignment, and long-term-value principles. Public skepticism centered on potential answer influence and trust erosion while propose…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1813,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-03T14:02:07.846447+00:00"
+  "generated_at": "2026-02-03T15:44:39.170097+00:00"
 }
