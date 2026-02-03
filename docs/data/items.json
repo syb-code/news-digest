@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1a3d36756009eefc48c36d64b5d034f5",
+      "title": "The Real Reason Silver Is Squeezing | Alex Campbell",
+      "url": "https://www.youtube.com/watch?v=Cb5Vxim2nEA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-03T19:35:18+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nAlexander Campbell, founder of Rose AI and former head of commodities at Bridgewater, joins the show to dissect the structural drivers behind the silver ma…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "aa5e042802a4f761fbc8ad9204acd671",
       "title": "Why Moltbook Matters",
       "url": "https://www.youtube.com/watch?v=kRgQotgNwrw",
@@ -931,22 +946,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "545bdf2d748876040fc2e7e5e0b59ebf",
-      "title": "The Fed’s Emergency Playbook Isn’t Gone",
-      "url": "https://www.youtube.com/shorts/PLQuJbWRz6I",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-13T12:45:04+00:00",
-      "summary": "On Monetary Matters, host Max Wiethe is joined by Harley Bassman of Simplify, who breaks down what happens when policymakers are truly cornered.\n\nHistory shows that when the government’s back is against the wall, the response is clear:\n➡️ Rates to zero\n➡️ Treasury buying resumes…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
       "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
       "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
@@ -1813,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-03T19:42:20.594173+00:00"
+  "generated_at": "2026-02-03T20:31:32.274503+00:00"
 }
