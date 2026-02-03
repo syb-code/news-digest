@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "601f0e38696700f404b28f45d94fafbb",
+      "title": "How to build AI product sense",
+      "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-03T13:45:58+00:00",
+      "summary": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "02a264ff8e06da5ee2241591f8242ddb",
       "title": "Washington Has More Power Than You Think",
       "url": "https://www.youtube.com/shorts/DdTdSzldD5I",
@@ -932,21 +947,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "19a3b860c37d42445f1bd0860fbe4fd4",
-      "title": "🎙️This week on How I AI: The power user’s guide to Codex",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-power-users",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-12T16:03:09+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
       "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
       "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
@@ -1813,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-03T12:52:35.045178+00:00"
+  "generated_at": "2026-02-03T14:02:07.846447+00:00"
 }
