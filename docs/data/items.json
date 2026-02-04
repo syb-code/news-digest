@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c9fafe99e44e7d9013f6f2c505620d50",
+      "title": "The AI Bubble Won’t Pop Until Big IPOs Hit the Market | Carson Block",
+      "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-04T14:01:21+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nCarson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren’t rushing to short AI pretenders and fakers until more supply…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3a9f30c921c1464cde6d500320e520f3",
       "title": "“Anyone can cook”: How v0 is bringing Git workflows to vibe coding | Guillermo Rauch (Vercel CEO)",
       "url": "https://www.lennysnewsletter.com/p/anyone-can-cook-how-v0-is-bringing",
@@ -966,21 +981,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "236ca6d181d9b1dd0204eb95243ca28b",
-      "title": "The Market’s Biggest Whales are Making Huge Changes: Total Portfolio Revolution | Steve Novakovic",
-      "url": "https://www.youtube.com/watch?v=OtBDcNV6ix4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-13T14:00:51+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nSteven Novakovic, Managing Director of …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
       "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
       "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-04T14:00:36.690877+00:00"
+  "generated_at": "2026-02-04T15:38:53.981583+00:00"
 }
