@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "09210cb647e1cee22283a10b97153334",
+      "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-04T16:02:49+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c9fafe99e44e7d9013f6f2c505620d50",
       "title": "The AI Bubble Won’t Pop Until Big IPOs Hit the Market | Carson Block",
       "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
@@ -869,21 +884,6 @@
       "source_type": "rss",
       "published": "2026-01-18T13:31:19+00:00",
       "summary": "Meta PM Zevi Arnovitz on his complete AI workflow for non-technical builders, the slash commands that make it possible, and why this is the best time to be a junior in tech",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7ccec41441519e0bb2b403fd1b940f48",
-      "title": "🧠 Community Wisdom: Managing fragmented AI usage across teams, avoiding generic UX when building with AI, tracking funnel metrics at the pre-PMF stage, thoughts on Anthropic’s Cowork, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-managing-fragmented",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-17T19:35:00+00:00",
-      "summary": "Community Wisdom 169",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-04T15:38:53.981583+00:00"
+  "generated_at": "2026-02-04T16:41:42.071342+00:00"
 }
