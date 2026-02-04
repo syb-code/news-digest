@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5a91f296c7e8c6418ad947d6ec562bcd",
+      "title": "Last Week in AI #334 - Kimi K2.5 & Code, Genie 3, OpenClaw & Moltbook",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-334-kimi-k25-and",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-04T05:25:56+00:00",
+      "summary": "China’s Moonshot releases a new open source model Kimi K2.5 and a coding agent, Google Brings Genie 3’s Interactive World-Building Prototype to AI Ultra Subscribers, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "359f5a69eaf151d12520756e50984d2f",
       "title": "Stocks, Bitcoin, Gold: The New Fed Chair Changes Everything for 2026",
       "url": "https://www.youtube.com/watch?v=cS9S5KituzU",
@@ -1567,21 +1582,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f2c0e48d2b3b6ab5deb6994eb8cc49af",
-      "title": "Last Week in AI #324: OpenAI Deals and DevDay, Haiku 4.5, Veo 3.1",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-324-openai-deals",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-18T16:00:58+00:00",
-      "summary": "OpenAI Inks Deal With Broadcom to Design Its Own Chips for AI, Everything OpenAI announced at DevDay, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ec371756c32b7ea57b6c27a0c06bf97d",
       "title": "Deep Learning Weekly: Issue 426",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-426",
@@ -1817,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-04T04:08:23.039729+00:00"
+  "generated_at": "2026-02-04T05:44:23.569333+00:00"
 }
