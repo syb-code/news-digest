@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3a9f30c921c1464cde6d500320e520f3",
+      "title": "“Anyone can cook”: How v0 is bringing Git workflows to vibe coding | Guillermo Rauch (Vercel CEO)",
+      "url": "https://www.lennysnewsletter.com/p/anyone-can-cook-how-v0-is-bringing",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-04T13:03:45+00:00",
+      "summary": "Watch now | 🎙️ Vercel’s CEO demonstrates how v0’s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5a91f296c7e8c6418ad947d6ec562bcd",
       "title": "Last Week in AI #334 - Kimi K2.5 & Code, Genie 3, OpenClaw & Moltbook",
       "url": "https://lastweekin.ai/p/last-week-in-ai-334-kimi-k25-and",
@@ -887,19 +902,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "de4355bdc6f1087ae074bad759f3916a",
-      "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin",
-      "url": "https://www.lennysnewsletter.com/p/silicon-valleys-missing-etiquette-playbook",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-15T13:32:15+00:00",
-      "summary": "How to build trust, lower your heart rate, and win in business by understanding proper etiquette",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1817,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-04T12:52:00.025652+00:00"
+  "generated_at": "2026-02-04T14:00:36.690877+00:00"
 }
