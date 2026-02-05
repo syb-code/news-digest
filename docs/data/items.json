@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0dfe03f040305e695ea96d6ec9f1c644",
+      "title": "Deep Learning Weekly: Issue 441",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-02-05T16:01:54+00:00",
+      "summary": "Qwen3-Coder-Next, Inside OpenAI’s in-house data agent, a paper on Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6dc87d6e159b4ae9aefb26c1de329804",
       "title": "The Dawn of the Agent Age",
       "url": "https://www.youtube.com/watch?v=Ew-cHazoABc",
@@ -1681,19 +1696,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "48250171a372639e7aa317efe55c7aff",
-      "title": "Deep Learning Weekly: Issue 421",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-421",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-09-10T15:02:53+00:00",
-      "summary": "Claude can now create and use files, Measuring Thinking Efficiency in Reasoning Models, a paper on Parallel-R1: Towards Parallel Thinking via Reinforcement Learning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "783d5542a824ceb4464788be1c3ae405",
       "title": "Ultimate AI Prompt Directory",
       "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
@@ -1819,5 +1821,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-05T15:37:13.088991+00:00"
+  "generated_at": "2026-02-05T16:41:57.210005+00:00"
 }
