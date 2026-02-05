@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6dc87d6e159b4ae9aefb26c1de329804",
+      "title": "The Dawn of the Agent Age",
+      "url": "https://www.youtube.com/watch?v=Ew-cHazoABc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-05T14:08:36+00:00",
+      "summary": "January marked the Dawn of the Agent Era as Claude Code and Claude Cowork transformed coding from prototyping into practical everyday workflows. OpenClaw and Moltbook sparked a social and tooling ecosystem for agents, accelerating experiments and exposing a large AI adoption gap…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "09210cb647e1cee22283a10b97153334",
       "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
@@ -741,21 +756,6 @@
       "source_type": "youtube",
       "published": "2026-01-22T01:59:56+00:00",
       "summary": "Davos discussions focused on accelerating AI timelines and starkly different predictions from Demis Hassabis and Dario Amodei. Dario Amodei equated exporting advanced chips to China with supplying nuclear weapons, sparking debate over chip controls and national security. Convers…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5e5c744e8e108f60305be6f4e2dfb6d3",
-      "title": "The Whole World Gets Claude-Pilled",
-      "url": "https://www.youtube.com/watch?v=YDQ4Fpcv4Z8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-21T03:52:31+00:00",
-      "summary": "Anthropic's Claude breakout centers on Claude Code and Claude Cowork making coding and automation accessible to nontechnical users. Coverage highlights a potential $25 billion fundraising round with major backers like Microsoft and Nvidia and a wave of social-media enthusiasm. O…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-05T14:03:43.074914+00:00"
+  "generated_at": "2026-02-05T15:37:13.088991+00:00"
 }
