@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1c9023fbb1e3ea0c80a792f834b8bd18",
+      "title": "Opus 4.6 and ChatGPT 5.3-Codex Are Here and the Labs Are at War",
+      "url": "https://www.youtube.com/watch?v=JqpI65aVJ30",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-06T19:39:56+00:00",
+      "summary": "Anthropic dropped Claude Opus 4.6 and OpenAI responded with GPT 5.3 Codex just 20 minutes later — the most intense head-to-head model release we've ever seen. Here's what each model brings, how they compare, and what the first reactions are telling us.\n\nThe AI Daily Brief helps …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7f2d32b5d94e403a2cc16a23df59873b",
       "title": "Labor Market Warning: Layoffs Surge 118% in January",
       "url": "https://www.youtube.com/watch?v=QadL1JNe-GU",
@@ -741,21 +756,6 @@
       "source_type": "rss",
       "published": "2026-01-23T05:14:53+00:00",
       "summary": "OpenAI to test ads in ChatGPT as it burns through billions, Sequoia to invest in Anthropic, Zhipu AI breaks US chip reliance, The Drama at Thinking Machines Is Riveting Silicon Valley",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c6ca143f902f9483800abb8541e117d2",
-      "title": "Google Says No Ads Planned for Gemini",
-      "url": "https://www.youtube.com/watch?v=koL152ByfPM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-22T21:07:21+00:00",
-      "summary": "Davos highlighted debates over ads in ChatGPT and contradictory reports about Google adding ads to Gemini. Meta is reportedly scaling back custom silicon and shifting to large AMD chip purchases. OpenAI struck a ServiceNow deal for agentic AI in enterprise workflows and signaled…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-06T19:35:08.131053+00:00"
+  "generated_at": "2026-02-06T20:29:03.099781+00:00"
 }
