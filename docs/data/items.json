@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dfc8c1534256bcec99e61b6338ab8930",
+      "title": "LWiAI Podcast #233 - Moltbot, Genie 3, Qwen3-Max-Thinking",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-06T05:06:04+00:00",
+      "summary": "Google adds Gemini AI-powered ‘auto browse’ to Chrome, Users flock to open source Moltbot for always-on AI, Qwen3-Max-Thinking debuts, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "57f61fd8880598199db08db0ffd8578f",
       "title": "Is Software Dead?",
       "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
@@ -1556,21 +1571,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "df5c531be127fc32925cdf7e5f64b720",
-      "title": "LWiAI Podcast #223 - Haiku 4.5, OpenAI DevDay, SB 243",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-223-haiku-45-openai",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-24T20:51:02+00:00",
-      "summary": "Anthropic launches new version of scaled-down ‘Haiku’ model, Everything OpenAI announced at DevDay 2025, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "875a15c877203870e5680fc3c02c11b3",
       "title": "Deep Learning Weekly: Issue 427",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-427",
@@ -1821,5 +1821,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-06T04:11:44.693389+00:00"
+  "generated_at": "2026-02-06T05:50:41.585037+00:00"
 }
