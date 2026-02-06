@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "57f61fd8880598199db08db0ffd8578f",
+      "title": "Is Software Dead?",
+      "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-06T00:42:46+00:00",
+      "summary": "Markets are pricing an AI-driven revaluation of software as investors fret over potential replacement of SaaS business models. High-profile selloffs after Claude CoWork and Gemini releases sparked debates about seat-based pricing, inference costs, and enterprise adoption timelin…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0dfe03f040305e695ea96d6ec9f1c644",
       "title": "Deep Learning Weekly: Issue 441",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
@@ -757,21 +772,6 @@
       "published": "2026-01-22T15:30:03+00:00",
       "summary": "In this episode, Andy Constan of Damped Spring Advisors reveals why he has liquidated 100% of his US asset positions to bet on the \"Rest of the World\". He breaks down the looming financing headwinds created by massive AI capital expenditures and political promises, explaining ho…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "043a2d5dd50f42cb16e4cd6f410a0e57",
-      "title": "AGI Timelines Shift Forward",
-      "url": "https://www.youtube.com/watch?v=8m3dXbUWLuo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-22T01:59:56+00:00",
-      "summary": "Davos discussions focused on accelerating AI timelines and starkly different predictions from Demis Hassabis and Dario Amodei. Dario Amodei equated exporting advanced chips to China with supplying nuclear weapons, sparking debate over chip controls and national security. Convers…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1821,5 +1821,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-05T23:22:50.751192+00:00"
+  "generated_at": "2026-02-06T01:48:09.273460+00:00"
 }
