@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "63622ef53b5b1d22d267cb7e65ea121f",
+      "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-07T16:57:18+00:00",
+      "summary": "Community Wisdom 172",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1c9023fbb1e3ea0c80a792f834b8bd18",
       "title": "Opus 4.6 and ChatGPT 5.3-Codex Are Here and the Labs Are at War",
       "url": "https://www.youtube.com/watch?v=JqpI65aVJ30",
@@ -920,21 +935,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9a1af7182f0397aa7ff0e266d03ee60a",
-      "title": "The non-technical PM’s guide to building with Cursor | Zevi Arnovitz (Meta)",
-      "url": "https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-18T13:31:19+00:00",
-      "summary": "Meta PM Zevi Arnovitz on his complete AI workflow for non-technical builders, the slash commands that make it possible, and why this is the best time to be a junior in tech",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "972ce9f76f8c0bceb295c3b2dd678f33",
       "title": "Gold at Record Highs — Is a Crash Coming in 2026?",
       "url": "https://www.youtube.com/watch?v=pz30JmUu6pc",
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-07T16:24:49.491806+00:00"
+  "generated_at": "2026-02-07T17:22:48.354341+00:00"
 }
