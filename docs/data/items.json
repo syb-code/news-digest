@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0feb6ac51b789e162b44ee36024217c5",
+      "title": "No One Wins this AI Super Bowl",
+      "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-08T14:30:41+00:00",
+      "summary": "Controversial Anthropic Super Bowl ads framed AI as betrayal and sparked sharp pushback from OpenAI and industry observers. Debate focuses on advertising strategy, brand risk, and the danger of amplifying public AI skepticism, with potential to undermine societal preparedness. A…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
       "title": "Getting paid to vibe code: Inside the new AI-era job | Lazar Jovanovic (Professional Vibe Coder)",
       "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
@@ -769,21 +784,6 @@
       "source_type": "rss",
       "published": "2026-01-24T17:00:36+00:00",
       "summary": "Community Wisdom 170",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a001505eefda880105c5c4ded2fdd748",
-      "title": "More AI Datacenter Community Commitments",
-      "url": "https://www.youtube.com/watch?v=nfchOeBJxtc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-24T01:31:26+00:00",
-      "summary": "OpenAI announced Stargate Community commitments to minimize datacenter energy and water impacts while funding local grid upgrades and workforce training. The White House urged a PJM emergency auction, enabling tech firms to bid for 15‑year power contracts to accelerate new gener…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1821,5 +1821,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-08T14:23:47.491606+00:00"
+  "generated_at": "2026-02-08T15:21:54.166987+00:00"
 }
