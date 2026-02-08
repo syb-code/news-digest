@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "11b5e72a5ed22e96246ec642e341de21",
+      "title": "AI in Space! xAI is Merging with SpaceX",
+      "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-08T01:50:31+00:00",
+      "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "63622ef53b5b1d22d267cb7e65ea121f",
       "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
@@ -741,21 +756,6 @@
       "source_type": "youtube",
       "published": "2026-01-24T01:31:26+00:00",
       "summary": "OpenAI announced Stargate Community commitments to minimize datacenter energy and water impacts while funding local grid upgrades and workforce training. The White House urged a PJM emergency auction, enabling tech firms to bid for 15‑year power contracts to accelerate new gener…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b446359146d5b59b1669da4f41362b2a",
-      "title": "Why Deeply Integrating AI 3x's Likelihood of Financial Gains from AI",
-      "url": "https://www.youtube.com/watch?v=LNxjvhgEikI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-23T13:15:11+00:00",
-      "summary": "New surveys from PwC, Workday and Section reveal a widening gap between AI leaders and laggards rather than blanket AI underperformance. Senior executives report efficiency gains while frontline workers report high rework, anxiety, low tool access and minimal training. Companies…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-07T23:25:58.194476+00:00"
+  "generated_at": "2026-02-08T02:11:35.615290+00:00"
 }
