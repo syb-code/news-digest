@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "5212d77759d956e815cc7a90f1ff063f",
+      "title": "Prediction: Websites are disappearing",
+      "url": "https://designplusai.com/p/prediction-websites-are-disappearing",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-08T12:37:50+00:00",
+      "summary": "I see a lot of founders still building websites the same way they did ten years ago.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "11b5e72a5ed22e96246ec642e341de21",
       "title": "AI in Space! xAI is Merging with SpaceX",
       "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
@@ -1804,20 +1817,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "ce370ceabce816e8bfe3c48d076ba51c",
-      "title": "Mastering Lovable Playbook",
-      "url": "https://designplusai.com/p/mastering-lovable-playbook",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-11T12:00:30+00:00",
-      "summary": "If you follow me on LinkedIn, you’ve probably seen this already.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-08T11:19:55.733553+00:00"
+  "generated_at": "2026-02-08T12:41:01.619546+00:00"
 }
