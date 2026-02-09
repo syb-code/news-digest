@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "id": "ae3a8b5a4a5fe8eb7c638059973f47ef",
-      "title": "How to build your own AI developer tools with Claude Code | CJ Hess (Tenex)",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-own-ai-developer",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-09T13:03:17+00:00",
-      "summary": "Watch now | 🎙️ Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0feb6ac51b789e162b44ee36024217c5",
       "title": "No One Wins this AI Super Bowl",
       "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
@@ -23,21 +8,6 @@
       "source_type": "youtube",
       "published": "2026-02-08T14:30:41+00:00",
       "summary": "Controversial Anthropic Super Bowl ads framed AI as betrayal and sparked sharp pushback from OpenAI and industry observers. Debate focuses on advertising strategy, brand risk, and the danger of amplifying public AI skepticism, with potential to undermine societal preparedness. A…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
-      "title": "Getting paid to vibe code: Inside the new AI-era job | Lazar Jovanovic (Professional Vibe Coder)",
-      "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-08T13:31:22+00:00",
-      "summary": "Lovable’s first professional vibe coder on why non-technical people have an advantage with AI, and how he ships enterprise-grade products without writing code",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -66,21 +36,6 @@
       "source_type": "youtube",
       "published": "2026-02-08T01:50:31+00:00",
       "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "63622ef53b5b1d22d267cb7e65ea121f",
-      "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-07T16:57:18+00:00",
-      "summary": "Community Wisdom 172",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -177,21 +132,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "09210cb647e1cee22283a10b97153334",
-      "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T16:02:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9fafe99e44e7d9013f6f2c505620d50",
       "title": "Why Carson Block Says Ignore Fundamentals and Focus on Capital Flows",
       "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
@@ -199,21 +139,6 @@
       "source_type": "youtube",
       "published": "2026-02-04T14:01:21+00:00",
       "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nCarson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren’t rushing to short AI pretenders and fakers until more supply…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3a9f30c921c1464cde6d500320e520f3",
-      "title": "Guillermo Rauch: Vercel CEO on how v0 hit 3,200 PRs merged per day (and lets anyone ship)",
-      "url": "https://www.lennysnewsletter.com/p/anyone-can-cook-how-v0-is-bringing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T13:03:45+00:00",
-      "summary": "Watch now | 🎙️ Vercel’s CEO demonstrates how v0’s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -285,21 +210,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "601f0e38696700f404b28f45d94fafbb",
-      "title": "How to build AI product sense",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-03T13:45:58+00:00",
-      "summary": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "02a264ff8e06da5ee2241591f8242ddb",
       "title": "Washington Has More Power Than You Think",
       "url": "https://www.youtube.com/shorts/DdTdSzldD5I",
@@ -332,19 +242,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c64b1298e017be68038064f81d14e36c",
-      "title": "How this PM uses MCPs to automate his meeting prep, CRM updates, and customer feedback synthesis | Reid Robinson (Zapier)",
-      "url": "https://www.lennysnewsletter.com/p/how-this-pm-uses-mcps-to-automate",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-02T13:04:58+00:00",
-      "summary": "Watch now | 🎙️ How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "e53202a1444e0557a6121d8eee9af4b1",
       "title": "Credit Expert Explains What’s Happening in Lending | Oaktree’s Raghav Khanna",
       "url": "https://www.youtube.com/watch?v=hMP49-paJO4",
@@ -352,21 +249,6 @@
       "source_type": "youtube",
       "published": "2026-02-01T15:14:43+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nRaghav Khanna, managing director at Oak…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dbdba03ac87ba3cac123b852a53057db",
-      "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-      "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-01T13:31:43+00:00",
-      "summary": "Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -404,21 +286,6 @@
         "AI/ML",
         "Housing (CA/SD)",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "654a3ee412615631a1233e1b17ff8503",
-      "title": "🧠 Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses, making your product roadmap public, chasing big exits vs. sustainable bootstrapping, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-lennys-poll-driving",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-31T17:11:55+00:00",
-      "summary": "Community Wisdom 171",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -543,36 +410,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ddc8bbe88799065b6c06f09cecb6356c",
-      "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
-      "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-29T13:32:06+00:00",
-      "summary": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "70eecabaa3acde285743464e455d3dd6",
-      "title": "🎙️ Today on How I AI: I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
-      "url": "https://www.lennysnewsletter.com/p/today-on-how-i-ai-i-gave-clawdbot",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T18:18:28+00:00",
-      "summary": "What happens when you give an autonomous AI agent full access to your computer?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9ebafe3f80fe1add12547497d10ee90b",
       "title": "What Investors Don't Understand About the Software Meltdown | Deiya Pernas",
       "url": "https://www.youtube.com/watch?v=YfUH30Lw634",
@@ -583,21 +420,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9c0b525108f76a2de121bbcb969b5c21",
-      "title": "I gave Clawdbot (aka Moltbot) access to my computer, calendar, and emails: Here’s what happened",
-      "url": "https://www.lennysnewsletter.com/p/i-gave-clawdbot-now-moltbot-access",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T13:04:06+00:00",
-      "summary": "What happens when you invite an autonomous AI agent onto your podcast—and your computer?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -631,21 +453,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "496d9e728a33533e3316c86124304112",
-      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
-      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-27T16:45:57+00:00",
-      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2ae8959c6ae7f89e86845e877873cae4",
       "title": "How $100B Asset Managers Are Making Tokenized Funds a Reality | Maredith Hannon of WisdomTree",
       "url": "https://www.youtube.com/watch?v=xMjPH32cHRM",
@@ -661,21 +468,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2d89566814ceaffffdb728bff10cde2d",
-      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
-      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs-ef2",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-27T10:02:45+00:00",
-      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ccf0d1fd6d4e2115d52fe363c13ee4fa",
       "title": "Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026",
       "url": "https://www.youtube.com/watch?v=wWpjf_aShHE",
@@ -683,21 +475,6 @@
       "source_type": "youtube",
       "published": "2026-01-26T22:10:16+00:00",
       "summary": "Explore the rapid evolution of \"vibe coding\" and the rise of agentic AI development. Key discussions clarify emerging industry terms like Claude Code, Agent SDK, and Cowork while highlighting a massive shift in how developers utilize AI models. Real-world examples demonstrate th…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dd88923298e6cda294c8cfbcc8b71d7f",
-      "title": "🎙️ This week on How I AI: Advanced Claude Code and Cursor techniques for power users",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-advanced-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-26T16:01:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -734,21 +511,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6d2d7ae69e51651c2bc8a280784a2aec",
-      "title": "Advanced Claude Code techniques: context loading, mermaid diagrams, stop hooks, and more | John Lindquist",
-      "url": "https://www.lennysnewsletter.com/p/advanced-claude-code-techniques-context",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-26T13:04:32+00:00",
-      "summary": "egghead.io's co-founder on preloading context with mermaid diagrams, building custom hooks for code quality, and creating efficient AI workflows that senior engineers actually need",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "360d4b055a9e15c7022e3c11de8e47de",
       "title": "Why U.S. Stocks *Aren’t* In A Bubble (Yet) | Aswath Damodaran",
       "url": "https://www.youtube.com/watch?v=ZE-hqrDRyzg",
@@ -762,21 +524,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "64ab6b892aeca3e0cb949042e7402008",
-      "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
-      "url": "https://www.lennysnewsletter.com/p/why-your-product-stopped-growing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-25T13:31:25+00:00",
-      "summary": "Listen now | WP Engine founder Jason Cohen on how to diagnose stalled growth, why \"too expensive\" is never the real reason customers leave, and the positioning shift that can 8X your revenue",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5490a2f551f277621ec49dba2f9b2703",
       "title": "Will Gold & Silver’s Surge Lead to a Commodity Crash? | Jack & Max",
       "url": "https://www.youtube.com/watch?v=iDq53-oR4Ug",
@@ -784,21 +531,6 @@
       "source_type": "youtube",
       "published": "2026-01-24T19:35:33+00:00",
       "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/\n\nJack & Max break down the bull market in silver and gold, how they are expressing their bullish views via royalty companies, an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2d367b899b77ecd7c652dd1831b475d1",
-      "title": "🧠 Community Wisdom: Setting up product ops at a pre-seed startup, breaking into PM from a non-tech background, and being an AI champion without burning out",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-setting-up-product",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-24T17:00:36+00:00",
-      "summary": "Community Wisdom 170",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -877,32 +609,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e35286f98bdd57bb69c3ddb8097a3c0d",
-      "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-20T13:45:31+00:00",
-      "summary": "A step-by-step guide to jumping in and building your first ChatGPT app",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fdaa00515252d0a5d523394ad5683844",
-      "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the-172",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-20T10:01:32+00:00",
-      "summary": "A step-by-step guide to jumping in and building your first ChatGPT app",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1821,5 +1527,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-09T14:47:52.908728+00:00"
+  "generated_at": "2026-02-09T15:52:02.977883+00:00"
 }
