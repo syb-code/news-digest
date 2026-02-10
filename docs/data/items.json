@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d2989cf11c8ce5ca3a469efa68f782e7",
+      "title": "The SaaSpocalypse Continues",
+      "url": "https://www.youtube.com/watch?v=kd6UpFirnxQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-10T16:57:06+00:00",
+      "summary": "SaaS-apocalypse narrative triggered a dramatic software selloff, erasing roughly $400 billion in market value. The debate centers on whether AI agents will replace seat-based pricing or enable cloud incumbents to build agent layers atop existing SaaS moats. Security flaws in age…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d5a950fb065985d4ecbd9425af953223",
       "title": "Building AI product sense, part 2",
       "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2",
@@ -741,21 +756,6 @@
       "source_type": "rss",
       "published": "2026-01-27T10:02:45+00:00",
       "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ccf0d1fd6d4e2115d52fe363c13ee4fa",
-      "title": "Ralph Wiggum, Clawdbot and Mac Minis: How Pros are Vibe Coding in 2026",
-      "url": "https://www.youtube.com/watch?v=wWpjf_aShHE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-26T22:10:16+00:00",
-      "summary": "Explore the rapid evolution of \"vibe coding\" and the rise of agentic AI development. Key discussions clarify emerging industry terms like Claude Code, Agent SDK, and Cowork while highlighting a massive shift in how developers utilize AI models. Real-world examples demonstrate th…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1825,5 +1825,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-10T16:03:52.284709+00:00"
+  "generated_at": "2026-02-10T17:57:59.970025+00:00"
 }
