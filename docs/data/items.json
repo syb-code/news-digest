@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "035e867ad6fde4ce7a07d888fb7d51a6",
+      "title": "Did the Super Bowl As Make Americans Like AI Any More?",
+      "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-10T00:27:01+00:00",
+      "summary": "Super Bowl ads from Google, OpenAI, Anthropic, Amazon, Microsoft, Meta, and startups confront widespread American distrust of AI. Key themes include trust statistics, ad effectiveness, brand positioning, hoaxes, and viral failures like ai.com. Emotional storytelling and practica…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d7b1637db0a05f1c1c23d2fde7a16058",
       "title": "Trump Predicts the Stock Market Will Double in 3 Years",
       "url": "https://www.youtube.com/watch?v=Jpqjf0KFziY",
@@ -60,7 +75,7 @@
     },
     {
       "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
-      "title": "Getting paid to vibe code: Inside the new AI-era job | Lazar Jovanovic (Professional Vibe Coder)",
+      "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
       "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
@@ -744,21 +759,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1881ce2fad57b7bd83d36d4eb353968e",
-      "title": "Who Will Adapt Best to AI Disruption?",
-      "url": "https://www.youtube.com/watch?v=GbxFFOAdn0Q",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-26T13:41:26+00:00",
-      "summary": "Brought to you by:\nKPMG – Go to ⁠www.kpmg.us/ai⁠ to learn more about how KPMG can help you drive value with our AI solutions.\nVanta - Simplify compliance - ⁠⁠⁠⁠⁠⁠⁠https://vanta.com/nlw \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubs…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1823,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-09T23:33:20.202057+00:00"
+  "generated_at": "2026-02-10T02:06:16.015109+00:00"
 }
