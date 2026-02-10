@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "02837617c8c0c4d573c1bd994a1e03ef",
+      "title": "Building AI product sense, part 2",
+      "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2-0aa",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-10T10:02:26+00:00",
+      "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "035e867ad6fde4ce7a07d888fb7d51a6",
       "title": "Did the Super Bowl As Make Americans Like AI Any More?",
       "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
@@ -908,19 +923,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e35286f98bdd57bb69c3ddb8097a3c0d",
-      "title": "ChatGPT apps are about to be the next big distribution channel: Here’s how to build one",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-apps-are-about-to-be-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-20T13:45:31+00:00",
-      "summary": "A step-by-step guide to jumping in and building your first ChatGPT app",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
       "title": "How to build stunning slide decks with AI",
       "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
@@ -1823,5 +1825,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-10T09:57:22.787887+00:00"
+  "generated_at": "2026-02-10T10:54:53.260276+00:00"
 }
