@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d2989cf11c8ce5ca3a469efa68f782e7",
+      "title": "The SaaSpocalypse Continues",
+      "url": "https://www.youtube.com/watch?v=kd6UpFirnxQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-10T16:57:06+00:00",
+      "summary": "SaaS-apocalypse narrative triggered a dramatic software selloff, erasing roughly $400 billion in market value. The debate centers on whether AI agents will replace seat-based pricing or enable cloud incumbents to build agent layers atop existing SaaS moats. Security flaws in age…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d5a950fb065985d4ecbd9425af953223",
       "title": "Building AI product sense, part 2",
       "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2",
@@ -23,6 +38,21 @@
       "source_type": "rss",
       "published": "2026-02-10T10:02:26+00:00",
       "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "035e867ad6fde4ce7a07d888fb7d51a6",
+      "title": "Did the Super Bowl As Make Americans Like AI Any More?",
+      "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-10T00:27:01+00:00",
+      "summary": "Super Bowl ads from Google, OpenAI, Anthropic, Amazon, Microsoft, Meta, and startups confront widespread American distrust of AI. Key themes include trust statistics, ad effectiveness, brand positioning, hoaxes, and viral failures like ai.com. Emotional storytelling and practica…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -61,6 +91,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "0feb6ac51b789e162b44ee36024217c5",
+      "title": "No One Wins this AI Super Bowl",
+      "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-08T14:30:41+00:00",
+      "summary": "Controversial Anthropic Super Bowl ads framed AI as betrayal and sparked sharp pushback from OpenAI and industry observers. Debate focuses on advertising strategy, brand risk, and the danger of amplifying public AI skepticism, with potential to undermine societal preparedness. A…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
       "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
       "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
@@ -89,6 +134,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "11b5e72a5ed22e96246ec642e341de21",
+      "title": "AI in Space! xAI is Merging with SpaceX",
+      "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-08T01:50:31+00:00",
+      "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "63622ef53b5b1d22d267cb7e65ea121f",
       "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
@@ -96,6 +156,21 @@
       "source_type": "rss",
       "published": "2026-02-07T16:57:18+00:00",
       "summary": "Community Wisdom 172",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1c9023fbb1e3ea0c80a792f834b8bd18",
+      "title": "Opus 4.6 and ChatGPT 5.3-Codex Are Here and the Labs Are at War",
+      "url": "https://www.youtube.com/watch?v=JqpI65aVJ30",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-06T19:39:56+00:00",
+      "summary": "Anthropic dropped Claude Opus 4.6 and OpenAI responded with GPT 5.3 Codex just 20 minutes later — the most intense head-to-head model release we've ever seen. Here's what each model brings, how they compare, and what the first reactions are telling us.\n\nThe AI Daily Brief helps …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -119,6 +194,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "57f61fd8880598199db08db0ffd8578f",
+      "title": "Is Software Dead?",
+      "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-06T00:42:46+00:00",
+      "summary": "Markets are pricing an AI-driven revaluation of software as investors fret over potential replacement of SaaS business models. High-profile selloffs after Claude CoWork and Gemini releases sparked debates about seat-based pricing, inference costs, and enterprise adoption timelin…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0dfe03f040305e695ea96d6ec9f1c644",
       "title": "Deep Learning Weekly: Issue 441",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
@@ -126,6 +216,21 @@
       "source_type": "rss",
       "published": "2026-02-05T16:01:54+00:00",
       "summary": "Qwen3-Coder-Next, Inside OpenAI’s in-house data agent, a paper on Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6dc87d6e159b4ae9aefb26c1de329804",
+      "title": "The Dawn of the Agent Age",
+      "url": "https://www.youtube.com/watch?v=Ew-cHazoABc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-05T14:08:36+00:00",
+      "summary": "January marked the Dawn of the Agent Era as Claude Code and Claude Cowork transformed coding from prototyping into practical everyday workflows. OpenClaw and Moltbook sparked a social and tooling ecosystem for agents, accelerating experiments and exposing a large AI adoption gap…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -179,6 +284,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "aa5e042802a4f761fbc8ad9204acd671",
+      "title": "Why Moltbook Matters",
+      "url": "https://www.youtube.com/watch?v=kRgQotgNwrw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-03T14:00:06+00:00",
+      "summary": "Moltbook and OpenClaw reveal emergent social coordination among autonomous agents, including invented religions, coordinated projects, and persistent conversational state. Skeptics argue that behaviors often reduce to next-token prediction, human-seeded or spoofed posts, and ram…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "601f0e38696700f404b28f45d94fafbb",
       "title": "How to build AI product sense",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
@@ -186,6 +306,21 @@
       "source_type": "rss",
       "published": "2026-02-03T13:45:58+00:00",
       "summary": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0069c3e38ae6778c6502d2f9aceb0f41",
+      "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
+      "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-02T14:30:06+00:00",
+      "summary": "Apple acquired QAI for $2 billion to pursue silent speech detection via optical sensors and pair hardware with foundation models. Amazon is weighing a multibillion-dollar OpenAI stake while trimming 16,000 corporate roles, signaling simultaneous AI investment and workforce reduc…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -222,6 +357,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "f4dd8f17dd154503ed07cc87dcaf0409",
+      "title": "Are Markets Still Worried About an AI Bubble?",
+      "url": "https://www.youtube.com/watch?v=LGNs5g1j8KE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-01T00:00:06+00:00",
+      "summary": "Debate over an AI bubble faces a market test as Meta's aggressive AI spending and massive CapEx guidance contrast with Microsoft's cautious cloud growth and an OpenAI-heavy backlog. Meta pushed AI wearables and ad-driven revenue growth while signaling heavy data-center investmen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "654a3ee412615631a1233e1b17ff8503",
       "title": "🧠 Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses, making your product roadmap public, chasing big exits vs. sustainable bootstrapping, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-lennys-poll-driving",
@@ -229,6 +380,66 @@
       "source_type": "rss",
       "published": "2026-01-31T17:11:55+00:00",
       "summary": "Community Wisdom 171",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7cd714d5f0246bd7a60057672b09e6fa",
+      "title": "What We Learned from OpenAI's Town Hall",
+      "url": "https://www.youtube.com/watch?v=CRQA4rK4-7c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-31T14:00:00+00:00",
+      "summary": "Sam Altman hosted a town hall covering GPT-5.2's strong reasoning but clumsy prose, a hiring slowdown, and goals for deep personalization with portable memory. OpenAI unveiled premium ad pricing near $60 CPM, pledged not to sell personal data to advertisers, and introduced a 4% …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b072e4431342fb13b70cb7fa74eb7954",
+      "title": "Moltbook, the Agent Social Nework, is the Craziest AI Phenomena Yet",
+      "url": "https://www.youtube.com/watch?v=TibOeou4cIg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-31T01:38:56+00:00",
+      "summary": "OpenClaw (formerly ClaudeBot) demonstrates emergent agent capabilities like autonomous voice, 24/7 task automation, and business workflow orchestration. MT.Book documents thousands of AI agents collaborating, building services, creating communities, and experimenting with coordi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ea1df266a72012b58d06861a440dd9ba",
+      "title": "Are Agent Swarms the Next AI Paradigm?",
+      "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-30T20:00:06+00:00",
+      "summary": "Moonshot's K2.5 (Kimi) emerges as a leading open-weights model with native image and video inputs and benchmark performance approaching frontier-level systems. AgentSwarm functionality showcases parallelized, role-based agents and orchestrates complex workflows such as coding, s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "27e63a5a93f4747db946b495ed6e6371",
+      "title": "The AI Acceleration Gap",
+      "url": "https://www.youtube.com/watch?v=cRhLXGGwOmQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-30T13:38:51+00:00",
+      "summary": "Examination of the AI acceleration gap and widening divergence between frontier adopters and mainstream users. Exploration of career and equity risks from compounding advantages alongside cultural and political polarization around AI adoption. Recommendation to adopt modest, reg…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -302,6 +513,21 @@
       "source_type": "rss",
       "published": "2026-01-28T09:51:53+00:00",
       "summary": "OpenAI to test ads in ChatGPT as it burns through billions, The Drama at Thinking Machines, STEM: Scaling Transformers with Embedding Modules",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "aabd7fe93c9602ddba37a5004b4cc63a",
+      "title": "The Final AI Word from Davos",
+      "url": "https://www.youtube.com/watch?v=OIi4giIYa8Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-01-27T19:57:51+00:00",
+      "summary": "Davos centered on AI's economic impact and the tension between job creation and job displacement. Tech leaders emphasized chip-driven infrastructure growth, enterprise ROI, and rapid productivity gains. Unions and the IMF warned of mass displacement and stagnant middle-class wag…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1160,5 +1386,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-11T06:11:04.015199+00:00"
+  "generated_at": "2026-02-11T07:53:21.957310+00:00"
 }
