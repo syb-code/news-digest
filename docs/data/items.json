@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f8388c4f1c5704acf62026332819ac33",
+      "title": "Claude Opus 4.6 vs. GPT-5.3 Codex: How I shipped 93,000 lines of code in 5 days",
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-11T13:02:52+00:00",
+      "summary": "I tested GPT-5.3 Codex vs. Claude Opus 4.6 on real code, shipping 44 PRs in five days to see which AI model actually works best",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4906e16a8327cdea7e898a56f81ffffb",
       "title": "A Bear Market In Gold & Silver Is Coming | Milton Berg on Precious Metals, Stocks, and Bitcoin",
       "url": "https://www.youtube.com/watch?v=rQZAqMNn9HE",
@@ -834,21 +849,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "64ab6b892aeca3e0cb949042e7402008",
-      "title": "5 questions to ask when your product stops growing | Jason Cohen (2x unicorn founder)",
-      "url": "https://www.lennysnewsletter.com/p/why-your-product-stopped-growing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-25T13:31:25+00:00",
-      "summary": "Listen now | WP Engine founder Jason Cohen on how to diagnose stalled growth, why \"too expensive\" is never the real reason customers leave, and the positioning shift that can 8X your revenue",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1827,5 +1827,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-11T13:01:31.210797+00:00"
+  "generated_at": "2026-02-11T14:49:37.289009+00:00"
 }
