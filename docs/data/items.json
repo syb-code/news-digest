@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "4906e16a8327cdea7e898a56f81ffffb",
+      "title": "A Bear Market In Gold & Silver Is Coming | Milton Berg on Precious Metals, Stocks, and Bitcoin",
+      "url": "https://www.youtube.com/watch?v=rQZAqMNn9HE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-11T02:47:30+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nRecorded in February 6th 2026, technical analyst Milton Berg returns to discuss his market outlook after correctly predicting the major market bottom in April 2025. Although his long-term retail model remai…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d2989cf11c8ce5ca3a469efa68f782e7",
       "title": "The SaaSpocalypse Continues",
       "url": "https://www.youtube.com/watch?v=kd6UpFirnxQ",
@@ -1041,21 +1058,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "81db115179966a2c5af4597224f77a75",
-      "title": "Washington Is Missing the Real Risk",
-      "url": "https://www.youtube.com/shorts/K7jQ3_ZZ9Oc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-14T14:30:17+00:00",
-      "summary": "On Monetary Matters, Michael Kao, author of KAOBOY MUSINGS, explains why U.S. energy policy may be aimed at the wrong target.\n\nWhile policymakers remain hyper-focused on oil prices as a geopolitical lever, Kao argues the real strategic vulnerability lies elsewhere — natural gas.…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
       "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
       "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
@@ -1825,5 +1827,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-11T02:01:59.199966+00:00"
+  "generated_at": "2026-02-11T04:59:18.838702+00:00"
 }
