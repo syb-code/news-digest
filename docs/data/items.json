@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "77924c9996964f92da4562d38d9c880e",
+      "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
+      "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-12T13:31:43+00:00",
+      "summary": "OpenAI’s Sherwin Wu on why the productivity gap is widening, how his engineers now manage 10-20 parallel agents, and why you need to build for where models are heading",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f01acc875ad67ae03c64ea7a14f43da9",
       "title": "Why AI Leads to More Work, Not Less",
       "url": "https://www.youtube.com/watch?v=owFqgMcmDbA",
@@ -821,21 +836,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6d2d7ae69e51651c2bc8a280784a2aec",
-      "title": "Advanced Claude Code techniques: context loading, mermaid diagrams, stop hooks, and more | John Lindquist",
-      "url": "https://www.lennysnewsletter.com/p/advanced-claude-code-techniques-context",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-26T13:04:32+00:00",
-      "summary": "egghead.io's co-founder on preloading context with mermaid diagrams, building custom hooks for code quality, and creating efficient AI workflows that senior engineers actually need",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1827,5 +1827,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-12T12:59:29.453007+00:00"
+  "generated_at": "2026-02-12T14:12:52.567753+00:00"
 }
