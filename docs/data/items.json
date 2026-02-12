@@ -14,19 +14,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "359d5bb186a1409878b4c19b23238b39",
-      "title": "Deep Learning Weekly: Issue 442",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-442",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-02-12T16:02:28+00:00",
-      "summary": "Claude Opus 4.6, Harness engineering: leveraging Codex in an agent-first world, a paper on Weak-Driven Learning: How Weak Agents make Strong Agents Stronger, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "bbff741406ae4ef4bbe914b0408fc6cf",
       "title": "How the Global AI Race Has Changed",
       "url": "https://www.youtube.com/watch?v=ozxH7SS0Svw",
@@ -42,21 +29,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "77924c9996964f92da4562d38d9c880e",
-      "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
-      "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-12T13:31:43+00:00",
-      "summary": "OpenAI’s Sherwin Wu on why the productivity gap is widening, how his engineers now manage 10-20 parallel agents, and why you need to build for where models are heading",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f01acc875ad67ae03c64ea7a14f43da9",
       "title": "Why AI Leads to More Work, Not Less",
       "url": "https://www.youtube.com/watch?v=owFqgMcmDbA",
@@ -64,21 +36,6 @@
       "source_type": "youtube",
       "published": "2026-02-11T16:46:06+00:00",
       "summary": "New research from Berkeley Haas and the Harvard Business Review finds AI power users facing increased work through task expansion, blurred boundaries, and parallel multitasking. Generative agents boost capability and output while creating spillover review work, accelerated speed…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f8388c4f1c5704acf62026332819ac33",
-      "title": "Claude Opus 4.6 vs. GPT-5.3 Codex: How I shipped 93,000 lines of code in 5 days",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-11T13:02:52+00:00",
-      "summary": "I tested GPT-5.3 Codex vs. Claude Opus 4.6 on real code, shipping 44 PRs in five days to see which AI model actually works best",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -119,36 +76,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d5a950fb065985d4ecbd9425af953223",
-      "title": "Building AI product sense, part 2",
-      "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-10T14:31:00+00:00",
-      "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02837617c8c0c4d573c1bd994a1e03ef",
-      "title": "Building AI product sense, part 2",
-      "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2-0aa",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-10T10:02:26+00:00",
-      "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "035e867ad6fde4ce7a07d888fb7d51a6",
       "title": "Did the Super Bowl As Make Americans Like AI Any More?",
       "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
@@ -177,36 +104,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cf63e06c95bb15f294cc9eb199fdda8f",
-      "title": "🎙️ This week on How I AI: How to build your own AI developer tools with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-build",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-09T16:02:35+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ae3a8b5a4a5fe8eb7c638059973f47ef",
-      "title": "How to build your own AI developer tools with Claude Code | CJ Hess (Tenex)",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-own-ai-developer",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-09T13:03:17+00:00",
-      "summary": "Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0feb6ac51b789e162b44ee36024217c5",
       "title": "No One Wins this AI Super Bowl",
       "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
@@ -222,34 +119,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
-      "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
-      "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-08T13:31:22+00:00",
-      "summary": "Lovable’s first professional vibe coder on why non-technical people have an advantage with AI, and how he ships enterprise-grade products without writing code",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5212d77759d956e815cc7a90f1ff063f",
-      "title": "Prediction: Websites are disappearing",
-      "url": "https://designplusai.com/p/prediction-websites-are-disappearing",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-08T12:37:50+00:00",
-      "summary": "I see a lot of founders still building websites the same way they did ten years ago.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "11b5e72a5ed22e96246ec642e341de21",
       "title": "AI in Space! xAI is Merging with SpaceX",
       "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
@@ -257,21 +126,6 @@
       "source_type": "youtube",
       "published": "2026-02-08T01:50:31+00:00",
       "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "63622ef53b5b1d22d267cb7e65ea121f",
-      "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-07T16:57:18+00:00",
-      "summary": "Community Wisdom 172",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -308,21 +162,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dfc8c1534256bcec99e61b6338ab8930",
-      "title": "LWiAI Podcast #233 - Moltbot, Genie 3, Qwen3-Max-Thinking",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-06T05:06:04+00:00",
-      "summary": "Google adds Gemini AI-powered ‘auto browse’ to Chrome, Users flock to open source Moltbot for always-on AI, Qwen3-Max-Thinking debuts, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "57f61fd8880598199db08db0ffd8578f",
       "title": "Is Software Dead?",
       "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
@@ -330,21 +169,6 @@
       "source_type": "youtube",
       "published": "2026-02-06T00:42:46+00:00",
       "summary": "Markets are pricing an AI-driven revaluation of software as investors fret over potential replacement of SaaS business models. High-profile selloffs after Claude CoWork and Gemini releases sparked debates about seat-based pricing, inference costs, and enterprise adoption timelin…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0dfe03f040305e695ea96d6ec9f1c644",
-      "title": "Deep Learning Weekly: Issue 441",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-02-05T16:01:54+00:00",
-      "summary": "Qwen3-Coder-Next, Inside OpenAI’s in-house data agent, a paper on Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text, and many more!",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -368,21 +192,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "09210cb647e1cee22283a10b97153334",
-      "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T16:02:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9fafe99e44e7d9013f6f2c505620d50",
       "title": "Why Carson Block Says Ignore Fundamentals and Focus on Capital Flows",
       "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
@@ -390,36 +199,6 @@
       "source_type": "youtube",
       "published": "2026-02-04T14:01:21+00:00",
       "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nCarson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren’t rushing to short AI pretenders and fakers until more supply…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3a9f30c921c1464cde6d500320e520f3",
-      "title": "Guillermo Rauch: Vercel CEO on how v0 hit 3,200 PRs merged per day (and lets anyone ship)",
-      "url": "https://www.lennysnewsletter.com/p/anyone-can-cook-how-v0-is-bringing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T13:03:45+00:00",
-      "summary": "Vercel’s CEO demonstrates how v0’s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5a91f296c7e8c6418ad947d6ec562bcd",
-      "title": "Last Week in AI #334 - Kimi K2.5 & Code, Genie 3, OpenClaw & Moltbook",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-334-kimi-k25-and",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T05:25:56+00:00",
-      "summary": "China’s Moonshot releases a new open source model Kimi K2.5 and a coding agent, Google Brings Genie 3’s Interactive World-Building Prototype to AI Ultra Subscribers, and more!",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -476,21 +255,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "601f0e38696700f404b28f45d94fafbb",
-      "title": "How to build AI product sense",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-03T13:45:58+00:00",
-      "summary": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "02a264ff8e06da5ee2241591f8242ddb",
       "title": "Washington Has More Power Than You Think",
       "url": "https://www.youtube.com/shorts/DdTdSzldD5I",
@@ -523,19 +287,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c64b1298e017be68038064f81d14e36c",
-      "title": "How this PM uses MCPs to automate his meeting prep, CRM updates, and customer feedback synthesis | Reid Robinson (Zapier)",
-      "url": "https://www.lennysnewsletter.com/p/how-this-pm-uses-mcps-to-automate",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-02T13:04:58+00:00",
-      "summary": "How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "e53202a1444e0557a6121d8eee9af4b1",
       "title": "Credit Expert Explains What’s Happening in Lending | Oaktree’s Raghav Khanna",
       "url": "https://www.youtube.com/watch?v=hMP49-paJO4",
@@ -543,21 +294,6 @@
       "source_type": "youtube",
       "published": "2026-02-01T15:14:43+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nRaghav Khanna, managing director at Oak…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dbdba03ac87ba3cac123b852a53057db",
-      "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-      "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-01T13:31:43+00:00",
-      "summary": "Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -595,21 +331,6 @@
         "AI/ML",
         "Housing (CA/SD)",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "654a3ee412615631a1233e1b17ff8503",
-      "title": "🧠 Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses, making your product roadmap public, chasing big exits vs. sustainable bootstrapping, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-lennys-poll-driving",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-31T17:11:55+00:00",
-      "summary": "Community Wisdom 171",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -706,49 +427,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "27a9d699265d3fa50e6a2c21b476c79b",
-      "title": "Deep Learning Weekly: Issue 440",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-440",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-29T16:02:09+00:00",
-      "summary": "Terminally online Mistral Vibe, ATLAS: Practical scaling laws for multilingual models, a paper on GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization, and m",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ddc8bbe88799065b6c06f09cecb6356c",
-      "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
-      "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-29T13:32:06+00:00",
-      "summary": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "70eecabaa3acde285743464e455d3dd6",
-      "title": "🎙️ Today on How I AI: I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
-      "url": "https://www.lennysnewsletter.com/p/today-on-how-i-ai-i-gave-clawdbot",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T18:18:28+00:00",
-      "summary": "What happens when you give an autonomous AI agent full access to your computer?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9ebafe3f80fe1add12547497d10ee90b",
       "title": "What Investors Don't Understand About the Software Meltdown | Deiya Pernas",
       "url": "https://www.youtube.com/watch?v=YfUH30Lw634",
@@ -759,51 +437,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9c0b525108f76a2de121bbcb969b5c21",
-      "title": "I gave Clawdbot (aka Moltbot) access to my computer, calendar, and emails: Here’s what happened",
-      "url": "https://www.lennysnewsletter.com/p/i-gave-clawdbot-now-moltbot-access",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T13:04:06+00:00",
-      "summary": "What happens when you invite an autonomous AI agent onto your podcast—and your computer?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
-      "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T09:51:53+00:00",
-      "summary": "OpenAI to test ads in ChatGPT as it burns through billions, The Drama at Thinking Machines, STEM: Scaling Transformers with Embedding Modules",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "496d9e728a33533e3316c86124304112",
-      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
-      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-27T16:45:57+00:00",
-      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -818,36 +451,6 @@
       "duration_sec": null,
       "themes": [
         "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2d89566814ceaffffdb728bff10cde2d",
-      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
-      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs-ef2",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-27T10:02:45+00:00",
-      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dd88923298e6cda294c8cfbcc8b71d7f",
-      "title": "🎙️ This week on How I AI: Advanced Claude Code and Cursor techniques for power users",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-advanced-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-26T16:01:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -893,21 +496,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "90033c0599c790c5cf766322bdb54390",
-      "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-23T05:14:53+00:00",
-      "summary": "OpenAI to test ads in ChatGPT as it burns through billions, Sequoia to invest in Anthropic, Zhipu AI breaks US chip reliance, The Drama at Thinking Machines Is Riveting Silicon Valley",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7d8295bfd73608269f1e74c60a782ca2",
       "title": "Trump Is Forcing Mortgage Rates Down — Here’s How",
       "url": "https://www.youtube.com/watch?v=JA1V1HVCMVg",
@@ -923,19 +511,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0a073844706d436cb82c67aee4ae5b64",
-      "title": "Deep Learning Weekly: Issue 439",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-439",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-22T16:03:07+00:00",
-      "summary": "FLUX.2 [klein], Heaps do lie: debugging a memory leak in vLLM. a paper on Toward Efficient Agents: Memory, Tool learning, and Planning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5693f29a3cd76c00f952137e3eb8d7a8",
       "title": "The “Sell America” Trade | Andy Constan on Why Rest of World Stands to Outperform U.S. Assets",
       "url": "https://www.youtube.com/watch?v=9_IQr9TJJlA",
@@ -944,36 +519,6 @@
       "published": "2026-01-22T15:30:03+00:00",
       "summary": "In this episode, Andy Constan of Damped Spring Advisors reveals why he has liquidated 100% of his US asset positions to bet on the \"Rest of the World\". He breaks down the looming financing headwinds created by massive AI capital expenditures and political promises, explaining ho…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b9dd83dfb379ccf3c74523f5fade52e",
-      "title": "LWiAI Podcast #231 - Claude Cowork, Anthropic $10B, Deep Delta Learning",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-231-claude-cowork-anthropic",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-21T03:22:53+00:00",
-      "summary": "Anthropic’s new Cowork tool, Anthropic Raising $10 Billion at $350 Billion Value, Deep Delta Learning",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
-      "title": "How to build stunning slide decks with AI",
-      "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-19T22:33:41+00:00",
-      "summary": "I recently posted a slide deck that I built fully with AI on LinkedIn and it took completely off.",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1020,36 +565,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "98402f5ff49f08db69ba87ed335b83f5",
-      "title": "Deep Learning Weekly: Issue 438",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-438",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-15T16:02:53+00:00",
-      "summary": "Comet, Vercel, and Google DeepMind launch a month-long AI Agents hackathon with $30K prizes, Claude Cowork, a paper on Prompt Repetition Improves Non-Reasoning LLMs, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "146d273fa24788a63860b8946b5cc78b",
-      "title": "Last Week in AI #332 - Apple + Gemini, OpenAI + Cerebras, Claude Cowork",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-332-apple-gemini",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-15T07:06:16+00:00",
-      "summary": "Google’s Gemini to power Apple’s AI features like Siri, OpenAI signs deal worth $10B for compute from Cerebras, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1110,21 +625,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6ae9c63a57f303c774b0465d439dc058",
-      "title": "Deep Learning Weekly: Issue 437",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-08T16:02:39+00:00",
-      "summary": "Comet, Vercel, and Google DeepMind launch month-long AI Agents hackathon with $30K prizes, 2025: The year in LLMs by Simon Willison, a paper on NitroGen: An Open Foundation Model for Generalist Gaming",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ee5749e6eed5135b683fd1e2d57dfeda",
       "title": "Venezuela — Why This Matters for Americans and Investors",
       "url": "https://www.youtube.com/watch?v=9bhbEzqasGQ",
@@ -1135,36 +635,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0d8812d6679070d4fa5af44bcee1d3ec",
-      "title": "LWiAI Podcast #230 - 2025 Retrospective, Nvidia buys Groq, GLM 4.7, METR",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-230-2025-retrospective",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-07T06:59:29+00:00",
-      "summary": "Nvidia buying AI chip startup Groq for about $20 billion, Meta Buys AI Startup Manus, Z.AI launches GLM-4.7",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b7666c06dbfc3ac66b7c29cd7bedd17",
-      "title": "Last Week in AI #331 - Nvidia announcements, Grok bikini prompts, RAISE Act",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-331-nvidia-announcements",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-06T11:56:58+00:00",
-      "summary": "Nvidia Details New A.I. Chips and Autonomous Car Project, Grok is undressing anyone, NY passes AI regulation",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1181,21 +651,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "89654fc672079b6aefccbd91d6d9c93e",
-      "title": "Deep Learning Weekly: Issue 436",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-436",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-01T16:25:58+00:00",
-      "summary": "GPT-5.2-Codex, Prompt Drift: The Hidden Failure Mode Undermining Agentic Systems, a paper on Adaptation of Agentic AI, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "54f299364196017a6288dbbbc5e84889",
       "title": "Will The Housing Market Finally Crash in 2026? (My Prediction)",
       "url": "https://www.youtube.com/watch?v=3WI_rCsiFFg",
@@ -1209,619 +664,7 @@
         "Housing (CA/SD)"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "58aad7db8874d01c514bd133536b2477",
-      "title": "LWiAI Podcast #229 - Gemini 3 Flash, ChatGPT Apps, Nemotron 3",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-229-gemini-3-flash",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-25T21:29:26+00:00",
-      "summary": "Google launches Gemini 3 Flash, ChatGPT launches an app store, Introducing GPT-5.2-Codex",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f1d24e99570a7e6d18d1b81f9150e278",
-      "title": "Last Week in AI #330 - Groq->Nvidia , ChatGPT Apps, US AI Genesis Mission",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-330-groq-nvidia-chatgpt",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-25T08:51:51+00:00",
-      "summary": "Nvidia buying AI chip startup Groq’s assets for about $20 billion in largest deal on record, OpenAI opens ChatGPT to third-party apps via its Platform, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0c5bcec973876baafe5ea38a66abb393",
-      "title": "Deep Learning Weekly: Issue 435",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-12-18T16:02:52+00:00",
-      "summary": "Announcing the Future of AI Engineering: Self-Optimizing Agents, Fantastic Bugs and Where to Find Them in AI Benchmarks, Motif-2-12.7B-Reasoning: A Guide to RL Training Recipes, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f65b1da84e7c3c0de41afbbe865642ec",
-      "title": "LWiAI Podcast #228 - GPT 5.2, Scaling Agents, Weird Generalization",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-228-gpt-52-scaling",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-17T22:31:17+00:00",
-      "summary": "GPT-5.2 is OpenAI’s latest move in the agentic AI battle, Towards a Science of Scaling Agent Systems, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "322fae2e07a143e250218f03d29449cf",
-      "title": "AI Design Stack 2026",
-      "url": "https://designplusai.com/p/ai-design-stack-2026",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-16T18:35:23+00:00",
-      "summary": "Every tool, prompt, and workflow to turn rough ideas into polished, working products.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dff95064d2838cc0ce373f82689121ed",
-      "title": "Last Week in AI #329 - GPT 5.2, GenAI.mil, Disney in Sora",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-329-gpt-52-genaimil",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-16T07:45:13+00:00",
-      "summary": "GPT-5.2 is OpenAI’s latest move in the agentic AI battle, Google is powering a new US military AI platform, Trump Moves to Stop States From Regulating AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ea647dedcea259be796acded8f838ee5",
-      "title": "Deep Learning Weekly: Issue 434",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-12-11T16:00:36+00:00",
-      "summary": "Devstral 2 and Mistral Vibe CLI, AI Agent Orchestration Flows, a paper on Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2fa584785e255a739f67be053babd244",
-      "title": "Speed is not quality",
-      "url": "https://designplusai.com/p/speed-is-not-quality",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-10T19:25:49+00:00",
-      "summary": "There’s a seductive idea going around that speed is the new quality.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "149ed16055905c3d653d7b1ada1cfaaa",
-      "title": "LWiAI Podcast #227 - Jeremie is back! DeepSeek 3.2, TPUs, Nested Learning",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-227-jeremie-is-back",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-09T08:41:54+00:00",
-      "summary": "Deepseek 3.2 New AI Model is Faster, Cheaper and Smarter, NVIDIA’s Partners Are Beginning to Tilt Toward Google’s TPU Ecosystem, Nested Learning: The Illusion of Deep Learning Architecture",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "423eb33884f1e405005de613d76b692b",
-      "title": "Last Week in AI #328 - DeepSeek 3.2, Mistral 3, Trainium3, Runway Gen-4.5",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-328-deepseek-32-mistral",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-08T04:44:04+00:00",
-      "summary": "DeepSeek Releases New Reasoning Models, Mistral closes in on Big AI rivals with new open-weight frontier and small models, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b4177d77fe87749821a60afc4874ced9",
-      "title": "Ultimate Prompt Library for UI",
-      "url": "https://designplusai.com/p/ultimate-prompt-library-for-ui",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-06T17:46:48+00:00",
-      "summary": "I’ve been quietly building something I wish existed when I started designing with AI.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dd1eb0fb7764722e023868a12bc8063f",
-      "title": "Deep Learning Weekly: Issue 433",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-433",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-12-04T16:03:08+00:00",
-      "summary": "Mistral 3, MCP Explorer, a paper on Agentic Bridge Framework: Closing the Gap Between Agentic Capability and Performance Benchmarks, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "528bfa637f19db7c192de454d3663dd0",
-      "title": "The Rise of the Founding Designer",
-      "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-30T12:36:54+00:00",
-      "summary": "Something has changed in the last few years.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a7c82102f242bc4dd113e21794b7dc77",
-      "title": "LWiAI Podcast #226 - Gemini 3, Claude Opus 4.5, Nano Banana Pro, LeJEPA",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-226-gemini-3-claude",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-30T08:20:26+00:00",
-      "summary": "Google launches Gemini 3 & Nano Banana Pro, Anthropic releases Opus 4.5, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "67757376e31c29ec74e5db79d4fe4b1c",
-      "title": "AI prompt hacks for design",
-      "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-27T12:32:16+00:00",
-      "summary": "Here are my favorite design hacks from building 100+ Lovable projects:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "56bd1bcbf88daf16b6ea807a215acf08",
-      "title": "Deep Learning Weekly: Issue 432",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-432",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-11-26T18:01:52+00:00",
-      "summary": "Claude Opus 4.5, Continuous batching from first principles, HunyuanOCR Technical Report, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b1c4183371bb149e66750c34ce40e6cd",
-      "title": "Last Week in AI #327 - Gemini 3, Opus 4.5, Nano Banana Pro, GPT-5.1-Codex-Max",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-327-gemini-3-opus",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-25T19:21:47+00:00",
-      "summary": "It's a big week! Lots of exciting releases, plus nvidia earnings and a whole bunch of cool research.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bd8d4b16e9c9a5217df986fc1192bba3",
-      "title": "Everyone is a builder now",
-      "url": "https://designplusai.com/p/everyone-is-a-builder-now",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-23T13:54:06+00:00",
-      "summary": "Something different is happening in software teams right now.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1eb4b7ad1d9f7ece181ff9d01f8c35e0",
-      "title": "LWiAI Podcast #225 - GPT 5.1, Kimi K2 Thinking, Remote Labor Index",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-225-gpt-51-kimi-k2",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-22T08:27:26+00:00",
-      "summary": "OpenAI says the brand-new GPT-5.1 is ‘warmer’, Baidu Unveils ERNIE 5.0, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "83967139cbb788661e5ef377641df6ac",
-      "title": "Deep Learning Weekly: Issue 431",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-431",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-11-19T16:31:36+00:00",
-      "summary": "Gemini 3, The Definitive Guide to Agentic AI, a paper on Depth Anything 3: Recovering the Visual Space from Any Views, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "18d1e5009664c0b057919a24cc19ee0a",
-      "title": "Deep Learning Weekly: Issue 430",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-11-13T16:02:08+00:00",
-      "summary": "Kimi K2 Thinking, Nested Learning: A new ML paradigm for continual learning, a paper on SPICE: Self-Play In Corpus Environments Improves Reasoning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d46afb1a350b1eecaf466f9b3adb1086",
-      "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-09T18:57:47+00:00",
-      "summary": "Qualcomm announces AI chips to compete with AMD and Nvidia, MiniMax Releases MiniMax M2, Universal partners with Udio, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6bbeb898cb7dc3ce4394f39c1bf2ed3b",
-      "title": "LWiAI Podcast #224 - OpenAI is for-profit! Cursor 2, Minimax M2, Udio copyright",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-224-openai-is-for-profit",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-05T22:58:01+00:00",
-      "summary": "Cursor 2.0 shifts to in-house AI with Composer model and parallel agents, OpenAI completed its for-profit restructuring, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b82d6ff219ffef22da8b689fa3b2ce45",
-      "title": "Deep Learning Weekly: Issue 429",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-429",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-11-05T16:45:55+00:00",
-      "summary": "OpenAI’s agentic security researcher, Stress-testing model specs reveals character differences among models, a paper on Kimi Linear: An Expressive, Efficient Attention Architecture, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3552421a1d5f89a2998ef62abfefcf14",
-      "title": "The Golden Age of the Design Founder",
-      "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-02T12:43:28+00:00",
-      "summary": "There’s a pattern I keep noticing in the most successful founders, and it’s not what I expected.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e6fe5bf1dbb59eb171461c4b48047a0e",
-      "title": "Deep Learning Weekly: Issue 428",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-428",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-30T15:01:16+00:00",
-      "summary": "DeepSeek-OCR, Introducing Chronos-2: From univariate to universal forecasting, a paper on InteractComp: Evaluating Search Agents With Ambiguous Queries, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "25aa2c827c0d071cdc8d75fc92a9202a",
-      "title": "Last Week in AI #325 - OpenAI is for-profit, ChatGPT Atlas, Copilot Mico",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-325-openai-is-for",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-29T15:02:31+00:00",
-      "summary": "OpenAI completed its for-profit restructuring, OpenAI’s AI-powered browser is here, Google and Anthropic announce cloud deal worth tens of billions of dollars, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "875a15c877203870e5680fc3c02c11b3",
-      "title": "Deep Learning Weekly: Issue 427",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-427",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-22T15:01:11+00:00",
-      "summary": "Introducing Claude Haiku 4.5, The State of Open Models, a paper on TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "04b44f55219ada76928d580e4fb5d344",
-      "title": "Top design hacks for Lovable",
-      "url": "https://designplusai.com/p/top-design-hacks-for-lovable",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-20T17:52:50+00:00",
-      "summary": "I built this quick to-do app using some of my favorite Lovable design hacks.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ec371756c32b7ea57b6c27a0c06bf97d",
-      "title": "Deep Learning Weekly: Issue 426",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-426",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-15T15:01:15+00:00",
-      "summary": "Introducing Gemini Enterprise, A small number of samples can poison LLMs of any size, a paper on Self-Adapting Language Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2ef74fafe57567a09cb107298e76aa6f",
-      "title": "Kind Products Win",
-      "url": "https://designplusai.com/p/kind-products-win",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-10-12T08:05:26+00:00",
-      "summary": "Why do so many products feel soulless?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c9cb4cb5fc11c2968d9046332cf28fb7",
-      "title": "Deep Learning Weekly: Issue 425",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-425",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-09T15:03:10+00:00",
-      "summary": "RTEB: A New Standard for Retrieval Evaluation, Building Multi-Agent Systems with Crew AI and Weaviate, a paper on MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use, and many",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2f7f1ed40c65585013676147c85d0e9b",
-      "title": "Deep Learning Weekly: Issue 424",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-01T15:02:41+00:00",
-      "summary": "OpenAI's Sora 2, Developing an open standard for agentic commerce, a paper on Enter the Mind Palace: Reasoning and Planning for Long-term Active Embodied Question Answering, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c8b38689572ffa55562e78b7f0e7f17d",
-      "title": "Deep Learning Weekly: Issue 423",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-423",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-09-24T15:02:42+00:00",
-      "summary": "DeepSeek-V3.1-Terminus, Introduction to LLM-as-a-Judge For Evals, a paper on LIMI: Less is More for Agency, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a11eb074f242bc12967e6feb239d8d40",
-      "title": "Winning Teams Hire Founders",
-      "url": "https://designplusai.com/p/winning-teams-hire-founders",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-21T13:14:53+00:00",
-      "summary": "The best companies aren’t run by people doing jobs.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "783d5542a824ceb4464788be1c3ae405",
-      "title": "Ultimate AI Prompt Directory",
-      "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-09T09:02:31+00:00",
-      "summary": "Over the past weeks I collected my favorite prompts and turned them into one \"master directory\" so you can just copy + paste what you need.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7bfe9a33b83053ff0f55f520559e8cab",
-      "title": "10 AI prompt lessons I learned the hard way",
-      "url": "https://designplusai.com/p/10-ai-prompt-lessons-i-learned-the",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-06T11:07:26+00:00",
-      "summary": "After 100 hours of prompting AI for UI design, I discovered most designers are doing it completely wrong.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8698acc7858a3b33da0ec0259acca8bb",
-      "title": "You don’t need better UX. You need fewer decisions",
-      "url": "https://designplusai.com/p/you-dont-need-better-ux-you-need",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-08-03T12:48:40+00:00",
-      "summary": "Founders love to say their product needs better UX.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fb73eee071b60f4f0dc1b9df5519251d",
-      "title": "Ultimate AI Design Stack",
-      "url": "https://designplusai.com/p/ultimate-ai-design-stack",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-31T10:49:02+00:00",
-      "summary": "This is the stack I use to turn rough ideas into polished, working products — fast.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "37601b3682ee31e03b496cdfefeb27a5",
-      "title": "Increase conversion with dynamic UX",
-      "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-26T13:41:33+00:00",
-      "summary": "I built a pricing page in Lovable that adapts based on who’s visiting.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
-      "title": "Good writing is the most underrated design skill",
-      "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-18T16:52:52+00:00",
-      "summary": "Here’s why:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b89b9cbd9254cf5d0cae3750802f579d",
-      "title": "10 Rules for High-Converting Websites",
-      "url": "https://designplusai.com/p/10-rules-for-high-converting-websites",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-17T13:07:02+00:00",
-      "summary": "Most product sites don’t convert.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "93ab654e877992cababbd9f76a82d7c3",
-      "title": "Dynamic UX is the new standard",
-      "url": "https://designplusai.com/p/0bc",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-14T17:04:45+00:00",
-      "summary": "In my last post, I said: Invisible UX is coming.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-12T22:28:41.303142+00:00"
+  "generated_at": "2026-02-12T23:24:51.021526+00:00"
 }
