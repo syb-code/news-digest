@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "9b270819f56ecbce6ca311932e63586c",
+      "title": "Labor Market Warning: The Jobs Report Doesn't Add Up",
+      "url": "https://www.youtube.com/watch?v=3rjbUQszOC0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-12T17:00:09+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "359d5bb186a1409878b4c19b23238b39",
       "title": "Deep Learning Weekly: Issue 442",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-442",
@@ -1228,21 +1241,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b8447d2d5169b15db828547a226ee09d",
-      "title": "How to Invest in 2026: Don’t Fight the Fed",
-      "url": "https://www.youtube.com/watch?v=gksY8Vj6KCQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-12-23T17:15:06+00:00",
-      "summary": "⭐ Visit our Patreon to see what I'm investing in for 2026 and more investing content: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.c…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0c5bcec973876baafe5ea38a66abb393",
       "title": "Deep Learning Weekly: Issue 435",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
@@ -1825,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-12T16:54:24.070473+00:00"
+  "generated_at": "2026-02-12T17:54:41.457013+00:00"
 }
