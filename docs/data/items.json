@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bbff741406ae4ef4bbe914b0408fc6cf",
+      "title": "How the Global AI Race Has Changed",
+      "url": "https://www.youtube.com/watch?v=ozxH7SS0Svw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-12T14:52:26+00:00",
+      "summary": "China's rapid model releases and multimodal breakthroughs, led by Moonshot's Kimi K2.5 and SeedDance2.0, are closing performance gaps with Western labs. Market shocks and regulatory fights, highlighted by DeepSeek's reasoning model surge and disputes over H200 exports and chip b…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "77924c9996964f92da4562d38d9c880e",
       "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
       "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
@@ -610,21 +625,6 @@
       "source_type": "youtube",
       "published": "2026-01-30T20:00:06+00:00",
       "summary": "Moonshot's K2.5 (Kimi) emerges as a leading open-weights model with native image and video inputs and benchmark performance approaching frontier-level systems. AgentSwarm functionality showcases parallelized, role-based agents and orchestrates complex workflows such as coding, s…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "27e63a5a93f4747db946b495ed6e6371",
-      "title": "The AI Acceleration Gap",
-      "url": "https://www.youtube.com/watch?v=cRhLXGGwOmQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-30T13:38:51+00:00",
-      "summary": "Examination of the AI acceleration gap and widening divergence between frontier adopters and mainstream users. Exploration of career and equity risks from compounding advantages alongside cultural and political polarization around AI adoption. Recommendation to adopt modest, reg…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1827,5 +1827,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-12T14:12:52.567753+00:00"
+  "generated_at": "2026-02-12T15:48:35.711000+00:00"
 }
