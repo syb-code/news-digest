@@ -142,7 +142,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-09T13:03:17+00:00",
-      "summary": "Watch now | 🎙️ Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
+      "summary": "Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -348,7 +348,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-04T13:03:45+00:00",
-      "summary": "Watch now | 🎙️ Vercel’s CEO demonstrates how v0’s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
+      "summary": "Vercel’s CEO demonstrates how v0’s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -473,7 +473,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-02T13:04:58+00:00",
-      "summary": "Watch now | 🎙️ How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
+      "summary": "How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1827,5 +1827,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-11T23:28:08.932885+00:00"
+  "generated_at": "2026-02-12T01:54:58.546470+00:00"
 }
