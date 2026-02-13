@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1abaa2ec9d42267488b5079d098b2477",
+      "title": "Is This the Best AI Video Model in the World?",
+      "url": "https://www.youtube.com/watch?v=TgyBWACUOfk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-13T03:08:16+00:00",
+      "summary": "ByteDance’s Seed Dance 2.0 shows native-audio, multimodal 2K video generation with cinematic visuals, precise lip sync, and 15-second multi-cut outputs. White House pushes AI firms to sign a pact requiring companies to fund data-center infrastructure upgrades to avoid electricit…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9b270819f56ecbce6ca311932e63586c",
       "title": "Labor Market Warning: The Jobs Report Doesn't Add Up",
       "url": "https://www.youtube.com/watch?v=3rjbUQszOC0",
@@ -636,21 +651,6 @@
       "source_type": "youtube",
       "published": "2026-01-31T01:38:56+00:00",
       "summary": "OpenClaw (formerly ClaudeBot) demonstrates emergent agent capabilities like autonomous voice, 24/7 task automation, and business workflow orchestration. MT.Book documents thousands of AI agents collaborating, building services, creating communities, and experimenting with coordi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ea1df266a72012b58d06861a440dd9ba",
-      "title": "Are Agent Swarms the Next AI Paradigm?",
-      "url": "https://www.youtube.com/watch?v=G2MUGP_1ydc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-30T20:00:06+00:00",
-      "summary": "Moonshot's K2.5 (Kimi) emerges as a leading open-weights model with native image and video inputs and benchmark performance approaching frontier-level systems. AgentSwarm functionality showcases parallelized, role-based agents and orchestrates complex workflows such as coding, s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1823,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-13T01:57:40.677785+00:00"
+  "generated_at": "2026-02-13T04:23:25.754171+00:00"
 }
