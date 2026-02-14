@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "476905894e8273880a4800cb96f1b947",
+      "title": "How to Learn AI with AI",
+      "url": "https://www.youtube.com/watch?v=eFpyRtRyu3k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-14T18:42:26+00:00",
+      "summary": "Overview of the shift from instructor-led courses to agent-first, context-driven learning with AI as a collaborative build partner. Key mindsets: start with vision, think out loud, insist on mutual pushback, and use AI as a mirror for refining ideas. Practical tactics: create ha…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a28e7d33e48afe20b390b2582324101d",
       "title": "🧠 Community Wisdom: How PMs are using AI coding tools, implementing reverse free trials, distinguishing yourself as a product manager vs. project manager, pricing your consulting work, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-pms-are-using",
@@ -651,21 +666,6 @@
       "source_type": "rss",
       "published": "2026-01-31T17:11:55+00:00",
       "summary": "Community Wisdom 171",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7cd714d5f0246bd7a60057672b09e6fa",
-      "title": "What We Learned from OpenAI's Town Hall",
-      "url": "https://www.youtube.com/watch?v=CRQA4rK4-7c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-31T14:00:00+00:00",
-      "summary": "Sam Altman hosted a town hall covering GPT-5.2's strong reasoning but clumsy prose, a hiring slowdown, and goals for deep personalization with portable memory. OpenAI unveiled premium ad pricing near $60 CPM, pledged not to sell personal data to advertisers, and introduced a 4% …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1823,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-14T18:29:14.745614+00:00"
+  "generated_at": "2026-02-14T19:20:51.831403+00:00"
 }
