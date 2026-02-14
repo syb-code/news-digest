@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dcb07663ded5bc310fbe8a9dcaf57755",
+      "title": "The Time Savings Era of AI is Over",
+      "url": "https://www.youtube.com/watch?v=HucDlw0Hr9A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-14T01:40:36+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1abaa2ec9d42267488b5079d098b2477",
       "title": "Is This the Best AI Video Model in the World?",
       "url": "https://www.youtube.com/watch?v=TgyBWACUOfk",
@@ -636,21 +651,6 @@
       "source_type": "youtube",
       "published": "2026-01-31T14:00:00+00:00",
       "summary": "Sam Altman hosted a town hall covering GPT-5.2's strong reasoning but clumsy prose, a hiring slowdown, and goals for deep personalization with portable memory. OpenAI unveiled premium ad pricing near $60 CPM, pledged not to sell personal data to advertisers, and introduced a 4% …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b072e4431342fb13b70cb7fa74eb7954",
-      "title": "Moltbook, the Agent Social Nework, is the Craziest AI Phenomena Yet",
-      "url": "https://www.youtube.com/watch?v=TibOeou4cIg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-01-31T01:38:56+00:00",
-      "summary": "OpenClaw (formerly ClaudeBot) demonstrates emergent agent capabilities like autonomous voice, 24/7 task automation, and business workflow orchestration. MT.Book documents thousands of AI agents collaborating, building services, creating communities, and experimenting with coordi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1823,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-13T23:27:09.827768+00:00"
+  "generated_at": "2026-02-14T01:47:33.092237+00:00"
 }
