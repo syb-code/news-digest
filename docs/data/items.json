@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a28e7d33e48afe20b390b2582324101d",
+      "title": "🧠 Community Wisdom: How PMs are using AI coding tools, implementing reverse free trials, distinguishing yourself as a product manager vs. project manager, pricing your consulting work, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-pms-are-using",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-14T17:03:27+00:00",
+      "summary": "Community Wisdom 173",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dcb07663ded5bc310fbe8a9dcaf57755",
       "title": "The Time Savings Era of AI is Over",
       "url": "https://www.youtube.com/watch?v=HucDlw0Hr9A",
@@ -829,21 +844,6 @@
       "source_type": "rss",
       "published": "2026-01-27T10:02:45+00:00",
       "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dd88923298e6cda294c8cfbcc8b71d7f",
-      "title": "🎙️ This week on How I AI: Advanced Claude Code and Cursor techniques for power users",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-advanced-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-26T16:01:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1823,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-14T16:25:08.130575+00:00"
+  "generated_at": "2026-02-14T17:23:25.129927+00:00"
 }
