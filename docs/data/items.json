@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3cb7931b4ef7687fac2455272f07d2f4",
+      "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
+      "url": "https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-15T13:31:20+00:00",
+      "summary": "Listen now | From HubSpot to Sequoia: Brian Halligan on scaling, leadership, AI, hiring mistakes, and the crisis that changed his life",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "476905894e8273880a4800cb96f1b947",
       "title": "How to Learn AI with AI",
       "url": "https://www.youtube.com/watch?v=eFpyRtRyu3k",
@@ -833,21 +848,6 @@
       "duration_sec": null,
       "themes": [
         "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2d89566814ceaffffdb728bff10cde2d",
-      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
-      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs-ef2",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-27T10:02:45+00:00",
-      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1823,5 +1823,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-15T12:42:08.453015+00:00"
+  "generated_at": "2026-02-15T13:41:56.912752+00:00"
 }
