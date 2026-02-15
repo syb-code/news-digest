@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "648b08cf4abc1f23d6adc12db9e8c7c5",
+      "title": "How I Built My 10 Agent OpenClaw Team",
+      "url": "https://www.youtube.com/watch?v=HzVYgpMxMLE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-15T19:00:46+00:00",
+      "summary": "A 10-agent OpenClaw mission control built to test digital employees, persistent memory, heartbeats, and scheduled CR jobs. Agent roster includes a mobile builder, continuous research agents powering AI maturity maps and opportunity radars, project managers, a chief of staff, and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3cb7931b4ef7687fac2455272f07d2f4",
       "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
       "url": "https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been",
@@ -637,22 +652,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f4dd8f17dd154503ed07cc87dcaf0409",
-      "title": "Are Markets Still Worried About an AI Bubble?",
-      "url": "https://www.youtube.com/watch?v=LGNs5g1j8KE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-01T00:00:06+00:00",
-      "summary": "Debate over an AI bubble faces a market test as Meta's aggressive AI spending and massive CapEx guidance contrast with Microsoft's cautious cloud growth and an OpenAI-heavy backlog. Meta pushed AI wearables and ad-driven revenue growth while signaling heavy data-center investmen…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1823,5 +1822,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-15T18:30:43.432227+00:00"
+  "generated_at": "2026-02-15T19:21:45.507031+00:00"
 }
