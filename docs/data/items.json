@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0b27596a6223c6d880559ee7a991ee74",
+      "title": "“A Huge Problem for Everybody” | Paul Krugman on China, the Dollar, A.I., & More",
+      "url": "https://www.youtube.com/watch?v=pvEymKUcM_Q",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-15T21:13:04+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\nDistinguished economist Paul Krugman joins Jack to discuss the devaluation of the dollar, the nomination of Kevin Warsh, artificial intelligence, and much m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "648b08cf4abc1f23d6adc12db9e8c7c5",
       "title": "How I Built My 10 Agent OpenClaw Team",
       "url": "https://www.youtube.com/watch?v=HzVYgpMxMLE",
@@ -1052,22 +1067,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dc9f2beb7395c0bfd55987f3bd2a1dd0",
-      "title": "President Trump Shocks Markets With Sweeping Actions In Credit Cards, Mortgages, Defense, and More",
-      "url": "https://www.youtube.com/watch?v=b8uXzpRYwXI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-14T18:33:52+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/?via=monetarymatters\n\nPresident Trump has shaken the financial markets by proposing a strict 10% interest rate cap on credit card…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "cc22d6e70c4eb7c8e01fbe5a9ecde56c",
       "title": "Jerome Powell Under Criminal Investigation — Here's Why This Matters",
       "url": "https://www.youtube.com/watch?v=AbvZVwrYJ0Q",
@@ -1822,5 +1821,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-15T20:21:40.215145+00:00"
+  "generated_at": "2026-02-15T21:20:41.454829+00:00"
 }
