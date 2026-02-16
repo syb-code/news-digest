@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7778d6cd3ac864496031a03c9b93f1e3",
+      "title": "How this visually impaired engineer uses Claude Code to make his life more accessible | Joe McCormick",
+      "url": "https://www.lennysnewsletter.com/p/how-this-visually-impaired-engineer",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-16T13:03:24+00:00",
+      "summary": "How this visually impaired engineer uses Claude Code to transform Slack images into descriptions, correct typos instantly, and summarize links—all with simple keyboard shortcuts",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1493b020123756010c035dbe177da6c0",
       "title": "Last Week in AI #335 - Opus 4.6, Codex 5.3, Gemini 3 Deep Think, GLM 5, Seedance 2.0",
       "url": "https://lastweekin.ai/p/last-week-in-ai-335-opus-46-codex",
@@ -843,21 +858,6 @@
       "source_type": "rss",
       "published": "2026-01-28T09:51:53+00:00",
       "summary": "OpenAI to test ads in ChatGPT as it burns through billions, The Drama at Thinking Machines, STEM: Scaling Transformers with Embedding Modules",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "496d9e728a33533e3316c86124304112",
-      "title": "Product Pass drop: Canva, ElevenLabs, Manus, Factory, Amp, Railway, Framer—now free with your paid subscription",
-      "url": "https://www.lennysnewsletter.com/p/product-pass-drop-canva-elevenlabs",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-27T16:45:57+00:00",
-      "summary": "23 premium tools, over $25,000 in value. The most epic bundle in history just keeps getting better.",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1821,5 +1821,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-16T12:55:36.949931+00:00"
+  "generated_at": "2026-02-16T14:04:14.719107+00:00"
 }
