@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "b9122f2da762273c84e28113b8979414",
+      "title": "What Happens If the Dollar Isn’t Replaced by Anything?",
+      "url": "https://www.youtube.com/shorts/459wRqhts5Y",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-16T16:16:45+00:00",
+      "summary": "From evidence that tariffs have already pushed prices higher to warnings about a potentially fragmented global financial order, Krugman explains why China’s export-driven model and weak global demand could create major challenges ahead. Distinguished economist Paul Krugman break…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7f2937bcd178674f5ea3b1e64c2592d3",
+      "title": "🎙️ This week on How I AI: Opus vs. Codex showdown, and AI for accessibility",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-opus-vs-codex",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-16T16:02:43+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7778d6cd3ac864496031a03c9b93f1e3",
       "title": "How this visually impaired engineer uses Claude Code to make his life more accessible | Joe McCormick",
       "url": "https://www.lennysnewsletter.com/p/how-this-visually-impaired-engineer",
@@ -836,21 +866,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9c0b525108f76a2de121bbcb969b5c21",
-      "title": "I gave Clawdbot (aka Moltbot) access to my computer, calendar, and emails: Here’s what happened",
-      "url": "https://www.lennysnewsletter.com/p/i-gave-clawdbot-now-moltbot-access",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T13:04:06+00:00",
-      "summary": "What happens when you invite an autonomous AI agent onto your podcast—and your computer?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
       "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
       "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
@@ -1020,22 +1035,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7a08ec11f95aaa0e0bf3a21ad60e3f2f",
-      "title": "China’s Economy is Grappling with its Hardest Period in Decades (Here’s Why) | Barry Naughton",
-      "url": "https://www.youtube.com/watch?v=FqCyq3CIhwQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-18T20:00:11+00:00",
-      "summary": "Barry Naughton, a renowned professor and chair of Chinese International Affairs at UC San Diego, provides a deep dive into the current crises and triumphs of the Chinese economy. In this interview, Naughton analyzes why China is grappling with its most difficult challenges in de…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1821,5 +1820,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-16T15:37:23.026018+00:00"
+  "generated_at": "2026-02-16T16:38:21.220053+00:00"
 }
