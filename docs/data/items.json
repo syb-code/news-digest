@@ -31,21 +31,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "648b08cf4abc1f23d6adc12db9e8c7c5",
-      "title": "How I Built My 10 Agent OpenClaw Team",
-      "url": "https://www.youtube.com/watch?v=HzVYgpMxMLE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-15T19:00:46+00:00",
-      "summary": "A 10-agent OpenClaw mission control built to test digital employees, persistent memory, heartbeats, and scheduled CR jobs. Agent roster includes a mobile builder, continuous research agents powering AI maturity maps and opportunity radars, project managers, a chief of staff, and…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3cb7931b4ef7687fac2455272f07d2f4",
       "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
       "url": "https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been",
@@ -53,21 +38,6 @@
       "source_type": "rss",
       "published": "2026-02-15T13:31:20+00:00",
       "summary": "Listen now | From HubSpot to Sequoia: Brian Halligan on scaling, leadership, AI, hiring mistakes, and the crisis that changed his life",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "476905894e8273880a4800cb96f1b947",
-      "title": "How to Learn AI with AI",
-      "url": "https://www.youtube.com/watch?v=eFpyRtRyu3k",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-14T18:42:26+00:00",
-      "summary": "Overview of the shift from instructor-led courses to agent-first, context-driven learning with AI as a collaborative build partner. Key mindsets: start with vision, think out loud, insist on mutual pushback, and use AI as a mirror for refining ideas. Practical tactics: create ha…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -91,49 +61,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dcb07663ded5bc310fbe8a9dcaf57755",
-      "title": "The Time Savings Era of AI is Over",
-      "url": "https://www.youtube.com/watch?v=HucDlw0Hr9A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-14T01:40:36+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1abaa2ec9d42267488b5079d098b2477",
-      "title": "Is This the Best AI Video Model in the World?",
-      "url": "https://www.youtube.com/watch?v=TgyBWACUOfk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-13T03:08:16+00:00",
-      "summary": "ByteDance’s Seed Dance 2.0 shows native-audio, multimodal 2K video generation with cinematic visuals, precise lip sync, and 15-second multi-cut outputs. White House pushes AI firms to sign a pact requiring companies to fund data-center infrastructure upgrades to avoid electricit…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9b270819f56ecbce6ca311932e63586c",
-      "title": "Labor Market Warning: The Jobs Report Doesn't Add Up",
-      "url": "https://www.youtube.com/watch?v=3rjbUQszOC0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-12T17:00:09+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "359d5bb186a1409878b4c19b23238b39",
       "title": "Deep Learning Weekly: Issue 442",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-442",
@@ -147,21 +74,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bbff741406ae4ef4bbe914b0408fc6cf",
-      "title": "How the Global AI Race Has Changed",
-      "url": "https://www.youtube.com/watch?v=ozxH7SS0Svw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-12T14:52:26+00:00",
-      "summary": "China's rapid model releases and multimodal breakthroughs, led by Moonshot's Kimi K2.5 and SeedDance2.0, are closing performance gaps with Western labs. Market shocks and regulatory fights, highlighted by DeepSeek's reasoning model surge and disputes over H200 exports and chip b…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "77924c9996964f92da4562d38d9c880e",
       "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
       "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
@@ -169,21 +81,6 @@
       "source_type": "rss",
       "published": "2026-02-12T13:31:43+00:00",
       "summary": "OpenAI’s Sherwin Wu on why the productivity gap is widening, how his engineers now manage 10-20 parallel agents, and why you need to build for where models are heading",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f01acc875ad67ae03c64ea7a14f43da9",
-      "title": "Why AI Leads to More Work, Not Less",
-      "url": "https://www.youtube.com/watch?v=owFqgMcmDbA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-11T16:46:06+00:00",
-      "summary": "New research from Berkeley Haas and the Harvard Business Review finds AI power users facing increased work through task expansion, blurred boundaries, and parallel multitasking. Generative agents boost capability and output while creating spillover review work, accelerated speed…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -224,21 +121,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d2989cf11c8ce5ca3a469efa68f782e7",
-      "title": "The SaaSpocalypse Continues",
-      "url": "https://www.youtube.com/watch?v=kd6UpFirnxQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-10T16:57:06+00:00",
-      "summary": "SaaS-apocalypse narrative triggered a dramatic software selloff, erasing roughly $400 billion in market value. The debate centers on whether AI agents will replace seat-based pricing or enable cloud incumbents to build agent layers atop existing SaaS moats. Security flaws in age…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d5a950fb065985d4ecbd9425af953223",
       "title": "Building AI product sense, part 2",
       "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2",
@@ -269,34 +151,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "035e867ad6fde4ce7a07d888fb7d51a6",
-      "title": "Did the Super Bowl As Make Americans Like AI Any More?",
-      "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-10T00:27:01+00:00",
-      "summary": "Super Bowl ads from Google, OpenAI, Anthropic, Amazon, Microsoft, Meta, and startups confront widespread American distrust of AI. Key themes include trust statistics, ad effectiveness, brand positioning, hoaxes, and viral failures like ai.com. Emotional storytelling and practica…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d7b1637db0a05f1c1c23d2fde7a16058",
-      "title": "Trump Predicts the Stock Market Will Double in 3 Years",
-      "url": "https://www.youtube.com/watch?v=Jpqjf0KFziY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-09T17:00:35+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, silver, gold, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "cf63e06c95bb15f294cc9eb199fdda8f",
       "title": "🎙️ This week on How I AI: How to build your own AI developer tools with Claude Code",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-build",
@@ -319,21 +173,6 @@
       "source_type": "rss",
       "published": "2026-02-09T13:03:17+00:00",
       "summary": "Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0feb6ac51b789e162b44ee36024217c5",
-      "title": "No One Wins this AI Super Bowl",
-      "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-08T14:30:41+00:00",
-      "summary": "Controversial Anthropic Super Bowl ads framed AI as betrayal and sparked sharp pushback from OpenAI and industry observers. Debate focuses on advertising strategy, brand risk, and the danger of amplifying public AI skepticism, with potential to undermine societal preparedness. A…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -370,21 +209,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "11b5e72a5ed22e96246ec642e341de21",
-      "title": "AI in Space! xAI is Merging with SpaceX",
-      "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-08T01:50:31+00:00",
-      "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "63622ef53b5b1d22d267cb7e65ea121f",
       "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
@@ -397,34 +221,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1c9023fbb1e3ea0c80a792f834b8bd18",
-      "title": "Opus 4.6 and ChatGPT 5.3-Codex Are Here and the Labs Are at War",
-      "url": "https://www.youtube.com/watch?v=JqpI65aVJ30",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-06T19:39:56+00:00",
-      "summary": "Anthropic dropped Claude Opus 4.6 and OpenAI responded with GPT 5.3 Codex just 20 minutes later — the most intense head-to-head model release we've ever seen. Here's what each model brings, how they compare, and what the first reactions are telling us.\n\nThe AI Daily Brief helps …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7f2d32b5d94e403a2cc16a23df59873b",
-      "title": "Labor Market Warning: Layoffs Surge 118% in January",
-      "url": "https://www.youtube.com/watch?v=QadL1JNe-GU",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-06T17:11:56+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -443,21 +239,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "57f61fd8880598199db08db0ffd8578f",
-      "title": "Is Software Dead?",
-      "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-06T00:42:46+00:00",
-      "summary": "Markets are pricing an AI-driven revaluation of software as investors fret over potential replacement of SaaS business models. High-profile selloffs after Claude CoWork and Gemini releases sparked debates about seat-based pricing, inference costs, and enterprise adoption timelin…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0dfe03f040305e695ea96d6ec9f1c644",
       "title": "Deep Learning Weekly: Issue 441",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
@@ -465,21 +246,6 @@
       "source_type": "rss",
       "published": "2026-02-05T16:01:54+00:00",
       "summary": "Qwen3-Coder-Next, Inside OpenAI’s in-house data agent, a paper on Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6dc87d6e159b4ae9aefb26c1de329804",
-      "title": "The Dawn of the Agent Age",
-      "url": "https://www.youtube.com/watch?v=Ew-cHazoABc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-05T14:08:36+00:00",
-      "summary": "January marked the Dawn of the Agent Era as Claude Code and Claude Cowork transformed coding from prototyping into practical everyday workflows. OpenClaw and Moltbook sparked a social and tooling ecosystem for agents, accelerating experiments and exposing a large AI adoption gap…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -548,24 +314,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "359f5a69eaf151d12520756e50984d2f",
-      "title": "Stocks, Bitcoin, Gold: The New Fed Chair Changes Everything for 2026",
-      "url": "https://www.youtube.com/watch?v=cS9S5KituzU",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-03T21:24:42+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Macro/Fed",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1a3d36756009eefc48c36d64b5d034f5",
       "title": "Warning: Don’t Buy Silver Unless You Can Handle This | Alex Campbell",
       "url": "https://www.youtube.com/watch?v=Cb5Vxim2nEA",
@@ -577,21 +325,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "aa5e042802a4f761fbc8ad9204acd671",
-      "title": "Why Moltbook Matters",
-      "url": "https://www.youtube.com/watch?v=kRgQotgNwrw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-03T14:00:06+00:00",
-      "summary": "Moltbook and OpenClaw reveal emergent social coordination among autonomous agents, including invented religions, coordinated projects, and persistent conversational state. Skeptics argue that behaviors often reduce to next-token prediction, human-seeded or spoofed posts, and ram…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -624,21 +357,6 @@
         "AI/ML",
         "Housing (CA/SD)",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0069c3e38ae6778c6502d2f9aceb0f41",
-      "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
-      "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-02T14:30:06+00:00",
-      "summary": "Apple acquired QAI for $2 billion to pursue silent speech detection via optical sensors and pair hardware with foundation models. Amazon is weighing a multibillion-dollar OpenAI stake while trimming 16,000 corporate roles, signaling simultaneous AI investment and workforce reduc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -729,21 +447,6 @@
       "duration_sec": null,
       "themes": [
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e3ea526daf34ea291ec3df783c74e8ca",
-      "title": "The Fed and Interest Rates: Why Rates Aren’t Coming Down Yet",
-      "url": "https://www.youtube.com/watch?v=cdAAvKMcMs4",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-29T17:00:57+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -881,19 +584,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "67642e46ab0c3f019afd6ec07588daaf",
-      "title": "Gold Keeps Going Up — Is it Too Late to Buy?",
-      "url": "https://www.youtube.com/watch?v=0S9Psw8rpH0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-26T16:00:01+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "360d4b055a9e15c7022e3c11de8e47de",
       "title": "Why U.S. Stocks *Aren’t* In A Bubble (Yet) | Aswath Damodaran",
       "url": "https://www.youtube.com/watch?v=ZE-hqrDRyzg",
@@ -933,21 +623,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7d8295bfd73608269f1e74c60a782ca2",
-      "title": "Trump Is Forcing Mortgage Rates Down — Here’s How",
-      "url": "https://www.youtube.com/watch?v=JA1V1HVCMVg",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-22T17:00:35+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
       ],
       "bucket": "highlight"
     },
@@ -1010,19 +685,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "06f1f18a74d72bba7c8c012699965661",
-      "title": "My Silver Exit Strategy in 2026 — When I Plan to Sell",
-      "url": "https://www.youtube.com/watch?v=pKeSSI8YdeQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-19T17:01:19+00:00",
-      "summary": "Join me on Patreon to see what I'm doing with silver, gold, stocks: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "7a08ec11f95aaa0e0bf3a21ad60e3f2f",
       "title": "China’s Economy is Grappling with its Hardest Period in Decades (Here’s Why) | Barry Naughton",
       "url": "https://www.youtube.com/watch?v=FqCyq3CIhwQ",
@@ -1036,19 +698,6 @@
         "AI/ML",
         "Housing (CA/SD)"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "972ce9f76f8c0bceb295c3b2dd678f33",
-      "title": "Gold at Record Highs — Is a Crash Coming in 2026?",
-      "url": "https://www.youtube.com/watch?v=pz30JmUu6pc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-15T17:01:30+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1082,47 +731,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cc22d6e70c4eb7c8e01fbe5a9ecde56c",
-      "title": "Jerome Powell Under Criminal Investigation — Here's Why This Matters",
-      "url": "https://www.youtube.com/watch?v=AbvZVwrYJ0Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-14T17:00:16+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6e6fdf19e0a1f9af56e7ed365ae5a958",
-      "title": "Trump's 10% Credit Card Interest Rate Cap — What Happens Next?",
-      "url": "https://www.youtube.com/watch?v=ZX1KQk9j62M",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-12T15:01:09+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1474aab0a08d195da3cd4b278c6e4ca8",
-      "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
-      "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-09T20:48:53+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ae9c63a57f303c774b0465d439dc058",
       "title": "Deep Learning Weekly: Issue 437",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
@@ -1135,19 +743,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ee5749e6eed5135b683fd1e2d57dfeda",
-      "title": "Venezuela — Why This Matters for Americans and Investors",
-      "url": "https://www.youtube.com/watch?v=9bhbEzqasGQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-07T17:00:14+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1181,19 +776,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fc6e189dbdd8a0031d816535910b3d65",
-      "title": "IRS Cracking Down on Side Hustle Income (Avoid These Mistakes!)",
-      "url": "https://www.youtube.com/watch?v=j-Y2PbG7b1k",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-05T17:01:18+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "89654fc672079b6aefccbd91d6d9c93e",
       "title": "Deep Learning Weekly: Issue 436",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-436",
@@ -1205,21 +787,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "54f299364196017a6288dbbbc5e84889",
-      "title": "Will The Housing Market Finally Crash in 2026? (My Prediction)",
-      "url": "https://www.youtube.com/watch?v=3WI_rCsiFFg",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2025-12-29T17:00:16+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
       ],
       "bucket": "highlight"
     },
@@ -1821,5 +1388,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-16T04:22:50.702403+00:00"
+  "generated_at": "2026-02-16T06:03:52.667664+00:00"
 }
