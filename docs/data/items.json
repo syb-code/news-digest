@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "35910462e0515a9375ac201b983c3929",
+      "title": "OpenClaw Goes to OpenAI",
+      "url": "https://www.youtube.com/watch?v=K60wZXFgEWk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-16T22:57:41+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b9122f2da762273c84e28113b8979414",
       "title": "What Happens If the Dollar Isn’t Replaced by Anything?",
       "url": "https://www.youtube.com/shorts/459wRqhts5Y",
@@ -669,21 +684,6 @@
         "AI/ML",
         "Housing (CA/SD)",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0069c3e38ae6778c6502d2f9aceb0f41",
-      "title": "OpenAI IPO? Elon xAI-SpaceX Merger? State of the AI Race",
-      "url": "https://www.youtube.com/watch?v=AueCygTsUpk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-02T14:30:06+00:00",
-      "summary": "Apple acquired QAI for $2 billion to pursue silent speech detection via optical sensors and pair hardware with foundation models. Amazon is weighing a multibillion-dollar OpenAI stake while trimming 16,000 corporate roles, signaling simultaneous AI investment and workforce reduc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1820,5 +1820,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-16T22:23:42.130761+00:00"
+  "generated_at": "2026-02-16T23:25:38.330077+00:00"
 }
