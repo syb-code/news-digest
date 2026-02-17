@@ -1,28 +1,13 @@
 {
   "items": [
     {
-      "id": "35910462e0515a9375ac201b983c3929",
-      "title": "OpenClaw Goes to OpenAI",
-      "url": "https://www.youtube.com/watch?v=K60wZXFgEWk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-16T22:57:41+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b9122f2da762273c84e28113b8979414",
-      "title": "What Happens If the Dollar Isn’t Replaced by Anything?",
-      "url": "https://www.youtube.com/shorts/459wRqhts5Y",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-16T16:16:45+00:00",
-      "summary": "From evidence that tariffs have already pushed prices higher to warnings about a potentially fragmented global financial order, Krugman explains why China’s export-driven model and weak global demand could create major challenges ahead. Distinguished economist Paul Krugman break…",
+      "id": "edd7f454a2f69c0b485ca9f198f6202a",
+      "title": "LWiAI Podcast #234 - Opus 4.6, GPT-5.3-Codex, Seedance 2.0, GLM-5",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-234-opus-46-gpt-53",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-17T04:43:31+00:00",
+      "summary": "An action-packed episode!",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -76,36 +61,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0b27596a6223c6d880559ee7a991ee74",
-      "title": "“A Huge Problem for Everybody” | Paul Krugman on China, the Dollar, A.I., & More",
-      "url": "https://www.youtube.com/watch?v=pvEymKUcM_Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-15T21:13:04+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\nDistinguished economist Paul Krugman joins Jack to discuss the devaluation of the dollar, the nomination of Kevin Warsh, artificial intelligence, and much m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "648b08cf4abc1f23d6adc12db9e8c7c5",
-      "title": "How I Built My 10 Agent OpenClaw Team",
-      "url": "https://www.youtube.com/watch?v=HzVYgpMxMLE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-15T19:00:46+00:00",
-      "summary": "A 10-agent OpenClaw mission control built to test digital employees, persistent memory, heartbeats, and scheduled CR jobs. Agent roster includes a mobile builder, continuous research agents powering AI maturity maps and opportunity radars, project managers, a chief of staff, and…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3cb7931b4ef7687fac2455272f07d2f4",
       "title": "Sequoia CEO coach: Why it’s never been easier to start a company, and never been harder to scale one | Brian Halligan (co-founder, HubSpot)",
       "url": "https://www.lennysnewsletter.com/p/sequoia-ceo-coach-why-its-never-been",
@@ -121,21 +76,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "476905894e8273880a4800cb96f1b947",
-      "title": "How to Learn AI with AI",
-      "url": "https://www.youtube.com/watch?v=eFpyRtRyu3k",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-14T18:42:26+00:00",
-      "summary": "Overview of the shift from instructor-led courses to agent-first, context-driven learning with AI as a collaborative build partner. Key mindsets: start with vision, think out loud, insist on mutual pushback, and use AI as a mirror for refining ideas. Practical tactics: create ha…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a28e7d33e48afe20b390b2582324101d",
       "title": "🧠 Community Wisdom: How PMs are using AI coding tools, implementing reverse free trials, distinguishing yourself as a product manager vs. project manager, pricing your consulting work, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-pms-are-using",
@@ -143,36 +83,6 @@
       "source_type": "rss",
       "published": "2026-02-14T17:03:27+00:00",
       "summary": "Community Wisdom 173",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dcb07663ded5bc310fbe8a9dcaf57755",
-      "title": "The Time Savings Era of AI is Over",
-      "url": "https://www.youtube.com/watch?v=HucDlw0Hr9A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-14T01:40:36+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1abaa2ec9d42267488b5079d098b2477",
-      "title": "Is This the Best AI Video Model in the World?",
-      "url": "https://www.youtube.com/watch?v=TgyBWACUOfk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-13T03:08:16+00:00",
-      "summary": "ByteDance’s Seed Dance 2.0 shows native-audio, multimodal 2K video generation with cinematic visuals, precise lip sync, and 15-second multi-cut outputs. White House pushes AI firms to sign a pact requiring companies to fund data-center infrastructure upgrades to avoid electricit…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -207,21 +117,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bbff741406ae4ef4bbe914b0408fc6cf",
-      "title": "How the Global AI Race Has Changed",
-      "url": "https://www.youtube.com/watch?v=ozxH7SS0Svw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-12T14:52:26+00:00",
-      "summary": "China's rapid model releases and multimodal breakthroughs, led by Moonshot's Kimi K2.5 and SeedDance2.0, are closing performance gaps with Western labs. Market shocks and regulatory fights, highlighted by DeepSeek's reasoning model surge and disputes over H200 exports and chip b…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "77924c9996964f92da4562d38d9c880e",
       "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
       "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
@@ -237,21 +132,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f01acc875ad67ae03c64ea7a14f43da9",
-      "title": "Why AI Leads to More Work, Not Less",
-      "url": "https://www.youtube.com/watch?v=owFqgMcmDbA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-11T16:46:06+00:00",
-      "summary": "New research from Berkeley Haas and the Harvard Business Review finds AI power users facing increased work through task expansion, blurred boundaries, and parallel multitasking. Generative agents boost capability and output while creating spillover review work, accelerated speed…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f8388c4f1c5704acf62026332819ac33",
       "title": "Claude Opus 4.6 vs. GPT-5.3 Codex: How I shipped 93,000 lines of code in 5 days",
       "url": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
@@ -259,38 +139,6 @@
       "source_type": "rss",
       "published": "2026-02-11T13:02:52+00:00",
       "summary": "I tested GPT-5.3 Codex vs. Claude Opus 4.6 on real code, shipping 44 PRs in five days to see which AI model actually works best",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4906e16a8327cdea7e898a56f81ffffb",
-      "title": "A Bear Market In Gold & Silver Is Coming | Milton Berg on Precious Metals, Stocks, and Bitcoin",
-      "url": "https://www.youtube.com/watch?v=rQZAqMNn9HE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-11T02:47:30+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nRecorded in February 6th 2026, technical analyst Milton Berg returns to discuss his market outlook after correctly predicting the major market bottom in April 2025. Although his long-term retail model remai…",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d2989cf11c8ce5ca3a469efa68f782e7",
-      "title": "The SaaSpocalypse Continues",
-      "url": "https://www.youtube.com/watch?v=kd6UpFirnxQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-10T16:57:06+00:00",
-      "summary": "SaaS-apocalypse narrative triggered a dramatic software selloff, erasing roughly $400 billion in market value. The debate centers on whether AI agents will replace seat-based pricing or enable cloud incumbents to build agent layers atop existing SaaS moats. Security flaws in age…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -321,21 +169,6 @@
       "source_type": "rss",
       "published": "2026-02-10T10:02:26+00:00",
       "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "035e867ad6fde4ce7a07d888fb7d51a6",
-      "title": "Did the Super Bowl As Make Americans Like AI Any More?",
-      "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-10T00:27:01+00:00",
-      "summary": "Super Bowl ads from Google, OpenAI, Anthropic, Amazon, Microsoft, Meta, and startups confront widespread American distrust of AI. Key themes include trust statistics, ad effectiveness, brand positioning, hoaxes, and viral failures like ai.com. Emotional storytelling and practica…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -387,21 +220,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0feb6ac51b789e162b44ee36024217c5",
-      "title": "No One Wins this AI Super Bowl",
-      "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-08T14:30:41+00:00",
-      "summary": "Controversial Anthropic Super Bowl ads framed AI as betrayal and sparked sharp pushback from OpenAI and industry observers. Debate focuses on advertising strategy, brand risk, and the danger of amplifying public AI skepticism, with potential to undermine societal preparedness. A…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
       "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
       "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
@@ -430,21 +248,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "11b5e72a5ed22e96246ec642e341de21",
-      "title": "AI in Space! xAI is Merging with SpaceX",
-      "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-08T01:50:31+00:00",
-      "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "63622ef53b5b1d22d267cb7e65ea121f",
       "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
@@ -452,21 +255,6 @@
       "source_type": "rss",
       "published": "2026-02-07T16:57:18+00:00",
       "summary": "Community Wisdom 172",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1c9023fbb1e3ea0c80a792f834b8bd18",
-      "title": "Opus 4.6 and ChatGPT 5.3-Codex Are Here and the Labs Are at War",
-      "url": "https://www.youtube.com/watch?v=JqpI65aVJ30",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-06T19:39:56+00:00",
-      "summary": "Anthropic dropped Claude Opus 4.6 and OpenAI responded with GPT 5.3 Codex just 20 minutes later — the most intense head-to-head model release we've ever seen. Here's what each model brings, how they compare, and what the first reactions are telling us.\n\nThe AI Daily Brief helps …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -503,21 +291,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "57f61fd8880598199db08db0ffd8578f",
-      "title": "Is Software Dead?",
-      "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-06T00:42:46+00:00",
-      "summary": "Markets are pricing an AI-driven revaluation of software as investors fret over potential replacement of SaaS business models. High-profile selloffs after Claude CoWork and Gemini releases sparked debates about seat-based pricing, inference costs, and enterprise adoption timelin…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0dfe03f040305e695ea96d6ec9f1c644",
       "title": "Deep Learning Weekly: Issue 441",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
@@ -533,21 +306,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6dc87d6e159b4ae9aefb26c1de329804",
-      "title": "The Dawn of the Agent Age",
-      "url": "https://www.youtube.com/watch?v=Ew-cHazoABc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-05T14:08:36+00:00",
-      "summary": "January marked the Dawn of the Agent Era as Claude Code and Claude Cowork transformed coding from prototyping into practical everyday workflows. OpenClaw and Moltbook sparked a social and tooling ecosystem for agents, accelerating experiments and exposing a large AI adoption gap…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "09210cb647e1cee22283a10b97153334",
       "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
@@ -555,21 +313,6 @@
       "source_type": "rss",
       "published": "2026-02-04T16:02:49+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c9fafe99e44e7d9013f6f2c505620d50",
-      "title": "Why Carson Block Says Ignore Fundamentals and Focus on Capital Flows",
-      "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-04T14:01:21+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nCarson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren’t rushing to short AI pretenders and fakers until more supply…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -626,36 +369,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1a3d36756009eefc48c36d64b5d034f5",
-      "title": "Warning: Don’t Buy Silver Unless You Can Handle This | Alex Campbell",
-      "url": "https://www.youtube.com/watch?v=Cb5Vxim2nEA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-03T19:35:18+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nAlexander Campbell, founder of Rose AI and former head of commodities at Bridgewater, joins the show to dissect the structural drivers behind the silver ma…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "aa5e042802a4f761fbc8ad9204acd671",
-      "title": "Why Moltbook Matters",
-      "url": "https://www.youtube.com/watch?v=kRgQotgNwrw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-03T14:00:06+00:00",
-      "summary": "Moltbook and OpenClaw reveal emergent social coordination among autonomous agents, including invented religions, coordinated projects, and persistent conversational state. Skeptics argue that behaviors often reduce to next-token prediction, human-seeded or spoofed posts, and ram…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "601f0e38696700f404b28f45d94fafbb",
       "title": "How to build AI product sense",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
@@ -667,23 +380,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02a264ff8e06da5ee2241591f8242ddb",
-      "title": "Washington Has More Power Than You Think",
-      "url": "https://www.youtube.com/shorts/DdTdSzldD5I",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-02T21:33:00+00:00",
-      "summary": "On Monetary Matters, Joseph Wang, the Fed guy, explains why the federal government has powerful tools that can influence asset prices — even without direct action from the Federal Reserve.\n\nFrom mortgage rates to market expectations, Wang breaks down how political pressure, poli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -701,21 +397,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e53202a1444e0557a6121d8eee9af4b1",
-      "title": "Credit Expert Explains What’s Happening in Lending | Oaktree’s Raghav Khanna",
-      "url": "https://www.youtube.com/watch?v=hMP49-paJO4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-01T15:14:43+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nRaghav Khanna, managing director at Oak…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dbdba03ac87ba3cac123b852a53057db",
       "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
       "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
@@ -727,23 +408,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5219ed77bdd9301a39881af5bfbc41f4",
-      "title": "What Next Fed Chair Kevin Warsh Means For Markets | Joseph Wang",
-      "url": "https://www.youtube.com/watch?v=iCsa2zq7jAE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-31T21:43:46+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nIn this interview, Joseph Wang of FedGuy.com discusses various levers the Trump administration could pull to lower mortgage rates, even without the Federal…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -763,21 +427,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "42b88b5e2eb4d1676d3ceca7dded76ea",
-      "title": "\"This Is Not a Bond-Friendly Setup\" Andy Constan",
-      "url": "https://www.youtube.com/shorts/ebqBASPxHko",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-30T13:30:51+00:00",
-      "summary": "On Monetary Matters, Andy Constan of DampedSpring.com breaks down why the near-term macro setup favors equities over bonds.\n\nWith heavy CapEx spending, strong semiconductor earnings, and meaningful impacts from tax policy on individual returns, Constan argues that Q1 looks unusu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e3ea526daf34ea291ec3df783c74e8ca",
       "title": "The Fed and Interest Rates: Why Rates Aren’t Coming Down Yet",
       "url": "https://www.youtube.com/watch?v=cdAAvKMcMs4",
@@ -789,23 +438,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "718bf30dbcaa60a0b8bbcf7fcc9a3b8a",
-      "title": "Could Gold & Silver Break the Market? Jack & Max on Fed, Earnings, and Software Sell-off",
-      "url": "https://www.youtube.com/watch?v=GwYs1bdPOL4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-29T16:59:13+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/\n\nThe relentless surge in precious metals continues, with gold seeing gains in all but three trading days this year and silver ho…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -853,19 +485,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9ebafe3f80fe1add12547497d10ee90b",
-      "title": "What Investors Don't Understand About the Software Meltdown | Deiya Pernas",
-      "url": "https://www.youtube.com/watch?v=YfUH30Lw634",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-28T14:28:17+00:00",
-      "summary": "Deiya Pernas, co-founder of Pernas Research, has crushed the market and compounded at over 30% since he and his partners began tracking their portfolio in 2017. In this interview, Deiya examines 10 key micro and macro questions that he believes could be the key to continued outp…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
       "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
       "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
@@ -881,21 +500,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2ae8959c6ae7f89e86845e877873cae4",
-      "title": "How $100B Asset Managers Are Making Tokenized Funds a Reality | Maredith Hannon of WisdomTree",
-      "url": "https://www.youtube.com/watch?v=xMjPH32cHRM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-27T14:53:32+00:00",
-      "summary": "Maredith Hannon, Head of Business Development at Wisdom Tree Digital, joins Other People’s Money to discuss how tokenized real-world assets are taking off at a pace eerily similar to the early growth of ETFs. Crypto enthusiasts have long touted the potential for fund vehicles to…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "67642e46ab0c3f019afd6ec07588daaf",
       "title": "Gold Keeps Going Up — Is it Too Late to Buy?",
       "url": "https://www.youtube.com/watch?v=0S9Psw8rpH0",
@@ -906,34 +510,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "360d4b055a9e15c7022e3c11de8e47de",
-      "title": "Why U.S. Stocks *Aren’t* In A Bubble (Yet) | Aswath Damodaran",
-      "url": "https://www.youtube.com/watch?v=ZE-hqrDRyzg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-25T20:34:44+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this deep-dive interview, NYU Finance Professor Aswath Damodaran, the \"Dean of Valuation,\" assesses the current state of the U.S. stock market, describing the S&P 500 as richly priced but stopping short …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5490a2f551f277621ec49dba2f9b2703",
-      "title": "Will Gold & Silver’s Surge Lead to a Commodity Crash? | Jack & Max",
-      "url": "https://www.youtube.com/watch?v=iDq53-oR4Ug",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-24T19:35:33+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/\n\nJack & Max break down the bull market in silver and gold, how they are expressing their bullish views via royalty companies, an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -977,21 +553,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5693f29a3cd76c00f952137e3eb8d7a8",
-      "title": "The “Sell America” Trade | Andy Constan on Why Rest of World Stands to Outperform U.S. Assets",
-      "url": "https://www.youtube.com/watch?v=9_IQr9TJJlA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-22T15:30:03+00:00",
-      "summary": "In this episode, Andy Constan of Damped Spring Advisors reveals why he has liquidated 100% of his US asset positions to bet on the \"Rest of the World\". He breaks down the looming financing headwinds created by massive AI capital expenditures and political promises, explaining ho…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1542,21 +1103,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6bbeb898cb7dc3ce4394f39c1bf2ed3b",
-      "title": "LWiAI Podcast #224 - OpenAI is for-profit! Cursor 2, Minimax M2, Udio copyright",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-224-openai-is-for-profit",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-05T22:58:01+00:00",
-      "summary": "Cursor 2.0 shifts to in-house AI with Composer model and parallel agents, OpenAI completed its for-profit restructuring, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b82d6ff219ffef22da8b689fa3b2ce45",
       "title": "Deep Learning Weekly: Issue 429",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-429",
@@ -1820,5 +1366,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-17T04:16:39.831606+00:00"
+  "generated_at": "2026-02-17T05:55:02.786000+00:00"
 }
