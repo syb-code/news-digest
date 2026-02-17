@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bf037fc16c566cd228c22602a417be5d",
+      "title": "The AI Productivity Boom Finally Shows Up",
+      "url": "https://www.youtube.com/watch?v=c5DaTmYqEEo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-17T22:34:16+00:00",
+      "summary": "Revisions to Bureau of Labor Statistics job counts combined with strong GDP growth point to emerging AI-driven productivity gains at the macro level. Key debates center on white-collar hiring slowdowns, measurement of intangible complementary investments, and the timing of a pro…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "68415ab739cde2d9e3e976794fbaceba",
       "title": "Interest Rate Cuts Are Coming — Investors Need to Position Now",
       "url": "https://www.youtube.com/watch?v=FmhGJ6mqXmM",
@@ -598,21 +613,6 @@
       "source_type": "rss",
       "published": "2026-02-05T16:01:54+00:00",
       "summary": "Qwen3-Coder-Next, Inside OpenAI’s in-house data agent, a paper on Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6dc87d6e159b4ae9aefb26c1de329804",
-      "title": "The Dawn of the Agent Age",
-      "url": "https://www.youtube.com/watch?v=Ew-cHazoABc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-05T14:08:36+00:00",
-      "summary": "January marked the Dawn of the Agent Era as Claude Code and Claude Cowork transformed coding from prototyping into practical everyday workflows. OpenClaw and Moltbook sparked a social and tooling ecosystem for agents, accelerating experiments and exposing a large AI adoption gap…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1818,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-17T22:27:17.712932+00:00"
+  "generated_at": "2026-02-17T23:25:14.777471+00:00"
 }
