@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "id": "c8ba1c7df46a32b14ca664b43c7061d6",
+      "title": "How to do AI analysis you can actually trust",
+      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-17T13:45:26+00:00",
+      "summary": "Four prompting techniques to prevent AI’s most common mistakes",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b7fad0c61c77d6d38cdedf6fe0e77dff",
+      "title": "The Latest AI Models and Model Rumors",
+      "url": "https://www.youtube.com/watch?v=-plNBWEQhHU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-17T13:37:46+00:00",
+      "summary": "OpenAI released GPT‑5.3 Codex Spark, a Cerebra‑served coding model that delivers roughly 1,000 tokens per second and enables near‑instant code edits while trading off long‑horizon reasoning and multimodal inputs. DeepMind upgraded DeepThink with the Althea agent to autonomously …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "adb77da0079526cf0bdcb953f63b3600",
+      "title": "How to do AI analysis you can actually trust",
+      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually-db6",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-17T13:02:46+00:00",
+      "summary": "Four prompting techniques to prevent AI’s most common mistakes",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "edd7f454a2f69c0b485ca9f198f6202a",
       "title": "LWiAI Podcast #234 - Opus 4.6, GPT-5.3-Codex, Seedance 2.0, GLM-5",
       "url": "https://lastweekin.ai/p/lwiai-podcast-234-opus-46-gpt-53",
@@ -656,21 +701,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "aa5e042802a4f761fbc8ad9204acd671",
-      "title": "Why Moltbook Matters",
-      "url": "https://www.youtube.com/watch?v=kRgQotgNwrw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-03T14:00:06+00:00",
-      "summary": "Moltbook and OpenClaw reveal emergent social coordination among autonomous agents, including invented religions, coordinated projects, and persistent conversational state. Skeptics argue that behaviors often reduce to next-token prediction, human-seeded or spoofed posts, and ram…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "601f0e38696700f404b28f45d94fafbb",
       "title": "How to build AI product sense",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
@@ -835,36 +865,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ddc8bbe88799065b6c06f09cecb6356c",
-      "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
-      "url": "https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-29T13:32:06+00:00",
-      "summary": "On raising kids, why job loss fears are overblown, the future of PM/eng/design careers, and the macro force you should pay attention to",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "70eecabaa3acde285743464e455d3dd6",
-      "title": "🎙️ Today on How I AI: I gave Clawdbot (aka Moltbot) full access to my computer. It broke my family calendar and joined my podcast.",
-      "url": "https://www.lennysnewsletter.com/p/today-on-how-i-ai-i-gave-clawdbot",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T18:18:28+00:00",
-      "summary": "What happens when you give an autonomous AI agent full access to your computer?",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1820,5 +1820,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-17T12:55:59.167689+00:00"
+  "generated_at": "2026-02-17T14:05:36.172349+00:00"
 }
