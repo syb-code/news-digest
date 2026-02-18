@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "7a2bb6bdbd16249b48cf479ed6c2fead",
+      "title": "$650 Billion on AI Capex",
+      "url": "https://www.youtube.com/watch?v=gOTLCBfuDnQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-18T18:04:16+00:00",
+      "summary": "Google guided $175–185B in AI CapEx; Amazon guided $200B for 2026, lifting hyperscaler AI spend toward roughly $650B. Earnings showed Google with record revenue and rapid cloud growth while Amazon posted modest profit as leaders defended massive CapEx amid investor pushback. Ope…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bf037fc16c566cd228c22602a417be5d",
       "title": "The AI Productivity Boom Finally Shows Up",
       "url": "https://www.youtube.com/watch?v=c5DaTmYqEEo",
@@ -583,21 +599,6 @@
       "source_type": "rss",
       "published": "2026-02-06T05:06:04+00:00",
       "summary": "Google adds Gemini AI-powered ‘auto browse’ to Chrome, Users flock to open source Moltbot for always-on AI, Qwen3-Max-Thinking debuts, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "57f61fd8880598199db08db0ffd8578f",
-      "title": "Is Software Dead?",
-      "url": "https://www.youtube.com/watch?v=6VDLzRi6vsM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-06T00:42:46+00:00",
-      "summary": "Markets are pricing an AI-driven revaluation of software as investors fret over potential replacement of SaaS business models. High-profile selloffs after Claude CoWork and Gemini releases sparked debates about seat-based pricing, inference costs, and enterprise adoption timelin…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1818,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-18T17:54:00.806383+00:00"
+  "generated_at": "2026-02-18T18:49:57.241981+00:00"
 }
