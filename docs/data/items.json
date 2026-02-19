@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f22bc317a2702455b51ba02f86f11864",
+      "title": "The Approval Interface",
+      "url": "https://designplusai.com/p/the-approval-interface",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-19T15:44:04+00:00",
+      "summary": "There’s a new interaction pattern emerging in software, and I don’t think we’ve named it yet.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "37f3b52ecea8dc8a7f734989db46bc61",
       "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
       "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
@@ -1802,22 +1815,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "93ab654e877992cababbd9f76a82d7c3",
-      "title": "Dynamic UX is the new standard",
-      "url": "https://designplusai.com/p/0bc",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-14T17:04:45+00:00",
-      "summary": "In my last post, I said: Invisible UX is coming.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-19T15:43:38.196033+00:00"
+  "generated_at": "2026-02-19T16:47:14.358802+00:00"
 }
