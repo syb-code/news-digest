@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "37f3b52ecea8dc8a7f734989db46bc61",
+      "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
+      "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-19T13:31:57+00:00",
+      "summary": "Listen now | Anthropic’s Boris Cherny on building Claude Code, how to maximize AI productivity, and what comes next after coding is “solved”",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "09c6dd8fbdf1018b8306edbbbc0a29ad",
       "title": "Anthropic vs Pete Hegseth",
       "url": "https://www.youtube.com/watch?v=Z07f3ll80Ao",
@@ -803,21 +818,6 @@
         "AI/ML",
         "Housing (CA/SD)",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "654a3ee412615631a1233e1b17ff8503",
-      "title": "🧠 Community Wisdom: How you feel about your job right now, what to do while waiting for AI responses, making your product roadmap public, chasing big exits vs. sustainable bootstrapping, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-lennys-poll-driving",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-31T17:11:55+00:00",
-      "summary": "Community Wisdom 171",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-19T12:57:47.110853+00:00"
+  "generated_at": "2026-02-19T14:09:50.957388+00:00"
 }
