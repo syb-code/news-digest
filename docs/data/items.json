@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2b8d5dc2a77ebb807f6c36159346eb1c",
+      "title": "How People Actually Use AI Agents",
+      "url": "https://www.youtube.com/watch?v=WBN1CyBy8bE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-19T22:10:31+00:00",
+      "summary": "Anthropic's analysis of Claude Code and public API tool calls shows human interaction and deployment context shape real-world agent autonomy beyond raw model capability. Key findings include longer 99.9th‑percentile agent turn durations as models and usage evolved, higher auto‑a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a51a2212bff71b6b9859f70b435ec5f9",
       "title": "Deep Learning Weekly: Issue 443",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-443",
@@ -589,21 +604,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "11b5e72a5ed22e96246ec642e341de21",
-      "title": "AI in Space! xAI is Merging with SpaceX",
-      "url": "https://www.youtube.com/watch?v=Zv-phrlnIcg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-08T01:50:31+00:00",
-      "summary": "Elon Musk's merger of XAI and SpaceX fuses AI model development with rocket and satellite infrastructure, reshaping competition and IPO math. Orbital data centers are pitched as cheaper, more efficient paths to terawatt-scale compute through passive cooling and direct solar powe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-19T21:28:37.454631+00:00"
+  "generated_at": "2026-02-19T22:27:22.367410+00:00"
 }
