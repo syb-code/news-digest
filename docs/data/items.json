@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "09c6dd8fbdf1018b8306edbbbc0a29ad",
+      "title": "Anthropic vs Pete Hegseth",
+      "url": "https://www.youtube.com/watch?v=Z07f3ll80Ao",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-18T23:58:36+00:00",
+      "summary": "Pentagon pressure on Anthropic over alleged use of Claude in a classified raid spotlights military access, supply‑chain ban threats, and debates over corporate versus government control of AI. Alibaba launched Qwen 3.5 Plus, a 397‑billion‑parameter mixture‑of‑experts model with …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7a2bb6bdbd16249b48cf479ed6c2fead",
       "title": "$650 Billion on AI Capex",
       "url": "https://www.youtube.com/watch?v=gOTLCBfuDnQ",
@@ -556,21 +571,6 @@
       "source_type": "rss",
       "published": "2026-02-07T16:57:18+00:00",
       "summary": "Community Wisdom 172",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1c9023fbb1e3ea0c80a792f834b8bd18",
-      "title": "Opus 4.6 and ChatGPT 5.3-Codex Are Here and the Labs Are at War",
-      "url": "https://www.youtube.com/watch?v=JqpI65aVJ30",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-06T19:39:56+00:00",
-      "summary": "Anthropic dropped Claude Opus 4.6 and OpenAI responded with GPT 5.3 Codex just 20 minutes later — the most intense head-to-head model release we've ever seen. Here's what each model brings, how they compare, and what the first reactions are telling us.\n\nThe AI Daily Brief helps …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-18T23:25:50.759241+00:00"
+  "generated_at": "2026-02-19T01:53:48.103042+00:00"
 }
