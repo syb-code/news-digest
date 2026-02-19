@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a51a2212bff71b6b9859f70b435ec5f9",
+      "title": "Deep Learning Weekly: Issue 443",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-443",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-02-19T17:03:10+00:00",
+      "summary": "Optimizing AI IDEs at Scale, What do “economic value” benchmarks tell us, a paper on MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f22bc317a2702455b51ba02f86f11864",
       "title": "The Approval Interface",
       "url": "https://designplusai.com/p/the-approval-interface",
@@ -1694,19 +1709,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c8b38689572ffa55562e78b7f0e7f17d",
-      "title": "Deep Learning Weekly: Issue 423",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-423",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-09-24T15:02:42+00:00",
-      "summary": "DeepSeek-V3.1-Terminus, Introduction to LLM-as-a-Judge For Evals, a paper on LIMI: Less is More for Agency, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a11eb074f242bc12967e6feb239d8d40",
       "title": "Winning Teams Hire Founders",
       "url": "https://designplusai.com/p/winning-teams-hire-founders",
@@ -1817,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-19T16:47:14.358802+00:00"
+  "generated_at": "2026-02-19T17:46:38.248449+00:00"
 }
