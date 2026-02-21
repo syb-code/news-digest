@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "32c017f02d481af0240435da6ae2dfa0",
+      "title": "🧠 Community Wisdom: Making your product enterprise-ready, when engineering outpaces product, managing PRD versions as features evolve, planning work around energy, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-making-your-product",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-21T17:08:16+00:00",
+      "summary": "Community Wisdom 174",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "10638daaf018851729545a9fbbede35f",
       "title": "The Hard Truth About Market Psychology",
       "url": "https://www.youtube.com/shorts/0UIBQutSFzs",
@@ -838,21 +851,6 @@
       "source_type": "youtube",
       "published": "2026-02-01T15:14:43+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nRaghav Khanna, managing director at Oak…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dbdba03ac87ba3cac123b852a53057db",
-      "title": "A child psychologist’s guide to working with difficult adults | Dr. Becky Kennedy",
-      "url": "https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-01T13:31:43+00:00",
-      "summary": "Clinical psychologist Dr. Becky Kennedy on why repair is more important than perfection, how to set boundaries that work, the power of \"I believe you\" and \"I believe in you,\" and more",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-21T16:23:32.657481+00:00"
+  "generated_at": "2026-02-21T17:22:36.442688+00:00"
 }
