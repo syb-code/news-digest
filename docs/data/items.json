@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "10638daaf018851729545a9fbbede35f",
+      "title": "The Hard Truth About Market Psychology",
+      "url": "https://www.youtube.com/shorts/0UIBQutSFzs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-02-21T13:45:00+00:00",
+      "summary": "On the Monetary Matters Podcast with host Jack Farley, Carson Block explains why markets don’t always reward pure fundamentals.\n\nWhile many investors want a world where price reflects true economic value, Block argues that today’s markets are driven more by narrative, momentum, …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "57876a3ff1ac391ae6ef5bd46523633b",
       "title": "Trump Tariffs Blocked — It's Official (Supreme Court Ruling)",
       "url": "https://www.youtube.com/watch?v=VweRLNTVjcc",
@@ -1050,21 +1065,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5693f29a3cd76c00f952137e3eb8d7a8",
-      "title": "The “Sell America” Trade | Andy Constan on Why Rest of World Stands to Outperform U.S. Assets",
-      "url": "https://www.youtube.com/watch?v=9_IQr9TJJlA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-22T15:30:03+00:00",
-      "summary": "In this episode, Andy Constan of Damped Spring Advisors reveals why he has liquidated 100% of his US asset positions to bet on the \"Rest of the World\". He breaks down the looming financing headwinds created by massive AI capital expenditures and political promises, explaining ho…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0b9dd83dfb379ccf3c74523f5fade52e",
       "title": "LWiAI Podcast #231 - Claude Cowork, Anthropic $10B, Deep Delta Learning",
       "url": "https://lastweekin.ai/p/lwiai-podcast-231-claude-cowork-anthropic",
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-21T13:39:18.858460+00:00"
+  "generated_at": "2026-02-21T14:22:25.289942+00:00"
 }
