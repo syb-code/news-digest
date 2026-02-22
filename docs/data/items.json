@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "da278df784720ed79f926f90159fd49c",
+      "title": "Weird Vibes at AI India Summit",
+      "url": "https://www.youtube.com/watch?v=m-ZSpDTpW5w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-22T16:46:36+00:00",
+      "summary": "The AI Impact Summit in India reframed AI as a global public good and amplified calls for affordable access and a global AI fund. Onstage friction between major CEOs highlighted intense commercial rivalry and viral metrics suggested shifting market leadership. Corporate strategi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec92848eb6cf710d3ae4c269fae74c09",
       "title": "Does Gemini 3.1 Pro Matter?",
       "url": "https://www.youtube.com/watch?v=of85FKh_6yY",
@@ -554,21 +569,6 @@
       "source_type": "rss",
       "published": "2026-02-10T10:02:26+00:00",
       "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "035e867ad6fde4ce7a07d888fb7d51a6",
-      "title": "Did the Super Bowl As Make Americans Like AI Any More?",
-      "url": "https://www.youtube.com/watch?v=6P2DKKtg1cg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-10T00:27:01+00:00",
-      "summary": "Super Bowl ads from Google, OpenAI, Anthropic, Amazon, Microsoft, Meta, and startups confront widespread American distrust of AI. Key themes include trust statistics, ad effectiveness, brand positioning, hoaxes, and viral failures like ai.com. Emotional storytelling and practica…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1817,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-22T16:25:17.203918+00:00"
+  "generated_at": "2026-02-22T17:22:24.811772+00:00"
 }
