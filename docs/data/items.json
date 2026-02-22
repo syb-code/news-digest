@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ec92848eb6cf710d3ae4c269fae74c09",
+      "title": "Does Gemini 3.1 Pro Matter?",
+      "url": "https://www.youtube.com/watch?v=of85FKh_6yY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-21T23:32:06+00:00",
+      "summary": "Gemini 3.1 Pro delivers major gains in complex reasoning, multimodal synthesis, and benchmark performance. Analysis weighs benchmark leadership against real-world agent performance and coding competitiveness. Significance centers on productization and cost-efficiency, with Photo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "32c017f02d481af0240435da6ae2dfa0",
       "title": "🧠 Community Wisdom: Making your product enterprise-ready, when engineering outpaces product, managing PRD versions as features evolve, planning work around energy, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-making-your-product",
@@ -597,21 +612,6 @@
       "source_type": "rss",
       "published": "2026-02-09T13:03:17+00:00",
       "summary": "Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0feb6ac51b789e162b44ee36024217c5",
-      "title": "No One Wins this AI Super Bowl",
-      "url": "https://www.youtube.com/watch?v=ObFeNCxeFvs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-08T14:30:41+00:00",
-      "summary": "Controversial Anthropic Super Bowl ads framed AI as betrayal and sparked sharp pushback from OpenAI and industry observers. Debate focuses on advertising strategy, brand risk, and the danger of amplifying public AI skepticism, with potential to undermine societal preparedness. A…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1817,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-21T23:20:02.030955+00:00"
+  "generated_at": "2026-02-22T01:52:30.963250+00:00"
 }
