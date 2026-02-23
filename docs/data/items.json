@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f55772d5cb2df963ddf1adad072855c9",
+      "title": "Trump Tariffs 2.0 — The New 15% Tax on You",
+      "url": "https://www.youtube.com/watch?v=YuzhuD8yzrI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-23T17:01:00+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "55c82960ed3cce7cd0f1dbcfe125085f",
       "title": "🎙️ This week on How I AI: How Notion’s design team uses Claude Code to design",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-notions",
@@ -1207,19 +1220,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ee5749e6eed5135b683fd1e2d57dfeda",
-      "title": "Venezuela — Why This Matters for Americans and Investors",
-      "url": "https://www.youtube.com/watch?v=9bhbEzqasGQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-07T17:00:14+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "0d8812d6679070d4fa5af44bcee1d3ec",
       "title": "LWiAI Podcast #230 - 2025 Retrospective, Nvidia buys Groq, GLM 4.7, METR",
       "url": "https://lastweekin.ai/p/lwiai-podcast-230-2025-retrospective",
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-23T16:52:44.582337+00:00"
+  "generated_at": "2026-02-23T17:58:12.999665+00:00"
 }
