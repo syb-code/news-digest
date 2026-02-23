@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5a4c883c37a0a2778b771156505f2f49",
+      "title": "“I haven’t written a single line of front-end code in 3 months”: How Notion’s design team uses Claude Code to prototype",
+      "url": "https://www.lennysnewsletter.com/p/i-havent-written-a-single-line-of",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-23T13:03:17+00:00",
+      "summary": "Watch now | 🎙️ Notion's Brian Lovin on building a shared prototype playground, using Claude Code to transform Figma designs into working code, and why AI is changing how designers work",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "da278df784720ed79f926f90159fd49c",
       "title": "Weird Vibes at AI India Summit",
       "url": "https://www.youtube.com/watch?v=m-ZSpDTpW5w",
@@ -828,19 +843,6 @@
         "Housing (CA/SD)",
         "Macro/Fed"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c64b1298e017be68038064f81d14e36c",
-      "title": "How this PM uses MCPs to automate his meeting prep, CRM updates, and customer feedback synthesis | Reid Robinson (Zapier)",
-      "url": "https://www.lennysnewsletter.com/p/how-this-pm-uses-mcps-to-automate",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-02T13:04:58+00:00",
-      "summary": "How to use Zapier's MCP server to connect Claude with 8,000+ apps: automating CRM updates, meeting preparation, and creating a virtuous cycle of customer feedback",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1817,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-23T12:56:33.471248+00:00"
+  "generated_at": "2026-02-23T14:07:17.231884+00:00"
 }
