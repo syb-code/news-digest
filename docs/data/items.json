@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "55c82960ed3cce7cd0f1dbcfe125085f",
+      "title": "🎙️ This week on How I AI: How Notion’s design team uses Claude Code to design",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-notions",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-23T16:02:26+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5a4c883c37a0a2778b771156505f2f49",
       "title": "“I haven’t written a single line of front-end code in 3 months”: How Notion’s design team uses Claude Code to prototype",
       "url": "https://www.lennysnewsletter.com/p/i-havent-written-a-single-line-of",
@@ -807,21 +822,6 @@
       "published": "2026-02-03T19:35:18+00:00",
       "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nAlexander Campbell, founder of Rose AI and former head of commodities at Bridgewater, joins the show to dissect the structural drivers behind the silver ma…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "601f0e38696700f404b28f45d94fafbb",
-      "title": "How to build AI product sense",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-ai-product-sense",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-03T13:45:58+00:00",
-      "summary": "The secret is using Cursor for non-technical work (inside: 75 free days of Cursor Pro to try this out!)",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-23T15:41:27.124660+00:00"
+  "generated_at": "2026-02-23T16:52:44.582337+00:00"
 }
