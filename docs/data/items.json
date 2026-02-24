@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e6e12a7181a18a1fe8048f3b634eaf2a",
+      "title": "Last Week in AI #336 - Sonnet 4.6, Gemini 3.1 Pro, Anthropic vs Pentagon",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-336-sonnet-46-gemini",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-24T11:43:23+00:00",
+      "summary": "Anthropic releases Sonnet 4.6, Google Rolls Out Latest AI Model Gemini 3.1 Pro, Pentagon threatens to cut off Anthropic in AI safeguards dispute",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "79860d12f953ed016535fa9d3f703d5f",
       "title": "The Perils of the AI Exponential",
       "url": "https://www.youtube.com/watch?v=dztw1yctjI4",
@@ -1569,21 +1584,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d46afb1a350b1eecaf466f9b3adb1086",
-      "title": "Last Week in AI #326 - Qualcomm AI Chips, MiniMax M2, Kimi K2 Thinking",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-326-qualcomm-ai-chips",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-09T18:57:47+00:00",
-      "summary": "Qualcomm announces AI chips to compete with AMD and Nvidia, MiniMax Releases MiniMax M2, Universal partners with Udio, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b82d6ff219ffef22da8b689fa3b2ce45",
       "title": "Deep Learning Weekly: Issue 429",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-429",
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-24T11:37:37.856839+00:00"
+  "generated_at": "2026-02-24T12:57:43.010740+00:00"
 }
