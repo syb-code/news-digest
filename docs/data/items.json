@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "79860d12f953ed016535fa9d3f703d5f",
+      "title": "The Perils of the AI Exponential",
+      "url": "https://www.youtube.com/watch?v=dztw1yctjI4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-24T02:31:11+00:00",
+      "summary": "Metr's \"Moore's law for AI agents\" chart shows agent time horizons expanding rapidly after Opus 4.6 and GPT‑5.3 delivered outsized generational jumps. Benchmarks reveal methodological caveats: task-set saturation, wide confidence intervals, and noisy measurements that complicate…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f55772d5cb2df963ddf1adad072855c9",
       "title": "Trump Tariffs 2.0 — The New 15% Tax on You",
       "url": "https://www.youtube.com/watch?v=YuzhuD8yzrI",
@@ -571,21 +586,6 @@
         "AI/ML",
         "Crypto",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d2989cf11c8ce5ca3a469efa68f782e7",
-      "title": "The SaaSpocalypse Continues",
-      "url": "https://www.youtube.com/watch?v=kd6UpFirnxQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-10T16:57:06+00:00",
-      "summary": "SaaS-apocalypse narrative triggered a dramatic software selloff, erasing roughly $400 billion in market value. The debate centers on whether AI agents will replace seat-based pricing or enable cloud incumbents to build agent layers atop existing SaaS moats. Security flaws in age…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-24T01:50:38.879926+00:00"
+  "generated_at": "2026-02-24T04:15:20.766386+00:00"
 }
