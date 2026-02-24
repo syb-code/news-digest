@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "f3577e10cb3007a8a48ab8380a76f1f5",
+      "title": "How to use AI for your next job interview",
+      "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-24T13:45:06+00:00",
+      "summary": "Insights from 30+ tech professionals, and a free AI coach to put them into practice",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7053614ccea39fd278d9fba20a480dd1",
+      "title": "How to use AI for your next job interview",
+      "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-for-your-next-job-interview",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-24T13:03:23+00:00",
+      "summary": "Insights from 30+ tech professionals, and a free AI coach to put them into practice",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e6e12a7181a18a1fe8048f3b634eaf2a",
       "title": "Last Week in AI #336 - Sonnet 4.6, Gemini 3.1 Pro, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/last-week-in-ai-336-sonnet-46-gemini",
@@ -764,21 +794,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "09210cb647e1cee22283a10b97153334",
-      "title": "🎙️ This week on How I AI: Automate the tasks you hate + “Anyone can cook”: How v0 is bringing Git workflows to vibe coding",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-automate-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T16:02:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9fafe99e44e7d9013f6f2c505620d50",
       "title": "Why Carson Block Says Ignore Fundamentals and Focus on Capital Flows",
       "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
@@ -786,21 +801,6 @@
       "source_type": "youtube",
       "published": "2026-02-04T14:01:21+00:00",
       "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nCarson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren’t rushing to short AI pretenders and fakers until more supply…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3a9f30c921c1464cde6d500320e520f3",
-      "title": "Guillermo Rauch: Vercel CEO on how v0 hit 3,200 PRs merged per day (and lets anyone ship)",
-      "url": "https://www.lennysnewsletter.com/p/anyone-can-cook-how-v0-is-bringing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T13:03:45+00:00",
-      "summary": "Vercel’s CEO demonstrates how v0’s new Git workflow integration enables anyone to contribute production-ready code changes while maintaining engineering best practices",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-24T12:57:43.010740+00:00"
+  "generated_at": "2026-02-24T14:11:50.796214+00:00"
 }
