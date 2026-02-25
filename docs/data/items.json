@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6e4d8a9b91312e96dbab4e970f822d58",
+      "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
+      "url": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-25T13:04:23+00:00",
+      "summary": "Watch now | 🎙️ Jesse Genet, a mom of four, shares how she uses multiple OpenClaw agents to run her home school, build custom apps, organize her home, and reclaim her time",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f3577e10cb3007a8a48ab8380a76f1f5",
       "title": "How to use AI for your next job interview",
       "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
@@ -733,21 +748,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "63622ef53b5b1d22d267cb7e65ea121f",
-      "title": "🧠 Community Wisdom: Common mistakes when hiring a growth PM, using AI to speed up bug reporting, launching a solo consulting practice, resume titles for engineers transitioning to PM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-common-mistakes",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-07T16:57:18+00:00",
-      "summary": "Community Wisdom 172",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-25T12:57:00.237224+00:00"
+  "generated_at": "2026-02-25T14:09:25.136021+00:00"
 }
