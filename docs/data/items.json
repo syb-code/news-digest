@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2dbc9ea6032fe421ec8bd58f08ebd0b1",
+      "title": "The Anti-AI Movement",
+      "url": "https://www.youtube.com/watch?v=Mi4mdRHEz8Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-25T15:33:26+00:00",
+      "summary": "Analysis of the rising anti‑AI movement and constituent groups ranging from existential risk advocates to datacenter protesters. Summary of polling and anecdotes revealing broad public distrust, economic anxiety, and localized pushback. Discussion of industry messaging failures,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6e4d8a9b91312e96dbab4e970f822d58",
       "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
       "url": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
@@ -595,21 +610,6 @@
       "source_type": "rss",
       "published": "2026-02-12T13:31:43+00:00",
       "summary": "OpenAI’s Sherwin Wu on why the productivity gap is widening, how his engineers now manage 10-20 parallel agents, and why you need to build for where models are heading",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f01acc875ad67ae03c64ea7a14f43da9",
-      "title": "Why AI Leads to More Work, Not Less",
-      "url": "https://www.youtube.com/watch?v=owFqgMcmDbA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-11T16:46:06+00:00",
-      "summary": "New research from Berkeley Haas and the Harvard Business Review finds AI power users facing increased work through task expansion, blurred boundaries, and parallel multitasking. Generative agents boost capability and output while creating spillover review work, accelerated speed…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-25T14:09:25.136021+00:00"
+  "generated_at": "2026-02-25T15:58:21.925903+00:00"
 }
