@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "53a0e6836437abdf3702d73c3fff98de",
+      "title": "Deep Learning Weekly: Issue 444",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-444",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-02-26T16:01:52+00:00",
+      "summary": "Gemini 3.1 Pro, A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026, a paper on Does Your Reasoning Model Implicitly Know When to Stop Thinking?, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5a96177f50b98158ee5bbf07959839b4",
       "title": "AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel",
       "url": "https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival",
@@ -1694,21 +1707,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2f7f1ed40c65585013676147c85d0e9b",
-      "title": "Deep Learning Weekly: Issue 424",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-424",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-01T15:02:41+00:00",
-      "summary": "OpenAI's Sora 2, Developing an open standard for agentic commerce, a paper on Enter the Mind Palace: Reasoning and Planning for Long-term Active Embodied Question Answering, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a11eb074f242bc12967e6feb239d8d40",
       "title": "Winning Teams Hire Founders",
       "url": "https://designplusai.com/p/winning-teams-hire-founders",
@@ -1819,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-26T15:50:48.557848+00:00"
+  "generated_at": "2026-02-26T16:53:53.332951+00:00"
 }
