@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "1666182a55461311032989dde41759fb",
+      "title": "Claude Code Turns One",
+      "url": "https://www.youtube.com/watch?v=dpegtfwlb0M",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-26T18:18:21+00:00",
+      "summary": "Claude Code's first birthday underscores agent coding's rise from novelty to core platform, driving developer adoption and roughly $2.5 billion in ARR. Claude Code Security sparked a headline-driven selloff in cybersecurity stocks as investors reassess exposure to software disru…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "451d4d5fdd85ffa0aea3c71966745658",
       "title": "Trump's 1 Million Homes Plan — Will It Fix Housing or Backfire?",
       "url": "https://www.youtube.com/watch?v=ZejlPoUZI20",
@@ -628,21 +641,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bbff741406ae4ef4bbe914b0408fc6cf",
-      "title": "How the Global AI Race Has Changed",
-      "url": "https://www.youtube.com/watch?v=ozxH7SS0Svw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-12T14:52:26+00:00",
-      "summary": "China's rapid model releases and multimodal breakthroughs, led by Moonshot's Kimi K2.5 and SeedDance2.0, are closing performance gaps with Western labs. Market shocks and regulatory fights, highlighted by DeepSeek's reasoning model surge and disputes over H200 exports and chip b…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1819,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-26T17:54:30.637081+00:00"
+  "generated_at": "2026-02-26T18:48:17.382194+00:00"
 }
