@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5a96177f50b98158ee5bbf07959839b4",
+      "title": "AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel",
+      "url": "https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-26T13:31:32+00:00",
+      "summary": "Jeetu Patel on going all-in on AI, why most big companies hedge when they should double down, and why he can’t do his job without AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2dbc9ea6032fe421ec8bd58f08ebd0b1",
       "title": "The Anti-AI Movement",
       "url": "https://www.youtube.com/watch?v=Mi4mdRHEz8Y",
@@ -715,21 +730,6 @@
       "source_type": "rss",
       "published": "2026-02-09T13:03:17+00:00",
       "summary": "Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7212a4effd5cb52c2f05c0ca9b415d6d",
-      "title": "The rise of the professional vibe coder (a new AI-era job) | Lazar Jovanovic (Professional Vibe Coder)",
-      "url": "https://www.lennysnewsletter.com/p/getting-paid-to-vibe-code",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-08T13:31:22+00:00",
-      "summary": "Lovable’s first professional vibe coder on why non-technical people have an advantage with AI, and how he ships enterprise-grade products without writing code",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1819,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-26T12:57:56.898640+00:00"
+  "generated_at": "2026-02-26T14:10:56.676019+00:00"
 }
