@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "451d4d5fdd85ffa0aea3c71966745658",
+      "title": "Trump's 1 Million Homes Plan — Will It Fix Housing or Backfire?",
+      "url": "https://www.youtube.com/watch?v=ZejlPoUZI20",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-26T17:01:03+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "53a0e6836437abdf3702d73c3fff98de",
       "title": "Deep Learning Weekly: Issue 444",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-444",
@@ -20,7 +35,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-26T13:31:32+00:00",
-      "summary": "Jeetu Patel on going all-in on AI, why most big companies hedge when they should double down, and why he can’t do his job without AI",
+      "summary": "Listen now (87 mins) | Jeetu Patel on going all-in on AI, why most big companies hedge when they should double down, and why he can’t do his job without AI",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1220,19 +1235,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1474aab0a08d195da3cd4b278c6e4ca8",
-      "title": "Jobs Report: US Labor Market Frozen in 2026 (What This Means Next)",
-      "url": "https://www.youtube.com/watch?v=NOdD5p-Og2Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-09T20:48:53+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ae9c63a57f303c774b0465d439dc058",
       "title": "Deep Learning Weekly: Issue 437",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
@@ -1817,5 +1819,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-26T16:53:53.332951+00:00"
+  "generated_at": "2026-02-26T17:54:30.637081+00:00"
 }
