@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "18a705a2a9f7a853aed3713cfc103737",
+      "title": "The OpenClaw-ification of AI",
+      "url": "https://www.youtube.com/watch?v=GR-j31Nrl0Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-27T02:12:26+00:00",
+      "summary": "Exploration of the OpenClaw phenomenon: AI products adopting persistent agents, scheduled tasks, on-device remote control, and deep context integration. Highlights include Claude Code remote control and scheduled tasks, Perplexity Computer as a personal AI workstation, Notion cu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1666182a55461311032989dde41759fb",
       "title": "Claude Code Turns One",
       "url": "https://www.youtube.com/watch?v=dpegtfwlb0M",
@@ -595,21 +610,6 @@
       "source_type": "youtube",
       "published": "2026-02-14T01:40:36+00:00",
       "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1abaa2ec9d42267488b5079d098b2477",
-      "title": "Is This the Best AI Video Model in the World?",
-      "url": "https://www.youtube.com/watch?v=TgyBWACUOfk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-13T03:08:16+00:00",
-      "summary": "ByteDance’s Seed Dance 2.0 shows native-audio, multimodal 2K video generation with cinematic visuals, precise lip sync, and 15-second multi-cut outputs. White House pushes AI firms to sign a pact requiring companies to fund data-center infrastructure upgrades to avoid electricit…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1817,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-27T01:47:43.688825+00:00"
+  "generated_at": "2026-02-27T04:09:53.355089+00:00"
 }
