@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2416b0ba59c89a6fd22107c65be7966a",
+      "title": "Are 40% Staff Cuts the New AI Normal?",
+      "url": "https://www.youtube.com/watch?v=OVA9QptpjAE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-28T13:28:01+00:00",
+      "summary": "Jack Dorsey's announcement of a 40% workforce reduction at Block ignited debate over whether AI enabled the cuts or whether overhiring and managerial choices were the main drivers. Block's stock jumped more than 25% while critics warned against treating AI as a scapegoat and pre…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "18a705a2a9f7a853aed3713cfc103737",
       "title": "The OpenClaw-ification of AI",
       "url": "https://www.youtube.com/watch?v=GR-j31Nrl0Y",
@@ -595,21 +610,6 @@
       "source_type": "rss",
       "published": "2026-02-14T17:03:27+00:00",
       "summary": "Community Wisdom 173",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dcb07663ded5bc310fbe8a9dcaf57755",
-      "title": "The Time Savings Era of AI is Over",
-      "url": "https://www.youtube.com/watch?v=HucDlw0Hr9A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-14T01:40:36+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1817,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-28T12:38:03.291843+00:00"
+  "generated_at": "2026-02-28T13:33:38.807969+00:00"
 }
