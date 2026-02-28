@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8ccbeefb67226a998b4092c6b496185e",
+      "title": "🧠 Community Wisdom: Building your tech stack from scratch, surviving painful product demos, managing LLM credit costs, resources for new designers, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-your-tech",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-28T17:16:48+00:00",
+      "summary": "Community Wisdom 175",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2416b0ba59c89a6fd22107c65be7966a",
       "title": "Are 40% Staff Cuts the New AI Normal?",
       "url": "https://www.youtube.com/watch?v=OVA9QptpjAE",
@@ -741,21 +756,6 @@
       "source_type": "rss",
       "published": "2026-02-09T16:02:35+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ae3a8b5a4a5fe8eb7c638059973f47ef",
-      "title": "How to build your own AI developer tools with Claude Code | CJ Hess (Tenex)",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-your-own-ai-developer",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-09T13:03:17+00:00",
-      "summary": "Learn how to build custom tools that transform AI-generated Markdown plans into interactive visual diagrams and UI mockups",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1817,5 +1817,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-02-28T17:17:15.729913+00:00"
+  "generated_at": "2026-02-28T18:28:01.445292+00:00"
 }
