@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "371f59a5d7e6e4f0021a3ca90152c987",
+      "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
+      "url": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-01T13:31:18+00:00",
+      "summary": "Listen now | Anthropic’s Jenny Wen on why the traditional design process is dead, how engineers are forcing the role to evolve, and what designers must do to stay relevant in the age of AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "91e662e8428be734b2b33cfe9fc71dc8",
       "title": "Who Controls AI?",
       "url": "https://www.youtube.com/watch?v=pOHo8TfY1k4",
@@ -747,21 +762,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "cf63e06c95bb15f294cc9eb199fdda8f",
-      "title": "🎙️ This week on How I AI: How to build your own AI developer tools with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-to-build",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-09T16:02:35+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1818,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-01T12:40:13.371268+00:00"
+  "generated_at": "2026-03-01T13:36:13.982744+00:00"
 }
