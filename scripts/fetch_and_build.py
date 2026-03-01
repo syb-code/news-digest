@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os, json, re, time, hashlib
+from urllib.parse import urlparse
 from datetime import datetime, timezone
 import yaml, requests, feedparser
 from bs4 import BeautifulSoup
@@ -7,6 +8,7 @@ from bs4 import BeautifulSoup
 ROOT = os.path.dirname(os.path.dirname(__file__))
 DOCS = os.path.join(ROOT, "docs")
 DATA_OUT = os.path.join(DOCS, "data", "items.json")
+TWITTER_OUT = os.path.join(DOCS, "data", "twitter_posts.json")
 
 def load_yaml(path):
     with open(path, "r", encoding="utf-8") as f:
@@ -98,6 +100,86 @@ def fetch_feed(url):
     d = feedparser.parse(url)
     return d.entries or []
 
+
+
+def normalize_twitter_url(url, handle):
+    fallback = f"https://x.com/{handle}"
+    if not url:
+        return fallback
+    try:
+        parsed = urlparse(url)
+        path = parsed.path or ""
+        if not path:
+            return fallback
+        if path.startswith(f"/{handle}/status/"):
+            return f"https://x.com{path}"
+        if "/status/" in path:
+            return f"https://x.com{path}"
+        return fallback
+    except Exception:
+        return fallback
+
+def fetch_twitter_posts(handles, limit_per_handle=5):
+    instances = [
+        "https://nitter.poast.org",
+        "https://nitter.privacydev.net",
+        "https://nitter.net",
+    ]
+    posts = []
+
+    for tw in (handles or []):
+        handle = (tw.get("handle") or "").strip().lstrip("@")
+        if not handle:
+            continue
+
+        entries = []
+        for base in instances:
+            try:
+                entries = fetch_feed(f"{base}/{handle}/rss")
+                if entries:
+                    break
+            except Exception:
+                continue
+
+        if not entries:
+            print(f"[warn] no twitter posts found for @{handle}")
+            posts.append({
+                "handle": handle,
+                "url": f"https://x.com/{handle}",
+                "posts": [],
+            })
+            continue
+
+        normalized = []
+        for e in entries[:limit_per_handle]:
+            title = BeautifulSoup(e.get("title") or "", "html.parser").get_text(" ", strip=True)
+            summary = BeautifulSoup(e.get("summary") or "", "html.parser").get_text(" ", strip=True)
+            text = title or summary
+            if ": " in text:
+                text = text.split(": ", 1)[1]
+
+            published = e.get("published_parsed") or e.get("updated_parsed")
+            if published:
+                dt = datetime.utcfromtimestamp(time.mktime(published)).replace(tzinfo=timezone.utc)
+                published_iso = dt.isoformat()
+            else:
+                published_iso = datetime.now(tz=timezone.utc).isoformat()
+
+            normalized.append({
+                "id": hashlib.md5(((e.get("link") or "") + text).encode("utf-8")).hexdigest(),
+                "url": normalize_twitter_url(e.get("link"), handle),
+                "text": text,
+                "published": published_iso,
+            })
+
+        posts.append({
+            "handle": handle,
+            "url": f"https://x.com/{handle}",
+            "posts": normalized,
+        })
+
+    return posts
+
 def main():
     feeds_cfg = load_yaml(os.path.join(ROOT, "feeds.yml")) or {}
     themes_cfg = load_yaml(os.path.join(ROOT, "themes.yml")) or {}
@@ -160,6 +242,11 @@ def main():
     with open(DATA_OUT, "w", encoding="utf-8") as f:
         json.dump({"items": items, "generated_at": datetime.now(timezone.utc).isoformat()}, f, ensure_ascii=False, indent=2)
     print(f"Wrote {len(items)} items to {DATA_OUT}")
+
+    twitter_posts = fetch_twitter_posts(feeds_cfg.get("twitter_embeds"), limit_per_handle=5)
+    with open(TWITTER_OUT, "w", encoding="utf-8") as f:
+        json.dump({"accounts": twitter_posts, "generated_at": datetime.now(timezone.utc).isoformat()}, f, ensure_ascii=False, indent=2)
+    print(f"Wrote {len(twitter_posts)} twitter accounts to {TWITTER_OUT}")
 
 if __name__ == "__main__":
     main()
