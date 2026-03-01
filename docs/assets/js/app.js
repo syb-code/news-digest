@@ -18,6 +18,7 @@
   var filterUnread = document.getElementById("filter-unread");
   var markAllBtn   = document.getElementById("mark-all-read");
   var summarizeBtn = document.getElementById("summarize-selected");
+  var listTwitter = document.getElementById("list-twitter");
 
   var READ_KEY   = "nd_read_v1";
   var SELECT_KEY = "nd_select_v1";
@@ -36,6 +37,14 @@
     })
     .catch(function(){ listHighlights.innerHTML = '<li class="item">Could not load items.json</li>'; });
 
+
+  fetch("data/twitter_posts.json?ts=" + Date.now())
+    .then(function(r){ return r.json(); })
+    .then(function(data){ renderTwitter(data.accounts || []); })
+    .catch(function(){
+      if(listTwitter){ listTwitter.innerHTML = '<li class="item meta">Could not load twitter posts.</li>'; }
+    });
+
   function loadSet(key){ try { return new Set(JSON.parse(localStorage.getItem(key) || "[]")); } catch(e){ return new Set(); } }
   function saveSet(key, set){ try { localStorage.setItem(key, JSON.stringify(Array.from(set))); } catch(e){} }
 
@@ -51,6 +60,33 @@
   }
   function isFresh(p){ try{ var d=new Date(p), n=new Date(); return d.getFullYear()===n.getFullYear()&&d.getMonth()===n.getMonth()&&d.getDate()===n.getDate(); }catch(e){return false;} }
   function esc(s){ s=String(s||""); return s.replace(/[&<>\"']/g,function(ch){ if(ch==="&")return"&amp;"; if(ch==="<")return"&lt;"; if(ch===">")return"&gt;"; if(ch==="\"")return"&quot;"; return"&#39;";}); }
+
+
+
+  function renderTwitter(accounts){
+    if(!listTwitter) return;
+    if(!accounts.length){
+      listTwitter.innerHTML = '<li class="item meta">No twitter posts available.</li>';
+      return;
+    }
+
+    var rows = [];
+    accounts.forEach(function(acct){
+      var posts = acct.posts || [];
+      if(!posts.length){
+        rows.push('<li class="item"><div><strong>@'+esc(acct.handle)+'</strong></div><div class="meta"><a href="'+esc(acct.url)+'" target="_blank" rel="noopener noreferrer">open profile</a></div></li>');
+        return;
+      }
+
+      posts.slice(0, 2).forEach(function(post){
+        var dt = new Date(post.published);
+        var when = dt.toLocaleString([], {month:"short", day:"numeric", hour:"2-digit", minute:"2-digit"});
+        rows.push('<li class="item"><div class="meta">@'+esc(acct.handle)+' · '+when+'</div><a class="item-link" href="'+esc(post.url)+'" target="_blank" rel="noopener noreferrer">'+esc(post.text)+'</a></li>');
+      });
+    });
+
+    listTwitter.innerHTML = rows.join("") || '<li class="item meta">No twitter posts available.</li>';
+  }
 
   function render(){
     var q=(searchInput.value||"").trim(), subset=items.slice();
