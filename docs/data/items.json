@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "27754580b208624c849d9cd0dec29efc",
+      "title": "Rick Rule: Why I Just Sold 80% of My Silver",
+      "url": "https://www.youtube.com/watch?v=0MSOGy12X4g",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-01T14:00:02+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nLegendary resource investor Rick Rule, founder of Rule Investment Media, explains why he anticipates a 75% decline in US dollar purchasing power over the n…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "371f59a5d7e6e4f0021a3ca90152c987",
       "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
       "url": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
@@ -1062,21 +1077,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5490a2f551f277621ec49dba2f9b2703",
-      "title": "Will Gold & Silver’s Surge Lead to a Commodity Crash? | Jack & Max",
-      "url": "https://www.youtube.com/watch?v=iDq53-oR4Ug",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-24T19:35:33+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/\n\nJack & Max break down the bull market in silver and gold, how they are expressing their bullish views via royalty companies, an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "90033c0599c790c5cf766322bdb54390",
       "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
       "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
@@ -1818,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-01T13:36:13.982744+00:00"
+  "generated_at": "2026-03-01T14:20:57.380910+00:00"
 }
