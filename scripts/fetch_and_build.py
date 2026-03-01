@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import os, json, re, time, hashlib
+from urllib.parse import urlparse
 from datetime import datetime, timezone
 import yaml, requests, feedparser
 from bs4 import BeautifulSoup
@@ -99,6 +100,25 @@ def fetch_feed(url):
     d = feedparser.parse(url)
     return d.entries or []
 
+
+
+def normalize_twitter_url(url, handle):
+    fallback = f"https://x.com/{handle}"
+    if not url:
+        return fallback
+    try:
+        parsed = urlparse(url)
+        path = parsed.path or ""
+        if not path:
+            return fallback
+        if path.startswith(f"/{handle}/status/"):
+            return f"https://x.com{path}"
+        if "/status/" in path:
+            return f"https://x.com{path}"
+        return fallback
+    except Exception:
+        return fallback
+
 def fetch_twitter_posts(handles, limit_per_handle=5):
     instances = [
         "https://nitter.poast.org",
@@ -147,7 +167,7 @@ def fetch_twitter_posts(handles, limit_per_handle=5):
 
             normalized.append({
                 "id": hashlib.md5(((e.get("link") or "") + text).encode("utf-8")).hexdigest(),
-                "url": e.get("link") or f"https://x.com/{handle}",
+                "url": normalize_twitter_url(e.get("link"), handle),
                 "text": text,
                 "published": published_iso,
             })
