@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "0a9d40419711f6247160b23cf81fd586",
+      "title": "🎙️ This week on How I AI: 5 OpenClaw agents run my home, finances, and code & How Coinbase scaled AI to 1,000+ engineers",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-5-openclaw",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-02T16:02:20+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "665692be98773d2bcaede8bfa973922a",
       "title": "How Coinbase scaled AI to 1,000+ engineers | Chintan Turakhia",
       "url": "https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers",
@@ -750,21 +767,6 @@
         "AI/ML",
         "Crypto",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d5a950fb065985d4ecbd9425af953223",
-      "title": "Building AI product sense, part 2",
-      "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-10T14:31:00+00:00",
-      "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1820,5 +1822,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-02T15:38:05.849843+00:00"
+  "generated_at": "2026-03-02T16:39:59.592790+00:00"
 }
