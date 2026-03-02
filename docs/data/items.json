@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3548552c24971999c283aa4319b37a14",
+      "title": "Nano Banana 2 Is Here",
+      "url": "https://www.youtube.com/watch?v=OkuE84VSReY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-02T17:27:36+00:00",
+      "summary": "Google released Nano Banana 2 (Gemini 3.1 FlashImage), a faster and cheaper image model that supports 4K and strong infographic and text generation. Anthropic's Claude saw daily signups triple as code and collaboration tools drove rapid enterprise adoption and sparked market rea…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0a9d40419711f6247160b23cf81fd586",
       "title": "🎙️ This week on How I AI: 5 OpenClaw agents run my home, finances, and code & How Coinbase scaled AI to 1,000+ engineers",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-5-openclaw",
@@ -645,21 +660,6 @@
       "source_type": "youtube",
       "published": "2026-02-15T21:13:04+00:00",
       "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nDistinguished economist Paul Krugman joins Jack to discuss the devaluation of the dollar, the nomination of Kevin Warsh, artificial intelligence, and much …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "648b08cf4abc1f23d6adc12db9e8c7c5",
-      "title": "How I Built My 10 Agent OpenClaw Team",
-      "url": "https://www.youtube.com/watch?v=HzVYgpMxMLE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-15T19:00:46+00:00",
-      "summary": "A 10-agent OpenClaw mission control built to test digital employees, persistent memory, heartbeats, and scheduled CR jobs. Agent roster includes a mobile builder, continuous research agents powering AI maturity maps and opportunity radars, project managers, a chief of staff, and…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1822,5 +1822,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-02T16:39:59.592790+00:00"
+  "generated_at": "2026-03-02T17:40:45.228724+00:00"
 }
