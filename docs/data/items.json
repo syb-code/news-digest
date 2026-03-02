@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "665692be98773d2bcaede8bfa973922a",
+      "title": "How Coinbase scaled AI to 1,000+ engineers | Chintan Turakhia",
+      "url": "https://www.lennysnewsletter.com/p/how-coinbase-scaled-ai-to-1000-engineers",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-02T13:03:27+00:00",
+      "summary": "Watch now | 🎙️ How to drive AI adoption in a 1,000+ engineer organization: from PR speed runs to feedback-to-feature automation and identifying power users through data-driven analysis",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "27754580b208624c849d9cd0dec29efc",
       "title": "How Legendary Resource Investor Rick Rule is Investing for a 10-Year Bull Market",
       "url": "https://www.youtube.com/watch?v=0MSOGy12X4g",
@@ -743,21 +760,6 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-10T14:31:00+00:00",
-      "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02837617c8c0c4d573c1bd994a1e03ef",
-      "title": "Building AI product sense, part 2",
-      "url": "https://www.lennysnewsletter.com/p/building-ai-product-sense-part-2-0aa",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-10T10:02:26+00:00",
       "summary": "A weekly ritual to help you understand and design trustworthy AI products for a messy world",
       "read_minutes": 1,
       "duration_sec": null,
@@ -1818,5 +1820,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-02T12:51:11.948762+00:00"
+  "generated_at": "2026-03-02T13:57:58.356428+00:00"
 }
