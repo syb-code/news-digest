@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "d6761ed796d0b3781aa1f1d508ee946d",
+      "title": "How to debug a team that isn’t working: the Waterline Model",
+      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-03T13:45:17+00:00",
+      "summary": "A guide to solving team problems (without always blaming the people)",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f21fa7623cf1fdff4616b71dbece3fdf",
+      "title": "How to debug a team that isn’t working: the Waterline Model",
+      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working-d43",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-03T13:02:55+00:00",
+      "summary": "A guide to solving team problems (without always blaming the people)",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "77143fa0b4f685b0ecc1a8dea473db12",
       "title": "The Month AI Woke Up",
       "url": "https://www.youtube.com/watch?v=-FJ7HiPBkCM",
@@ -734,36 +760,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "77924c9996964f92da4562d38d9c880e",
-      "title": "“Engineers are becoming sorcerers” | The future of software development with OpenAI’s Sherwin Wu",
-      "url": "https://www.lennysnewsletter.com/p/engineers-are-becoming-sorcerers",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-12T13:31:43+00:00",
-      "summary": "OpenAI’s Sherwin Wu on why the productivity gap is widening, how his engineers now manage 10-20 parallel agents, and why you need to build for where models are heading",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f8388c4f1c5704acf62026332819ac33",
-      "title": "Claude Opus 4.6 vs. GPT-5.3 Codex: How I shipped 93,000 lines of code in 5 days",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-46-vs-gpt-53-codex-how",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-11T13:02:52+00:00",
-      "summary": "I tested GPT-5.3 Codex vs. Claude Opus 4.6 on real code, shipping 44 PRs in five days to see which AI model actually works best",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1822,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-03T12:50:35.222580+00:00"
+  "generated_at": "2026-03-03T13:57:18.628961+00:00"
 }
