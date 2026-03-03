@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "77143fa0b4f685b0ecc1a8dea473db12",
+      "title": "The Month AI Woke Up",
+      "url": "https://www.youtube.com/watch?v=-FJ7HiPBkCM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-03T00:32:56+00:00",
+      "summary": "February 2026 crystallized a shift to agentic AI as developer workflows moved from hand-coding to orchestrating autonomous agents. OpenClaw and ClaudeCode expanded agent use beyond engineers and triggered a Wall Street sell-off across gaming, productivity, legal, and finance lab…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "281cd83fb73217ddaf2141b1f31dacbb",
       "title": "Stock Market Reaction to Iran: De-Escalation Priced In (Big Risk)",
       "url": "https://www.youtube.com/watch?v=hjdfv8687fo",
@@ -583,21 +598,6 @@
       "source_type": "rss",
       "published": "2026-02-17T04:43:31+00:00",
       "summary": "An action-packed episode!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "35910462e0515a9375ac201b983c3929",
-      "title": "OpenClaw Goes to OpenAI",
-      "url": "https://www.youtube.com/watch?v=K60wZXFgEWk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-16T22:57:41+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1822,5 +1822,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-02T23:21:28.019240+00:00"
+  "generated_at": "2026-03-03T01:52:48.535125+00:00"
 }
