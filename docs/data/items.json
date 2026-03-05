@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "e40db57853a0cd918d59f67c0b38fc56",
+      "title": "The Big Questions Shaping the Consumer AI Battle",
+      "url": "https://www.youtube.com/watch?v=zOunzognke0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-05T15:00:06+00:00",
+      "summary": "Analysis of the OpenAI–Anthropic showdown, highlighting Super Bowl ad tactics, the Pentagon controversy, and rapid revenue convergence.  \nCoverage of product moves such as GPT‑5.3 Instant’s reduced caveats and Claude Code’s new voice mode. Key questions include performance versu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "94cadf05be70d1289d14d790afceccb7",
       "title": "LWiAI Podcast #235 - Sonnet 4.6, Deep-thinking tokens, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/lwiai-podcast-235-sonnet-46-deep",
@@ -55,22 +71,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e40db57853a0cd918d59f67c0b38fc56",
-      "title": "The Big Questions Shaping the Consumer AI Battle",
-      "url": "https://www.youtube.com/watch?v=zOunzognke0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-04T18:17:38+00:00",
-      "summary": "Analysis of the OpenAI–Anthropic showdown, highlighting Super Bowl ad tactics, the Pentagon controversy, and rapid revenue convergence.  \nCoverage of product moves such as GPT‑5.3 Instant’s reduced caveats and Claude Code’s new voice mode. Key questions include performance versu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1818,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-05T14:53:56.528495+00:00"
+  "generated_at": "2026-03-05T15:47:36.671199+00:00"
 }
