@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "5d36618961dd198eaa49029c8632578d",
+      "title": "Deep Learning Weekly: Issue 445",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-03-05T16:03:02+00:00",
+      "summary": "Opik Claude Code Plugin: Automatically Configure Observability for Complex Agentic Systems, Nano Banana 2: Combining Pro capabilities with lightning-fast speed, a paper on Beyond Language Modeling: An",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e40db57853a0cd918d59f67c0b38fc56",
       "title": "The Big Questions Shaping the Consumer AI Battle",
       "url": "https://www.youtube.com/watch?v=zOunzognke0",
@@ -1693,21 +1706,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c9cb4cb5fc11c2968d9046332cf28fb7",
-      "title": "Deep Learning Weekly: Issue 425",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-425",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-09T15:03:10+00:00",
-      "summary": "RTEB: A New Standard for Retrieval Evaluation, Building Multi-Agent Systems with Crew AI and Weaviate, a paper on MCPMark: A Benchmark for Stress-Testing Realistic and Comprehensive MCP Use, and many",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a11eb074f242bc12967e6feb239d8d40",
       "title": "Winning Teams Hire Founders",
       "url": "https://designplusai.com/p/winning-teams-hire-founders",
@@ -1818,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-05T15:47:36.671199+00:00"
+  "generated_at": "2026-03-05T17:59:49.436561+00:00"
 }
