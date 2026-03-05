@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "2624f814f4c7a5003c9a966d54eb8581",
+      "title": "White Hot Cursor Doubles Revenue",
+      "url": "https://www.youtube.com/watch?v=PRFPYsyqatU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-05T03:09:26+00:00",
+      "summary": "Agent coding platforms exploded into enterprise use, doubling ARR for leading services and expanding the market beyond a zero-sum narrative. Anthropic experienced outages and massive download spikes while Pentagon procurement disputes prompted multiple agencies to suspend the Cl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e52c570b53cc56a258acb32d00795433",
+      "title": "Rising Gasoline and Oil Prices Increase Recession Risk",
+      "url": "https://www.youtube.com/watch?v=X9Kj8j8Iw9s",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-05T02:50:14+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e84ea7f339b79881489c2e1778c0f742",
       "title": "How Iran Could Force a Macro Regime Change | Tian Yang",
       "url": "https://www.youtube.com/watch?v=Mlbaxz1mdhM",
@@ -12,6 +40,22 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e40db57853a0cd918d59f67c0b38fc56",
+      "title": "The Big Questions Shaping the Consumer AI Battle",
+      "url": "https://www.youtube.com/watch?v=zOunzognke0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-04T18:17:38+00:00",
+      "summary": "Analysis of the OpenAI–Anthropic showdown, highlighting Super Bowl ad tactics, the Pentagon controversy, and rapid revenue convergence.  \nCoverage of product moves such as GPT‑5.3 Instant’s reduced caveats and Claude Code’s new voice mode. Key questions include performance versu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -550,37 +594,6 @@
       "source_type": "youtube",
       "published": "2026-02-18T23:58:36+00:00",
       "summary": "Pentagon pressure on Anthropic over alleged use of Claude in a classified raid spotlights military access, supply‑chain ban threats, and debates over corporate versus government control of AI. Alibaba launched Qwen 3.5 Plus, a 397‑billion‑parameter mixture‑of‑experts model with …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7a2bb6bdbd16249b48cf479ed6c2fead",
-      "title": "$650 Billion on AI Capex",
-      "url": "https://www.youtube.com/watch?v=gOTLCBfuDnQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-18T18:04:16+00:00",
-      "summary": "Google guided $175–185B in AI CapEx; Amazon guided $200B for 2026, lifting hyperscaler AI spend toward roughly $650B. Earnings showed Google with record revenue and rapid cloud growth while Amazon posted modest profit as leaders defended massive CapEx amid investor pushback. Ope…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bf037fc16c566cd228c22602a417be5d",
-      "title": "The AI Productivity Boom Finally Shows Up",
-      "url": "https://www.youtube.com/watch?v=c5DaTmYqEEo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-17T22:34:16+00:00",
-      "summary": "Revisions to Bureau of Labor Statistics job counts combined with strong GDP growth point to emerging AI-driven productivity gains at the macro level. Key debates center on white-collar hiring slowdowns, measurement of intangible complementary investments, and the timing of a pro…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1221,21 +1234,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cc22d6e70c4eb7c8e01fbe5a9ecde56c",
-      "title": "Jerome Powell Under Criminal Investigation — Here's Why This Matters",
-      "url": "https://www.youtube.com/watch?v=AbvZVwrYJ0Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-14T17:00:16+00:00",
-      "summary": "⭐ For more of our investing content, join us on Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n💵 FREE STOC…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ae9c63a57f303c774b0465d439dc058",
       "title": "Deep Learning Weekly: Issue 437",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
@@ -1820,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-05T01:50:01.136413+00:00"
+  "generated_at": "2026-03-05T04:09:21.926327+00:00"
 }
