@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "616f9eea5bdc9e931df850eb41e541ce",
+      "title": "Discussing A.I. Displacement with Nobel Laureate in Economics Peter Howitt",
+      "url": "https://www.youtube.com/watch?v=aKSmMLOj8SM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-05T20:49:07+00:00",
+      "summary": "Recent Nobel laureate in economics Peter Howitt joins Jack to discuss his work on technological disruption and creative destruction. Dr. Howitt explains that technological advancement creates economic growth while also causing workers to lose their jobs and firms to go bankrupt …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "514e5a2c6f501bbac2d4f33c080f0048",
       "title": "Is OpenAI the New GitHub?",
       "url": "https://www.youtube.com/watch?v=jY_SuwYhK1o",
@@ -1105,21 +1120,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2ae8959c6ae7f89e86845e877873cae4",
-      "title": "How $100B Asset Managers Are Making Tokenized Funds a Reality | Maredith Hannon of WisdomTree",
-      "url": "https://www.youtube.com/watch?v=xMjPH32cHRM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-27T14:53:32+00:00",
-      "summary": "Maredith Hannon, Head of Business Development at Wisdom Tree Digital, joins Other People’s Money to discuss how tokenized real-world assets are taking off at a pace eerily similar to the early growth of ETFs. Crypto enthusiasts have long touted the potential for fund vehicles to…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Crypto"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "67642e46ab0c3f019afd6ec07588daaf",
       "title": "Gold Keeps Going Up — Is it Too Late to Buy?",
       "url": "https://www.youtube.com/watch?v=0S9Psw8rpH0",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-05T20:33:26.531869+00:00"
+  "generated_at": "2026-03-05T21:30:20.148704+00:00"
 }
