@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e84ea7f339b79881489c2e1778c0f742",
+      "title": "How Iran Could Force a Macro Regime Change | Tian Yang",
+      "url": "https://www.youtube.com/watch?v=Mlbaxz1mdhM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-05T00:07:42+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nTian Yang, CEO of quant research platfo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "877f2a29e260a9ca566f0e42a7dbc150",
       "title": "The Rise of the Zero Human Company",
       "url": "https://www.youtube.com/watch?v=at_Fng0Lbow",
@@ -1077,19 +1092,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "360d4b055a9e15c7022e3c11de8e47de",
-      "title": "Why U.S. Stocks *Aren’t* In A Bubble (Yet) | Aswath Damodaran",
-      "url": "https://www.youtube.com/watch?v=ZE-hqrDRyzg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-25T20:34:44+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this deep-dive interview, NYU Finance Professor Aswath Damodaran, the \"Dean of Valuation,\" assesses the current state of the U.S. stock market, describing the S&P 500 as richly priced but stopping short …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "90033c0599c790c5cf766322bdb54390",
       "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
       "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
@@ -1818,5 +1820,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-04T23:26:25.908768+00:00"
+  "generated_at": "2026-03-05T01:50:01.136413+00:00"
 }
