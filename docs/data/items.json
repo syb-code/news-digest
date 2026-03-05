@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "94cadf05be70d1289d14d790afceccb7",
+      "title": "LWiAI Podcast #235 - Sonnet 4.6, Deep-thinking tokens, Anthropic vs Pentagon",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-235-sonnet-46-deep",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-05T08:42:21+00:00",
+      "summary": "Anthropic releases Sonnet 4.6, Google Rolls Out Gemini 3.1 Pro, Anthropic CEO Amodei says Pentagon’s threats ‘do not change our position’ on AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2624f814f4c7a5003c9a966d54eb8581",
       "title": "White Hot Cursor Doubles Revenue",
       "url": "https://www.youtube.com/watch?v=PRFPYsyqatU",
@@ -1555,21 +1570,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1eb4b7ad1d9f7ece181ff9d01f8c35e0",
-      "title": "LWiAI Podcast #225 - GPT 5.1, Kimi K2 Thinking, Remote Labor Index",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-225-gpt-51-kimi-k2",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-22T08:27:26+00:00",
-      "summary": "OpenAI says the brand-new GPT-5.1 is ‘warmer’, Baidu Unveils ERNIE 5.0, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "83967139cbb788661e5ef377641df6ac",
       "title": "Deep Learning Weekly: Issue 431",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-431",
@@ -1818,5 +1818,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-05T08:36:16.415696+00:00"
+  "generated_at": "2026-03-05T09:38:12.283115+00:00"
 }
