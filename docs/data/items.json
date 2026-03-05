@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "514e5a2c6f501bbac2d4f33c080f0048",
+      "title": "Is OpenAI the New GitHub?",
+      "url": "https://www.youtube.com/watch?v=jY_SuwYhK1o",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-05T19:34:16+00:00",
+      "summary": "OpenAI is building an internal GitHub alternative after recurring GitHub outages exposed fragility in code hosting for agentic development. Meta created a flat applied-AI engineering organization to connect hardware, tooling and data pipelines for faster model improvement. Amazo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5d36618961dd198eaa49029c8632578d",
       "title": "Deep Learning Weekly: Issue 445",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
@@ -607,21 +622,6 @@
       "source_type": "rss",
       "published": "2026-02-19T13:31:57+00:00",
       "summary": "Listen now | Anthropic’s Boris Cherny on building Claude Code, how to maximize AI productivity, and what comes next after coding is “solved”",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "09c6dd8fbdf1018b8306edbbbc0a29ad",
-      "title": "Anthropic vs Pete Hegseth",
-      "url": "https://www.youtube.com/watch?v=Z07f3ll80Ao",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-18T23:58:36+00:00",
-      "summary": "Pentagon pressure on Anthropic over alleged use of Claude in a classified raid spotlights military access, supply‑chain ban threats, and debates over corporate versus government control of AI. Alibaba launched Qwen 3.5 Plus, a 397‑billion‑parameter mixture‑of‑experts model with …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-05T19:22:52.624824+00:00"
+  "generated_at": "2026-03-05T20:33:26.531869+00:00"
 }
