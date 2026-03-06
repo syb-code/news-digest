@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5158bc24ce9399a4f0dbb4f3d006576a",
+      "title": "AI is Officially Political",
+      "url": "https://www.youtube.com/watch?v=Y5qwSJXfTSQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-06T02:22:51+00:00",
+      "summary": "Political tensions around AI intensified after the Anthropic–Pentagon dispute and a leaked memo by Dario Amodei accusing OpenAI of bad faith. Supply‑chain designation threats prompted defense contractors to stop using Claude, triggered staff departures, and pushed AI into electi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "616f9eea5bdc9e931df850eb41e541ce",
       "title": "Discussing A.I. Displacement with Nobel Laureate in Economics Peter Howitt",
       "url": "https://www.youtube.com/watch?v=aKSmMLOj8SM",
@@ -8,6 +23,21 @@
       "source_type": "youtube",
       "published": "2026-03-05T20:49:07+00:00",
       "summary": "Recent Nobel laureate in economics Peter Howitt joins Jack to discuss his work on technological disruption and creative destruction. Dr. Howitt explains that technological advancement creates economic growth while also causing workers to lose their jobs and firms to go bankrupt …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "514e5a2c6f501bbac2d4f33c080f0048",
+      "title": "Is OpenAI the New GitHub?",
+      "url": "https://www.youtube.com/watch?v=jY_SuwYhK1o",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-05T19:34:16+00:00",
+      "summary": "OpenAI is building an internal GitHub alternative after recurring GitHub outages exposed fragility in code hosting for agentic development. Meta created a flat applied-AI engineering organization to connect hardware, tooling and data pipelines for faster model improvement. Amazo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -29,6 +59,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "e40db57853a0cd918d59f67c0b38fc56",
+      "title": "The Big Questions Shaping the Consumer AI Battle",
+      "url": "https://www.youtube.com/watch?v=zOunzognke0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-05T15:00:06+00:00",
+      "summary": "Analysis of the OpenAI–Anthropic showdown, highlighting Super Bowl ad tactics, the Pentagon controversy, and rapid revenue convergence.  \nCoverage of product moves such as GPT‑5.3 Instant’s reduced caveats and Claude Code’s new voice mode. Key questions include performance versu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "94cadf05be70d1289d14d790afceccb7",
       "title": "LWiAI Podcast #235 - Sonnet 4.6, Deep-thinking tokens, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/lwiai-podcast-235-sonnet-46-deep",
@@ -40,6 +86,21 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2624f814f4c7a5003c9a966d54eb8581",
+      "title": "White Hot Cursor Doubles Revenue",
+      "url": "https://www.youtube.com/watch?v=PRFPYsyqatU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-05T03:09:26+00:00",
+      "summary": "Agent coding platforms exploded into enterprise use, doubling ARR for leading services and expanding the market beyond a zero-sum narrative. Anthropic experienced outages and massive download spikes while Pentagon procurement disputes prompted multiple agencies to suspend the Cl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -64,6 +125,21 @@
       "source_type": "youtube",
       "published": "2026-03-05T00:07:42+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nTian Yang, CEO of quant research platfo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "877f2a29e260a9ca566f0e42a7dbc150",
+      "title": "The Rise of the Zero Human Company",
+      "url": "https://www.youtube.com/watch?v=at_Fng0Lbow",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-04T15:24:56+00:00",
+      "summary": "Exploration of the Rise of the Zero-Human Company and the emergence of tiny teams built around autonomous AI agents. Examples include Felix Craft's AI-created products and ClawMart marketplace, plus Pulia and ZHC company-in-a-box platforms. Analysis weighs rapid AI-driven experi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -98,6 +174,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "77143fa0b4f685b0ecc1a8dea473db12",
+      "title": "The Month AI Woke Up",
+      "url": "https://www.youtube.com/watch?v=-FJ7HiPBkCM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-03T00:32:56+00:00",
+      "summary": "February 2026 crystallized a shift to agentic AI as developer workflows moved from hand-coding to orchestrating autonomous agents. OpenClaw and ClaudeCode expanded agent use beyond engineers and triggered a Wall Street sell-off across gaming, productivity, legal, and finance lab…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "281cd83fb73217ddaf2141b1f31dacbb",
       "title": "Stock Market Reaction to Iran: De-Escalation Priced In (Big Risk)",
       "url": "https://www.youtube.com/watch?v=hjdfv8687fo",
@@ -108,6 +199,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3548552c24971999c283aa4319b37a14",
+      "title": "Nano Banana 2 Is Here",
+      "url": "https://www.youtube.com/watch?v=OkuE84VSReY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-02T17:27:36+00:00",
+      "summary": "Google released Nano Banana 2 (Gemini 3.1 FlashImage), a faster and cheaper image model that supports 4K and strong infographic and text generation. Anthropic's Claude saw daily signups triple as code and collaboration tools drove rapid enterprise adoption and sparked market rea…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -175,6 +281,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "91e662e8428be734b2b33cfe9fc71dc8",
+      "title": "Who Controls AI?",
+      "url": "https://www.youtube.com/watch?v=pOHo8TfY1k4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-01T02:11:36+00:00",
+      "summary": "The standoff between Anthropic and the Pentagon exploded this week when President Trump directed every federal agency to cease using Anthropic's technology after the company refused to remove its red lines on autonomous weapons and mass domestic surveillance. As the episode unpa…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8ccbeefb67226a998b4092c6b496185e",
       "title": "🧠 Community Wisdom: Building your tech stack from scratch, surviving painful product demos, managing LLM credit costs, resources for new designers, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-your-tech",
@@ -187,6 +309,49 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2416b0ba59c89a6fd22107c65be7966a",
+      "title": "Are 40% Staff Cuts the New AI Normal?",
+      "url": "https://www.youtube.com/watch?v=OVA9QptpjAE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-28T13:28:01+00:00",
+      "summary": "Jack Dorsey's announcement of a 40% workforce reduction at Block ignited debate over whether AI enabled the cuts or whether overhiring and managerial choices were the main drivers. Block's stock jumped more than 25% while critics warned against treating AI as a scapegoat and pre…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "18a705a2a9f7a853aed3713cfc103737",
+      "title": "The OpenClaw-ification of AI",
+      "url": "https://www.youtube.com/watch?v=GR-j31Nrl0Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-27T02:12:26+00:00",
+      "summary": "Exploration of the OpenClaw phenomenon: AI products adopting persistent agents, scheduled tasks, on-device remote control, and deep context integration. Highlights include Claude Code remote control and scheduled tasks, Perplexity Computer as a personal AI workstation, Notion cu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1666182a55461311032989dde41759fb",
+      "title": "Claude Code Turns One",
+      "url": "https://www.youtube.com/watch?v=dpegtfwlb0M",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-26T18:18:21+00:00",
+      "summary": "Claude Code's first birthday underscores agent coding's rise from novelty to core platform, driving developer adoption and roughly $2.5 billion in ARR. Claude Code Security sparked a headline-driven selloff in cybersecurity stocks as investors reassess exposure to software disru…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -225,6 +390,21 @@
       "source_type": "rss",
       "published": "2026-02-26T13:31:32+00:00",
       "summary": "Listen now (87 mins) | Jeetu Patel on going all-in on AI, why most big companies hedge when they should double down, and why he can’t do his job without AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2dbc9ea6032fe421ec8bd58f08ebd0b1",
+      "title": "The Anti-AI Movement",
+      "url": "https://www.youtube.com/watch?v=Mi4mdRHEz8Y",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-25T15:33:26+00:00",
+      "summary": "Analysis of the rising anti‑AI movement and constituent groups ranging from existential risk advocates to datacenter protesters. Summary of polling and anecdotes revealing broad public distrust, economic anxiety, and localized pushback. Discussion of industry messaging failures,…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -293,6 +473,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "79860d12f953ed016535fa9d3f703d5f",
+      "title": "The Perils of the AI Exponential",
+      "url": "https://www.youtube.com/watch?v=dztw1yctjI4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-24T02:31:11+00:00",
+      "summary": "Metr's \"Moore's law for AI agents\" chart shows agent time horizons expanding rapidly after Opus 4.6 and GPT‑5.3 delivered outsized generational jumps. Benchmarks reveal methodological caveats: task-set saturation, wide confidence intervals, and noisy measurements that complicate…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f55772d5cb2df963ddf1adad072855c9",
       "title": "Trump Tariffs 2.0 — The New 15% Tax on You",
       "url": "https://www.youtube.com/watch?v=YuzhuD8yzrI",
@@ -328,6 +523,36 @@
       "source_type": "rss",
       "published": "2026-02-23T13:03:17+00:00",
       "summary": "Watch now | 🎙️ Notion's Brian Lovin on building a shared prototype playground, using Claude Code to transform Figma designs into working code, and why AI is changing how designers work",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "da278df784720ed79f926f90159fd49c",
+      "title": "Weird Vibes at AI India Summit",
+      "url": "https://www.youtube.com/watch?v=m-ZSpDTpW5w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-22T16:46:36+00:00",
+      "summary": "The AI Impact Summit in India reframed AI as a global public good and amplified calls for affordable access and a global AI fund. Onstage friction between major CEOs highlighted intense commercial rivalry and viral metrics suggested shifting market leadership. Corporate strategi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ec92848eb6cf710d3ae4c269fae74c09",
+      "title": "Does Gemini 3.1 Pro Matter?",
+      "url": "https://www.youtube.com/watch?v=of85FKh_6yY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-02-21T23:32:06+00:00",
+      "summary": "Gemini 3.1 Pro delivers major gains in complex reasoning, multimodal synthesis, and benchmark performance. Analysis weighs benchmark leadership against real-world agent performance and coding competitiveness. Significance centers on productization and cost-efficiency, with Photo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1591,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-06T07:35:43.505238+00:00"
+  "generated_at": "2026-03-06T08:33:27.819613+00:00"
 }
