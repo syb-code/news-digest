@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "05012d5e00e6f286cc8b40d5ebc0c4c4",
+      "title": "GPT-5.4 First Test Results",
+      "url": "https://www.youtube.com/watch?v=xIIj9hkISUE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-06T21:54:41+00:00",
+      "summary": "OpenAI's GPT-5.4 consolidates advances in reasoning, coding, and agentic workflows while adding a 1 million-token context window and native desktop/computer-use capabilities. Benchmarks show major gains for professional knowledge work and automation: faster, more token-efficient…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7ea42a837d0f6971556f4902c19846c9",
       "title": "Jobs Report Disaster: Major Warning for the U.S. Economy",
       "url": "https://www.youtube.com/watch?v=353aUcP-IwI",
@@ -551,21 +566,6 @@
       "source_type": "youtube",
       "published": "2026-02-22T16:46:36+00:00",
       "summary": "The AI Impact Summit in India reframed AI as a global public good and amplified calls for affordable access and a global AI fund. Onstage friction between major CEOs highlighted intense commercial rivalry and viral metrics suggested shifting market leadership. Corporate strategi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ec92848eb6cf710d3ae4c269fae74c09",
-      "title": "Does Gemini 3.1 Pro Matter?",
-      "url": "https://www.youtube.com/watch?v=of85FKh_6yY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-21T23:32:06+00:00",
-      "summary": "Gemini 3.1 Pro delivers major gains in complex reasoning, multimodal synthesis, and benchmark performance. Analysis weighs benchmark leadership against real-world agent performance and coding competitiveness. Significance centers on productization and cost-efficiency, with Photo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-06T21:26:05.423703+00:00"
+  "generated_at": "2026-03-06T22:24:29.914383+00:00"
 }
