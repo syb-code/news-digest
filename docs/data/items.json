@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5158bc24ce9399a4f0dbb4f3d006576a",
+      "title": "AI is Officially Political",
+      "url": "https://www.youtube.com/watch?v=Y5qwSJXfTSQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-06T02:22:51+00:00",
+      "summary": "Political tensions around AI intensified after the Anthropic–Pentagon dispute and a leaked memo by Dario Amodei accusing OpenAI of bad faith. Supply‑chain designation threats prompted defense contractors to stop using Claude, triggered staff departures, and pushed AI into electi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "616f9eea5bdc9e931df850eb41e541ce",
       "title": "Discussing A.I. Displacement with Nobel Laureate in Economics Peter Howitt",
       "url": "https://www.youtube.com/watch?v=aKSmMLOj8SM",
@@ -584,21 +599,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2b8d5dc2a77ebb807f6c36159346eb1c",
-      "title": "How People Actually Use AI Agents",
-      "url": "https://www.youtube.com/watch?v=WBN1CyBy8bE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-19T22:10:31+00:00",
-      "summary": "Anthropic's analysis of Claude Code and public API tool calls shows human interaction and deployment context shape real-world agent autonomy beyond raw model capability. Key findings include longer 99.9th‑percentile agent turn durations as models and usage evolved, higher auto‑a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-06T01:51:15.201946+00:00"
+  "generated_at": "2026-03-06T04:06:47.970981+00:00"
 }
