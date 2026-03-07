@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "05f93b920f30b8406b4f566e4ac95dfe",
+      "title": "How to build premium pitch decks in Lovable",
+      "url": "https://designplusai.com/p/how-to-build-premium-pitch-decks",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-07T16:57:21+00:00",
+      "summary": "I’ve seen a lot of founders and agency owners recently build their slide decks with Lovable, so I created a guide for you to do the same.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9114ed1217dc8fd47f88350e186ace6e",
+      "title": "🧠 Community Wisdom: Business books that haven’t aged well, vibe coding with your Figma design systems, Claude Code vs. other coding tools and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-business-books-that",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-07T16:44:42+00:00",
+      "summary": "Community Wisdom 176",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "2c038313bde6fb16b9d21011b73ad90c",
       "title": "Jensen Huang Calls OpenClaw \"Most Important Software Release Ever\"",
       "url": "https://www.youtube.com/watch?v=lquuveY5i-g",
@@ -799,21 +825,6 @@
       "source_type": "rss",
       "published": "2026-02-15T13:31:20+00:00",
       "summary": "Listen now | From HubSpot to Sequoia: Brian Halligan on scaling, leadership, AI, hiring mistakes, and the crisis that changed his life",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a28e7d33e48afe20b390b2582324101d",
-      "title": "🧠 Community Wisdom: How PMs are using AI coding tools, implementing reverse free trials, distinguishing yourself as a product manager vs. project manager, pricing your consulting work, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-pms-are-using",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-14T17:03:27+00:00",
-      "summary": "Community Wisdom 173",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,20 +1813,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "b89b9cbd9254cf5d0cae3750802f579d",
-      "title": "10 Rules for High-Converting Websites",
-      "url": "https://designplusai.com/p/10-rules-for-high-converting-websites",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-17T13:07:02+00:00",
-      "summary": "Most product sites don’t convert.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-07T16:22:38.535178+00:00"
+  "generated_at": "2026-03-07T17:17:53.873864+00:00"
 }
