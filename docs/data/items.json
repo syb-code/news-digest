@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ddacaad9c65ec6fa43c56f66894d25c8",
+      "title": "Gemini Can Now Write You a Song",
+      "url": "https://www.youtube.com/watch?v=09SNudBuoCE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-08T22:23:51+00:00",
+      "summary": "Google launches Lyria 3, a multimodal music generator creating 30-second clips from text, images, or video and integrating with Gemini and YouTube DreamTrack. Anthropic's new OAuth restrictions on Claude tokens ignited developer backlash and renewed debate over walled gardens an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "183ce7294deeed07524b437859011e69",
       "title": "The most successful AI company you’ve never heard of | Qasar Younis",
       "url": "https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of",
@@ -550,21 +563,6 @@
       "source_type": "rss",
       "published": "2026-02-24T11:43:23+00:00",
       "summary": "Anthropic releases Sonnet 4.6, Google Rolls Out Latest AI Model Gemini 3.1 Pro, Pentagon threatens to cut off Anthropic in AI safeguards dispute",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "79860d12f953ed016535fa9d3f703d5f",
-      "title": "The Perils of the AI Exponential",
-      "url": "https://www.youtube.com/watch?v=dztw1yctjI4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-24T02:31:11+00:00",
-      "summary": "Metr's \"Moore's law for AI agents\" chart shows agent time horizons expanding rapidly after Opus 4.6 and GPT‑5.3 delivered outsized generational jumps. Benchmarks reveal methodological caveats: task-set saturation, wide confidence intervals, and noisy measurements that complicate…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1815,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-08T22:19:37.157242+00:00"
+  "generated_at": "2026-03-08T23:20:06.777679+00:00"
 }
