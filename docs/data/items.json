@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
+      "title": "US Debt Crisis: Warning From The Bond Market",
+      "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-09T16:00:40+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e4f22612cf3c39e52384b10bd7e5955c",
       "title": "🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney",
@@ -1244,19 +1257,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "06f1f18a74d72bba7c8c012699965661",
-      "title": "My Silver Exit Strategy in 2026 — When I Plan to Sell",
-      "url": "https://www.youtube.com/watch?v=pKeSSI8YdeQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-19T17:01:19+00:00",
-      "summary": "Join me on Patreon to see what I'm doing with silver, gold, stocks: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "98402f5ff49f08db69ba87ed335b83f5",
       "title": "Deep Learning Weekly: Issue 438",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-438",
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-09T15:55:01.504276+00:00"
+  "generated_at": "2026-03-09T16:53:59.992035+00:00"
 }
