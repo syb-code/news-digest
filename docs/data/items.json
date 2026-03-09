@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e4f22612cf3c39e52384b10bd7e5955c",
+      "title": "🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-09T15:03:09+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5257896a862069c88981937551d0e18a",
       "title": "Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
       "url": "https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create",
@@ -793,21 +808,6 @@
       "source_type": "youtube",
       "published": "2026-02-16T16:16:45+00:00",
       "summary": "From evidence that tariffs have already pushed prices higher to warnings about a potentially fragmented global financial order, Krugman explains why China’s export-driven model and weak global demand could create major challenges ahead. Distinguished economist Paul Krugman break…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7f2937bcd178674f5ea3b1e64c2592d3",
-      "title": "🎙️ This week on How I AI: Opus vs. Codex showdown, and AI for accessibility",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-opus-vs-codex",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-16T16:02:43+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-09T14:04:00.156160+00:00"
+  "generated_at": "2026-03-09T15:55:01.504276+00:00"
 }
