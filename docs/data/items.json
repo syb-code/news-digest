@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5257896a862069c88981937551d0e18a",
+      "title": "Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
+      "url": "https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-09T12:03:55+00:00",
+      "summary": "Listen now | 🎙️ Learn how an AI creative director builds consistent brand aesthetics using style references, personalization codes, and strategic iteration—without complex prompting",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1d0aca8b5a2b1736506fb6317d31092a",
       "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
       "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
@@ -793,21 +808,6 @@
       "source_type": "rss",
       "published": "2026-02-16T16:02:43+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7778d6cd3ac864496031a03c9b93f1e3",
-      "title": "How this visually impaired engineer uses Claude Code to make his life more accessible | Joe McCormick",
-      "url": "https://www.lennysnewsletter.com/p/how-this-visually-impaired-engineer",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-16T13:03:24+00:00",
-      "summary": "How this visually impaired engineer uses Claude Code to transform Slack images into descriptions, correct typos instantly, and summarize links—all with simple keyboard shortcuts",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-09T11:32:04.132451+00:00"
+  "generated_at": "2026-03-09T12:55:02.974036+00:00"
 }
