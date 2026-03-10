@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "44abb10916f89aa6c9624ae852225cad",
+      "title": "The Liquidity Cycle Is Turning Down (Here's How) | Michael Howell",
+      "url": "https://www.youtube.com/watch?v=i0lm-mmBlQM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-10T19:50:19+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this episode, Michael Howell of Capital Wars and Global Liquidity Indexes discusses why the global liquidity cycle has peaked and is beginning to slow down in early 2026. This shift suggests that investo…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "86276e3397a5a95df4a7678595bc193b",
       "title": "A guide to advanced B2B positioning",
       "url": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning",
@@ -1139,19 +1152,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9ebafe3f80fe1add12547497d10ee90b",
-      "title": "What Investors Don't Understand About the Software Meltdown | Deiya Pernas",
-      "url": "https://www.youtube.com/watch?v=YfUH30Lw634",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-28T14:28:17+00:00",
-      "summary": "Deiya Pernas, co-founder of Pernas Research, has crushed the market and compounded at over 30% since he and his partners began tracking their portfolio in 2017. In this interview, Deiya examines 10 key micro and macro questions that he believes could be the key to continued outp…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
       "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
       "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
@@ -1808,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-10T19:35:19.772350+00:00"
+  "generated_at": "2026-03-10T20:29:14.890312+00:00"
 }
