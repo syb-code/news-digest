@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "61a2feedccd0955e78bd6e6e4dd36d43",
+      "title": "Autoresearch, Agent Loops and the Future of Work",
+      "url": "https://www.youtube.com/watch?v=nt9j1k2IhUY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-10T00:48:51+00:00",
+      "summary": "Andrej Karpathy's Autoresearch demonstrates autonomous agent loops: agents edit training code, run fixed five-minute experiments, and commit only changes improving a single validation metric. Connections explored include the Ralph Wiggum iterative loop and multi-agent collaborat…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
       "title": "US Debt Crisis: Warning From The Bond Market",
       "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
@@ -546,21 +561,6 @@
       "source_type": "rss",
       "published": "2026-02-26T13:31:32+00:00",
       "summary": "Listen now (87 mins) | Jeetu Patel on going all-in on AI, why most big companies hedge when they should double down, and why he can’t do his job without AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2dbc9ea6032fe421ec8bd58f08ebd0b1",
-      "title": "The Anti-AI Movement",
-      "url": "https://www.youtube.com/watch?v=Mi4mdRHEz8Y",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-25T15:33:26+00:00",
-      "summary": "Analysis of the rising anti‑AI movement and constituent groups ranging from existential risk advocates to datacenter protesters. Summary of polling and anecdotes revealing broad public distrust, economic anxiety, and localized pushback. Discussion of industry messaging failures,…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-09T23:24:25.183519+00:00"
+  "generated_at": "2026-03-10T01:45:11.971101+00:00"
 }
