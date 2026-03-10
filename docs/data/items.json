@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "7017a1028cd3cdb4fa7b8a72aadcf6dd",
+      "title": "A guide to advanced B2B positioning",
+      "url": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-10T09:00:40+00:00",
+      "summary": "10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "61a2feedccd0955e78bd6e6e4dd36d43",
       "title": "Autoresearch, Agent Loops and the Future of Work",
       "url": "https://www.youtube.com/watch?v=nt9j1k2IhUY",
@@ -775,21 +788,6 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-17T13:45:26+00:00",
-      "summary": "Four prompting techniques to prevent AI’s most common mistakes",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "adb77da0079526cf0bdcb953f63b3600",
-      "title": "How to do AI analysis you can actually trust",
-      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually-db6",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-17T13:02:46+00:00",
       "summary": "Four prompting techniques to prevent AI’s most common mistakes",
       "read_minutes": 1,
       "duration_sec": null,
@@ -1812,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-10T08:36:41.373071+00:00"
+  "generated_at": "2026-03-10T09:39:34.877547+00:00"
 }
