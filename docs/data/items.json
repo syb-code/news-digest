@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "86276e3397a5a95df4a7678595bc193b",
+      "title": "A guide to advanced B2B positioning",
+      "url": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-10T12:45:43+00:00",
+      "summary": "10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "7017a1028cd3cdb4fa7b8a72aadcf6dd",
       "title": "A guide to advanced B2B positioning",
       "url": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49",
@@ -779,21 +792,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c8ba1c7df46a32b14ca664b43c7061d6",
-      "title": "How to do AI analysis you can actually trust",
-      "url": "https://www.lennysnewsletter.com/p/how-to-do-ai-analysis-you-can-actually",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-17T13:45:26+00:00",
-      "summary": "Four prompting techniques to prevent AI’s most common mistakes",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1810,5 +1808,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-10T11:29:42.696942+00:00"
+  "generated_at": "2026-03-10T12:53:14.917477+00:00"
 }
