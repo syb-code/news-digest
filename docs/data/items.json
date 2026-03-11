@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0e0c4ab287266c91ba891f3702418619",
+      "title": "Is the Debate Over Anthropic's New Product About Price or Existential Dread?",
+      "url": "https://www.youtube.com/watch?v=hnoPMIFjrWM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-11T14:50:11+00:00",
+      "summary": "Anthropic's Claude Code Review launch ignited intense debate about automated code review replacing human reviewers and the risk of recursive AI bias. Discussions focused on steep per-pull-request pricing, token-driven cost models, and competitive pressure from OpenAI and competi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5196eb550bdc5cba33b04d4021a257ae",
       "title": "From Figma to Claude Code and back | Gui Seiz & Alex Kern (Figma)",
       "url": "https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back",
@@ -577,19 +592,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1666182a55461311032989dde41759fb",
-      "title": "Claude Code Turns One",
-      "url": "https://www.youtube.com/watch?v=dpegtfwlb0M",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-26T18:18:21+00:00",
-      "summary": "Claude Code's first birthday underscores agent coding's rise from novelty to core platform, driving developer adoption and roughly $2.5 billion in ARR. Claude Code Security sparked a headline-driven selloff in cybersecurity stocks as investors reassess exposure to software disru…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-11T14:03:28.158647+00:00"
+  "generated_at": "2026-03-11T15:43:30.113376+00:00"
 }
