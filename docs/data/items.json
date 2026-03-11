@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "5196eb550bdc5cba33b04d4021a257ae",
+      "title": "From Figma to Claude Code and back | Gui Seiz & Alex Kern (Figma)",
+      "url": "https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-11T12:03:30+00:00",
+      "summary": "Watch now | 🎙️ How Figma’s designers and engineers use MCPs to pull production code into Figma, edit designs, and push changes back to code—eliminating design drift and enabling real-time collaboration",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ea6c33e9f99a6e066bb9fdfcdf74cff8",
+      "title": "This Macro Cycle Is Flashing Warning Signs!",
+      "url": "https://www.youtube.com/shorts/M3iLSmzKDLk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-11T11:30:32+00:00",
+      "summary": "Michael Howell of Crossborder Capital explains that financial markets are currently sitting in a fragile “knife-edge equilibrium.” According to his liquidity cycle analysis, the macro cycle may be starting to turn downward — a shift that could make the next phase for risk assets…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "44abb10916f89aa6c9624ae852225cad",
       "title": "The Liquidity Cycle Is Turning Down (Here's How) | Michael Howell",
       "url": "https://www.youtube.com/watch?v=i0lm-mmBlQM",
@@ -780,21 +808,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "37f3b52ecea8dc8a7f734989db46bc61",
-      "title": "Head of Claude Code: What happens after coding is solved | Boris Cherny",
-      "url": "https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-19T13:31:57+00:00",
-      "summary": "Listen now | Anthropic’s Boris Cherny on building Claude Code, how to maximize AI productivity, and what comes next after coding is “solved”",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "68415ab739cde2d9e3e976794fbaceba",
       "title": "Interest Rate Cuts Are Coming — Investors Need to Position Now",
       "url": "https://www.youtube.com/watch?v=FmhGJ6mqXmM",
@@ -1118,23 +1131,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "718bf30dbcaa60a0b8bbcf7fcc9a3b8a",
-      "title": "Could Gold & Silver Break the Market? Jack & Max on Fed, Earnings, and Software Sell-off",
-      "url": "https://www.youtube.com/watch?v=GwYs1bdPOL4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-01-29T16:59:13+00:00",
-      "summary": "This Monetary Matters episode is brought to you by Fiscal.ai. Sign up for a 2-week free trial and get 15% off any paid tier at: ⁠https://fiscal.ai/mm/\n\nThe relentless surge in precious metals continues, with gold seeing gains in all but three trading days this year and silver ho…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1808,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-11T11:30:15.933499+00:00"
+  "generated_at": "2026-03-11T12:52:50.012549+00:00"
 }
