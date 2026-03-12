@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e8d8b044715acb8b4c9e84cc1abfed65",
+      "title": "Why Google Workspace CLI is Such a Big Deal",
+      "url": "https://www.youtube.com/watch?v=1h2rwERtPpM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-12T13:20:36+00:00",
+      "summary": "Google's AI push showcased new Gemini models, the Genie world model demo, and rapid multimodal product shipping. Google Workspace CLI plus Gemini-powered Docs, Sheets, Slides and Embedding Two enable agents to access emails, Drive files, calendars and native multimodal retrieval…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "02cea923d6391b75cf8eccdcb13304d5",
       "title": "How I built a 1M+ subscriber newsletter and top 10 tech podcast | Lenny Rachitsky",
       "url": "https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter",
@@ -611,21 +626,6 @@
       "source_type": "youtube",
       "published": "2026-02-28T13:28:01+00:00",
       "summary": "Jack Dorsey's announcement of a 40% workforce reduction at Block ignited debate over whether AI enabled the cuts or whether overhiring and managerial choices were the main drivers. Block's stock jumped more than 25% while critics warned against treating AI as a scapegoat and pre…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "18a705a2a9f7a853aed3713cfc103737",
-      "title": "The OpenClaw-ification of AI",
-      "url": "https://www.youtube.com/watch?v=GR-j31Nrl0Y",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-27T02:12:26+00:00",
-      "summary": "Exploration of the OpenClaw phenomenon: AI products adopting persistent agents, scheduled tasks, on-device remote control, and deep context integration. Highlights include Claude Code remote control and scheduled tasks, Perplexity Computer as a personal AI workstation, Notion cu…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-12T12:52:28.829281+00:00"
+  "generated_at": "2026-03-12T14:01:13.827248+00:00"
 }
