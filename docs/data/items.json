@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "02cea923d6391b75cf8eccdcb13304d5",
+      "title": "How I built a 1M+ subscriber newsletter and top 10 tech podcast | Lenny Rachitsky",
+      "url": "https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-12T12:32:15+00:00",
+      "summary": "Listen now | My wife, Michelle Rial, turns the mic on me to unpack the story behind my newsletter and podcast",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e9cfb9616f4a08a56393af2442e9b719",
       "title": "Middle East War Threatens Global Economic Shock | Joseph Stiglitz (Nobel Laureate Economist)",
       "url": "https://www.youtube.com/watch?v=4wob38gZ2yQ",
@@ -764,19 +777,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "32c017f02d481af0240435da6ae2dfa0",
-      "title": "🧠 Community Wisdom: Making your product enterprise-ready, when engineering outpaces product, managing PRD versions as features evolve, planning work around energy, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-making-your-product",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-21T17:08:16+00:00",
-      "summary": "Community Wisdom 174",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-12T11:28:52.847395+00:00"
+  "generated_at": "2026-03-12T12:52:28.829281+00:00"
 }
