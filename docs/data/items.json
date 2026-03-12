@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "904bc22d9379cc1d69be6472cc244384",
+      "title": "Deep Learning Weekly: Issue 446",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-446",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-03-12T15:02:50+00:00",
+      "summary": "Native Observability & Alerts for Your OpenClaw with Opik, Gemini Embedding 2, a paper on LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e8d8b044715acb8b4c9e84cc1abfed65",
       "title": "Why Google Workspace CLI is Such a Big Deal",
       "url": "https://www.youtube.com/watch?v=1h2rwERtPpM",
@@ -1679,19 +1692,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ec371756c32b7ea57b6c27a0c06bf97d",
-      "title": "Deep Learning Weekly: Issue 426",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-426",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-15T15:01:15+00:00",
-      "summary": "Introducing Gemini Enterprise, A small number of samples can poison LLMs of any size, a paper on Self-Adapting Language Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "2ef74fafe57567a09cb107298e76aa6f",
       "title": "Kind Products Win",
       "url": "https://designplusai.com/p/kind-products-win",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-12T14:01:13.827248+00:00"
+  "generated_at": "2026-03-12T15:55:13.356424+00:00"
 }
