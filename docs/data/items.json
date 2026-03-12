@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2801c1f3d36abe9b4fbd7c5e3ce79e21",
+      "title": "What Vibe Coding is Turning Into",
+      "url": "https://www.youtube.com/watch?v=eOcjqCJMQ2E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-12T22:12:56+00:00",
+      "summary": "Perplexity Computer (Enterprise and Personal) and Replit Agent Four showcase a shift toward persistent, multi-agent workflows and extensible vibecoding canvases. Major themes include multi-model orchestration, always-on local context via Mac Mini integration, parallel task execu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "904bc22d9379cc1d69be6472cc244384",
       "title": "Deep Learning Weekly: Issue 446",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-446",
@@ -624,21 +637,6 @@
       "source_type": "rss",
       "published": "2026-02-28T17:16:48+00:00",
       "summary": "Community Wisdom 175",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2416b0ba59c89a6fd22107c65be7966a",
-      "title": "Are 40% Staff Cuts the New AI Normal?",
-      "url": "https://www.youtube.com/watch?v=OVA9QptpjAE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-02-28T13:28:01+00:00",
-      "summary": "Jack Dorsey's announcement of a 40% workforce reduction at Block ignited debate over whether AI enabled the cuts or whether overhiring and managerial choices were the main drivers. Block's stock jumped more than 25% while critics warned against treating AI as a scapegoat and pre…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1802,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-12T22:21:21.119843+00:00"
+  "generated_at": "2026-03-12T23:24:15.868821+00:00"
 }
