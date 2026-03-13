@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "92dc2e9fb24872cf4fb25c39b7274a99",
+      "title": "AI Agents Get Their Own Credit Cards",
+      "url": "https://www.youtube.com/watch?v=j_lxlPYAdTs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-13T16:50:26+00:00",
+      "summary": "Ramp and Stripe launched virtual payment cards for AI agents with spend limits, merchant controls, and real-time tracking. Ramp’s AI Index shows fast AI adoption, with Anthropic gaining share as OpenAI brings Sora video into ChatGPT and Google expands Gemini’s multimedia feature…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bf60cbbb48af220bbd3b7cae6aba497c",
       "title": "Americans Are Struggling With Debt and Missed Payments",
       "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
@@ -653,22 +668,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "91e662e8428be734b2b33cfe9fc71dc8",
-      "title": "Who Controls AI?",
-      "url": "https://www.youtube.com/watch?v=pOHo8TfY1k4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-01T02:11:36+00:00",
-      "summary": "The standoff between Anthropic and the Pentagon exploded this week when President Trump directed every federal agency to cease using Anthropic's technology after the company refused to remove its red lines on autonomous weapons and mass domestic surveillance. As the episode unpa…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1798,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-13T16:35:46.628106+00:00"
+  "generated_at": "2026-03-13T17:31:31.218344+00:00"
 }
