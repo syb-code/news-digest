@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d005e1ce1065e521462425789b4b2efe",
+      "title": "LWiAI Podcast #236 - GPT 5.4, Gemini 3.1 Flash Lite, Supply Chain Risk",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-236-gpt-54-gemini-31",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-13T05:38:49+00:00",
+      "summary": "OpenAI launches GPT-5.4 with Pro and Thinking versions, Google releases Gemini 3.1 Flash Lite at 1/8th the cost of Pro, Where things stand with the Department of War Anthropic",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2801c1f3d36abe9b4fbd7c5e3ce79e21",
       "title": "What Vibe Coding is Turning Into",
       "url": "https://www.youtube.com/watch?v=eOcjqCJMQ2E",
@@ -1537,21 +1552,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a7c82102f242bc4dd113e21794b7dc77",
-      "title": "LWiAI Podcast #226 - Gemini 3, Claude Opus 4.5, Nano Banana Pro, LeJEPA",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-226-gemini-3-claude",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-11-30T08:20:26+00:00",
-      "summary": "Google launches Gemini 3 & Nano Banana Pro, Anthropic releases Opus 4.5, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "67757376e31c29ec74e5db79d4fe4b1c",
       "title": "AI prompt hacks for design",
       "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-13T04:09:24.139502+00:00"
+  "generated_at": "2026-03-13T05:45:19.142455+00:00"
 }
