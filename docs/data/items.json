@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "bf60cbbb48af220bbd3b7cae6aba497c",
+      "title": "Americans Are Struggling With Debt and Missed Payments",
+      "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-13T16:00:04+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "230becfac809c9333eaa3ca34acd2ac7",
       "title": "Could the Iran War Cause a New Oil Crisis? | FT’s Chief Economics Commentator Martin Wolf",
       "url": "https://www.youtube.com/watch?v=cV5UK0K3kXw",
@@ -1200,19 +1213,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "67642e46ab0c3f019afd6ec07588daaf",
-      "title": "Gold Keeps Going Up — Is it Too Late to Buy?",
-      "url": "https://www.youtube.com/watch?v=0S9Psw8rpH0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-26T16:00:01+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "90033c0599c790c5cf766322bdb54390",
       "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
       "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-13T15:38:34.398483+00:00"
+  "generated_at": "2026-03-13T16:35:46.628106+00:00"
 }
