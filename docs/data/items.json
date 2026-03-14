@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "beb392f09e008e274bbfffb37ec5cb02",
+      "title": "🧠 Community Wisdom: Getting a skeptical CTO to adopt AI coding tools, staying after losing faith in the founder, Claude skills for designers, making the most of a jack-of-all-trades role, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-a-skeptical",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-14T17:43:36+00:00",
+      "summary": "Community Wisdom 177",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b6cd823b75301ff9792dbb06271885eb",
       "title": "Pro Worker AI",
       "url": "https://www.youtube.com/watch?v=ArPVZZazQUA",
@@ -825,21 +840,6 @@
       "source_type": "rss",
       "published": "2026-02-23T16:02:26+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5a4c883c37a0a2778b771156505f2f49",
-      "title": "“I haven’t written a single line of front-end code in 3 months”: How Notion’s design team uses Claude Code to prototype",
-      "url": "https://www.lennysnewsletter.com/p/i-havent-written-a-single-line-of",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-23T13:03:17+00:00",
-      "summary": "Watch now | 🎙️ Notion's Brian Lovin on building a shared prototype playground, using Claude Code to transform Figma designs into working code, and why AI is changing how designers work",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-14T17:23:14.531282+00:00"
+  "generated_at": "2026-03-14T18:32:47.115297+00:00"
 }
