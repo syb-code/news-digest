@@ -6,8 +6,23 @@
       "url": "https://www.youtube.com/watch?v=ArPVZZazQUA",
       "source": "@AIDailyBrief",
       "source_type": "youtube",
-      "published": "2026-03-13T18:43:27+00:00",
+      "published": "2026-03-14T13:30:06+00:00",
       "summary": "Recent AI-related layoffs, highlighted by Atlassian's cuts, spark debate over automation versus finance-driven restructuring. New research introduces an observed-exposure metric for AI displacement and finds high theoretical coverage in management and finance without clear emplo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8497b3ea8938484e8f4c8321f781f9fc",
+      "title": "YOUTUBE SHORT",
+      "url": "https://www.youtube.com/shorts/woiS6M13sVo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-14T13:01:41+00:00",
+      "summary": "What happens if the Strait of Hormuz closes?\n\nIn this clip from Monetary Matters, Financial Times chief economics commentator Martin Wolf explains why a war in the Gulf could trigger a massive shock to the global economy. With much of the world’s oil flowing through one narrow a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1154,21 +1169,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e53202a1444e0557a6121d8eee9af4b1",
-      "title": "Credit Expert Explains What’s Happening in Lending | Oaktree’s Raghav Khanna",
-      "url": "https://www.youtube.com/watch?v=hMP49-paJO4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-01T15:14:43+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nRaghav Khanna, managing director at Oak…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e3ea526daf34ea291ec3df783c74e8ca",
       "title": "The Fed and Interest Rates: Why Rates Aren’t Coming Down Yet",
       "url": "https://www.youtube.com/watch?v=cdAAvKMcMs4",
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-14T12:42:18.527626+00:00"
+  "generated_at": "2026-03-14T13:42:18.748631+00:00"
 }
