@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b6cd823b75301ff9792dbb06271885eb",
+      "title": "Pro Worker AI",
+      "url": "https://www.youtube.com/watch?v=ArPVZZazQUA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-13T18:43:27+00:00",
+      "summary": "Recent AI-related layoffs, highlighted by Atlassian's cuts, spark debate over automation versus finance-driven restructuring. New research introduces an observed-exposure metric for AI displacement and finds high theoretical coverage in management and finance without clear emplo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "92dc2e9fb24872cf4fb25c39b7274a99",
       "title": "AI Agents Get Their Own Credit Cards",
       "url": "https://www.youtube.com/watch?v=j_lxlPYAdTs",
@@ -590,21 +605,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3548552c24971999c283aa4319b37a14",
-      "title": "Nano Banana 2 Is Here",
-      "url": "https://www.youtube.com/watch?v=OkuE84VSReY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-02T17:27:36+00:00",
-      "summary": "Google released Nano Banana 2 (Gemini 3.1 FlashImage), a faster and cheaper image model that supports 4K and strong infographic and text generation. Anthropic's Claude saw daily signups triple as code and collaboration tools drove rapid enterprise adoption and sparked market rea…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-14T11:21:07.494020+00:00"
+  "generated_at": "2026-03-14T12:42:18.527626+00:00"
 }
