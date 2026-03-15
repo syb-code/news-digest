@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "7e555247bdd9de5f8ea1a587f71cd21a",
+      "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick (Executive Negotiator)",
+      "url": "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-15T12:31:37+00:00",
+      "summary": "Why negotiation starts before the offer, the exact phrases that unlock 20%-40% more comp, how to flip interviews into discovery calls, and why product people negotiate worse than everyone else",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b3129ae3dc50aee0a4a02c7f5140a7fc",
       "title": "The Social Network for Agents Just Got Acquired",
       "url": "https://www.youtube.com/watch?v=2Ws3YiSzCX0",
@@ -830,21 +843,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "55c82960ed3cce7cd0f1dbcfe125085f",
-      "title": "🎙️ This week on How I AI: How Notion’s design team uses Claude Code to design",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-notions",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-23T16:02:26+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1797,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-15T11:22:46.030745+00:00"
+  "generated_at": "2026-03-15T12:44:04.941654+00:00"
 }
