@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c28070508492ae07abebb15dbd17e9f0",
+      "title": "The 16 Coolest Agents I've Built So Far",
+      "url": "https://www.youtube.com/watch?v=CnxQpf02_js",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-15T13:28:26+00:00",
+      "summary": "In this Operators Bonus Episode, I pit 16 different things I've built this year against each other in a March Madness-style bracket — from OpenClaw bots and vibe-coded side projects to the Sherlock Holmes-inspired agent ecosystem I'm developing for enterprise AI strategy. It's a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7e555247bdd9de5f8ea1a587f71cd21a",
       "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick (Executive Negotiator)",
       "url": "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp",
@@ -589,21 +604,6 @@
       "source_type": "youtube",
       "published": "2026-03-05T00:07:42+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nTian Yang, CEO of quant research platfo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "877f2a29e260a9ca566f0e42a7dbc150",
-      "title": "The Rise of the Zero Human Company",
-      "url": "https://www.youtube.com/watch?v=at_Fng0Lbow",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-04T15:24:56+00:00",
-      "summary": "Exploration of the Rise of the Zero-Human Company and the emergence of tiny teams built around autonomous AI agents. Examples include Felix Craft's AI-created products and ClawMart marketplace, plus Pulia and ZHC company-in-a-box platforms. Analysis weighs rapid AI-driven experi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-15T12:44:04.941654+00:00"
+  "generated_at": "2026-03-15T13:43:30.004394+00:00"
 }
