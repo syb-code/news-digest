@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b3129ae3dc50aee0a4a02c7f5140a7fc",
+      "title": "The Social Network for Agents Just Got Acquired",
+      "url": "https://www.youtube.com/watch?v=2Ws3YiSzCX0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-14T23:40:21+00:00",
+      "summary": "Meta's acquisition of MoltBook spotlights debates over AI-agent authenticity, mimetic social mechanics, and a research-versus-product power struggle. Thinking Machines Lab signed a multi-year deal with NVIDIA for at least one gigawatt of Vera Rubin-chip compute for frontier mode…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "beb392f09e008e274bbfffb37ec5cb02",
       "title": "🧠 Community Wisdom: Getting a skeptical CTO to adopt AI coding tools, staying after losing faith in the founder, Claude skills for designers, making the most of a jack-of-all-trades role, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-a-skeptical",
@@ -607,21 +622,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "77143fa0b4f685b0ecc1a8dea473db12",
-      "title": "The Month AI Woke Up",
-      "url": "https://www.youtube.com/watch?v=-FJ7HiPBkCM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-03T00:32:56+00:00",
-      "summary": "February 2026 crystallized a shift to agentic AI as developer workflows moved from hand-coding to orchestrating autonomous agents. OpenClaw and ClaudeCode expanded agent use beyond engineers and triggered a Wall Street sell-off across gaming, productivity, legal, and finance lab…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-14T23:24:12.075849+00:00"
+  "generated_at": "2026-03-15T02:03:02.365317+00:00"
 }
