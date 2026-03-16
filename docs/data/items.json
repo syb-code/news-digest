@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "0333b9a5dbc89447dbe778d4b0bb2fe9",
+      "title": "Private Credit: The Next Risk in the Financial System",
+      "url": "https://www.youtube.com/watch?v=5AjShaNN3Jo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-16T16:00:14+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a6f9f1de44af0c3101e368c37d836e6c",
+      "title": "20% of Jobs Will Be Gone in 4 Years | Macro Investor Alex Gurevich on AI & Bull Case for Yields",
+      "url": "https://www.youtube.com/watch?v=97bX8aRqnIY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-16T15:43:32+00:00",
+      "summary": "In this interview, Alex Gurevich of HonTe Investments outlines his macroeconomic outlook, highlighting a particularly bullish stance on the platinum and palladium markets because they historically follow long cycles that lag behind gold and silver. He predicts that the rapid adv…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "cef0a20ec8d3007666e5654c9e5942e0",
+      "title": "🎙️ This week on How I AI: From Figma to Claude Code and back & From journalist to iOS developer",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-from-figma",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-16T15:03:06+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1a29c108120392ab9cd2eb9b8f35ddf8",
       "title": "From journalist to iOS developer: How LinkedIn’s editor builds with Claude Code | Daniel Roth",
       "url": "https://www.lennysnewsletter.com/p/from-journalist-to-ios-developer",
@@ -831,21 +874,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f3577e10cb3007a8a48ab8380a76f1f5",
-      "title": "How to use AI for your next job interview",
-      "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-in-your-next-job-interview",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-24T13:45:06+00:00",
-      "summary": "Insights from 30+ tech professionals, and a free AI coach to put them into practice",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e6e12a7181a18a1fe8048f3b634eaf2a",
       "title": "Last Week in AI #336 - Sonnet 4.6, Gemini 3.1 Pro, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/last-week-in-ai-336-sonnet-46-gemini",
@@ -1174,38 +1202,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02a264ff8e06da5ee2241591f8242ddb",
-      "title": "Washington Has More Power Than You Think",
-      "url": "https://www.youtube.com/shorts/DdTdSzldD5I",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-02T21:33:00+00:00",
-      "summary": "On Monetary Matters, Joseph Wang, the Fed guy, explains why the federal government has powerful tools that can influence asset prices — even without direct action from the Federal Reserve.\n\nFrom mortgage rates to market expectations, Wang breaks down how political pressure, poli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e3ea526daf34ea291ec3df783c74e8ca",
-      "title": "The Fed and Interest Rates: Why Rates Aren’t Coming Down Yet",
-      "url": "https://www.youtube.com/watch?v=cdAAvKMcMs4",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-01-29T17:00:57+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1793,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-16T14:55:51.677840+00:00"
+  "generated_at": "2026-03-16T16:03:13.377760+00:00"
 }
