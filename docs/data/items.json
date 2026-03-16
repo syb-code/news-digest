@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "1a29c108120392ab9cd2eb9b8f35ddf8",
+      "title": "From journalist to iOS developer: How LinkedIn’s editor builds with Claude Code | Daniel Roth",
+      "url": "https://www.lennysnewsletter.com/p/from-journalist-to-ios-developer",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-16T12:04:08+00:00",
+      "summary": "Watch now | 🎙️ How LinkedIn’s editor uses dueling Claude agents to plan features, write code, review security, and ship iOS apps—with zero coding experience",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "4b4e272cad9fa5d197da92ca1abc71f5",
       "title": "LWiAI Podcast #237 - Nemotron 3 Super, xAI reborn, Anthropic Lawsuit, Research!",
       "url": "https://lastweekin.ai/p/lwiai-podcast-237-nemotron-3-super",
@@ -824,21 +837,6 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-02-24T13:45:06+00:00",
-      "summary": "Insights from 30+ tech professionals, and a free AI coach to put them into practice",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7053614ccea39fd278d9fba20a480dd1",
-      "title": "How to use AI for your next job interview",
-      "url": "https://www.lennysnewsletter.com/p/how-to-use-ai-for-your-next-job-interview",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-24T13:03:23+00:00",
       "summary": "Insights from 30+ tech professionals, and a free AI coach to put them into practice",
       "read_minutes": 1,
       "duration_sec": null,
@@ -1795,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-16T11:42:49.055743+00:00"
+  "generated_at": "2026-03-16T13:03:03.596074+00:00"
 }
