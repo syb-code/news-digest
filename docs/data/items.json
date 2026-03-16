@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "36c2040e18b4412829275f6c5985e84d",
+      "title": "How to build a brand agent with Lovable",
+      "url": "https://designplusai.com/p/how-to-build-a-brand-agent-with-lovable",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-16T21:21:34+00:00",
+      "summary": "I recently built an internal brand agent for Lovable and a lot of people asked how I did it, so here's the exact guide:",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "38699c50f6112e9d355706a8346a64f4",
+      "title": "What to Expect from Nvidia This Week",
+      "url": "https://www.youtube.com/watch?v=qrmgkWl0vPg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-16T20:56:16+00:00",
+      "summary": "Nvidia unveiled a push into inference with a GROQ‑based chip and Samsung production that could diversify manufacturing outside TSMC. SEC filings show a sharp rise in AI agent risk disclosures, signaling growing legal and business concern about agent disruption to SaaS. Copyright…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "53645889e6cfdedbf072f981507115be",
       "title": "Meta Delays New AI Model",
       "url": "https://www.youtube.com/watch?v=eDGI3sNRnhg",
@@ -636,22 +664,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e40db57853a0cd918d59f67c0b38fc56",
-      "title": "The Big Questions Shaping the Consumer AI Battle",
-      "url": "https://www.youtube.com/watch?v=zOunzognke0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-05T15:00:06+00:00",
-      "summary": "Analysis of the OpenAI–Anthropic showdown, highlighting Super Bowl ad tactics, the Pentagon controversy, and rapid revenue convergence.  \nCoverage of product moves such as GPT‑5.3 Instant’s reduced caveats and Claude Code’s new voice mode. Key questions include performance versu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1774,20 +1786,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "542f8ddb78c5cce4faf3a5f13ed327bc",
-      "title": "Good writing is the most underrated design skill",
-      "url": "https://designplusai.com/p/good-writing-is-the-most-underrated",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-18T16:52:52+00:00",
-      "summary": "Here’s why:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-16T20:34:33.173436+00:00"
+  "generated_at": "2026-03-16T21:35:01.793580+00:00"
 }
