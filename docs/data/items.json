@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "53645889e6cfdedbf072f981507115be",
+      "title": "Meta Delays New AI Model",
+      "url": "https://www.youtube.com/watch?v=eDGI3sNRnhg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-16T17:33:46+00:00",
+      "summary": "Meta delays the Avocado model after internal benchmarks showed shortfalls in reasoning, coding, and writing. XAI endures co-founder departures while recruiting senior product leaders from Cursor. Enterprise AI adoption lags operationally even as 81% of doctors use AI for documen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0333b9a5dbc89447dbe778d4b0bb2fe9",
       "title": "Private Credit: The Next Risk in the Financial System",
       "url": "https://www.youtube.com/watch?v=5AjShaNN3Jo",
@@ -651,21 +666,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2624f814f4c7a5003c9a966d54eb8581",
-      "title": "White Hot Cursor Doubles Revenue",
-      "url": "https://www.youtube.com/watch?v=PRFPYsyqatU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-05T03:09:26+00:00",
-      "summary": "Agent coding platforms exploded into enterprise use, doubling ARR for leading services and expanding the market beyond a zero-sum narrative. Anthropic experienced outages and massive download spikes while Pentagon procurement disputes prompted multiple agencies to suspend the Cl…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-16T16:03:13.377760+00:00"
+  "generated_at": "2026-03-16T17:56:57.850661+00:00"
 }
