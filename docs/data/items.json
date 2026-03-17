@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f522e8dcd89898147f166e383bdc2dab",
+      "title": "A Guy Used AI to Cure His Dog's Cancer",
+      "url": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-17T15:54:41+00:00",
+      "summary": "A second AI moment defined by agentic systems and rapidly rising capabilities has pushed public discourse into a near-constant high-alert state. Stories range from a DIY mRNA vaccine for a dog to Carpathy's job-exposure visualization, highlighting both transformative potential a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5f3c827502c8f608b7f1daa673442052",
       "title": "How I built LennyRPG",
       "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg",
@@ -661,21 +676,6 @@
       "source_type": "youtube",
       "published": "2026-03-05T20:49:07+00:00",
       "summary": "Recent Nobel laureate in economics Peter Howitt joins Jack to discuss his work on technological disruption and creative destruction. Dr. Howitt explains that technological advancement creates economic growth while also causing workers to lose their jobs and firms to go bankrupt …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "514e5a2c6f501bbac2d4f33c080f0048",
-      "title": "Is OpenAI the New GitHub?",
-      "url": "https://www.youtube.com/watch?v=jY_SuwYhK1o",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-05T19:34:16+00:00",
-      "summary": "OpenAI is building an internal GitHub alternative after recurring GitHub outages exposed fragility in code hosting for agentic development. Meta created a flat applied-AI engineering organization to connect hardware, tooling and data pipelines for faster model improvement. Amazo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-17T16:02:17.000652+00:00"
+  "generated_at": "2026-03-17T17:54:54.849365+00:00"
 }
