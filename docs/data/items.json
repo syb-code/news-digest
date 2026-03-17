@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "5f3c827502c8f608b7f1daa673442052",
+      "title": "How I built LennyRPG",
+      "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-17T12:46:05+00:00",
+      "summary": "Turning 300+ episode transcripts into a fun, playable game with AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "18f50a23c2b65d9ba0c4b2e9175c9a71",
+      "title": "The Ultimate Hard Asset: American Farmland and The 300-Year Water Supply Hidden Underneath It",
+      "url": "https://www.youtube.com/watch?v=VAEnSq65dsI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-17T12:30:45+00:00",
+      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nIn this episode of Other People's Money, Max sits down with Chris Morris, President of LandFund Partners, to explore why they believe U.S. row crop farmland is the ultimate hard asset. Chris details …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "36c2040e18b4412829275f6c5985e84d",
       "title": "How to build a brand agent with Lovable",
       "url": "https://designplusai.com/p/how-to-build-a-brand-agent-with-lovable",
@@ -871,21 +901,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6e4d8a9b91312e96dbab4e970f822d58",
-      "title": "5 OpenClaw agents run my home, finances, and code | Jesse Genet",
-      "url": "https://www.lennysnewsletter.com/p/5-openclaw-agents-run-my-home-finances",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-25T13:04:23+00:00",
-      "summary": "Watch now | 🎙️ Jesse Genet, a mom of four, shares how she uses multiple OpenClaw agents to run her home school, build custom apps, organize her home, and reclaim her time",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e6e12a7181a18a1fe8048f3b634eaf2a",
       "title": "Last Week in AI #336 - Sonnet 4.6, Gemini 3.1 Pro, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/last-week-in-ai-336-sonnet-46-gemini",
@@ -1199,21 +1214,6 @@
         "Crypto",
         "Macro/Fed",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1a3d36756009eefc48c36d64b5d034f5",
-      "title": "Warning: Don’t Buy Silver Unless You Can Handle This | Alex Campbell",
-      "url": "https://www.youtube.com/watch?v=Cb5Vxim2nEA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-03T19:35:18+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nAlexander Campbell, founder of Rose AI and former head of commodities at Bridgewater, joins the show to dissect the structural drivers behind the silver ma…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-17T11:40:57.071492+00:00"
+  "generated_at": "2026-03-17T13:03:49.038827+00:00"
 }
