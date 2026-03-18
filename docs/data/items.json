@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6805bb8049a23e1343c7aa3d96f23e55",
+      "title": "The Private Credit Time Bomb: Rupert Mitchell Warns of Impaired Loans and Worthless Equity Cushions",
+      "url": "https://www.youtube.com/watch?v=7wvP4dKePOo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-18T16:43:04+00:00",
+      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nIn this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell det…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c81eca1508354f1a6ab63f955d31485d",
       "title": "How I built LennyRPG",
       "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg-f85",
@@ -1170,21 +1185,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c9fafe99e44e7d9013f6f2c505620d50",
-      "title": "Why Carson Block Says Ignore Fundamentals and Focus on Capital Flows",
-      "url": "https://www.youtube.com/watch?v=jxGkb-BN3ts",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-04T14:01:21+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nCarson Block, founder of Muddy Waters Capital joins Monetary Matters to discuss why they aren’t rushing to short AI pretenders and fakers until more supply…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5a91f296c7e8c6418ad947d6ec562bcd",
       "title": "Last Week in AI #334 - Kimi K2.5 & Code, Genie 3, OpenClaw & Moltbook",
       "url": "https://lastweekin.ai/p/last-week-in-ai-334-kimi-k25-and",
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-18T16:10:57.703488+00:00"
+  "generated_at": "2026-03-18T17:57:46.439331+00:00"
 }
