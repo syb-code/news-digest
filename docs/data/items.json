@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8e1f66103e52f16af14a7f4a0a0f10a7",
+      "title": "The Race to Put AI Agents Everywhere",
+      "url": "https://www.youtube.com/watch?v=zjcjT6BukQA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-18T00:17:36+00:00",
+      "summary": "Q1 delivered a turning point as open-source agents like OpenClaw sparked mass experimentation and proved agents can do real work. Nvidia NemoClaw, Manus desktop agents, Perplexity Computer, Adaptive, and OpenAI Codex updates race to productize enterprise-grade secure agents brid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f522e8dcd89898147f166e383bdc2dab",
       "title": "A Guy Used AI to Cure His Dog's Cancer",
       "url": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
@@ -651,21 +666,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5158bc24ce9399a4f0dbb4f3d006576a",
-      "title": "AI is Officially Political",
-      "url": "https://www.youtube.com/watch?v=Y5qwSJXfTSQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-06T02:22:51+00:00",
-      "summary": "Political tensions around AI intensified after the Anthropic–Pentagon dispute and a leaked memo by Dario Amodei accusing OpenAI of bad faith. Supply‑chain designation threats prompted defense contractors to stop using Claude, triggered staff departures, and pushed AI into electi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-17T23:28:30.145091+00:00"
+  "generated_at": "2026-03-18T01:55:53.844974+00:00"
 }
