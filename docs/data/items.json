@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c81eca1508354f1a6ab63f955d31485d",
+      "title": "How I built LennyRPG",
+      "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg-f85",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-18T15:27:01+00:00",
+      "summary": "Turning 300+ episode transcripts into a fun, playable game with AI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8e1f66103e52f16af14a7f4a0a0f10a7",
       "title": "The Race to Put AI Agents Everywhere",
       "url": "https://www.youtube.com/watch?v=zjcjT6BukQA",
@@ -883,21 +898,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5a96177f50b98158ee5bbf07959839b4",
-      "title": "AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel",
-      "url": "https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-26T13:31:32+00:00",
-      "summary": "Listen now (87 mins) | Jeetu Patel on going all-in on AI, why most big companies hedge when they should double down, and why he can’t do his job without AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-18T14:58:54.736426+00:00"
+  "generated_at": "2026-03-18T16:10:57.703488+00:00"
 }
