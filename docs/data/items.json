@@ -1,49 +1,6 @@
 {
   "items": [
     {
-      "id": "dacab495ad2d7ded2b324d09ea7bc9cb",
-      "title": "A Primer on Using Agent Skills",
-      "url": "https://www.youtube.com/watch?v=NU6wRAT9VQ0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-19T01:51:06+00:00",
-      "summary": "Agent skills are modular folders of instructions, scripts, and assets enabling progressive disclosure so agents load precise knowledge only when needed. Anthropic's Claude Code taxonomy groups skills into data fetching, business automation, code quality, verification, and incide…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2c7390e16710540b9a9eb52a8be98e38",
-      "title": "This Has Consequences for Stocks. Bob Elliott on Oil Shock, Inflation, and Fed Meeting",
-      "url": "https://www.youtube.com/watch?v=zbWyNVCcO0Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-19T00:18:31+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, Jack Farley and Max Wiethe are joined by Bob Elliott, Chief Investment Officer at Unlimited Funds, to discuss the economic fallout of the recent conflict …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6805bb8049a23e1343c7aa3d96f23e55",
-      "title": "The Private Credit Time Bomb: Rupert Mitchell Warns of Impaired Loans and Worthless Equity Cushions",
-      "url": "https://www.youtube.com/watch?v=7wvP4dKePOo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-18T16:43:04+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nIn this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell det…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c81eca1508354f1a6ab63f955d31485d",
       "title": "How I built LennyRPG",
       "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg-f85",
@@ -51,36 +8,6 @@
       "source_type": "rss",
       "published": "2026-03-18T15:27:01+00:00",
       "summary": "Turning 300+ episode transcripts into a fun, playable game with AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8e1f66103e52f16af14a7f4a0a0f10a7",
-      "title": "The Race to Put AI Agents Everywhere",
-      "url": "https://www.youtube.com/watch?v=zjcjT6BukQA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-18T00:17:36+00:00",
-      "summary": "Q1 delivered a turning point as open-source agents like OpenClaw sparked mass experimentation and proved agents can do real work. Nvidia NemoClaw, Manus desktop agents, Perplexity Computer, Adaptive, and OpenAI Codex updates race to productize enterprise-grade secure agents brid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f522e8dcd89898147f166e383bdc2dab",
-      "title": "A Guy Used AI to Cure His Dog's Cancer",
-      "url": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-17T15:54:41+00:00",
-      "summary": "A second AI moment defined by agentic systems and rapidly rising capabilities has pushed public discourse into a near-constant high-alert state. Stories range from a DIY mRNA vaccine for a dog to Carpathy's job-exposure visualization, highlighting both transformative potential a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -104,21 +31,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "18f50a23c2b65d9ba0c4b2e9175c9a71",
-      "title": "The Ultimate Hard Asset: American Farmland and The 300-Year Water Supply Hidden Underneath It",
-      "url": "https://www.youtube.com/watch?v=VAEnSq65dsI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-17T12:30:45+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nIn this episode of Other People's Money, Max sits down with Chris Morris, President of LandFund Partners, to explore why they believe U.S. row crop farmland is the ultimate hard asset. Chris details …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "36c2040e18b4412829275f6c5985e84d",
       "title": "How to build a brand agent with Lovable",
       "url": "https://designplusai.com/p/how-to-build-a-brand-agent-with-lovable",
@@ -129,51 +41,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "38699c50f6112e9d355706a8346a64f4",
-      "title": "What to Expect from Nvidia This Week",
-      "url": "https://www.youtube.com/watch?v=qrmgkWl0vPg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-16T20:56:16+00:00",
-      "summary": "Nvidia unveiled a push into inference with a GROQ‑based chip and Samsung production that could diversify manufacturing outside TSMC. SEC filings show a sharp rise in AI agent risk disclosures, signaling growing legal and business concern about agent disruption to SaaS. Copyright…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "53645889e6cfdedbf072f981507115be",
-      "title": "Meta Delays New AI Model",
-      "url": "https://www.youtube.com/watch?v=eDGI3sNRnhg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-16T17:33:46+00:00",
-      "summary": "Meta delays the Avocado model after internal benchmarks showed shortfalls in reasoning, coding, and writing. XAI endures co-founder departures while recruiting senior product leaders from Cursor. Enterprise AI adoption lags operationally even as 81% of doctors use AI for documen…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6f9f1de44af0c3101e368c37d836e6c",
-      "title": "20% of Jobs Will Be Gone in 4 Years | Macro Investor Alex Gurevich on AI & Bull Case for Yields",
-      "url": "https://www.youtube.com/watch?v=97bX8aRqnIY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-16T15:43:32+00:00",
-      "summary": "In this interview, Alex Gurevich of HonTe Investments outlines his macroeconomic outlook, highlighting a particularly bullish stance on the platinum and palladium markets because they historically follow long cycles that lag behind gold and silver. He predicts that the rapid adv…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -235,21 +102,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c28070508492ae07abebb15dbd17e9f0",
-      "title": "The 16 Coolest Agents I've Built So Far",
-      "url": "https://www.youtube.com/watch?v=CnxQpf02_js",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-15T13:28:26+00:00",
-      "summary": "In this Operators Bonus Episode, I pit 16 different things I've built this year against each other in a March Madness-style bracket — from OpenClaw bots and vibe-coded side projects to the Sherlock Holmes-inspired agent ecosystem I'm developing for enterprise AI strategy. It's a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7e555247bdd9de5f8ea1a587f71cd21a",
       "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick (Executive Negotiator)",
       "url": "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp",
@@ -263,21 +115,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b3129ae3dc50aee0a4a02c7f5140a7fc",
-      "title": "The Social Network for Agents Just Got Acquired",
-      "url": "https://www.youtube.com/watch?v=2Ws3YiSzCX0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-14T23:40:21+00:00",
-      "summary": "Meta's acquisition of MoltBook spotlights debates over AI-agent authenticity, mimetic social mechanics, and a research-versus-product power struggle. Thinking Machines Lab signed a multi-year deal with NVIDIA for at least one gigawatt of Vera Rubin-chip compute for frontier mode…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "beb392f09e008e274bbfffb37ec5cb02",
       "title": "🧠 Community Wisdom: Getting a skeptical CTO to adopt AI coding tools, staying after losing faith in the founder, Claude skills for designers, making the most of a jack-of-all-trades role, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-a-skeptical",
@@ -285,66 +122,6 @@
       "source_type": "rss",
       "published": "2026-03-14T17:43:36+00:00",
       "summary": "Community Wisdom 177",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b6cd823b75301ff9792dbb06271885eb",
-      "title": "Pro Worker AI",
-      "url": "https://www.youtube.com/watch?v=ArPVZZazQUA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-14T13:30:06+00:00",
-      "summary": "Recent AI-related layoffs, highlighted by Atlassian's cuts, spark debate over automation versus finance-driven restructuring. New research introduces an observed-exposure metric for AI displacement and finds high theoretical coverage in management and finance without clear emplo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8497b3ea8938484e8f4c8321f781f9fc",
-      "title": "What happens if the Strait of Hormuz is closed?!",
-      "url": "https://www.youtube.com/shorts/woiS6M13sVo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-14T13:01:41+00:00",
-      "summary": "What happens if the Strait of Hormuz is closed?\n\nIn this clip from Monetary Matters, Financial Times chief economics commentator Martin Wolf explains why a war in the Gulf could trigger a massive shock to the global economy. With much of the world’s oil flowing through one narro…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "92dc2e9fb24872cf4fb25c39b7274a99",
-      "title": "AI Agents Get Their Own Credit Cards",
-      "url": "https://www.youtube.com/watch?v=j_lxlPYAdTs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-13T16:50:26+00:00",
-      "summary": "Ramp and Stripe launched virtual payment cards for AI agents with spend limits, merchant controls, and real-time tracking. Ramp’s AI Index shows fast AI adoption, with Anthropic gaining share as OpenAI brings Sora video into ChatGPT and Google expands Gemini’s multimedia feature…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "230becfac809c9333eaa3ca34acd2ac7",
-      "title": "Iran War is a \"Nightmare Disruption Scenario\" | FT’s Chief Economics Commentator Martin Wolf",
-      "url": "https://www.youtube.com/watch?v=cV5UK0K3kXw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-13T14:40:43+00:00",
-      "summary": "Martin Wolf, chief economics commentator at the Financial Times joins Jack for a frank and important discussion on the war with Iran. Jack and Martin delve into the economic consequences of a prolonged war in Iran, particularly with regards to the Strait of Hormuz being affected…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -368,19 +145,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2801c1f3d36abe9b4fbd7c5e3ce79e21",
-      "title": "What Vibe Coding is Turning Into",
-      "url": "https://www.youtube.com/watch?v=eOcjqCJMQ2E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-12T22:12:56+00:00",
-      "summary": "Perplexity Computer (Enterprise and Personal) and Replit Agent Four showcase a shift toward persistent, multi-agent workflows and extensible vibecoding canvases. Major themes include multi-model orchestration, always-on local context via Mac Mini integration, parallel task execu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "904bc22d9379cc1d69be6472cc244384",
       "title": "Deep Learning Weekly: Issue 446",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-446",
@@ -391,21 +155,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e8d8b044715acb8b4c9e84cc1abfed65",
-      "title": "Why Google Workspace CLI is Such a Big Deal",
-      "url": "https://www.youtube.com/watch?v=1h2rwERtPpM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-12T13:20:36+00:00",
-      "summary": "Google's AI push showcased new Gemini models, the Genie world model demo, and rapid multimodal product shipping. Google Workspace CLI plus Gemini-powered Docs, Sheets, Slides and Embedding Two enable agents to access emails, Drive files, calendars and native multimodal retrieval…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -422,34 +171,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e9cfb9616f4a08a56393af2442e9b719",
-      "title": "\"Economic Chaos\" Threatened By Middle East War, Argues Joseph Stiglitz (Nobel Laureate Economist)",
-      "url": "https://www.youtube.com/watch?v=4wob38gZ2yQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-11T19:44:09+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nNobel Laureate in Economics Joseph Stiglitz (who holds highest #1 D-Index than all other Economists in the world) joins Jack to discuss the recent war in Iran, artificial intelligence, and his macroe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0e0c4ab287266c91ba891f3702418619",
-      "title": "Is the Debate Over Anthropic's New Product About Price or Existential Dread?",
-      "url": "https://www.youtube.com/watch?v=hnoPMIFjrWM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-11T14:50:11+00:00",
-      "summary": "Anthropic's Claude Code Review launch ignited intense debate about automated code review replacing human reviewers and the risk of recursive AI bias. Discussions focused on steep per-pull-request pricing, token-driven cost models, and competitive pressure from OpenAI and competi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5196eb550bdc5cba33b04d4021a257ae",
       "title": "From Figma to Claude Code and back | Gui Seiz & Alex Kern (Figma)",
       "url": "https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back",
@@ -458,34 +179,6 @@
       "published": "2026-03-11T12:03:30+00:00",
       "summary": "Watch now | 🎙️ How Figma’s designers and engineers use MCPs to pull production code into Figma, edit designs, and push changes back to code—eliminating design drift and enabling real-time collaboration",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ea6c33e9f99a6e066bb9fdfcdf74cff8",
-      "title": "This Macro Cycle Is Flashing WARNING Signs!",
-      "url": "https://www.youtube.com/shorts/M3iLSmzKDLk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-11T11:30:32+00:00",
-      "summary": "Michael Howell of Crossborder Capital explains that financial markets are currently sitting in a fragile “knife-edge equilibrium.” According to his liquidity cycle analysis, the macro cycle may be starting to turn downward — a shift that could make the next phase for risk assets…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "44abb10916f89aa6c9624ae852225cad",
-      "title": "The Liquidity Cycle Is Turning Down (Here's How) | Michael Howell",
-      "url": "https://www.youtube.com/watch?v=i0lm-mmBlQM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-10T19:50:19+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this episode, Michael Howell of Capital Wars and Global Liquidity Indexes discusses why the global liquidity cycle has peaked and is beginning to slow down in early 2026. This shift suggests that investo…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
@@ -514,21 +207,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "61a2feedccd0955e78bd6e6e4dd36d43",
-      "title": "Autoresearch, Agent Loops and the Future of Work",
-      "url": "https://www.youtube.com/watch?v=nt9j1k2IhUY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-10T00:48:51+00:00",
-      "summary": "Andrej Karpathy's Autoresearch demonstrates autonomous agent loops: agents edit training code, run fixed five-minute experiments, and commit only changes improving a single validation metric. Connections explored include the Ralph Wiggum iterative loop and multi-agent collaborat…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -577,19 +255,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ddacaad9c65ec6fa43c56f66894d25c8",
-      "title": "Gemini Can Now Write You a Song",
-      "url": "https://www.youtube.com/watch?v=09SNudBuoCE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-08T22:23:51+00:00",
-      "summary": "Google launches Lyria 3, a multimodal music generator creating 30-second clips from text, images, or video and integrating with Gemini and YouTube DreamTrack. Anthropic's new OAuth restrictions on Claude tokens ignited developer backlash and renewed debate over walled gardens an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "183ce7294deeed07524b437859011e69",
       "title": "The most successful AI company you’ve never heard of | Qasar Younis",
       "url": "https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of",
@@ -631,37 +296,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2c038313bde6fb16b9d21011b73ad90c",
-      "title": "Jensen Huang Calls OpenClaw \"Most Important Software Release Ever\"",
-      "url": "https://www.youtube.com/watch?v=lquuveY5i-g",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-07T15:47:06+00:00",
-      "summary": "Jensen Huang declared OpenClaw the most important software release ever. OpenClaw's explosive adoption has ignited a global agent arms race, with Chinese founders and cloud providers launching hosted instances and agentic apps. OpenAI and Anthropic revenues surged toward tens of…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "616f9eea5bdc9e931df850eb41e541ce",
-      "title": "Discussing A.I. Displacement with Nobel Laureate in Economics Peter Howitt",
-      "url": "https://www.youtube.com/watch?v=aKSmMLOj8SM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-05T20:49:07+00:00",
-      "summary": "Recent Nobel laureate in economics Peter Howitt joins Jack to discuss his work on technological disruption and creative destruction. Dr. Howitt explains that technological advancement creates economic growth while also causing workers to lose their jobs and firms to go bankrupt …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5d36618961dd198eaa49029c8632578d",
       "title": "Deep Learning Weekly: Issue 445",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
@@ -682,21 +316,6 @@
       "source_type": "rss",
       "published": "2026-03-05T08:42:21+00:00",
       "summary": "Anthropic releases Sonnet 4.6, Google Rolls Out Gemini 3.1 Pro, Anthropic CEO Amodei says Pentagon’s threats ‘do not change our position’ on AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e84ea7f339b79881489c2e1778c0f742",
-      "title": "How Iran Could Force a Macro Regime Change | Tian Yang",
-      "url": "https://www.youtube.com/watch?v=Mlbaxz1mdhM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-05T00:07:42+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nTian Yang, CEO of quant research platfo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -765,21 +384,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "27754580b208624c849d9cd0dec29efc",
-      "title": "How Legendary Resource Investor Rick Rule is Investing for a 10-Year Bull Market",
-      "url": "https://www.youtube.com/watch?v=0MSOGy12X4g",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-01T14:00:02+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nLegendary resource investor Rick Rule, founder of Rule Investment Media, explains why he anticipates a 75% decline in US dollar purchasing power over the n…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "371f59a5d7e6e4f0021a3ca90152c987",
       "title": "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)",
       "url": "https://www.lennysnewsletter.com/p/the-design-process-is-dead",
@@ -838,21 +442,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "10638daaf018851729545a9fbbede35f",
-      "title": "The Hard Truth About Market Psychology",
-      "url": "https://www.youtube.com/shorts/0UIBQutSFzs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-21T13:45:00+00:00",
-      "summary": "On the Monetary Matters Podcast with host Jack Farley, Carson Block explains why markets don’t always reward pure fundamentals.\n\nWhile many investors want a world where price reflects true economic value, Block argues that today’s markets are driven more by narrative, momentum, …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a51a2212bff71b6b9859f70b435ec5f9",
       "title": "Deep Learning Weekly: Issue 443",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-443",
@@ -896,21 +485,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b9122f2da762273c84e28113b8979414",
-      "title": "What Happens If the Dollar Isn’t Replaced by Anything?",
-      "url": "https://www.youtube.com/shorts/459wRqhts5Y",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-16T16:16:45+00:00",
-      "summary": "From evidence that tariffs have already pushed prices higher to warnings about a potentially fragmented global financial order, Krugman explains why China’s export-driven model and weak global demand could create major challenges ahead. Distinguished economist Paul Krugman break…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1493b020123756010c035dbe177da6c0",
       "title": "Last Week in AI #335 - Opus 4.6, Codex 5.3, Gemini 3 Deep Think, GLM 5, Seedance 2.0",
       "url": "https://lastweekin.ai/p/last-week-in-ai-335-opus-46-codex",
@@ -918,21 +492,6 @@
       "source_type": "rss",
       "published": "2026-02-16T02:00:20+00:00",
       "summary": "A crazy packed edition of Last Week in AI! Plus some small updates.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b27596a6223c6d880559ee7a991ee74",
-      "title": "“A Huge Problem for Everybody” | Paul Krugman on China, the Dollar, A.I., & More",
-      "url": "https://www.youtube.com/watch?v=pvEymKUcM_Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-15T21:13:04+00:00",
-      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/\n\nDistinguished economist Paul Krugman joins Jack to discuss the devaluation of the dollar, the nomination of Kevin Warsh, artificial intelligence, and much …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1582,5 +1141,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-19T05:55:07.755682+00:00"
+  "generated_at": "2026-03-19T06:53:53.979952+00:00"
 }
