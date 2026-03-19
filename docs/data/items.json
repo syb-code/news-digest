@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "8216477da207f943f795f074dc35d529",
+      "title": "How to Use Claude Cowork on the Go",
+      "url": "https://www.youtube.com/watch?v=vIBXClZf2dM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-19T18:32:01+00:00",
+      "summary": "Claude Cowork Dispatch enables mobile monitoring and approvals for desktop-hosted cowork sessions and signals a move toward a persistent AI layer across devices. China's OpenClaw surge has prompted regulatory warnings and deployment guidance amid rising privacy, security, and jo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "67ccbb46680956f54836a45f1f625b14",
       "title": "Inflation Is Going Up… So Why Is the Fed Cutting Rates?",
       "url": "https://www.youtube.com/watch?v=gbLja35Uw-A",
@@ -708,22 +724,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2c038313bde6fb16b9d21011b73ad90c",
-      "title": "Jensen Huang Calls OpenClaw \"Most Important Software Release Ever\"",
-      "url": "https://www.youtube.com/watch?v=lquuveY5i-g",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-07T15:47:06+00:00",
-      "summary": "Jensen Huang declared OpenClaw the most important software release ever. OpenClaw's explosive adoption has ignited a global agent arms race, with Chinese founders and cloud providers launching hosted instances and agentic apps. OpenAI and Anthropic revenues surged toward tens of…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1779,5 +1779,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-19T17:51:03.927972+00:00"
+  "generated_at": "2026-03-19T18:53:22.199604+00:00"
 }
