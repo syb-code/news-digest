@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "d985eb6ebd115e968a6f2097bf2aa317",
+      "title": "Deep Learning Weekly: Issue 447",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-447",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-03-19T15:31:00+00:00",
+      "summary": "Mamba-3, Agent-native Architectures: How to Build Apps After Code Ends, a paper on Attention Residuals, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "dacab495ad2d7ded2b324d09ea7bc9cb",
       "title": "A Primer on Using Agent Skills",
       "url": "https://www.youtube.com/watch?v=NU6wRAT9VQ0",
@@ -1659,21 +1672,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "875a15c877203870e5680fc3c02c11b3",
-      "title": "Deep Learning Weekly: Issue 427",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-427",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-22T15:01:11+00:00",
-      "summary": "Introducing Claude Haiku 4.5, The State of Open Models, a paper on TOUCAN: Synthesizing 1.5M Tool-Agentic Data from Real-World MCP Environments, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "04b44f55219ada76928d580e4fb5d344",
       "title": "Top design hacks for Lovable",
       "url": "https://designplusai.com/p/top-design-hacks-for-lovable",
@@ -1784,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-19T14:07:20.373960+00:00"
+  "generated_at": "2026-03-19T15:51:14.554016+00:00"
 }
