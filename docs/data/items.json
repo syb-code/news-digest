@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "dacab495ad2d7ded2b324d09ea7bc9cb",
+      "title": "A Primer on Using Agent Skills",
+      "url": "https://www.youtube.com/watch?v=NU6wRAT9VQ0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-19T01:51:06+00:00",
+      "summary": "Agent skills are modular folders of instructions, scripts, and assets enabling progressive disclosure so agents load precise knowledge only when needed. Anthropic's Claude Code taxonomy groups skills into data fetching, business automation, code quality, verification, and incide…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2c7390e16710540b9a9eb52a8be98e38",
+      "title": "This Has Consequences for Stocks. Bob Elliott on Oil Shock, Inflation, and Fed Meeting",
+      "url": "https://www.youtube.com/watch?v=zbWyNVCcO0Q",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-19T00:18:31+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, Jack Farley and Max Wiethe are joined by Bob Elliott, Chief Investment Officer at Unlimited Funds, to discuss the economic fallout of the recent conflict …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6805bb8049a23e1343c7aa3d96f23e55",
       "title": "The Private Credit Time Bomb: Rupert Mitchell Warns of Impaired Loans and Worthless Equity Cushions",
       "url": "https://www.youtube.com/watch?v=7wvP4dKePOo",
@@ -671,21 +699,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "05012d5e00e6f286cc8b40d5ebc0c4c4",
-      "title": "GPT-5.4 First Test Results",
-      "url": "https://www.youtube.com/watch?v=xIIj9hkISUE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-06T21:54:41+00:00",
-      "summary": "OpenAI's GPT-5.4 consolidates advances in reasoning, coding, and agentic workflows while adding a 1 million-token context window and native desktop/computer-use capabilities. Benchmarks show major gains for professional knowledge work and automation: faster, more token-efficient…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7ea42a837d0f6971556f4902c19846c9",
       "title": "Jobs Report Disaster: Major Warning for the U.S. Economy",
       "url": "https://www.youtube.com/watch?v=353aUcP-IwI",
@@ -1096,23 +1109,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4906e16a8327cdea7e898a56f81ffffb",
-      "title": "A Bear Market In Gold & Silver Is Coming | Milton Berg on Precious Metals, Stocks, and Bitcoin",
-      "url": "https://www.youtube.com/watch?v=rQZAqMNn9HE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-11T02:47:30+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nRecorded in February 6th 2026, technical analyst Milton Berg returns to discuss his market outlook after correctly predicting the major market bottom in April 2025. Although his long-term retail model remai…",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Tech/Earnings"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-18T23:27:35.952519+00:00"
+  "generated_at": "2026-03-19T01:56:44.889681+00:00"
 }
