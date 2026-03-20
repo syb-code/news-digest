@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "603573bfbe50f946c39271eb2b2a690a",
+      "title": "What People Really Want From AI",
+      "url": "https://www.youtube.com/watch?v=zHvE3b88lgM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-20T16:57:11+00:00",
+      "summary": "Anthropic's study of nearly 81,000 Claude users across 159 countries and 70 languages reveals nuanced, coexisting hopes and fears about AI. Major hopes cluster around professional excellence, personal transformation, reclaimed time, learning, and societal gains in healthcare and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "787d4d00d1a550eedf4cb8fa5d9f1600",
       "title": "The Risk of $300 Oil That Causes a Depression (Not Merely Recession) | Rory Johnston",
       "url": "https://www.youtube.com/watch?v=6sw_MgTtUB8",
@@ -681,19 +696,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ddacaad9c65ec6fa43c56f66894d25c8",
-      "title": "Gemini Can Now Write You a Song",
-      "url": "https://www.youtube.com/watch?v=09SNudBuoCE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-08T22:23:51+00:00",
-      "summary": "Google launches Lyria 3, a multimodal music generator creating 30-second clips from text, images, or video and integrating with Gemini and YouTube DreamTrack. Anthropic's new OAuth restrictions on Claude tokens ignited developer backlash and renewed debate over walled gardens an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1775,5 +1777,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-20T16:38:22.703988+00:00"
+  "generated_at": "2026-03-20T17:32:57.630895+00:00"
 }
