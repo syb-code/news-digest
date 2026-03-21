@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "58a019d6dc0e54e0d54045783611160f",
+      "title": "🧠 Community Wisdom: Beating the solo-founder procrastination trap, best tools for B2B prospecting, finding your first real users pre-launch, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-21T17:19:36+00:00",
+      "summary": "Community Wisdom 178",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "603573bfbe50f946c39271eb2b2a690a",
       "title": "What People Really Want From AI",
       "url": "https://www.youtube.com/watch?v=zHvE3b88lgM",
@@ -929,21 +942,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8ccbeefb67226a998b4092c6b496185e",
-      "title": "🧠 Community Wisdom: Building your tech stack from scratch, surviving painful product demos, managing LLM credit costs, resources for new designers, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-your-tech",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-28T17:16:48+00:00",
-      "summary": "Community Wisdom 175",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "451d4d5fdd85ffa0aea3c71966745658",
       "title": "Trump's 1 Million Homes Plan — Will It Fix Housing or Backfire?",
       "url": "https://www.youtube.com/watch?v=ZejlPoUZI20",
@@ -1779,5 +1777,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-21T16:24:50.952953+00:00"
+  "generated_at": "2026-03-21T17:22:07.301750+00:00"
 }
