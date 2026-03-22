@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fd22b997fb748c8921f9f98e53f50ae0",
+      "title": "Oil Shock Will Break the Global System!",
+      "url": "https://www.youtube.com/shorts/LYHYMX5jv5s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-22T15:15:04+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with commodities expert Rory Johnson about the risks of a major disruption in Middle East oil supply.\n\nJohnson explains that a large-scale shock to the oil supply chain wouldn’t just raise prices — it could send a shockwav…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c283d7f0e6ea9f2aa1cbd464eadb60f3",
       "title": "The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)",
       "url": "https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain",
@@ -1082,21 +1097,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b9122f2da762273c84e28113b8979414",
-      "title": "What Happens If the Dollar Isn’t Replaced by Anything?",
-      "url": "https://www.youtube.com/shorts/459wRqhts5Y",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-16T16:16:45+00:00",
-      "summary": "From evidence that tariffs have already pushed prices higher to warnings about a potentially fragmented global financial order, Krugman explains why China’s export-driven model and weak global demand could create major challenges ahead. Distinguished economist Paul Krugman break…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1493b020123756010c035dbe177da6c0",
       "title": "Last Week in AI #335 - Opus 4.6, Codex 5.3, Gemini 3 Deep Think, GLM 5, Seedance 2.0",
       "url": "https://lastweekin.ai/p/last-week-in-ai-335-opus-46-codex",
@@ -1777,5 +1777,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-22T14:24:27.844217+00:00"
+  "generated_at": "2026-03-22T15:22:28.777636+00:00"
 }
