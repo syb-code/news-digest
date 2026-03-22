@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "684dc8bf2033f90bba6fa813947e5fe8",
+      "title": "Fertilizer Nightmare Threatens Global Food Systems | Josh Linville on Iran War’s Fertilizer Shock",
+      "url": "https://www.youtube.com/watch?v=zL3k_TmlCPs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-22T17:20:16+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippl…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fd22b997fb748c8921f9f98e53f50ae0",
       "title": "Oil Shock Will Break the Global System!",
       "url": "https://www.youtube.com/shorts/LYHYMX5jv5s",
@@ -1013,21 +1028,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "10638daaf018851729545a9fbbede35f",
-      "title": "The Hard Truth About Market Psychology",
-      "url": "https://www.youtube.com/shorts/0UIBQutSFzs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-02-21T13:45:00+00:00",
-      "summary": "On the Monetary Matters Podcast with host Jack Farley, Carson Block explains why markets don’t always reward pure fundamentals.\n\nWhile many investors want a world where price reflects true economic value, Block argues that today’s markets are driven more by narrative, momentum, …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "57876a3ff1ac391ae6ef5bd46523633b",
       "title": "Trump Tariffs Blocked — It's Official (Supreme Court Ruling)",
       "url": "https://www.youtube.com/watch?v=VweRLNTVjcc",
@@ -1777,5 +1777,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-22T17:22:26.857925+00:00"
+  "generated_at": "2026-03-22T18:31:46.657695+00:00"
 }
