@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dd7f6bc4160fa838d49104fcdd76bfd3",
+      "title": "Housing Market Update 2026 — The Hidden Costs Are Surging",
+      "url": "https://www.youtube.com/watch?v=X03ZGdr04vQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-23T16:00:55+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "76ad5ded5d8bb1997de67d246f2f6a3a",
       "title": "🎙️ This week on How I AI: How Microsoft's AI VP automates everything with Warp",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-microsofts",
@@ -1175,19 +1190,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7f2d32b5d94e403a2cc16a23df59873b",
-      "title": "Labor Market Warning: Layoffs Surge 118% in January",
-      "url": "https://www.youtube.com/watch?v=QadL1JNe-GU",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-06T17:11:56+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "dfc8c1534256bcec99e61b6338ab8930",
       "title": "LWiAI Podcast #233 - Moltbot, Genie 3, Qwen3-Max-Thinking",
       "url": "https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3",
@@ -1773,5 +1775,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-23T15:56:48.743728+00:00"
+  "generated_at": "2026-03-23T16:56:32.754916+00:00"
 }
