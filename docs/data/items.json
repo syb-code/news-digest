@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "aa254796804e00f2e17fb9cbf1d501ff",
+      "title": "Last Week in AI #339 - DLSS 5, OpenAI Superapp, MiniMax M2.7",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-339-dlss-5-openai",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-23T08:11:29+00:00",
+      "summary": "DLSS 5 looks like a real-time generative AI filter for video games, OpenAI Reportedly Pivoting to a Focus on Business and Productivity Only, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "684dc8bf2033f90bba6fa813947e5fe8",
       "title": "Fertilizer Nightmare Threatens Global Food Systems | Josh Linville on Iran War’s Fertilizer Shock",
       "url": "https://www.youtube.com/watch?v=zL3k_TmlCPs",
@@ -1473,21 +1488,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dff95064d2838cc0ce373f82689121ed",
-      "title": "Last Week in AI #329 - GPT 5.2, GenAI.mil, Disney in Sora",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-329-gpt-52-genaimil",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-12-16T07:45:13+00:00",
-      "summary": "GPT-5.2 is OpenAI’s latest move in the agentic AI battle, Google is powering a new US military AI platform, Trump Moves to Stop States From Regulating AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ea647dedcea259be796acded8f838ee5",
       "title": "Deep Learning Weekly: Issue 434",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
@@ -1777,5 +1777,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-23T08:00:00.828464+00:00"
+  "generated_at": "2026-03-23T09:08:51.386384+00:00"
 }
