@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "174f5889cfe7241f93561f036a1b2177",
+      "title": "State of the product job market in early 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-372",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-24T09:02:05+00:00",
+      "summary": "AI roles are exploding, PM and eng job openings are the highest in years, and the overall number of tech jobs is up",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4fc6cce8e5dfd78c8df307bb75bddc68",
       "title": "“Not Until May” The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen",
       "url": "https://www.youtube.com/watch?v=kmKOKsPJDXA",
@@ -972,19 +987,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f21fa7623cf1fdff4616b71dbece3fdf",
-      "title": "How to debug a team that isn’t working: the Waterline Model",
-      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working-d43",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-03T13:02:55+00:00",
-      "summary": "A guide to solving team problems (without always blaming the people)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "281cd83fb73217ddaf2141b1f31dacbb",
       "title": "Stock Market Reaction to Iran: De-Escalation Priced In (Big Risk)",
       "url": "https://www.youtube.com/watch?v=hjdfv8687fo",
@@ -1775,5 +1777,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-24T08:47:56.660809+00:00"
+  "generated_at": "2026-03-24T09:52:39.747786+00:00"
 }
