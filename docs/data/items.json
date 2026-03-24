@@ -16,6 +16,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "dd7f6bc4160fa838d49104fcdd76bfd3",
+      "title": "Housing Market Update 2026 — The Hidden Costs Are Surging",
+      "url": "https://www.youtube.com/watch?v=X03ZGdr04vQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-23T16:00:55+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "76ad5ded5d8bb1997de67d246f2f6a3a",
       "title": "🎙️ This week on How I AI: How Microsoft's AI VP automates everything with Warp",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-microsofts",
@@ -119,6 +134,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "603573bfbe50f946c39271eb2b2a690a",
+      "title": "What People Really Want From AI",
+      "url": "https://www.youtube.com/watch?v=zHvE3b88lgM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-20T16:57:11+00:00",
+      "summary": "Anthropic's study of nearly 81,000 Claude users across 159 countries and 70 languages reveals nuanced, coexisting hopes and fears about AI. Major hopes cluster around professional excellence, personal transformation, reclaimed time, learning, and societal gains in healthcare and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "787d4d00d1a550eedf4cb8fa5d9f1600",
       "title": "Oil Will “Sail” Past $230 | Rory Johnston on Why Iran War Has\"Terrified\" The Oil Market",
       "url": "https://www.youtube.com/watch?v=6sw_MgTtUB8",
@@ -134,6 +164,37 @@
       "bucket": "highlight"
     },
     {
+      "id": "8216477da207f943f795f074dc35d529",
+      "title": "How to Use Claude Cowork on the Go",
+      "url": "https://www.youtube.com/watch?v=vIBXClZf2dM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-19T18:32:01+00:00",
+      "summary": "Claude Cowork Dispatch enables mobile monitoring and approvals for desktop-hosted cowork sessions and signals a move toward a persistent AI layer across devices. China's OpenClaw surge has prompted regulatory warnings and deployment guidance amid rising privacy, security, and jo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "67ccbb46680956f54836a45f1f625b14",
+      "title": "Inflation Is Going Up… So Why Is the Fed Cutting Rates?",
+      "url": "https://www.youtube.com/watch?v=gbLja35Uw-A",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-19T16:01:08+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d985eb6ebd115e968a6f2097bf2aa317",
       "title": "Deep Learning Weekly: Issue 447",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-447",
@@ -141,6 +202,19 @@
       "source_type": "rss",
       "published": "2026-03-19T15:31:00+00:00",
       "summary": "Mamba-3, Agent-native Architectures: How to Build Apps After Code Ends, a paper on Attention Residuals, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "dacab495ad2d7ded2b324d09ea7bc9cb",
+      "title": "A Primer on Using Agent Skills",
+      "url": "https://www.youtube.com/watch?v=NU6wRAT9VQ0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-19T01:51:06+00:00",
+      "summary": "Agent skills are modular folders of instructions, scripts, and assets enabling progressive disclosure so agents load precise knowledge only when needed. Anthropic's Claude Code taxonomy groups skills into data fetching, business automation, code quality, verification, and incide…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -190,6 +264,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "8e1f66103e52f16af14a7f4a0a0f10a7",
+      "title": "The Race to Put AI Agents Everywhere",
+      "url": "https://www.youtube.com/watch?v=zjcjT6BukQA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-18T00:17:36+00:00",
+      "summary": "Q1 delivered a turning point as open-source agents like OpenClaw sparked mass experimentation and proved agents can do real work. Nvidia NemoClaw, Manus desktop agents, Perplexity Computer, Adaptive, and OpenAI Codex updates race to productize enterprise-grade secure agents brid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f522e8dcd89898147f166e383bdc2dab",
+      "title": "A Guy Used AI to Cure His Dog's Cancer",
+      "url": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-17T15:54:41+00:00",
+      "summary": "A second AI moment defined by agentic systems and rapidly rising capabilities has pushed public discourse into a near-constant high-alert state. Stories range from a DIY mRNA vaccine for a dog to Carpathy's job-exposure visualization, highlighting both transformative potential a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5f3c827502c8f608b7f1daa673442052",
       "title": "How I built LennyRPG",
       "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg",
@@ -227,6 +331,49 @@
       "source_type": "rss",
       "published": "2026-03-16T21:21:34+00:00",
       "summary": "I recently built an internal brand agent for Lovable and a lot of people asked how I did it, so here's the exact guide:",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "38699c50f6112e9d355706a8346a64f4",
+      "title": "What to Expect from Nvidia This Week",
+      "url": "https://www.youtube.com/watch?v=qrmgkWl0vPg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-16T20:56:16+00:00",
+      "summary": "Nvidia unveiled a push into inference with a GROQ‑based chip and Samsung production that could diversify manufacturing outside TSMC. SEC filings show a sharp rise in AI agent risk disclosures, signaling growing legal and business concern about agent disruption to SaaS. Copyright…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "53645889e6cfdedbf072f981507115be",
+      "title": "Meta Delays New AI Model",
+      "url": "https://www.youtube.com/watch?v=eDGI3sNRnhg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-16T17:33:46+00:00",
+      "summary": "Meta delays the Avocado model after internal benchmarks showed shortfalls in reasoning, coding, and writing. XAI endures co-founder departures while recruiting senior product leaders from Cursor. Enterprise AI adoption lags operationally even as 81% of doctors use AI for documen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0333b9a5dbc89447dbe778d4b0bb2fe9",
+      "title": "Private Credit: The Next Risk in the Financial System",
+      "url": "https://www.youtube.com/watch?v=5AjShaNN3Jo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-16T16:00:14+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -306,6 +453,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "c28070508492ae07abebb15dbd17e9f0",
+      "title": "The 16 Coolest Agents I've Built So Far",
+      "url": "https://www.youtube.com/watch?v=CnxQpf02_js",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-15T13:28:26+00:00",
+      "summary": "In this Operators Bonus Episode, I pit 16 different things I've built this year against each other in a March Madness-style bracket — from OpenClaw bots and vibe-coded side projects to the Sherlock Holmes-inspired agent ecosystem I'm developing for enterprise AI strategy. It's a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7e555247bdd9de5f8ea1a587f71cd21a",
       "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick (Executive Negotiator)",
       "url": "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp",
@@ -319,6 +481,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "b3129ae3dc50aee0a4a02c7f5140a7fc",
+      "title": "The Social Network for Agents Just Got Acquired",
+      "url": "https://www.youtube.com/watch?v=2Ws3YiSzCX0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-14T23:40:21+00:00",
+      "summary": "Meta's acquisition of MoltBook spotlights debates over AI-agent authenticity, mimetic social mechanics, and a research-versus-product power struggle. Thinking Machines Lab signed a multi-year deal with NVIDIA for at least one gigawatt of Vera Rubin-chip compute for frontier mode…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "beb392f09e008e274bbfffb37ec5cb02",
       "title": "🧠 Community Wisdom: Getting a skeptical CTO to adopt AI coding tools, staying after losing faith in the founder, Claude skills for designers, making the most of a jack-of-all-trades role, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-a-skeptical",
@@ -326,6 +503,21 @@
       "source_type": "rss",
       "published": "2026-03-14T17:43:36+00:00",
       "summary": "Community Wisdom 177",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b6cd823b75301ff9792dbb06271885eb",
+      "title": "Pro Worker AI",
+      "url": "https://www.youtube.com/watch?v=ArPVZZazQUA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-14T13:30:06+00:00",
+      "summary": "Recent AI-related layoffs, highlighted by Atlassian's cuts, spark debate over automation versus finance-driven restructuring. New research introduces an observed-exposure metric for AI displacement and finds high theoretical coverage in management and finance without clear emplo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -346,6 +538,34 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "92dc2e9fb24872cf4fb25c39b7274a99",
+      "title": "AI Agents Get Their Own Credit Cards",
+      "url": "https://www.youtube.com/watch?v=j_lxlPYAdTs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-13T16:50:26+00:00",
+      "summary": "Ramp and Stripe launched virtual payment cards for AI agents with spend limits, merchant controls, and real-time tracking. Ramp’s AI Index shows fast AI adoption, with Anthropic gaining share as OpenAI brings Sora video into ChatGPT and Google expands Gemini’s multimedia feature…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bf60cbbb48af220bbd3b7cae6aba497c",
+      "title": "Americans Are Struggling With Debt and Missed Payments",
+      "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-13T16:00:04+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -379,6 +599,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "2801c1f3d36abe9b4fbd7c5e3ce79e21",
+      "title": "What Vibe Coding is Turning Into",
+      "url": "https://www.youtube.com/watch?v=eOcjqCJMQ2E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-12T22:12:56+00:00",
+      "summary": "Perplexity Computer (Enterprise and Personal) and Replit Agent Four showcase a shift toward persistent, multi-agent workflows and extensible vibecoding canvases. Major themes include multi-model orchestration, always-on local context via Mac Mini integration, parallel task execu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "904bc22d9379cc1d69be6472cc244384",
       "title": "Deep Learning Weekly: Issue 446",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-446",
@@ -389,6 +622,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e8d8b044715acb8b4c9e84cc1abfed65",
+      "title": "Why Google Workspace CLI is Such a Big Deal",
+      "url": "https://www.youtube.com/watch?v=1h2rwERtPpM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-12T13:20:36+00:00",
+      "summary": "Google's AI push showcased new Gemini models, the Genie world model demo, and rapid multimodal product shipping. Google Workspace CLI plus Gemini-powered Docs, Sheets, Slides and Embedding Two enable agents to access emails, Drive files, calendars and native multimodal retrieval…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -415,6 +663,34 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "70fa850aa7372bfefac51efe0c2660bf",
+      "title": "CPI Inflation Report: Gasoline Prices Surging — Trouble Ahead",
+      "url": "https://www.youtube.com/watch?v=3woIZO1tixY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-11T19:33:50+00:00",
+      "summary": "⭐ To see what I'm doing with my stocks, gold, silver please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0e0c4ab287266c91ba891f3702418619",
+      "title": "Is the Debate Over Anthropic's New Product About Price or Existential Dread?",
+      "url": "https://www.youtube.com/watch?v=hnoPMIFjrWM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-11T14:50:11+00:00",
+      "summary": "Anthropic's Claude Code Review launch ignited intense debate about automated code review replacing human reviewers and the risk of recursive AI bias. Discussions focused on steep per-pull-request pricing, token-driven cost models, and competitive pressure from OpenAI and competi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -479,6 +755,34 @@
       "source_type": "rss",
       "published": "2026-03-10T09:00:40+00:00",
       "summary": "10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "61a2feedccd0955e78bd6e6e4dd36d43",
+      "title": "Autoresearch, Agent Loops and the Future of Work",
+      "url": "https://www.youtube.com/watch?v=nt9j1k2IhUY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-10T00:48:51+00:00",
+      "summary": "Andrej Karpathy's Autoresearch demonstrates autonomous agent loops: agents edit training code, run fixed five-minute experiments, and commit only changes improving a single validation metric. Connections explored include the Ralph Wiggum iterative loop and multi-agent collaborat…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
+      "title": "US Debt Crisis: Warning From The Bond Market",
+      "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-09T16:00:40+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -571,6 +875,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "7ea42a837d0f6971556f4902c19846c9",
+      "title": "Jobs Report Disaster: Major Warning for the U.S. Economy",
+      "url": "https://www.youtube.com/watch?v=353aUcP-IwI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-06T20:08:51+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, or to chat, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "616f9eea5bdc9e931df850eb41e541ce",
       "title": "Discussing A.I. Displacement with Nobel Laureate in Economics Peter Howitt",
       "url": "https://www.youtube.com/watch?v=aKSmMLOj8SM",
@@ -611,6 +928,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e52c570b53cc56a258acb32d00795433",
+      "title": "Rising Gasoline and Oil Prices Increase Recession Risk",
+      "url": "https://www.youtube.com/watch?v=X9Kj8j8Iw9s",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-05T02:50:14+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -655,6 +985,34 @@
       "bucket": "highlight"
     },
     {
+      "id": "281cd83fb73217ddaf2141b1f31dacbb",
+      "title": "Stock Market Reaction to Iran: De-Escalation Priced In (Big Risk)",
+      "url": "https://www.youtube.com/watch?v=hjdfv8687fo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-02T21:30:50+00:00",
+      "summary": "⭐ To see what I'm doing with my stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "451d4d5fdd85ffa0aea3c71966745658",
+      "title": "Trump's 1 Million Homes Plan — Will It Fix Housing or Backfire?",
+      "url": "https://www.youtube.com/watch?v=ZejlPoUZI20",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-26T17:01:03+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "53a0e6836437abdf3702d73c3fff98de",
       "title": "Deep Learning Weekly: Issue 444",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-444",
@@ -683,6 +1041,32 @@
       "bucket": "highlight"
     },
     {
+      "id": "f55772d5cb2df963ddf1adad072855c9",
+      "title": "Trump Tariffs 2.0 — The New 15% Tax on You",
+      "url": "https://www.youtube.com/watch?v=YuzhuD8yzrI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-23T17:01:00+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "57876a3ff1ac391ae6ef5bd46523633b",
+      "title": "Trump Tariffs Blocked — It's Official (Supreme Court Ruling)",
+      "url": "https://www.youtube.com/watch?v=VweRLNTVjcc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-20T19:01:28+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a51a2212bff71b6b9859f70b435ec5f9",
       "title": "Deep Learning Weekly: Issue 443",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-443",
@@ -705,6 +1089,19 @@
       "source_type": "rss",
       "published": "2026-02-19T15:44:04+00:00",
       "summary": "There’s a new interaction pattern emerging in software, and I don’t think we’ve named it yet.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "68415ab739cde2d9e3e976794fbaceba",
+      "title": "Interest Rate Cuts Are Coming — Investors Need to Position Now",
+      "url": "https://www.youtube.com/watch?v=FmhGJ6mqXmM",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-17T17:00:20+00:00",
+      "summary": "⭐ To see what I'm doing with gold/silver/stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GT…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -741,6 +1138,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "9b270819f56ecbce6ca311932e63586c",
+      "title": "Labor Market Warning: The Jobs Report Doesn't Add Up",
+      "url": "https://www.youtube.com/watch?v=3rjbUQszOC0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-12T17:00:09+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "359d5bb186a1409878b4c19b23238b39",
       "title": "Deep Learning Weekly: Issue 442",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-442",
@@ -748,6 +1158,19 @@
       "source_type": "rss",
       "published": "2026-02-12T16:02:28+00:00",
       "summary": "Claude Opus 4.6, Harness engineering: leveraging Codex in an agent-first world, a paper on Weak-Driven Learning: How Weak Agents make Strong Agents Stronger, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d7b1637db0a05f1c1c23d2fde7a16058",
+      "title": "Trump Predicts the Stock Market Will Double in 3 Years",
+      "url": "https://www.youtube.com/watch?v=Jpqjf0KFziY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-02-09T17:00:35+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, silver, gold, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1352,5 +1775,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-24T05:57:19.700912+00:00"
+  "generated_at": "2026-03-24T07:06:57.095497+00:00"
 }
