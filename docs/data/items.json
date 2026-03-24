@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "03de2603e764397e075378564508553d",
+      "title": "Val Kilmer's AI Resurrection",
+      "url": "https://www.youtube.com/watch?v=4u-c8TS-0qs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-24T12:45:56+00:00",
+      "summary": "AI recreated Val Kilmer's on-screen performance for Deep as the Grave using Kilmer's actual voice with permission from the Kilmer Estate and SAG-compliant processes. The approach ignited debates about posthumous digital performances, artistic agency, cultural authenticity, and e…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ecbcfe0b950867c702f9ab1f6e3c250d",
+      "title": "State of the product job market in early 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-24T12:45:12+00:00",
+      "summary": "AI roles are exploding, PM and eng job openings are the highest in years, and the overall number of tech jobs is up",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "174f5889cfe7241f93561f036a1b2177",
       "title": "State of the product job market in early 2026",
       "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-372",
@@ -776,21 +806,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "61a2feedccd0955e78bd6e6e4dd36d43",
-      "title": "Autoresearch, Agent Loops and the Future of Work",
-      "url": "https://www.youtube.com/watch?v=nt9j1k2IhUY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-10T00:48:51+00:00",
-      "summary": "Andrej Karpathy's Autoresearch demonstrates autonomous agent loops: agents edit training code, run fixed five-minute experiments, and commit only changes improving a single validation metric. Connections explored include the Ralph Wiggum iterative loop and multi-agent collaborat…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
       "title": "US Debt Crisis: Warning From The Bond Market",
       "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
@@ -971,19 +986,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d6761ed796d0b3781aa1f1d508ee946d",
-      "title": "How to debug a team that isn’t working: the Waterline Model",
-      "url": "https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-03T13:45:17+00:00",
-      "summary": "A guide to solving team problems (without always blaming the people)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1777,5 +1779,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-24T11:42:18.929589+00:00"
+  "generated_at": "2026-03-24T13:03:57.122408+00:00"
 }
