@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "51d9b1545336626df74ea3fa675eda3d",
+      "title": "The Hidden Market Stress Obscured by Stock Indexes | Liz Ann Sonders",
+      "url": "https://www.youtube.com/watch?v=nkL0oBXV_9U",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-25T16:34:36+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): \nhttps://etf.am.pictet.com/pqnt/?utm_campaign=usetf&cid=2715538577&utm_source=jfmv&utm_content=pqnt&utm_medium=podcast_02&utm_term=noterm\n\nIn this episode of Monetary Matters,  Liz Ann Son…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "45fb90f7118376c02a38ba876dd0bf08",
       "title": "How Stripe built “minions”—AI coding agents that ship 1,300 PRs weekly from Slack reactions | Steve Kaliski (Stripe engineer)",
       "url": "https://www.lennysnewsletter.com/p/how-stripe-built-minionsai-coding",
@@ -974,21 +989,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e84ea7f339b79881489c2e1778c0f742",
-      "title": "How Iran Could Force a Macro Regime Change | Tian Yang",
-      "url": "https://www.youtube.com/watch?v=Mlbaxz1mdhM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-05T00:07:42+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nTian Yang, CEO of quant research platfo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "281cd83fb73217ddaf2141b1f31dacbb",
       "title": "Stock Market Reaction to Iran: De-Escalation Priced In (Big Risk)",
       "url": "https://www.youtube.com/watch?v=hjdfv8687fo",
@@ -1779,5 +1779,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-25T16:06:38.343562+00:00"
+  "generated_at": "2026-03-25T17:55:23.997720+00:00"
 }
