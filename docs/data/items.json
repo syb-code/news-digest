@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "45fb90f7118376c02a38ba876dd0bf08",
+      "title": "How Stripe built “minions”—AI coding agents that ship 1,300 PRs weekly from Slack reactions | Steve Kaliski (Stripe engineer)",
+      "url": "https://www.lennysnewsletter.com/p/how-stripe-built-minionsai-coding",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-25T12:03:34+00:00",
+      "summary": "Watch now | 🎙️ How Stripe engineers deploy AI agents that write PRs from Slack reactions, plus a demo of machine-to-machine payments that plan a birthday party for $5.47",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7462438aae207b40bde06ad779114862",
       "title": "How to Use Claude's Massive New Upgrades",
       "url": "https://www.youtube.com/watch?v=wZB5fpm8oUA",
@@ -890,19 +905,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9114ed1217dc8fd47f88350e186ace6e",
-      "title": "🧠 Community Wisdom: Business books that haven’t aged well, vibe coding with your Figma design systems, Claude Code vs. other coding tools and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-business-books-that",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-07T16:44:42+00:00",
-      "summary": "Community Wisdom 176",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "7ea42a837d0f6971556f4902c19846c9",
       "title": "Jobs Report Disaster: Major Warning for the U.S. Economy",
       "url": "https://www.youtube.com/watch?v=353aUcP-IwI",
@@ -1777,5 +1779,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-25T11:38:47.262653+00:00"
+  "generated_at": "2026-03-25T13:01:18.660730+00:00"
 }
