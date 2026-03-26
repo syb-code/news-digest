@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "41b924a52fb0d805c21e08d1143e4dc5",
+      "title": "Work AGI is the Only AGI that Matters",
+      "url": "https://www.youtube.com/watch?v=gmkURB_HmQI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-26T00:12:26+00:00",
+      "summary": "OpenAI pivots compute and engineering from the consumer video app Sora toward coding and knowledge-work models like Codex and the pretrained Spud. Executive reshuffle trims Sam Altman's direct oversight while folding safety into research and security into scaling under Mark Chen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "51d9b1545336626df74ea3fa675eda3d",
       "title": "The Hidden Market Stress Obscured by Stock Indexes | Liz Ann Sonders",
       "url": "https://www.youtube.com/watch?v=nkL0oBXV_9U",
@@ -710,21 +725,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e8d8b044715acb8b4c9e84cc1abfed65",
-      "title": "Why Google Workspace CLI is Such a Big Deal",
-      "url": "https://www.youtube.com/watch?v=1h2rwERtPpM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-12T13:20:36+00:00",
-      "summary": "Google's AI push showcased new Gemini models, the Genie world model demo, and rapid multimodal product shipping. Google Workspace CLI plus Gemini-powered Docs, Sheets, Slides and Embedding Two enable agents to access emails, Drive files, calendars and native multimodal retrieval…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1779,5 +1779,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-25T23:30:53.720755+00:00"
+  "generated_at": "2026-03-26T02:01:20.262134+00:00"
 }
