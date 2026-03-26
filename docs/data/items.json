@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "bc3c99eab4e6e23f7b7b30d08554995c",
+      "title": "How to Build a Stock Market Portfolio With Just 4 Investments",
+      "url": "https://www.youtube.com/watch?v=3Nx_g-mPqOc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-26T16:00:04+00:00",
+      "summary": "⭐ To see what I'm doing with my stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e37c2bfa951e3993d02e30fb46160ab6",
       "title": "Deep Learning Weekly: Issue 448",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-448",
@@ -1183,19 +1196,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d7b1637db0a05f1c1c23d2fde7a16058",
-      "title": "Trump Predicts the Stock Market Will Double in 3 Years",
-      "url": "https://www.youtube.com/watch?v=Jpqjf0KFziY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-09T17:00:35+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, silver, gold, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5212d77759d956e815cc7a90f1ff063f",
       "title": "Prediction: Websites are disappearing",
       "url": "https://designplusai.com/p/prediction-websites-are-disappearing",
@@ -1781,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-26T16:17:49.212842+00:00"
+  "generated_at": "2026-03-26T17:58:37.668890+00:00"
 }
