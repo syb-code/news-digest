@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e37c2bfa951e3993d02e30fb46160ab6",
+      "title": "Deep Learning Weekly: Issue 448",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-448",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-03-26T15:03:09+00:00",
+      "summary": "Cursor's Composer 2, TurboQuant: Redefining AI efficiency with extreme compression, a paper on Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "41b924a52fb0d805c21e08d1143e4dc5",
       "title": "Work AGI is the Only AGI that Matters",
       "url": "https://www.youtube.com/watch?v=gmkURB_HmQI",
@@ -1656,19 +1671,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e6fe5bf1dbb59eb171461c4b48047a0e",
-      "title": "Deep Learning Weekly: Issue 428",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-428",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-10-30T15:01:16+00:00",
-      "summary": "DeepSeek-OCR, Introducing Chronos-2: From univariate to universal forecasting, a paper on InteractComp: Evaluating Search Agents With Ambiguous Queries, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "04b44f55219ada76928d580e4fb5d344",
       "title": "Top design hacks for Lovable",
       "url": "https://designplusai.com/p/top-design-hacks-for-lovable",
@@ -1779,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-26T15:00:04.200394+00:00"
+  "generated_at": "2026-03-26T16:17:49.212842+00:00"
 }
