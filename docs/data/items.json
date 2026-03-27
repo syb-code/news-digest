@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "816a9940aadaa337f8ce6c436bc43804",
+      "title": "Iran War Could Cause A Stagflation Nightmare (Yes, Really) | Sovereign Debt Expert Lupin Rahman",
+      "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-27T16:22:43+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nFormer Head of Sovereign Credit at PIMCO Lupin Rahman joins Jack to discuss sovereign debt and its peculiarities. She explains why its technicals can differ significantly from fundamentals, t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "41c8e07e56e5677833c30628bb52c8c5",
       "title": "Why AI Needs Better Benchmarks",
       "url": "https://www.youtube.com/watch?v=kLZeFWZewH0",
@@ -963,21 +978,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "616f9eea5bdc9e931df850eb41e541ce",
-      "title": "Discussing A.I. Displacement with Nobel Laureate in Economics Peter Howitt",
-      "url": "https://www.youtube.com/watch?v=aKSmMLOj8SM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-05T20:49:07+00:00",
-      "summary": "Recent Nobel laureate in economics Peter Howitt joins Jack to discuss his work on technological disruption and creative destruction. Dr. Howitt explains that technological advancement creates economic growth while also causing workers to lose their jobs and firms to go bankrupt …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5d36618961dd198eaa49029c8632578d",
       "title": "Deep Learning Weekly: Issue 445",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-27T15:49:37.616325+00:00"
+  "generated_at": "2026-03-27T16:51:12.386595+00:00"
 }
