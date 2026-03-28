@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "00db39daa0d82ae91fb51116d21ff9f6",
+      "title": "🧠 Community Wisdom: When AI velocity outpaces your product strategy, when your estimates keep slipping, one day in San Francisco, pairing Claude Code with Codex, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-ai-velocity",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-28T17:01:42+00:00",
+      "summary": "Community Wisdom 179",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "816a9940aadaa337f8ce6c436bc43804",
       "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
       "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
@@ -937,21 +952,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "183ce7294deeed07524b437859011e69",
-      "title": "The most successful AI company you’ve never heard of | Qasar Younis",
-      "url": "https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-08T12:31:38+00:00",
-      "summary": "Listen now | Qasar Younis on why staying under-the-radar helped him build a $15 billion company, why emotions are a filter that distorts decision-making, and why the real AI revolution is happening in the physical",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "05f93b920f30b8406b4f566e4ac95dfe",
       "title": "How to build premium pitch decks in Lovable",
       "url": "https://designplusai.com/p/how-to-build-premium-pitch-decks",
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-28T16:29:28.122133+00:00"
+  "generated_at": "2026-03-28T17:25:10.604303+00:00"
 }
