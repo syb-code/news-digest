@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f6f5cd84838ae12c1dc27f8ff8f55678",
+      "title": "Anthropic's New Mythos Model a \"Step Change\" in Capabilities",
+      "url": "https://www.youtube.com/watch?v=EBXZ4zZwS7c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-29T01:28:56+00:00",
+      "summary": "A leaked draft reveals Anthropic's Claude Mythos, a compute‑intensive, more capable model now in early access and prompting concerns about cybersecurity and release safety. Google's Gemini 3.1 Flash Live brings continuous, low‑latency conversational voice with improved multi‑ste…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "00db39daa0d82ae91fb51116d21ff9f6",
       "title": "🧠 Community Wisdom: When AI velocity outpaces your product strategy, when your estimates keep slipping, one day in San Francisco, pairing Claude Code with Codex, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-ai-velocity",
@@ -709,21 +722,6 @@
       "source_type": "youtube",
       "published": "2026-03-14T13:01:41+00:00",
       "summary": "What happens if the Strait of Hormuz is closed?\n\nIn this clip from Monetary Matters, Financial Times chief economics commentator Martin Wolf explains why a war in the Gulf could trigger a massive shock to the global economy. With much of the world’s oil flowing through one narro…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "92dc2e9fb24872cf4fb25c39b7274a99",
-      "title": "AI Agents Get Their Own Credit Cards",
-      "url": "https://www.youtube.com/watch?v=j_lxlPYAdTs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-13T16:50:26+00:00",
-      "summary": "Ramp and Stripe launched virtual payment cards for AI agents with spend limits, merchant controls, and real-time tracking. Ramp’s AI Index shows fast AI adoption, with Anthropic gaining share as OpenAI brings Sora video into ChatGPT and Google expands Gemini’s multimedia feature…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1783,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-28T23:27:13.558080+00:00"
+  "generated_at": "2026-03-29T02:04:52.787304+00:00"
 }
