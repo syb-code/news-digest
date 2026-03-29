@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6ac4e6a5a68f6aecd7c176296302db6c",
+      "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
+      "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-29T12:31:50+00:00",
+      "summary": "Listen now | Claire Vo went from OpenClaw skeptic to running nine specialized AI agents across her family calendar, inbound sales, kids’ homework help, and more",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f6f5cd84838ae12c1dc27f8ff8f55678",
       "title": "Anthropic's New Mythos Model a \"Step Change\" in Capabilities",
       "url": "https://www.youtube.com/watch?v=EBXZ4zZwS7c",
@@ -920,21 +935,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5257896a862069c88981937551d0e18a",
-      "title": "Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
-      "url": "https://www.lennysnewsletter.com/p/mastering-midjourney-how-to-create",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-09T12:03:55+00:00",
-      "summary": "Listen now | 🎙️ Learn how an AI creative director builds consistent brand aesthetics using style references, personalization codes, and strategic iteration—without complex prompting",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1d0aca8b5a2b1736506fb6317d31092a",
       "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
       "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
@@ -1781,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-29T11:25:50.155738+00:00"
+  "generated_at": "2026-03-29T12:47:30.817500+00:00"
 }
