@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c75b2690b0a442000f6368694655d378",
+      "title": "A Private Credit Liquidity Crunch Has Already Started | Leyla Kuniomoto",
+      "url": "https://www.youtube.com/watch?v=xFEkTMaGlKg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-29T18:44:24+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): \n\nhttps://etf.am.pictet.com/pqnt/?utm_campaign=usetf&cid=2715538577&utm_source=jfmv&utm_content=pqnt&utm_medium=podcast_02&utm_term=noterm\n\nLearn More about Pictet AI Enhanced US Equity ET…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ad938bc87cdbe2f62482b4a7f7d78fa5",
       "title": "The Era of Vertical AI Models",
       "url": "https://www.youtube.com/watch?v=DvNKYftvPW0",
@@ -865,19 +880,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "44abb10916f89aa6c9624ae852225cad",
-      "title": "The Liquidity Cycle Is Turning Down (Here's How) | Michael Howell",
-      "url": "https://www.youtube.com/watch?v=i0lm-mmBlQM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-10T19:50:19+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this episode, Michael Howell of Capital Wars and Global Liquidity Indexes discusses why the global liquidity cycle has peaked and is beginning to slow down in early 2026. This shift suggests that investo…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1781,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-29T18:37:06.535332+00:00"
+  "generated_at": "2026-03-29T19:29:17.650226+00:00"
 }
