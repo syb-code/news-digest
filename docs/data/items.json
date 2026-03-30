@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "26bb87243355bf6e7db47c7e47c2d11b",
+      "title": "How to turn Claude Code into your personal life operating system | Hilary Gridley",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-claude-code-into-your",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-30T12:04:24+00:00",
+      "summary": "Watch now | 🎙️ How a new mom and entrepreneur uses Claude Code to automate life admin—all without complex setup",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "c75b2690b0a442000f6368694655d378",
       "title": "A Private Credit Liquidity Crunch Has Already Started | Leyla Kunimoto",
       "url": "https://www.youtube.com/watch?v=xFEkTMaGlKg",
@@ -922,21 +935,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e4f22612cf3c39e52384b10bd7e5955c",
-      "title": "🎙️ This week on How I AI: Mastering Midjourney: How to create consistent, beautiful brand imagery without complex prompts",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-mastering-midjourney",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-09T15:03:09+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1d0aca8b5a2b1736506fb6317d31092a",
       "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
       "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
@@ -1783,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-30T11:55:12.403718+00:00"
+  "generated_at": "2026-03-30T13:11:22.584203+00:00"
 }
