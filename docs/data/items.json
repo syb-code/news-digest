@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "31ff5a28523bab048ec1bb3065d3882e",
+      "title": "Stagflation Risk is Rising Fast in The USA",
+      "url": "https://www.youtube.com/watch?v=EadSbdD_NQc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-03-30T16:00:26+00:00",
+      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a233c74f4a10484df757c8ec182a9f4e",
+      "title": "🎙️ This week on How I AI: How Stripe built “minions”—AI coding agents that ship 1,300 PRs per week + How to turn Claude Code into your personal life operating system",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-30T15:03:26+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "26bb87243355bf6e7db47c7e47c2d11b",
       "title": "How to turn Claude Code into your personal life operating system | Hilary Gridley",
       "url": "https://www.lennysnewsletter.com/p/how-to-turn-claude-code-into-your",
@@ -909,19 +937,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7017a1028cd3cdb4fa7b8a72aadcf6dd",
-      "title": "A guide to advanced B2B positioning",
-      "url": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning-e49",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-10T09:00:40+00:00",
-      "summary": "10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
       "title": "US Debt Crisis: Warning From The Bond Market",
       "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
@@ -1167,19 +1182,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9b270819f56ecbce6ca311932e63586c",
-      "title": "Labor Market Warning: The Jobs Report Doesn't Add Up",
-      "url": "https://www.youtube.com/watch?v=3rjbUQszOC0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-12T17:00:09+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1781,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-30T15:00:08.136205+00:00"
+  "generated_at": "2026-03-30T16:10:25.319701+00:00"
 }
