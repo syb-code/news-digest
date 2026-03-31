@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0b77432853fafe44f730064eb02919ca",
+      "title": "Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
+      "url": "https://www.youtube.com/watch?v=fngiWGhdUWc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-31T13:01:31+00:00",
+      "summary": "This episode is brought to you by Pictet’s AI Enhanced Equity ETFs\n\nLearn More about Pictet AI Enhanced US Equity ETF: https://etf.am.pictet.com/pqus/\n\nLearn more about the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&ci…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5b61d26f0e5617b448386f2183f6c31f",
       "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
       "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building",
@@ -924,21 +939,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ea6c33e9f99a6e066bb9fdfcdf74cff8",
-      "title": "This Macro Cycle Is Flashing WARNING Signs!",
-      "url": "https://www.youtube.com/shorts/M3iLSmzKDLk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-11T11:30:32+00:00",
-      "summary": "Michael Howell of Crossborder Capital explains that financial markets are currently sitting in a fragile “knife-edge equilibrium.” According to his liquidity cycle analysis, the macro cycle may be starting to turn downward — a shift that could make the next phase for risk assets…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
       "title": "US Debt Crisis: Warning From The Bond Market",
       "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-31T13:09:56.372617+00:00"
+  "generated_at": "2026-03-31T14:57:59.257221+00:00"
 }
