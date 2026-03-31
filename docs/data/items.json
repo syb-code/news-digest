@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5b61d26f0e5617b448386f2183f6c31f",
+      "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
+      "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-31T12:45:57+00:00",
+      "summary": "I built a team of 9 AI agents that run my work and life. Here's how you can too.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "31ff5a28523bab048ec1bb3065d3882e",
       "title": "Stagflation Risk is Rising Fast in The USA",
       "url": "https://www.youtube.com/watch?v=EadSbdD_NQc",
@@ -924,19 +939,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "86276e3397a5a95df4a7678595bc193b",
-      "title": "A guide to advanced B2B positioning",
-      "url": "https://www.lennysnewsletter.com/p/a-guide-to-advanced-b2b-positioning",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-10T12:45:43+00:00",
-      "summary": "10 years, 300 companies, 4 non-obvious lessons on getting past the trickiest roadblocks",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
       "title": "US Debt Crisis: Warning From The Bond Market",
       "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
@@ -1783,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-31T11:44:07.314939+00:00"
+  "generated_at": "2026-03-31T13:09:56.372617+00:00"
 }
