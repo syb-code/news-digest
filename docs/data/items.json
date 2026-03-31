@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "e995dae4ef466c68a4099b9d0f84da19",
+      "title": "The State of AI - Q2 2026",
+      "url": "https://www.youtube.com/watch?v=LZeMZgJszKU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-03-31T17:28:31+00:00",
+      "summary": "Report focuses on an AI second moment driven by agentic systems that turn language models into autonomous, workplace-capable agents. Anthropic Claude Code and OpenClaw-style offerings sparked rapid enterprise adoption, major revenue acceleration, and hyperscaler CapEx commitment…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0b77432853fafe44f730064eb02919ca",
       "title": "Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
       "url": "https://www.youtube.com/watch?v=fngiWGhdUWc",
@@ -783,21 +799,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b3129ae3dc50aee0a4a02c7f5140a7fc",
-      "title": "The Social Network for Agents Just Got Acquired",
-      "url": "https://www.youtube.com/watch?v=2Ws3YiSzCX0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-14T23:40:21+00:00",
-      "summary": "Meta's acquisition of MoltBook spotlights debates over AI-agent authenticity, mimetic social mechanics, and a research-versus-product power struggle. Thinking Machines Lab signed a multi-year deal with NVIDIA for at least one gigawatt of Vera Rubin-chip compute for frontier mode…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-03-31T16:07:40.109276+00:00"
+  "generated_at": "2026-03-31T17:53:21.331552+00:00"
 }
