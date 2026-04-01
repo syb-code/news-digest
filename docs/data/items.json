@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "53c11f8315cdbb7b51462896f2644e4f",
+      "title": "Why $200 Oil Won’t Spike Inflation to 9% | Anna Wong",
+      "url": "https://www.youtube.com/watch?v=Af-Wv5X6d60",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-01T15:10:09+00:00",
+      "summary": "This episode is brought to you by the Pictet AI Enhanced International Equity ETF ($PQNT): \n\nhttps://etf.am.pictet.com/pqnt/?utm_campaign=usetf&cid=2715538577&utm_source=jfmv&utm_content=pqnt&utm_medium=podcast_02&utm_term=noterm\n\nLearn More about Pictet AI Enhanced US Equity ET…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bed77e3824b1b3c654256f415553bab4",
       "title": "Listen: OpenClaw: A power-user's guide to the most powerful personal AI tool since ChatGPT",
       "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
@@ -931,19 +946,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e9cfb9616f4a08a56393af2442e9b719",
-      "title": "\"Economic Chaos\" Threatened By Middle East War, Argues Joseph Stiglitz (Nobel Laureate Economist)",
-      "url": "https://www.youtube.com/watch?v=4wob38gZ2yQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-11T19:44:09+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nNobel Laureate in Economics Joseph Stiglitz (who holds highest #1 D-Index than all other Economists in the world) joins Jack to discuss the recent war in Iran, artificial intelligence, and his macroe…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "70fa850aa7372bfefac51efe0c2660bf",
       "title": "CPI Inflation Report: Gasoline Prices Surging — Trouble Ahead",
       "url": "https://www.youtube.com/watch?v=3woIZO1tixY",
@@ -1788,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-01T15:00:32.147754+00:00"
+  "generated_at": "2026-04-01T16:49:50.820575+00:00"
 }
