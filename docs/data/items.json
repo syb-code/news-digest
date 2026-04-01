@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bed77e3824b1b3c654256f415553bab4",
+      "title": "Listen: OpenClaw: A power-user's guide to the most powerful personal AI tool since ChatGPT",
+      "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-01T14:11:12+00:00",
+      "summary": "An audio edition of Lenny's Newsletter post (powered by AI)",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "94b2ee34348dd032e4d5db34d520a574",
       "title": "LWiAI Podcast #238 - GPT 5.4 mini, OpenAI Pivot, Mamba 3, Attention Residuals",
       "url": "https://lastweekin.ai/p/lwiai-podcast-238-gpt-54-mini-openai",
@@ -942,19 +957,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5196eb550bdc5cba33b04d4021a257ae",
-      "title": "From Figma to Claude Code and back | Gui Seiz & Alex Kern (Figma)",
-      "url": "https://www.lennysnewsletter.com/p/from-figma-to-claude-code-and-back",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-11T12:03:30+00:00",
-      "summary": "Watch now | 🎙️ How Figma’s designers and engineers use MCPs to pull production code into Figma, edit designs, and push changes back to code—eliminating design drift and enabling real-time collaboration",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
       "title": "US Debt Crisis: Warning From The Bond Market",
       "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
@@ -1786,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-01T13:13:34.674841+00:00"
+  "generated_at": "2026-04-01T15:00:32.147754+00:00"
 }
