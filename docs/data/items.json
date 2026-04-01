@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "461c7544ce7893c658e29008578a03ea",
+      "title": "Josh Linville: Farmers Are Getting Crushed!",
+      "url": "https://www.youtube.com/shorts/xip7BwYglHM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-01T20:30:10+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Josh Linville about a deepening crisis in global agriculture. Linville explains that farm economics are among the worst he’s ever seen, driven in part by instability in the fertilizer market. With major urea exporters…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "53c11f8315cdbb7b51462896f2644e4f",
       "title": "Why $200 Oil Won’t Spike Inflation to 9% | Anna Wong",
       "url": "https://www.youtube.com/watch?v=Af-Wv5X6d60",
@@ -890,21 +905,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "230becfac809c9333eaa3ca34acd2ac7",
-      "title": "Iran War is a \"Nightmare Disruption Scenario\" | FT’s Chief Economics Commentator Martin Wolf",
-      "url": "https://www.youtube.com/watch?v=cV5UK0K3kXw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-13T14:40:43+00:00",
-      "summary": "Martin Wolf, chief economics commentator at the Financial Times joins Jack for a frank and important discussion on the war with Iran. Jack and Martin delve into the economic consequences of a prolonged war in Iran, particularly with regards to the Strait of Hormuz being affected…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d005e1ce1065e521462425789b4b2efe",
       "title": "LWiAI Podcast #236 - GPT 5.4, Gemini 3.1 Flash Lite, Supply Chain Risk",
       "url": "https://lastweekin.ai/p/lwiai-podcast-236-gpt-54-gemini-31",
@@ -1790,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-01T19:57:03.274881+00:00"
+  "generated_at": "2026-04-01T20:44:49.782363+00:00"
 }
