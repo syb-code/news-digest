@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a1df76db077eb9134c19adf2c086567f",
+      "title": "The Ultimate AI Catch-Up Guide",
+      "url": "https://www.youtube.com/watch?v=Jov9Mn2Q2s8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-01T21:56:01+00:00",
+      "summary": "NLW presents the current AI landscape where capabilities are accelerating, daily adoption among advanced knowledge workers is widespread, and hallucination rates have dropped dramatically. Debunks common myths by showing AI output varies in quality and excels at augmenting resea…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "461c7544ce7893c658e29008578a03ea",
       "title": "Josh Linville: Farmers Are Getting Crushed!",
       "url": "https://www.youtube.com/shorts/xip7BwYglHM",
@@ -826,21 +841,6 @@
       "source_type": "rss",
       "published": "2026-03-16T04:18:14+00:00",
       "summary": "Anthropic sues Trump administration in AI dispute with Pentagon, ‘Not built right the first time’ — Musk’s xAI is starting over again, again, Cascade of A.I. Fakes About War With Iran Causes Chaos Onl",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c28070508492ae07abebb15dbd17e9f0",
-      "title": "The 16 Coolest Agents I've Built So Far",
-      "url": "https://www.youtube.com/watch?v=CnxQpf02_js",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-15T13:28:26+00:00",
-      "summary": "In this Operators Bonus Episode, I pit 16 different things I've built this year against each other in a March Madness-style bracket — from OpenClaw bots and vibe-coded side projects to the Sherlock Holmes-inspired agent ecosystem I'm developing for enterprise AI strategy. It's a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1790,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-01T21:37:54.840668+00:00"
+  "generated_at": "2026-04-01T22:33:39.658828+00:00"
 }
