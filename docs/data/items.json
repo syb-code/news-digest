@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "cf08e88de7e85bea4b0a9cc1a5b6a4a9",
+      "title": "An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
+      "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-02T12:32:28+00:00",
+      "summary": "Listen now | Simon Willison on why November 2025 changed software engineering forever, the lethal trifecta, his top agentic engineering patterns, and much more",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a1df76db077eb9134c19adf2c086567f",
       "title": "The Ultimate AI Catch-Up Guide",
       "url": "https://www.youtube.com/watch?v=Jov9Mn2Q2s8",
@@ -933,19 +948,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "02cea923d6391b75cf8eccdcb13304d5",
-      "title": "How I built a 1M+ subscriber newsletter and top 10 tech podcast | Lenny Rachitsky",
-      "url": "https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-12T12:32:15+00:00",
-      "summary": "Listen now | My wife, Michelle Rial, turns the mic on me to unpack the story behind my newsletter and podcast",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "70fa850aa7372bfefac51efe0c2660bf",
       "title": "CPI Inflation Report: Gasoline Prices Surging — Trouble Ahead",
       "url": "https://www.youtube.com/watch?v=3woIZO1tixY",
@@ -1790,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-02T11:43:02.708663+00:00"
+  "generated_at": "2026-04-02T13:04:45.375189+00:00"
 }
