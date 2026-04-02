@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "a4c26d4e93ec9341a48438b703c01ec2",
+      "title": "Deep Learning Weekly: Issue 449",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-449",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-04-02T15:03:12+00:00",
+      "summary": "Gemini 3.1 Flash Live, Cohere Transcribe: state-of-the-art speech recognition, a paper on IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "cf08e88de7e85bea4b0a9cc1a5b6a4a9",
       "title": "An AI state of the union: We’ve passed the inflection point, dark factories are coming, and automation timelines | Simon Willison",
       "url": "https://www.lennysnewsletter.com/p/an-ai-state-of-the-union",
@@ -1654,21 +1667,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b82d6ff219ffef22da8b689fa3b2ce45",
-      "title": "Deep Learning Weekly: Issue 429",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-429",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-11-05T16:45:55+00:00",
-      "summary": "OpenAI’s agentic security researcher, Stress-testing model specs reveals character differences among models, a paper on Kimi Linear: An Expressive, Efficient Attention Architecture, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3552421a1d5f89a2998ef62abfefcf14",
       "title": "The Golden Age of the Design Founder",
       "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
@@ -1792,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-02T14:52:01.805906+00:00"
+  "generated_at": "2026-04-02T15:57:26.273056+00:00"
 }
