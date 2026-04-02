@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "3642215a5b10ad7cec6358dadc3ad5a0",
+      "title": "The Fed is Printing Money Again... And Inflation is Accelerating",
+      "url": "https://www.youtube.com/watch?v=4jBheSk3dEo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-02T16:00:06+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a4c26d4e93ec9341a48438b703c01ec2",
       "title": "Deep Learning Weekly: Issue 449",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-449",
@@ -1179,19 +1195,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "68415ab739cde2d9e3e976794fbaceba",
-      "title": "Interest Rate Cuts Are Coming — Investors Need to Position Now",
-      "url": "https://www.youtube.com/watch?v=FmhGJ6mqXmM",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-17T17:00:20+00:00",
-      "summary": "⭐ To see what I'm doing with gold/silver/stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GT…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "edd7f454a2f69c0b485ca9f198f6202a",
       "title": "LWiAI Podcast #234 - Opus 4.6, GPT-5.3-Codex, Seedance 2.0, GLM-5",
       "url": "https://lastweekin.ai/p/lwiai-podcast-234-opus-46-gpt-53",
@@ -1790,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-02T15:57:26.273056+00:00"
+  "generated_at": "2026-04-02T16:57:40.884554+00:00"
 }
