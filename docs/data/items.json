@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a9ec3356c8edc9a1cc1621cbb116ea8e",
+      "title": "Agent Skills Masterclass with Nufar Gaspar",
+      "url": "https://www.youtube.com/watch?v=fs_Y3gvj7lk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-03T01:41:11+00:00",
+      "summary": "Agent Skills Masterclass presents practical frameworks for creating, testing, and deploying AI skills. Conversations cover skill design, repositories and marketplaces, safety checks, and reuse versus custom builds. Organizational playbooks focus on governance, versioning, observ…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3642215a5b10ad7cec6358dadc3ad5a0",
       "title": "The Fed is Printing Money Again... And Inflation is Accelerating",
       "url": "https://www.youtube.com/watch?v=4jBheSk3dEo",
@@ -784,21 +799,6 @@
       "source_type": "youtube",
       "published": "2026-03-16T20:56:16+00:00",
       "summary": "Nvidia unveiled a push into inference with a GROQ‑based chip and Samsung production that could diversify manufacturing outside TSMC. SEC filings show a sharp rise in AI agent risk disclosures, signaling growing legal and business concern about agent disruption to SaaS. Copyright…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "53645889e6cfdedbf072f981507115be",
-      "title": "Meta Delays New AI Model",
-      "url": "https://www.youtube.com/watch?v=eDGI3sNRnhg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-16T17:33:46+00:00",
-      "summary": "Meta delays the Avocado model after internal benchmarks showed shortfalls in reasoning, coding, and writing. XAI endures co-founder departures while recruiting senior product leaders from Cursor. Enterprise AI adoption lags operationally even as 81% of doctors use AI for documen…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1793,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-02T23:31:22.364988+00:00"
+  "generated_at": "2026-04-03T02:00:57.908002+00:00"
 }
