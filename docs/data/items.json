@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b865a7e793cf41e216d4a7bc40c6e10a",
+      "title": "🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-04T22:02:36+00:00",
+      "summary": "Community Wisdom 180",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "755c9932401d5663f5a746a58cf5a50b",
       "title": "How to Build a Personal Context MCP",
       "url": "https://www.youtube.com/watch?v=TVJ8lt4UfLY",
@@ -930,21 +945,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "beb392f09e008e274bbfffb37ec5cb02",
-      "title": "🧠 Community Wisdom: Getting a skeptical CTO to adopt AI coding tools, staying after losing faith in the founder, Claude skills for designers, making the most of a jack-of-all-trades role, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-a-skeptical",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-14T17:43:36+00:00",
-      "summary": "Community Wisdom 177",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bf60cbbb48af220bbd3b7cae6aba497c",
       "title": "Americans Are Struggling With Debt and Missed Payments",
       "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-04T21:27:38.734586+00:00"
+  "generated_at": "2026-04-04T22:25:35.213016+00:00"
 }
