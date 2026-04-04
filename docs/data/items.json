@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "a64324c7f69bd292ea071610761aa3e4",
+      "title": "Liz Ann Sonders: This Feels Like 1990…",
+      "url": "https://www.youtube.com/shorts/PL4-y9ZBXng",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-04T13:30:35+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Liz Ann Sonders about striking parallels between today’s market environment and the early 1990s. Sonders highlights a familiar mix: rising oil prices, geopolitical tensions in the Middle East, and underlying credit ri…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5181f263e77f62eb2c33d0b4231a8669",
       "title": "Iran War Has Pushed Global Shipping Markets To The Brink | Ed Finley-Richardson",
       "url": "https://www.youtube.com/watch?v=jgDRK1hfDCo",
@@ -843,21 +856,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6f9f1de44af0c3101e368c37d836e6c",
-      "title": "20% of Jobs Will Be Gone in 4 Years | Macro Investor Alex Gurevich on AI & Bull Case for Yields",
-      "url": "https://www.youtube.com/watch?v=97bX8aRqnIY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-16T15:43:32+00:00",
-      "summary": "In this interview, Alex Gurevich of HonTe Investments outlines his macroeconomic outlook, highlighting a particularly bullish stance on the platinum and palladium markets because they historically follow long cycles that lag behind gold and silver. He predicts that the rapid adv…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1791,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-04T12:47:11.029860+00:00"
+  "generated_at": "2026-04-04T13:50:41.065559+00:00"
 }
