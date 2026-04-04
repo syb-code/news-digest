@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "5181f263e77f62eb2c33d0b4231a8669",
+      "title": "Iran War Has Pushed Global Shipping Markets To The Brink | Ed Finley-Richardson",
+      "url": "https://www.youtube.com/watch?v=jgDRK1hfDCo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-04T12:17:14+00:00",
+      "summary": "Listeners can get 20% off Misadventures in Shipping subscriptions through April 17th here:\nhttps://edfin.substack.com/monetary\n\nSubscription includes access to Substack research pieces and private Twitter (X) account.\n____\nIn this episode, Ed Finley-Richardson of the Misadventur…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a1049541fdb14696f9879984e67fed8e",
+      "title": "\"Who should we hire for branding?\"",
+      "url": "https://designplusai.com/p/who-should-we-hire-for-branding",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-04T12:01:45+00:00",
+      "summary": "I see a lot of founders making the same mistake.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a9ec3356c8edc9a1cc1621cbb116ea8e",
       "title": "Agent Skills Masterclass with Nufar Gaspar",
       "url": "https://www.youtube.com/watch?v=fs_Y3gvj7lk",
@@ -921,21 +947,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8497b3ea8938484e8f4c8321f781f9fc",
-      "title": "What happens if the Strait of Hormuz is closed?!",
-      "url": "https://www.youtube.com/shorts/woiS6M13sVo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-14T13:01:41+00:00",
-      "summary": "What happens if the Strait of Hormuz is closed?\n\nIn this clip from Monetary Matters, Financial Times chief economics commentator Martin Wolf explains why a war in the Gulf could trigger a massive shock to the global economy. With much of the world’s oil flowing through one narro…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bf60cbbb48af220bbd3b7cae6aba497c",
       "title": "Americans Are Struggling With Debt and Missed Payments",
       "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
@@ -1778,20 +1789,7 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "37601b3682ee31e03b496cdfefeb27a5",
-      "title": "Increase conversion with dynamic UX",
-      "url": "https://designplusai.com/p/increase-conversion-with-dynamic",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-26T13:41:33+00:00",
-      "summary": "I built a pricing page in Lovable that adapts based on who’s visiting.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-04T11:25:42.873100+00:00"
+  "generated_at": "2026-04-04T12:47:11.029860+00:00"
 }
