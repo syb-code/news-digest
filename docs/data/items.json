@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "755c9932401d5663f5a746a58cf5a50b",
+      "title": "How to Build a Personal Context MCP",
+      "url": "https://www.youtube.com/watch?v=TVJ8lt4UfLY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-04T14:33:56+00:00",
+      "summary": "Why context is the core bottleneck for agentic AI adoption in enterprises, with data readiness, access, and portability as decisive factors. Presentation of a Personal Context Portfolio: modular markdown files (identity, roles, projects, tools, communication style, domain knowle…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a64324c7f69bd292ea071610761aa3e4",
       "title": "Liz Ann Sonders: This Feels Like 1990…",
       "url": "https://www.youtube.com/shorts/PL4-y9ZBXng",
@@ -828,21 +843,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "38699c50f6112e9d355706a8346a64f4",
-      "title": "What to Expect from Nvidia This Week",
-      "url": "https://www.youtube.com/watch?v=qrmgkWl0vPg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-16T20:56:16+00:00",
-      "summary": "Nvidia unveiled a push into inference with a GROQ‑based chip and Samsung production that could diversify manufacturing outside TSMC. SEC filings show a sharp rise in AI agent risk disclosures, signaling growing legal and business concern about agent disruption to SaaS. Copyright…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-04T14:30:20.743458+00:00"
+  "generated_at": "2026-04-04T15:27:58.048069+00:00"
 }
