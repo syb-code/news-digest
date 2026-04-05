@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "022f3688b036e4f368407c136ae2e77f",
+      "title": "Anthropic’s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
+      "url": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-05T12:31:45+00:00",
+      "summary": "Listen now | Anthropic’s Head of Growth on scaling from $1B to $19B ARR in 14 months through big bets, intentional onboarding friction, deep focus, and CASH—an internal AI system for autonomous growth experiments",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b865a7e793cf41e216d4a7bc40c6e10a",
       "title": "🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup",
@@ -932,19 +947,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7e555247bdd9de5f8ea1a587f71cd21a",
-      "title": "The tactical playbook for getting 20-40% more comp (without sounding greedy) | Jacob Warwick (Executive Negotiator)",
-      "url": "https://www.lennysnewsletter.com/p/the-tactical-playbook-for-getting-more-comp",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-15T12:31:37+00:00",
-      "summary": "Why negotiation starts before the offer, the exact phrases that unlock 20%-40% more comp, how to flip interviews into discovery calls, and why product people negotiate worse than everyone else",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "bf60cbbb48af220bbd3b7cae6aba497c",
       "title": "Americans Are Struggling With Debt and Missed Payments",
       "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
@@ -1789,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-05T11:26:40.742284+00:00"
+  "generated_at": "2026-04-05T12:50:49.350073+00:00"
 }
