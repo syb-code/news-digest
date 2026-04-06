@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "884fce5c58fd281131f998ffab151f3a",
+      "title": "Jobs Report Surprises Again… No Rate Cuts Now?",
+      "url": "https://www.youtube.com/watch?v=G0DtzLWAlfg",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-06T17:47:58+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7563c9a97d7f4309c7c7da629e3f5c2a",
       "title": "🎙️ This week on How I AI: I gave Claude Code our entire codebase. Our customers noticed.",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-i-gave-claude",
@@ -1167,19 +1182,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "57876a3ff1ac391ae6ef5bd46523633b",
-      "title": "Trump Tariffs Blocked — It's Official (Supreme Court Ruling)",
-      "url": "https://www.youtube.com/watch?v=VweRLNTVjcc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-20T19:01:28+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a51a2212bff71b6b9859f70b435ec5f9",
       "title": "Deep Learning Weekly: Issue 443",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-443",
@@ -1793,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-06T17:40:56.907288+00:00"
+  "generated_at": "2026-04-06T18:53:29.214162+00:00"
 }
