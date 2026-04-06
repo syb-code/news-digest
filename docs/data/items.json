@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "48f20d7ade7c4e1aaa11217f99acbaca",
+      "title": "Introducing Maturity Maps: A New Way to Measure AI Adoption",
+      "url": "https://www.youtube.com/watch?v=Jg-wQBw0LDQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-06T12:53:46+00:00",
+      "summary": "Maturity Maps present a framework for assessing AI readiness across six dimensions: Use, Data and Infrastructure, Workflow Integration, Agent Deployment, Talent and Culture, and Governance. Benchmarks expose an adoption mirage in marketing and sales and widespread governance and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5e727211939f80679a4020bb0bd31a3b",
+      "title": "I gave Claude Code our entire codebase. Our customers noticed. | Al Chen (Galileo)",
+      "url": "https://www.lennysnewsletter.com/p/i-gave-claude-code-our-entire-codebase",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-06T12:03:35+00:00",
+      "summary": "Watch now | 🎙️ Al Chen (Field Engineer at Galileo) shows how he uses AI to query his entire codebase and deliver precise, real-time answers to enterprise customers—without relying on docs or engineering",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "022f3688b036e4f368407c136ae2e77f",
       "title": "Anthropic’s $1B to $19B growth run: how Claude became the fastest-growing AI product in history | Amol Avasare",
       "url": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
@@ -818,21 +848,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f522e8dcd89898147f166e383bdc2dab",
-      "title": "A Guy Used AI to Cure His Dog's Cancer",
-      "url": "https://www.youtube.com/watch?v=PKCFNzFo6Jo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-17T15:54:41+00:00",
-      "summary": "A second AI moment defined by agentic systems and rapidly rising capabilities has pushed public discourse into a near-constant high-alert state. Stories range from a DIY mRNA vaccine for a dog to Carpathy's job-exposure visualization, highlighting both transformative potential a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5f3c827502c8f608b7f1daa673442052",
       "title": "How I built LennyRPG",
       "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg",
@@ -901,19 +916,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1a29c108120392ab9cd2eb9b8f35ddf8",
-      "title": "From journalist to iOS developer: How LinkedIn’s editor builds with Claude Code | Daniel Roth",
-      "url": "https://www.lennysnewsletter.com/p/from-journalist-to-ios-developer",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-16T12:04:08+00:00",
-      "summary": "Watch now | 🎙️ How LinkedIn’s editor uses dueling Claude agents to plan features, write code, review security, and ship iOS apps—with zero coding experience",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1791,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-06T11:44:25.285755+00:00"
+  "generated_at": "2026-04-06T13:02:08.666949+00:00"
 }
