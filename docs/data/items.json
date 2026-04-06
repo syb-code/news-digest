@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7563c9a97d7f4309c7c7da629e3f5c2a",
+      "title": "🎙️ This week on How I AI: I gave Claude Code our entire codebase. Our customers noticed.",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-i-gave-claude",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-06T15:03:07+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "48f20d7ade7c4e1aaa11217f99acbaca",
       "title": "Introducing Maturity Maps: A New Way to Measure AI Adoption",
       "url": "https://www.youtube.com/watch?v=Jg-wQBw0LDQ",
@@ -904,21 +919,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cef0a20ec8d3007666e5654c9e5942e0",
-      "title": "🎙️ This week on How I AI: From Figma to Claude Code and back & From journalist to iOS developer",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-from-figma",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-16T15:03:06+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4b4e272cad9fa5d197da92ca1abc71f5",
       "title": "LWiAI Podcast #237 - Nemotron 3 Super, xAI reborn, Anthropic Lawsuit, Research!",
       "url": "https://lastweekin.ai/p/lwiai-podcast-237-nemotron-3-super",
@@ -1793,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-06T14:42:33.550261+00:00"
+  "generated_at": "2026-04-06T15:41:53.867855+00:00"
 }
