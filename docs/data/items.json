@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "75a0ec3c45846de1c08d95d60de32dbb",
+      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
+      "url": "https://www.youtube.com/watch?v=zm4xXHMWVZ0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-07T13:01:56+00:00",
+      "summary": "This episode is brought to you by Pictet’s AI Enhanced Equity ETFs\n\nLearn More about Pictet AI Enhanced US Equity ETF: https://etf.am.pictet.com/pqus/\n\nLearn more about the Pictet AI Enhanced International Equity ETF ($PQNT): https://etf.am.pictet.com/pqnt/?utm_campaign=usetf&ci…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "72ae5974bbd9d254d7b2e57bad2384e3",
+      "title": "A visual guide to getting out of a creative slump",
+      "url": "https://www.lennysnewsletter.com/p/a-visual-guide-to-getting-out-of",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-07T12:45:49+00:00",
+      "summary": "On creating work like a human (and all the feelings that come with it)",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "884fce5c58fd281131f998ffab151f3a",
       "title": "Jobs Report Surprises Again… No Rate Cuts Now?",
       "url": "https://www.youtube.com/watch?v=G0DtzLWAlfg",
@@ -871,36 +899,6 @@
       "published": "2026-03-18T00:17:36+00:00",
       "summary": "Q1 delivered a turning point as open-source agents like OpenClaw sparked mass experimentation and proved agents can do real work. Nvidia NemoClaw, Manus desktop agents, Perplexity Computer, Adaptive, and OpenAI Codex updates race to productize enterprise-grade secure agents brid…",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5f3c827502c8f608b7f1daa673442052",
-      "title": "How I built LennyRPG",
-      "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-17T12:46:05+00:00",
-      "summary": "Turning 300+ episode transcripts into a fun, playable game with AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "18f50a23c2b65d9ba0c4b2e9175c9a71",
-      "title": "The Ultimate Hard Asset: American Farmland and The 300-Year Water Supply Hidden Underneath It",
-      "url": "https://www.youtube.com/watch?v=VAEnSq65dsI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-17T12:30:45+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nIn this episode of Other People's Money, Max sits down with Chris Morris, President of LandFund Partners, to explore why they believe U.S. row crop farmland is the ultimate hard asset. Chris details …",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1795,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-07T11:51:02.398275+00:00"
+  "generated_at": "2026-04-07T13:11:48.788458+00:00"
 }
