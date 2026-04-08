@@ -1,18 +1,16 @@
 {
   "items": [
     {
-      "id": "75a0ec3c45846de1c08d95d60de32dbb",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "url": "https://www.youtube.com/watch?v=zm4xXHMWVZ0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-07T13:01:56+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
+      "id": "3f4f840519f8524f8d9f1a671bb56669",
+      "title": "Listen: A visual guide to getting out of a creative slump",
+      "url": "https://www.lennysnewsletter.com/p/listen-a-visual-guide-to-getting",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-08T02:51:13+00:00",
+      "summary": "An audio edition of Lenny's Newsletter post",
+      "read_minutes": 1,
       "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -89,32 +87,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a64324c7f69bd292ea071610761aa3e4",
-      "title": "Liz Ann Sonders: This Feels Like 1990…",
-      "url": "https://www.youtube.com/shorts/PL4-y9ZBXng",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T13:30:35+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Liz Ann Sonders about striking parallels between today’s market environment and the early 1990s. Sonders highlights a familiar mix: rising oil prices, geopolitical tensions in the Middle East, and underlying credit ri…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5181f263e77f62eb2c33d0b4231a8669",
-      "title": "Iran War Has Pushed Global Shipping Markets To The Brink | Ed Finley-Richardson",
-      "url": "https://www.youtube.com/watch?v=jgDRK1hfDCo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T12:17:14+00:00",
-      "summary": "Listeners can get 20% off Misadventures in Shipping subscriptions through April 17th here:\nhttps://edfin.substack.com/monetary\n\nSubscription includes access to Substack research pieces and private Twitter (X) account.\n____\nIn this episode, Ed Finley-Richardson of the Misadventur…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a1049541fdb14696f9879984e67fed8e",
       "title": "\"Who should we hire for branding?\"",
       "url": "https://designplusai.com/p/who-should-we-hire-for-branding",
@@ -156,43 +128,13 @@
       "bucket": "highlight"
     },
     {
-      "id": "461c7544ce7893c658e29008578a03ea",
-      "title": "\"Farmers Are Getting Crushed!\" Josh Linville",
-      "url": "https://www.youtube.com/shorts/xip7BwYglHM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-01T20:30:10+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Josh Linville about a deepening crisis in global agriculture. Linville explains that farm economics are among the worst he’s ever seen, driven in part by instability in the fertilizer market. With major urea exporters…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "53c11f8315cdbb7b51462896f2644e4f",
-      "title": "Why $200 Oil Won’t Spike Inflation to 9% | Anna Wong",
-      "url": "https://www.youtube.com/watch?v=Af-Wv5X6d60",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-01T15:10:09+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bed77e3824b1b3c654256f415553bab4",
       "title": "Listen: OpenClaw: A power-user's guide to the most powerful personal AI tool since ChatGPT",
       "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-04-01T14:11:12+00:00",
-      "summary": "An audio edition of Lenny's Newsletter post (powered by AI)",
+      "summary": "An audio edition of Lenny's Newsletter post",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -209,21 +151,6 @@
       "published": "2026-04-01T08:07:15+00:00",
       "summary": "OpenAI ships GPT-5.4 mini and nano, faster and more capable but up to 4x pricier, DLSS 5 looks like a real-time generative AI filter for video games | The Verge, and more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b77432853fafe44f730064eb02919ca",
-      "title": "Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "url": "https://www.youtube.com/watch?v=fngiWGhdUWc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-31T13:01:31+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -274,21 +201,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c75b2690b0a442000f6368694655d378",
-      "title": "A Private Credit Liquidity Crunch Has Already Started | Leyla Kunimoto",
-      "url": "https://www.youtube.com/watch?v=xFEkTMaGlKg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-29T18:44:24+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ac4e6a5a68f6aecd7c176296302db6c",
       "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
       "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
@@ -319,21 +231,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "816a9940aadaa337f8ce6c436bc43804",
-      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
-      "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-27T16:22:43+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nFormer Head of Sovereign Credit at PIMCO Lupin Rahman joins Jack to discuss sovereign debt and its peculiarities. She explains why its technicals can differ significantly from fundamentals, t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e37c2bfa951e3993d02e30fb46160ab6",
       "title": "Deep Learning Weekly: Issue 448",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-448",
@@ -342,21 +239,6 @@
       "published": "2026-03-26T15:03:09+00:00",
       "summary": "Cursor's Composer 2, TurboQuant: Redefining AI efficiency with extreme compression, a paper on Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation, and many more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "51d9b1545336626df74ea3fa675eda3d",
-      "title": "The Hidden Market Stress Obscured by Stock Indexes | Liz Ann Sonders",
-      "url": "https://www.youtube.com/watch?v=nkL0oBXV_9U",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-25T16:34:36+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI …",
-      "read_minutes": 3,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -409,21 +291,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4fc6cce8e5dfd78c8df307bb75bddc68",
-      "title": "“Not Until May” The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen",
-      "url": "https://www.youtube.com/watch?v=kmKOKsPJDXA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-23T20:57:28+00:00",
-      "summary": "Learn more about Teucrium’s CORN ETF (CORN) here: https://teucrium.com/corn\n\nNadia Martin Wiggen, Director at Svelland Capital joins Other People’s Money for a timely update on energy and shipping markets in light of the “5-day pause” Truth Social post that sent equity markets r…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "76ad5ded5d8bb1997de67d246f2f6a3a",
       "title": "🎙️ This week on How I AI: How Microsoft's AI VP automates everything with Warp",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-microsofts",
@@ -469,36 +336,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "684dc8bf2033f90bba6fa813947e5fe8",
-      "title": "Fertilizer Nightmare Threatens Global Food Systems | Josh Linville on Iran War’s Fertilizer Shock",
-      "url": "https://www.youtube.com/watch?v=zL3k_TmlCPs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-22T17:20:16+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippl…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fd22b997fb748c8921f9f98e53f50ae0",
-      "title": "Oil Shock Will Break the Global System!",
-      "url": "https://www.youtube.com/shorts/LYHYMX5jv5s",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-22T15:15:04+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with commodities expert Rory Johnson about the risks of a major disruption in Middle East oil supply.\n\nJohnson explains that a large-scale shock to the oil supply chain wouldn’t just raise prices — it could send a shockwav…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c283d7f0e6ea9f2aa1cbd464eadb60f3",
       "title": "The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)",
       "url": "https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain",
@@ -527,21 +364,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "787d4d00d1a550eedf4cb8fa5d9f1600",
-      "title": "Oil Will “Sail” Past $230 | Rory Johnston on Why Iran War Has\"Terrified\" The Oil Market",
-      "url": "https://www.youtube.com/watch?v=6sw_MgTtUB8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-20T03:32:07+00:00",
-      "summary": "20% discount to annual subscription to Rory Johnston’s Commodity Context: https://www.commoditycontext.com/monetarymatters\n\nIn this urgent episode of Monetary Matters Today, Jack sits down with Rory Johnston of Commodity Context to break down the unprecedented global oil shock c…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d985eb6ebd115e968a6f2097bf2aa317",
       "title": "Deep Learning Weekly: Issue 447",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-447",
@@ -552,49 +374,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2c7390e16710540b9a9eb52a8be98e38",
-      "title": "Oil Shock Has Not Yet Fully Priced In To Markets, Argues Bob Elliott of Unlimited Funds",
-      "url": "https://www.youtube.com/watch?v=zbWyNVCcO0Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-19T00:18:31+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, Jack Farley and Max Wiethe are joined by Bob Elliott, Chief Investment Officer at Unlimited Funds, to discuss the economic fallout of the recent conflict …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6805bb8049a23e1343c7aa3d96f23e55",
-      "title": "The Private Credit Time Bomb: Rupert Mitchell Warns of Impaired Loans and Worthless Equity Cushions",
-      "url": "https://www.youtube.com/watch?v=7wvP4dKePOo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-18T16:43:04+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb\n\nIn this episode of Monetary Matters, Jack sits down with Rupert Mitchell of Blind Squirrel Macro to unpack why the foundations of the current US stock market bull run might be crumbling. Mitchell det…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c81eca1508354f1a6ab63f955d31485d",
-      "title": "How I built LennyRPG",
-      "url": "https://www.lennysnewsletter.com/p/how-i-built-lennyrpg-f85",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-18T15:27:01+00:00",
-      "summary": "Turning 300+ episode transcripts into a fun, playable game with AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1366,5 +1145,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-08T02:04:30.124464+00:00"
+  "generated_at": "2026-04-08T05:07:38.610042+00:00"
 }
