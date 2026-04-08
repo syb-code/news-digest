@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6e4e46ad3ddd6715dc93d30114de514b",
+      "title": "I built a custom Slack inbox. It was easier than you’d think. | Yash Tekriwal (Clay)",
+      "url": "https://www.lennysnewsletter.com/p/i-built-a-custom-slack-inbox-it-was",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-08T12:03:47+00:00",
+      "summary": "Watch now | 🎙️ How Yash built a Slack digest and Kanban dashboard using OpenAI agents and Perplexity Computer to reduce 150 daily notifications to ~30 actionable tasks",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9c6588d0291771dd07f4d609e8311d7e",
       "title": "How to Build Something Lovable",
       "url": "https://designplusai.com/p/how-to-build-something-lovable",
@@ -801,19 +816,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "58a019d6dc0e54e0d54045783611160f",
-      "title": "🧠 Community Wisdom: Beating the solo-founder procrastination trap, best tools for B2B prospecting, finding your first real users pre-launch, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-the-solo",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-21T17:19:36+00:00",
-      "summary": "Community Wisdom 178",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1791,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-08T11:51:55.040395+00:00"
+  "generated_at": "2026-04-08T13:13:29.652195+00:00"
 }
