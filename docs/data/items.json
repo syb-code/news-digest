@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "9c6588d0291771dd07f4d609e8311d7e",
+      "title": "How to Build Something Lovable",
+      "url": "https://designplusai.com/p/how-to-build-something-lovable",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-08T09:30:25+00:00",
+      "summary": "Most products get ignored. The ones people love are built differently. Here’s how.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3f4f840519f8524f8d9f1a671bb56669",
       "title": "Listen: A visual guide to getting out of a creative slump",
       "url": "https://www.lennysnewsletter.com/p/listen-a-visual-guide-to-getting",
@@ -1776,22 +1789,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "fb73eee071b60f4f0dc1b9df5519251d",
-      "title": "Ultimate AI Design Stack",
-      "url": "https://designplusai.com/p/ultimate-ai-design-stack",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-07-31T10:49:02+00:00",
-      "summary": "This is the stack I use to turn rough ideas into polished, working products — fast.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-08T08:56:37.376692+00:00"
+  "generated_at": "2026-04-08T10:07:43.137032+00:00"
 }
