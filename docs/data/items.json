@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "d5bfed3cb265a1fa68dcc193c70bd7ba",
+      "title": "Deep Learning Weekly: Issue 450",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-450",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-04-09T15:01:40+00:00",
+      "summary": "Gemma 4, Components of A Coding Agent, a paper on VOID: Video Object and Interaction Deletion, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "376425b0ae206e8ce106e225e91740f6",
       "title": "Tech Valuations Have Crashed: Why AI Won’t Kill Software | Ben Topor | Titan Capital Partners",
       "url": "https://www.youtube.com/watch?v=16KnPdLcBr8",
@@ -1686,19 +1699,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "18d1e5009664c0b057919a24cc19ee0a",
-      "title": "Deep Learning Weekly: Issue 430",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-430",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-11-13T16:02:08+00:00",
-      "summary": "Kimi K2 Thinking, Nested Learning: A new ML paradigm for continual learning, a paper on SPICE: Self-Play In Corpus Environments Improves Reasoning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "3552421a1d5f89a2998ef62abfefcf14",
       "title": "The Golden Age of the Design Founder",
       "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-09T13:18:22.638816+00:00"
+  "generated_at": "2026-04-09T15:18:39.765788+00:00"
 }
