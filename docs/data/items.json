@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "376425b0ae206e8ce106e225e91740f6",
+      "title": "Tech Valuations Have Crashed: Why AI Won’t Kill Software | Ben Topor | Titan Capital Partners",
+      "url": "https://www.youtube.com/watch?v=16KnPdLcBr8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-09T13:00:02+00:00",
+      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a1b9143abb2d4f75f6e7adfa59cf5000",
+      "title": "OpenAI Proposes a New Deal",
+      "url": "https://www.youtube.com/watch?v=P_oabCLJhb0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-09T12:00:06+00:00",
+      "summary": "OpenAI's Industrial Policy for the Intelligence Age addresses worker protections, public wealth proposals, tax reform, and datacenter energy issues. Analysis highlights PR framing concerns and a lack of concrete commitments such as funding, energy rate separation, or reinstated …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "753017e86a7b805e38384ffde7b13292",
       "title": "Should We Be Scared of Anthropic's Mythos?",
       "url": "https://www.youtube.com/watch?v=_E7XMiVomJA",
@@ -107,21 +137,6 @@
       "source_type": "youtube",
       "published": "2026-04-08T00:17:16+00:00",
       "summary": "A view of a calm-before-the-AGI-storm landscape as major AI labs jockey for dominance and investors pour record capital into OpenAI. Focused analysis of OpenAI fundraising, executive reshuffles, the TBPN acquisition and IPO timing tensions alongside Anthropic's soaring secondary…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a1b9143abb2d4f75f6e7adfa59cf5000",
-      "title": "OpenAI Proposes a New Deal",
-      "url": "https://www.youtube.com/watch?v=P_oabCLJhb0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-07T22:11:45+00:00",
-      "summary": "OpenAI's Industrial Policy for the Intelligence Age addresses worker protections, public wealth proposals, tax reform, and datacenter energy issues. Analysis highlights PR framing concerns and a lack of concrete commitments such as funding, energy rate separation, or reinstated …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -915,19 +930,6 @@
       "published": "2026-03-19T15:31:00+00:00",
       "summary": "Mamba-3, Agent-native Architectures: How to Build Apps After Code Ends, a paper on Attention Residuals, and many more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2c7390e16710540b9a9eb52a8be98e38",
-      "title": "Oil Shock Has Not Yet Fully Priced In To Markets, Argues Bob Elliott of Unlimited Funds",
-      "url": "https://www.youtube.com/watch?v=zbWyNVCcO0Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-19T00:18:31+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, Jack Farley and Max Wiethe are joined by Bob Elliott, Chief Investment Officer at Unlimited Funds, to discuss the economic fallout of the recent conflict …",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
@@ -1792,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-09T11:52:28.029016+00:00"
+  "generated_at": "2026-04-09T13:18:22.638816+00:00"
 }
