@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "930969ea071d75c0ab36d3fafeed4f9e",
+      "title": "Inflation Surges Higher — The Fed is Now Trapped",
+      "url": "https://www.youtube.com/watch?v=E0kzhuRs22I",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-10T20:40:28+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "21508a5ee46fca45e4791aa1b6f91f27",
       "title": "Why Every AI Product Seems the Same",
       "url": "https://www.youtube.com/watch?v=634oIgg3v5c",
@@ -1168,21 +1183,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "451d4d5fdd85ffa0aea3c71966745658",
-      "title": "Trump's 1 Million Homes Plan — Will It Fix Housing or Backfire?",
-      "url": "https://www.youtube.com/watch?v=ZejlPoUZI20",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-02-26T17:01:03+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "53a0e6836437abdf3702d73c3fff98de",
       "title": "Deep Learning Weekly: Issue 444",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-444",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-10T20:31:27.552119+00:00"
+  "generated_at": "2026-04-10T21:33:10.491300+00:00"
 }
