@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e80ffd9c9670e48f991087289dc7cb9b",
+      "title": "All of AI's New Models and Tools",
+      "url": "https://www.youtube.com/watch?v=20vZc0cOpOw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-10T00:45:11+00:00",
+      "summary": "Overview of major model and agent launches: Meta's Muse/Spark multimodal models and personal-agent focus, Google's Gemini notebooks for shared task contexts, and open-source GLM 5.1 pushing coding benchmarks. Benchmark comparisons show GLM 5.1 and Muse leading on coding and visu…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d5bfed3cb265a1fa68dcc193c70bd7ba",
       "title": "Deep Learning Weekly: Issue 450",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-450",
@@ -737,21 +752,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "03de2603e764397e075378564508553d",
-      "title": "Val Kilmer's AI Resurrection",
-      "url": "https://www.youtube.com/watch?v=4u-c8TS-0qs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-24T12:45:56+00:00",
-      "summary": "AI recreated Val Kilmer's on-screen performance for Deep as the Grave using Kilmer's actual voice with permission from the Kilmer Estate and SAG-compliant processes. The approach ignited debates about posthumous digital performances, artistic agency, cultural authenticity, and e…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-09T23:34:51.248725+00:00"
+  "generated_at": "2026-04-10T02:09:23.947070+00:00"
 }
