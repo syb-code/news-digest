@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "21508a5ee46fca45e4791aa1b6f91f27",
+      "title": "Why Every AI Product Seems the Same",
+      "url": "https://www.youtube.com/watch?v=634oIgg3v5c",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-10T11:08:46+00:00",
+      "summary": "AI roadmaps converge on desktop superapps and general-purpose agents that combine coding, multimodal models, and persistent integrations. Vibecoding and code-first agents are turning software engineering into universal knowledge-work automation across design, analytics, and mark…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e80ffd9c9670e48f991087289dc7cb9b",
       "title": "All of AI's New Models and Tools",
       "url": "https://www.youtube.com/watch?v=20vZc0cOpOw",
@@ -739,19 +754,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7462438aae207b40bde06ad779114862",
-      "title": "How to Use Claude's Massive New Upgrades",
-      "url": "https://www.youtube.com/watch?v=wZB5fpm8oUA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-24T21:44:41+00:00",
-      "summary": "Major theme: Claude ecosystem rapidly expanded with powerful model upgrades and a shift toward persistent, context-rich agent workflows. Key features: remote control for local terminals, Dispatch persistent cowork orchestration, Channels for external events, and direct computer …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1794,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-10T10:50:05.541487+00:00"
+  "generated_at": "2026-04-10T11:43:36.695186+00:00"
 }
