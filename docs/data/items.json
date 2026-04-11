@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2d9d1266a0fcf6884f8f7903d08a5e27",
+      "title": "🧠 Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, what’s missing from leadership offsites, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-11T19:36:51+00:00",
+      "summary": "Community Wisdom 181",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "930969ea071d75c0ab36d3fafeed4f9e",
       "title": "Inflation Surges Higher — The Fed is Now Trapped",
       "url": "https://www.youtube.com/watch?v=E0kzhuRs22I",
@@ -907,21 +920,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c283d7f0e6ea9f2aa1cbd464eadb60f3",
-      "title": "The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)",
-      "url": "https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-22T12:31:51+00:00",
-      "summary": "A PM’s guide to influencing executives: align with their incentives, present three options, and follow the breadcrumbs",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "787d4d00d1a550eedf4cb8fa5d9f1600",
       "title": "Oil Will “Sail” Past $230 | Rory Johnston on Why Iran War Has\"Terrified\" The Oil Market",
       "url": "https://www.youtube.com/watch?v=6sw_MgTtUB8",
@@ -1796,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-11T19:32:11.707083+00:00"
+  "generated_at": "2026-04-11T20:28:27.376811+00:00"
 }
