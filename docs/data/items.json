@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "ee57bfd4ca8aaf02541633ad2174a321",
+      "title": "Anthropic Now Leads OpenAI in Annualized Revenue",
+      "url": "https://www.youtube.com/watch?v=iRMIUmDZrtY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-12T16:36:41+00:00",
+      "summary": "Anthropic reports a $30 billion annualized revenue run rate and closes a multi-gigawatt compute deal with Google and Broadcom. OpenAI and Anthropic face enormous model-training costs and use accounting methods that exclude training to show near-term profitability. Google commerc…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d8b04b1f15fff1ded0a8b6a5e4f622b3",
       "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
       "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
@@ -747,21 +763,6 @@
       "source_type": "rss",
       "published": "2026-03-26T15:03:09+00:00",
       "summary": "Cursor's Composer 2, TurboQuant: Redefining AI efficiency with extreme compression, a paper on Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "41b924a52fb0d805c21e08d1143e4dc5",
-      "title": "Work AGI is the Only AGI that Matters",
-      "url": "https://www.youtube.com/watch?v=gmkURB_HmQI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-26T00:12:26+00:00",
-      "summary": "OpenAI pivots compute and engineering from the consumer video app Sora toward coding and knowledge-work models like Codex and the pretrained Spud. Executive reshuffle trims Sam Altman's direct oversight while folding safety into research and security into scaling under Mark Chen…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1794,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-12T16:34:07.960989+00:00"
+  "generated_at": "2026-04-12T17:31:27.068505+00:00"
 }
