@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d8b04b1f15fff1ded0a8b6a5e4f622b3",
+      "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
+      "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-12T12:31:41+00:00",
+      "summary": "Listen now | Keith Rabois explains his “barrels vs. ammunition” hiring framework, why talking to customers harms consumer products, how AI is collapsing PM, and more",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d9d1266a0fcf6884f8f7903d08a5e27",
       "title": "🧠 Community Wisdom: Vibe coding as a team sport, teaching interviewers to surface real signal, what’s missing from leadership offsites, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-vibe-coding-as-a",
@@ -852,21 +867,6 @@
       "source_type": "rss",
       "published": "2026-03-23T15:02:35+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bfc5d5429c7d9f2b8567408c9646a937",
-      "title": "How Microsoft’s AI VP automates everything with Warp | Marco Casalaina",
-      "url": "https://www.lennysnewsletter.com/p/how-microsofts-ai-vp-automates-everything",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-23T12:01:26+00:00",
-      "summary": "Watch now | 🎙️ Marco Casalaina, VP of Core AI Products at Microsoft, speed-runs five micro-agent workflows inside Warp, M365 Copilot, and ChatGPT—turning tedious admin tasks into one-line commands",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-12T11:31:10.364654+00:00"
+  "generated_at": "2026-04-12T12:54:26.633730+00:00"
 }
