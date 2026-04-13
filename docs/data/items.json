@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "91669020a1199f04afaa15c491b96955",
+      "title": "Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)",
+      "url": "https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-13T12:03:52+00:00",
+      "summary": "Watch now | 🎙️ JJ Englert (Tenex) shows how to go from zero to one with Claude Cowork—connecting your business tools and creating AI skills that automate emails, Slack, and daily planning without writing code",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1cce944ac7c7eaa90658d47f25e01665",
       "title": "Stagflation Warning in the USA: Iran Deal Fails",
       "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
@@ -870,21 +885,6 @@
       "duration_sec": null,
       "themes": [
         "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "76ad5ded5d8bb1997de67d246f2f6a3a",
-      "title": "🎙️ This week on How I AI: How Microsoft's AI VP automates everything with Warp",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-microsofts",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-23T15:02:35+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-13T11:17:35.413516+00:00"
+  "generated_at": "2026-04-13T13:18:48.799251+00:00"
 }
