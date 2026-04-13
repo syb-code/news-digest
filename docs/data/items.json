@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d6bd7a7c608b1c07b062c026eba300ea",
+      "title": "🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-13T15:07:46+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "91669020a1199f04afaa15c491b96955",
       "title": "Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)",
       "url": "https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate",
@@ -843,19 +858,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "174f5889cfe7241f93561f036a1b2177",
-      "title": "Listen: State of the product job market in early 2026",
-      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-372",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-24T09:02:05+00:00",
-      "summary": "An audio edition of Lenny's Newsletter post",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-13T13:18:48.799251+00:00"
+  "generated_at": "2026-04-13T15:13:13.516464+00:00"
 }
