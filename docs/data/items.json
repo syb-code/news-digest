@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1cce944ac7c7eaa90658d47f25e01665",
+      "title": "Stagflation Warning in the USA: Iran Deal Fails",
+      "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-12T23:45:13+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ee57bfd4ca8aaf02541633ad2174a321",
       "title": "Anthropic Now Leads OpenAI in Annualized Revenue",
       "url": "https://www.youtube.com/watch?v=iRMIUmDZrtY",
@@ -817,17 +832,15 @@
     },
     {
       "id": "174f5889cfe7241f93561f036a1b2177",
-      "title": "State of the product job market in early 2026",
+      "title": "Listen: State of the product job market in early 2026",
       "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-372",
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-03-24T09:02:05+00:00",
-      "summary": "AI roles are exploding, PM and eng job openings are the highest in years, and the overall number of tech jobs is up",
+      "summary": "An audio edition of Lenny's Newsletter post",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1163,19 +1176,6 @@
       "source_type": "youtube",
       "published": "2026-03-05T02:50:14+00:00",
       "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "281cd83fb73217ddaf2141b1f31dacbb",
-      "title": "Stock Market Reaction to Iran: De-Escalation Priced In (Big Risk)",
-      "url": "https://www.youtube.com/watch?v=hjdfv8687fo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-02T21:30:50+00:00",
-      "summary": "⭐ To see what I'm doing with my stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-12T23:30:34.290758+00:00"
+  "generated_at": "2026-04-13T02:23:48.892915+00:00"
 }
