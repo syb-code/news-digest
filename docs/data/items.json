@@ -1,6 +1,66 @@
 {
   "items": [
     {
+      "id": "8eeefaa423fc177a664b0eacadf50fbd",
+      "title": "The New AI Org Chart",
+      "url": "https://www.youtube.com/watch?v=p0p5j9aAub0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-14T13:30:16+00:00",
+      "summary": "AI agents are reshaping org charts by replacing human information-routing and creating parallel, agent-based coordination layers. Discussion traces evolution from Roman military hierarchies and Prussian general staff to Taylorist functional pyramids and modern experiments such a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "749e23a4ca50ede534bd2f8d3c5d6aa7",
+      "title": "\"I Don't Believe the Stagflation Narrative\": Sean Emory's Bullish Blueprint | Avory & Co",
+      "url": "https://www.youtube.com/watch?v=00Oox2VvkGQ",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-14T13:04:52+00:00",
+      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "c2c27d5b1532ebfbfb75e545c6f176f0",
+      "title": "Not all AI agents are created equal",
+      "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-14T12:46:08+00:00",
+      "summary": "A framework for categorizing and prioritizing your agent initiatives",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "23a3f38a40d299d5012937561bc017e2",
+      "title": "Oil Tankers Are About to Print Money!",
+      "url": "https://www.youtube.com/shorts/23e97Yt1_lY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-14T12:00:03+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Ed Finley-Richardson about a potentially explosive setup in global shipping markets. If China pressures Iran to release vessels and ramp exports, Middle Eastern producers like Saudi Arabia, Iraq, and Kuwait could rapi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d6bd7a7c608b1c07b062c026eba300ea",
       "title": "🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork",
@@ -773,21 +833,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "41c8e07e56e5677833c30628bb52c8c5",
-      "title": "Why AI Needs Better Benchmarks",
-      "url": "https://www.youtube.com/watch?v=kLZeFWZewH0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-27T02:29:01+00:00",
-      "summary": "ARC-AGI-3 from the ARC Prize measures intelligence by testing learning efficiency across 135 interactive visual games. Coverage examines benchmark saturation, benchmark maxing, and the shift from memorization-focused tests toward interactive, tool-enabled real-world evaluations.…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bc3c99eab4e6e23f7b7b30d08554995c",
       "title": "How to Build a Stock Market Portfolio With Just 4 Investments",
       "url": "https://www.youtube.com/watch?v=3Nx_g-mPqOc",
@@ -838,21 +883,6 @@
       "source_type": "rss",
       "published": "2026-03-25T12:03:34+00:00",
       "summary": "Watch now | 🎙️ How Stripe engineers deploy AI agents that write PRs from Slack reactions, plus a demo of machine-to-machine payments that plan a birthday party for $5.47",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ecbcfe0b950867c702f9ab1f6e3c250d",
-      "title": "State of the product job market in early 2026",
-      "url": "https://www.lennysnewsletter.com/p/state-of-the-product-job-market-in-ee9",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-24T12:45:12+00:00",
-      "summary": "AI roles are exploding, PM and eng job openings are the highest in years, and the overall number of tech jobs is up",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -914,36 +944,6 @@
       "published": "2026-03-22T17:20:16+00:00",
       "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippl…",
       "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fd22b997fb748c8921f9f98e53f50ae0",
-      "title": "Oil Shock Will Break the Global System! Rory Johnson",
-      "url": "https://www.youtube.com/shorts/LYHYMX5jv5s",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-22T15:15:04+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with commodities expert Rory Johnson about the risks of a major disruption in Middle East oil supply.\n\nJohnson explains that a large-scale shock to the oil supply chain wouldn’t just raise prices — it could send a shockwav…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "787d4d00d1a550eedf4cb8fa5d9f1600",
-      "title": "Oil Will “Sail” Past $230 | Rory Johnston on Why Iran War Has\"Terrified\" The Oil Market",
-      "url": "https://www.youtube.com/watch?v=6sw_MgTtUB8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-20T03:32:07+00:00",
-      "summary": "20% discount to annual subscription to Rory Johnston’s Commodity Context: https://www.commoditycontext.com/monetarymatters\n\nIn this urgent episode of Monetary Matters Today, Jack sits down with Rory Johnston of Commodity Context to break down the unprecedented global oil shock c…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-14T12:02:23.746491+00:00"
+  "generated_at": "2026-04-14T14:47:40.972220+00:00"
 }
