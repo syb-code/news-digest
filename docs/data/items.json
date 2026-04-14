@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "id": "7aed3740f301d96cf95a86b8512c9502",
-      "title": "Shipping Boom Incoming? ‘Feeding Frenzy’ Ahead” - Ed Finley-Richardson",
-      "url": "https://www.youtube.com/shorts/sp7FyJYnE9U",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-13T21:01:03+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Ed Finley-Richardson about a potentially explosive setup in global shipping markets.\n\nIf China pressures Iran to release vessels and ramp exports, Middle Eastern producers like Saudi Arabia, Iraq, and Kuwait could rap…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d6bd7a7c608b1c07b062c026eba300ea",
       "title": "🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork",
@@ -951,6 +936,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "787d4d00d1a550eedf4cb8fa5d9f1600",
+      "title": "Oil Will “Sail” Past $230 | Rory Johnston on Why Iran War Has\"Terrified\" The Oil Market",
+      "url": "https://www.youtube.com/watch?v=6sw_MgTtUB8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-03-20T03:32:07+00:00",
+      "summary": "20% discount to annual subscription to Rory Johnston’s Commodity Context: https://www.commoditycontext.com/monetarymatters\n\nIn this urgent episode of Monetary Matters Today, Jack sits down with Rory Johnston of Commodity Context to break down the unprecedented global oil shock c…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "67ccbb46680956f54836a45f1f625b14",
       "title": "Inflation Is Going Up… So Why Is the Fed Cutting Rates?",
       "url": "https://www.youtube.com/watch?v=gbLja35Uw-A",
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-14T02:10:11.365390+00:00"
+  "generated_at": "2026-04-14T05:19:45.353042+00:00"
 }
