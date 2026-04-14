@@ -1,36 +1,6 @@
 {
   "items": [
     {
-      "id": "8eeefaa423fc177a664b0eacadf50fbd",
-      "title": "The New AI Org Chart",
-      "url": "https://www.youtube.com/watch?v=p0p5j9aAub0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-14T13:30:16+00:00",
-      "summary": "AI agents are reshaping org charts by replacing human information-routing and creating parallel, agent-based coordination layers. Discussion traces evolution from Roman military hierarchies and Prussian general staff to Taylorist functional pyramids and modern experiments such a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "749e23a4ca50ede534bd2f8d3c5d6aa7",
-      "title": "\"I Don't Believe the Stagflation Narrative\": Sean Emory's Bullish Blueprint | Avory & Co",
-      "url": "https://www.youtube.com/watch?v=00Oox2VvkGQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-14T13:04:52+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c2c27d5b1532ebfbfb75e545c6f176f0",
       "title": "Not all AI agents are created equal",
       "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
@@ -38,21 +8,6 @@
       "source_type": "rss",
       "published": "2026-04-14T12:46:08+00:00",
       "summary": "A framework for categorizing and prioritizing your agent initiatives",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "23a3f38a40d299d5012937561bc017e2",
-      "title": "Oil Tankers Are About to Print Money!",
-      "url": "https://www.youtube.com/shorts/23e97Yt1_lY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-14T12:00:03+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Ed Finley-Richardson about a potentially explosive setup in global shipping markets. If China pressures Iran to release vessels and ramp exports, Middle Eastern producers like Saudi Arabia, Iraq, and Kuwait could rapi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -91,37 +46,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1cce944ac7c7eaa90658d47f25e01665",
-      "title": "Stagflation Warning in the USA: Iran Deal Fails",
-      "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-12T23:45:13+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ee57bfd4ca8aaf02541633ad2174a321",
-      "title": "Anthropic Now Leads OpenAI in Annualized Revenue",
-      "url": "https://www.youtube.com/watch?v=iRMIUmDZrtY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-12T16:36:41+00:00",
-      "summary": "Anthropic reports a $30 billion annualized revenue run rate and closes a multi-gigawatt compute deal with Google and Broadcom. OpenAI and Anthropic face enormous model-training costs and use accounting methods that exclude training to show near-term profitability. Google commerc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d8b04b1f15fff1ded0a8b6a5e4f622b3",
       "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
       "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
@@ -150,51 +74,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "930969ea071d75c0ab36d3fafeed4f9e",
-      "title": "Inflation Surges Higher — The Fed is Now Trapped",
-      "url": "https://www.youtube.com/watch?v=E0kzhuRs22I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-10T20:40:28+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "21508a5ee46fca45e4791aa1b6f91f27",
-      "title": "Why Every AI Product Seems the Same",
-      "url": "https://www.youtube.com/watch?v=634oIgg3v5c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-10T11:08:46+00:00",
-      "summary": "AI roadmaps converge on desktop superapps and general-purpose agents that combine coding, multimodal models, and persistent integrations. Vibecoding and code-first agents are turning software engineering into universal knowledge-work automation across design, analytics, and mark…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e80ffd9c9670e48f991087289dc7cb9b",
-      "title": "All of AI's New Models and Tools",
-      "url": "https://www.youtube.com/watch?v=20vZc0cOpOw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-10T00:45:11+00:00",
-      "summary": "Overview of major model and agent launches: Meta's Muse/Spark multimodal models and personal-agent focus, Google's Gemini notebooks for shared task contexts, and open-source GLM 5.1 pushing coding benchmarks. Benchmark comparisons show GLM 5.1 and Muse leading on coding and visu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d5bfed3cb265a1fa68dcc193c70bd7ba",
       "title": "Deep Learning Weekly: Issue 450",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-450",
@@ -205,94 +84,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "376425b0ae206e8ce106e225e91740f6",
-      "title": "Tech Valuations Have Crashed: Why AI Won’t Kill Software | Ben Topor | Titan Capital Partners",
-      "url": "https://www.youtube.com/watch?v=16KnPdLcBr8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-09T13:00:02+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a1b9143abb2d4f75f6e7adfa59cf5000",
-      "title": "OpenAI Proposes a New Deal",
-      "url": "https://www.youtube.com/watch?v=P_oabCLJhb0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-09T12:00:06+00:00",
-      "summary": "OpenAI's Industrial Policy for the Intelligence Age addresses worker protections, public wealth proposals, tax reform, and datacenter energy issues. Analysis highlights PR framing concerns and a lack of concrete commitments such as funding, energy rate separation, or reinstated …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "753017e86a7b805e38384ffde7b13292",
-      "title": "Should We Be Scared of Anthropic's Mythos?",
-      "url": "https://www.youtube.com/watch?v=_E7XMiVomJA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-09T02:25:11+00:00",
-      "summary": "Anthropic's Mythos preview delivers a large capability jump on coding, knowledge, and terminal benchmarks and surpasses Opus 4.6 on key tests. Red-team cybersecurity reviews reveal automated zero‑day discovery and chainable exploits, prompting Project Glasswing and restricted ac…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c0dd81bc338cc341cb8df90c46241c24",
-      "title": "How to Invest in 2026 After the Stock Market Drop",
-      "url": "https://www.youtube.com/watch?v=XfR-4TPmjSI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-09T00:00:35+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0df1638aecf85b76865e6a8f6586f3c3",
-      "title": "The Truth About Private Credit | Michael Haynes of Beach Point Capital",
-      "url": "https://www.youtube.com/watch?v=Vs7UxJszuFg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-08T16:48:17+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nMichael Haynes, Head of Private Credit …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5ca4cb3ad311c61fa5333e14ffa8608b",
-      "title": "6 Questions Shaping AI",
-      "url": "https://www.youtube.com/watch?v=ud3Uuu64XXA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-08T13:30:06+00:00",
-      "summary": "Six pivotal questions shape AI policy and markets: job displacement; political contention; identities of limit‑setting authorities; market funding for infrastructure and vulnerability to external shocks; differentiated enterprise adoption; and agency created by AI agents. Survey…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -337,36 +128,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4c70108e1032a007d0fa83a2019c6740",
-      "title": "The Calm Before the AGI Storm",
-      "url": "https://www.youtube.com/watch?v=PxnEItHxtWQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-08T00:17:16+00:00",
-      "summary": "A view of a calm-before-the-AGI-storm landscape as major AI labs jockey for dominance and investors pour record capital into OpenAI. Focused analysis of OpenAI fundraising, executive reshuffles, the TBPN acquisition and IPO timing tensions alongside Anthropic's soaring secondary…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "75a0ec3c45846de1c08d95d60de32dbb",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "url": "https://www.youtube.com/watch?v=zm4xXHMWVZ0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-07T13:01:56+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "72ae5974bbd9d254d7b2e57bad2384e3",
       "title": "A visual guide to getting out of a creative slump",
       "url": "https://www.lennysnewsletter.com/p/a-visual-guide-to-getting-out-of",
@@ -380,21 +141,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "884fce5c58fd281131f998ffab151f3a",
-      "title": "Jobs Report Surprises Again… No Rate Cuts Now?",
-      "url": "https://www.youtube.com/watch?v=G0DtzLWAlfg",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-06T17:47:58+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7563c9a97d7f4309c7c7da629e3f5c2a",
       "title": "🎙️ This week on How I AI: I gave Claude Code our entire codebase. Our customers noticed.",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-i-gave-claude",
@@ -402,21 +148,6 @@
       "source_type": "rss",
       "published": "2026-04-06T15:03:07+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "48f20d7ade7c4e1aaa11217f99acbaca",
-      "title": "Introducing Maturity Maps: A New Way to Measure AI Adoption",
-      "url": "https://www.youtube.com/watch?v=Jg-wQBw0LDQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-06T12:53:46+00:00",
-      "summary": "Maturity Maps present a framework for assessing AI readiness across six dimensions: Use, Data and Infrastructure, Workflow Integration, Agent Deployment, Talent and Culture, and Governance. Benchmarks expose an adoption mirage in marketing and sales and widespread governance and…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -470,47 +201,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "755c9932401d5663f5a746a58cf5a50b",
-      "title": "How to Build a Personal Context MCP",
-      "url": "https://www.youtube.com/watch?v=TVJ8lt4UfLY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-04T14:33:56+00:00",
-      "summary": "Why context is the core bottleneck for agentic AI adoption in enterprises, with data readiness, access, and portability as decisive factors. Presentation of a Personal Context Portfolio: modular markdown files (identity, roles, projects, tools, communication style, domain knowle…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a64324c7f69bd292ea071610761aa3e4",
-      "title": "Liz Ann Sonders: This Feels Like 1990…",
-      "url": "https://www.youtube.com/shorts/PL4-y9ZBXng",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T13:30:35+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Liz Ann Sonders about striking parallels between today’s market environment and the early 1990s. Sonders highlights a familiar mix: rising oil prices, geopolitical tensions in the Middle East, and underlying credit ri…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5181f263e77f62eb2c33d0b4231a8669",
-      "title": "Iran War Has Pushed Global Shipping Markets To The Brink | Ed Finley-Richardson",
-      "url": "https://www.youtube.com/watch?v=jgDRK1hfDCo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T12:17:14+00:00",
-      "summary": "Listeners can get 20% off Misadventures in Shipping subscriptions through April 17th here:\nhttps://edfin.substack.com/monetary\n\nSubscription includes access to Substack research pieces and private Twitter (X) account.\n____\nIn this episode, Ed Finley-Richardson of the Misadventur…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a1049541fdb14696f9879984e67fed8e",
       "title": "\"Who should we hire for branding?\"",
       "url": "https://designplusai.com/p/who-should-we-hire-for-branding",
@@ -521,37 +211,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a9ec3356c8edc9a1cc1621cbb116ea8e",
-      "title": "Agent Skills Masterclass with Nufar Gaspar",
-      "url": "https://www.youtube.com/watch?v=fs_Y3gvj7lk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-03T01:41:11+00:00",
-      "summary": "Agent Skills Masterclass presents practical frameworks for creating, testing, and deploying AI skills. Conversations cover skill design, repositories and marketplaces, safety checks, and reuse versus custom builds. Organizational playbooks focus on governance, versioning, observ…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3642215a5b10ad7cec6358dadc3ad5a0",
-      "title": "The Fed is Printing Money Again... And Inflation is Accelerating",
-      "url": "https://www.youtube.com/watch?v=4jBheSk3dEo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-02T16:00:06+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -576,51 +235,6 @@
       "published": "2026-04-02T12:32:28+00:00",
       "summary": "Listen now | Simon Willison on why November 2025 changed software engineering forever, the lethal trifecta, his top agentic engineering patterns, and much more",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a1df76db077eb9134c19adf2c086567f",
-      "title": "The Ultimate AI Catch-Up Guide",
-      "url": "https://www.youtube.com/watch?v=Jov9Mn2Q2s8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-01T21:56:01+00:00",
-      "summary": "NLW presents the current AI landscape where capabilities are accelerating, daily adoption among advanced knowledge workers is widespread, and hallucination rates have dropped dramatically. Debunks common myths by showing AI output varies in quality and excels at augmenting resea…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "461c7544ce7893c658e29008578a03ea",
-      "title": "\"Farmers Are Getting Crushed!\" Josh Linville",
-      "url": "https://www.youtube.com/shorts/xip7BwYglHM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-01T20:30:10+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Josh Linville about a deepening crisis in global agriculture. Linville explains that farm economics are among the worst he’s ever seen, driven in part by instability in the fertilizer market. With major urea exporters…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "53c11f8315cdbb7b51462896f2644e4f",
-      "title": "Why $200 Oil Won’t Spike Inflation to 9% | Anna Wong",
-      "url": "https://www.youtube.com/watch?v=Af-Wv5X6d60",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-01T15:10:09+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -658,37 +272,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e995dae4ef466c68a4099b9d0f84da19",
-      "title": "The State of AI - Q2 2026",
-      "url": "https://www.youtube.com/watch?v=LZeMZgJszKU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-31T17:28:31+00:00",
-      "summary": "Report focuses on an AI second moment driven by agentic systems that turn language models into autonomous, workplace-capable agents. Anthropic Claude Code and OpenClaw-style offerings sparked rapid enterprise adoption, major revenue acceleration, and hyperscaler CapEx commitment…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b77432853fafe44f730064eb02919ca",
-      "title": "Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "url": "https://www.youtube.com/watch?v=fngiWGhdUWc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-31T13:01:31+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5b61d26f0e5617b448386f2183f6c31f",
       "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
       "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building",
@@ -701,19 +284,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "31ff5a28523bab048ec1bb3065d3882e",
-      "title": "Stagflation Risk is Rising Fast in The USA",
-      "url": "https://www.youtube.com/watch?v=EadSbdD_NQc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-30T16:00:26+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -745,36 +315,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c75b2690b0a442000f6368694655d378",
-      "title": "A Private Credit Liquidity Crunch Has Already Started | Leyla Kunimoto",
-      "url": "https://www.youtube.com/watch?v=xFEkTMaGlKg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-29T18:44:24+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ad938bc87cdbe2f62482b4a7f7d78fa5",
-      "title": "The Era of Vertical AI Models",
-      "url": "https://www.youtube.com/watch?v=DvNKYftvPW0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-29T15:17:26+00:00",
-      "summary": "Analysis contrasts Sutton's Bitter Lesson with a rising era of vertical AI models trained on last-mile interaction data, exemplified by Intercom's Apex and Cursor's Composer Two. Post-training on proprietary interaction datasets and reinforcement learning on curated quality data…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6ac4e6a5a68f6aecd7c176296302db6c",
       "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
       "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
@@ -787,19 +327,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f6f5cd84838ae12c1dc27f8ff8f55678",
-      "title": "Anthropic's New Mythos Model a \"Step Change\" in Capabilities",
-      "url": "https://www.youtube.com/watch?v=EBXZ4zZwS7c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-29T01:28:56+00:00",
-      "summary": "A leaked draft reveals Anthropic's Claude Mythos, a compute‑intensive, more capable model now in early access and prompting concerns about cybersecurity and release safety. Google's Gemini 3.1 Flash Live brings continuous, low‑latency conversational voice with improved multi‑ste…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -818,34 +345,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "816a9940aadaa337f8ce6c436bc43804",
-      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
-      "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-27T16:22:43+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nFormer Head of Sovereign Credit at PIMCO Lupin Rahman joins Jack to discuss sovereign debt and its peculiarities. She explains why its technicals can differ significantly from fundamentals, t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bc3c99eab4e6e23f7b7b30d08554995c",
-      "title": "How to Build a Stock Market Portfolio With Just 4 Investments",
-      "url": "https://www.youtube.com/watch?v=3Nx_g-mPqOc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-26T16:00:04+00:00",
-      "summary": "⭐ To see what I'm doing with my stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "e37c2bfa951e3993d02e30fb46160ab6",
       "title": "Deep Learning Weekly: Issue 448",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-448",
@@ -854,21 +353,6 @@
       "published": "2026-03-26T15:03:09+00:00",
       "summary": "Cursor's Composer 2, TurboQuant: Redefining AI efficiency with extreme compression, a paper on Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation, and many more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "51d9b1545336626df74ea3fa675eda3d",
-      "title": "The Hidden Market Stress Obscured by Stock Indexes | Liz Ann Sonders",
-      "url": "https://www.youtube.com/watch?v=nkL0oBXV_9U",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-25T16:34:36+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI …",
-      "read_minutes": 3,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -891,36 +375,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4fc6cce8e5dfd78c8df307bb75bddc68",
-      "title": "“Not Until May” The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen",
-      "url": "https://www.youtube.com/watch?v=kmKOKsPJDXA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-23T20:57:28+00:00",
-      "summary": "Learn more about Teucrium’s CORN ETF (CORN) here: https://teucrium.com/corn\n\nNadia Martin Wiggen, Director at Svelland Capital joins Other People’s Money for a timely update on energy and shipping markets in light of the “5-day pause” Truth Social post that sent equity markets r…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dd7f6bc4160fa838d49104fcdd76bfd3",
-      "title": "Housing Market Update 2026 — The Hidden Costs Are Surging",
-      "url": "https://www.youtube.com/watch?v=X03ZGdr04vQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-23T16:00:55+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "aa254796804e00f2e17fb9cbf1d501ff",
       "title": "Last Week in AI #339 - DLSS 5, OpenAI Superapp, MiniMax M2.7",
       "url": "https://lastweekin.ai/p/last-week-in-ai-339-dlss-5-openai",
@@ -932,36 +386,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "684dc8bf2033f90bba6fa813947e5fe8",
-      "title": "Fertilizer Nightmare Threatens Global Food Systems | Josh Linville on Iran War’s Fertilizer Shock",
-      "url": "https://www.youtube.com/watch?v=zL3k_TmlCPs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-22T17:20:16+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippl…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "67ccbb46680956f54836a45f1f625b14",
-      "title": "Inflation Is Going Up… So Why Is the Fed Cutting Rates?",
-      "url": "https://www.youtube.com/watch?v=gbLja35Uw-A",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-19T16:01:08+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -986,19 +410,6 @@
       "source_type": "rss",
       "published": "2026-03-16T21:21:34+00:00",
       "summary": "I recently built an internal brand agent for Lovable and a lot of people asked how I did it, so here's the exact guide:",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0333b9a5dbc89447dbe778d4b0bb2fe9",
-      "title": "Private Credit: The Next Risk in the Financial System",
-      "url": "https://www.youtube.com/watch?v=5AjShaNN3Jo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-16T16:00:14+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1035,19 +446,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bf60cbbb48af220bbd3b7cae6aba497c",
-      "title": "Americans Are Struggling With Debt and Missed Payments",
-      "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-13T16:00:04+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "d005e1ce1065e521462425789b4b2efe",
       "title": "LWiAI Podcast #236 - GPT 5.4, Gemini 3.1 Flash Lite, Supply Chain Risk",
       "url": "https://lastweekin.ai/p/lwiai-podcast-236-gpt-54-gemini-31",
@@ -1070,32 +468,6 @@
       "source_type": "rss",
       "published": "2026-03-12T15:02:50+00:00",
       "summary": "Native Observability & Alerts for Your OpenClaw with Opik, Gemini Embedding 2, a paper on LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "70fa850aa7372bfefac51efe0c2660bf",
-      "title": "CPI Inflation Report: Gasoline Prices Surging — Trouble Ahead",
-      "url": "https://www.youtube.com/watch?v=3woIZO1tixY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-11T19:33:50+00:00",
-      "summary": "⭐ To see what I'm doing with my stocks, gold, silver please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
-      "title": "US Debt Crisis: Warning From The Bond Market",
-      "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-09T16:00:40+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1130,19 +502,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7ea42a837d0f6971556f4902c19846c9",
-      "title": "Jobs Report Disaster: Major Warning for the U.S. Economy",
-      "url": "https://www.youtube.com/watch?v=353aUcP-IwI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-06T20:08:51+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, or to chat, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5d36618961dd198eaa49029c8632578d",
       "title": "Deep Learning Weekly: Issue 445",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
@@ -1168,19 +527,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e52c570b53cc56a258acb32d00795433",
-      "title": "Rising Gasoline and Oil Prices Increase Recession Risk",
-      "url": "https://www.youtube.com/watch?v=X9Kj8j8Iw9s",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-05T02:50:14+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1797,5 +1143,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-14T21:47:17.835473+00:00"
+  "generated_at": "2026-04-14T22:41:01.840684+00:00"
 }
