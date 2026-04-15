@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "63cd252f81bcf3ef677d439d99d8a151",
+      "title": "The Real Cost of the Iran War Is Surging",
+      "url": "https://www.youtube.com/watch?v=GkrTTJiL7hY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-15T16:00:35+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "6bebcfec75fb1214175d64fb465a8d62",
       "title": "Harness Engineering 101",
       "url": "https://www.youtube.com/watch?v=OTjZBjq5FPg",
@@ -1173,19 +1186,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e52c570b53cc56a258acb32d00795433",
-      "title": "Rising Gasoline and Oil Prices Increase Recession Risk",
-      "url": "https://www.youtube.com/watch?v=X9Kj8j8Iw9s",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-05T02:50:14+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "53a0e6836437abdf3702d73c3fff98de",
       "title": "Deep Learning Weekly: Issue 444",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-444",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-15T15:03:03.818901+00:00"
+  "generated_at": "2026-04-15T16:59:09.716244+00:00"
 }
