@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6bebcfec75fb1214175d64fb465a8d62",
+      "title": "Harness Engineering 101",
+      "url": "https://www.youtube.com/watch?v=OTjZBjq5FPg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-15T13:18:16+00:00",
+      "summary": "Harness engineering means systems, tooling, and interfaces surrounding AI models to provide context, memory, safe execution, and orchestration. Managed agents such as Cursor 3, Claude Code, and Anthropic Managed Agents illustrate a shift from prompt engineering toward production…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7f74af3bc621fc79165ca501f8d9bd53",
       "title": "Listen: Not all AI agents are created equal",
       "url": "https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created",
@@ -783,21 +798,6 @@
       "published": "2026-03-29T18:44:24+00:00",
       "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ad938bc87cdbe2f62482b4a7f7d78fa5",
-      "title": "The Era of Vertical AI Models",
-      "url": "https://www.youtube.com/watch?v=DvNKYftvPW0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-29T15:17:26+00:00",
-      "summary": "Analysis contrasts Sutton's Bitter Lesson with a rising era of vertical AI models trained on last-mile interaction data, exemplified by Intercom's Apex and Cursor's Composer Two. Post-training on proprietary interaction datasets and reinforcement learning on curated quality data…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-15T13:17:24.280699+00:00"
+  "generated_at": "2026-04-15T15:03:03.818901+00:00"
 }
