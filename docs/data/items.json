@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0c11350ffaaf8025848a40be8cbe488c",
+      "title": "How Financial Repression Hurts Savers & The Middle Class | Dr. Hanno Lustig",
+      "url": "https://www.youtube.com/watch?v=DNwM-lqs0JU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-15T19:50:43+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, Stanford University finance professor Hanno Lustig dives deep into the hidden mechanics of financial repression and fiscal sustainability. Professor Lusti…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "63cd252f81bcf3ef677d439d99d8a151",
       "title": "The Real Cost of the Iran War Is Surging",
       "url": "https://www.youtube.com/watch?v=GkrTTJiL7hY",
@@ -951,21 +966,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "684dc8bf2033f90bba6fa813947e5fe8",
-      "title": "Fertilizer Nightmare Threatens Global Food Systems | Josh Linville on Iran War’s Fertilizer Shock",
-      "url": "https://www.youtube.com/watch?v=zL3k_TmlCPs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-22T17:20:16+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, StoneX Vice President Josh Linville explains how the Iran War and the closure of the Strait of Hormuz have triggered a global fertilizer crisis that is currently crippl…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "67ccbb46680956f54836a45f1f625b14",
       "title": "Inflation Is Going Up… So Why Is the Fed Cutting Rates?",
       "url": "https://www.youtube.com/watch?v=gbLja35Uw-A",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-15T18:08:17.281774+00:00"
+  "generated_at": "2026-04-15T20:00:23.416755+00:00"
 }
