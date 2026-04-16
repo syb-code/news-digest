@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "522f24870f08fed6dd8e06eb8b4307e8",
+      "title": "Vibe Coding Gets an Upgrade",
+      "url": "https://www.youtube.com/watch?v=rNDaRO68JEc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-16T13:49:16+00:00",
+      "summary": "Vibecoding is shifting toward agent orchestration with multi-session developer interfaces, integrated terminals, and workspace customization for parallel workflows. Claude code routines and trigger-driven automation enable event-based background execution and unlock product oppo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0c11350ffaaf8025848a40be8cbe488c",
       "title": "How Financial Repression Hurts Savers & The Middle Class | Dr. Hanno Lustig",
       "url": "https://www.youtube.com/watch?v=DNwM-lqs0JU",
@@ -727,22 +740,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e995dae4ef466c68a4099b9d0f84da19",
-      "title": "The State of AI - Q2 2026",
-      "url": "https://www.youtube.com/watch?v=LZeMZgJszKU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-03-31T17:28:31+00:00",
-      "summary": "Report focuses on an AI second moment driven by agentic systems that turn language models into autonomous, workplace-capable agents. Anthropic Claude Code and OpenClaw-style offerings sparked rapid enterprise adoption, major revenue acceleration, and hyperscaler CapEx commitment…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1799,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-16T12:01:35.770097+00:00"
+  "generated_at": "2026-04-16T14:51:18.307330+00:00"
 }
