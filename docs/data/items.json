@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "61909fe89f5623ce02dc50b30001248d",
+      "title": "Worst Case Scenario for Oil? Total Shutdown",
+      "url": "https://www.youtube.com/shorts/7fpgHdcHR_4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-16T21:00:14+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley explores the global risks surrounding the Strait of Hormuz — one of the most critical arteries in the global energy system.\n\nA prolonged or semi-permanent disruption to this vital shipping route could send oil prices soaring, cri…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5029f5f93021fab99a2badb8a0f1eef4",
       "title": "Deep Learning Weekly: Issue 451",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-451",
@@ -30,7 +45,7 @@
     },
     {
       "id": "0c11350ffaaf8025848a40be8cbe488c",
-      "title": "How Financial Repression Hurts Savers & The Middle Class | Dr. Hanno Lustig",
+      "title": "Everything You Need to Know about Financial Repression | Hanno Lustig",
       "url": "https://www.youtube.com/watch?v=DNwM-lqs0JU",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -933,21 +948,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4fc6cce8e5dfd78c8df307bb75bddc68",
-      "title": "“Not Until May” The Real Timeline for Controlling the Strait of Hormuz | Nadia Martin Wiggen",
-      "url": "https://www.youtube.com/watch?v=kmKOKsPJDXA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-23T20:57:28+00:00",
-      "summary": "Learn more about Teucrium’s CORN ETF (CORN) here: https://teucrium.com/corn\n\nNadia Martin Wiggen, Director at Svelland Capital joins Other People’s Money for a timely update on energy and shipping markets in light of the “5-day pause” Truth Social post that sent equity markets r…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dd7f6bc4160fa838d49104fcdd76bfd3",
       "title": "Housing Market Update 2026 — The Hidden Costs Are Surging",
       "url": "https://www.youtube.com/watch?v=X03ZGdr04vQ",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-16T20:52:47.169240+00:00"
+  "generated_at": "2026-04-16T21:38:50.570415+00:00"
 }
