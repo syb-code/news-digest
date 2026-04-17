@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1828703ff9f27d79391310408d0b1ff5",
+      "title": "Housing Market Crash: Why Home Prices Still Aren't Falling",
+      "url": "https://www.youtube.com/watch?v=ynJ8-6NSnmA",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-17T16:50:11+00:00",
+      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "61909fe89f5623ce02dc50b30001248d",
       "title": "Worst Case Scenario for Oil? Total Shutdown",
       "url": "https://www.youtube.com/shorts/7fpgHdcHR_4",
@@ -1157,19 +1172,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7ea42a837d0f6971556f4902c19846c9",
-      "title": "Jobs Report Disaster: Major Warning for the U.S. Economy",
-      "url": "https://www.youtube.com/watch?v=353aUcP-IwI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-06T20:08:51+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, or to chat, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5d36618961dd198eaa49029c8632578d",
       "title": "Deep Learning Weekly: Issue 445",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
@@ -1796,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-17T16:55:21.888893+00:00"
+  "generated_at": "2026-04-17T17:46:36.681106+00:00"
 }
