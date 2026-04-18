@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a8e94d76a627901d2d637feabb5626a5",
+      "title": "Banking System's Private Credit Exposure Is Large, Notes Bank Analyst Chris Whalen",
+      "url": "https://www.youtube.com/watch?v=x4PChCOiszM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-18T16:25:30+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode, banking specialist Chris Whalen joins Jack to unpack the hidden risks within recent bank earnings, focusing heavily on the sector's exposure to private credit and non-deposit…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1828703ff9f27d79391310408d0b1ff5",
       "title": "Housing Market Crash: Why Home Prices Still Aren't Falling",
       "url": "https://www.youtube.com/watch?v=ynJ8-6NSnmA",
@@ -948,21 +963,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "51d9b1545336626df74ea3fa675eda3d",
-      "title": "The Hidden Market Stress Obscured by Stock Indexes | Liz Ann Sonders",
-      "url": "https://www.youtube.com/watch?v=nkL0oBXV_9U",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-25T16:34:36+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI …",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "dd7f6bc4160fa838d49104fcdd76bfd3",
       "title": "Housing Market Update 2026 — The Hidden Costs Are Surging",
       "url": "https://www.youtube.com/watch?v=X03ZGdr04vQ",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-18T15:34:01.045117+00:00"
+  "generated_at": "2026-04-18T16:34:58.103456+00:00"
 }
