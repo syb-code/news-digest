@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b489363497cb23a7e58ddbfceedfdea0",
+      "title": "🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-18T18:38:18+00:00",
+      "summary": "Community Wisdom 182",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a8e94d76a627901d2d637feabb5626a5",
       "title": "Banking System's Private Credit Exposure Is Large, Notes Bank Analyst Chris Whalen",
       "url": "https://www.youtube.com/watch?v=x4PChCOiszM",
@@ -905,21 +920,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "00db39daa0d82ae91fb51116d21ff9f6",
-      "title": "🧠 Community Wisdom: When AI velocity outpaces your product strategy, when your estimates keep slipping, one day in San Francisco, pairing Claude Code with Codex, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-ai-velocity",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-28T17:01:42+00:00",
-      "summary": "Community Wisdom 179",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "816a9940aadaa337f8ce6c436bc43804",
       "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
       "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-18T17:33:29.324928+00:00"
+  "generated_at": "2026-04-18T18:42:07.439452+00:00"
 }
