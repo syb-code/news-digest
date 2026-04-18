@@ -16,6 +16,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "36bb4381f55b19998e6ce0b897f9f3ae",
+      "title": "How to Use Opus 4.7 and the New Codex",
+      "url": "https://www.youtube.com/watch?v=5LdCJHnGwNo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-18T18:35:46+00:00",
+      "summary": "OpenAI Codex adds Mac computer control, an in‑app browser with comment mode, native image generation, rich file previews, and persistent background threads. Anthropic Opus 4.7 improves reasoning and design over 4.6 while not matching the Mythos preview. Monothread chief‑of‑staff…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a8e94d76a627901d2d637feabb5626a5",
       "title": "Banking System's Private Credit Exposure Is Large, Notes Bank Analyst Chris Whalen",
       "url": "https://www.youtube.com/watch?v=x4PChCOiszM",
@@ -736,21 +751,6 @@
       "source_type": "rss",
       "published": "2026-04-02T12:32:28+00:00",
       "summary": "Listen now | Simon Willison on why November 2025 changed software engineering forever, the lethal trifecta, his top agentic engineering patterns, and much more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a1df76db077eb9134c19adf2c086567f",
-      "title": "The Ultimate AI Catch-Up Guide",
-      "url": "https://www.youtube.com/watch?v=Jov9Mn2Q2s8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-01T21:56:01+00:00",
-      "summary": "NLW presents the current AI landscape where capabilities are accelerating, daily adoption among advanced knowledge workers is widespread, and hallucination rates have dropped dramatically. Debunks common myths by showing AI output varies in quality and excels at augmenting resea…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1798,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-18T18:42:07.439452+00:00"
+  "generated_at": "2026-04-18T19:38:19.500431+00:00"
 }
