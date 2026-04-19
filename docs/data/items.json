@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "483c5914f101fbd28f9ca26c5b9fc623",
+      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
+      "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-19T12:31:44+00:00",
+      "summary": "Listen now | Nikhyl Singhal on why half of product managers are at risk, how to cross the reinvention threshold, and why the next two years will be chaotic for PMs",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b489363497cb23a7e58ddbfceedfdea0",
       "title": "🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code",
@@ -905,21 +918,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6ac4e6a5a68f6aecd7c176296302db6c",
-      "title": "From skeptic to true believer: How OpenClaw changed my life | Claire Vo",
-      "url": "https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-29T12:31:50+00:00",
-      "summary": "Listen now | Claire Vo went from OpenClaw skeptic to running nine specialized AI agents across her family calendar, inbound sales, kids’ homework help, and more",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "816a9940aadaa337f8ce6c436bc43804",
       "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
       "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
@@ -1798,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-19T11:32:28.127611+00:00"
+  "generated_at": "2026-04-19T12:54:18.360353+00:00"
 }
