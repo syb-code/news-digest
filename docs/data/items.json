@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "16323148ca9ac6bf87abeadc30bfca27",
+      "title": "Why the Market is WRONG About AI Disruption",
+      "url": "https://www.youtube.com/watch?v=XdK9_ToT-Ck",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-19T13:00:52+00:00",
+      "summary": "Monetary Matters listeners can save 20% on their first-year subscription to Pernas Research: http://pernasresearch.com/monetarymatters\n\nSoftware stocks have plummeted as the market prices in existential threats from AI capabilities and the rise of \"vibe coding\". In this episode,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "483c5914f101fbd28f9ca26c5b9fc623",
       "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
       "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
@@ -918,21 +933,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "816a9940aadaa337f8ce6c436bc43804",
-      "title": "How the Iran War Reshapes the Sovereign Debt Landscape | Sovereign Debt Expert Lupin Rahman",
-      "url": "https://www.youtube.com/watch?v=PlJuxOhU6YE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-27T16:22:43+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nFormer Head of Sovereign Credit at PIMCO Lupin Rahman joins Jack to discuss sovereign debt and its peculiarities. She explains why its technicals can differ significantly from fundamentals, t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bc3c99eab4e6e23f7b7b30d08554995c",
       "title": "How to Build a Stock Market Portfolio With Just 4 Investments",
       "url": "https://www.youtube.com/watch?v=3Nx_g-mPqOc",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-19T12:54:18.360353+00:00"
+  "generated_at": "2026-04-19T13:58:02.950316+00:00"
 }
