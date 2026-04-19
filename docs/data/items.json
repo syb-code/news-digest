@@ -29,21 +29,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "36bb4381f55b19998e6ce0b897f9f3ae",
-      "title": "How to Use Opus 4.7 and the New Codex",
-      "url": "https://www.youtube.com/watch?v=5LdCJHnGwNo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-18T18:35:46+00:00",
-      "summary": "OpenAI Codex adds Mac computer control, an in‑app browser with comment mode, native image generation, rich file previews, and persistent background threads. Anthropic Opus 4.7 improves reasoning and design over 4.6 while not matching the Mythos preview. Monothread chief‑of‑staff…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1828703ff9f27d79391310408d0b1ff5",
       "title": "Housing Market Crash: Why Home Prices Still Aren't Falling",
       "url": "https://www.youtube.com/watch?v=ynJ8-6NSnmA",
@@ -74,19 +59,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "522f24870f08fed6dd8e06eb8b4307e8",
-      "title": "Vibe Coding Gets an Upgrade",
-      "url": "https://www.youtube.com/watch?v=rNDaRO68JEc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-16T13:49:16+00:00",
-      "summary": "Vibecoding is shifting toward agent orchestration with multi-session developer interfaces, integrated terminals, and workspace customization for parallel workflows. Claude code routines and trigger-driven automation enable event-based background execution and unlock product oppo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "63cd252f81bcf3ef677d439d99d8a151",
       "title": "The Real Cost of the Iran War Is Surging",
       "url": "https://www.youtube.com/watch?v=GkrTTJiL7hY",
@@ -100,21 +72,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6bebcfec75fb1214175d64fb465a8d62",
-      "title": "Harness Engineering 101",
-      "url": "https://www.youtube.com/watch?v=OTjZBjq5FPg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T13:18:16+00:00",
-      "summary": "Harness engineering means systems, tooling, and interfaces surrounding AI models to provide context, memory, safe execution, and orchestration. Managed agents such as Cursor 3, Claude Code, and Anthropic Managed Agents illustrate a shift from prompt engineering toward production…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7f74af3bc621fc79165ca501f8d9bd53",
       "title": "Listen: Not all AI agents are created equal",
       "url": "https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created",
@@ -122,36 +79,6 @@
       "source_type": "rss",
       "published": "2026-04-15T03:45:04+00:00",
       "summary": "An audio edition of Lenny's Newsletter post",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8bcda6dbf435569a59b0d89693873c09",
-      "title": "AI Populism Turns Violent",
-      "url": "https://www.youtube.com/watch?v=O4Jbv_8jLyk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T01:48:36+00:00",
-      "summary": "Coverage of violent anti‑AI actions after a Molotov cocktail and gunfire targeted Sam Altman's home and OpenAI facilities, including the arrest of suspect Daniel Moreno Gamma and evidence of doxxing and an anti‑AI manifesto. Analysis of rhetoric from AI doomers, industry leaders…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8eeefaa423fc177a664b0eacadf50fbd",
-      "title": "The New AI Org Chart",
-      "url": "https://www.youtube.com/watch?v=p0p5j9aAub0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-14T13:30:16+00:00",
-      "summary": "AI agents are reshaping org charts by replacing human information-routing and creating parallel, agent-based coordination layers. Discussion traces evolution from Roman military hierarchies and Prussian general staff to Taylorist functional pyramids and modern experiments such a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -220,22 +147,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ee57bfd4ca8aaf02541633ad2174a321",
-      "title": "Anthropic Now Leads OpenAI in Annualized Revenue",
-      "url": "https://www.youtube.com/watch?v=iRMIUmDZrtY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-12T16:36:41+00:00",
-      "summary": "Anthropic reports a $30 billion annualized revenue run rate and closes a multi-gigawatt compute deal with Google and Broadcom. OpenAI and Anthropic face enormous model-training costs and use accounting methods that exclude training to show near-term profitability. Google commerc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d8b04b1f15fff1ded0a8b6a5e4f622b3",
       "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
       "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
@@ -279,36 +190,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "21508a5ee46fca45e4791aa1b6f91f27",
-      "title": "Why Every AI Product Seems the Same",
-      "url": "https://www.youtube.com/watch?v=634oIgg3v5c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-10T11:08:46+00:00",
-      "summary": "AI roadmaps converge on desktop superapps and general-purpose agents that combine coding, multimodal models, and persistent integrations. Vibecoding and code-first agents are turning software engineering into universal knowledge-work automation across design, analytics, and mark…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e80ffd9c9670e48f991087289dc7cb9b",
-      "title": "All of AI's New Models and Tools",
-      "url": "https://www.youtube.com/watch?v=20vZc0cOpOw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-10T00:45:11+00:00",
-      "summary": "Overview of major model and agent launches: Meta's Muse/Spark multimodal models and personal-agent focus, Google's Gemini notebooks for shared task contexts, and open-source GLM 5.1 pushing coding benchmarks. Benchmark comparisons show GLM 5.1 and Muse leading on coding and visu…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d5bfed3cb265a1fa68dcc193c70bd7ba",
       "title": "Deep Learning Weekly: Issue 450",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-450",
@@ -322,36 +203,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a1b9143abb2d4f75f6e7adfa59cf5000",
-      "title": "OpenAI Proposes a New Deal",
-      "url": "https://www.youtube.com/watch?v=P_oabCLJhb0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-09T12:00:06+00:00",
-      "summary": "OpenAI's Industrial Policy for the Intelligence Age addresses worker protections, public wealth proposals, tax reform, and datacenter energy issues. Analysis highlights PR framing concerns and a lack of concrete commitments such as funding, energy rate separation, or reinstated …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "753017e86a7b805e38384ffde7b13292",
-      "title": "Should We Be Scared of Anthropic's Mythos?",
-      "url": "https://www.youtube.com/watch?v=_E7XMiVomJA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-09T02:25:11+00:00",
-      "summary": "Anthropic's Mythos preview delivers a large capability jump on coding, knowledge, and terminal benchmarks and surpasses Opus 4.6 on key tests. Red-team cybersecurity reviews reveal automated zero‑day discovery and chainable exploits, prompting Project Glasswing and restricted ac…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c0dd81bc338cc341cb8df90c46241c24",
       "title": "How to Invest in 2026 After the Stock Market Drop",
       "url": "https://www.youtube.com/watch?v=XfR-4TPmjSI",
@@ -362,21 +213,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5ca4cb3ad311c61fa5333e14ffa8608b",
-      "title": "6 Questions Shaping AI",
-      "url": "https://www.youtube.com/watch?v=ud3Uuu64XXA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-08T13:30:06+00:00",
-      "summary": "Six pivotal questions shape AI policy and markets: job displacement; political contention; identities of limit‑setting authorities; market funding for infrastructure and vulnerability to external shocks; differentiated enterprise adoption; and agency created by AI agents. Survey…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -421,21 +257,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4c70108e1032a007d0fa83a2019c6740",
-      "title": "The Calm Before the AGI Storm",
-      "url": "https://www.youtube.com/watch?v=PxnEItHxtWQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-08T00:17:16+00:00",
-      "summary": "A view of a calm-before-the-AGI-storm landscape as major AI labs jockey for dominance and investors pour record capital into OpenAI. Focused analysis of OpenAI fundraising, executive reshuffles, the TBPN acquisition and IPO timing tensions alongside Anthropic's soaring secondary…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "72ae5974bbd9d254d7b2e57bad2384e3",
       "title": "A visual guide to getting out of a creative slump",
       "url": "https://www.lennysnewsletter.com/p/a-visual-guide-to-getting-out-of",
@@ -471,21 +292,6 @@
       "source_type": "rss",
       "published": "2026-04-06T15:03:07+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "48f20d7ade7c4e1aaa11217f99acbaca",
-      "title": "Introducing Maturity Maps: A New Way to Measure AI Adoption",
-      "url": "https://www.youtube.com/watch?v=Jg-wQBw0LDQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-06T12:53:46+00:00",
-      "summary": "Maturity Maps present a framework for assessing AI readiness across six dimensions: Use, Data and Infrastructure, Workflow Integration, Agent Deployment, Talent and Culture, and Governance. Benchmarks expose an adoption mirage in marketing and sales and widespread governance and…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -539,21 +345,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "755c9932401d5663f5a746a58cf5a50b",
-      "title": "How to Build a Personal Context MCP",
-      "url": "https://www.youtube.com/watch?v=TVJ8lt4UfLY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-04T14:33:56+00:00",
-      "summary": "Why context is the core bottleneck for agentic AI adoption in enterprises, with data readiness, access, and portability as decisive factors. Presentation of a Personal Context Portfolio: modular markdown files (identity, roles, projects, tools, communication style, domain knowle…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a1049541fdb14696f9879984e67fed8e",
       "title": "\"Who should we hire for branding?\"",
       "url": "https://designplusai.com/p/who-should-we-hire-for-branding",
@@ -564,21 +355,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a9ec3356c8edc9a1cc1621cbb116ea8e",
-      "title": "Agent Skills Masterclass with Nufar Gaspar",
-      "url": "https://www.youtube.com/watch?v=fs_Y3gvj7lk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-03T01:41:11+00:00",
-      "summary": "Agent Skills Masterclass presents practical frameworks for creating, testing, and deploying AI skills. Conversations cover skill design, repositories and marketplaces, safety checks, and reuse versus custom builds. Organizational playbooks focus on governance, versioning, observ…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1575,5 +1351,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-19T22:31:07.742156+00:00"
+  "generated_at": "2026-04-19T23:32:00.212639+00:00"
 }
