@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "45fee09aa31d7c34964843acfb30ce3d",
+      "title": "De-Dollarization: The Petrodollar Is Under Attack",
+      "url": "https://www.youtube.com/watch?v=qtfn_EkNlqI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-20T16:01:29+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b9ce1e12cf4aeeaf476219bc0ee4282c",
       "title": "🎙️ This week on How I AI: How Intercom 2x’d their engineering velocity with Claude Code",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-intercom",
@@ -1129,19 +1142,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4aecaefb424f9a45c48b55e9e2e06ee8",
-      "title": "US Debt Crisis: Warning From The Bond Market",
-      "url": "https://www.youtube.com/watch?v=SQp05LZ59B8",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-09T16:00:40+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "1d0aca8b5a2b1736506fb6317d31092a",
       "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
       "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-20T16:05:10.583082+00:00"
+  "generated_at": "2026-04-20T17:53:50.540790+00:00"
 }
