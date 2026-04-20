@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b9ce1e12cf4aeeaf476219bc0ee4282c",
+      "title": "🎙️ This week on How I AI: How Intercom 2x’d their engineering velocity with Claude Code",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-intercom",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-20T15:33:11+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3f739b038873bd96f0e90239da259e52",
       "title": "How the Best Companies Use AI",
       "url": "https://www.youtube.com/watch?v=t8vitqIj7u4",
@@ -903,21 +918,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a233c74f4a10484df757c8ec182a9f4e",
-      "title": "🎙️ This week on How I AI: How Stripe built “minions”—AI coding agents that ship 1,300 PRs per week + How to turn Claude Code into your personal life operating system",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-stripe",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-30T15:03:26+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c75b2690b0a442000f6368694655d378",
       "title": "A Private Credit Liquidity Crunch Has Already Started | Leyla Kunimoto",
       "url": "https://www.youtube.com/watch?v=xFEkTMaGlKg",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-20T14:45:42.289962+00:00"
+  "generated_at": "2026-04-20T16:05:10.583082+00:00"
 }
