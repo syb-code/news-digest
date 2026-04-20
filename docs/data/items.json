@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6d5fa488891b2ba9fa70e19a7040e0a9",
+      "title": "We’ve Seen This Before… 2008 All Over Again! | Chris Whalen",
+      "url": "https://www.youtube.com/shorts/hElugkIN0k0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-20T20:00:34+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Chris Whalen about rising risks in private credit and private equity.\n\nWhalen warns that the industry is facing a potential “come to Jesus” moment, with hundreds of billions in exposure tied back to the banking system…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "45fee09aa31d7c34964843acfb30ce3d",
       "title": "De-Dollarization: The Petrodollar Is Under Attack",
       "url": "https://www.youtube.com/watch?v=qtfn_EkNlqI",
@@ -931,21 +946,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c75b2690b0a442000f6368694655d378",
-      "title": "A Private Credit Liquidity Crunch Has Already Started | Leyla Kunimoto",
-      "url": "https://www.youtube.com/watch?v=xFEkTMaGlKg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-29T18:44:24+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bc3c99eab4e6e23f7b7b30d08554995c",
       "title": "How to Build a Stock Market Portfolio With Just 4 Investments",
       "url": "https://www.youtube.com/watch?v=3Nx_g-mPqOc",
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-20T20:02:48.124594+00:00"
+  "generated_at": "2026-04-20T21:42:17.576849+00:00"
 }
