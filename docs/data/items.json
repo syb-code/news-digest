@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "3f739b038873bd96f0e90239da259e52",
+      "title": "How the Best Companies Use AI",
+      "url": "https://www.youtube.com/watch?v=t8vitqIj7u4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-20T13:33:41+00:00",
+      "summary": "A deep dive into what separates the AI leaders from the laggers, drawing on the recent PwC study, McKinsey's AI Transformation Manifesto, George Sivulka's a16z essay on institutional vs. individual AI, and a close look at how Ramp built its internal AI system Glass. The throughl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bac435735d2baea4de7a17b650082aab",
+      "title": "How Intercom 2x’d their engineering velocity in 9 months with Claude Code | Brian Scanlan",
+      "url": "https://www.lennysnewsletter.com/p/how-intercom-2xd-their-engineering",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-20T12:03:25+00:00",
+      "summary": "Watch now | 🎙️ Brian Scanlan (Intercom) shows how they doubled engineering output using Claude Code skills, deep telemetry, and a culture that empowers engineers to ship faster",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "16323148ca9ac6bf87abeadc30bfca27",
       "title": "Why the Market is WRONG About AI Disruption",
       "url": "https://www.youtube.com/watch?v=XdK9_ToT-Ck",
@@ -728,21 +756,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a9ec3356c8edc9a1cc1621cbb116ea8e",
-      "title": "Agent Skills Masterclass with Nufar Gaspar",
-      "url": "https://www.youtube.com/watch?v=fs_Y3gvj7lk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-03T01:41:11+00:00",
-      "summary": "Agent Skills Masterclass presents practical frameworks for creating, testing, and deploying AI skills. Conversations cover skill design, repositories and marketplaces, safety checks, and reuse versus custom builds. Organizational playbooks focus on governance, versioning, observ…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3642215a5b10ad7cec6358dadc3ad5a0",
       "title": "The Fed is Printing Money Again... And Inflation is Accelerating",
       "url": "https://www.youtube.com/watch?v=4jBheSk3dEo",
@@ -902,19 +915,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "26bb87243355bf6e7db47c7e47c2d11b",
-      "title": "How to turn Claude Code into your personal life operating system | Hilary Gridley",
-      "url": "https://www.lennysnewsletter.com/p/how-to-turn-claude-code-into-your",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-30T12:04:24+00:00",
-      "summary": "Watch now | 🎙️ How a new mom and entrepreneur uses Claude Code to automate life admin—all without complex setup",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-20T12:00:56.446684+00:00"
+  "generated_at": "2026-04-20T14:45:42.289962+00:00"
 }
