@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f7e205593b3041f85101b07813184c76",
+      "title": "New: A free year of Cursor, Google AI Pro, Notion, Supabase, Gumloop, and Fin for subscribers",
+      "url": "https://www.lennysnewsletter.com/p/new-a-free-year-of-cursor-google",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-21T15:03:33+00:00",
+      "summary": "Now 27 incredible products totaling over $30,000 in value—free with your Lenny’s Newsletter subscription",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b5329d87ada724fc33f009c108e5375b",
       "title": "Agent Building Trends",
       "url": "https://www.youtube.com/watch?v=qYLysI6AkQ8",
@@ -916,21 +931,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5b61d26f0e5617b448386f2183f6c31f",
-      "title": "OpenClaw: The complete guide to building, training, and living with your personal AI agent",
-      "url": "https://www.lennysnewsletter.com/p/openclaw-the-complete-guide-to-building",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-31T12:45:57+00:00",
-      "summary": "I built a team of 9 AI agents that run my work and life. Here's how you can too.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "31ff5a28523bab048ec1bb3065d3882e",
       "title": "Stagflation Risk is Rising Fast in The USA",
       "url": "https://www.youtube.com/watch?v=EadSbdD_NQc",
@@ -1794,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-21T13:17:31.323828+00:00"
+  "generated_at": "2026-04-21T15:09:06.498199+00:00"
 }
