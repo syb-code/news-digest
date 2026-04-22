@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "286d31fa6f3b474b1186ff342020b057",
+      "title": "How Apple's AI Strategy Changes with a New CEO",
+      "url": "https://www.youtube.com/watch?v=XwdLT7qF14E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-22T19:28:26+00:00",
+      "summary": "Apple's CEO transition makes AI strategy the defining test for a hardware-first Apple. OpenClaw's agentic shift and Mac-first tooling sparked a Mac mini renaissance and tied many cutting-edge AI features to Apple silicon. Google is forming a coding-and-agent strike team; Amazon …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "72881846b5896c6da6091b1f8bb44595",
       "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
       "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
@@ -619,21 +634,6 @@
       "source_type": "youtube",
       "published": "2026-04-08T16:48:17+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nMichael Haynes, Head of Private Credit …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5ca4cb3ad311c61fa5333e14ffa8608b",
-      "title": "6 Questions Shaping AI",
-      "url": "https://www.youtube.com/watch?v=ud3Uuu64XXA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-08T13:30:06+00:00",
-      "summary": "Six pivotal questions shape AI policy and markets: job displacement; political contention; identities of limit‑setting authorities; market funding for infrastructure and vulnerability to external shocks; differentiated enterprise adoption; and agency created by AI agents. Survey…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1792,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-22T19:20:31.753915+00:00"
+  "generated_at": "2026-04-22T20:50:58.665881+00:00"
 }
