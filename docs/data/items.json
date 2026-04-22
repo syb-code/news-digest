@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "72881846b5896c6da6091b1f8bb44595",
+      "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
+      "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-22T12:04:31+00:00",
+      "summary": "Watch now | 🎙️I built a landing page, slides, and an unhinged redesign to find out what Claude Design is actually good at—plus why GPT Image 2.0 might change how you create brand assets",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "c92fe5e0be765e61d3a0590775ce2071",
       "title": "Automating Your AI Context",
       "url": "https://www.youtube.com/watch?v=jSPFi-mW0ns",
@@ -879,21 +892,6 @@
       "published": "2026-04-01T15:10:09+00:00",
       "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bed77e3824b1b3c654256f415553bab4",
-      "title": "Listen: OpenClaw: A power user’s guide to the most powerful personal AI tool since ChatGPT",
-      "url": "https://www.lennysnewsletter.com/p/listen-openclaw-a-power-users-guide",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-01T14:11:12+00:00",
-      "summary": "An audio edition of Lenny’s Newsletter post",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1794,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-22T11:00:55.718646+00:00"
+  "generated_at": "2026-04-22T13:18:58.072670+00:00"
 }
