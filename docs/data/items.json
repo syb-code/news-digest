@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c311b0fff638571403fd352a538218f1",
+      "title": "GPT 5.5 just did what no other model could",
+      "url": "https://www.lennysnewsletter.com/p/gpt-55-just-did-what-no-other-model",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-23T19:39:26+00:00",
+      "summary": "Watch now | 🎙️ Why I'm happy to pay $180 per million output tokens for GPT 5.5 Pro, what it actually did in my Codex workflow, and the intelligence test it completed that Claude Code kept failing",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4dcf60112f272a435d94feaaf563cef5",
       "title": "How Anthropic’s product team moves faster than anyone else | Cat Wu (Head of Product, Claude Code)",
       "url": "https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves",
@@ -791,21 +806,6 @@
       "source_type": "rss",
       "published": "2026-04-05T12:31:45+00:00",
       "summary": "Listen now | Anthropic’s Head of Growth on scaling from $1B to $19B ARR in 14 months through big bets, intentional onboarding friction, deep focus, and CASH—an internal AI system for autonomous growth experiments",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b865a7e793cf41e216d4a7bc40c6e10a",
-      "title": "🧠 Community Wisdom: Evaluating startup equity, navigating pre-seed fundraising, MCPs vs. CLIs, Monzo’s U.S. exit, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-evaluating-startup",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-04T22:02:36+00:00",
-      "summary": "Community Wisdom 180",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1792,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-23T19:02:46.823606+00:00"
+  "generated_at": "2026-04-23T20:48:08.121991+00:00"
 }
