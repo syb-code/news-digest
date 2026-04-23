@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ad9f008d4bf1e2c9a81b5caee90fb061",
+      "title": "The Biggest Unlocks of GPT Images 2",
+      "url": "https://www.youtube.com/watch?v=aiiSDXgCVPI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-23T00:57:36+00:00",
+      "summary": "OpenAI's GPT Image 2 topped the LM Arena leaderboard by a record 242 points, but the real story is how it fits the agentic stack. This episode digs into the image-to-code workflows driving most of the excitement and where reasoning over images still falls short. In the headlines…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "286d31fa6f3b474b1186ff342020b057",
       "title": "How Apple's AI Strategy Changes with a New CEO",
       "url": "https://www.youtube.com/watch?v=XwdLT7qF14E",
@@ -520,21 +535,6 @@
       "source_type": "youtube",
       "published": "2026-04-09T12:00:06+00:00",
       "summary": "OpenAI's Industrial Policy for the Intelligence Age addresses worker protections, public wealth proposals, tax reform, and datacenter energy issues. Analysis highlights PR framing concerns and a lack of concrete commitments such as funding, energy rate separation, or reinstated …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "753017e86a7b805e38384ffde7b13292",
-      "title": "Should We Be Scared of Anthropic's Mythos?",
-      "url": "https://www.youtube.com/watch?v=_E7XMiVomJA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-09T02:25:11+00:00",
-      "summary": "Anthropic's Mythos preview delivers a large capability jump on coding, knowledge, and terminal benchmarks and surpasses Opus 4.6 on key tests. Red-team cybersecurity reviews reveal automated zero‑day discovery and chainable exploits, prompting Project Glasswing and restricted ac…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1582,5 +1582,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-22T23:42:06.685813+00:00"
+  "generated_at": "2026-04-23T02:13:43.572826+00:00"
 }
