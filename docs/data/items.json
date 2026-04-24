@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "52f0f79028c9b0b5937f76f340087379",
+      "title": "What I Learned Testing GPT 5 5",
+      "url": "https://www.youtube.com/watch?v=jblguhXunZs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-24T17:13:06+00:00",
+      "summary": "GPT 5.5 is here, and the first reactions are split between benchmark dominance, coding debates, Anthropic comparisons, and questions about whether the upgrade will feel dramatic to everyday users. NLW breaks down the launch, the “real work” positioning, the Mythos backdrop, and …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "c311b0fff638571403fd352a538218f1",
       "title": "GPT 5.5 just did what no other model could",
       "url": "https://www.lennysnewsletter.com/p/gpt-55-just-did-what-no-other-model",
@@ -635,21 +648,6 @@
       "published": "2026-04-09T13:00:02+00:00",
       "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a1b9143abb2d4f75f6e7adfa59cf5000",
-      "title": "OpenAI Proposes a New Deal",
-      "url": "https://www.youtube.com/watch?v=P_oabCLJhb0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-09T12:00:06+00:00",
-      "summary": "OpenAI's Industrial Policy for the Intelligence Age addresses worker protections, public wealth proposals, tax reform, and datacenter energy issues. Analysis highlights PR framing concerns and a lack of concrete commitments such as funding, energy rate separation, or reinstated …",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1792,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-24T16:51:39.537885+00:00"
+  "generated_at": "2026-04-24T17:46:31.212427+00:00"
 }
