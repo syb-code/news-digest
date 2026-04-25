@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "b2e94e4ae0df22a074e505f9dc2cc8bb",
+      "title": "🧠 Community Wisdom: What great product leaders do differently, Claude vs. ChatGPT, receiving hard feedback two weeks into the job, tips for joining a pre-PMF startup, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-great-product",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-25T19:51:00+00:00",
+      "summary": "Community Wisdom 182",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "02793d77f6fbf33a2f35c100c111dcc1",
       "title": "How To Build a Personal Agentic Operating System",
       "url": "https://www.youtube.com/watch?v=ntvkDnk_5jA",
@@ -789,21 +802,6 @@
       "source_type": "rss",
       "published": "2026-04-06T12:03:35+00:00",
       "summary": "Watch now | 🎙️ Al Chen (Field Engineer at Galileo) shows how he uses AI to query his entire codebase and deliver precise, real-time answers to enterprise customers—without relying on docs or engineering",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "022f3688b036e4f368407c136ae2e77f",
-      "title": "Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare",
-      "url": "https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-05T12:31:45+00:00",
-      "summary": "Listen now | Anthropic’s Head of Growth on scaling from $1B to $19B ARR in 14 months through big bets, intentional onboarding friction, deep focus, and CASH—an internal AI system for autonomous growth experiments",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1790,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-25T19:40:53.035236+00:00"
+  "generated_at": "2026-04-25T20:34:36.737637+00:00"
 }
