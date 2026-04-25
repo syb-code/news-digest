@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "02793d77f6fbf33a2f35c100c111dcc1",
+      "title": "How To Build a Personal Agentic Operating System",
+      "url": "https://www.youtube.com/watch?v=ntvkDnk_5jA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-25T18:59:36+00:00",
+      "summary": "On our latest Operators Bonus Episode, Nufar Gaspar returns to introduce Agent OS, the latest free AIDB training program for building a personal agentic operating system that travels with you across any tool, model, or harness. As every agent tool converges on the same set of ca…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "52f0f79028c9b0b5937f76f340087379",
       "title": "What I Learned Testing GPT 5 5",
       "url": "https://www.youtube.com/watch?v=jblguhXunZs",
@@ -604,21 +619,6 @@
       "source_type": "youtube",
       "published": "2026-04-10T11:08:46+00:00",
       "summary": "AI roadmaps converge on desktop superapps and general-purpose agents that combine coding, multimodal models, and persistent integrations. Vibecoding and code-first agents are turning software engineering into universal knowledge-work automation across design, analytics, and mark…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e80ffd9c9670e48f991087289dc7cb9b",
-      "title": "All of AI's New Models and Tools",
-      "url": "https://www.youtube.com/watch?v=20vZc0cOpOw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-10T00:45:11+00:00",
-      "summary": "Overview of major model and agent launches: Meta's Muse/Spark multimodal models and personal-agent focus, Google's Gemini notebooks for shared task contexts, and open-source GLM 5.1 pushing coding benchmarks. Benchmark comparisons show GLM 5.1 and Muse leading on coding and visu…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1790,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-25T18:43:42.740148+00:00"
+  "generated_at": "2026-04-25T19:40:53.035236+00:00"
 }
