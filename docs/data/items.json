@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1c91a1ccdb1d33b042e4690700493336",
+      "title": "Where the Economy Thrives After AI",
+      "url": "https://www.youtube.com/watch?v=M2-hytpxccg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-26T21:09:26+00:00",
+      "summary": "A new economic argument suggests AI won’t simply wipe out work, but will shift value toward the parts of the economy where human presence, provenance, care, taste, and relationship matter most. NLW explores Alex Imas' case for a post-commodity economy, why automation may make re…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6c6da9899bca2610a941693c8a22a52f",
       "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
       "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
@@ -649,21 +664,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "21508a5ee46fca45e4791aa1b6f91f27",
-      "title": "Why Every AI Product Seems the Same",
-      "url": "https://www.youtube.com/watch?v=634oIgg3v5c",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-10T11:08:46+00:00",
-      "summary": "AI roadmaps converge on desktop superapps and general-purpose agents that combine coding, multimodal models, and persistent integrations. Vibecoding and code-first agents are turning software engineering into universal knowledge-work automation across design, analytics, and mark…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-26T20:34:22.680354+00:00"
+  "generated_at": "2026-04-26T21:34:17.323658+00:00"
 }
