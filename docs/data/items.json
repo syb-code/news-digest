@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6c6da9899bca2610a941693c8a22a52f",
+      "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
+      "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-26T18:05:21+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n \nMatthew Bloomfield, President of Palme…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "56bc938da4ef1dc8d489769a397c6281",
       "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
       "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
@@ -921,21 +936,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0b77432853fafe44f730064eb02919ca",
-      "title": "Market Champions: Inside the Minds of Point 72 & Citadel Portfolio Managers | Dr. Gio Valiante",
-      "url": "https://www.youtube.com/watch?v=fngiWGhdUWc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-03-31T13:01:31+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "31ff5a28523bab048ec1bb3065d3882e",
       "title": "Stagflation Risk is Rising Fast in The USA",
       "url": "https://www.youtube.com/watch?v=EadSbdD_NQc",
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-26T17:35:18.240698+00:00"
+  "generated_at": "2026-04-26T18:46:52.725488+00:00"
 }
