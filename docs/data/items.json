@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "5df4e07f203bf35d354134143dab431d",
+      "title": "From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin",
+      "url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-27T12:03:55+00:00",
+      "summary": "Listen now | 🎙️Jason Levin (CEO of Memelord) shows how he built a $100K ARR meme company without coding—plus why every marketer should vibe code and how agents are becoming his primary users",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "1c91a1ccdb1d33b042e4690700493336",
       "title": "Where the Economy Thrives After AI",
       "url": "https://www.youtube.com/watch?v=M2-hytpxccg",
@@ -800,21 +813,6 @@
       "source_type": "youtube",
       "published": "2026-04-06T17:47:58+00:00",
       "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7563c9a97d7f4309c7c7da629e3f5c2a",
-      "title": "🎙️ This week on How I AI: I gave Claude Code our entire codebase. Our customers noticed.",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-i-gave-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-06T15:03:07+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1786,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-27T10:59:24.102414+00:00"
+  "generated_at": "2026-04-27T12:21:47.022109+00:00"
 }
