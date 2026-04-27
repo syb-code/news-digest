@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "29ff697fe6e19d701b116a919335abc5",
+      "title": "The U.S. Can’t Afford a Recession — So They’ll Print Trillions",
+      "url": "https://www.youtube.com/watch?v=c5Q9aZFRyXc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-27T16:01:02+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d2e556bc3225c32740c75aa3db094e9",
       "title": "🎙️ This week on How I AI: GPT 5.5, Claude Design, and GPT Images 2.0 hands-on reviews—plus an inside look at Memelord",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
@@ -1132,19 +1145,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "70fa850aa7372bfefac51efe0c2660bf",
-      "title": "CPI Inflation Report: Gasoline Prices Surging — Trouble Ahead",
-      "url": "https://www.youtube.com/watch?v=3woIZO1tixY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-11T19:33:50+00:00",
-      "summary": "⭐ To see what I'm doing with my stocks, gold, silver please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "1d0aca8b5a2b1736506fb6317d31092a",
       "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
       "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-27T15:04:40.583428+00:00"
+  "generated_at": "2026-04-27T17:18:09.556474+00:00"
 }
