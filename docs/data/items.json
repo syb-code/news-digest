@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2d2e556bc3225c32740c75aa3db094e9",
+      "title": "🎙️ This week on How I AI: GPT 5.5, Claude Design, and GPT Images 2.0 hands-on reviews—plus an inside look at Memelord",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-27T15:02:19+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5df4e07f203bf35d354134143dab431d",
       "title": "From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin",
       "url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
@@ -790,19 +805,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "72ae5974bbd9d254d7b2e57bad2384e3",
-      "title": "A visual guide to getting out of a creative slump",
-      "url": "https://www.lennysnewsletter.com/p/a-visual-guide-to-getting-out-of",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-07T12:45:49+00:00",
-      "summary": "On creating work like a human (and all the feelings that come with it)",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-27T12:21:47.022109+00:00"
+  "generated_at": "2026-04-27T15:04:40.583428+00:00"
 }
