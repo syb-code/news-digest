@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "293c07cfc2c1f03e9d3653b73c360a13",
+      "title": "How Deepseek v4 Connects to the US Grid",
+      "url": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-28T13:04:01+00:00",
+      "summary": "Google's reported $40 billion investment into Anthropic and hyperscaler deals with Broadcom, Amazon, and Microsoft lock down gigawatts of compute for AI training. White House invocation of the Defense Production Act to bolster US electric‑grid infrastructure spotlights energy an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "29ff697fe6e19d701b116a919335abc5",
       "title": "The U.S. Can’t Afford a Recession — So They’ll Print Trillions",
       "url": "https://www.youtube.com/watch?v=c5Q9aZFRyXc",
@@ -646,22 +661,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ee57bfd4ca8aaf02541633ad2174a321",
-      "title": "Anthropic Now Leads OpenAI in Annualized Revenue",
-      "url": "https://www.youtube.com/watch?v=iRMIUmDZrtY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-12T16:36:41+00:00",
-      "summary": "Anthropic reports a $30 billion annualized revenue run rate and closes a multi-gigawatt compute deal with Google and Broadcom. OpenAI and Anthropic face enormous model-training costs and use accounting methods that exclude training to show near-term profitability. Google commerc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1786,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-28T11:01:08.205625+00:00"
+  "generated_at": "2026-04-28T13:56:02.960337+00:00"
 }
