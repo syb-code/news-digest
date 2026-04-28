@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "eb69defd4a82b81bccc3f13d68b4dd6b",
+      "title": "Your Couch-to-5K for AI",
+      "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-28T15:31:24+00:00",
+      "summary": "A step-by-step guide to building an AI habit that sticks",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "293c07cfc2c1f03e9d3653b73c360a13",
       "title": "How Deepseek v4 Connects to the US Grid",
       "url": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
@@ -786,19 +801,6 @@
       "source_type": "rss",
       "published": "2026-04-08T09:30:25+00:00",
       "summary": "Most products get ignored. The ones people love are built differently. Here’s how.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3f4f840519f8524f8d9f1a671bb56669",
-      "title": "Listen: A visual guide to getting out of a creative slump",
-      "url": "https://www.lennysnewsletter.com/p/listen-a-visual-guide-to-getting",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-08T02:51:13+00:00",
-      "summary": "An audio edition of Lenny's Newsletter post",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1785,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-28T13:56:02.960337+00:00"
+  "generated_at": "2026-04-28T16:06:11.384777+00:00"
 }
