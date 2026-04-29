@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "5746c1291432bf7341045257051c1471",
+      "title": "AI Lab Power Rankings",
+      "url": "https://www.youtube.com/watch?v=4qv6NIpY9Fo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-29T21:53:21+00:00",
+      "summary": "Microsoft and OpenAI amended the partnership to remove cloud exclusivity, allowing OpenAI models on AWS while preserving Microsoft's equity stake and a long-term revenue share. Power rankings evaluate labs across compute, enterprise positioning, platform control, consumer reach,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "06989d375fc8576f0038e4ef8e2414c9",
       "title": "From Soros to Old Farm: How to Identify the Market’s Top Thematic Risk-Takers",
       "url": "https://www.youtube.com/watch?v=zyJck24QgCc",
@@ -582,21 +598,6 @@
       "source_type": "youtube",
       "published": "2026-04-15T01:48:36+00:00",
       "summary": "Coverage of violent anti‑AI actions after a Molotov cocktail and gunfire targeted Sam Altman's home and OpenAI facilities, including the arrest of suspect Daniel Moreno Gamma and evidence of doxxing and an anti‑AI manifesto. Analysis of rhetoric from AI doomers, industry leaders…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8eeefaa423fc177a664b0eacadf50fbd",
-      "title": "The New AI Org Chart",
-      "url": "https://www.youtube.com/watch?v=p0p5j9aAub0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-14T13:30:16+00:00",
-      "summary": "AI agents are reshaping org charts by replacing human information-routing and creating parallel, agent-based coordination layers. Discussion traces evolution from Roman military hierarchies and Prussian general staff to Taylorist functional pyramids and modern experiments such a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1787,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-29T22:06:13.812017+00:00"
+  "generated_at": "2026-04-29T23:51:47.766617+00:00"
 }
