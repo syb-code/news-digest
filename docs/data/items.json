@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "06989d375fc8576f0038e4ef8e2414c9",
+      "title": "From Soros to Old Farm: How to Identify the Market’s Top Thematic Risk-Takers",
+      "url": "https://www.youtube.com/watch?v=zyJck24QgCc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-29T10:30:45+00:00",
+      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nKieran Cavanna, the founder and CIO of …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eb69defd4a82b81bccc3f13d68b4dd6b",
       "title": "Your Couch-to-5K for AI",
       "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
@@ -920,21 +935,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "53c11f8315cdbb7b51462896f2644e4f",
-      "title": "Why $200 Oil Won’t Spike Inflation to 9% | Anna Wong",
-      "url": "https://www.youtube.com/watch?v=Af-Wv5X6d60",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-01T15:10:09+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "94b2ee34348dd032e4d5db34d520a574",
       "title": "LWiAI Podcast #238 - GPT 5.4 mini, OpenAI Pivot, Mamba 3, Attention Residuals",
       "url": "https://lastweekin.ai/p/lwiai-podcast-238-gpt-54-mini-openai",
@@ -1787,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-29T08:10:13.787772+00:00"
+  "generated_at": "2026-04-29T10:52:39.207914+00:00"
 }
