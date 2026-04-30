@@ -1,22 +1,6 @@
 {
   "items": [
     {
-      "id": "5746c1291432bf7341045257051c1471",
-      "title": "AI Lab Power Rankings",
-      "url": "https://www.youtube.com/watch?v=4qv6NIpY9Fo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-29T21:53:21+00:00",
-      "summary": "Microsoft and OpenAI amended the partnership to remove cloud exclusivity, allowing OpenAI models on AWS while preserving Microsoft's equity stake and a long-term revenue share. Power rankings evaluate labs across compute, enterprise positioning, platform control, consumer reach,…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "06989d375fc8576f0038e4ef8e2414c9",
       "title": "From Soros to Old Farm: How to Identify the Market’s Top Thematic Risk-Takers",
       "url": "https://www.youtube.com/watch?v=zyJck24QgCc",
@@ -39,21 +23,6 @@
       "source_type": "rss",
       "published": "2026-04-28T15:31:24+00:00",
       "summary": "A step-by-step guide to building an AI habit that sticks",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "293c07cfc2c1f03e9d3653b73c360a13",
-      "title": "How Deepseek v4 Connects to the US Grid",
-      "url": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-28T13:04:01+00:00",
-      "summary": "Google's reported $40 billion investment into Anthropic and hyperscaler deals with Broadcom, Amazon, and Microsoft lock down gigawatts of compute for AI training. White House invocation of the Defense Production Act to bolster US electric‑grid infrastructure spotlights energy an…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -103,21 +72,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1c91a1ccdb1d33b042e4690700493336",
-      "title": "Where the Economy Thrives After AI",
-      "url": "https://www.youtube.com/watch?v=M2-hytpxccg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-26T21:09:26+00:00",
-      "summary": "A new economic argument suggests AI won’t simply wipe out work, but will shift value toward the parts of the economy where human presence, provenance, care, taste, and relationship matter most. NLW explores Alex Imas' case for a post-commodity economy, why automation may make re…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6c6da9899bca2610a941693c8a22a52f",
       "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
       "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
@@ -153,34 +107,6 @@
       "source_type": "rss",
       "published": "2026-04-25T19:51:00+00:00",
       "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02793d77f6fbf33a2f35c100c111dcc1",
-      "title": "How To Build a Personal Agentic Operating System",
-      "url": "https://www.youtube.com/watch?v=ntvkDnk_5jA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-25T18:59:36+00:00",
-      "summary": "On our latest Operators Bonus Episode, Nufar Gaspar returns to introduce Agent OS, the latest free AIDB training program for building a personal agentic operating system that travels with you across any tool, model, or harness. As every agent tool converges on the same set of ca…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "52f0f79028c9b0b5937f76f340087379",
-      "title": "What I Learned Testing GPT 5 5",
-      "url": "https://www.youtube.com/watch?v=jblguhXunZs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-24T17:13:06+00:00",
-      "summary": "GPT 5.5 is here, and the first reactions are split between benchmark dominance, coding debates, Anthropic comparisons, and questions about whether the upgrade will feel dramatic to everyday users. NLW breaks down the launch, the “real work” positioning, the Mythos backdrop, and …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -230,36 +156,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ad9f008d4bf1e2c9a81b5caee90fb061",
-      "title": "The Biggest Unlocks of GPT Images 2",
-      "url": "https://www.youtube.com/watch?v=aiiSDXgCVPI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-23T00:57:36+00:00",
-      "summary": "OpenAI's GPT Image 2 topped the LM Arena leaderboard by a record 242 points, but the real story is how it fits the agentic stack. This episode digs into the image-to-code workflows driving most of the excitement and where reasoning over images still falls short. In the headlines…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "286d31fa6f3b474b1186ff342020b057",
-      "title": "How Apple's AI Strategy Changes with a New CEO",
-      "url": "https://www.youtube.com/watch?v=XwdLT7qF14E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T19:28:26+00:00",
-      "summary": "Apple's CEO transition makes AI strategy the defining test for a hardware-first Apple. OpenClaw's agentic shift and Mac-first tooling sparked a Mac mini renaissance and tied many cutting-edge AI features to Apple silicon. Google is forming a coding-and-agent strike team; Amazon …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "72881846b5896c6da6091b1f8bb44595",
       "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
       "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
@@ -270,21 +166,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c92fe5e0be765e61d3a0590775ce2071",
-      "title": "Automating Your AI Context",
-      "url": "https://www.youtube.com/watch?v=jSPFi-mW0ns",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T03:08:26+00:00",
-      "summary": "OpenAI introduced Chronic, a Codex background screenshot memory. The feature improves code context and workflow recall while raising privacy and usage-limit concerns. Anthropic's live-data UX upgrades, White House engagement, expanded bank previews for Mythos, major security inc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -300,34 +181,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b5329d87ada724fc33f009c108e5375b",
-      "title": "Agent Building Trends",
-      "url": "https://www.youtube.com/watch?v=qYLysI6AkQ8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-21T12:39:21+00:00",
-      "summary": "In this Operator's Bonus episode, NLW zooms out from the Agent Madness bracket to share the patterns emerging across nearly 100 agent submissions — from the shift toward AI org charts and \"markets of one\" software, to the memory gap holding the whole field back. He also previews…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "102bf39982541aa267e97c8006586e5e",
-      "title": "The Best Claude Design Use Cases",
-      "url": "https://www.youtube.com/watch?v=bJg5T2qq5dQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-20T23:53:26+00:00",
-      "summary": "Claude Design and Opus 4.7 deliver an agentic design interface for rapid concept exploration and design-system extraction. Key features include Socratic refinement questions, natural-language prompts, inline editing, per-element sliders, SVG-based visuals, automated polishing, a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -366,21 +219,6 @@
       "source_type": "rss",
       "published": "2026-04-20T15:33:11+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3f739b038873bd96f0e90239da259e52",
-      "title": "How the Best Companies Use AI",
-      "url": "https://www.youtube.com/watch?v=t8vitqIj7u4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-20T13:33:41+00:00",
-      "summary": "A deep dive into what separates the AI leaders from the laggers, drawing on the recent PwC study, McKinsey's AI Transformation Manifesto, George Sivulka's a16z essay on institutional vs. individual AI, and a close look at how Ramp built its internal AI system Glass. The throughl…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -437,21 +275,6 @@
       "source_type": "rss",
       "published": "2026-04-18T18:38:18+00:00",
       "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "36bb4381f55b19998e6ce0b897f9f3ae",
-      "title": "How to Use Opus 4.7 and the New Codex",
-      "url": "https://www.youtube.com/watch?v=5LdCJHnGwNo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-18T18:35:46+00:00",
-      "summary": "OpenAI Codex adds Mac computer control, an in‑app browser with comment mode, native image generation, rich file previews, and persistent background threads. Anthropic Opus 4.7 improves reasoning and design over 4.6 while not matching the Mythos preview. Monothread chief‑of‑staff…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -520,19 +343,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "522f24870f08fed6dd8e06eb8b4307e8",
-      "title": "Vibe Coding Gets an Upgrade",
-      "url": "https://www.youtube.com/watch?v=rNDaRO68JEc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-16T13:49:16+00:00",
-      "summary": "Vibecoding is shifting toward agent orchestration with multi-session developer interfaces, integrated terminals, and workspace customization for parallel workflows. Claude code routines and trigger-driven automation enable event-based background execution and unlock product oppo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "0c11350ffaaf8025848a40be8cbe488c",
       "title": "Everything You Need to Know about Financial Repression | Hanno Lustig",
       "url": "https://www.youtube.com/watch?v=DNwM-lqs0JU",
@@ -561,21 +371,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6bebcfec75fb1214175d64fb465a8d62",
-      "title": "Harness Engineering 101",
-      "url": "https://www.youtube.com/watch?v=OTjZBjq5FPg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T13:18:16+00:00",
-      "summary": "Harness engineering means systems, tooling, and interfaces surrounding AI models to provide context, memory, safe execution, and orchestration. Managed agents such as Cursor 3, Claude Code, and Anthropic Managed Agents illustrate a shift from prompt engineering toward production…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7f74af3bc621fc79165ca501f8d9bd53",
       "title": "Listen: Not all AI agents are created equal",
       "url": "https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created",
@@ -583,21 +378,6 @@
       "source_type": "rss",
       "published": "2026-04-15T03:45:04+00:00",
       "summary": "An audio edition of Lenny's Newsletter post",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8bcda6dbf435569a59b0d89693873c09",
-      "title": "AI Populism Turns Violent",
-      "url": "https://www.youtube.com/watch?v=O4Jbv_8jLyk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T01:48:36+00:00",
-      "summary": "Coverage of violent anti‑AI actions after a Molotov cocktail and gunfire targeted Sam Altman's home and OpenAI facilities, including the arrest of suspect Daniel Moreno Gamma and evidence of doxxing and an anti‑AI manifesto. Analysis of rhetoric from AI doomers, industry leaders…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1568,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-29T23:51:47.766617+00:00"
+  "generated_at": "2026-04-30T02:37:25.626076+00:00"
 }
