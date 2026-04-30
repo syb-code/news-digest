@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "cb5adec6bbfd690a337d64413d97cfa3",
+      "title": "Deep Learning Weekly: Issue 453",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-453",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-04-30T15:02:50+00:00",
+      "summary": "OpenAI models come to AWS, Hidden Technical Debt of AI Systems: Agent Runtime, a paper on Recursive Multi-Agent Systems, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "90e3e000cf27b00f34acd3243437554d",
+      "title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
+      "url": "https://www.youtube.com/watch?v=CzvresJgbNc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-04-30T13:15:48+00:00",
+      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent l…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e1e400db4541416bb3852fca1be36fd4",
       "title": "LWiAI Podcast #242 - ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K2.6",
       "url": "https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images",
@@ -936,21 +966,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "461c7544ce7893c658e29008578a03ea",
-      "title": "\"Farmers Are Getting Crushed!\" Josh Linville",
-      "url": "https://www.youtube.com/shorts/xip7BwYglHM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-01T20:30:10+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Josh Linville about a deepening crisis in global agriculture. Linville explains that farm economics are among the worst he’s ever seen, driven in part by instability in the fertilizer market. With major urea exporters…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "94b2ee34348dd032e4d5db34d520a574",
       "title": "LWiAI Podcast #238 - GPT 5.4 mini, OpenAI Pivot, Mamba 3, Attention Residuals",
       "url": "https://lastweekin.ai/p/lwiai-podcast-238-gpt-54-mini-openai",
@@ -1639,19 +1654,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dd1eb0fb7764722e023868a12bc8063f",
-      "title": "Deep Learning Weekly: Issue 433",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-433",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-12-04T16:03:08+00:00",
-      "summary": "Mistral 3, MCP Explorer, a paper on Agentic Bridge Framework: Closing the Gap Between Agentic Capability and Performance Benchmarks, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "528bfa637f19db7c192de454d3663dd0",
       "title": "The Rise of the Founding Designer",
       "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
@@ -1788,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-30T12:12:11.068402+00:00"
+  "generated_at": "2026-04-30T15:05:48.687663+00:00"
 }
