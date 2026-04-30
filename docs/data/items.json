@@ -1,6 +1,37 @@
 {
   "items": [
     {
+      "id": "08ff845036d6bd2282e0ff8838838dbc",
+      "title": "The Fed is Trapped — No Good Options Remain",
+      "url": "https://www.youtube.com/watch?v=t1y2U7X4Nzg",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-04-30T17:01:17+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "299efb649c4cdadda987241fb745829c",
+      "title": "The AI Subsidy Era is Over",
+      "url": "https://www.youtube.com/watch?v=5MPFyOKlASc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-04-30T15:55:36+00:00",
+      "summary": "End of the AI subsidy era forces a shift from flat-fee subscriptions to usage-based pricing as agentic, token-heavy workflows escalate inference costs.  \nAnthropic, OpenAI, Microsoft, and GitHub Copilot reveal capacity constraints, model metering, and steep price multipliers wit…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cb5adec6bbfd690a337d64413d97cfa3",
       "title": "Deep Learning Weekly: Issue 453",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-453",
@@ -636,21 +667,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8bcda6dbf435569a59b0d89693873c09",
-      "title": "AI Populism Turns Violent",
-      "url": "https://www.youtube.com/watch?v=O4Jbv_8jLyk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T01:48:36+00:00",
-      "summary": "Coverage of violent anti‑AI actions after a Molotov cocktail and gunfire targeted Sam Altman's home and OpenAI facilities, including the arrest of suspect Daniel Moreno Gamma and evidence of doxxing and an anti‑AI manifesto. Analysis of rhetoric from AI doomers, industry leaders…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "749e23a4ca50ede534bd2f8d3c5d6aa7",
       "title": "\"I Don't Believe the Stagflation Narrative\": Sean Emory's Bullish Blueprint | Avory & Co",
       "url": "https://www.youtube.com/watch?v=00Oox2VvkGQ",
@@ -1133,19 +1149,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bf60cbbb48af220bbd3b7cae6aba497c",
-      "title": "Americans Are Struggling With Debt and Missed Payments",
-      "url": "https://www.youtube.com/watch?v=0hRZSjy1NK0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-13T16:00:04+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1790,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-04-30T15:05:48.687663+00:00"
+  "generated_at": "2026-04-30T17:16:37.424893+00:00"
 }
