@@ -17,21 +17,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "299efb649c4cdadda987241fb745829c",
-      "title": "The AI Subsidy Era is Over",
-      "url": "https://www.youtube.com/watch?v=5MPFyOKlASc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-30T15:55:36+00:00",
-      "summary": "End of the AI subsidy era forces a shift from flat-fee subscriptions to usage-based pricing as agentic, token-heavy workflows escalate inference costs.  \nAnthropic, OpenAI, Microsoft, and GitHub Copilot reveal capacity constraints, model metering, and steep price multipliers wit…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "cb5adec6bbfd690a337d64413d97cfa3",
       "title": "Deep Learning Weekly: Issue 453",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-453",
@@ -40,21 +25,6 @@
       "published": "2026-04-30T15:02:50+00:00",
       "summary": "OpenAI models come to AWS, Hidden Technical Debt of AI Systems: Agent Runtime, a paper on Recursive Multi-Agent Systems, and many more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "90e3e000cf27b00f34acd3243437554d",
-      "title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-      "url": "https://www.youtube.com/watch?v=CzvresJgbNc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-30T13:15:48+00:00",
-      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent l…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -77,37 +47,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5746c1291432bf7341045257051c1471",
-      "title": "AI Lab Power Rankings",
-      "url": "https://www.youtube.com/watch?v=4qv6NIpY9Fo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-29T21:53:21+00:00",
-      "summary": "Microsoft and OpenAI amended the partnership to remove cloud exclusivity, allowing OpenAI models on AWS while preserving Microsoft's equity stake and a long-term revenue share. Power rankings evaluate labs across compute, enterprise positioning, platform control, consumer reach,…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "06989d375fc8576f0038e4ef8e2414c9",
-      "title": "From Soros to Old Farm: How to Identify the Market’s Top Thematic Risk-Takers",
-      "url": "https://www.youtube.com/watch?v=zyJck24QgCc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-29T10:30:45+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nKieran Cavanna, the founder and CIO of …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "eb69defd4a82b81bccc3f13d68b4dd6b",
       "title": "Your Couch-to-5K for AI",
       "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
@@ -115,21 +54,6 @@
       "source_type": "rss",
       "published": "2026-04-28T15:31:24+00:00",
       "summary": "A step-by-step guide to building an AI habit that sticks",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "293c07cfc2c1f03e9d3653b73c360a13",
-      "title": "How Deepseek v4 Connects to the US Grid",
-      "url": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-28T13:04:01+00:00",
-      "summary": "Google's reported $40 billion investment into Anthropic and hyperscaler deals with Broadcom, Amazon, and Microsoft lock down gigawatts of compute for AI training. White House invocation of the Defense Production Act to bolster US electric‑grid infrastructure spotlights energy an…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -179,36 +103,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1c91a1ccdb1d33b042e4690700493336",
-      "title": "Where the Economy Thrives After AI",
-      "url": "https://www.youtube.com/watch?v=M2-hytpxccg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-26T21:09:26+00:00",
-      "summary": "A new economic argument suggests AI won’t simply wipe out work, but will shift value toward the parts of the economy where human presence, provenance, care, taste, and relationship matter most. NLW explores Alex Imas' case for a post-commodity economy, why automation may make re…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6c6da9899bca2610a941693c8a22a52f",
-      "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
-      "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-26T18:05:21+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n \nMatthew Bloomfield, President of Palme…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "56bc938da4ef1dc8d489769a397c6281",
       "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
       "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
@@ -229,34 +123,6 @@
       "source_type": "rss",
       "published": "2026-04-25T19:51:00+00:00",
       "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02793d77f6fbf33a2f35c100c111dcc1",
-      "title": "How To Build a Personal Agentic Operating System",
-      "url": "https://www.youtube.com/watch?v=ntvkDnk_5jA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-25T18:59:36+00:00",
-      "summary": "On our latest Operators Bonus Episode, Nufar Gaspar returns to introduce Agent OS, the latest free AIDB training program for building a personal agentic operating system that travels with you across any tool, model, or harness. As every agent tool converges on the same set of ca…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "52f0f79028c9b0b5937f76f340087379",
-      "title": "What I Learned Testing GPT 5 5",
-      "url": "https://www.youtube.com/watch?v=jblguhXunZs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-24T17:13:06+00:00",
-      "summary": "GPT 5.5 is here, and the first reactions are split between benchmark dominance, coding debates, Anthropic comparisons, and questions about whether the upgrade will feel dramatic to everyday users. NLW breaks down the launch, the “real work” positioning, the Mythos backdrop, and …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -306,36 +172,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ad9f008d4bf1e2c9a81b5caee90fb061",
-      "title": "The Biggest Unlocks of GPT Images 2",
-      "url": "https://www.youtube.com/watch?v=aiiSDXgCVPI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-23T00:57:36+00:00",
-      "summary": "OpenAI's GPT Image 2 topped the LM Arena leaderboard by a record 242 points, but the real story is how it fits the agentic stack. This episode digs into the image-to-code workflows driving most of the excitement and where reasoning over images still falls short. In the headlines…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "286d31fa6f3b474b1186ff342020b057",
-      "title": "How Apple's AI Strategy Changes with a New CEO",
-      "url": "https://www.youtube.com/watch?v=XwdLT7qF14E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T19:28:26+00:00",
-      "summary": "Apple's CEO transition makes AI strategy the defining test for a hardware-first Apple. OpenClaw's agentic shift and Mac-first tooling sparked a Mac mini renaissance and tied many cutting-edge AI features to Apple silicon. Google is forming a coding-and-agent strike team; Amazon …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "72881846b5896c6da6091b1f8bb44595",
       "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
       "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
@@ -349,21 +185,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c92fe5e0be765e61d3a0590775ce2071",
-      "title": "Automating Your AI Context",
-      "url": "https://www.youtube.com/watch?v=jSPFi-mW0ns",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T03:08:26+00:00",
-      "summary": "OpenAI introduced Chronic, a Codex background screenshot memory. The feature improves code context and workflow recall while raising privacy and usage-limit concerns. Anthropic's live-data UX upgrades, White House engagement, expanded bank previews for Mythos, major security inc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f7e205593b3041f85101b07813184c76",
       "title": "New: A free year of Cursor, Google AI Pro, Notion, Supabase, Gumloop, and Fin for subscribers",
       "url": "https://www.lennysnewsletter.com/p/new-a-free-year-of-cursor-google",
@@ -371,49 +192,6 @@
       "source_type": "rss",
       "published": "2026-04-21T15:03:33+00:00",
       "summary": "Now 25 incredible products totaling over $30,000 in value—free with your Lenny’s Newsletter subscription",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b5329d87ada724fc33f009c108e5375b",
-      "title": "Agent Building Trends",
-      "url": "https://www.youtube.com/watch?v=qYLysI6AkQ8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-21T12:39:21+00:00",
-      "summary": "In this Operator's Bonus episode, NLW zooms out from the Agent Madness bracket to share the patterns emerging across nearly 100 agent submissions — from the shift toward AI org charts and \"markets of one\" software, to the memory gap holding the whole field back. He also previews…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "102bf39982541aa267e97c8006586e5e",
-      "title": "The Best Claude Design Use Cases",
-      "url": "https://www.youtube.com/watch?v=bJg5T2qq5dQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-20T23:53:26+00:00",
-      "summary": "Claude Design and Opus 4.7 deliver an agentic design interface for rapid concept exploration and design-system extraction. Key features include Socratic refinement questions, natural-language prompts, inline editing, per-element sliders, SVG-based visuals, automated polishing, a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6d5fa488891b2ba9fa70e19a7040e0a9",
-      "title": "We’ve Seen This Before… 2008 All Over Again! | Chris Whalen",
-      "url": "https://www.youtube.com/shorts/hElugkIN0k0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-20T20:00:34+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Chris Whalen about rising risks in private credit and private equity.\n\nWhalen warns that the industry is facing a potential “come to Jesus” moment, with hundreds of billions in exposure tied back to the banking system…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -450,21 +228,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3f739b038873bd96f0e90239da259e52",
-      "title": "How the Best Companies Use AI",
-      "url": "https://www.youtube.com/watch?v=t8vitqIj7u4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-20T13:33:41+00:00",
-      "summary": "A deep dive into what separates the AI leaders from the laggers, drawing on the recent PwC study, McKinsey's AI Transformation Manifesto, George Sivulka's a16z essay on institutional vs. individual AI, and a close look at how Ramp built its internal AI system Glass. The throughl…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bac435735d2baea4de7a17b650082aab",
       "title": "How Intercom 2x’d their engineering velocity in 9 months with Claude Code | Brian Scanlan",
       "url": "https://www.lennysnewsletter.com/p/how-intercom-2xd-their-engineering",
@@ -475,21 +238,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "16323148ca9ac6bf87abeadc30bfca27",
-      "title": "Why the Market is WRONG About AI Disruption",
-      "url": "https://www.youtube.com/watch?v=XdK9_ToT-Ck",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-19T13:00:52+00:00",
-      "summary": "Monetary Matters listeners can save 20% on their first-year subscription to Pernas Research: http://pernasresearch.com/monetarymatters\n\nSoftware stocks have plummeted as the market prices in existential threats from AI capabilities and the rise of \"vibe coding\". In this episode,…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -521,36 +269,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "36bb4381f55b19998e6ce0b897f9f3ae",
-      "title": "How to Use Opus 4.7 and the New Codex",
-      "url": "https://www.youtube.com/watch?v=5LdCJHnGwNo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-18T18:35:46+00:00",
-      "summary": "OpenAI Codex adds Mac computer control, an in‑app browser with comment mode, native image generation, rich file previews, and persistent background threads. Anthropic Opus 4.7 improves reasoning and design over 4.6 while not matching the Mythos preview. Monothread chief‑of‑staff…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a8e94d76a627901d2d637feabb5626a5",
-      "title": "Banking System's Private Credit Exposure Is Large, Notes Bank Analyst Chris Whalen",
-      "url": "https://www.youtube.com/watch?v=x4PChCOiszM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-18T16:25:30+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode, banking specialist Chris Whalen joins Jack to unpack the hidden risks within recent bank earnings, focusing heavily on the sector's exposure to private credit and non-deposit…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1828703ff9f27d79391310408d0b1ff5",
       "title": "Housing Market Crash: Why Home Prices Still Aren't Falling",
       "url": "https://www.youtube.com/watch?v=ynJ8-6NSnmA",
@@ -566,21 +284,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "61909fe89f5623ce02dc50b30001248d",
-      "title": "Worst Case Scenario for Oil? Total Shutdown",
-      "url": "https://www.youtube.com/shorts/7fpgHdcHR_4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-16T21:00:14+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley explores the global risks surrounding the Strait of Hormuz — one of the most critical arteries in the global energy system.\n\nA prolonged or semi-permanent disruption to this vital shipping route could send oil prices soaring, cri…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5029f5f93021fab99a2badb8a0f1eef4",
       "title": "Deep Learning Weekly: Issue 451",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-451",
@@ -589,34 +292,6 @@
       "published": "2026-04-16T15:03:11+00:00",
       "summary": "The 2026 AI Index Report, MirrorCode: Evidence that AI can already do some weeks-long coding tasks, a paper on Introspective Diffusion Language Models, and many more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "522f24870f08fed6dd8e06eb8b4307e8",
-      "title": "Vibe Coding Gets an Upgrade",
-      "url": "https://www.youtube.com/watch?v=rNDaRO68JEc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-16T13:49:16+00:00",
-      "summary": "Vibecoding is shifting toward agent orchestration with multi-session developer interfaces, integrated terminals, and workspace customization for parallel workflows. Claude code routines and trigger-driven automation enable event-based background execution and unlock product oppo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0c11350ffaaf8025848a40be8cbe488c",
-      "title": "Everything You Need to Know about Financial Repression | Hanno Lustig",
-      "url": "https://www.youtube.com/watch?v=DNwM-lqs0JU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-15T19:50:43+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, Stanford University finance professor Hanno Lustig dives deep into the hidden mechanics of financial repression and fiscal sustainability. Professor Lusti…",
-      "read_minutes": 3,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -637,21 +312,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6bebcfec75fb1214175d64fb465a8d62",
-      "title": "Harness Engineering 101",
-      "url": "https://www.youtube.com/watch?v=OTjZBjq5FPg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T13:18:16+00:00",
-      "summary": "Harness engineering means systems, tooling, and interfaces surrounding AI models to provide context, memory, safe execution, and orchestration. Managed agents such as Cursor 3, Claude Code, and Anthropic Managed Agents illustrate a shift from prompt engineering toward production…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "7f74af3bc621fc79165ca501f8d9bd53",
       "title": "Listen: Not all AI agents are created equal",
       "url": "https://www.lennysnewsletter.com/p/listen-not-all-ai-agents-are-created",
@@ -667,21 +327,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "749e23a4ca50ede534bd2f8d3c5d6aa7",
-      "title": "\"I Don't Believe the Stagflation Narrative\": Sean Emory's Bullish Blueprint | Avory & Co",
-      "url": "https://www.youtube.com/watch?v=00Oox2VvkGQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-14T13:04:52+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c2c27d5b1532ebfbfb75e545c6f176f0",
       "title": "Not all AI agents are created equal",
       "url": "https://www.lennysnewsletter.com/p/not-all-ai-agents-are-created-equal",
@@ -689,21 +334,6 @@
       "source_type": "rss",
       "published": "2026-04-14T12:46:08+00:00",
       "summary": "A framework for categorizing and prioritizing your agent initiatives",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "23a3f38a40d299d5012937561bc017e2",
-      "title": "Oil Tankers Are About to Print Money!",
-      "url": "https://www.youtube.com/shorts/23e97Yt1_lY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-14T12:00:03+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Ed Finley-Richardson about a potentially explosive setup in global shipping markets. If China pressures Iran to release vessels and ramp exports, Middle Eastern producers like Saudi Arabia, Iraq, and Kuwait could rapi…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -813,21 +443,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "376425b0ae206e8ce106e225e91740f6",
-      "title": "Tech Valuations Have Crashed: Why AI Won’t Kill Software | Ben Topor | Titan Capital Partners",
-      "url": "https://www.youtube.com/watch?v=16KnPdLcBr8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-09T13:00:02+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c0dd81bc338cc341cb8df90c46241c24",
       "title": "How to Invest in 2026 After the Stock Market Drop",
       "url": "https://www.youtube.com/watch?v=XfR-4TPmjSI",
@@ -838,21 +453,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0df1638aecf85b76865e6a8f6586f3c3",
-      "title": "The Truth About Private Credit | Michael Haynes of Beach Point Capital",
-      "url": "https://www.youtube.com/watch?v=Vs7UxJszuFg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-08T16:48:17+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nMichael Haynes, Head of Private Credit …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -884,21 +484,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "75a0ec3c45846de1c08d95d60de32dbb",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "url": "https://www.youtube.com/watch?v=zm4xXHMWVZ0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-07T13:01:56+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "884fce5c58fd281131f998ffab151f3a",
       "title": "Jobs Report Surprises Again… No Rate Cuts Now?",
       "url": "https://www.youtube.com/watch?v=G0DtzLWAlfg",
@@ -911,32 +496,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a64324c7f69bd292ea071610761aa3e4",
-      "title": "Liz Ann Sonders: This Feels Like 1990…",
-      "url": "https://www.youtube.com/shorts/PL4-y9ZBXng",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T13:30:35+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Liz Ann Sonders about striking parallels between today’s market environment and the early 1990s. Sonders highlights a familiar mix: rising oil prices, geopolitical tensions in the Middle East, and underlying credit ri…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5181f263e77f62eb2c33d0b4231a8669",
-      "title": "Iran War Has Pushed Global Shipping Markets To The Brink | Ed Finley-Richardson",
-      "url": "https://www.youtube.com/watch?v=jgDRK1hfDCo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T12:17:14+00:00",
-      "summary": "Listeners can get 20% off Misadventures in Shipping subscriptions through April 17th here:\nhttps://edfin.substack.com/monetary\n\nSubscription includes access to Substack research pieces and private Twitter (X) account.\n____\nIn this episode, Ed Finley-Richardson of the Misadventur…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1793,5 +1352,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-01T02:43:23.507656+00:00"
+  "generated_at": "2026-05-01T06:12:55.991801+00:00"
 }
