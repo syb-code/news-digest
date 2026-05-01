@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "207adac4ff17b06b3de181cf94e2a52d",
+      "title": "How Harness-as-a-Service Will Change Agents",
+      "url": "https://www.youtube.com/watch?v=jvqQ8VlhO-w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-01T14:51:50+00:00",
+      "summary": "Big tech earnings show an AI-driven cloud surge and soaring compute spending across Google, Amazon, Microsoft, and Meta. Harness-as-a-service emerges as a new infrastructure layer, with cursor SDK, managed agents, and hosted runtimes providing sandboxed execution environments. B…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "68b72ac794111bf652f64747747feeef",
       "title": "Jim Bianco: Jerome Powell is Holding the Fed Hostage",
       "url": "https://www.youtube.com/watch?v=GYEXYeND5sc",
@@ -650,21 +666,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6bebcfec75fb1214175d64fb465a8d62",
-      "title": "Harness Engineering 101",
-      "url": "https://www.youtube.com/watch?v=OTjZBjq5FPg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-15T13:18:16+00:00",
-      "summary": "Harness engineering means systems, tooling, and interfaces surrounding AI models to provide context, memory, safe execution, and orchestration. Managed agents such as Cursor 3, Claude Code, and Anthropic Managed Agents illustrate a shift from prompt engineering toward production…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-01T14:52:04.525878+00:00"
+  "generated_at": "2026-05-01T15:53:54.983926+00:00"
 }
