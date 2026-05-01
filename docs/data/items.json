@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9797c11dee440e42b486aed9ef7bbcec",
+      "title": "Why I'm Investing in Oil — To Protect Against a Stock Market Crash",
+      "url": "https://www.youtube.com/watch?v=E61vm4uhT8Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-01T16:19:51+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "207adac4ff17b06b3de181cf94e2a52d",
       "title": "How Harness-as-a-Service Will Change Agents",
       "url": "https://www.youtube.com/watch?v=jvqQ8VlhO-w",
@@ -1113,19 +1128,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0333b9a5dbc89447dbe778d4b0bb2fe9",
-      "title": "Private Credit: The Next Risk in the Financial System",
-      "url": "https://www.youtube.com/watch?v=5AjShaNN3Jo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-16T16:00:14+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4b4e272cad9fa5d197da92ca1abc71f5",
       "title": "LWiAI Podcast #237 - Nemotron 3 Super, xAI reborn, Anthropic Lawsuit, Research!",
       "url": "https://lastweekin.ai/p/lwiai-podcast-237-nemotron-3-super",
@@ -1797,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-01T15:53:54.983926+00:00"
+  "generated_at": "2026-05-01T16:53:57.005128+00:00"
 }
