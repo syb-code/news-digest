@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8d1bd38f1b510d8eee09af3f5db4a42b",
+      "title": "Why Fundamentals Don't Work For \"New Economy\" Stocks | Jacob Pozharny",
+      "url": "https://www.youtube.com/watch?v=AP_n6waVkjI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-02T22:19:56+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of \"Monetary Matters,\" Jacob Pozharny, Co-Chief Investment Officer and Portfolio Manager at Bridgeway Capital Management, explains why traditional fundamental analysis often f…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "561d120906a03c4c06caf27723beea88",
       "title": "🧠 Community Wisdom: Claude Code tips for ADHD users, resources for managing up, going from corporate to startup, tiring of being your company’s AI evangelist, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips",
@@ -948,19 +963,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a64324c7f69bd292ea071610761aa3e4",
-      "title": "Liz Ann Sonders: This Feels Like 1990…",
-      "url": "https://www.youtube.com/shorts/PL4-y9ZBXng",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-04T13:30:35+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Liz Ann Sonders about striking parallels between today’s market environment and the early 1990s. Sonders highlights a familiar mix: rising oil prices, geopolitical tensions in the Middle East, and underlying credit ri…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a1049541fdb14696f9879984e67fed8e",
       "title": "\"Who should we hire for branding?\"",
       "url": "https://designplusai.com/p/who-should-we-hire-for-branding",
@@ -1801,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-02T21:36:19.992677+00:00"
+  "generated_at": "2026-05-02T22:36:14.125894+00:00"
 }
