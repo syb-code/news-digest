@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "561d120906a03c4c06caf27723beea88",
+      "title": "🧠 Community Wisdom: Claude Code tips for ADHD users, resources for managing up, going from corporate to startup, tiring of being your company’s AI evangelist, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-02T18:02:57+00:00",
+      "summary": "Community Wisdom 184",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fe65e1e1656c07fd3b534490686245d5",
       "title": "The Week AI Grew Up",
       "url": "https://www.youtube.com/watch?v=IpD1chtKILE",
@@ -882,21 +897,6 @@
       "source_type": "youtube",
       "published": "2026-04-08T16:48:17+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nMichael Haynes, Head of Private Credit …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6e4e46ad3ddd6715dc93d30114de514b",
-      "title": "I built a custom Slack inbox. It was easier than you’d think. | Yash Tekriwal (Clay)",
-      "url": "https://www.lennysnewsletter.com/p/i-built-a-custom-slack-inbox-it-was",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-08T12:03:47+00:00",
-      "summary": "Watch now | 🎙️ How Yash built a Slack digest and Kanban dashboard using OpenAI agents and Perplexity Computer to reduce 150 daily notifications to ~30 actionable tasks",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-02T17:40:24.805623+00:00"
+  "generated_at": "2026-05-02T18:54:00.731717+00:00"
 }
