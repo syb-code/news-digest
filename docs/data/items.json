@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fe65e1e1656c07fd3b534490686245d5",
+      "title": "The Week AI Grew Up",
+      "url": "https://www.youtube.com/watch?v=IpD1chtKILE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-02T13:12:06+00:00",
+      "summary": "Transition from startup-style AI to infrastructure-era AI marked by explosive token demand, compute bottlenecks, and a shift to usage-based pricing.  \nMarket signals include roughly 40% higher GPU rental costs, record cloud growth at major providers, and widespread adoption of p…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9797c11dee440e42b486aed9ef7bbcec",
       "title": "Why I'm Investing in Oil — To Protect Against a Stock Market Crash",
       "url": "https://www.youtube.com/watch?v=E61vm4uhT8Q",
@@ -640,19 +655,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "522f24870f08fed6dd8e06eb8b4307e8",
-      "title": "Vibe Coding Gets an Upgrade",
-      "url": "https://www.youtube.com/watch?v=rNDaRO68JEc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-16T13:49:16+00:00",
-      "summary": "Vibecoding is shifting toward agent orchestration with multi-session developer interfaces, integrated terminals, and workspace customization for parallel workflows. Claude code routines and trigger-driven automation enable event-based background execution and unlock product oppo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1799,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-02T13:02:08.396919+00:00"
+  "generated_at": "2026-05-02T14:42:08.720257+00:00"
 }
