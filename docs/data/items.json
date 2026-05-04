@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "52b51f7c5ae39f3e98d1ac9199b1ffee",
+      "title": "The internal AI tool that’s transforming how Stripe designs products | Owen Williams",
+      "url": "https://www.lennysnewsletter.com/p/the-internal-ai-tool-thats-transforming",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-04T12:03:59+00:00",
+      "summary": "Watch now | 🎙️ Owen Williams (Stripe) shows how he vibe coded Protodash, the internal tool that turns Stripe’s design system into clickable prototypes in two minutes",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c0480881e3b2d68c7362cf1bbd7abdb1",
       "title": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
       "url": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
@@ -843,21 +858,6 @@
       "source_type": "youtube",
       "published": "2026-04-12T23:45:13+00:00",
       "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d8b04b1f15fff1ded0a8b6a5e4f622b3",
-      "title": "Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)",
-      "url": "https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-12T12:31:41+00:00",
-      "summary": "Listen now | Keith Rabois explains his “barrels vs. ammunition” hiring framework, why talking to customers harms consumer products, how AI is collapsing PM, and more",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-04T11:44:37.219688+00:00"
+  "generated_at": "2026-05-04T13:49:49.278353+00:00"
 }
