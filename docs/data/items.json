@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "49634caa38123d9e6f0ac870413aa856",
+      "title": "Earnings Estimates Are Going Vertical on AI Demand | Warren Pies",
+      "url": "https://www.youtube.com/watch?v=81NjG1zNGkk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-04T16:37:24+00:00",
+      "summary": "Request Access to Free Trial to Caliban, Warren’s new AI-powered research tool that automates complex data sourcing & institutional-grade charting for investors:\nhttps://www.3fourteenresearch.com/monetary-matters\n\nIn this episode, Warren Pies, founder of 314 Research and Caliban…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6673518678edc384b1adcc359c885da5",
       "title": "🎙️ This week on How I AI: The internal AI tool that’s transforming how Stripe designs products",
       "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-internal",
@@ -965,21 +981,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "75a0ec3c45846de1c08d95d60de32dbb",
-      "title": "Why Emerging Markets are Finally Outperforming Developed Markets | Robert Koenigsberger | Gramercy",
-      "url": "https://www.youtube.com/watch?v=zm4xXHMWVZ0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-07T13:01:56+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs.\nPictet AI Enhanced US Equity ETF (PQUS):  \n\nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm\n\nPictet AI…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "884fce5c58fd281131f998ffab151f3a",
       "title": "Jobs Report Surprises Again… No Rate Cuts Now?",
       "url": "https://www.youtube.com/watch?v=G0DtzLWAlfg",
@@ -1805,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-04T15:58:27.709661+00:00"
+  "generated_at": "2026-05-04T17:44:45.110416+00:00"
 }
