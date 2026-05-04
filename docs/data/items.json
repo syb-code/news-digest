@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "6673518678edc384b1adcc359c885da5",
+      "title": "🎙️ This week on How I AI: The internal AI tool that’s transforming how Stripe designs products",
+      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-internal",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-04T15:01:56+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b7a2a5d410f145ae4404647dd15cd90c",
+      "title": "Iran War is Now Hitting the U.S. Economy — Spirit Airlines Shut Down",
+      "url": "https://www.youtube.com/watch?v=J3gd5yZEs1I",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-04T15:00:28+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "52b51f7c5ae39f3e98d1ac9199b1ffee",
       "title": "The internal AI tool that’s transforming how Stripe designs products | Owen Williams",
       "url": "https://www.lennysnewsletter.com/p/the-internal-ai-tool-thats-transforming",
@@ -836,21 +866,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "91669020a1199f04afaa15c491b96955",
-      "title": "Claude Cowork 101: How to automate your workday without touching code | JJ Englert (Tenex)",
-      "url": "https://www.lennysnewsletter.com/p/claude-cowork-101-how-to-automate",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-13T12:03:52+00:00",
-      "summary": "Watch now | 🎙️ JJ Englert (Tenex) shows how to go from zero to one with Claude Cowork—connecting your business tools and creating AI skills that automate emails, Slack, and daily planning without writing code",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1cce944ac7c7eaa90658d47f25e01665",
       "title": "Stagflation Warning in the USA: Iran Deal Fails",
       "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
@@ -1104,21 +1119,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "67ccbb46680956f54836a45f1f625b14",
-      "title": "Inflation Is Going Up… So Why Is the Fed Cutting Rates?",
-      "url": "https://www.youtube.com/watch?v=gbLja35Uw-A",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-19T16:01:08+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-04T13:49:49.278353+00:00"
+  "generated_at": "2026-05-04T15:58:27.709661+00:00"
 }
