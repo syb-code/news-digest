@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b667b76965cb4e8fcf40de789d8c4207",
+      "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
+      "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-05T13:03:32+00:00",
+      "summary": "How to build an AI monetization strategy that actually works",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "864ace2c6c6ff1e537c48c4888351926",
       "title": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
       "url": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
@@ -873,21 +888,6 @@
       "source_type": "youtube",
       "published": "2026-04-14T12:00:03+00:00",
       "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Ed Finley-Richardson about a potentially explosive setup in global shipping markets. If China pressures Iran to release vessels and ramp exports, Middle Eastern producers like Saudi Arabia, Iraq, and Kuwait could rapi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d6bd7a7c608b1c07b062c026eba300ea",
-      "title": "🎙️ This week on How I AI: Claude Cowork tutorial for non-engineers + Build your own Slack inbox (for $0)",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-claude-cowork",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-13T15:07:46+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-05T11:57:17.098145+00:00"
+  "generated_at": "2026-05-05T15:54:18.909568+00:00"
 }
