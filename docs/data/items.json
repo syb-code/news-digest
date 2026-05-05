@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "36b23d47e8c1ed3a9031644e2c40c881",
+      "title": "Why Agents Make Every Job a Startup",
+      "url": "https://www.youtube.com/watch?v=HnE5oKiWVRc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-05T00:12:06+00:00",
+      "summary": "Agents are turning every job into a startup by unlocking an infinite backlog and enabling parallel 24/7 work. Consequences include exhilaration, new forms of burnout from judgment overload, and constraints from cost, evaluation, and audience absorption. Responses require new tec…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "49634caa38123d9e6f0ac870413aa856",
       "title": "Warren Pies: \"I’m Scared Out of My Mind… But Very Bullish\"",
       "url": "https://www.youtube.com/watch?v=81NjG1zNGkk",
@@ -695,21 +710,6 @@
       "source_type": "rss",
       "published": "2026-04-18T18:38:18+00:00",
       "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "36bb4381f55b19998e6ce0b897f9f3ae",
-      "title": "How to Use Opus 4.7 and the New Codex",
-      "url": "https://www.youtube.com/watch?v=5LdCJHnGwNo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-18T18:35:46+00:00",
-      "summary": "OpenAI Codex adds Mac computer control, an in‑app browser with comment mode, native image generation, rich file previews, and persistent background threads. Anthropic Opus 4.7 improves reasoning and design over 4.6 while not matching the Mythos preview. Monothread chief‑of‑staff…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-04T23:51:13.897714+00:00"
+  "generated_at": "2026-05-05T02:27:37.645472+00:00"
 }
