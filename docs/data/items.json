@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4bdf8fc7eb586064ce03953655f5e851",
+      "title": "Is AI Doom Going Out of Style?",
+      "url": "https://www.youtube.com/watch?v=Bn43KmcMMB8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-05T20:55:51+00:00",
+      "summary": "Faint but converging signals suggest the AI doom narrative may finally be cracking — and they're showing up in the chattering class and the markets at the same time. This episode walks through the evidence: Ezra Klein's New York Times pushback on the AI job apocalypse, Alex Imas…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b667b76965cb4e8fcf40de789d8c4207",
       "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
       "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
@@ -669,21 +684,6 @@
       "source_type": "rss",
       "published": "2026-04-20T15:33:11+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3f739b038873bd96f0e90239da259e52",
-      "title": "How the Best Companies Use AI",
-      "url": "https://www.youtube.com/watch?v=t8vitqIj7u4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-20T13:33:41+00:00",
-      "summary": "A deep dive into what separates the AI leaders from the laggers, drawing on the recent PwC study, McKinsey's AI Transformation Manifesto, George Sivulka's a16z essay on institutional vs. individual AI, and a close look at how Ramp built its internal AI system Glass. The throughl…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-05T19:14:03.057043+00:00"
+  "generated_at": "2026-05-05T20:58:59.946488+00:00"
 }
