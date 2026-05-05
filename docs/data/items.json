@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "864ace2c6c6ff1e537c48c4888351926",
+      "title": "Last Week in AI #340 - OpenAI vs Musk + Microsoft, DeepSeek v4, Vision Banana",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-340-openai-vs-musk",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-05T08:30:35+00:00",
+      "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "36b23d47e8c1ed3a9031644e2c40c881",
       "title": "Why Agents Make Every Job a Startup",
       "url": "https://www.youtube.com/watch?v=HnE5oKiWVRc",
@@ -1566,21 +1581,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0b7666c06dbfc3ac66b7c29cd7bedd17",
-      "title": "Last Week in AI #331 - Nvidia announcements, Grok bikini prompts, RAISE Act",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-331-nvidia-announcements",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-06T11:56:58+00:00",
-      "summary": "Nvidia Details New A.I. Chips and Autonomous Car Project, Grok is undressing anyone, NY passes AI regulation",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "89654fc672079b6aefccbd91d6d9c93e",
       "title": "Deep Learning Weekly: Issue 436",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-436",
@@ -1805,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-05T08:03:44.854418+00:00"
+  "generated_at": "2026-05-05T10:42:29.537423+00:00"
 }
