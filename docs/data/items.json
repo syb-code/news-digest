@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c84df7241b3dc2c6868eac7faa792c06",
+      "title": "How to Profit from Global Volatility and Commodity Chaos | Harris Kupperman",
+      "url": "https://www.youtube.com/watch?v=llwNseMiqAs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-06T14:57:27+00:00",
+      "summary": "Monetary Matters listeners can save $1000 on their first-year subscription to KEDM Research with coupon code mm2026: https://kedm.com/?add-to-cart=4175&apply_coupon=mm2026\n\nHarris Kupperman and Roderick van Zuylen join Monetary Matters to discuss the intersection of thematic mac…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "9c4ed84544e631c14a40d085904788fc",
       "title": "Quests, token leaderboards, and a skills marketplace: The elite AI adoption playbook | John Kim (Sendbird)",
       "url": "https://www.lennysnewsletter.com/p/quests-token-leaderboards-and-a-skills",
@@ -969,21 +982,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "376425b0ae206e8ce106e225e91740f6",
-      "title": "Tech Valuations Have Crashed: Why AI Won’t Kill Software | Ben Topor | Titan Capital Partners",
-      "url": "https://www.youtube.com/watch?v=16KnPdLcBr8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-09T13:00:02+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c0dd81bc338cc341cb8df90c46241c24",
       "title": "How to Invest in 2026 After the Stock Market Drop",
       "url": "https://www.youtube.com/watch?v=XfR-4TPmjSI",
@@ -1807,5 +1805,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-06T13:59:54.516263+00:00"
+  "generated_at": "2026-05-06T16:04:45.253750+00:00"
 }
