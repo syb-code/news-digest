@@ -1,6 +1,23 @@
 {
   "items": [
     {
+      "id": "6b89e005d197bff7ce94a8ed96df1db9",
+      "title": "Who Cares About Consumer AI",
+      "url": "https://www.youtube.com/watch?v=f2lynShlg20",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-06T19:37:26+00:00",
+      "summary": "Video analyzes the clash between consumer and enterprise AI, highlighting Coinbase's AI framing of layoffs and Meta's consumer-agent project Hatch. Product and model updates covered include OpenAI's GPT-5.5 Instant and a shift toward coding and enterprise use cases. Market impli…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c84df7241b3dc2c6868eac7faa792c06",
       "title": "How to Profit from Global Volatility and Commodity Chaos | Harris Kupperman",
       "url": "https://www.youtube.com/watch?v=llwNseMiqAs",
@@ -8,7 +25,7 @@
       "source_type": "youtube",
       "published": "2026-05-06T14:57:27+00:00",
       "summary": "Monetary Matters listeners can save $1000 on their first-year subscription to KEDM Research with coupon code mm2026: https://kedm.com/?add-to-cart=4175&apply_coupon=mm2026\n\nHarris Kupperman and Roderick van Zuylen join Monetary Matters to discuss the intersection of thematic mac…",
-      "read_minutes": 1,
+      "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
@@ -691,19 +708,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "102bf39982541aa267e97c8006586e5e",
-      "title": "The Best Claude Design Use Cases",
-      "url": "https://www.youtube.com/watch?v=bJg5T2qq5dQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-20T23:53:26+00:00",
-      "summary": "Claude Design and Opus 4.7 deliver an agentic design interface for rapid concept exploration and design-system extraction. Key features include Socratic refinement questions, natural-language prompts, inline editing, per-element sliders, SVG-based visuals, automated polishing, a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1805,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-06T18:12:26.139957+00:00"
+  "generated_at": "2026-05-06T20:18:35.731394+00:00"
 }
