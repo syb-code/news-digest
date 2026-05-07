@@ -16,23 +16,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6b89e005d197bff7ce94a8ed96df1db9",
-      "title": "Who Cares About Consumer AI",
-      "url": "https://www.youtube.com/watch?v=f2lynShlg20",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-06T19:37:26+00:00",
-      "summary": "Video analyzes the clash between consumer and enterprise AI, highlighting Coinbase's AI framing of layoffs and Meta's consumer-agent project Hatch. Product and model updates covered include OpenAI's GPT-5.5 Instant and a shift toward coding and enterprise use cases. Market impli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9c4ed84544e631c14a40d085904788fc",
       "title": "Quests, token leaderboards, and a skills marketplace: The elite AI adoption playbook | John Kim (Sendbird)",
       "url": "https://www.lennysnewsletter.com/p/quests-token-leaderboards-and-a-skills",
@@ -63,21 +46,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4bdf8fc7eb586064ce03953655f5e851",
-      "title": "Is AI Doom Going Out of Style?",
-      "url": "https://www.youtube.com/watch?v=Bn43KmcMMB8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-05T20:55:51+00:00",
-      "summary": "Faint but converging signals suggest the AI doom narrative may finally be cracking — and they're showing up in the chattering class and the markets at the same time. This episode walks through the evidence: Ezra Klein's New York Times pushback on the AI job apocalypse, Alex Imas…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b667b76965cb4e8fcf40de789d8c4207",
       "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
       "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
@@ -100,21 +68,6 @@
       "source_type": "rss",
       "published": "2026-05-05T08:30:35+00:00",
       "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "36b23d47e8c1ed3a9031644e2c40c881",
-      "title": "Why Agents Make Every Job a Startup",
-      "url": "https://www.youtube.com/watch?v=HnE5oKiWVRc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-05T00:12:06+00:00",
-      "summary": "Agents are turning every job into a startup by unlocking an infinite backlog and enabling parallel 24/7 work. Consequences include exhilaration, new forms of burnout from judgment overload, and constraints from cost, evaluation, and audience absorption. Responses require new tec…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -198,52 +151,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "fe65e1e1656c07fd3b534490686245d5",
-      "title": "The Week AI Grew Up",
-      "url": "https://www.youtube.com/watch?v=IpD1chtKILE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-02T13:12:06+00:00",
-      "summary": "Transition from startup-style AI to infrastructure-era AI marked by explosive token demand, compute bottlenecks, and a shift to usage-based pricing. Market signals include roughly 40% higher GPU rental costs, record cloud growth at major providers, and widespread adoption of per…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "207adac4ff17b06b3de181cf94e2a52d",
-      "title": "How Harness-as-a-Service Will Change Agents",
-      "url": "https://www.youtube.com/watch?v=jvqQ8VlhO-w",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-01T14:51:50+00:00",
-      "summary": "Big tech earnings show an AI-driven cloud surge and soaring compute spending across Google, Amazon, Microsoft, and Meta. Harness-as-a-service emerges as a new infrastructure layer, with cursor SDK, managed agents, and hosted runtimes providing sandboxed execution environments. B…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "299efb649c4cdadda987241fb745829c",
-      "title": "The AI Subsidy Era is Over",
-      "url": "https://www.youtube.com/watch?v=5MPFyOKlASc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-30T15:55:36+00:00",
-      "summary": "End of the AI subsidy era forces a shift from flat-fee subscriptions to usage-based pricing as agentic, token-heavy workflows escalate inference costs.  \nAnthropic, OpenAI, Microsoft, and GitHub Copilot reveal capacity constraints, model metering, and steep price multipliers wit…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "cb5adec6bbfd690a337d64413d97cfa3",
       "title": "Deep Learning Weekly: Issue 453",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-453",
@@ -274,22 +181,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5746c1291432bf7341045257051c1471",
-      "title": "AI Lab Power Rankings",
-      "url": "https://www.youtube.com/watch?v=4qv6NIpY9Fo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-29T21:53:21+00:00",
-      "summary": "Microsoft and OpenAI amended the partnership to remove cloud exclusivity, allowing OpenAI models on AWS while preserving Microsoft's equity stake and a long-term revenue share. Power rankings evaluate labs across compute, enterprise positioning, platform control, consumer reach,…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "eb69defd4a82b81bccc3f13d68b4dd6b",
       "title": "Your Couch-to-5K for AI",
       "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
@@ -297,21 +188,6 @@
       "source_type": "rss",
       "published": "2026-04-28T15:31:24+00:00",
       "summary": "A step-by-step guide to building an AI habit that sticks",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "293c07cfc2c1f03e9d3653b73c360a13",
-      "title": "How Deepseek v4 Connects to the US Grid",
-      "url": "https://www.youtube.com/watch?v=qkKEV9rkFqI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-28T13:04:01+00:00",
-      "summary": "Google's reported $40 billion investment into Anthropic and hyperscaler deals with Broadcom, Amazon, and Microsoft lock down gigawatts of compute for AI training. White House invocation of the Defense Production Act to bolster US electric‑grid infrastructure spotlights energy an…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -348,21 +224,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1c91a1ccdb1d33b042e4690700493336",
-      "title": "Where the Economy Thrives After AI",
-      "url": "https://www.youtube.com/watch?v=M2-hytpxccg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-26T21:09:26+00:00",
-      "summary": "A new economic argument suggests AI won’t simply wipe out work, but will shift value toward the parts of the economy where human presence, provenance, care, taste, and relationship matter most. NLW explores Alex Imas' case for a post-commodity economy, why automation may make re…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "56bc938da4ef1dc8d489769a397c6281",
       "title": "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel",
       "url": "https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is",
@@ -383,34 +244,6 @@
       "source_type": "rss",
       "published": "2026-04-25T19:51:00+00:00",
       "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "02793d77f6fbf33a2f35c100c111dcc1",
-      "title": "How To Build a Personal Agentic Operating System",
-      "url": "https://www.youtube.com/watch?v=ntvkDnk_5jA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-25T18:59:36+00:00",
-      "summary": "On our latest Operators Bonus Episode, Nufar Gaspar returns to introduce Agent OS, the latest free AIDB training program for building a personal agentic operating system that travels with you across any tool, model, or harness. As every agent tool converges on the same set of ca…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "52f0f79028c9b0b5937f76f340087379",
-      "title": "What I Learned Testing GPT 5 5",
-      "url": "https://www.youtube.com/watch?v=jblguhXunZs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-24T17:13:06+00:00",
-      "summary": "GPT 5.5 is here, and the first reactions are split between benchmark dominance, coding debates, Anthropic comparisons, and questions about whether the upgrade will feel dramatic to everyday users. NLW breaks down the launch, the “real work” positioning, the Mythos backdrop, and …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -460,36 +293,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ad9f008d4bf1e2c9a81b5caee90fb061",
-      "title": "The Biggest Unlocks of GPT Images 2",
-      "url": "https://www.youtube.com/watch?v=aiiSDXgCVPI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-23T00:57:36+00:00",
-      "summary": "OpenAI's GPT Image 2 topped the LM Arena leaderboard by a record 242 points, but the real story is how it fits the agentic stack. This episode digs into the image-to-code workflows driving most of the excitement and where reasoning over images still falls short. In the headlines…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "286d31fa6f3b474b1186ff342020b057",
-      "title": "How Apple's AI Strategy Changes with a New CEO",
-      "url": "https://www.youtube.com/watch?v=XwdLT7qF14E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T19:28:26+00:00",
-      "summary": "Apple's CEO transition makes AI strategy the defining test for a hardware-first Apple. OpenClaw's agentic shift and Mac-first tooling sparked a Mac mini renaissance and tied many cutting-edge AI features to Apple silicon. Google is forming a coding-and-agent strike team; Amazon …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "72881846b5896c6da6091b1f8bb44595",
       "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
       "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
@@ -503,21 +306,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c92fe5e0be765e61d3a0590775ce2071",
-      "title": "Automating Your AI Context",
-      "url": "https://www.youtube.com/watch?v=jSPFi-mW0ns",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T03:08:26+00:00",
-      "summary": "OpenAI introduced Chronic, a Codex background screenshot memory. The feature improves code context and workflow recall while raising privacy and usage-limit concerns. Anthropic's live-data UX upgrades, White House engagement, expanded bank previews for Mythos, major security inc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f7e205593b3041f85101b07813184c76",
       "title": "New: A free year of Cursor, Google AI Pro, Notion, Supabase, Gumloop, and Fin for subscribers",
       "url": "https://www.lennysnewsletter.com/p/new-a-free-year-of-cursor-google",
@@ -525,21 +313,6 @@
       "source_type": "rss",
       "published": "2026-04-21T15:03:33+00:00",
       "summary": "Now 25 incredible products totaling over $30,000 in value—free with your Lenny’s Newsletter subscription",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b5329d87ada724fc33f009c108e5375b",
-      "title": "Agent Building Trends",
-      "url": "https://www.youtube.com/watch?v=qYLysI6AkQ8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-21T12:39:21+00:00",
-      "summary": "In this Operator's Bonus episode, NLW zooms out from the Agent Madness bracket to share the patterns emerging across nearly 100 agent submissions — from the shift toward AI org charts and \"markets of one\" software, to the memory gap holding the whole field back. He also previews…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1370,5 +1143,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-07T02:33:37.612711+00:00"
+  "generated_at": "2026-05-07T05:58:10.605315+00:00"
 }
