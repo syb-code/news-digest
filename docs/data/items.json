@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4e5b1b6a31f803d05ba794b7c380b3d9",
+      "title": "Deep Learning Weekly: Issue 454",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-454",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-05-07T15:03:11+00:00",
+      "summary": "MolmoAct 2: An open foundation for robots, How to Work and Compound with AI, a paper on ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bf24f67b4a33eba12347d6b6904785d0",
       "title": "Code with Claude: The 5 biggest updates explained",
       "url": "https://www.lennysnewsletter.com/p/code-with-claude-the-5-biggest-updates",
@@ -1643,21 +1658,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ea647dedcea259be796acded8f838ee5",
-      "title": "Deep Learning Weekly: Issue 434",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-434",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-12-11T16:00:36+00:00",
-      "summary": "Devstral 2 and Mistral Vibe CLI, AI Agent Orchestration Flows, a paper on Z-Image: An Efficient Image Generation Foundation Model with Single-Stream Diffusion Transformer, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2fa584785e255a739f67be053babd244",
       "title": "Speed is not quality",
       "url": "https://designplusai.com/p/speed-is-not-quality",
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-07T13:58:08.901750+00:00"
+  "generated_at": "2026-05-07T16:07:26.685070+00:00"
 }
