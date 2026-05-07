@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "be283746180c34519f7c7bcc9a2fae79",
+      "title": "Surprise Elon-Anthropic Team Up Reshapes AI Race",
+      "url": "https://www.youtube.com/watch?v=RnqEXgcwg-g",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-07T21:38:41+00:00",
+      "summary": "Surprise SpaceX–Anthropic partnership injects massive Colossus-scale compute into Anthropic's Claude ecosystem and reframes compute as a strategic kingmaker. DevDay emphasized an agent-first strategy with Dreaming (scheduled memory review), Managed Agents, Outcomes-based grading…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4e5b1b6a31f803d05ba794b7c380b3d9",
       "title": "Deep Learning Weekly: Issue 454",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-454",
@@ -718,21 +733,6 @@
       "source_type": "rss",
       "published": "2026-04-21T15:03:33+00:00",
       "summary": "Now 25 incredible products totaling over $30,000 in value—free with your Lenny’s Newsletter subscription",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b5329d87ada724fc33f009c108e5375b",
-      "title": "Agent Building Trends",
-      "url": "https://www.youtube.com/watch?v=qYLysI6AkQ8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-21T12:39:21+00:00",
-      "summary": "In this Operator's Bonus episode, NLW zooms out from the Agent Madness bracket to share the patterns emerging across nearly 100 agent submissions — from the shift toward AI org charts and \"markets of one\" software, to the memory gap holding the whole field back. He also previews…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1809,5 +1809,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-07T21:54:00.953866+00:00"
+  "generated_at": "2026-05-07T22:58:25.015491+00:00"
 }
