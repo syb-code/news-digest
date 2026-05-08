@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "975cf1cd51be90195dd0669dfc001cf8",
+      "title": "The Week the AI Story Shifted",
+      "url": "https://www.youtube.com/watch?v=ef4WR5vUJro",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-08T23:23:21+00:00",
+      "summary": "Weekly recap highlights a shifting AI narrative and growing consensus: automation will create relational and augmentation jobs instead of an immediate job apocalypse. Large corporate deals and data center investments signal a pivot from model hype toward sustained infrastructure…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0efb1fe823420abe793c239db991d83d",
       "title": "Jobs Report Just Forced The Fed to Wait",
       "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
@@ -724,21 +739,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c92fe5e0be765e61d3a0590775ce2071",
-      "title": "Automating Your AI Context",
-      "url": "https://www.youtube.com/watch?v=jSPFi-mW0ns",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T03:08:26+00:00",
-      "summary": "OpenAI introduced Chronic, a Codex background screenshot memory. The feature improves code context and workflow recall while raising privacy and usage-limit concerns. Anthropic's live-data UX upgrades, White House engagement, expanded bank previews for Mythos, major security inc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-08T22:55:54.404070+00:00"
+  "generated_at": "2026-05-08T23:54:11.677892+00:00"
 }
