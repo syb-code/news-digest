@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "0efb1fe823420abe793c239db991d83d",
+      "title": "Jobs Report Just Forced The Fed to Wait",
+      "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-08T19:13:09+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "be283746180c34519f7c7bcc9a2fae79",
       "title": "Surprise Elon-Anthropic Team Up Reshapes AI Race",
       "url": "https://www.youtube.com/watch?v=RnqEXgcwg-g",
@@ -1140,21 +1156,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "dd7f6bc4160fa838d49104fcdd76bfd3",
-      "title": "Housing Market Update 2026 — The Hidden Costs Are Surging",
-      "url": "https://www.youtube.com/watch?v=X03ZGdr04vQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-23T16:00:55+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "aa254796804e00f2e17fb9cbf1d501ff",
       "title": "Last Week in AI #339 - DLSS 5, OpenAI Superapp, MiniMax M2.7",
       "url": "https://lastweekin.ai/p/last-week-in-ai-339-dlss-5-openai",
@@ -1809,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-08T19:11:52.828900+00:00"
+  "generated_at": "2026-05-08T20:55:52.147068+00:00"
 }
