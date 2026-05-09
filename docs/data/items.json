@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4993c5b77635e01f5f4b109af42c4aec",
+      "title": "🧠 Community Wisdom: What to do when non-PMs start shipping directly to production, thoughts on Claude Code’s pricing A/B test, the use of gen AI in games, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-09T18:18:35+00:00",
+      "summary": "Community Wisdom 185",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "975cf1cd51be90195dd0669dfc001cf8",
       "title": "The Week the AI Story Shifted",
       "url": "https://www.youtube.com/watch?v=ef4WR5vUJro",
@@ -838,21 +853,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b489363497cb23a7e58ddbfceedfdea0",
-      "title": "🧠 Community Wisdom: Sharing Claude Code skills across the org, Why did lennysjobs.com shut down, opening an LLC for side work, AI for SMB sales, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-sharing-claude-code",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-18T18:38:18+00:00",
-      "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1810,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-09T17:45:44.129372+00:00"
+  "generated_at": "2026-05-09T18:55:03.175924+00:00"
 }
