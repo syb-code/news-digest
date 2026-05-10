@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ebd179b8df94f8522f58b1754e76691f",
+      "title": "Harris Kupperman: Watch Refineries, Not Headlines",
+      "url": "https://www.youtube.com/shorts/M02gnPkL4sE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-10T20:00:22+00:00",
+      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Harris Kupperman about what commodity investors should really be watching. Kupperman argues that headlines around the Strait of Hormuz miss the bigger picture. The true signal of a structurally tight commodity market …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "79da26a2de82cc978a8fdb48b473d285",
       "title": "Generative AI Can’t Generate Alpha… But Machine Learning Can | Pictet’s David Wright",
       "url": "https://www.youtube.com/watch?v=g7PyisPu4pc",
@@ -961,21 +976,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "749e23a4ca50ede534bd2f8d3c5d6aa7",
-      "title": "\"I Don't Believe the Stagflation Narrative\": Sean Emory's Bullish Blueprint | Avory & Co",
-      "url": "https://www.youtube.com/watch?v=00Oox2VvkGQ",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-14T13:04:52+00:00",
-      "summary": "This episode is sponsored by Pictet Asset Management and its AI-enhanced equity ETFs. \n\nPictet AI Enhanced US Equity ETF (PQUS):\n https://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2826077237&utm_source=jfmv&utm_content=pquslp&utm_medium=podcast_02&utm_term=noterm \n\nPictet A…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1cce944ac7c7eaa90658d47f25e01665",
       "title": "Stagflation Warning in the USA: Iran Deal Fails",
       "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-10T19:58:17.245628+00:00"
+  "generated_at": "2026-05-10T20:53:54.056206+00:00"
 }
