@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "31c566f90af4fad9363ff28a7c48f773",
+      "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
+      "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-10T12:03:32+00:00",
+      "summary": "Listen now | The Lean Startup author on why most mission-driven companies are just mission-“hopeful,” why only 20% of founders remain CEO three years post-IPO, and the Delaware filing every founder should make",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4993c5b77635e01f5f4b109af42c4aec",
       "title": "🧠 Community Wisdom: What to do when non-PMs start shipping directly to production, thoughts on Claude Code’s pricing A/B test, the use of gen AI in games, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when",
@@ -840,19 +855,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "483c5914f101fbd28f9ca26c5b9fc623",
-      "title": "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)",
-      "url": "https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-19T12:31:44+00:00",
-      "summary": "Listen now | Nikhyl Singhal on why half of product managers are at risk, how to cross the reinvention threshold, and why the next two years will be chaotic for PMs",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1810,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-10T11:48:10.366560+00:00"
+  "generated_at": "2026-05-10T13:09:53.372089+00:00"
 }
