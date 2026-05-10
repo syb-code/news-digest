@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "79da26a2de82cc978a8fdb48b473d285",
+      "title": "Generative AI Can’t Generate Alpha… But Machine Learning Can | Pictet’s David Wright",
+      "url": "https://www.youtube.com/watch?v=g7PyisPu4pc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-10T17:30:09+00:00",
+      "summary": "Learn More about PQNT (Pictet AI Enhanced International Equity ETF) here: \nhttps://etf.am.pictet.com/pqnt/?utm_campaign=usetf&cid=2883088750&utm_source=jfmv&utm_content=pqntlandingpage&utm_medium=social_02&utm_term=youtube\n\nLearn more about PQUS (Pictet AI Enhanced US Equity ETF…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "31c566f90af4fad9363ff28a7c48f773",
       "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
       "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
@@ -961,21 +976,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "23a3f38a40d299d5012937561bc017e2",
-      "title": "Oil Tankers Are About to Print Money!",
-      "url": "https://www.youtube.com/shorts/23e97Yt1_lY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-14T12:00:03+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Ed Finley-Richardson about a potentially explosive setup in global shipping markets. If China pressures Iran to release vessels and ramp exports, Middle Eastern producers like Saudi Arabia, Iraq, and Kuwait could rapi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1cce944ac7c7eaa90658d47f25e01665",
       "title": "Stagflation Warning in the USA: Iran Deal Fails",
       "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
@@ -1812,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-10T16:50:37.386820+00:00"
+  "generated_at": "2026-05-10T17:48:12.550059+00:00"
 }
