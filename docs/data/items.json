@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "aea6244c3554538962534d88c81351b5",
+      "title": "🎙️ How I AI: Quests, token leaderboards, and the elite AI adoption playbook & Notion’s spec-driven development",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-quests-token-leaderboards",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-11T16:02:49+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4e777248d24f5cd0bab3bb59a0bdb5cf",
+      "title": "Stock Market Investing: Why I'm More Defensive Right Now",
+      "url": "https://www.youtube.com/watch?v=t9eSKKm2R6c",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-11T15:53:09+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "9109d311bb4849589e06a0f49ee0f75b",
       "title": "The New Jobs AI Will Create",
       "url": "https://www.youtube.com/watch?v=WhAAKxPlMhw",
@@ -860,21 +888,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b9ce1e12cf4aeeaf476219bc0ee4282c",
-      "title": "🎙️ This week on How I AI: How Intercom 2x’d their engineering velocity with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-how-intercom",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-20T15:33:11+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "16323148ca9ac6bf87abeadc30bfca27",
       "title": "Why the Market is WRONG About AI Disruption",
       "url": "https://www.youtube.com/watch?v=XdK9_ToT-Ck",
@@ -1126,19 +1139,6 @@
       "source_type": "youtube",
       "published": "2026-03-30T16:00:26+00:00",
       "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bc3c99eab4e6e23f7b7b30d08554995c",
-      "title": "How to Build a Stock Market Portfolio With Just 4 Investments",
-      "url": "https://www.youtube.com/watch?v=3Nx_g-mPqOc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-26T16:00:04+00:00",
-      "summary": "⭐ To see what I'm doing with my stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-11T13:44:46.067445+00:00"
+  "generated_at": "2026-05-11T16:29:29.935517+00:00"
 }
