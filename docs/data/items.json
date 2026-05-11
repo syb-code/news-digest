@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "9109d311bb4849589e06a0f49ee0f75b",
+      "title": "The New Jobs AI Will Create",
+      "url": "https://www.youtube.com/watch?v=WhAAKxPlMhw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-11T12:34:46+00:00",
+      "summary": "The AI jobs debate has spent years asking which roles will disappear. This weekend long-read asks the more important question: what becomes possible when AI expands the amount of useful work the economy can support? NLW lays out a first-principles case for why better AI does not…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0c5d99e896245ac2bcf747256182a404",
+      "title": "Spec-driven development: The AI engineering workflow at Notion | Ryan Nystrom",
+      "url": "https://www.lennysnewsletter.com/p/spec-driven-development-the-ai-engineering",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-11T12:03:12+00:00",
+      "summary": "Watch now | 🎙 Ryan Nystrom (Notion) shows how to automate standups, ship PRs from a single comment, and use spec-first development so agents do the coding while you do the thinking",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ebd179b8df94f8522f58b1754e76691f",
       "title": "Harris Kupperman: Watch Refineries, Not Headlines",
       "url": "https://www.youtube.com/shorts/M02gnPkL4sE",
@@ -774,21 +804,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "286d31fa6f3b474b1186ff342020b057",
-      "title": "How Apple's AI Strategy Changes with a New CEO",
-      "url": "https://www.youtube.com/watch?v=XwdLT7qF14E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-22T19:28:26+00:00",
-      "summary": "Apple's CEO transition makes AI strategy the defining test for a hardware-first Apple. OpenClaw's agentic shift and Mac-first tooling sparked a Mac mini renaissance and tied many cutting-edge AI features to Apple silicon. Google is forming a coding-and-agent strike team; Amazon …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "72881846b5896c6da6091b1f8bb44595",
       "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
       "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
@@ -857,19 +872,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bac435735d2baea4de7a17b650082aab",
-      "title": "How Intercom 2x’d their engineering velocity in 9 months with Claude Code | Brian Scanlan",
-      "url": "https://www.lennysnewsletter.com/p/how-intercom-2xd-their-engineering",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-20T12:03:25+00:00",
-      "summary": "Watch now | 🎙️ Brian Scanlan (Intercom) shows how they doubled engineering output using Claude Code skills, deep telemetry, and a culture that empowers engineers to ship faster",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1812,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-11T10:34:45.833343+00:00"
+  "generated_at": "2026-05-11T13:44:46.067445+00:00"
 }
