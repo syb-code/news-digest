@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b4bfb7633cf6e020e728220da0c9e7ff",
+      "title": "Towards AI That Can Actually Interact",
+      "url": "https://www.youtube.com/watch?v=-UTIXsziBJI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-13T17:38:56+00:00",
+      "summary": "OpenAI launched DeployCo, a $4 billion joint venture providing forward‑deployed engineers for enterprise AI transformation. Anthropic and OpenAI warned secondary‑market tokens tied to private stock can be void and may prompt legal disputes. Thinking Machines unveiled interaction…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a1b0efb2761bc5461ac3997a14134b69",
       "title": "The Best Way to Talk to Your Agents",
       "url": "https://www.youtube.com/watch?v=NNxGQw1uQHc",
@@ -788,19 +803,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "52f0f79028c9b0b5937f76f340087379",
-      "title": "What I Learned Testing GPT 5 5",
-      "url": "https://www.youtube.com/watch?v=jblguhXunZs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-24T17:13:06+00:00",
-      "summary": "GPT 5.5 is here, and the first reactions are split between benchmark dominance, coding debates, Anthropic comparisons, and questions about whether the upgrade will feel dramatic to everyday users. NLW breaks down the launch, the “real work” positioning, the Mythos backdrop, and …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1814,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-13T16:14:58.492896+00:00"
+  "generated_at": "2026-05-13T18:53:36.641370+00:00"
 }
