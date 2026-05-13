@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a0b71c5700755e9ba78e062b9a9d0e8e",
+      "title": "Lyn Alden on Serious Macroeconomic Consequences of AI & Semiconductor Boom",
+      "url": "https://www.youtube.com/watch?v=l-GKPle00Lk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-13T19:08:25+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nJack Farley and Max Wiethe host Lyn Alden to explore the profound economic shifts driven by AI and the semiconductor industry. Alden compares the current rise of autonomous AI agents to the b…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b4bfb7633cf6e020e728220da0c9e7ff",
       "title": "Towards AI That Can Actually Interact",
       "url": "https://www.youtube.com/watch?v=-UTIXsziBJI",
@@ -950,21 +965,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "61909fe89f5623ce02dc50b30001248d",
-      "title": "Worst Case Scenario for Oil? Total Shutdown",
-      "url": "https://www.youtube.com/shorts/7fpgHdcHR_4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-16T21:00:14+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley explores the global risks surrounding the Strait of Hormuz — one of the most critical arteries in the global energy system.\n\nA prolonged or semi-permanent disruption to this vital shipping route could send oil prices soaring, cri…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5029f5f93021fab99a2badb8a0f1eef4",
       "title": "Deep Learning Weekly: Issue 451",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-451",
@@ -1816,5 +1816,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-13T18:53:36.641370+00:00"
+  "generated_at": "2026-05-13T20:28:09.116697+00:00"
 }
