@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "4fbdf39efbdf2f059685f2ffb186621a",
+      "title": "In Defense of Tokenmaxxing",
+      "url": "https://www.youtube.com/watch?v=izRIZ1bMq4A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-14T16:24:56+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9a2b41314c58be59b5bf1a5089e2fd40",
+      "title": "Deep Learning Weekly: Issue 455",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-455",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-05-14T15:02:11+00:00",
+      "summary": "Interaction Models: A Scalable Approach to Human-AI Collaboration, Hidden Technical Debt of AI Systems: Agent Harness, a paper on Efficient Online Memory for Large Language Models, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "af27165ae0deb7cbebb12c9c5ce5272f",
       "title": "How To Prompt High-End Websites In Lovable",
       "url": "https://designplusai.com/p/how-to-prompt-high-end-websites-in",
@@ -819,21 +849,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "02793d77f6fbf33a2f35c100c111dcc1",
-      "title": "How To Build a Personal Agentic Operating System",
-      "url": "https://www.youtube.com/watch?v=ntvkDnk_5jA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-25T18:59:36+00:00",
-      "summary": "On our latest Operators Bonus Episode, Nufar Gaspar returns to introduce Agent OS, the latest free AIDB training program for building a personal agentic operating system that travels with you across any tool, model, or harness. As every agent tool converges on the same set of ca…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c311b0fff638571403fd352a538218f1",
       "title": "GPT 5.5 just did what no other model could",
       "url": "https://www.lennysnewsletter.com/p/gpt-55-just-did-what-no-other-model",
@@ -1648,21 +1663,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0c5bcec973876baafe5ea38a66abb393",
-      "title": "Deep Learning Weekly: Issue 435",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-435",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2025-12-18T16:02:52+00:00",
-      "summary": "Announcing the Future of AI Engineering: Self-Optimizing Agents, Fantastic Bugs and Where to Find Them in AI Benchmarks, Motif-2-12.7B-Reasoning: A Guide to RL Training Recipes, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "322fae2e07a143e250218f03d29449cf",
       "title": "AI Design Stack 2026",
       "url": "https://designplusai.com/p/ai-design-stack-2026",
@@ -1814,5 +1814,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-14T14:01:05.706635+00:00"
+  "generated_at": "2026-05-14T16:58:00.063643+00:00"
 }
