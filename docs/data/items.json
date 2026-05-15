@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "34dfb258af057c57c5decd37b6e652e5",
+      "title": "Warning: Don’t Sell Blow-Offs in Stock Market, Veteran Macro Investor Andrew Perry Says",
+      "url": "https://www.youtube.com/watch?v=KtaugQ19_7s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-15T17:44:11+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack sits down with veteran macro investor Andrew Perry of Macro Pillars. Perry provides a bullish technical outlook for US stocks, offering specific targets for t…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "4fbdf39efbdf2f059685f2ffb186621a",
       "title": "In Defense of Tokenmaxxing",
       "url": "https://www.youtube.com/watch?v=izRIZ1bMq4A",
@@ -963,21 +976,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a8e94d76a627901d2d637feabb5626a5",
-      "title": "Banking System's Private Credit Exposure Is Large, Notes Bank Analyst Chris Whalen",
-      "url": "https://www.youtube.com/watch?v=x4PChCOiszM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-18T16:25:30+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode, banking specialist Chris Whalen joins Jack to unpack the hidden risks within recent bank earnings, focusing heavily on the sector's exposure to private credit and non-deposit…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1828703ff9f27d79391310408d0b1ff5",
       "title": "Housing Market Crash: Why Home Prices Still Aren't Falling",
       "url": "https://www.youtube.com/watch?v=ynJ8-6NSnmA",
@@ -1814,5 +1812,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-15T16:04:03.559917+00:00"
+  "generated_at": "2026-05-15T18:19:39.712765+00:00"
 }
