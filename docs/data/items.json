@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "a6334115576f62ca28f8fd9f9922f74c",
+      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+      "url": "https://www.youtube.com/watch?v=d7NgT0rx5yE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-16T13:01:09+00:00",
+      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday  @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "34dfb258af057c57c5decd37b6e652e5",
       "title": "Warning: Don’t Sell Blow-Offs in Stock Market, Veteran Macro Investor Andrew Perry Says",
       "url": "https://www.youtube.com/watch?v=KtaugQ19_7s",
@@ -961,21 +977,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "16323148ca9ac6bf87abeadc30bfca27",
-      "title": "Why the Market is WRONG About AI Disruption",
-      "url": "https://www.youtube.com/watch?v=XdK9_ToT-Ck",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-19T13:00:52+00:00",
-      "summary": "Monetary Matters listeners can save 20% on their first-year subscription to Pernas Research: http://pernasresearch.com/monetarymatters\n\nSoftware stocks have plummeted as the market prices in existential threats from AI capabilities and the rise of \"vibe coding\". In this episode,…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "1828703ff9f27d79391310408d0b1ff5",
       "title": "Housing Market Crash: Why Home Prices Still Aren't Falling",
       "url": "https://www.youtube.com/watch?v=ynJ8-6NSnmA",
@@ -1812,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-16T11:57:51.762651+00:00"
+  "generated_at": "2026-05-16T13:38:31.037121+00:00"
 }
