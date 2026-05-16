@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dae9c55bf149f94f2bdfe37b786b5392",
+      "title": "🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-16T21:46:34+00:00",
+      "summary": "Community Wisdom 185",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a6334115576f62ca28f8fd9f9922f74c",
       "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
       "url": "https://www.youtube.com/watch?v=d7NgT0rx5yE",
@@ -934,21 +949,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f7e205593b3041f85101b07813184c76",
-      "title": "New: A free year of Cursor, Google AI Pro, Notion, Supabase, Gumloop, and Fin for subscribers",
-      "url": "https://www.lennysnewsletter.com/p/new-a-free-year-of-cursor-google",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-21T15:03:33+00:00",
-      "summary": "Now 25 incredible products totaling over $30,000 in value—free with your Lenny’s Newsletter subscription",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6d5fa488891b2ba9fa70e19a7040e0a9",
       "title": "We’ve Seen This Before… 2008 All Over Again! | Chris Whalen",
       "url": "https://www.youtube.com/shorts/hElugkIN0k0",
@@ -1813,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-16T21:43:18.447485+00:00"
+  "generated_at": "2026-05-16T22:40:44.814003+00:00"
 }
