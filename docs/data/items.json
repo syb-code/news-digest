@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "20a5a54b042912840bf7c9ad382ff26f",
+      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "url": "https://www.youtube.com/watch?v=3sd7Nm6LuXk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-17T13:00:08+00:00",
+      "summary": "Chen Xu, counsel at Debevoise & Plimpton, joins Jack to discuss the Basel III framework and endgame. The Basel III framework is extremely important to the future of banking and credit. Few people are as qualified to explain this complex agreement more than Chen Xu. Chen explains…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a03be9d38ac414a17baa82372f90614b",
+      "title": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
+      "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-17T12:31:57+00:00",
+      "summary": "Listen now | Caitlin Kalinowski on supply chain vulnerabilities threaten the robotics revolution, why consumer VR failed, and what she learned building products at Apple, Meta, and OpenAI",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dae9c55bf149f94f2bdfe37b786b5392",
       "title": "🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
@@ -936,34 +966,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "72881846b5896c6da6091b1f8bb44595",
-      "title": "What Claude Design is actually good for (and why Figma isn’t dead yet)",
-      "url": "https://www.lennysnewsletter.com/p/what-claude-design-is-actually-good",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-22T12:04:31+00:00",
-      "summary": "Watch now | 🎙️I built a landing page, slides, and an unhinged redesign to find out what Claude Design is actually good at—plus why GPT Image 2.0 might change how you create brand assets",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6d5fa488891b2ba9fa70e19a7040e0a9",
-      "title": "We’ve Seen This Before… 2008 All Over Again! | Chris Whalen",
-      "url": "https://www.youtube.com/shorts/hElugkIN0k0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-20T20:00:34+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Chris Whalen about rising risks in private credit and private equity.\n\nWhalen warns that the industry is facing a potential “come to Jesus” moment, with hundreds of billions in exposure tied back to the banking system…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "45fee09aa31d7c34964843acfb30ce3d",
       "title": "De-Dollarization: The Petrodollar Is Under Attack",
       "url": "https://www.youtube.com/watch?v=qtfn_EkNlqI",
@@ -1813,5 +1815,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-17T11:01:32.774925+00:00"
+  "generated_at": "2026-05-17T13:12:22.625434+00:00"
 }
