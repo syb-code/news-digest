@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9dcbe3e06ea66615f8fb882e7a8d3641",
+      "title": "How Will the New Federal Reserve Handle This Inflation Crisis?",
+      "url": "https://www.youtube.com/watch?v=2s4ycrgWfiw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-18T20:13:10+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "766c04aa3dec184b7f398b395cf7a822",
       "title": "What Google Needs to Do at I/O This Week",
       "url": "https://www.youtube.com/watch?v=8uCkUyRFUqY",
@@ -1159,19 +1174,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "31ff5a28523bab048ec1bb3065d3882e",
-      "title": "Stagflation Risk is Rising Fast in The USA",
-      "url": "https://www.youtube.com/watch?v=EadSbdD_NQc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-03-30T16:00:26+00:00",
-      "summary": "⭐ To see what I'm doing with silver, gold, stocks, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "e37c2bfa951e3993d02e30fb46160ab6",
       "title": "Deep Learning Weekly: Issue 448",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-448",
@@ -1811,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-18T19:45:30.964879+00:00"
+  "generated_at": "2026-05-18T21:07:22.514613+00:00"
 }
