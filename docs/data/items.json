@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "766c04aa3dec184b7f398b395cf7a822",
+      "title": "What Google Needs to Do at I/O This Week",
+      "url": "https://www.youtube.com/watch?v=8uCkUyRFUqY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-18T17:50:21+00:00",
+      "summary": "Codex integration into ChatGPT Mobile ushers in persistent agent workflows and shifts knowledge work toward human review and approval instead of direct execution. Google I/O expectations include a Gemini Spark personal agent and cost-optimized Gemini Flash models pursuing both c…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "282c03bde85eb79bee16cf7b77e5cfbf",
       "title": "🎙️ How I AI: HTML is the new Markdown: How Anthropic engineers are building with Claude Code",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-html-is-the-new-markdown",
@@ -892,21 +905,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1c91a1ccdb1d33b042e4690700493336",
-      "title": "Where the Economy Thrives After AI",
-      "url": "https://www.youtube.com/watch?v=M2-hytpxccg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-04-26T21:09:26+00:00",
-      "summary": "A new economic argument suggests AI won’t simply wipe out work, but will shift value toward the parts of the economy where human presence, provenance, care, taste, and relationship matter most. NLW explores Alex Imas' case for a post-commodity economy, why automation may make re…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1813,5 +1811,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-18T17:57:15.366918+00:00"
+  "generated_at": "2026-05-18T19:45:30.964879+00:00"
 }
