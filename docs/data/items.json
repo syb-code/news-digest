@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "44579284f0e507323c54617686951891",
+      "title": "The Lenny and Friends Summit is back!",
+      "url": "https://www.lennysnewsletter.com/p/the-lenny-and-friends-summit-is-back",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-19T15:27:24+00:00",
+      "summary": "September 10th in San Francisco. Applications are now open.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "9dcbe3e06ea66615f8fb882e7a8d3641",
       "title": "How Will the New Federal Reserve Handle This Inflation Crisis?",
       "url": "https://www.youtube.com/watch?v=2s4ycrgWfiw",
@@ -951,19 +964,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b2e94e4ae0df22a074e505f9dc2cc8bb",
-      "title": "🧠 Community Wisdom: What great product leaders do differently, Claude vs. ChatGPT, receiving hard feedback two weeks into the job, tips for joining a pre-PMF startup, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-great-product",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-25T19:51:00+00:00",
-      "summary": "Community Wisdom 182",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8f2978b84d20872d6799e848a9868014",
       "title": "Deep Learning Weekly: Issue 452",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-452",
@@ -1813,5 +1813,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-19T12:00:07.902025+00:00"
+  "generated_at": "2026-05-19T15:42:48.986613+00:00"
 }
