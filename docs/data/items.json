@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ac9b6213aed7d49f6ff87a9e7bc5249f",
+      "title": "Housing Market Has a New Problem: Surging Mortgage Rates",
+      "url": "https://www.youtube.com/watch?v=sqOFhUcE3w0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-20T16:01:22+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "53cae1d9f02d2360fb72f847d2df20ed",
       "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
       "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
@@ -1143,22 +1158,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3642215a5b10ad7cec6358dadc3ad5a0",
-      "title": "The Fed is Printing Money Again... And Inflation is Accelerating",
-      "url": "https://www.youtube.com/watch?v=4jBheSk3dEo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-02T16:00:06+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a4c26d4e93ec9341a48438b703c01ec2",
       "title": "Deep Learning Weekly: Issue 449",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-449",
@@ -1811,5 +1810,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-20T12:19:50.559900+00:00"
+  "generated_at": "2026-05-20T16:22:19.986743+00:00"
 }
