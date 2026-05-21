@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "f4a3eeade410238782bf6fa8abd3c4b3",
+      "title": "Deep Learning Weekly: Issue 456",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-456",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-05-21T15:03:46+00:00",
+      "summary": "Gemini 3.5: frontier intelligence with action, Codex-maxxing, a paper on Lance: Unified Multimodal Modeling by Multi-Task Synergy, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "9e2e031b3a11ad651804e91dc045b115",
       "title": "The Most Important AI News from Google I/O",
       "url": "https://www.youtube.com/watch?v=G2HX30CelNk",
@@ -1643,21 +1656,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "89654fc672079b6aefccbd91d6d9c93e",
-      "title": "Deep Learning Weekly: Issue 436",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-436",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-01T16:25:58+00:00",
-      "summary": "GPT-5.2-Codex, Prompt Drift: The Hidden Failure Mode Undermining Agentic Systems, a paper on Adaptation of Agentic AI, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "322fae2e07a143e250218f03d29449cf",
       "title": "AI Design Stack 2026",
       "url": "https://designplusai.com/p/ai-design-stack-2026",
@@ -1809,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-21T14:11:17.510653+00:00"
+  "generated_at": "2026-05-21T17:28:31.509417+00:00"
 }
