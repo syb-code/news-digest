@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "76ce57ba6d58cc0bec7f1da1c806c75f",
+      "title": "Goodbye, Lenny's Reads!",
+      "url": "https://www.lennysnewsletter.com/p/goodbye-lennys-reads",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-22T15:41:05+00:00",
+      "summary": "After a year of bringing you these audio versions of my newsletter, I’ve decided it’s time to wind down this experiment.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0a00405aae2f254013328a090446efa0",
       "title": "Anthropic Just Reset AI Expectations",
       "url": "https://www.youtube.com/watch?v=9N3jEavj5Ps",
@@ -976,19 +989,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5df4e07f203bf35d354134143dab431d",
-      "title": "From a $6.90 newsletter to $3M API: How a non-coder built Memelord | Jason Levin",
-      "url": "https://www.lennysnewsletter.com/p/from-a-690-newsletter-to-3m-api-how",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-27T12:03:55+00:00",
-      "summary": "Listen now | 🎙️Jason Levin (CEO of Memelord) shows how he built a $100K ARR meme company without coding—plus why every marketer should vibe code and how agents are becoming his primary users",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "6c6da9899bca2610a941693c8a22a52f",
       "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
       "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
@@ -1807,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-22T14:31:19.801504+00:00"
+  "generated_at": "2026-05-22T17:05:23.417542+00:00"
 }
