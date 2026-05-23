@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5aedd35072d50f4f7bce308e47534d95",
+      "title": "🧠 Community Wisdom: Best AI cold outreach app, advice for college students interested in PM, the state of AI in design, the relevance of QA in 2026, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-23T20:33:09+00:00",
+      "summary": "Community Wisdom 186",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "76ce57ba6d58cc0bec7f1da1c806c75f",
       "title": "Goodbye, Lenny's Reads!",
       "url": "https://www.lennysnewsletter.com/p/goodbye-lennys-reads",
@@ -974,21 +989,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2d2e556bc3225c32740c75aa3db094e9",
-      "title": "🎙️ This week on How I AI: GPT 5.5, Claude Design, and GPT Images 2.0 hands-on reviews—plus an inside look at Memelord",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-gpt-55-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-27T15:02:19+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "6c6da9899bca2610a941693c8a22a52f",
       "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
       "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
@@ -1807,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-23T19:14:28.829529+00:00"
+  "generated_at": "2026-05-23T20:44:07.735203+00:00"
 }
