@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "7bd5dea1e6bb78245adfc43cc0ea8b92",
+      "title": "What Doomer Narratives About Private Credit Miss | John Cocke of Corbin Capital",
+      "url": "https://www.youtube.com/watch?v=7yShEhQjgMc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-24T16:42:33+00:00",
+      "summary": "John Cocke, Deputy Chief Investment Officer at Corbin Capital, joins Jack to discuss the world of private credit. With so much discussion over the asset class, John provides some much-needed context. While there are some areas of concern, John rejects the doomer narratives commo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "43284106bdd8157fa747e70841bc71f9",
       "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
       "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
@@ -988,21 +1001,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6c6da9899bca2610a941693c8a22a52f",
-      "title": "Software Loans Are on Sale | Matthew Bloomfield of Palmer Square Capital Management",
-      "url": "https://www.youtube.com/watch?v=i0ZE0RVbUwA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-26T18:05:21+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n \nMatthew Bloomfield, President of Palme…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8f2978b84d20872d6799e848a9868014",
       "title": "Deep Learning Weekly: Issue 452",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-452",
@@ -1806,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-24T16:07:20.227508+00:00"
+  "generated_at": "2026-05-24T17:56:32.194325+00:00"
 }
