@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "43284106bdd8157fa747e70841bc71f9",
+      "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
+      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-24T12:31:49+00:00",
+      "summary": "Why most work will happen inside Codex or Claude Code, the CLI era is over, every agent needs a human, and why he’s wildly bullish on PMs and designers",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a44c4a5eab6d3840504cac4591a4e3d1",
+      "title": "AI’s New Acceleration Phase",
+      "url": "https://www.youtube.com/watch?v=q9t1XCnHcM0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-24T11:12:41+00:00",
+      "summary": "A week of AI news added up to something bigger than any single story: Anthropic’s path to profitability, OpenAI’s math breakthrough, Google pushing AI deeper into Search and Docs, Cursor’s cheaper coding model, SpaceX becoming an AI compute player, Andrej Karpathy joining Anthro…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5aedd35072d50f4f7bce308e47534d95",
       "title": "🧠 Community Wisdom: Best AI cold outreach app, advice for college students interested in PM, the state of AI in design, the relevance of QA in 2026, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach",
@@ -853,22 +883,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "207adac4ff17b06b3de181cf94e2a52d",
-      "title": "How Harness-as-a-Service Will Change Agents",
-      "url": "https://www.youtube.com/watch?v=jvqQ8VlhO-w",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-01T14:51:50+00:00",
-      "summary": "Big tech earnings show an AI-driven cloud surge and soaring compute spending across Google, Amazon, Microsoft, and Meta. Harness-as-a-service emerges as a new infrastructure layer, with cursor SDK, managed agents, and hosted runtimes providing sandboxed execution environments. B…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "68b72ac794111bf652f64747747feeef",
       "title": "Jim Bianco: Jerome Powell is Holding the Fed Hostage",
       "url": "https://www.youtube.com/watch?v=GYEXYeND5sc",
@@ -954,21 +968,6 @@
       "published": "2026-04-29T10:30:45+00:00",
       "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nKieran Cavanna, the founder and CIO of …",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "eb69defd4a82b81bccc3f13d68b4dd6b",
-      "title": "Your Couch-to-5K for AI",
-      "url": "https://www.lennysnewsletter.com/p/your-couch-to-5k-for-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-04-28T15:31:24+00:00",
-      "summary": "A step-by-step guide to building an AI habit that sticks",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1807,5 +1806,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-24T11:12:40.452025+00:00"
+  "generated_at": "2026-05-24T13:17:55.281017+00:00"
 }
