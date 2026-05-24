@@ -29,6 +29,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "0a00405aae2f254013328a090446efa0",
+      "title": "Anthropic Just Reset AI Expectations",
+      "url": "https://www.youtube.com/watch?v=9N3jEavj5Ps",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-21T23:57:41+00:00",
+      "summary": "Anthropic delivered one of the most consequential weeks any AI lab has had yet: Andrej Karpathy joined to work on AI-accelerated pre-training research, new financials suggested the company is already profitable, and its deepening SpaceX compute partnership added fuel to the acce…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f4a3eeade410238782bf6fa8abd3c4b3",
       "title": "Deep Learning Weekly: Issue 456",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-456",
@@ -39,6 +54,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9e2e031b3a11ad651804e91dc045b115",
+      "title": "The Most Important AI News from Google I/O",
+      "url": "https://www.youtube.com/watch?v=G2HX30CelNk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-20T23:28:16+00:00",
+      "summary": "Google I/O unveiled Omni, Gemini 3.5 Flash, Antigravity 2.0, and Gemini Spark, framing a push toward multimodal generation and agentic tools. Omni showcased powerful video-to-video editing and fine-grained steerability. Gemini 3.5 Flash emphasized speed at the expense of token e…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -69,6 +99,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5e4f83eab53809c25d8e1f25009b07bf",
+      "title": "9 Codex Tips from the Codex Team",
+      "url": "https://www.youtube.com/watch?v=dB-Kbylgrdk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-20T02:15:46+00:00",
+      "summary": "Composer 2.5 narrows the gap with frontier coding models on key benchmarks while Cursor touts dramatic token‑efficiency at a fraction of the cost. Enterprise strategy is shifting toward harness‑first platforms and agent orchestration, capturing long‑running context, persistent m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -110,6 +153,19 @@
       "themes": [
         "Macro/Fed"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "766c04aa3dec184b7f398b395cf7a822",
+      "title": "What Google Needs to Do at I/O This Week",
+      "url": "https://www.youtube.com/watch?v=8uCkUyRFUqY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-18T17:50:21+00:00",
+      "summary": "Codex integration into ChatGPT Mobile ushers in persistent agent workflows and shifts knowledge work toward human review and approval instead of direct execution. Google I/O expectations include a Gemini Spark personal agent and cost-optimized Gemini Flash models pursuing both c…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -215,6 +271,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "4fbdf39efbdf2f059685f2ffb186621a",
+      "title": "In Defense of Tokenmaxxing",
+      "url": "https://www.youtube.com/watch?v=izRIZ1bMq4A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-14T16:24:56+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9a2b41314c58be59b5bf1a5089e2fd40",
       "title": "Deep Learning Weekly: Issue 455",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-455",
@@ -251,6 +322,36 @@
       "published": "2026-05-13T19:08:25+00:00",
       "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nJack Farley and Max Wiethe host Lyn Alden to explore the profound economic shifts driven by AI and the semiconductor industry. Alden compares the current rise of autonomous AI agents to the b…",
       "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b4bfb7633cf6e020e728220da0c9e7ff",
+      "title": "Towards AI That Can Actually Interact",
+      "url": "https://www.youtube.com/watch?v=-UTIXsziBJI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-13T17:38:56+00:00",
+      "summary": "OpenAI launched DeployCo, a $4 billion joint venture providing forward‑deployed engineers for enterprise AI transformation. Anthropic and OpenAI warned secondary‑market tokens tied to private stock can be void and may prompt legal disputes. Thinking Machines unveiled interaction…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a1b0efb2761bc5461ac3997a14134b69",
+      "title": "The Best Way to Talk to Your Agents",
+      "url": "https://www.youtube.com/watch?v=NNxGQw1uQHc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-12T15:29:16+00:00",
+      "summary": "Debate over HTML versus Markdown highlights richer, interactive handoffs and a shift from producing outputs to staging and scaffolding work for AI agents. Headlines include Anthropic's potential near-trillion valuation round and SpaceX compute deal, Cerebras IPO upsizing, TSMC c…",
+      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -298,6 +399,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9109d311bb4849589e06a0f49ee0f75b",
+      "title": "The New Jobs AI Will Create",
+      "url": "https://www.youtube.com/watch?v=WhAAKxPlMhw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-11T12:34:46+00:00",
+      "summary": "The AI jobs debate has spent years asking which roles will disappear. This weekend long-read asks the more important question: what becomes possible when AI expands the amount of useful work the economy can support? NLW lays out a first-principles case for why better AI does not…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -376,6 +492,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "975cf1cd51be90195dd0669dfc001cf8",
+      "title": "The Week the AI Story Shifted",
+      "url": "https://www.youtube.com/watch?v=ef4WR5vUJro",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-08T23:23:21+00:00",
+      "summary": "Weekly recap highlights a shifting AI narrative and growing consensus: automation will create relational and augmentation jobs instead of an immediate job apocalypse. Large corporate deals and data center investments signal a pivot from model hype toward sustained infrastructure…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0efb1fe823420abe793c239db991d83d",
       "title": "Jobs Report Just Forced The Fed to Wait",
       "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
@@ -388,6 +519,21 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "be283746180c34519f7c7bcc9a2fae79",
+      "title": "Surprise Elon-Anthropic Team Up Reshapes AI Race",
+      "url": "https://www.youtube.com/watch?v=RnqEXgcwg-g",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-07T21:38:41+00:00",
+      "summary": "Surprise SpaceX–Anthropic partnership injects massive Colossus-scale compute into Anthropic's Claude ecosystem and reframes compute as a strategic kingmaker. DevDay emphasized an agent-first strategy with Dreaming (scheduled memory review), Managed Agents, Outcomes-based grading…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -418,6 +564,23 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6b89e005d197bff7ce94a8ed96df1db9",
+      "title": "Who Cares About Consumer AI",
+      "url": "https://www.youtube.com/watch?v=f2lynShlg20",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-06T19:37:26+00:00",
+      "summary": "Video analyzes the clash between consumer and enterprise AI, highlighting Coinbase's AI framing of layoffs and Meta's consumer-agent project Hatch. Product and model updates covered include OpenAI's GPT-5.5 Instant and a shift toward coding and enterprise use cases. Market impli…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Crypto",
+        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -480,6 +643,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "4bdf8fc7eb586064ce03953655f5e851",
+      "title": "Is AI Doom Going Out of Style?",
+      "url": "https://www.youtube.com/watch?v=Bn43KmcMMB8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-05T20:55:51+00:00",
+      "summary": "Faint but converging signals suggest the AI doom narrative may finally be cracking — and they're showing up in the chattering class and the markets at the same time. This episode walks through the evidence: Ezra Klein's New York Times pushback on the AI job apocalypse, Alex Imas…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b667b76965cb4e8fcf40de789d8c4207",
       "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
       "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
@@ -502,6 +680,21 @@
       "source_type": "rss",
       "published": "2026-05-05T08:30:35+00:00",
       "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "36b23d47e8c1ed3a9031644e2c40c881",
+      "title": "Why Agents Make Every Job a Startup",
+      "url": "https://www.youtube.com/watch?v=HnE5oKiWVRc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-05T00:12:06+00:00",
+      "summary": "Agents are turning every job into a startup by unlocking an infinite backlog and enabling parallel 24/7 work. Consequences include exhilaration, new forms of burnout from judgment overload, and constraints from cost, evaluation, and audience absorption. Responses require new tec…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -630,6 +823,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "fe65e1e1656c07fd3b534490686245d5",
+      "title": "The Week AI Grew Up",
+      "url": "https://www.youtube.com/watch?v=IpD1chtKILE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-02T13:12:06+00:00",
+      "summary": "Transition from startup-style AI to infrastructure-era AI marked by explosive token demand, compute bottlenecks, and a shift to usage-based pricing. Market signals include roughly 40% higher GPU rental costs, record cloud growth at major providers, and widespread adoption of per…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9797c11dee440e42b486aed9ef7bbcec",
       "title": "Why I'm Investing in Oil — To Protect Against a Stock Market Crash",
       "url": "https://www.youtube.com/watch?v=E61vm4uhT8Q",
@@ -641,6 +849,22 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "207adac4ff17b06b3de181cf94e2a52d",
+      "title": "How Harness-as-a-Service Will Change Agents",
+      "url": "https://www.youtube.com/watch?v=jvqQ8VlhO-w",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-01T14:51:50+00:00",
+      "summary": "Big tech earnings show an AI-driven cloud surge and soaring compute spending across Google, Amazon, Microsoft, and Meta. Harness-as-a-service emerges as a new infrastructure layer, with cursor SDK, managed agents, and hosted runtimes providing sandboxed execution environments. B…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1583,5 +1807,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-24T06:34:56.224269+00:00"
+  "generated_at": "2026-05-24T09:19:02.455366+00:00"
 }
