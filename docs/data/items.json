@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "e58cfe06a57d2d164638a97fbb817e17",
+      "title": "The AI Cycle Will Turn This Year but First Things Get Even Crazier | Andreas Steno Larsen",
+      "url": "https://www.youtube.com/watch?v=WViV1JN4xmk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-25T15:04:16+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nAndreas Steno Larsen, macro researcher from Real Vision, joins Max Wiethe on Other People’s Money to discuss the shifting macro regime where inflation has returned and is pushing US Treasury …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d6f2903e5afe58c785440d7a91de1888",
+      "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-25T15:02:59+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1ecef494436f8b63f3db959696281d7d",
       "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
       "url": "https://www.lennysnewsletter.com/p/how-the-engineer-behind-claude-cowork",
@@ -834,21 +864,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "55d976bccb4c7dcfaadad4924a487270",
-      "title": "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)",
-      "url": "https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-03T12:30:59+00:00",
-      "summary": "Notion’s design and product lead on why agency beats skills in the AI era, why vibe coding made more software but not better software, and how Notion ships with “drive it like it’s stolen”",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8d1bd38f1b510d8eee09af3f5db4a42b",
       "title": "Why Fundamentals Don't Work For \"New Economy\" Stocks | Jacob Pozharny",
       "url": "https://www.youtube.com/watch?v=AP_n6waVkjI",
@@ -964,21 +979,6 @@
       "published": "2026-04-30T07:14:45+00:00",
       "summary": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text , Alibaba Drops Qwen 3.6 Max Preview , SpaceX is working with Cursor",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "06989d375fc8576f0038e4ef8e2414c9",
-      "title": "From Soros to Old Farm: How to Identify the Market’s Top Thematic Risk-Takers",
-      "url": "https://www.youtube.com/watch?v=zyJck24QgCc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-29T10:30:45+00:00",
-      "summary": "This episode is brought to you by CAIA.nxt. Learn more about their alternatives education courses for investment advisors and get 10% off with code MMTEN: https://caia.org/content/welcome-monetary-matters-and-other-peoples-money-listeners\n\nKieran Cavanna, the founder and CIO of …",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-25T12:25:32.203598+00:00"
+  "generated_at": "2026-05-25T15:47:15.218506+00:00"
 }
