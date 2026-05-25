@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "1ecef494436f8b63f3db959696281d7d",
+      "title": "How the engineer behind Claude Cowork actually uses Claude | Felix Rieseberg (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/how-the-engineer-behind-claude-cowork",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-25T12:03:53+00:00",
+      "summary": "Watch now | 🎙️ Felix Rieseberg (Anthropic) shows how he uses Claude to build 3D house walkthroughs from floor plans, track promises automatically, and create a $20 hardware “buddy”",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "7bd5dea1e6bb78245adfc43cc0ea8b92",
       "title": "What Doomer Narratives About Private Credit Miss | John Cocke of Corbin Capital",
       "url": "https://www.youtube.com/watch?v=7yShEhQjgMc",
@@ -844,21 +857,6 @@
       "published": "2026-05-02T22:19:56+00:00",
       "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of \"Monetary Matters,\" Jacob Pozharny, Co-Chief Investment Officer and Portfolio Manager at Bridgeway Capital Management, explains why traditional fundamental analysis often f…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "561d120906a03c4c06caf27723beea88",
-      "title": "🧠 Community Wisdom: Claude Code tips for ADHD users, resources for managing up, going from corporate to startup, tiring of being your company’s AI evangelist, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-claude-code-tips",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-02T18:02:57+00:00",
-      "summary": "Community Wisdom 184",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1804,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-25T08:16:47.968175+00:00"
+  "generated_at": "2026-05-25T12:25:32.203598+00:00"
 }
