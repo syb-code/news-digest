@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "a1959e1aec4c80c4bf28b06b2901539b",
+      "title": "Why an AI Driven Unemployment Wave is Real Estate’s Biggest Risk | Tom Shapiro",
+      "url": "https://www.youtube.com/watch?v=ZjqIFbPl2rw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-26T16:01:13+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here: https://fundrise.com/mm\n\nIn this episode of Other People's Money, GTIS Partners founder and CIO Tom Shapiro breaks down how massive macroeconomic shifts, including AI and inflation, are reshaping the global real estate landscape. H…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "68677fe4af598b4ef72b1a01ec17948d",
+      "title": "Essential books for product builders—part 1",
+      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-26T15:25:52+00:00",
+      "summary": "36 timeless books that’ll make you a better builder, leader, and person",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8409a04fa5e9adb4b2a551bac9d85ca4",
+      "title": "Beating the AI Doom Cycle",
+      "url": "https://www.youtube.com/watch?v=TGQ0FtvAPK4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-26T14:01:06+00:00",
+      "summary": "AI inequality explored as access to frontier models becomes scarce and selectively allocated by security, compute, and government controls. The role of Mythos, distillation, and recent pricing shifts demonstrates how token scarcity and stricter KYC concentrate capabilities among…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e8227e1ef5ebaba9c297f5959e9d251f",
       "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
       "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
@@ -802,21 +845,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "36b23d47e8c1ed3a9031644e2c40c881",
-      "title": "Why Agents Make Every Job a Startup",
-      "url": "https://www.youtube.com/watch?v=HnE5oKiWVRc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-05T00:12:06+00:00",
-      "summary": "Agents are turning every job into a startup by unlocking an infinite backlog and enabling parallel 24/7 work. Consequences include exhilaration, new forms of burnout from judgment overload, and constraints from cost, evaluation, and audience absorption. Responses require new tec…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "49634caa38123d9e6f0ac870413aa856",
       "title": "Warren Pies: \"I’m Scared Out of My Mind… But Very Bullish\"",
       "url": "https://www.youtube.com/watch?v=81NjG1zNGkk",
@@ -854,21 +882,6 @@
       "source_type": "youtube",
       "published": "2026-05-04T15:00:28+00:00",
       "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "52b51f7c5ae39f3e98d1ac9199b1ffee",
-      "title": "The internal AI tool that’s transforming how Stripe designs products | Owen Williams",
-      "url": "https://www.lennysnewsletter.com/p/the-internal-ai-tool-thats-transforming",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-04T12:03:59+00:00",
-      "summary": "Watch now | 🎙️ Owen Williams (Stripe) shows how he vibe coded Protodash, the internal tool that turns Stripe’s design system into clickable prototypes in two minutes",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -962,21 +975,6 @@
       "published": "2026-04-30T15:02:50+00:00",
       "summary": "OpenAI models come to AWS, Hidden Technical Debt of AI Systems: Agent Runtime, a paper on Recursive Multi-Agent Systems, and many more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "90e3e000cf27b00f34acd3243437554d",
-      "title": "SpaceX IPO: Why This Hedge Fund Manager is Fading the Hype | Moez Kassam",
-      "url": "https://www.youtube.com/watch?v=CzvresJgbNc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-04-30T13:15:48+00:00",
-      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent l…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1800,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-26T08:38:18.134900+00:00"
+  "generated_at": "2026-05-26T16:38:33.360640+00:00"
 }
