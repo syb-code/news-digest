@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "2d6636dc21301bff2607b9f9820be31c",
+      "title": "What the Pope Actually Said About AI",
+      "url": "https://www.youtube.com/watch?v=JWS8bYZrtnQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-27T14:24:26+00:00",
+      "summary": "Anthropic's Mythos and Project Glasswing exposed thousands of high‑severity software vulnerabilities and shifted the bottleneck to human triage and patching. Governments sought broader access and planned classified inference infrastructure, with a reported $9 billion US request …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ca622eab0127e91fe0393f3f953c52ec",
+      "title": "The Codex feature that works while you sleep",
+      "url": "https://www.lennysnewsletter.com/p/the-codex-feature-that-works-while",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-27T12:03:47+00:00",
+      "summary": "Watch now | 🎙️I break down the /goal feature in Codex, including a live demo, three real use cases, and the 6-part framework for writing goals that actually run",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a64e304ddb2fcfc5fa674c0ac27e96c9",
       "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
       "url": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
@@ -828,21 +856,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4bdf8fc7eb586064ce03953655f5e851",
-      "title": "Is AI Doom Going Out of Style?",
-      "url": "https://www.youtube.com/watch?v=Bn43KmcMMB8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-05T20:55:51+00:00",
-      "summary": "Faint but converging signals suggest the AI doom narrative may finally be cracking — and they're showing up in the chattering class and the markets at the same time. This episode walks through the evidence: Ezra Klein's New York Times pushback on the AI job apocalypse, Alex Imas…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b667b76965cb4e8fcf40de789d8c4207",
       "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
       "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
@@ -881,21 +894,6 @@
       "published": "2026-05-04T16:37:24+00:00",
       "summary": "Request Access to Free Trial to Caliban, Warren’s new AI-powered research tool that automates complex data sourcing & institutional-grade charting for investors:\nhttps://www.3fourteenresearch.com/monetary-matters\n\nIn this episode, Warren Pies, founder of 314 Research and Caliban…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6673518678edc384b1adcc359c885da5",
-      "title": "🎙️ This week on How I AI: The internal AI tool that’s transforming how Stripe designs products",
-      "url": "https://www.lennysnewsletter.com/p/this-week-on-how-i-ai-the-internal",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-04T15:01:56+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1796,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-27T11:42:18.549498+00:00"
+  "generated_at": "2026-05-27T15:30:31.239559+00:00"
 }
