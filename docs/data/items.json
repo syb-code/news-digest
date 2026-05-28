@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "361836a50c73ae935595487b221eeaab",
+      "title": "Claude Opus 4.8 is here. Is it as good as they say?",
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-28T21:35:07+00:00",
+      "summary": "Watch now | 🎙️My first impressions of Opus 4.8—where it excels and where it falls short",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d6636dc21301bff2607b9f9820be31c",
       "title": "What the Pope Actually Said About AI",
       "url": "https://www.youtube.com/watch?v=JWS8bYZrtnQ",
@@ -848,21 +861,6 @@
       "source_type": "youtube",
       "published": "2026-05-05T21:00:55+00:00",
       "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Warren Pies about the powerful role of AI narratives in today’s market. Pies explains how the surge in AI and compute demand, driven by rapid advancements and new models, is reshaping how investors view capital expend…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b667b76965cb4e8fcf40de789d8c4207",
-      "title": "Why SaaS freemium playbooks don’t work in AI, and what to do instead",
-      "url": "https://www.lennysnewsletter.com/p/why-saas-freemium-playbooks-dont",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-05T13:03:32+00:00",
-      "summary": "How to build an AI monetization strategy that actually works",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1794,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-28T19:33:37.810914+00:00"
+  "generated_at": "2026-05-28T21:52:26.662419+00:00"
 }
