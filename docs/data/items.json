@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "id": "1da6f5fe23c5388ccc54578c0f3b65c5",
+      "title": "The Annual AI Slowdown Panic Is Here",
+      "url": "https://www.youtube.com/watch?v=Af18iulLsSs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-29T15:04:41+00:00",
+      "summary": "DataCurve's DeepSWE benchmark exposes large performance gaps on realistic, long-horizon coding tasks. Summer AI slowdown panic returns alongside renewed debate over job displacement and deployment frictions. Token shortages and massive inference funding for Base10 and OpenRouter…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "558b69b078dd7fbf0b8c14c31ee10296",
+      "title": "Deep Learning Weekly: Issue 457",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-457",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-05-29T15:02:20+00:00",
+      "summary": "DeepSWE, The Best AI Observability Tools for Agentic Systems in 2026, a paper on SkillOpt: Executive Strategy for Self-Evolving Agent Skills, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "877e1e7407d0b2633c567245bd5e075f",
+      "title": "Kindness by design",
+      "url": "https://designplusai.com/p/kindness-by-design",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-29T14:59:46+00:00",
+      "summary": "Recently I’ve spent a lot of time thinking about interfaces, about AI, about what it means to design something for humans.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "361836a50c73ae935595487b221eeaab",
       "title": "Claude Opus 4.8 is here. Is it as good as they say?",
       "url": "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good",
@@ -790,23 +835,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6b89e005d197bff7ce94a8ed96df1db9",
-      "title": "Who Cares About Consumer AI",
-      "url": "https://www.youtube.com/watch?v=f2lynShlg20",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-06T19:37:26+00:00",
-      "summary": "Video analyzes the clash between consumer and enterprise AI, highlighting Coinbase's AI framing of layoffs and Meta's consumer-agent project Hatch. Product and model updates covered include OpenAI's GPT-5.5 Instant and a shift toward coding and enterprise use cases. Market impli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Crypto",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1626,21 +1654,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "6ae9c63a57f303c774b0465d439dc058",
-      "title": "Deep Learning Weekly: Issue 437",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-437",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-08T16:02:39+00:00",
-      "summary": "Comet, Vercel, and Google DeepMind launch month-long AI Agents hackathon with $30K prizes, 2025: The year in LLMs by Simon Willison, a paper on NitroGen: An Open Foundation Model for Generalist Gaming",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "322fae2e07a143e250218f03d29449cf",
       "title": "AI Design Stack 2026",
       "url": "https://designplusai.com/p/ai-design-stack-2026",
@@ -1775,22 +1788,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "783d5542a824ceb4464788be1c3ae405",
-      "title": "Ultimate AI Prompt Directory",
-      "url": "https://designplusai.com/p/ultimate-ai-prompt-directory",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-09T09:02:31+00:00",
-      "summary": "Over the past weeks I collected my favorite prompts and turned them into one \"master directory\" so you can just copy + paste what you need.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-29T13:56:10.126942+00:00"
+  "generated_at": "2026-05-29T17:32:07.815596+00:00"
 }
