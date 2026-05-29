@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "374b4be4d6a1936d39ec32d5594e6050",
+      "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
+      "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-29T19:00:26+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1da6f5fe23c5388ccc54578c0f3b65c5",
       "title": "The Annual AI Slowdown Panic Is Here",
       "url": "https://www.youtube.com/watch?v=Af18iulLsSs",
@@ -1174,19 +1190,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c0dd81bc338cc341cb8df90c46241c24",
-      "title": "How to Invest in 2026 After the Stock Market Drop",
-      "url": "https://www.youtube.com/watch?v=XfR-4TPmjSI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-09T00:00:35+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9c6588d0291771dd07f4d609e8311d7e",
       "title": "How to Build Something Lovable",
       "url": "https://designplusai.com/p/how-to-build-something-lovable",
@@ -1790,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-29T17:32:07.815596+00:00"
+  "generated_at": "2026-05-29T20:16:49.837437+00:00"
 }
