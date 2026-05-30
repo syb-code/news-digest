@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "19812d5a12afd0fd6bfbf3131e9253ed",
+      "title": "First Impressions of the New Opus 4.8",
+      "url": "https://www.youtube.com/watch?v=zf8BfgJghd8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-05-30T00:56:36+00:00",
+      "summary": "Anthropic releases Claude Opus 4.8 with improved honesty, stronger self‑verification, and multi‑agent dynamic workflows for large code tasks. Benchmark scores narrow versus OpenAI's GPT‑5.5 while debate grows over harness quality and real‑world tradeoffs. Headlines also cover Ki…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "374b4be4d6a1936d39ec32d5594e6050",
       "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
       "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
@@ -806,21 +821,6 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "be283746180c34519f7c7bcc9a2fae79",
-      "title": "Surprise Elon-Anthropic Team Up Reshapes AI Race",
-      "url": "https://www.youtube.com/watch?v=RnqEXgcwg-g",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-07T21:38:41+00:00",
-      "summary": "Surprise SpaceX–Anthropic partnership injects massive Colossus-scale compute into Anthropic's Claude ecosystem and reframes compute as a strategic kingmaker. DevDay emphasized an agent-first strategy with Dreaming (scheduled memory review), Managed Agents, Outcomes-based grading…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1793,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-30T00:05:32.579380+00:00"
+  "generated_at": "2026-05-30T04:49:57.047555+00:00"
 }
