@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8de4b1ec8a03ce6348d3d9c50b48b1cd",
+      "title": "A rational conversation on where AI is actually going | Benedict Evans",
+      "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-31T12:31:43+00:00",
+      "summary": "Benedict Evans on why AI is a 1997 internet moment, what everyone gets wrong about job loss, and where the real value may accrue",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "977baad8bb802250f9a6323f81feeb80",
       "title": "🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people",
@@ -847,21 +862,6 @@
       "source_type": "rss",
       "published": "2026-05-07T15:03:11+00:00",
       "summary": "MolmoAct 2: An open foundation for robots, How to Work and Compound with AI, a paper on ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bf24f67b4a33eba12347d6b6904785d0",
-      "title": "Code with Claude: The 5 biggest updates explained",
-      "url": "https://www.lennysnewsletter.com/p/code-with-claude-the-5-biggest-updates",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-07T01:39:47+00:00",
-      "summary": "Watch now | 🎙️ Everything Anthropic launched at Code with Claude",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1793,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-31T12:08:35.028683+00:00"
+  "generated_at": "2026-05-31T14:40:16.926300+00:00"
 }
