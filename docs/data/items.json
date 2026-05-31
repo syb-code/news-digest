@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "b9490a67a4b4017675947fdaca43605b",
+      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish",
+      "url": "https://www.youtube.com/watch?v=Jp082d53w44",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-31T15:10:59+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, host Jack Farley sits down with Jim Masturzo, Chief Investment Officer at Research Affiliates, to discuss the changing macroeconomic landscape and the und…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "8de4b1ec8a03ce6348d3d9c50b48b1cd",
       "title": "A rational conversation on where AI is actually going | Benedict Evans",
       "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
@@ -1003,22 +1016,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "68b72ac794111bf652f64747747feeef",
-      "title": "Jim Bianco: Jerome Powell is Holding the Fed Hostage",
-      "url": "https://www.youtube.com/watch?v=GYEXYeND5sc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-01T03:00:27+00:00",
-      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent l…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "08ff845036d6bd2282e0ff8838838dbc",
       "title": "The Fed is Trapped — No Good Options Remain",
       "url": "https://www.youtube.com/watch?v=t1y2U7X4Nzg",
@@ -1793,5 +1790,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-05-31T14:40:16.926300+00:00"
+  "generated_at": "2026-05-31T16:03:22.269805+00:00"
 }
