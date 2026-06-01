@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f16d21c1267e06c273741ca3e2d00571",
+      "title": "The AI Token Shortage Begins",
+      "url": "https://www.youtube.com/watch?v=ex6abzvzaIo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-01T18:02:16+00:00",
+      "summary": "Recap of May's major AI shift from subsidized seat pricing to a token-based economy driven by agentic usage and runaway API consumption. Coverage of business-model pivots to usage-based billing, enterprise deployment and consulting plays, and market responses including cheaper s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "016410bbf6448e6e2ac69799b5e213e6",
       "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
@@ -843,21 +858,6 @@
       "published": "2026-05-10T17:30:09+00:00",
       "summary": "Learn more about PQUS (Pictet AI Enhanced US Equity ETF) here: \nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2882903230&utm_source=jfmv&utm_content=pquslandingpage&utm_medium=social_02&utm_term=youtube\n\nLearn More about PQNT (Pictet AI Enhanced International Equity ETF…",
       "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "975cf1cd51be90195dd0669dfc001cf8",
-      "title": "The Week the AI Story Shifted",
-      "url": "https://www.youtube.com/watch?v=ef4WR5vUJro",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-08T23:23:21+00:00",
-      "summary": "Weekly recap highlights a shifting AI narrative and growing consensus: automation will create relational and augmentation jobs instead of an immediate job apocalypse. Large corporate deals and data center investments signal a pivot from model hype toward sustained infrastructure…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-01T17:30:55.716950+00:00"
+  "generated_at": "2026-06-01T21:28:13.955993+00:00"
 }
