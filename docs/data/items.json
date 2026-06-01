@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "016410bbf6448e6e2ac69799b5e213e6",
+      "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-01T15:01:46+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "caff4488e417f7417937ab64c2c0c096",
+      "title": "Oil Crisis Warning — Here's What Happens Next",
+      "url": "https://www.youtube.com/watch?v=BSlpQ4CrsVI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-01T15:00:22+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4ea20aefd157626e11b1fb86eb22cde9",
+      "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
+      "url": "https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-01T12:04:51+00:00",
+      "summary": "Watch now | 🎙️ How a talent leader with zero technical skills built and shipped a fitness app to the App Store—complete with AI-generated videos of animals doing exercises",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b9490a67a4b4017675947fdaca43605b",
       "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish",
       "url": "https://www.youtube.com/watch?v=Jp082d53w44",
@@ -807,36 +850,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "31c566f90af4fad9363ff28a7c48f773",
-      "title": "How to build a company that withstands any era | Eric Ries, Lean Startup author",
-      "url": "https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-10T12:03:32+00:00",
-      "summary": "Listen now | The Lean Startup author on why most mission-driven companies are just mission-“hopeful,” why only 20% of founders remain CEO three years post-IPO, and the Delaware filing every founder should make",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4993c5b77635e01f5f4b109af42c4aec",
-      "title": "🧠 Community Wisdom: What to do when non-PMs start shipping directly to production, thoughts on Claude Code’s pricing A/B test, the use of gen AI in games, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-what-to-do-when",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-09T18:18:35+00:00",
-      "summary": "Community Wisdom 185",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "975cf1cd51be90195dd0669dfc001cf8",
       "title": "The Week the AI Story Shifted",
       "url": "https://www.youtube.com/watch?v=ef4WR5vUJro",
@@ -1155,21 +1168,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "930969ea071d75c0ab36d3fafeed4f9e",
-      "title": "Inflation Surges Higher — The Fed is Now Trapped",
-      "url": "https://www.youtube.com/watch?v=E0kzhuRs22I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-10T20:40:28+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1790,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-01T11:44:42.222398+00:00"
+  "generated_at": "2026-06-01T17:30:55.716950+00:00"
 }
