@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "b62adbaa4a1f32a5e26dd628ae8ea0cd",
+      "title": "The Fed Found a New Way to Lower Inflation",
+      "url": "https://www.youtube.com/watch?v=iJGMYvFnH9Y",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-03T15:00:10+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a92635a7505415b99ffc69e6e59588e7",
+      "title": "Gemini Omni: Clone yourself with AI in under 15 minutes",
+      "url": "https://www.lennysnewsletter.com/p/gemini-omni-clone-yourself-with-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-03T12:04:09+00:00",
+      "summary": "Watch now | 🎙️ Testing Google’s Gemini Omni avatar feature live—I scan a QR code, clone my face, and ship a hype reel",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f16d21c1267e06c273741ca3e2d00571",
       "title": "The AI Token Shortage Begins",
       "url": "https://www.youtube.com/watch?v=ex6abzvzaIo",
@@ -820,21 +850,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0c5d99e896245ac2bcf747256182a404",
-      "title": "Spec-driven development: The AI engineering workflow at Notion | Ryan Nystrom",
-      "url": "https://www.lennysnewsletter.com/p/spec-driven-development-the-ai-engineering",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-11T12:03:12+00:00",
-      "summary": "Watch now | 🎙 Ryan Nystrom (Notion) shows how to automate standups, ship PRs from a single comment, and use spec-first development so agents do the coding while you do the thinking",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "ebd179b8df94f8522f58b1754e76691f",
       "title": "Harris Kupperman: Watch Refineries, Not Headlines",
       "url": "https://www.youtube.com/shorts/M02gnPkL4sE",
@@ -1154,21 +1169,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1cce944ac7c7eaa90658d47f25e01665",
-      "title": "Stagflation Warning in the USA: Iran Deal Fails",
-      "url": "https://www.youtube.com/watch?v=hVDwpA24xF8",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-12T23:45:13+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-03T11:53:12.912680+00:00"
+  "generated_at": "2026-06-03T16:40:10.373240+00:00"
 }
