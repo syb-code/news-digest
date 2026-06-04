@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "id": "738ab74dbec364774e33bf651412700c",
-      "title": "With AI IPOs On the Way, Should the Public Own AI Companies",
-      "url": "https://www.youtube.com/watch?v=L2ZJ5HITV48",
+      "id": "7c33dd734bcb5154b4c837a89ee27050",
+      "title": "The Next Wave of Enterprise AI",
+      "url": "https://www.youtube.com/watch?v=yTPGY13ym5s",
       "source": "@AIDailyBrief",
       "source_type": "youtube",
-      "published": "2026-06-04T00:30:02+00:00",
-      "summary": "NVIDIA unveiled the RTX Spark and Vera Rubin platform, pushing CPUs into AI inference and accelerating agent-based workloads. Anthropic and OpenAI entered an IPO race as Google plans an $80 billion equity raise and semiconductors drive a market rally. Policy debates intensified …",
+      "published": "2026-06-04T12:30:06+00:00",
+      "summary": "The White House AI executive order provoked intense debate over voluntary pre-release testing, a 30-day sharing window, and the risk of a de facto licensing regime. Anthropic’s Mythos and Project Glasswing expanded to critical infrastructure partners while exposing extreme token…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -16,13 +16,13 @@
       "bucket": "highlight"
     },
     {
-      "id": "7c33dd734bcb5154b4c837a89ee27050",
-      "title": "The Next Wave of Enterprise AI",
-      "url": "https://www.youtube.com/watch?v=yTPGY13ym5s",
+      "id": "738ab74dbec364774e33bf651412700c",
+      "title": "With AI IPOs On the Way, Should the Public Own AI Companies",
+      "url": "https://www.youtube.com/watch?v=L2ZJ5HITV48",
       "source": "@AIDailyBrief",
       "source_type": "youtube",
-      "published": "2026-06-03T20:50:41+00:00",
-      "summary": "The White House AI executive order provoked intense debate over voluntary pre-release testing, a 30-day sharing window, and the risk of a de facto licensing regime. Anthropic’s Mythos and Project Glasswing expanded to critical infrastructure partners while exposing extreme token…",
+      "published": "2026-06-04T00:30:02+00:00",
+      "summary": "NVIDIA unveiled the RTX Spark and Vera Rubin platform, pushing CPUs into AI inference and accelerating agent-based workloads. Anthropic and OpenAI entered an IPO race as Google plans an $80 billion equity raise and semiconductors drive a market rally. Policy debates intensified …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-04T11:48:45.113525+00:00"
+  "generated_at": "2026-06-04T14:50:39.035745+00:00"
 }
