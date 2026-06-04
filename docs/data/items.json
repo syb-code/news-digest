@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c9e939a7d188eabf678b009d63f68b23",
+      "title": "Deep Learning Weekly: Issue 458",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-06-04T15:01:49+00:00",
+      "summary": "Claude Opus 4.8, Agent Tracing and Observability: Log & Debug Complex AI Systems, a paper on A Self-Healing Framework for Reliable LLM-Based Autonomous Agents, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7c33dd734bcb5154b4c837a89ee27050",
       "title": "The Next Wave of Enterprise AI",
       "url": "https://www.youtube.com/watch?v=yTPGY13ym5s",
@@ -1637,21 +1652,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "98402f5ff49f08db69ba87ed335b83f5",
-      "title": "Deep Learning Weekly: Issue 438",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-438",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-15T16:02:53+00:00",
-      "summary": "Comet, Vercel, and Google DeepMind launch a month-long AI Agents hackathon with $30K prizes, Claude Cowork, a paper on Prompt Repetition Improves Non-Reasoning LLMs, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "322fae2e07a143e250218f03d29449cf",
       "title": "AI Design Stack 2026",
       "url": "https://designplusai.com/p/ai-design-stack-2026",
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-04T14:50:39.035745+00:00"
+  "generated_at": "2026-06-04T17:42:38.360505+00:00"
 }
