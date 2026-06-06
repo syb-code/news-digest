@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "31a97d99eecfeebb093b2c73f361ab8a",
+      "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone",
+      "url": "https://www.youtube.com/watch?v=zjLerkfKcEU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-06T13:05:12+00:00",
+      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Michael Fritzell, author of Asian Century Stocks, to break down the massive valuation divergence playing out across Asian equity markets. Michael explains why he believes the skyrocketing AI and memory chip …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c9e939a7d188eabf678b009d63f68b23",
       "title": "Deep Learning Weekly: Issue 458",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
@@ -1029,21 +1044,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8d1bd38f1b510d8eee09af3f5db4a42b",
-      "title": "Why Fundamentals Don't Work For \"New Economy\" Stocks | Jacob Pozharny",
-      "url": "https://www.youtube.com/watch?v=AP_n6waVkjI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-02T22:19:56+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of \"Monetary Matters,\" Jacob Pozharny, Co-Chief Investment Officer and Portfolio Manager at Bridgeway Capital Management, explains why traditional fundamental analysis often f…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9797c11dee440e42b486aed9ef7bbcec",
       "title": "Why I'm Investing in Oil — To Protect Against a Stock Market Crash",
       "url": "https://www.youtube.com/watch?v=E61vm4uhT8Q",
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-06T11:22:12.641636+00:00"
+  "generated_at": "2026-06-06T13:23:51.284065+00:00"
 }
