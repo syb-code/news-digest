@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b298cc5246aa34c84b1c6300143f7160",
+      "title": "🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-06T17:14:54+00:00",
+      "summary": "Community Wisdom 188",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "31a97d99eecfeebb093b2c73f361ab8a",
       "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone",
       "url": "https://www.youtube.com/watch?v=zjLerkfKcEU",
@@ -844,21 +859,6 @@
       "source_type": "youtube",
       "published": "2026-05-12T13:57:20+00:00",
       "summary": "Learn more about the Fundrise Income Fund here: https://fundrise.com/mm\n\nIn this episode of Other People's Money, Thomas Lloyd-Jones, Co-founder and CIO of Zenzic Capital, joins the show to unpack the nuances of the real estate private credit market. He explains how the media of…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "aea6244c3554538962534d88c81351b5",
-      "title": "🎙️ How I AI: Quests, token leaderboards, and the elite AI adoption playbook & Notion’s spec-driven development",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-quests-token-leaderboards",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-11T16:02:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-06T17:07:51.483382+00:00"
+  "generated_at": "2026-06-06T19:16:01.609713+00:00"
 }
