@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6df329e62ad647b2620d394e672c880c",
+      "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
+      "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-07T12:31:29+00:00",
+      "summary": "Listen now | The creator of iPod, iPhone, and Nest on opinion vs. data decisions, why marketing matters, the \"three generations\" rule behind everything he's shipped, and why AI will still need screens",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b298cc5246aa34c84b1c6300143f7160",
       "title": "🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs",
@@ -727,21 +742,6 @@
       "source_type": "rss",
       "published": "2026-05-17T12:31:57+00:00",
       "summary": "Listen now | Caitlin Kalinowski on supply chain vulnerabilities threaten the robotics revolution, why consumer VR failed, and what she learned building products at Apple, Meta, and OpenAI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dae9c55bf149f94f2bdfe37b786b5392",
-      "title": "🧠 Community Wisdom: Screening AI slop in hiring, Wispr Flow alternatives for voice transcription, multi-agent pipeline vs. MCP, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-screening-ai-slop",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-16T21:46:34+00:00",
-      "summary": "Community Wisdom 185",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-07T11:06:03.109479+00:00"
+  "generated_at": "2026-06-07T13:44:22.097151+00:00"
 }
