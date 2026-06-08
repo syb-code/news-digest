@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "4a3abeb16be7a991a01ebdacca0cc50a",
+      "title": "🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-08T15:01:21+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f79379cc100a5e68f9b614aa515290e2",
+      "title": "Oil Market “Comatose” as 1 Billion Barrels Are Lost | Kpler’s Matt Smith",
+      "url": "https://www.youtube.com/watch?v=S-5jHt3TBds",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-08T13:18:52+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\n\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack sits down with Matt Smith, the Director of Research at Kepler, to analyze how the global oil market is sleepwalking into a major supply crisis four months in…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3d74bd621d09783cf511aa05895bd03d",
       "title": "Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz",
       "url": "https://www.lennysnewsletter.com/p/shopping-with-claude",
@@ -722,19 +750,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a085ea36fce000494eba0fe0df023c85",
-      "title": "HTML is the new Markdown: How Anthropic engineers are building with Claude Code | Thariq Shihipar",
-      "url": "https://www.lennysnewsletter.com/p/html-is-the-new-markdown-how-anthropic",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-18T12:02:11+00:00",
-      "summary": "Watch now | 🎙️ Anthropic's Claude Code engineer on why HTML replaced markdown, building micro-apps for spec editing, living design systems, and becoming a \"compute allocator\"",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "20a5a54b042912840bf7c9ad382ff26f",
       "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
       "url": "https://www.youtube.com/watch?v=3sd7Nm6LuXk",
@@ -992,21 +1007,6 @@
       "published": "2026-05-05T08:30:35+00:00",
       "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
       "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "49634caa38123d9e6f0ac870413aa856",
-      "title": "Warren Pies: \"I’m Scared Out of My Mind… But Very Bullish\"",
-      "url": "https://www.youtube.com/watch?v=81NjG1zNGkk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-04T16:37:24+00:00",
-      "summary": "Request Access to Free Trial to Caliban, Warren’s new AI-powered research tool that automates complex data sourcing & institutional-grade charting for investors:\nhttps://www.3fourteenresearch.com/monetary-matters\n\nIn this episode, Warren Pies, founder of 314 Research and Caliban…",
-      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-08T13:02:48.530546+00:00"
+  "generated_at": "2026-06-08T17:19:24.834022+00:00"
 }
