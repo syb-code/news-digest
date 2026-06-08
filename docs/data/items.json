@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3d74bd621d09783cf511aa05895bd03d",
+      "title": "Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz",
+      "url": "https://www.lennysnewsletter.com/p/shopping-with-claude",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-08T12:03:27+00:00",
+      "summary": "Watch now | 🎙️She uses Claude to shop for high-quality items that last, automate returns when products fail, and spend less time on administrative tasks and more time with her kids",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6df329e62ad647b2620d394e672c880c",
       "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
       "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
@@ -727,21 +742,6 @@
       "source_type": "youtube",
       "published": "2026-05-17T13:00:08+00:00",
       "summary": "Chen Xu, counsel at Debevoise & Plimpton, joins Jack to discuss the Basel III framework and endgame. The Basel III framework is extremely important to the future of banking and credit. Few people are as qualified to explain this complex agreement more than Chen Xu. Chen explains…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a03be9d38ac414a17baa82372f90614b",
-      "title": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
-      "url": "https://www.lennysnewsletter.com/p/why-were-at-the-beginning-of-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-17T12:31:57+00:00",
-      "summary": "Listen now | Caitlin Kalinowski on supply chain vulnerabilities threaten the robotics revolution, why consumer VR failed, and what she learned building products at Apple, Meta, and OpenAI",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-08T08:50:19.425100+00:00"
+  "generated_at": "2026-06-08T13:02:48.530546+00:00"
 }
