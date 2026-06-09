@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "3e8dc560258b8f2fbcd51feeeff5033b",
+      "title": "The Fed May Be Forced to Raise Rates After This",
+      "url": "https://www.youtube.com/watch?v=dIS4pRHl9iI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-08T22:15:28+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4a3abeb16be7a991a01ebdacca0cc50a",
       "title": "🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself",
@@ -1174,19 +1190,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "63cd252f81bcf3ef677d439d99d8a151",
-      "title": "The Real Cost of the Iran War Is Surging",
-      "url": "https://www.youtube.com/watch?v=GkrTTJiL7hY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-15T16:00:35+00:00",
-      "summary": "⭐ To see what I'm doing with stocks, gold, silver, please visit my Patreon: https://www.patreon.com/ClearValueInvesting\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "d5bfed3cb265a1fa68dcc193c70bd7ba",
       "title": "Deep Learning Weekly: Issue 450",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-450",
@@ -1788,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-08T22:22:56.407445+00:00"
+  "generated_at": "2026-06-09T00:02:16.132456+00:00"
 }
