@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c1f856935738627c29a75ad93f9572b7",
+      "title": "Essential books for product builders—part 2",
+      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart-611",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-09T13:11:29+00:00",
+      "summary": "36 more timeless books that’ll make you a better builder, leader, and person",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec1aaf5c65a67e7e527230f986ced350",
       "title": "The Way We Use AI is Changing",
       "url": "https://www.youtube.com/watch?v=RKpEI37RnfI",
@@ -763,21 +776,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "282c03bde85eb79bee16cf7b77e5cfbf",
-      "title": "🎙️ How I AI: HTML is the new Markdown: How Anthropic engineers are building with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-html-is-the-new-markdown",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-18T15:00:52+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1791,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-09T12:33:04.184375+00:00"
+  "generated_at": "2026-06-09T15:51:12.443649+00:00"
 }
