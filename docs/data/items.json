@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f1af36311e0e5de1714e066dd1c648ae",
+      "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
+      "url": "https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-09T18:32:03+00:00",
+      "summary": "Watch now | 🎙️Early access to Claude Fable 5: what Anthropic claims, what I tested, and my honest take",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c1f856935738627c29a75ad93f9572b7",
       "title": "Essential books for product builders—part 2",
       "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart-611",
@@ -732,19 +747,6 @@
       "source_type": "rss",
       "published": "2026-05-20T01:59:31+00:00",
       "summary": "Watch now | 🎙️ Every major Google I/O 2026 launch—what's fast, what's broken, and what builders should actually care about",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "44579284f0e507323c54617686951891",
-      "title": "The Lenny and Friends Summit is back!",
-      "url": "https://www.lennysnewsletter.com/p/the-lenny-and-friends-summit-is-back",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-19T15:27:24+00:00",
-      "summary": "September 10th in San Francisco. Applications are now open.",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1789,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-09T17:58:47.262981+00:00"
+  "generated_at": "2026-06-09T20:12:13.391434+00:00"
 }
