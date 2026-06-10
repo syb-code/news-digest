@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "90a8455153cf7e770701985e19c92f40",
+      "title": "OpenAI Declares the Next Phase of AI",
+      "url": "https://www.youtube.com/watch?v=pnxRfJRAh5A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-10T13:51:16+00:00",
+      "summary": "OpenAI filed confidential IPO paperwork and released a strategy declaring a new phase centered on automating AI research, creating personal AGI, and spreading economic gains. SpaceX unveiled designs for space-based data centers and aggressive scale targets while chipmakers turn …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f1af36311e0e5de1714e066dd1c648ae",
       "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
       "url": "https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new",
@@ -822,21 +837,6 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4fbdf39efbdf2f059685f2ffb186621a",
-      "title": "In Defense of Tokenmaxxing",
-      "url": "https://www.youtube.com/watch?v=izRIZ1bMq4A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-14T16:24:56+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-10T12:52:51.292197+00:00"
+  "generated_at": "2026-06-10T16:32:11.241902+00:00"
 }
