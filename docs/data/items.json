@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bb21006d6600d28e15eab69f904c0659",
+      "title": "Why Fable 5 is the Most Controversial AI Release Ever",
+      "url": "https://www.youtube.com/watch?v=LNXDoKPe06I",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-12T00:59:11+00:00",
+      "summary": "Anthropic's Fable-5 launch sparked outrage over opaque safety filters, silent model degradation for AI research, and a 30-day enterprise data-retention rule. A rapid walkback restored visibility for safeguards but left deep trust and enterprise-adoption concerns. Broader themes …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ac2957d2684e6c1981f817c1e9414c70",
       "title": "Fable 5 Raises the Bar for AI Ambition",
       "url": "https://www.youtube.com/watch?v=it7VUqfVorw",
@@ -784,19 +799,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5e4f83eab53809c25d8e1f25009b07bf",
-      "title": "9 Codex Tips from the Codex Team",
-      "url": "https://www.youtube.com/watch?v=dB-Kbylgrdk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-20T02:15:46+00:00",
-      "summary": "Composer 2.5 narrows the gap with frontier coding models on key benchmarks while Cursor touts dramatic token‑efficiency at a fraction of the cost. Enterprise strategy is shifting toward harness‑first platforms and agent orchestration, capturing long‑running context, persistent m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1793,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-11T23:42:41.507737+00:00"
+  "generated_at": "2026-06-12T03:34:12.398596+00:00"
 }
