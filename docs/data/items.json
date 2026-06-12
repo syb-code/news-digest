@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "196348b9a8405584c40c713c55d44e1f",
+      "title": "Deep Learning Weekly: Issue 459",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-459",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-06-12T15:00:51+00:00",
+      "summary": "Claude Fable 5, Cohere’s North Mini Code, a paper on Tokenomics: Quantifying Where Tokens Are Used in Agentic Software Engineering, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "32a0908011eaf18303b201403ca7e68b",
+      "title": "10 Sites Knowledge Workers Should Build with AI",
+      "url": "https://www.youtube.com/watch?v=45UGHbqq2fQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-12T13:56:11+00:00",
+      "summary": "AI is making it possible to build richer versions of the files knowledge workers send every day: decks, memos, spreadsheets, reports, proposals, training materials, and more. This has gotten even easier this week with the release of OpenAI's \"Sites\" feature in Codex. In this pra…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bb21006d6600d28e15eab69f904c0659",
       "title": "Why Fable 5 is the Most Controversial AI Release Ever",
       "url": "https://www.youtube.com/watch?v=LNXDoKPe06I",
@@ -754,21 +782,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9e2e031b3a11ad651804e91dc045b115",
-      "title": "The Most Important AI News from Google I/O",
-      "url": "https://www.youtube.com/watch?v=G2HX30CelNk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-20T23:28:16+00:00",
-      "summary": "Google I/O unveiled Omni, Gemini 3.5 Flash, Antigravity 2.0, and Gemini Spark, framing a push toward multimodal generation and agentic tools. Omni showcased powerful video-to-video editing and fine-grained steerability. Gemini 3.5 Flash emphasized speed at the expense of token e…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1631,19 +1644,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0a073844706d436cb82c67aee4ae5b64",
-      "title": "Deep Learning Weekly: Issue 439",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-439",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-22T16:03:07+00:00",
-      "summary": "FLUX.2 [klein], Heaps do lie: debugging a memory leak in vLLM. a paper on Toward Efficient Agents: Memory, Tool learning, and Planning, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
       "title": "How to build stunning slide decks with AI",
       "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-12T12:15:33.886788+00:00"
+  "generated_at": "2026-06-12T16:14:13.341234+00:00"
 }
