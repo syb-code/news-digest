@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "da3f0f784d8e945ffbbb8e45e507bdd7",
+      "title": "Fable 5 Shut Down by US Government",
+      "url": "https://www.youtube.com/watch?v=5-CGzLrA4fg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-13T17:00:06+00:00",
+      "summary": "In this emergency episode, NLW breaks down the stunning news that the US government has ordered Anthropic to suspend access to Fable 5 and Mythos 5 for foreign nationals, forcing the company to shut the models down for all users. He explores Anthropic’s response, the backlash fr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0483b80e99ba2d7c797150a3eaa11a34",
       "title": "The AI Chart Everyone Is Getting Wrong",
       "url": "https://www.youtube.com/watch?v=05VE_9rI954",
@@ -721,21 +734,6 @@
       "source_type": "rss",
       "published": "2026-05-24T12:31:49+00:00",
       "summary": "Why most work will happen inside Codex or Claude Code, the CLI era is over, every agent needs a human, and why he’s wildly bullish on PMs and designers",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a44c4a5eab6d3840504cac4591a4e3d1",
-      "title": "AI’s New Acceleration Phase",
-      "url": "https://www.youtube.com/watch?v=q9t1XCnHcM0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-24T11:12:41+00:00",
-      "summary": "A week of AI news added up to something bigger than any single story: Anthropic’s path to profitability, OpenAI’s math breakthrough, Google pushing AI deeper into Search and Docs, Cursor’s cheaper coding model, SpaceX becoming an AI compute player, Andrej Karpathy joining Anthro…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1795,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-13T16:13:26.414797+00:00"
+  "generated_at": "2026-06-13T18:04:26.418052+00:00"
 }
