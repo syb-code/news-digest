@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0483b80e99ba2d7c797150a3eaa11a34",
+      "title": "The AI Chart Everyone Is Getting Wrong",
+      "url": "https://www.youtube.com/watch?v=05VE_9rI954",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-13T15:46:26+00:00",
+      "summary": "A viral Wall Street chart has kicked off a new round of AI bubble panic, but NLW argues the market is reading it wrong. The real story isn’t collapsing demand — it’s the shift from the token subsidy era to the token scarcity era, where companies are learning to route AI usage mo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "196348b9a8405584c40c713c55d44e1f",
       "title": "Deep Learning Weekly: Issue 459",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-459",
@@ -754,21 +769,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0a00405aae2f254013328a090446efa0",
-      "title": "Anthropic Just Reset AI Expectations",
-      "url": "https://www.youtube.com/watch?v=9N3jEavj5Ps",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-21T23:57:41+00:00",
-      "summary": "Anthropic delivered one of the most consequential weeks any AI lab has had yet: Andrej Karpathy joined to work on AI-accelerated pre-training research, new financials suggested the company is already profitable, and its deepening SpaceX compute partnership added fuel to the acce…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-13T14:57:07.660840+00:00"
+  "generated_at": "2026-06-13T16:13:26.414797+00:00"
 }
