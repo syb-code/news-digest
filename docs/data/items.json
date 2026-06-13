@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "87f89d8453de1bd7cb51386a93665294",
+      "title": "🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-13T20:54:15+00:00",
+      "summary": "Community Wisdom 189",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "da3f0f784d8e945ffbbb8e45e507bdd7",
       "title": "Fable 5 Shut Down by US Government",
       "url": "https://www.youtube.com/watch?v=5-CGzLrA4fg",
@@ -810,19 +825,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ff2cde2a8f7b5cc45fc37fcd1d1f95c9",
-      "title": "What launched at Google I/O 2026 (30-minute day 1 recap)",
-      "url": "https://www.lennysnewsletter.com/p/what-launched-at-google-io-2026-30",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-20T01:59:31+00:00",
-      "summary": "Watch now | 🎙️ Every major Google I/O 2026 launch—what's fast, what's broken, and what builders should actually care about",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1793,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-13T20:12:34.918671+00:00"
+  "generated_at": "2026-06-13T21:59:30.981219+00:00"
 }
