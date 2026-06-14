@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "e303bd3dd39b1abeeb736fb66d0b247a",
+      "title": "The hidden pattern behind successful products | Mark Pincus (Founder of Zynga)",
+      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-14T12:31:44+00:00",
+      "summary": "Listen now | Mark Pincus on why your instincts are right but your ideas are wrong, the “Proven, Better, New” framework, and what he’s teaching his kids",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "87f89d8453de1bd7cb51386a93665294",
       "title": "🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing",
@@ -769,19 +782,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "76ce57ba6d58cc0bec7f1da1c806c75f",
-      "title": "Goodbye, Lenny's Reads!",
-      "url": "https://www.lennysnewsletter.com/p/goodbye-lennys-reads",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-22T15:41:05+00:00",
-      "summary": "After a year of bringing you these audio versions of my newsletter, I’ve decided it’s time to wind down this experiment.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-14T11:27:02.909353+00:00"
+  "generated_at": "2026-06-14T13:53:50.967786+00:00"
 }
