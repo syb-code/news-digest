@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8f44ae4e1fa28050f1c4c001dc342d3d",
+      "title": "Why Wall Street Is Completely Blind to AI’s Imminent Regulatory Risk | David Woo",
+      "url": "https://www.youtube.com/watch?v=760Bpzc1cYM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-15T20:46:28+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack Farley sits down with independent economist and strategist David Woo to break down the hidden realities behind global tech markets and macroeconomics.  Woo re…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c6bc443d3d45b1cc60afbea61bd61a7e",
       "title": "🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
@@ -1019,19 +1034,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c84df7241b3dc2c6868eac7faa792c06",
-      "title": "How to Profit from Global Volatility and Commodity Chaos | Harris Kupperman",
-      "url": "https://www.youtube.com/watch?v=llwNseMiqAs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-06T14:57:27+00:00",
-      "summary": "Monetary Matters listeners can save $1000 on their first-year subscription to KEDM Research with coupon code mm2026: https://kedm.com/?add-to-cart=4175&apply_coupon=mm2026\n\nHarris Kupperman and Roderick van Zuylen join Monetary Matters to discuss the intersection of thematic mac…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "634853ca3c9b6f6ec39328e412c53df3",
       "title": "Generative Interfaces",
       "url": "https://designplusai.com/p/generative-interfaces",
@@ -1795,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-15T20:22:10.774702+00:00"
+  "generated_at": "2026-06-15T22:59:33.875318+00:00"
 }
