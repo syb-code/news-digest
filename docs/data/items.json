@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "c6bc443d3d45b1cc60afbea61bd61a7e",
+      "title": "🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-15T15:01:32+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "45fc290ad60c04219bcd3ee70dc4ce0f",
+      "title": "How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal",
+      "url": "https://www.lennysnewsletter.com/p/how-braintrust-uses-ai-agents-evals",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-15T12:04:03+00:00",
+      "summary": "Watch now | 🎙️ “Evals are the modern version of a PRD”: Ankur Goyal (Braintrust) on encoding taste into systems that scale",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e303bd3dd39b1abeeb736fb66d0b247a",
       "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
       "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
@@ -752,36 +782,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "43284106bdd8157fa747e70841bc71f9",
-      "title": "The AI paradox: More automation, more humans, more work | Dan Shipper",
-      "url": "https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-24T12:31:49+00:00",
-      "summary": "Why most work will happen inside Codex or Claude Code, the CLI era is over, every agent needs a human, and why he’s wildly bullish on PMs and designers",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5aedd35072d50f4f7bce308e47534d95",
-      "title": "🧠 Community Wisdom: Best AI cold outreach app, advice for college students interested in PM, the state of AI in design, the relevance of QA in 2026, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-best-ai-cold-outreach",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-23T20:33:09+00:00",
-      "summary": "Community Wisdom 186",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-15T10:19:42.636530+00:00"
+  "generated_at": "2026-06-15T16:13:37.763599+00:00"
 }
