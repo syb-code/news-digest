@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "b8543cfbb0e49dffe79f1b563b6eff87",
+      "title": "The Book of Wealth: 10 Steps to Financial Freedom",
+      "url": "https://www.youtube.com/watch?v=8tw6C0lqgTg",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-16T15:24:07+00:00",
+      "summary": "📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n📘 Get our Productivity Checklist on Amazon to boost your day-to-day productivity: https://www.amazon.com/dp/B0G1Z…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "8f44ae4e1fa28050f1c4c001dc342d3d",
       "title": "Why Wall Street Is Completely Blind to AI’s Imminent Regulatory Risk | David Woo",
       "url": "https://www.youtube.com/watch?v=760Bpzc1cYM",
@@ -1181,19 +1194,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "45fee09aa31d7c34964843acfb30ce3d",
-      "title": "De-Dollarization: The Petrodollar Is Under Attack",
-      "url": "https://www.youtube.com/watch?v=qtfn_EkNlqI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-20T16:01:29+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5029f5f93021fab99a2badb8a0f1eef4",
       "title": "Deep Learning Weekly: Issue 451",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-451",
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-16T12:49:20.923708+00:00"
+  "generated_at": "2026-06-16T18:01:35.689765+00:00"
 }
