@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f861f7fa2d50dac9721e16284d54de2b",
+      "title": "A Big Shift in the AI Race",
+      "url": "https://www.youtube.com/watch?v=RO7Ly_wu9dQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-17T20:00:56+00:00",
+      "summary": "Anthropic's forced shutdown of Mythos and Fable exposes jailbreak risks, cybersecurity weaknesses, and a chaotic regulatory response.  \nSpaceX's IPO and the Cursor acquisition signal a shift toward monetizing massive compute and competing across models, harnesses, and control pl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f7279afb7b58881839b419ac69e5caa9",
       "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
       "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
@@ -756,19 +771,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a13b868f5e42d21e2a7df3c5e9c63d8c",
-      "title": "Why Agents Still Need Humans",
-      "url": "https://www.youtube.com/watch?v=GWPpLdpTo90",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-26T00:38:01+00:00",
-      "summary": "NLW explores the next wave of human-agent collaboration, using Dan Shipper’s “After Automation” essay and Every’s agent experiments to argue that automation is creating more expert human work, not less. The episode looks at shared team agents, the “human sandwich” model, the lim…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1799,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-17T19:22:47.265129+00:00"
+  "generated_at": "2026-06-17T21:57:15.521046+00:00"
 }
