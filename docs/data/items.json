@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "70dbd4a1d7791bbc5a91b072774c4a76",
+      "title": "The Fed Quietly Abandoned the 2% Inflation Target",
+      "url": "https://www.youtube.com/watch?v=CvQbW19GxWQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-18T19:40:54+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b96171a8be3d655354698bc833b0ab7a",
       "title": "Why Only AI Training Can Save the Economy",
       "url": "https://www.youtube.com/watch?v=v3jwNZ94GLo",
@@ -1186,19 +1201,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "29ff697fe6e19d701b116a919335abc5",
-      "title": "The U.S. Can’t Afford a Recession — So They’ll Print Trillions",
-      "url": "https://www.youtube.com/watch?v=c5Q9aZFRyXc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-27T16:01:02+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "8f2978b84d20872d6799e848a9868014",
       "title": "Deep Learning Weekly: Issue 452",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-452",
@@ -1802,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-18T19:23:54.929395+00:00"
+  "generated_at": "2026-06-18T22:02:46.940051+00:00"
 }
