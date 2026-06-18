@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "b96171a8be3d655354698bc833b0ab7a",
+      "title": "Why Only AI Training Can Save the Economy",
+      "url": "https://www.youtube.com/watch?v=v3jwNZ94GLo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-18T17:29:26+00:00",
+      "summary": "Large-scale AI training offers the only practical path to align AI labs' token-driven revenue growth with enterprise spending constraints. A shift from seat-based subscriptions to agentic, usage-based consumption is driving surging token demand, massive infrastructure investment…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c8254a7707ca2c3fb8afccc9fde12625",
       "title": "Deep Learning Weekly: Issue 460",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-460",
@@ -769,21 +785,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8409a04fa5e9adb4b2a551bac9d85ca4",
-      "title": "Beating the AI Doom Cycle",
-      "url": "https://www.youtube.com/watch?v=TGQ0FtvAPK4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-26T14:01:06+00:00",
-      "summary": "AI inequality explored as access to frontier models becomes scarce and selectively allocated by security, compute, and government controls. The role of Mythos, distillation, and recent pricing shifts demonstrates how token scarcity and stricter KYC concentrate capabilities among…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1801,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-18T16:26:10.396028+00:00"
+  "generated_at": "2026-06-18T19:23:54.929395+00:00"
 }
