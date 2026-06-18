@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "c8254a7707ca2c3fb8afccc9fde12625",
+      "title": "Deep Learning Weekly: Issue 460",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-460",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-06-18T15:02:21+00:00",
+      "summary": "GLM 5.2, Understanding Your Claude Code Spend: What’s Actually Driving the Cost, a paper on Data Journalist Agent: Transforming Data into Verifiable Multimodal Stories, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "24c47db5417050803ea57bab074024f7",
+      "title": "The Longest US Manufacturing Recession in History is Finally Over | Chris Semenuk",
+      "url": "https://www.youtube.com/watch?v=aS6W2GJ2AzA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-18T13:00:13+00:00",
+      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Chris Semenuk, an investment partner at Tema ETFs, to discuss the massive secular tailwinds driving the US manufacturing and electrification renaissance. Semenuk argues that after a three-year recession and …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f861f7fa2d50dac9721e16284d54de2b",
       "title": "A Big Shift in the AI Race",
       "url": "https://www.youtube.com/watch?v=RO7Ly_wu9dQ",
@@ -1005,21 +1033,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "79da26a2de82cc978a8fdb48b473d285",
-      "title": "Generative AI Can’t Generate Alpha… But Machine Learning Can | Pictet’s David Wright",
-      "url": "https://www.youtube.com/watch?v=g7PyisPu4pc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-10T17:30:09+00:00",
-      "summary": "Learn more about PQUS (Pictet AI Enhanced US Equity ETF) here: \nhttps://etf.am.pictet.com/pqus/?utm_campaign=usetf&cid=2882903230&utm_source=jfmv&utm_content=pquslandingpage&utm_medium=social_02&utm_term=youtube\n\nLearn More about PQNT (Pictet AI Enhanced International Equity ETF…",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0efb1fe823420abe793c239db991d83d",
       "title": "Jobs Report Just Forced The Fed to Wait",
       "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
@@ -1607,19 +1620,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "27a9d699265d3fa50e6a2c21b476c79b",
-      "title": "Deep Learning Weekly: Issue 440",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-440",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-01-29T16:02:09+00:00",
-      "summary": "Terminally online Mistral Vibe, ATLAS: Practical scaling laws for multilingual models, a paper on GDPO: Group reward-Decoupled Normalization Policy Optimization for Multi-reward RL Optimization, and m",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
       "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
       "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-18T12:20:56.229643+00:00"
+  "generated_at": "2026-06-18T16:26:10.396028+00:00"
 }
