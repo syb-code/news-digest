@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "26770fca4d8a5fdb19806b5ee769543f",
+      "title": "The Models Trying to Replace Fable",
+      "url": "https://www.youtube.com/watch?v=4hvA6aCwf6E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-19T17:37:51+00:00",
+      "summary": "G7 talks exposed geopolitical tension over access to US frontier models after the Anthropic Fable shutdown. Open-source and smaller efficient models: GLM 5.2, Kimi 2.7, Vibe Thinker, and Cursor Composer 2.5, are driving moves toward local hosting and lower-cost inference. Model …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "70dbd4a1d7791bbc5a91b072774c4a76",
       "title": "The Fed Quietly Abandoned the 2% Inflation Target",
       "url": "https://www.youtube.com/watch?v=CvQbW19GxWQ",
@@ -716,21 +729,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2d6636dc21301bff2607b9f9820be31c",
-      "title": "What the Pope Actually Said About AI",
-      "url": "https://www.youtube.com/watch?v=JWS8bYZrtnQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-27T14:24:26+00:00",
-      "summary": "Anthropic's Mythos and Project Glasswing exposed thousands of high‑severity software vulnerabilities and shifted the bottleneck to human triage and patching. Governments sought broader access and planned classified inference infrastructure, with a reported $9 billion US request …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-19T17:17:44.669083+00:00"
+  "generated_at": "2026-06-19T19:44:11.354750+00:00"
 }
