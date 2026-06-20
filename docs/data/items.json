@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "32dd2136c8cabc7093e8f45d49424913",
+      "title": "Jim Chanos and Val Zlatev on Long/Short Alpha in AI, Semis, & Data Centers | MacroMinds Symposium",
+      "url": "https://www.youtube.com/watch?v=NlIsoPhQePs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-20T21:15:32+00:00",
+      "summary": "In this panel at MacroMinds Symposium, Jack Farley sits down with legendary short seller Jim Chanos and Val Zlatev, Portfolio Manager and Partner at Analog Century Management, to analyze the long and short opportunities of the AI and semiconductor boom. Chanos highlights a signi…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7655a671bc15355f0c8bcc86bb8720d6",
       "title": "🧠 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation",
@@ -1030,21 +1045,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ebd179b8df94f8522f58b1754e76691f",
-      "title": "Harris Kupperman: Watch Refineries, Not Headlines",
-      "url": "https://www.youtube.com/shorts/M02gnPkL4sE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-10T20:00:22+00:00",
-      "summary": "On the Monetary Matters Podcast, host Jack Farley speaks with Harris Kupperman about what commodity investors should really be watching. Kupperman argues that headlines around the Strait of Hormuz miss the bigger picture. The true signal of a structurally tight commodity market …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0efb1fe823420abe793c239db991d83d",
       "title": "Jobs Report Just Forced The Fed to Wait",
       "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-20T21:12:54.261376+00:00"
+  "generated_at": "2026-06-20T23:03:19.554928+00:00"
 }
