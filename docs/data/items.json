@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "77ce742e7bb0bc5db97ad48170501556",
+      "title": "Your Company Doesn't Need an AI Strategy",
+      "url": "https://www.youtube.com/watch?v=sKrr_ckIt4s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-20T12:34:51+00:00",
+      "summary": "...it needs an AI learning system. This episode argues that the Fable 5 disruption exposed a deeper enterprise problem: companies can’t treat AI as a vendor strategy. The real advantage will come from building learning systems that capture institutional judgment, workflow traces…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "26770fca4d8a5fdb19806b5ee769543f",
       "title": "The Models Trying to Replace Fable",
       "url": "https://www.youtube.com/watch?v=4hvA6aCwf6E",
@@ -670,21 +685,6 @@
       "themes": [
         "AI/ML",
         "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1da6f5fe23c5388ccc54578c0f3b65c5",
-      "title": "The Annual AI Slowdown Panic Is Here",
-      "url": "https://www.youtube.com/watch?v=Af18iulLsSs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-29T15:04:41+00:00",
-      "summary": "DataCurve's DeepSWE benchmark exposes large performance gaps on realistic, long-horizon coding tasks. Summer AI slowdown panic returns alongside renewed debate over job displacement and deployment frictions. Token shortages and massive inference funding for Base10 and OpenRouter…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-20T11:13:45.280986+00:00"
+  "generated_at": "2026-06-20T13:53:01.599060+00:00"
 }
