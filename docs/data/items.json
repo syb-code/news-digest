@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "7655a671bc15355f0c8bcc86bb8720d6",
+      "title": "🧠 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-20T15:53:05+00:00",
+      "summary": "Community Wisdom 190",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "77ce742e7bb0bc5db97ad48170501556",
       "title": "Your Company Doesn't Need an AI Strategy",
       "url": "https://www.youtube.com/watch?v=sKrr_ckIt4s",
@@ -824,21 +837,6 @@
       "published": "2026-05-25T15:04:16+00:00",
       "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nAndreas Steno Larsen, macro researcher from Real Vision, joins Max Wiethe on Other People’s Money to discuss the shifting macro regime where inflation has returned and is pushing US Treasury …",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d6f2903e5afe58c785440d7a91de1888",
-      "title": "🎙️ How I AI: How the engineer behind Claude Cowork actually uses Claude Cowork & What launched at Google I/O 2026",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-engineer-behind",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-25T15:02:59+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1802,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-20T15:43:46.621966+00:00"
+  "generated_at": "2026-06-20T17:22:12.637883+00:00"
 }
