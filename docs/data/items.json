@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "1137c04e031e13bb28c0d815e51fcd94",
+      "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
+      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-21T12:31:43+00:00",
+      "summary": "Listen now | Fiona Fung on leading the Claude Code and Cowork teams, and how to maintain culture when roles are blurring and agents are everywhere",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ffcdb4152776b49ae155e923052b1b50",
+      "title": "The 5-Minute AI Weekly Recap: Realignment Week",
+      "url": "https://www.youtube.com/watch?v=VK56IPRsA-s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-21T12:08:41+00:00",
+      "summary": "This week, the Fable fallout became a broader realignment across AI, pushing more attention toward open models, model routing, local control, and the risks of building around any single frontier system. GLM 5.2, OpenRouter’s Fusion, SpaceX’s Cursor acquisition, and Europe’s AI s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "32dd2136c8cabc7093e8f45d49424913",
       "title": "Accounting Mismatch in AI Profits | Jim Chanos and Val Zlatev on Long/Short Alpha in AI & Semis",
       "url": "https://www.youtube.com/watch?v=NlIsoPhQePs",
@@ -686,21 +716,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "19812d5a12afd0fd6bfbf3131e9253ed",
-      "title": "First Impressions of the New Opus 4.8",
-      "url": "https://www.youtube.com/watch?v=zf8BfgJghd8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-05-30T00:56:36+00:00",
-      "summary": "Anthropic releases Claude Opus 4.8 with improved honesty, stronger self‑verification, and multi‑agent dynamic workflows for large code tasks. Benchmark scores narrow versus OpenAI's GPT‑5.5 while debate grows over harness quality and real‑world tradeoffs. Headlines also cover Ki…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "374b4be4d6a1936d39ec32d5594e6050",
       "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
       "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
@@ -813,19 +828,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "68677fe4af598b4ef72b1a01ec17948d",
-      "title": "Essential books for product builders—part 1",
-      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-26T15:25:52+00:00",
-      "summary": "36 timeless books that’ll make you a better builder, leader, and person",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1800,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-21T11:42:16.059812+00:00"
+  "generated_at": "2026-06-21T14:01:15.818932+00:00"
 }
