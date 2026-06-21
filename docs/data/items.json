@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ad3990133109df7102f25dd27c0bdbac",
+      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "url": "https://www.youtube.com/watch?v=xFd8X7TI7Sc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-21T21:44:21+00:00",
+      "summary": "Ed Zitron is one of the most prolific skeptic of the AI Boom. Having just reported OpenAI’s 2025 financial loss, he joins Jack to argue that the sheer size of the losses by the large language model (LLM) companies are unsustainable and the operational costs of training and runni…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1137c04e031e13bb28c0d815e51fcd94",
       "title": "Building the most AI-pilled engineering team in the world | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
       "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
@@ -1019,21 +1034,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cac6c2e2512247950dac1aabc6885886",
-      "title": "Why European Banks Are Retreating (and Private Credit is Stepping In)",
-      "url": "https://www.youtube.com/watch?v=coGBQHQwWoo",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-12T13:57:20+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here: https://fundrise.com/mm\n\nIn this episode of Other People's Money, Thomas Lloyd-Jones, Co-founder and CIO of Zenzic Capital, joins the show to unpack the nuances of the real estate private credit market. He explains how the media of…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4e777248d24f5cd0bab3bb59a0bdb5cf",
       "title": "Stock Market Investing: Why I'm More Defensive Right Now",
       "url": "https://www.youtube.com/watch?v=t9eSKKm2R6c",
@@ -1802,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-21T20:21:41.586712+00:00"
+  "generated_at": "2026-06-21T22:10:07.625368+00:00"
 }
