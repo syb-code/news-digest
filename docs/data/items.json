@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "bbee467fc63aa547c1859274d609347c",
+      "title": "Housing Market Update: Home Prices, Mortgage Rates & Outlook",
+      "url": "https://www.youtube.com/watch?v=fyl1_MclCOU",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-22T16:00:37+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2843beaf192632e278f3b5d4982871c1",
+      "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-22T15:02:37+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7603428b5bd521e407e20bcf33a1cf6f",
       "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
       "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
@@ -790,19 +820,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "361836a50c73ae935595487b221eeaab",
-      "title": "Claude Opus 4.8 is here. Is it as good as they say?",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-48-is-here-is-it-as-good",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-28T21:35:07+00:00",
-      "summary": "Watch now | 🎙️My first impressions of Opus 4.8—where it excels and where it falls short",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "a64e304ddb2fcfc5fa674c0ac27e96c9",
       "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
       "url": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
@@ -1149,22 +1166,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "08ff845036d6bd2282e0ff8838838dbc",
-      "title": "The Fed is Trapped — No Good Options Remain",
-      "url": "https://www.youtube.com/watch?v=t1y2U7X4Nzg",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-04-30T17:01:17+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -1802,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-22T12:45:58.296347+00:00"
+  "generated_at": "2026-06-22T17:27:46.895185+00:00"
 }
