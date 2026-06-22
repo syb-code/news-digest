@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d43265067378023c8cec3f19b225035b",
+      "title": "Why AI Users Are Raving About GLM 5.2",
+      "url": "https://www.youtube.com/watch?v=HkVpSoaIKsc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-22T19:38:26+00:00",
+      "summary": "Examination of the Fable/Mythos controversy, including the NSA jailbreak context and Trump’s remarks about Anthropic. Analysis of GLM 5.2 and DeepMind departures showing open-weight models challenging frontier labs and reshaping enterprise AI tactics. Rumors about Fable, Claude …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bbee467fc63aa547c1859274d609347c",
       "title": "Housing Market Update: Home Prices, Mortgage Rates & Outlook",
       "url": "https://www.youtube.com/watch?v=fyl1_MclCOU",
@@ -665,21 +680,6 @@
       "source_type": "rss",
       "published": "2026-06-03T12:04:09+00:00",
       "summary": "Watch now | 🎙️ Testing Google’s Gemini Omni avatar feature live—I scan a QR code, clone my face, and ship a hype reel",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f16d21c1267e06c273741ca3e2d00571",
-      "title": "The AI Token Shortage Begins",
-      "url": "https://www.youtube.com/watch?v=ex6abzvzaIo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-01T18:02:16+00:00",
-      "summary": "Recap of May's major AI shift from subsidized seat pricing to a token-based economy driven by agentic usage and runaway API consumption. Coverage of business-model pivots to usage-based billing, enterprise deployment and consulting plays, and market responses including cheaper s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-22T17:27:46.895185+00:00"
+  "generated_at": "2026-06-22T20:40:29.695851+00:00"
 }
