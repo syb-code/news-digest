@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "b2ea40c8e9ecc14700684e7e8b4c09ec",
+      "title": "OpenAI Lost HOW Much?! 😳",
+      "url": "https://www.youtube.com/shorts/QXjxYtjNdlE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-23T21:00:21+00:00",
+      "summary": "Jack Farley sits down with Ed Zitron to discuss reported 2025 financial figures for OpenAI.\n\nDespite generating more than $13 billion in revenue, Zitron points to enormous spending on research, infrastructure, and growth initiatives that could result in losses approaching $21 bi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bf46fd0b936664c82f890980a974c820",
       "title": "The new inner game: Your unfair advantage in the age of AI",
       "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
@@ -1036,21 +1052,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a0b71c5700755e9ba78e062b9a9d0e8e",
-      "title": "Lyn Alden on Serious Macroeconomic Consequences of AI & Semiconductor Boom",
-      "url": "https://www.youtube.com/watch?v=l-GKPle00Lk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-13T19:08:25+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nJack Farley and Max Wiethe host Lyn Alden to explore the profound economic shifts driven by AI and the semiconductor industry. Alden compares the current rise of autonomous AI agents to the b…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4e777248d24f5cd0bab3bb59a0bdb5cf",
       "title": "Stock Market Investing: Why I'm More Defensive Right Now",
       "url": "https://www.youtube.com/watch?v=t9eSKKm2R6c",
@@ -1803,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-23T19:56:17.737368+00:00"
+  "generated_at": "2026-06-23T21:41:57.231543+00:00"
 }
