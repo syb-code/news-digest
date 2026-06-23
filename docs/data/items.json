@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bf46fd0b936664c82f890980a974c820",
+      "title": "The new inner game: Your unfair advantage in the age of AI",
+      "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-23T12:45:59+00:00",
+      "summary": "A playbook for the biggest upheaval of work we’ll see in our lifetime",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d43265067378023c8cec3f19b225035b",
       "title": "Why AI Users Are Raving About GLM 5.2",
       "url": "https://www.youtube.com/watch?v=HkVpSoaIKsc",
@@ -751,21 +766,6 @@
       "source_type": "rss",
       "published": "2026-05-31T12:31:43+00:00",
       "summary": "Benedict Evans on why AI is a 1997 internet moment, what everyone gets wrong about job loss, and where the real value may accrue",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "977baad8bb802250f9a6323f81feeb80",
-      "title": "🧠 Community Wisdom: Catching people using AI during an interview, org design when everything lives in one person’s head, when to rename your product, from nurse to health-tech PM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-catching-people",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-30T16:43:36+00:00",
-      "summary": "Community Wisdom 187",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-23T11:56:50.747215+00:00"
+  "generated_at": "2026-06-23T14:49:05.894056+00:00"
 }
