@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "a57d92b6da5b727f942f46dfcad5c1d6",
+      "title": "US Debt Crisis: Interest Payments Are Becoming a Major Problem",
+      "url": "https://www.youtube.com/watch?v=LhCI3Uc66lI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-24T17:45:29+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "16c16528756c6b560c3dd58afb3de61b",
+      "title": "The Secret to Investing Like Substack & FinTwit's Top Researchers",
+      "url": "https://www.youtube.com/watch?v=IHFVBrwt54s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-24T17:35:56+00:00",
+      "summary": "In this episode of Other People's Money, host Max Wiethe sits down with Shashank Chiranewala, founder of the new investment platform Plutus, to explore the future of independent research and portfolio management. Shashank explains why his platform is fundamentally different from…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f70c73e27ce79847cb961e5aed0e10d3",
       "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
       "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
@@ -1011,19 +1039,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "34dfb258af057c57c5decd37b6e652e5",
-      "title": "Warning: Don’t Sell Blow-Offs in Stock Market, Veteran Macro Investor Andrew Perry Says",
-      "url": "https://www.youtube.com/watch?v=KtaugQ19_7s",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-15T17:44:11+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack sits down with veteran macro investor Andrew Perry of Macro Pillars. Perry provides a bullish technical outlook for US stocks, offering specific targets for t…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9a2b41314c58be59b5bf1a5089e2fd40",
       "title": "Deep Learning Weekly: Issue 455",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-455",
@@ -1148,21 +1163,6 @@
       "source_type": "rss",
       "published": "2026-05-04T07:54:06+00:00",
       "summary": "Our 243rd episode with a summary and discussion of last week’s big AI news!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9797c11dee440e42b486aed9ef7bbcec",
-      "title": "Why I'm Investing in Oil — To Protect Against a Stock Market Crash",
-      "url": "https://www.youtube.com/watch?v=E61vm4uhT8Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-01T16:19:51+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-24T16:14:45.387987+00:00"
+  "generated_at": "2026-06-24T18:48:34.286251+00:00"
 }
