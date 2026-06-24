@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c33cfee1f7538c4defe1a4999bd0e12d",
+      "title": "5 Ways Claude Tag Could Change How You Use AI",
+      "url": "https://www.youtube.com/watch?v=EpxZEvvOTL8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-24T21:57:57+00:00",
+      "summary": "Claude Tag embeds persistent, proactive AI coworkers into Slack channels to access team context, manage long‑horizon tasks, and automate code and incident response. Regulatory flashpoints include the Anthropic Fable access ban, a lawsuit seeking model reinstatement, and governme…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a57d92b6da5b727f942f46dfcad5c1d6",
       "title": "US Debt Crisis: Interest Payments Are Becoming a Major Problem",
       "url": "https://www.youtube.com/watch?v=LhCI3Uc66lI",
@@ -709,21 +724,6 @@
       "source_type": "youtube",
       "published": "2026-06-04T12:30:06+00:00",
       "summary": "The White House AI executive order provoked intense debate over voluntary pre-release testing, a 30-day sharing window, and the risk of a de facto licensing regime. Anthropic’s Mythos and Project Glasswing expanded to critical infrastructure partners while exposing extreme token…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "738ab74dbec364774e33bf651412700c",
-      "title": "With AI IPOs On the Way, Should the Public Own AI Companies",
-      "url": "https://www.youtube.com/watch?v=L2ZJ5HITV48",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-04T00:30:02+00:00",
-      "summary": "NVIDIA unveiled the RTX Spark and Vera Rubin platform, pushing CPUs into AI inference and accelerating agent-based workloads. Anthropic and OpenAI entered an IPO race as Google plans an $80 billion equity raise and semiconductors drive a market rally. Policy debates intensified …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-24T20:44:51.987894+00:00"
+  "generated_at": "2026-06-24T22:13:29.708920+00:00"
 }
