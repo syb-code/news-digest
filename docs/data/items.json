@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f70c73e27ce79847cb961e5aed0e10d3",
+      "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
+      "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-24T12:03:52+00:00",
+      "summary": "Watch now | 🎙️I ran GLM-5.2, the open-weight model from Z.AI, through codebase audits, UI redesigns, and a 45-minute autonomous bug-hunting task in Cursor and Claude Code, and it cost me $3.36",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b2ea40c8e9ecc14700684e7e8b4c09ec",
       "title": "OpenAI Lost HOW Much?! 😳",
       "url": "https://www.youtube.com/shorts/QXjxYtjNdlE",
@@ -772,21 +787,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8de4b1ec8a03ce6348d3d9c50b48b1cd",
-      "title": "A rational conversation on where AI is actually going | Benedict Evans",
-      "url": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-31T12:31:43+00:00",
-      "summary": "Benedict Evans on why AI is a 1997 internet moment, what everyone gets wrong about job loss, and where the real value may accrue",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1804,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-24T10:19:23.206392+00:00"
+  "generated_at": "2026-06-24T13:18:03.660220+00:00"
 }
