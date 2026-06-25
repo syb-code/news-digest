@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "c33cfee1f7538c4defe1a4999bd0e12d",
+      "title": "5 Ways Claude Tag Could Change How You Use AI",
+      "url": "https://www.youtube.com/watch?v=EpxZEvvOTL8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-24T21:57:57+00:00",
+      "summary": "Claude Tag embeds persistent, proactive AI coworkers into Slack channels to access team context, manage long‑horizon tasks, and automate code and incident response. Regulatory flashpoints include the Anthropic Fable access ban, a lawsuit seeking model reinstatement, and governme…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a57d92b6da5b727f942f46dfcad5c1d6",
+      "title": "US Debt Crisis: Interest Payments Are Becoming a Major Problem",
+      "url": "https://www.youtube.com/watch?v=LhCI3Uc66lI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-24T17:45:29+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "16c16528756c6b560c3dd58afb3de61b",
+      "title": "The Secret to Investing Like Substack & FinTwit's Top Researchers",
+      "url": "https://www.youtube.com/watch?v=IHFVBrwt54s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-24T17:35:56+00:00",
+      "summary": "In this episode of Other People's Money, host Max Wiethe sits down with Shashank Chiranewala, founder of the new investment platform Plutus, to explore the future of independent research and portfolio management. Shashank explains why his platform is fundamentally different from…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f70c73e27ce79847cb961e5aed0e10d3",
       "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
       "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
@@ -16,6 +59,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "b2ea40c8e9ecc14700684e7e8b4c09ec",
+      "title": "OpenAI Lost HOW Much?! 😳",
+      "url": "https://www.youtube.com/shorts/QXjxYtjNdlE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-23T21:00:21+00:00",
+      "summary": "Jack Farley sits down with Ed Zitron to discuss reported 2025 financial figures for OpenAI.\n\nDespite generating more than $13 billion in revenue, Zitron points to enormous spending on research, infrastructure, and growth initiatives that could result in losses approaching $21 bi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bf46fd0b936664c82f890980a974c820",
       "title": "The new inner game: Your unfair advantage in the age of AI",
       "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
@@ -27,6 +86,36 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d43265067378023c8cec3f19b225035b",
+      "title": "Why AI Users Are Raving About GLM 5.2",
+      "url": "https://www.youtube.com/watch?v=HkVpSoaIKsc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-22T19:38:26+00:00",
+      "summary": "Examination of the Fable/Mythos controversy, including the NSA jailbreak context and Trump’s remarks about Anthropic. Analysis of GLM 5.2 and DeepMind departures showing open-weight models challenging frontier labs and reshaping enterprise AI tactics. Rumors about Fable, Claude …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bbee467fc63aa547c1859274d609347c",
+      "title": "Housing Market Update: Home Prices, Mortgage Rates & Outlook",
+      "url": "https://www.youtube.com/watch?v=fyl1_MclCOU",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-22T16:00:37+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
       ],
       "bucket": "highlight"
     },
@@ -59,6 +148,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "ad3990133109df7102f25dd27c0bdbac",
+      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "url": "https://www.youtube.com/watch?v=xFd8X7TI7Sc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-21T21:44:21+00:00",
+      "summary": "Ed Zitron is one of the most prolific skeptic of the AI Boom. Having just reported OpenAI’s 2025 financial loss, he joins Jack to argue that the sheer size of the losses by the large language model (LLM) companies are unsustainable and the operational costs of training and runni…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1137c04e031e13bb28c0d815e51fcd94",
       "title": "What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
       "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
@@ -67,6 +171,36 @@
       "published": "2026-06-21T12:31:43+00:00",
       "summary": "Listen now | Fiona Fung on leading the Claude Code and Cowork teams, and how to maintain culture when roles are blurring and agents are everywhere",
       "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ffcdb4152776b49ae155e923052b1b50",
+      "title": "The 5-Minute AI Weekly Recap: Realignment Week",
+      "url": "https://www.youtube.com/watch?v=VK56IPRsA-s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-21T12:08:41+00:00",
+      "summary": "This week, the Fable fallout became a broader realignment across AI, pushing more attention toward open models, model routing, local control, and the risks of building around any single frontier system. GLM 5.2, OpenRouter’s Fusion, SpaceX’s Cursor acquisition, and Europe’s AI s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "32dd2136c8cabc7093e8f45d49424913",
+      "title": "Accounting Mismatch in AI Profits | Jim Chanos and Val Zlatev on Long/Short Alpha in AI & Semis",
+      "url": "https://www.youtube.com/watch?v=NlIsoPhQePs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-20T21:15:32+00:00",
+      "summary": "In this panel at MacroMinds Symposium, Jack Farley sits down with legendary short seller Jim Chanos and Val Zlatev, Portfolio Manager and Partner at Analog Century Management, to analyze the long and short opportunities of the AI and semiconductor boom. Chanos highlights a signi…",
+      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -87,6 +221,65 @@
       "bucket": "highlight"
     },
     {
+      "id": "77ce742e7bb0bc5db97ad48170501556",
+      "title": "Your Company Doesn't Need an AI Strategy",
+      "url": "https://www.youtube.com/watch?v=sKrr_ckIt4s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-20T12:34:51+00:00",
+      "summary": "...it needs an AI learning system. This episode argues that the Fable 5 disruption exposed a deeper enterprise problem: companies can’t treat AI as a vendor strategy. The real advantage will come from building learning systems that capture institutional judgment, workflow traces…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "26770fca4d8a5fdb19806b5ee769543f",
+      "title": "The Models Trying to Replace Fable",
+      "url": "https://www.youtube.com/watch?v=4hvA6aCwf6E",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-19T17:37:51+00:00",
+      "summary": "G7 talks exposed geopolitical tension over access to US frontier models after the Anthropic Fable shutdown. Open-source and smaller efficient models: GLM 5.2, Kimi 2.7, Vibe Thinker, and Cursor Composer 2.5, are driving moves toward local hosting and lower-cost inference. Model …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "70dbd4a1d7791bbc5a91b072774c4a76",
+      "title": "The Fed Quietly Abandoned the 2% Inflation Target",
+      "url": "https://www.youtube.com/watch?v=CvQbW19GxWQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-18T19:40:54+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b96171a8be3d655354698bc833b0ab7a",
+      "title": "Why Only AI Training Can Save the Economy",
+      "url": "https://www.youtube.com/watch?v=v3jwNZ94GLo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-18T17:29:26+00:00",
+      "summary": "Large-scale AI training offers the only practical path to align AI labs' token-driven revenue growth with enterprise spending constraints. A shift from seat-based subscriptions to agentic, usage-based consumption is driving surging token demand, massive infrastructure investment…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c8254a7707ca2c3fb8afccc9fde12625",
       "title": "Deep Learning Weekly: Issue 460",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-460",
@@ -100,6 +293,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "24c47db5417050803ea57bab074024f7",
+      "title": "The Longest US Manufacturing Recession in History is Finally Over | Chris Semenuk",
+      "url": "https://www.youtube.com/watch?v=aS6W2GJ2AzA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-18T13:00:13+00:00",
+      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Chris Semenuk, an investment partner at Tema ETFs, to discuss the massive secular tailwinds driving the US manufacturing and electrification renaissance. Semenuk argues that after a three-year recession and …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f861f7fa2d50dac9721e16284d54de2b",
+      "title": "A Big Shift in the AI Race",
+      "url": "https://www.youtube.com/watch?v=RO7Ly_wu9dQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-17T20:00:56+00:00",
+      "summary": "Anthropic's forced shutdown of Mythos and Fable exposes jailbreak risks, cybersecurity weaknesses, and a chaotic regulatory response.  \nSpaceX's IPO and the Cursor acquisition signal a shift toward monetizing massive compute and competing across models, harnesses, and control pl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f7279afb7b58881839b419ac69e5caa9",
       "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
       "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
@@ -108,6 +331,34 @@
       "published": "2026-06-17T12:04:04+00:00",
       "summary": "Watch now | 🎙️Every loop type explained: heartbeats, crons, goals, and subagents. Plus two live Claude Code and Codex builds that run autonomously so you never manually babysit a PR again",
       "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b8543cfbb0e49dffe79f1b563b6eff87",
+      "title": "The Book of Wealth: 10 Steps to Financial Freedom",
+      "url": "https://www.youtube.com/watch?v=8tw6C0lqgTg",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-16T15:24:07+00:00",
+      "summary": "📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n📘 Get our Productivity Checklist on Amazon to boost your day-to-day productivity: https://www.amazon.com/dp/B0G1Z…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8f44ae4e1fa28050f1c4c001dc342d3d",
+      "title": "Massive AI Crackdown Is Coming (It’s Simply Too Good) | David Woo",
+      "url": "https://www.youtube.com/watch?v=760Bpzc1cYM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-15T20:46:28+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack Farley sits down with independent economist and strategist David Woo to break down the hidden realities behind global tech markets and macroeconomics.  Woo re…",
+      "read_minutes": 3,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -173,6 +424,34 @@
       "bucket": "highlight"
     },
     {
+      "id": "da3f0f784d8e945ffbbb8e45e507bdd7",
+      "title": "Fable 5 Shut Down by US Government",
+      "url": "https://www.youtube.com/watch?v=5-CGzLrA4fg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-13T17:00:06+00:00",
+      "summary": "In this emergency episode, NLW breaks down the stunning news that the US government has ordered Anthropic to suspend access to Fable 5 and Mythos 5 for foreign nationals, forcing the company to shut the models down for all users. He explores Anthropic’s response, the backlash fr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0483b80e99ba2d7c797150a3eaa11a34",
+      "title": "The AI Chart Everyone Is Getting Wrong",
+      "url": "https://www.youtube.com/watch?v=05VE_9rI954",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-13T15:46:26+00:00",
+      "summary": "A viral Wall Street chart has kicked off a new round of AI bubble panic, but NLW argues the market is reading it wrong. The real story isn’t collapsing demand — it’s the shift from the token subsidy era to the token scarcity era, where companies are learning to route AI usage mo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "196348b9a8405584c40c713c55d44e1f",
       "title": "Deep Learning Weekly: Issue 459",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-459",
@@ -183,6 +462,96 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "32a0908011eaf18303b201403ca7e68b",
+      "title": "10 Sites Knowledge Workers Should Build with AI",
+      "url": "https://www.youtube.com/watch?v=45UGHbqq2fQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-12T13:56:11+00:00",
+      "summary": "AI is making it possible to build richer versions of the files knowledge workers send every day: decks, memos, spreadsheets, reports, proposals, training materials, and more. This has gotten even easier this week with the release of OpenAI's \"Sites\" feature in Codex. In this pra…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bb21006d6600d28e15eab69f904c0659",
+      "title": "Why Fable 5 is the Most Controversial AI Release Ever",
+      "url": "https://www.youtube.com/watch?v=LNXDoKPe06I",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-12T00:59:11+00:00",
+      "summary": "Anthropic's Fable-5 launch sparked outrage over opaque safety filters, silent model degradation for AI research, and a 30-day enterprise data-retention rule. A rapid walkback restored visibility for safeguards but left deep trust and enterprise-adoption concerns. Broader themes …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ac2957d2684e6c1981f817c1e9414c70",
+      "title": "Fable 5 Raises the Bar for AI Ambition",
+      "url": "https://www.youtube.com/watch?v=it7VUqfVorw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-11T00:36:51+00:00",
+      "summary": "Anthropic’s Fable 5 is a major leap in frontier AI, but the bigger shift is what it asks of users: less prompting for small tasks, more imagination about what can now be delegated to agents for hours or days at a time. In the headlines: Fable’s guardrails spark backlash, enterpr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bb8be81b2ad2cc91b7dcd46cabc4f37e",
+      "title": "Inflation is Surging Again",
+      "url": "https://www.youtube.com/watch?v=hbYCGgOQFhU",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-10T19:30:10+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a731e1cce66af93fe3ace93ac9efa003",
+      "title": "America’s $205 Billion Fund You’ve Never Heard Of | Conor Coleman",
+      "url": "https://www.youtube.com/watch?v=Z8KhWgzaCA8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-10T17:45:03+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nConor Coleman, Head of Investments and Chief of Staff at the Development Finance Corporation (DFC), joins Monetary Matters to explain the DFC’s capacity as the international investment arm of the United St…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "90a8455153cf7e770701985e19c92f40",
+      "title": "OpenAI Declares the Next Phase of AI",
+      "url": "https://www.youtube.com/watch?v=pnxRfJRAh5A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-10T13:51:16+00:00",
+      "summary": "OpenAI filed confidential IPO paperwork and released a strategy declaring a new phase centered on automating AI research, creating personal AGI, and spreading economic gains. SpaceX unveiled designs for space-based data centers and aggressive scale targets while chipmakers turn …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -214,6 +583,37 @@
       "bucket": "highlight"
     },
     {
+      "id": "ec1aaf5c65a67e7e527230f986ced350",
+      "title": "The Way We Use AI is Changing",
+      "url": "https://www.youtube.com/watch?v=RKpEI37RnfI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-09T02:10:51+00:00",
+      "summary": "Proposals for government stakes or donated equity in major AI labs raise questions about public benefit, nationalization, and political control. Large cloud compute contracts and chip supply deals are reshaping AI infrastructure economics. A ChatGPT overhaul and the rise of agen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3e8dc560258b8f2fbcd51feeeff5033b",
+      "title": "The Fed May Be Forced to Raise Rates After This",
+      "url": "https://www.youtube.com/watch?v=dIS4pRHl9iI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-08T22:15:28+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4a3abeb16be7a991a01ebdacca0cc50a",
       "title": "🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself",
@@ -226,6 +626,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f79379cc100a5e68f9b614aa515290e2",
+      "title": "The Oil Market Has One Month Left Before A “Rupture” Occurs | Kpler’s Matt Smith",
+      "url": "https://www.youtube.com/watch?v=S-5jHt3TBds",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-08T13:18:52+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\n\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack sits down with Matt Smith, the Director of Research at Kepler, to analyze how the global oil market is sleepwalking into a major supply crisis four months in…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -274,6 +687,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "31a97d99eecfeebb093b2c73f361ab8a",
+      "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone",
+      "url": "https://www.youtube.com/watch?v=zjLerkfKcEU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-06T13:05:12+00:00",
+      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Michael Fritzell, author of Asian Century Stocks, to break down the massive valuation divergence playing out across Asian equity markets. Michael explains why he believes the skyrocketing AI and memory chip …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c9e939a7d188eabf678b009d63f68b23",
       "title": "Deep Learning Weekly: Issue 458",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
@@ -285,6 +713,36 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7c33dd734bcb5154b4c837a89ee27050",
+      "title": "The Next Wave of Enterprise AI",
+      "url": "https://www.youtube.com/watch?v=yTPGY13ym5s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-04T12:30:06+00:00",
+      "summary": "The White House AI executive order provoked intense debate over voluntary pre-release testing, a 30-day sharing window, and the risk of a de facto licensing regime. Anthropic’s Mythos and Project Glasswing expanded to critical infrastructure partners while exposing extreme token…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b62adbaa4a1f32a5e26dd628ae8ea0cd",
+      "title": "The Fed Found a New Way to Lower Inflation",
+      "url": "https://www.youtube.com/watch?v=iJGMYvFnH9Y",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-03T15:00:10+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -319,6 +777,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "caff4488e417f7417937ab64c2c0c096",
+      "title": "Oil Crisis Warning — Here's What Happens Next",
+      "url": "https://www.youtube.com/watch?v=BSlpQ4CrsVI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-01T15:00:22+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "4ea20aefd157626e11b1fb86eb22cde9",
       "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
       "url": "https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero",
@@ -330,6 +801,35 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b9490a67a4b4017675947fdaca43605b",
+      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish",
+      "url": "https://www.youtube.com/watch?v=Jp082d53w44",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-31T15:10:59+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, host Jack Farley sits down with Jim Masturzo, Chief Investment Officer at Research Affiliates, to discuss the changing macroeconomic landscape and the und…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "374b4be4d6a1936d39ec32d5594e6050",
+      "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
+      "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-29T19:00:26+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
       ],
       "bucket": "highlight"
     },
@@ -379,6 +879,34 @@
       "bucket": "highlight"
     },
     {
+      "id": "238a45bff6978f0d1dc7285735eb4cf5",
+      "title": "How to Boost Your Productivity With One Simple Habit",
+      "url": "https://www.youtube.com/watch?v=EQm0jsNKXrQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-26T17:03:07+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a1959e1aec4c80c4bf28b06b2901539b",
+      "title": "How This Real Estate Investor is Betting on an AI Boom (It’s Not Data Centers) | Tom Shapiro",
+      "url": "https://www.youtube.com/watch?v=ZjqIFbPl2rw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-26T16:01:13+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here: https://fundrise.com/mm\n\nIn this episode of Other People's Money, GTIS Partners founder and CIO Tom Shapiro breaks down how massive macroeconomic shifts, including AI and inflation, are reshaping the global real estate landscape. H…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e8227e1ef5ebaba9c297f5959e9d251f",
       "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
       "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
@@ -391,6 +919,34 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e58cfe06a57d2d164638a97fbb817e17",
+      "title": "The AI Cycle Will Turn This Year but First Things Get Even Crazier | Andreas Steno Larsen",
+      "url": "https://www.youtube.com/watch?v=WViV1JN4xmk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-25T15:04:16+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nAndreas Steno Larsen, macro researcher from Real Vision, joins Max Wiethe on Other People’s Money to discuss the shifting macro regime where inflation has returned and is pushing US Treasury …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7bd5dea1e6bb78245adfc43cc0ea8b92",
+      "title": "What Doomer Narratives About Private Credit Miss | John Cocke of Corbin Capital",
+      "url": "https://www.youtube.com/watch?v=7yShEhQjgMc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-24T16:42:33+00:00",
+      "summary": "John Cocke, Deputy Chief Investment Officer at Corbin Capital, joins Jack to discuss the world of private credit. With so much discussion over the asset class, John provides some much-needed context. While there are some areas of concern, John rejects the doomer narratives commo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -407,6 +963,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "ac9b6213aed7d49f6ff87a9e7bc5249f",
+      "title": "Housing Market Has a New Problem: Surging Mortgage Rates",
+      "url": "https://www.youtube.com/watch?v=sqOFhUcE3w0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-20T16:01:22+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "53cae1d9f02d2360fb72f847d2df20ed",
       "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
       "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
@@ -418,6 +989,52 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9dcbe3e06ea66615f8fb882e7a8d3641",
+      "title": "How Will the New Federal Reserve Handle This Inflation Crisis?",
+      "url": "https://www.youtube.com/watch?v=2s4ycrgWfiw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-18T20:13:10+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "20a5a54b042912840bf7c9ad382ff26f",
+      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "url": "https://www.youtube.com/watch?v=3sd7Nm6LuXk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-17T13:00:08+00:00",
+      "summary": "Chen Xu, counsel at Debevoise & Plimpton, joins Jack to discuss the Basel III framework and endgame. The Basel III framework is extremely important to the future of banking and credit. Few people are as qualified to explain this complex agreement more than Chen Xu. Chen explains…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a6334115576f62ca28f8fd9f9922f74c",
+      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
+      "url": "https://www.youtube.com/watch?v=d7NgT0rx5yE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-16T13:01:09+00:00",
+      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday  @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -447,6 +1064,35 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4e777248d24f5cd0bab3bb59a0bdb5cf",
+      "title": "Stock Market Investing: Why I'm More Defensive Right Now",
+      "url": "https://www.youtube.com/watch?v=t9eSKKm2R6c",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-11T15:53:09+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0efb1fe823420abe793c239db991d83d",
+      "title": "Jobs Report Just Forced The Fed to Wait",
+      "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-08T19:13:09+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
       "bucket": "highlight"
     },
     {
@@ -487,6 +1133,21 @@
       "source_type": "rss",
       "published": "2026-05-05T08:30:35+00:00",
       "summary": "First week of Musk v. Altman, OpenAI ends Microsoft legal peril over its $50B Amazon deal, DeepSeek previews new AI model that ‘closes the gap’ with frontier models, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b7a2a5d410f145ae4404647dd15cd90c",
+      "title": "Iran War is Now Hitting the U.S. Economy — Spirit Airlines Shut Down",
+      "url": "https://www.youtube.com/watch?v=J3gd5yZEs1I",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-05-04T15:00:28+00:00",
+      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1143,5 +1804,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-25T05:01:28.044881+00:00"
+  "generated_at": "2026-06-25T08:54:46.356114+00:00"
 }
