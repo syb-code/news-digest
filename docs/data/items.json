@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "73e0be11f7f586ae971363e8ae175928",
+      "title": "Every Layer of AI Is Losing Money!",
+      "url": "https://www.youtube.com/shorts/WbrhzFmVr7w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-25T11:30:21+00:00",
+      "summary": "Jack Farley sits down with Ed Zitron to discuss what he sees as a fundamental problem in the AI industry. Zitron argues that the economics of artificial intelligence remain deeply challenged. From AI developers to compute providers and even many of their customers, profitability…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c33cfee1f7538c4defe1a4999bd0e12d",
       "title": "5 Ways Claude Tag Could Change How You Use AI",
       "url": "https://www.youtube.com/watch?v=EpxZEvvOTL8",
@@ -1023,22 +1038,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a6334115576f62ca28f8fd9f9922f74c",
-      "title": "Why Andy Constan Says The AI Bubble is in Earnings, Not Price",
-      "url": "https://www.youtube.com/watch?v=d7NgT0rx5yE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-16T13:01:09+00:00",
-      "summary": "Monetary Matters is now streaming daily as part of Monitoring the Situation. Join us live on X and YouTube from 4 to 5 PM ET Monday through Friday  @mtsituation  for live interviews and analysis breaking down the market’s most important situations. This is recording of a recent …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9a2b41314c58be59b5bf1a5089e2fd40",
       "title": "Deep Learning Weekly: Issue 455",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-455",
@@ -1804,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-25T11:37:44.749490+00:00"
+  "generated_at": "2026-06-25T14:23:03.625430+00:00"
 }
