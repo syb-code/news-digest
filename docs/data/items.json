@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "220a298af8fb3d8f88f95b565c74f656",
+      "title": "Companies Where CEO Leads AI See 3X the ROI",
+      "url": "https://www.youtube.com/watch?v=VICrf_yV0co",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-25T21:54:06+00:00",
+      "summary": "Headlines cover OpenAI's Jalapeño ASIC, GPT‑5.5 Instant updates for free users, and Anthropic's Fable rumors and Claude Tag rollout. KPMG's quarterly survey finds CEO ownership of AI strategy yields three times the reported ROI and shifts priorities toward human‑AI collaboration…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "73e0be11f7f586ae971363e8ae175928",
       "title": "Every Layer of AI Is Losing Money!",
       "url": "https://www.youtube.com/shorts/WbrhzFmVr7w",
@@ -724,21 +739,6 @@
       "source_type": "rss",
       "published": "2026-06-04T15:01:49+00:00",
       "summary": "Claude Opus 4.8, Agent Tracing and Observability: Log & Debug Complex AI Systems, a paper on A Self-Healing Framework for Reliable LLM-Based Autonomous Agents, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7c33dd734bcb5154b4c837a89ee27050",
-      "title": "The Next Wave of Enterprise AI",
-      "url": "https://www.youtube.com/watch?v=yTPGY13ym5s",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-04T12:30:06+00:00",
-      "summary": "The White House AI executive order provoked intense debate over voluntary pre-release testing, a 30-day sharing window, and the risk of a de facto licensing regime. Anthropic’s Mythos and Project Glasswing expanded to critical infrastructure partners while exposing extreme token…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1803,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-25T21:28:30.545401+00:00"
+  "generated_at": "2026-06-25T23:13:47.708813+00:00"
 }
