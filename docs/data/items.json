@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "73e0be11f7f586ae971363e8ae175928",
+      "title": "Every Layer of AI Is Losing Money!",
+      "url": "https://www.youtube.com/shorts/WbrhzFmVr7w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-25T11:30:21+00:00",
+      "summary": "Jack Farley sits down with Ed Zitron to discuss what he sees as a fundamental problem in the AI industry. Zitron argues that the economics of artificial intelligence remain deeply challenged. From AI developers to compute providers and even many of their customers, profitability…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c33cfee1f7538c4defe1a4999bd0e12d",
       "title": "5 Ways Claude Tag Could Change How You Use AI",
       "url": "https://www.youtube.com/watch?v=EpxZEvvOTL8",
@@ -29,6 +44,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "16c16528756c6b560c3dd58afb3de61b",
+      "title": "The Secret to Investing Like Substack & FinTwit's Top Researchers",
+      "url": "https://www.youtube.com/watch?v=IHFVBrwt54s",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-24T17:35:56+00:00",
+      "summary": "In this episode of Other People's Money, host Max Wiethe sits down with Shashank Chiranewala, founder of the new investment platform Plutus, to explore the future of independent research and portfolio management. Shashank explains why his platform is fundamentally different from…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f70c73e27ce79847cb961e5aed0e10d3",
       "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
       "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
@@ -40,6 +70,22 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b2ea40c8e9ecc14700684e7e8b4c09ec",
+      "title": "OpenAI Lost HOW Much?! 😳",
+      "url": "https://www.youtube.com/shorts/QXjxYtjNdlE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-23T21:00:21+00:00",
+      "summary": "Jack Farley sits down with Ed Zitron to discuss reported 2025 financial figures for OpenAI.\n\nDespite generating more than $13 billion in revenue, Zitron points to enormous spending on research, infrastructure, and growth initiatives that could result in losses approaching $21 bi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -117,6 +163,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "ad3990133109df7102f25dd27c0bdbac",
+      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
+      "url": "https://www.youtube.com/watch?v=xFd8X7TI7Sc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-21T21:44:21+00:00",
+      "summary": "Ed Zitron is one of the most prolific skeptic of the AI Boom. Having just reported OpenAI’s 2025 financial loss, he joins Jack to argue that the sheer size of the losses by the large language model (LLM) companies are unsustainable and the operational costs of training and runni…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1137c04e031e13bb28c0d815e51fcd94",
       "title": "What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
       "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
@@ -140,6 +201,21 @@
       "published": "2026-06-21T12:08:41+00:00",
       "summary": "This week, the Fable fallout became a broader realignment across AI, pushing more attention toward open models, model routing, local control, and the risks of building around any single frontier system. GLM 5.2, OpenRouter’s Fusion, SpaceX’s Cursor acquisition, and Europe’s AI s…",
       "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "32dd2136c8cabc7093e8f45d49424913",
+      "title": "Accounting Mismatch in AI Profits | Jim Chanos and Val Zlatev on Long/Short Alpha in AI & Semis",
+      "url": "https://www.youtube.com/watch?v=NlIsoPhQePs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-20T21:15:32+00:00",
+      "summary": "In this panel at MacroMinds Symposium, Jack Farley sits down with legendary short seller Jim Chanos and Val Zlatev, Portfolio Manager and Partner at Analog Century Management, to analyze the long and short opportunities of the AI and semiconductor boom. Chanos highlights a signi…",
+      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -232,6 +308,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "24c47db5417050803ea57bab074024f7",
+      "title": "The Longest US Manufacturing Recession in History is Finally Over | Chris Semenuk",
+      "url": "https://www.youtube.com/watch?v=aS6W2GJ2AzA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-18T13:00:13+00:00",
+      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Chris Semenuk, an investment partner at Tema ETFs, to discuss the massive secular tailwinds driving the US manufacturing and electrification renaissance. Semenuk argues that after a three-year recession and …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f861f7fa2d50dac9721e16284d54de2b",
       "title": "A Big Shift in the AI Race",
       "url": "https://www.youtube.com/watch?v=RO7Ly_wu9dQ",
@@ -272,6 +363,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8f44ae4e1fa28050f1c4c001dc342d3d",
+      "title": "Massive AI Crackdown Is Coming (It’s Simply Too Good) | David Woo",
+      "url": "https://www.youtube.com/watch?v=760Bpzc1cYM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-15T20:46:28+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack Farley sits down with independent economist and strategist David Woo to break down the hidden realities behind global tech markets and macroeconomics.  Woo re…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -434,6 +540,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "a731e1cce66af93fe3ace93ac9efa003",
+      "title": "America’s $205 Billion Fund You’ve Never Heard Of | Conor Coleman",
+      "url": "https://www.youtube.com/watch?v=Z8KhWgzaCA8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-10T17:45:03+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nConor Coleman, Head of Investments and Chief of Staff at the Development Finance Corporation (DFC), joins Monetary Matters to explain the DFC’s capacity as the international investment arm of the United St…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "90a8455153cf7e770701985e19c92f40",
       "title": "OpenAI Declares the Next Phase of AI",
       "url": "https://www.youtube.com/watch?v=pnxRfJRAh5A",
@@ -523,6 +644,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "f79379cc100a5e68f9b614aa515290e2",
+      "title": "The Oil Market Has One Month Left Before A “Rupture” Occurs | Kpler’s Matt Smith",
+      "url": "https://www.youtube.com/watch?v=S-5jHt3TBds",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-08T13:18:52+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\n\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack sits down with Matt Smith, the Director of Research at Kepler, to analyze how the global oil market is sleepwalking into a major supply crisis four months in…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3d74bd621d09783cf511aa05895bd03d",
       "title": "Shopping with Claude: How to find quality brands, automate returns, and buy things that last 100 years | Nicole Ruiz",
       "url": "https://www.lennysnewsletter.com/p/shopping-with-claude",
@@ -561,6 +695,21 @@
       "published": "2026-06-06T17:14:54+00:00",
       "summary": "Community Wisdom 188",
       "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "31a97d99eecfeebb093b2c73f361ab8a",
+      "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone",
+      "url": "https://www.youtube.com/watch?v=zjLerkfKcEU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-06T13:05:12+00:00",
+      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Michael Fritzell, author of Asian Century Stocks, to break down the massive valuation divergence playing out across Asian equity markets. Michael explains why he believes the skyrocketing AI and memory chip …",
+      "read_minutes": 2,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -671,6 +820,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "b9490a67a4b4017675947fdaca43605b",
+      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish",
+      "url": "https://www.youtube.com/watch?v=Jp082d53w44",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-31T15:10:59+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, host Jack Farley sits down with Jim Masturzo, Chief Investment Officer at Research Affiliates, to discuss the changing macroeconomic landscape and the und…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "374b4be4d6a1936d39ec32d5594e6050",
       "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
       "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
@@ -745,6 +907,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "a1959e1aec4c80c4bf28b06b2901539b",
+      "title": "How This Real Estate Investor is Betting on an AI Boom (It’s Not Data Centers) | Tom Shapiro",
+      "url": "https://www.youtube.com/watch?v=ZjqIFbPl2rw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-26T16:01:13+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here: https://fundrise.com/mm\n\nIn this episode of Other People's Money, GTIS Partners founder and CIO Tom Shapiro breaks down how massive macroeconomic shifts, including AI and inflation, are reshaping the global real estate landscape. H…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e8227e1ef5ebaba9c297f5959e9d251f",
       "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
       "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
@@ -757,6 +934,34 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e58cfe06a57d2d164638a97fbb817e17",
+      "title": "The AI Cycle Will Turn This Year but First Things Get Even Crazier | Andreas Steno Larsen",
+      "url": "https://www.youtube.com/watch?v=WViV1JN4xmk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-25T15:04:16+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nAndreas Steno Larsen, macro researcher from Real Vision, joins Max Wiethe on Other People’s Money to discuss the shifting macro regime where inflation has returned and is pushing US Treasury …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7bd5dea1e6bb78245adfc43cc0ea8b92",
+      "title": "What Doomer Narratives About Private Credit Miss | John Cocke of Corbin Capital",
+      "url": "https://www.youtube.com/watch?v=7yShEhQjgMc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-24T16:42:33+00:00",
+      "summary": "John Cocke, Deputy Chief Investment Officer at Corbin Capital, joins Jack to discuss the world of private credit. With so much discussion over the asset class, John provides some much-needed context. While there are some areas of concern, John rejects the doomer narratives commo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -814,6 +1019,21 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "20a5a54b042912840bf7c9ad382ff26f",
+      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
+      "url": "https://www.youtube.com/watch?v=3sd7Nm6LuXk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-05-17T13:00:08+00:00",
+      "summary": "Chen Xu, counsel at Debevoise & Plimpton, joins Jack to discuss the Basel III framework and endgame. The Basel III framework is extremely important to the future of banking and credit. Few people are as qualified to explain this complex agreement more than Chen Xu. Chen explains…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1583,5 +1803,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-25T19:53:56.577386+00:00"
+  "generated_at": "2026-06-25T21:28:30.545401+00:00"
 }
