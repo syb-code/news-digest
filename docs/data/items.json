@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "003f9e1537c064d41498e26e4f688f3a",
+      "title": "Inflation is Rising Again — Here's What the Fed Will Do",
+      "url": "https://www.youtube.com/watch?v=Jx9jpLmiDQY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-26T19:00:19+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "087325382843e4148a7bd23c0bfeb562",
       "title": "Deep Learning Weekly: Issue 461",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-461",
@@ -1153,21 +1169,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b7a2a5d410f145ae4404647dd15cd90c",
-      "title": "Iran War is Now Hitting the U.S. Economy — Spirit Airlines Shut Down",
-      "url": "https://www.youtube.com/watch?v=J3gd5yZEs1I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-04T15:00:28+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c0480881e3b2d68c7362cf1bbd7abdb1",
       "title": "LWiAI Podcast #243 - GPT 5.5, DeepSeek V4, AI safety sabotage",
       "url": "https://lastweekin.ai/p/lwiai-podcast-243-gpt-55-deepseek",
@@ -1801,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-26T18:28:11.523730+00:00"
+  "generated_at": "2026-06-26T20:43:41.040936+00:00"
 }
