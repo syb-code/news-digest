@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "087325382843e4148a7bd23c0bfeb562",
+      "title": "Deep Learning Weekly: Issue 461",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-461",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-06-26T15:02:06+00:00",
+      "summary": "Advanced Claude Code Cost Tracking: How to Save 30% on Token Spend, Introducing Claude Tag, a paper on Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "220a298af8fb3d8f88f95b565c74f656",
       "title": "CEO-Led AI Gets 3X the ROI",
       "url": "https://www.youtube.com/watch?v=VICrf_yV0co",
@@ -1592,21 +1605,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0dfe03f040305e695ea96d6ec9f1c644",
-      "title": "Deep Learning Weekly: Issue 441",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-441",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-02-05T16:01:54+00:00",
-      "summary": "Qwen3-Coder-Next, Inside OpenAI’s in-house data agent, a paper on Golden Goose: A Simple Trick to Synthesize Unlimited RLVR Tasks from Unverifiable Internet Text, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5a91f296c7e8c6418ad947d6ec562bcd",
       "title": "Last Week in AI #334 - Kimi K2.5 & Code, Genie 3, OpenClaw & Moltbook",
       "url": "https://lastweekin.ai/p/last-week-in-ai-334-kimi-k25-and",
@@ -1803,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-26T13:07:49.289399+00:00"
+  "generated_at": "2026-06-26T16:12:19.163863+00:00"
 }
