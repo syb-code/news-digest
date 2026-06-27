@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "f924c4a05898282076f40d69f86424d5",
+      "title": "🧠 Community Wisdom: Beating a career slump, adding more structure to an established team, questions for new-team 1:1s, the evolving shape of the growth role, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-a-career",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-27T17:09:06+00:00",
+      "summary": "Community Wisdom 191",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5d543d8fe75a032601a162d48b30af2d",
+      "title": "Meet Your Ad Hoc AI Licensing Regime",
+      "url": "https://www.youtube.com/watch?v=WkXuk8NlPAQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-27T16:20:26+00:00",
+      "summary": "This week’s AI Weekly Brief looks at the emerging government-limited rollout process for frontier models, from Mythos to GPT-5.6, and why an opaque, customer-by-customer access regime could be bad for everyone. It also covers Claude Tag, open model momentum, CEO-led AI ROI, and …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "003f9e1537c064d41498e26e4f688f3a",
       "title": "Inflation is Rising Again — Here's What the Fed Will Do",
       "url": "https://www.youtube.com/watch?v=Jx9jpLmiDQY",
@@ -642,21 +670,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ec1aaf5c65a67e7e527230f986ced350",
-      "title": "The Way We Use AI is Changing",
-      "url": "https://www.youtube.com/watch?v=RKpEI37RnfI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-09T02:10:51+00:00",
-      "summary": "Proposals for government stakes or donated equity in major AI labs raise questions about public benefit, nationalization, and political control. Large cloud compute contracts and chip supply deals are reshaping AI infrastructure economics. A ChatGPT overhaul and the rise of agen…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3e8dc560258b8f2fbcd51feeeff5033b",
       "title": "The Fed May Be Forced to Raise Rates After This",
       "url": "https://www.youtube.com/watch?v=dIS4pRHl9iI",
@@ -831,21 +844,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ea20aefd157626e11b1fb86eb22cde9",
-      "title": "Building an iPhone app with zero technical skills | Bryce Rattner Keithley",
-      "url": "https://www.lennysnewsletter.com/p/building-an-iphone-app-with-zero",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-01T12:04:51+00:00",
-      "summary": "Watch now | 🎙️ How a talent leader with zero technical skills built and shipped a fitness app to the App Store—complete with AI-generated videos of animals doing exercises",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1802,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-27T16:01:32.699183+00:00"
+  "generated_at": "2026-06-27T17:58:21.114233+00:00"
 }
