@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5d6f5b76b89123313c2c8acfe5f95097",
+      "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
+      "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-28T12:31:54+00:00",
+      "summary": "Listen now | OpenAI’s Andrew Ambrosino on why software is getting cheaper to build, why taste matters more than ever, and what’s next for the Codex desktop app",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f924c4a05898282076f40d69f86424d5",
       "title": "🧠 Community Wisdom: Beating a career slump, adding more structure to an established team, questions for new-team 1:1s, the evolving shape of the growth role, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-a-career",
@@ -811,21 +826,6 @@
       "source_type": "rss",
       "published": "2026-06-03T12:04:09+00:00",
       "summary": "Watch now | 🎙️ Testing Google’s Gemini Omni avatar feature live—I scan a QR code, clone my face, and ship a hype reel",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "016410bbf6448e6e2ac69799b5e213e6",
-      "title": "🎙️ How I AI: Codex Goals explained & Claude Opus 4.8 review & Building an iPhone app with zero technical skills",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-codex-goals-explained-and",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-01T15:01:46+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-28T11:03:47.700127+00:00"
+  "generated_at": "2026-06-28T13:28:09.551610+00:00"
 }
