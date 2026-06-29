@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "4b0c87ced532b4c74a0046d495dc1115",
+      "title": "The Fed's Money Printing Machine Never Stopped",
+      "url": "https://www.youtube.com/watch?v=o41v1Xcbi8o",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-06-29T16:00:21+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "73ce1d8015402893378f89c0f2159064",
+      "title": "🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-29T15:02:35+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fc76fc8f65b4befe96ec52b0747e159b",
       "title": "No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)",
       "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
@@ -774,21 +804,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b298cc5246aa34c84b1c6300143f7160",
-      "title": "🧠 Community Wisdom: Bootstrapping vs. raising funding, building the roadmap of your vibe-coded app, AI agents and data integrity, your first project as an APM, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-bootstrapping-vs",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-06T17:14:54+00:00",
-      "summary": "Community Wisdom 188",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "31a97d99eecfeebb093b2c73f361ab8a",
       "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone",
       "url": "https://www.youtube.com/watch?v=zjLerkfKcEU",
@@ -1103,22 +1118,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0efb1fe823420abe793c239db991d83d",
-      "title": "Jobs Report Just Forced The Fed to Wait",
-      "url": "https://www.youtube.com/watch?v=LfoWzedzphQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-08T19:13:09+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1800,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-29T14:44:49.823329+00:00"
+  "generated_at": "2026-06-29T17:32:33.302316+00:00"
 }
