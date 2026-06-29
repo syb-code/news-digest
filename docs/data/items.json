@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fc76fc8f65b4befe96ec52b0747e159b",
+      "title": "No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)",
+      "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-29T12:03:38+00:00",
+      "summary": "Watch now | 🎙️ Eddie Kim, the CTO of Gusto, shows how a 5-person team shipped a full AI product line in 10 weeks using Claude Code, a perma-Zoom, and zero documentation",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5d6f5b76b89123313c2c8acfe5f95097",
       "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
       "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
@@ -815,21 +830,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a92635a7505415b99ffc69e6e59588e7",
-      "title": "Gemini Omni: Clone yourself with AI in under 15 minutes",
-      "url": "https://www.lennysnewsletter.com/p/gemini-omni-clone-yourself-with-ai",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-03T12:04:09+00:00",
-      "summary": "Watch now | 🎙️ Testing Google’s Gemini Omni avatar feature live—I scan a QR code, clone my face, and ship a hype reel",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-29T10:49:09.640693+00:00"
+  "generated_at": "2026-06-29T14:44:49.823329+00:00"
 }
