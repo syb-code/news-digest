@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "784448ab15bc16d3ce53945631dda8c6",
+      "title": "The First Great Depression: Lessons from the 1873 Global Financial Collapse | Liaquat Ahamed",
+      "url": "https://www.youtube.com/watch?v=czdGQG9HvGM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-29T17:39:06+00:00",
+      "summary": "Liaquat Ahamed, legendary financial historian and author, joins Jack to discuss his latest book, \"1873: The Rothschilds, the First Great Depression, and the Making of the Modern World.” Ahamed unpacks the 1873 financial crisis, explaining how Germany's abrupt move from silver to…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4b0c87ced532b4c74a0046d495dc1115",
       "title": "The Fed's Money Printing Machine Never Stopped",
       "url": "https://www.youtube.com/watch?v=o41v1Xcbi8o",
@@ -1065,21 +1080,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "20a5a54b042912840bf7c9ad382ff26f",
-      "title": "A Basel III Deep Dive | What to Know About How It Will Transform Banking Globally",
-      "url": "https://www.youtube.com/watch?v=3sd7Nm6LuXk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-17T13:00:08+00:00",
-      "summary": "Chen Xu, counsel at Debevoise & Plimpton, joins Jack to discuss the Basel III framework and endgame. The Basel III framework is extremely important to the future of banking and credit. Few people are as qualified to explain this complex agreement more than Chen Xu. Chen explains…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9a2b41314c58be59b5bf1a5089e2fd40",
       "title": "Deep Learning Weekly: Issue 455",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-455",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-29T17:32:33.302316+00:00"
+  "generated_at": "2026-06-29T19:50:53.087224+00:00"
 }
