@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "bc3563c39fc20db219939c76159e67a5",
+      "title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
+      "url": "https://www.youtube.com/watch?v=LKT7oRk7OTI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-06-30T17:13:42+00:00",
+      "summary": "Leading IPO researcher Jay Ritter, widely known as \"Mr. IPO\" and the director of the IPO Initiative at the University of Florida's Warrington College of Business breaks down the historic 2026 public market landscape. Ritter analyzes the unprecedented potential for a wave of mega…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "232266d1b7749cf54c5956a32134712a",
       "title": "How top PMs increase their leverage with AI",
       "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
@@ -1009,19 +1022,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7bd5dea1e6bb78245adfc43cc0ea8b92",
-      "title": "What Doomer Narratives About Private Credit Miss | John Cocke of Corbin Capital",
-      "url": "https://www.youtube.com/watch?v=7yShEhQjgMc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-24T16:42:33+00:00",
-      "summary": "John Cocke, Deputy Chief Investment Officer at Corbin Capital, joins Jack to discuss the world of private credit. With so much discussion over the asset class, John provides some much-needed context. While there are some areas of concern, John rejects the doomer narratives commo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "f4a3eeade410238782bf6fa8abd3c4b3",
       "title": "Deep Learning Weekly: Issue 456",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-456",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-30T17:02:37.322484+00:00"
+  "generated_at": "2026-06-30T19:49:27.313346+00:00"
 }
