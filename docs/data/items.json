@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "232266d1b7749cf54c5956a32134712a",
+      "title": "How top PMs increase their leverage with AI",
+      "url": "https://www.lennysnewsletter.com/p/how-top-pms-increase-their-leverage",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-30T13:31:39+00:00",
+      "summary": "A framework for getting the most out of AI in your day-to-day-work",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "069c469428bf6bb36ec9aef09d720a8f",
       "title": "Mythos Returns But Not For Everyone",
       "url": "https://www.youtube.com/watch?v=187eNPPTa_w",
@@ -796,21 +811,6 @@
       "source_type": "rss",
       "published": "2026-06-08T12:03:27+00:00",
       "summary": "Watch now | 🎙️She uses Claude to shop for high-quality items that last, automate returns when products fail, and spend less time on administrative tasks and more time with her kids",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6df329e62ad647b2620d394e672c880c",
-      "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
-      "url": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-07T12:31:29+00:00",
-      "summary": "Listen now | The creator of iPod, iPhone, and Nest on opinion vs. data decisions, why marketing matters, the \"three generations\" rule behind everything he's shipped, and why AI will still need screens",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-30T11:42:17.168867+00:00"
+  "generated_at": "2026-06-30T14:10:06.857323+00:00"
 }
