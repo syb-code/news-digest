@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "928b43424ff931c045a80fcaaa1c15eb",
+      "title": "How Big is the AI Economy",
+      "url": "https://www.youtube.com/watch?v=gP8A3x2mFRM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-06-30T20:48:56+00:00",
+      "summary": "Alleged credit-based, identity-verified access for Anthropic Fable sparks privacy and policy debate. Senate draft targets agent neutrality and a duty-of-loyalty while state and corporate contracts shift pricing and access. Exponential View estimates a $175 billion annual AI run …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bc3563c39fc20db219939c76159e67a5",
       "title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
       "url": "https://www.youtube.com/watch?v=LKT7oRk7OTI",
@@ -692,21 +707,6 @@
       "source_type": "youtube",
       "published": "2026-06-12T00:59:11+00:00",
       "summary": "Anthropic's Fable-5 launch sparked outrage over opaque safety filters, silent model degradation for AI research, and a 30-day enterprise data-retention rule. A rapid walkback restored visibility for safeguards but left deep trust and enterprise-adoption concerns. Broader themes …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ac2957d2684e6c1981f817c1e9414c70",
-      "title": "Fable 5 Raises the Bar for AI Ambition",
-      "url": "https://www.youtube.com/watch?v=it7VUqfVorw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-11T00:36:51+00:00",
-      "summary": "Anthropic’s Fable 5 is a major leap in frontier AI, but the bigger shift is what it asks of users: less prompting for small tasks, more imagination about what can now be delegated to agents for hours or days at a time. In the headlines: Fable’s guardrails spark backlash, enterpr…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-06-30T19:49:27.313346+00:00"
+  "generated_at": "2026-06-30T21:24:34.261876+00:00"
 }
