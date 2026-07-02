@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "46681fedb9a124d02fa49bf8e489c0c3",
+      "title": "Jobs Report: Much Worse Than Expected",
+      "url": "https://www.youtube.com/watch?v=UbVCuBJvTz4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-02T18:31:23+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9c2a0c6f55befa26bba0879b2a9543bc",
+      "title": "Deep Learning Weekly: Issue 462",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-462",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-02T18:00:36+00:00",
+      "summary": "GPT-5.6 Sol, Scaling Laws, a paper on Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "83da701d0227794e343833bd40063c7a",
       "title": "The Terrifying Truth About Next 5 Years in the Stock Market | Erik YWR on “Reverse Crash” Risk",
       "url": "https://www.youtube.com/watch?v=fcuaGmxTFZk",
@@ -1108,19 +1134,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4e777248d24f5cd0bab3bb59a0bdb5cf",
-      "title": "Stock Market Investing: Why I'm More Defensive Right Now",
-      "url": "https://www.youtube.com/watch?v=t9eSKKm2R6c",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-11T15:53:09+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4e5b1b6a31f803d05ba794b7c380b3d9",
       "title": "Deep Learning Weekly: Issue 454",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-454",
@@ -1562,19 +1575,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "359d5bb186a1409878b4c19b23238b39",
-      "title": "Deep Learning Weekly: Issue 442",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-442",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-02-12T16:02:28+00:00",
-      "summary": "Claude Opus 4.6, Harness engineering: leveraging Codex in an agent-first world, a paper on Weak-Driven Learning: How Weak Agents make Strong Agents Stronger, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5212d77759d956e815cc7a90f1ff063f",
       "title": "Prediction: Websites are disappearing",
       "url": "https://designplusai.com/p/prediction-websites-are-disappearing",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-02T17:42:26.199566+00:00"
+  "generated_at": "2026-07-02T19:18:21.404163+00:00"
 }
