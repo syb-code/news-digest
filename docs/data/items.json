@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "83da701d0227794e343833bd40063c7a",
+      "title": "The Terrifying Truth About Next 5 Years in the Stock Market | Erik YWR on “Reverse Crash” Risk",
+      "url": "https://www.youtube.com/watch?v=fcuaGmxTFZk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-02T14:43:22+00:00",
+      "summary": "In this episode, veteran investor and macro strategist Erik from the Erik YWR Substack breaks down his bold bull thesis projecting the S&P 500 to hit 10,000 by the end of 2027. Drawing on his past investing experience in Africa, Erik introduces \"Project Zimbabwe,\" explaining why…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3d281300119d82e61fe7b01d6e67f962",
       "title": "Fable Is Back: Here's What You Should Try First",
       "url": "https://www.youtube.com/watch?v=ztCLWKwyMJY",
@@ -1007,21 +1022,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e58cfe06a57d2d164638a97fbb817e17",
-      "title": "The AI Cycle Will Turn This Year but First Things Get Even Crazier | Andreas Steno Larsen",
-      "url": "https://www.youtube.com/watch?v=WViV1JN4xmk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-25T15:04:16+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nAndreas Steno Larsen, macro researcher from Real Vision, joins Max Wiethe on Other People’s Money to discuss the shifting macro regime where inflation has returned and is pushing US Treasury …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f4a3eeade410238782bf6fa8abd3c4b3",
       "title": "Deep Learning Weekly: Issue 456",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-456",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-02T12:11:24.972355+00:00"
+  "generated_at": "2026-07-02T15:11:21.016613+00:00"
 }
