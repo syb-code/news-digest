@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "68c6a25bd0002b00128129e97c156653",
+      "title": "🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-04T16:58:47+00:00",
+      "summary": "Community Wisdom 192",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "46681fedb9a124d02fa49bf8e489c0c3",
       "title": "Jobs Report: Much Worse Than Expected",
       "url": "https://www.youtube.com/watch?v=UbVCuBJvTz4",
@@ -841,21 +856,6 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4a3abeb16be7a991a01ebdacca0cc50a",
-      "title": "🎙️ How I AI: Gemini Omni: Clone yourself with AI in under 15 minutes & Shopping with Claude",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gemini-omni-clone-yourself",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-08T15:01:21+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-04T15:57:57.680681+00:00"
+  "generated_at": "2026-07-04T17:09:09.700882+00:00"
 }
