@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ac654bd46429652e9d87dd451003d729",
+      "title": "There’s Nowhere Near Enough Senior Housing | Josh Pristaw on Demographic-Guaranteed Demand",
+      "url": "https://www.youtube.com/watch?v=25c8ffah2ZU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-04T20:01:35+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this episode of Monetary Matters, host Jack sits down with Josh Pristaw, President of the $73 Billion real estate firm Clarion Partners, to decode the smartest institutional property plays for the new 20…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "68c6a25bd0002b00128129e97c156653",
       "title": "🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning",
@@ -1018,21 +1033,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a1959e1aec4c80c4bf28b06b2901539b",
-      "title": "How This Real Estate Investor is Betting on an AI Boom (It’s Not Data Centers) | Tom Shapiro",
-      "url": "https://www.youtube.com/watch?v=ZjqIFbPl2rw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-26T16:01:13+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here: https://fundrise.com/mm\n\nIn this episode of Other People's Money, GTIS Partners founder and CIO Tom Shapiro breaks down how massive macroeconomic shifts, including AI and inflation, are reshaping the global real estate landscape. H…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e8227e1ef5ebaba9c297f5959e9d251f",
       "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
       "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-04T19:04:42.748510+00:00"
+  "generated_at": "2026-07-04T20:51:57.288095+00:00"
 }
