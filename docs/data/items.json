@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "2d9e5a5afedfcc40dd06ce7c4a4f8ed8",
+      "title": "How The Federal Reserve Could Shrink Trillions From Its Balance Sheet | Darrell Duffie",
+      "url": "https://www.youtube.com/watch?v=dpcn7Mj0f74",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-05T19:30:25+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIt's no secret that the new Fed chair, Kevin Warsh, prefers the Federal Reserve to have a smaller balance sheet, perhaps a much, much smaller balance sheet. The consequences of this range from the mundane t…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ac654bd46429652e9d87dd451003d729",
       "title": "Why This $73 Billion Investor is Avoiding Data Centers: “They’re Too Expensive” | Josh Pristaw",
       "url": "https://www.youtube.com/watch?v=25c8ffah2ZU",
@@ -944,19 +960,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b9490a67a4b4017675947fdaca43605b",
-      "title": "Overvaluation Meets Macro Risk: Why This Massive Asset Manager is Getting Bearish",
-      "url": "https://www.youtube.com/watch?v=Jp082d53w44",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-05-31T15:10:59+00:00",
-      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: https://unlimitedetfs.com/hfgm\n\nIn this episode of Monetary Matters, host Jack Farley sits down with Jim Masturzo, Chief Investment Officer at Research Affiliates, to discuss the changing macroeconomic landscape and the und…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "374b4be4d6a1936d39ec32d5594e6050",
       "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
       "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
@@ -1797,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-05T19:26:07.451512+00:00"
+  "generated_at": "2026-07-05T20:54:34.411208+00:00"
 }
