@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "818eb4715ff77f6add2a8b2ad0190189",
+      "title": "Why Americans Can't Get Ahead Anymore",
+      "url": "https://www.youtube.com/watch?v=meesr2gDINA",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-06T19:26:32+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "613408d57a9130a17c076b9d666d341f",
       "title": "🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-sonnet-5-review-and-how",
@@ -1094,21 +1107,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9dcbe3e06ea66615f8fb882e7a8d3641",
-      "title": "How Will the New Federal Reserve Handle This Inflation Crisis?",
-      "url": "https://www.youtube.com/watch?v=2s4ycrgWfiw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-18T20:13:10+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9a2b41314c58be59b5bf1a5089e2fd40",
       "title": "Deep Learning Weekly: Issue 455",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-455",
@@ -1802,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-06T18:08:04.779108+00:00"
+  "generated_at": "2026-07-06T20:49:51.256220+00:00"
 }
