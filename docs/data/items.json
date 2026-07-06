@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "613408d57a9130a17c076b9d666d341f",
+      "title": "🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-sonnet-5-review-and-how",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-06T15:01:17+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "29385ba3ffa3ddf29eb77fa0c30c83ff",
+      "title": "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-run-autonomous-coding-agents",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-06T12:03:37+00:00",
+      "summary": "Watch now | 🎙️ Alessio Fanelli shows his Symphony + Linear setup for running parallel coding agents from his phone, then demos Codex hunting underpriced Pokémon cards in real time",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d9e5a5afedfcc40dd06ce7c4a4f8ed8",
       "title": "How The Federal Reserve Could Shrink Trillions From Its Balance Sheet | Darrell Duffie",
       "url": "https://www.youtube.com/watch?v=dpcn7Mj0f74",
@@ -842,34 +872,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f1af36311e0e5de1714e066dd1c648ae",
-      "title": "Claude Fable 5 review: what the new Mythos model gets right (and very wrong)",
-      "url": "https://www.lennysnewsletter.com/p/claude-fable-5-review-what-the-new",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-09T18:32:03+00:00",
-      "summary": "Watch now | 🎙️Early access to Claude Fable 5: what Anthropic claims, what I tested, and my honest take",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c1f856935738627c29a75ad93f9572b7",
-      "title": "Essential books for product builders—part 2",
-      "url": "https://www.lennysnewsletter.com/p/essential-books-for-product-builderspart-611",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-09T13:11:29+00:00",
-      "summary": "36 more timeless books that’ll make you a better builder, leader, and person",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1800,5 +1802,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-06T12:00:11.703920+00:00"
+  "generated_at": "2026-07-06T15:51:32.334917+00:00"
 }
