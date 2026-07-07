@@ -1,8 +1,23 @@
 {
   "items": [
     {
+      "id": "4542e5bd2876b0d790fbceec8e1d7dab",
+      "title": "AI Focused Companies Are Hiring More",
+      "url": "https://www.youtube.com/watch?v=PnEWo_AKzIU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-07T18:45:11+00:00",
+      "summary": "Coverage examines OpenAI's proposal to transfer a 5% stake to a US sovereign fund and the political fallout from corporate-government AI ties. KPMG, Ramp/Revelio and Box studies link higher AI adoption to headcount growth and show treating AI as a reasoning partner boosts workpl…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cf0b16176db6f8204fad8104a5e4c825",
-      "title": "Why This $19 Billion Hedge Fund Giant is Hunting for Alpha in Japan and Korea",
+      "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould",
       "url": "https://www.youtube.com/watch?v=2hJOcV53Nng",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -851,21 +866,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "32a0908011eaf18303b201403ca7e68b",
-      "title": "10 Sites Knowledge Workers Should Build with AI",
-      "url": "https://www.youtube.com/watch?v=45UGHbqq2fQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-12T13:56:11+00:00",
-      "summary": "AI is making it possible to build richer versions of the files knowledge workers send every day: decks, memos, spreadsheets, reports, proposals, training materials, and more. This has gotten even easier this week with the release of OpenAI's \"Sites\" feature in Codex. In this pra…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-07T17:09:56.927706+00:00"
+  "generated_at": "2026-07-07T19:49:21.756165+00:00"
 }
