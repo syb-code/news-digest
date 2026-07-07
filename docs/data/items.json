@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "cf0b16176db6f8204fad8104a5e4c825",
+      "title": "Why This $19 Billion Hedge Fund Giant is Hunting for Alpha in Japan and Korea",
+      "url": "https://www.youtube.com/watch?v=2hJOcV53Nng",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-07T16:07:35+00:00",
+      "summary": "Sean McGould, CEO and CIO of $19 billion hedge fund manager The Lighthouse Group, joins OPM to discuss navigating today's bull market by targeting diverse sources of global alpha. The conversation focuses on Japan as a new source of alpha, spurred by the country's historic corpo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "acdd7ebf856b72556d3ca380c7001a89",
       "title": "How tech workers are feeling in 2026: a workforce splitting in two",
       "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
@@ -915,21 +928,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "31a97d99eecfeebb093b2c73f361ab8a",
-      "title": "The AI Chip Bubble: Why South Korea & Taiwan Are In the Danger Zone",
-      "url": "https://www.youtube.com/watch?v=zjLerkfKcEU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-06T13:05:12+00:00",
-      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Michael Fritzell, author of Asian Century Stocks, to break down the massive valuation divergence playing out across Asian equity markets. Michael explains why he believes the skyrocketing AI and memory chip …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9e939a7d188eabf678b009d63f68b23",
       "title": "Deep Learning Weekly: Issue 458",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
@@ -1798,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-07T14:22:43.719411+00:00"
+  "generated_at": "2026-07-07T17:09:56.927706+00:00"
 }
