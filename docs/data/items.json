@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "acdd7ebf856b72556d3ca380c7001a89",
+      "title": "How tech workers are feeling in 2026: a workforce splitting in two",
+      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-07T13:04:22+00:00",
+      "summary": "Results from our second annual tech worker sentiment survey",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "818eb4715ff77f6add2a8b2ad0190189",
       "title": "Why Americans Can't Get Ahead Anymore",
       "url": "https://www.youtube.com/watch?v=meesr2gDINA",
@@ -784,21 +797,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "87f89d8453de1bd7cb51386a93665294",
-      "title": "🧠 Community Wisdom: How AI is changing product operating models, tracking work stress with Whoop, whether you need a portfolio of AI side projects, marketing for tiny teams, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-how-ai-is-changing",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-13T20:54:15+00:00",
-      "summary": "Community Wisdom 189",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1800,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-07T11:44:03.590472+00:00"
+  "generated_at": "2026-07-07T14:22:43.719411+00:00"
 }
