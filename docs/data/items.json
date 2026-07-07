@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "44ff255994d44c94db02f922b7608bc7",
+      "title": "The Big Ways AI Just Changed",
+      "url": "https://www.youtube.com/watch?v=WUeMqk_ABmY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-07T21:00:08+00:00",
+      "summary": "June marked a pivot from token-subsidized experimentation to token scarcity, forcing enterprises to prioritize cost, efficiency, and model sovereignty. The Fable 5 launch and ensuing US export-control restrictions triggered intense debate over safety, data retention, and access …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4542e5bd2876b0d790fbceec8e1d7dab",
       "title": "AI Focused Companies Are Hiring More",
       "url": "https://www.youtube.com/watch?v=PnEWo_AKzIU",
@@ -838,21 +853,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0483b80e99ba2d7c797150a3eaa11a34",
-      "title": "The AI Chart Everyone Is Getting Wrong",
-      "url": "https://www.youtube.com/watch?v=05VE_9rI954",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-13T15:46:26+00:00",
-      "summary": "A viral Wall Street chart has kicked off a new round of AI bubble panic, but NLW argues the market is reading it wrong. The real story isn’t collapsing demand — it’s the shift from the token subsidy era to the token scarcity era, where companies are learning to route AI usage mo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-07T19:49:21.756165+00:00"
+  "generated_at": "2026-07-07T21:19:46.522228+00:00"
 }
