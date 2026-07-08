@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "f31e913dad285f59665ba665aebda0b9",
+      "title": "Fed Minutes Released: What They Really Said",
+      "url": "https://www.youtube.com/watch?v=Fs0PlxOAxcs",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-08T21:47:27+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c3ac762076407e797117905e23742833",
       "title": "What a harness is and how to build one with Claude Agent SDK",
       "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build",
@@ -1075,21 +1091,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ac9b6213aed7d49f6ff87a9e7bc5249f",
-      "title": "Housing Market Has a New Problem: Surging Mortgage Rates",
-      "url": "https://www.youtube.com/watch?v=sqOFhUcE3w0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-20T16:01:22+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "53cae1d9f02d2360fb72f847d2df20ed",
       "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
       "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
@@ -1798,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-08T21:02:40.659871+00:00"
+  "generated_at": "2026-07-08T23:01:40.616716+00:00"
 }
