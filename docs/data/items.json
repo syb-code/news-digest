@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "c3ac762076407e797117905e23742833",
+      "title": "What a harness is and how to build one with Claude Agent SDK",
+      "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-08T12:03:35+00:00",
+      "summary": "Listen now | 🎙️ I built a custom Claude Agent SDK harness to automate Sentry bug triage, saved the \"dear agent, please fix this\" prompt forever, and show you exactly how to build your own",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1022ac5b5ebad813bdcb76f62f1d0f0e",
+      "title": "How AI Is Changing How Companies Get Built",
+      "url": "https://www.youtube.com/watch?v=58xIe60tBfw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-08T11:00:27+00:00",
+      "summary": "Open-weight models and data sovereignty take center stage as Palantir challenges frontier model companies over ownership, security, and competitive risk. Nvidia's NeoCloud backstop and SoftBank's NeoCloud plans aim to expand GPU access and reshape infrastructure financing for AI…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "44ff255994d44c94db02f922b7608bc7",
       "title": "The Big Ways AI Just Changed",
       "url": "https://www.youtube.com/watch?v=WUeMqk_ABmY",
@@ -827,32 +855,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e303bd3dd39b1abeeb736fb66d0b247a",
-      "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
-      "url": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-14T12:31:44+00:00",
-      "summary": "Listen now | Mark Pincus on why your instincts are right but your ideas are wrong, the “Proven, Better, New” framework, and what he’s teaching his kids",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "da3f0f784d8e945ffbbb8e45e507bdd7",
-      "title": "Fable 5 Shut Down by US Government",
-      "url": "https://www.youtube.com/watch?v=5-CGzLrA4fg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-13T17:00:06+00:00",
-      "summary": "In this emergency episode, NLW breaks down the stunning news that the US government has ordered Anthropic to suspend access to Fable 5 and Mythos 5 for foreign nationals, forcing the company to shut the models down for all users. He explores Anthropic’s response, the backlash fr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1798,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-08T11:00:45.201009+00:00"
+  "generated_at": "2026-07-08T13:53:50.200364+00:00"
 }
