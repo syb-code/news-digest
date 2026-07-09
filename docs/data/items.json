@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6dbacd911f88e3a667576259276d2b9f",
+      "title": "Adam Mosseri: AI is a tailwind for authenticity",
+      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-09T12:32:21+00:00",
+      "summary": "Listen now | Instagram’s Adam Mosseri on the new product team structure in 2026, the rise of the “product staff” role, and the hiring traits that matter most today",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f31e913dad285f59665ba665aebda0b9",
       "title": "Fed Minutes Released: What They Really Said",
       "url": "https://www.youtube.com/watch?v=Fs0PlxOAxcs",
@@ -851,21 +866,6 @@
       "source_type": "rss",
       "published": "2026-06-15T15:01:32+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "45fc290ad60c04219bcd3ee70dc4ce0f",
-      "title": "How Braintrust uses AI agents, evals, and CI to ship better software | Ankur Goyal",
-      "url": "https://www.lennysnewsletter.com/p/how-braintrust-uses-ai-agents-evals",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-15T12:04:03+00:00",
-      "summary": "Watch now | 🎙️ “Evals are the modern version of a PRD”: Ankur Goyal (Braintrust) on encoding taste into systems that scale",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-09T10:25:55.147240+00:00"
+  "generated_at": "2026-07-09T13:45:37.112497+00:00"
 }
