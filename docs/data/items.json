@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8be796f8257804b2e7ab1fc5037fb20e",
+      "title": "How AI Changes if Open Source Gets Banned",
+      "url": "https://www.youtube.com/watch?v=kpGZ83XqDqA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-09T18:54:26+00:00",
+      "summary": "Potential Chinese limits on overseas distribution of open-weight models could recast frontier AI as a national security asset and reshape global model access. Consequences for token efficiency and cost structures point toward heavier reliance on post-training tuning, lightweight…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b2f8c92b4462d9c7922e0bf4b9e93dcd",
       "title": "GPT-5.6 Sol vs. Claude Fable: Why OpenAI’s new model crushes my benchmark",
       "url": "https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais",
@@ -821,21 +836,6 @@
       "source_type": "youtube",
       "published": "2026-06-18T13:00:13+00:00",
       "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Chris Semenuk, an investment partner at Tema ETFs, to discuss the massive secular tailwinds driving the US manufacturing and electrification renaissance. Semenuk argues that after a three-year recession and …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f861f7fa2d50dac9721e16284d54de2b",
-      "title": "A Big Shift in the AI Race",
-      "url": "https://www.youtube.com/watch?v=RO7Ly_wu9dQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-17T20:00:56+00:00",
-      "summary": "Anthropic's forced shutdown of Mythos and Fable exposes jailbreak risks, cybersecurity weaknesses, and a chaotic regulatory response.  \nSpaceX's IPO and the Cursor acquisition signal a shift toward monetizing massive compute and competing across models, harnesses, and control pl…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-09T18:47:12.089947+00:00"
+  "generated_at": "2026-07-09T20:44:01.650217+00:00"
 }
