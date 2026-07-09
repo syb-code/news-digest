@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b2f8c92b4462d9c7922e0bf4b9e93dcd",
+      "title": "GPT-5.6 Sol vs. Claude Fable: Why OpenAI’s new model crushes my benchmark",
+      "url": "https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-09T17:33:57+00:00",
+      "summary": "Watch now | 🎙️GPT 5.6-Sol beats Fable on prototypes, PRDs, and browser use in my 5-category How I AI benchmark, and here's exactly where each model earns its spot.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "fb8d325bfa1fa3eccbb08d6d89d4e774",
       "title": "Deep Learning Weekly: Issue 463",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-463",
@@ -865,21 +880,6 @@
       "published": "2026-06-15T20:46:28+00:00",
       "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack Farley sits down with independent economist and strategist David Woo to break down the hidden realities behind global tech markets and macroeconomics.  Woo re…",
       "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c6bc443d3d45b1cc60afbea61bd61a7e",
-      "title": "🎙️ How I AI: Claude Fable 5 review & How Braintrust uses AI agents, evals, and CI to ship better software",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-fable-5-review-and",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-15T15:01:32+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-09T16:24:23.251722+00:00"
+  "generated_at": "2026-07-09T18:47:12.089947+00:00"
 }
