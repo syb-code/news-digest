@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "fb8d325bfa1fa3eccbb08d6d89d4e774",
+      "title": "Deep Learning Weekly: Issue 463",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-463",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-09T15:00:58+00:00",
+      "summary": "Introducing Grok 4.5, How Internal Optimizations Led to Comet Cost Intelligence, a paper on AlayaWorld: Long-Horizon and Playable Video World Generation, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "6dbacd911f88e3a667576259276d2b9f",
       "title": "Adam Mosseri: AI is a tailwind for authenticity",
       "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
@@ -1517,21 +1530,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a51a2212bff71b6b9859f70b435ec5f9",
-      "title": "Deep Learning Weekly: Issue 443",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-443",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-02-19T17:03:10+00:00",
-      "summary": "Optimizing AI IDEs at Scale, What do “economic value” benchmarks tell us, a paper on MemSkill: Learning and Evolving Memory Skills for Self-Evolving Agents, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f22bc317a2702455b51ba02f86f11864",
       "title": "The Approval Interface",
       "url": "https://designplusai.com/p/the-approval-interface",
@@ -1799,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-09T13:45:37.112497+00:00"
+  "generated_at": "2026-07-09T16:24:23.251722+00:00"
 }
