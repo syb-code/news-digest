@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "50993b6b2594ecb5ef01d3ea723ebe40",
+      "title": "How the 4 New Models Released This Week Will Change How You Work",
+      "url": "https://www.youtube.com/watch?v=ZX9dXdAL5IU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-10T19:53:56+00:00",
+      "summary": "Four major releases—GPT Live, Grok 4.5, Cognition SWE 1.7, and GPT‑5.6 Sol—signal an accelerated model cadence and growing specialization across AI. GPT Live introduces full‑duplex voice with background model orchestration for real‑time translation, tutoring, and conversational …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8be796f8257804b2e7ab1fc5037fb20e",
       "title": "How AI Changes if Open Source Gets Banned",
       "url": "https://www.youtube.com/watch?v=kpGZ83XqDqA",
@@ -796,22 +811,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b96171a8be3d655354698bc833b0ab7a",
-      "title": "Why Only AI Training Can Save the Economy",
-      "url": "https://www.youtube.com/watch?v=v3jwNZ94GLo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-18T17:29:26+00:00",
-      "summary": "Large-scale AI training offers the only practical path to align AI labs' token-driven revenue growth with enterprise spending constraints. A shift from seat-based subscriptions to agentic, usage-based consumption is driving surging token demand, massive infrastructure investment…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "highlight"
     },
@@ -1797,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-10T18:19:59.330003+00:00"
+  "generated_at": "2026-07-10T20:18:50.361031+00:00"
 }
