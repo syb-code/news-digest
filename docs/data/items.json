@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "0cbe6c8707097d34a1f554adc7fc9b8e",
+      "title": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-11T16:40:58+00:00",
+      "summary": "Community Wisdom 193",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "50993b6b2594ecb5ef01d3ea723ebe40",
       "title": "How the 4 New Models Released This Week Will Change How You Work",
       "url": "https://www.youtube.com/watch?v=ZX9dXdAL5IU",
@@ -835,21 +848,6 @@
       "source_type": "youtube",
       "published": "2026-06-18T13:00:13+00:00",
       "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Chris Semenuk, an investment partner at Tema ETFs, to discuss the massive secular tailwinds driving the US manufacturing and electrification renaissance. Semenuk argues that after a three-year recession and …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f7279afb7b58881839b419ac69e5caa9",
-      "title": "How to design AI agent loops: schedules, goals, and subagents in Claude Code and Codex",
-      "url": "https://www.lennysnewsletter.com/p/how-to-design-ai-agent-loops-schedules",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-17T12:04:04+00:00",
-      "summary": "Watch now | 🎙️Every loop type explained: heartbeats, crons, goals, and subagents. Plus two live Claude Code and Codex builds that run autonomously so you never manually babysit a PR again",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1794,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-11T15:51:44.749252+00:00"
+  "generated_at": "2026-07-11T16:52:37.715092+00:00"
 }
