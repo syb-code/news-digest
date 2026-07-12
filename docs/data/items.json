@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "022d324a2310e37d666b9c602a1c91d3",
+      "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-12T12:32:14+00:00",
+      "summary": "Listen now | The great tech bifurcation: half the workforce is thriving, half is struggling, and burnout just hit a record high",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0cbe6c8707097d34a1f554adc7fc9b8e",
       "title": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network",
@@ -769,19 +784,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7655a671bc15355f0c8bcc86bb8720d6",
-      "title": "🧠 Community Wisdom: Fractional CPO compensation, free e-signature tools, why some users pay but never use your product, sharing Claude Code context across a team, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-fractional-cpo-compensation",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-20T15:53:05+00:00",
-      "summary": "Community Wisdom 190",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1794,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-12T11:55:48.809491+00:00"
+  "generated_at": "2026-07-12T13:13:55.790875+00:00"
 }
