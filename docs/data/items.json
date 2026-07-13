@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9d90ed351e81e086bcc03e46e15eba49",
+      "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
+      "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-13T12:05:20+00:00",
+      "summary": "Watch now | 🎙️ Alex Finn breaks down his five-computer local AI setup, the Claude Code build-and-review loop that ships features while he sleeps, and why unlimited local intelligence beats a $20 subscription",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "022d324a2310e37d666b9c602a1c91d3",
       "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
       "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
@@ -734,21 +749,6 @@
       "source_type": "youtube",
       "published": "2026-06-21T21:44:21+00:00",
       "summary": "Ed Zitron is one of the most prolific skeptic of the AI Boom. Having just reported OpenAI’s 2025 financial loss, he joins Jack to argue that the sheer size of the losses by the large language model (LLM) companies are unsustainable and the operational costs of training and runni…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1137c04e031e13bb28c0d815e51fcd94",
-      "title": "What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)",
-      "url": "https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-21T12:31:43+00:00",
-      "summary": "Listen now | Fiona Fung on leading the Claude Code and Cowork teams, and how to maintain culture when roles are blurring and agents are everywhere",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1796,5 +1796,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-13T10:20:58.865434+00:00"
+  "generated_at": "2026-07-13T13:19:23.603440+00:00"
 }
