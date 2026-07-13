@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "f70dab487d42d617feb8b806c4e1dd85",
+      "title": "The Stock Market's Midterm Election Pattern: 98 Years of Data",
+      "url": "https://www.youtube.com/watch?v=xxKl1i7iD88",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-13T16:00:19+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9114cbd5d6d16a967e5d9f70a3c8326d",
+      "title": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-13T15:02:17+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f3034f4aaa9a54f81a7ddcd5a84f9953",
+      "title": "Anthropic Can Now Read Claude's Mind",
+      "url": "https://www.youtube.com/watch?v=TgOpdC2HrE8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-13T13:58:26+00:00",
+      "summary": "UN leaders called for a ban on autonomous weapons and introduced a child safety pledge to hold AI developers accountable. Anthropic revealed a J-Lens tool to read and edit Claude's private reasoning, exposing a small \"J-space\" of reportable concepts driving model decisions. Poli…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9d90ed351e81e086bcc03e46e15eba49",
       "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
       "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
@@ -729,19 +772,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7603428b5bd521e407e20bcf33a1cf6f",
-      "title": "How Claude Mythos found a 15-year-old bug in Mozilla Firefox | Brian Grinstead",
-      "url": "https://www.lennysnewsletter.com/p/how-claude-mythos-found-a-15-year",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-22T12:03:06+00:00",
-      "summary": "Watch now | 🎙️423 security fixes in one month: Brian Grinstead (Mozilla) shows the goal-loop harness behind it, and why the model was only half the story",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "ad3990133109df7102f25dd27c0bdbac",
       "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
       "url": "https://www.youtube.com/watch?v=xFd8X7TI7Sc",
@@ -799,19 +829,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "26770fca4d8a5fdb19806b5ee769543f",
-      "title": "The Models Trying to Replace Fable",
-      "url": "https://www.youtube.com/watch?v=4hvA6aCwf6E",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-19T17:37:51+00:00",
-      "summary": "G7 talks exposed geopolitical tension over access to US frontier models after the Anthropic Fable shutdown. Open-source and smaller efficient models: GLM 5.2, Kimi 2.7, Vibe Thinker, and Cursor Composer 2.5, are driving moves toward local hosting and lower-cost inference. Model …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1059,19 +1076,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "238a45bff6978f0d1dc7285735eb4cf5",
-      "title": "How to Boost Your Productivity With One Simple Habit",
-      "url": "https://www.youtube.com/watch?v=EQm0jsNKXrQ",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-26T17:03:07+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1796,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-13T13:19:23.603440+00:00"
+  "generated_at": "2026-07-13T16:28:04.126574+00:00"
 }
