@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "37bde81edb49710e9e822832f815fd3d",
+      "title": "How to Help People Thrive with AI",
+      "url": "https://www.youtube.com/watch?v=bl76qV0xwec",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-13T23:09:01+00:00",
+      "summary": "AI can eliminate tedious work, but its real promise is helping people stretch their capabilities and pursue things that weren’t possible before. From the risk of “AI brain fry” to Uber’s agentic pods, NLW explores how organizations can turn productivity gains into human growth a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f70dab487d42d617feb8b806c4e1dd85",
       "title": "The Stock Market's Midterm Election Pattern: 98 Years of Data",
       "url": "https://www.youtube.com/watch?v=xxKl1i7iD88",
@@ -810,21 +825,6 @@
       "published": "2026-06-20T21:15:32+00:00",
       "summary": "In this panel at MacroMinds Symposium, Jack Farley sits down with legendary short seller Jim Chanos and Val Zlatev, Portfolio Manager and Partner at Analog Century Management, to analyze the long and short opportunities of the AI and semiconductor boom. Chanos highlights a signi…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "77ce742e7bb0bc5db97ad48170501556",
-      "title": "Your Company Doesn't Need an AI Strategy",
-      "url": "https://www.youtube.com/watch?v=sKrr_ckIt4s",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-20T12:34:51+00:00",
-      "summary": "...it needs an AI learning system. This episode argues that the Fable 5 disruption exposed a deeper enterprise problem: companies can’t treat AI as a vendor strategy. The real advantage will come from building learning systems that capture institutional judgment, workflow traces…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-13T22:52:27.709415+00:00"
+  "generated_at": "2026-07-13T23:50:43.313342+00:00"
 }
