@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "02871722385e13e8934a2a91abd92855",
+      "title": "How the Escalating AI Wars Benefit You",
+      "url": "https://www.youtube.com/watch?v=jZfJ2obqT-s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-14T11:35:17+00:00",
+      "summary": "Apple’s lawsuit against OpenAI signals an AI race expanding beyond models into hardware, efficiency and control. NLW explains how the escalating competition is producing better models, higher usage limits and lower costs for users—and why the opportunity may not last. In the hea…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "37bde81edb49710e9e822832f815fd3d",
       "title": "How to Help People Thrive with AI",
       "url": "https://www.youtube.com/watch?v=bl76qV0xwec",
@@ -794,21 +809,6 @@
       "source_type": "youtube",
       "published": "2026-06-21T21:44:21+00:00",
       "summary": "Ed Zitron is one of the most prolific skeptic of the AI Boom. Having just reported OpenAI’s 2025 financial loss, he joins Jack to argue that the sheer size of the losses by the large language model (LLM) companies are unsustainable and the operational costs of training and runni…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ffcdb4152776b49ae155e923052b1b50",
-      "title": "The 5-Minute AI Weekly Recap: Realignment Week",
-      "url": "https://www.youtube.com/watch?v=VK56IPRsA-s",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-21T12:08:41+00:00",
-      "summary": "This week, the Fable fallout became a broader realignment across AI, pushing more attention toward open models, model routing, local control, and the risks of building around any single frontier system. GLM 5.2, OpenRouter’s Fusion, SpaceX’s Cursor acquisition, and Europe’s AI s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1800,5 +1800,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-14T11:23:05.069832+00:00"
+  "generated_at": "2026-07-14T13:24:43.161422+00:00"
 }
