@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ab1eb4188cc704626967b9171d5da943",
+      "title": "Semiconductors Are Gushing Cash… Here’s What’s Next in The AI Trade  | Ben Pouladian",
+      "url": "https://www.youtube.com/watch?v=1PiHrb6mmo4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-14T20:05:58+00:00",
+      "summary": "In this episode of Monetary Matters, Jack Farley sits down with semiconductor analyst Ben Pouladian of BEP Research to unpack the complex hardware supply chain powering the AI revolution. Pouladian pushes back against the bear argument that the current boom is merely a dot-com b…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "14b9eb7ced07f628ea9d3b5ecdb9223d",
       "title": "Stock Market: CPI Inflation Report Sends Fed Rate Hike Odds Lower",
       "url": "https://www.youtube.com/watch?v=dPyrtDC9c4M",
@@ -977,19 +992,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f79379cc100a5e68f9b614aa515290e2",
-      "title": "The Oil Market Has One Month Left Before A “Rupture” Occurs | Kpler’s Matt Smith",
-      "url": "https://www.youtube.com/watch?v=S-5jHt3TBds",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-08T13:18:52+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\n\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack sits down with Matt Smith, the Director of Research at Kepler, to analyze how the global oil market is sleepwalking into a major supply crisis four months in…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9e939a7d188eabf678b009d63f68b23",
       "title": "Deep Learning Weekly: Issue 458",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
@@ -1799,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-14T19:12:53.487412+00:00"
+  "generated_at": "2026-07-14T20:56:02.504159+00:00"
 }
