@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "14b9eb7ced07f628ea9d3b5ecdb9223d",
+      "title": "Stock Market: CPI Inflation Report Sends Fed Rate Hike Odds Lower",
+      "url": "https://www.youtube.com/watch?v=dPyrtDC9c4M",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-14T18:46:57+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "02871722385e13e8934a2a91abd92855",
       "title": "How the Escalating AI Wars Benefit You",
       "url": "https://www.youtube.com/watch?v=jZfJ2obqT-s",
@@ -1018,22 +1033,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "374b4be4d6a1936d39ec32d5594e6050",
-      "title": "Mortgage Rates Are Rising Again — Here's What Happens Next",
-      "url": "https://www.youtube.com/watch?v=8TzPOKGuvPw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-05-29T19:00:26+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "558b69b078dd7fbf0b8c14c31ee10296",
       "title": "Deep Learning Weekly: Issue 457",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-457",
@@ -1800,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-14T17:10:08.960895+00:00"
+  "generated_at": "2026-07-14T19:12:53.487412+00:00"
 }
