@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e9e7c3de7e147dd2c1dfa6a23fdad198",
+      "title": "AI Optimism vs AI Pessimism",
+      "url": "https://www.youtube.com/watch?v=xjMXGNxJMXI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-15T20:21:51+00:00",
+      "summary": "AI discourse now balances cautious optimism against persistent doomsday narratives. A Stanford-led statement calls for focused study of AI's economic transformation and pragmatic policy preparation. Proposals range from voluntary frontier-model standards with pre-release testing…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ab1eb4188cc704626967b9171d5da943",
       "title": "Semiconductors Are Gushing Cash… Here’s What’s Next in The AI Trade  | Ben Pouladian",
       "url": "https://www.youtube.com/watch?v=1PiHrb6mmo4",
@@ -779,21 +794,6 @@
       "source_type": "rss",
       "published": "2026-06-23T12:45:59+00:00",
       "summary": "A playbook for the biggest upheaval of work we’ll see in our lifetime",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d43265067378023c8cec3f19b225035b",
-      "title": "Why AI Users Are Raving About GLM 5.2",
-      "url": "https://www.youtube.com/watch?v=HkVpSoaIKsc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-22T19:38:26+00:00",
-      "summary": "Examination of the Fable/Mythos controversy, including the NSA jailbreak context and Trump’s remarks about Anthropic. Analysis of GLM 5.2 and DeepMind departures showing open-weight models challenging frontier labs and reshaping enterprise AI tactics. Rumors about Fable, Claude …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1801,5 +1801,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-15T20:04:33.297046+00:00"
+  "generated_at": "2026-07-15T21:55:31.068849+00:00"
 }
