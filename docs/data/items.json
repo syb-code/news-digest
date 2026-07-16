@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "679145c564ea081d8b0953a80cac5ef3",
+      "title": "Why Capturing The Market’s Biggest Trends Means Embracing High Volatility | Takahe Capital",
+      "url": "https://www.youtube.com/watch?v=6mCs4MDHoGE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-16T13:26:50+00:00",
+      "summary": "Moritz Seibert and Moritz Heiden of Takahe Capital dive deep into the mechanics of high-octane trend-following strategies and unpack why they target 25-30% annualized volatility, bucking the institutional trend of lower volatility to capture massive outlier trades like the recen…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "e9e7c3de7e147dd2c1dfa6a23fdad198",
       "title": "AI Optimism vs AI Pessimism",
       "url": "https://www.youtube.com/watch?v=xjMXGNxJMXI",
@@ -961,21 +974,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a731e1cce66af93fe3ace93ac9efa003",
-      "title": "America’s $205 Billion Fund You’ve Never Heard Of | Conor Coleman",
-      "url": "https://www.youtube.com/watch?v=Z8KhWgzaCA8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-10T17:45:03+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nConor Coleman, Head of Investments and Chief of Staff at the Development Finance Corporation (DFC), joins Monetary Matters to explain the DFC’s capacity as the international investment arm of the United St…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3e8dc560258b8f2fbcd51feeeff5033b",
       "title": "The Fed May Be Forced to Raise Rates After This",
       "url": "https://www.youtube.com/watch?v=dIS4pRHl9iI",
@@ -1801,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-16T12:17:57.084861+00:00"
+  "generated_at": "2026-07-16T14:57:07.474171+00:00"
 }
