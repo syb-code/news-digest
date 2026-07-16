@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "5acc3c9930f65e603d76e00ad4de6bf8",
+      "title": "Deep Learning Weekly: Issue 464",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-464",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-16T15:01:04+00:00",
+      "summary": "Thinking Machines' Inkling, How We Optimized Opik’s MCP Server for Cost & Performance, Metacognition in LLMs: Foundations, Progress, and Opportunities, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "679145c564ea081d8b0953a80cac5ef3",
       "title": "Why Capturing The Market’s Biggest Trends Means Embracing High Volatility | Takahe Capital",
       "url": "https://www.youtube.com/watch?v=6mCs4MDHoGE",
@@ -1504,19 +1517,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "53a0e6836437abdf3702d73c3fff98de",
-      "title": "Deep Learning Weekly: Issue 444",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-444",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-02-26T16:01:52+00:00",
-      "summary": "Gemini 3.1 Pro, A Dream of Spring for Open-Weight LLMs: 10 Architectures from Jan-Feb 2026, a paper on Does Your Reasoning Model Implicitly Know When to Stop Thinking?, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "e6e12a7181a18a1fe8048f3b634eaf2a",
       "title": "Last Week in AI #336 - Sonnet 4.6, Gemini 3.1 Pro, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/last-week-in-ai-336-sonnet-46-gemini",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-16T14:57:07.474171+00:00"
+  "generated_at": "2026-07-16T16:17:03.840016+00:00"
 }
