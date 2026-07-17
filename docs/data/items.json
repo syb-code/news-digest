@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "47107b841fc91a4badbd3122e08c59bd",
+      "title": "The Best Order to Invest Your Money (Step-by-Step)",
+      "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-17T16:00:25+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5acc3c9930f65e603d76e00ad4de6bf8",
       "title": "Deep Learning Weekly: Issue 464",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-464",
@@ -1033,19 +1046,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "caff4488e417f7417937ab64c2c0c096",
-      "title": "Oil Crisis Warning — Here's What Happens Next",
-      "url": "https://www.youtube.com/watch?v=BSlpQ4CrsVI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-01T15:00:22+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "558b69b078dd7fbf0b8c14c31ee10296",
       "title": "Deep Learning Weekly: Issue 457",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-457",
@@ -1799,5 +1799,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-17T14:39:17.537435+00:00"
+  "generated_at": "2026-07-17T16:11:06.537860+00:00"
 }
