@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "644dffd43b1b3aace6eb1c8047bf2348",
+      "title": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-18T17:04:04+00:00",
+      "summary": "Community Wisdom 194",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "47107b841fc91a4badbd3122e08c59bd",
       "title": "Retirement Plans: The Best Order to Invest Your Money",
       "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
@@ -852,21 +865,6 @@
       "duration_sec": null,
       "themes": [
         "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2843beaf192632e278f3b5d4982871c1",
-      "title": "🎙️ How I AI: How to write AI agent loops in Claude Code and Codex + How Claude Mythos found a 15-year-old bug in Mozilla Firefox",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-to-write-ai-agent-loops",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-22T15:02:37+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1799,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-18T16:52:46.501368+00:00"
+  "generated_at": "2026-07-18T17:53:15.910375+00:00"
 }
