@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a79e7c4725b3577719cf47097eb3be20",
+      "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
+      "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-19T12:31:21+00:00",
+      "summary": "Elizabeth Stone, CPTO of Netflix, on managing AI-era product teams, the rise of systems thinking, and how to build excellence as an operating system",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "644dffd43b1b3aace6eb1c8047bf2348",
       "title": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
@@ -835,21 +850,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bf46fd0b936664c82f890980a974c820",
-      "title": "The new inner game: Your unfair advantage in the age of AI",
-      "url": "https://www.lennysnewsletter.com/p/the-new-inner-game-your-unfair-advantage",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-23T12:45:59+00:00",
-      "summary": "A playbook for the biggest upheaval of work we’ll see in our lifetime",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1797,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-19T11:53:30.851167+00:00"
+  "generated_at": "2026-07-19T13:08:08.431756+00:00"
 }
