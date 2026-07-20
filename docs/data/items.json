@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "e4b12c90e618f3cf409f1b18a3887812",
+      "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
+      "url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-20T12:04:47+00:00",
+      "summary": "Listen now | 🎙 How Alex Lieberman (Morning Brew) built a Claude workflow that interviews him before drafting, codes his voice in Markdown, and runs a six-persona revision loop before posting",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a79e7c4725b3577719cf47097eb3be20",
       "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
       "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
@@ -815,21 +828,6 @@
       "source_type": "youtube",
       "published": "2026-06-24T17:35:56+00:00",
       "summary": "In this episode of Other People's Money, host Max Wiethe sits down with Shashank Chiranewala, founder of the new investment platform Plutus, to explore the future of independent research and portfolio management. Shashank explains why his platform is fundamentally different from…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f70c73e27ce79847cb961e5aed0e10d3",
-      "title": "GLM 5.2: why I’m replacing Opus in Claude Code with this new model",
-      "url": "https://www.lennysnewsletter.com/p/glm-52-why-im-replacing-opus-in-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-24T12:03:52+00:00",
-      "summary": "Watch now | 🎙️I ran GLM-5.2, the open-weight model from Z.AI, through codebase audits, UI redesigns, and a 45-minute autonomous bug-hunting task in Cursor and Claude Code, and it cost me $3.36",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1797,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-20T09:55:40.646355+00:00"
+  "generated_at": "2026-07-20T12:13:43.497232+00:00"
 }
