@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "8ebe9a0a9b58b8485ee3f08fd24ef892",
+      "title": "The Next Financial Crisis Isn’t In Banks. It’s In Insurance & Private Credit | Nick Nemeth",
+      "url": "https://www.youtube.com/watch?v=5qkNpMxD9kw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-20T15:16:26+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nPrivate credit has ballooned to roughly a trillion dollars, but Nick Nemeth of Mispriced Assets argues the danger isn't the banking system — it's insurance. In this Monetary Matters interview with Jack Far…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "618443aef1a55ada25722a181b5ab89f",
       "title": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
@@ -30,7 +43,7 @@
     },
     {
       "id": "a79e7c4725b3577719cf47097eb3be20",
-      "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
+      "title": "Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)",
       "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
@@ -955,21 +968,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8f44ae4e1fa28050f1c4c001dc342d3d",
-      "title": "Massive AI Crackdown Is Coming (It’s Simply Too Good) | David Woo",
-      "url": "https://www.youtube.com/watch?v=760Bpzc1cYM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-15T20:46:28+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nIn this episode of Monetary Matters, host Jack Farley sits down with independent economist and strategist David Woo to break down the hidden realities behind global tech markets and macroeconomics.  Woo re…",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "196348b9a8405584c40c713c55d44e1f",
       "title": "Deep Learning Weekly: Issue 459",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-459",
@@ -1797,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-20T15:07:43.528648+00:00"
+  "generated_at": "2026-07-20T17:56:32.378397+00:00"
 }
