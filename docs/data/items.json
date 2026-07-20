@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "618443aef1a55ada25722a181b5ab89f",
+      "title": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-20T15:01:56+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "e4b12c90e618f3cf409f1b18a3887812",
       "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
       "url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
@@ -703,19 +718,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f924c4a05898282076f40d69f86424d5",
-      "title": "🧠 Community Wisdom: Beating a career slump, adding more structure to an established team, questions for new-team 1:1s, the evolving shape of the growth role, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-beating-a-career",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-27T17:09:06+00:00",
-      "summary": "Community Wisdom 191",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1797,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-20T12:13:43.497232+00:00"
+  "generated_at": "2026-07-20T15:07:43.528648+00:00"
 }
