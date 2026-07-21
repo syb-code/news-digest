@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "id": "458dffa49086ffdbb824024a190d68e8",
+      "title": "LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T10:30:35+00:00",
+      "summary": "Exploring the Fable 5 ban, SpaceX’s strategic acquisition, and a burst of open source advancements",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e6606dce4c3712b7c17fe73cd78896e3",
+      "title": "LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T10:03:37+00:00",
+      "summary": "Exploring Claude Fable 5’s impact, Siri AI’s latest enhancements, and the competitive IPO landscape shaping AI’s future",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "74da24cc49dc066899ab98c88c58e6cc",
+      "title": "LWiAI Podcast #247 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T09:38:11+00:00",
+      "summary": "New Models, IPO Announcements, and the Rise of Open Source Competitors",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8ebe9a0a9b58b8485ee3f08fd24ef892",
       "title": "The Next Financial Crisis Isn’t In Banks. It’s In Insurance & Private Credit | Nick Nemeth",
       "url": "https://www.youtube.com/watch?v=5qkNpMxD9kw",
@@ -1599,51 +1644,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5a91f296c7e8c6418ad947d6ec562bcd",
-      "title": "Last Week in AI #334 - Kimi K2.5 & Code, Genie 3, OpenClaw & Moltbook",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-334-kimi-k25-and",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-04T05:25:56+00:00",
-      "summary": "China’s Moonshot releases a new open source model Kimi K2.5 and a coding agent, Google Brings Genie 3’s Interactive World-Building Prototype to AI Ultra Subscribers, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4ef2abb3e57c5aa2ddc8c261ac0f48e7",
-      "title": "LWiAI Podcast #232 - ChatGPT Ads, Thinking Machines Drama, STEM",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-232-chatgpt-ads-thinking",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-28T09:51:53+00:00",
-      "summary": "OpenAI to test ads in ChatGPT as it burns through billions, The Drama at Thinking Machines, STEM: Scaling Transformers with Embedding Modules",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "90033c0599c790c5cf766322bdb54390",
-      "title": "Last Week in AI #333 - ChatGPT Ads, Zhipu+Huawei, Drama at Thinking Machines",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-333-chatgpt-ads-zhipuhuawei",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-01-23T05:14:53+00:00",
-      "summary": "OpenAI to test ads in ChatGPT as it burns through billions, Sequoia to invest in Anthropic, Zhipu AI breaks US chip reliance, The Drama at Thinking Machines Is Riveting Silicon Valley",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
       "title": "How to build stunning slide decks with AI",
       "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
@@ -1795,5 +1795,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-21T08:20:43.230915+00:00"
+  "generated_at": "2026-07-21T11:03:42.223541+00:00"
 }
