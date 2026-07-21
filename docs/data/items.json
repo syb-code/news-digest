@@ -1,6 +1,64 @@
 {
   "items": [
     {
+      "id": "a7218f031fe2a2c70de7f86ad7122f81",
+      "title": "Why a sabbatical can change everything",
+      "url": "https://www.lennysnewsletter.com/p/how-to-take-a-sabbatical",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T12:45:10+00:00",
+      "summary": "How to take Big Time Off",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "48c908fd9755c1d3da3f56c495d70104",
+      "title": "LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T12:03:29+00:00",
+      "summary": "GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8db638766398965814323eb68055ca13",
+      "title": "Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T11:31:58+00:00",
+      "summary": "Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6b86739e638a49f4a05716c8d9691ba7",
+      "title": "Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T11:03:19+00:00",
+      "summary": "Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "458dffa49086ffdbb824024a190d68e8",
       "title": "LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty",
       "url": "https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex",
@@ -756,21 +814,6 @@
       "source_type": "rss",
       "published": "2026-06-29T12:03:38+00:00",
       "summary": "Watch now | 🎙️ Eddie Kim, the CTO of Gusto, shows how a 5-person team shipped a full AI product line in 10 weeks using Claude Code, a perma-Zoom, and zero documentation",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5d6f5b76b89123313c2c8acfe5f95097",
-      "title": "OpenAI Codex lead on the new shape of product work | Andrew Ambrosino",
-      "url": "https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-28T12:31:54+00:00",
-      "summary": "Listen now | OpenAI’s Andrew Ambrosino on why software is getting cheaper to build, why taste matters more than ever, and what’s next for the Codex desktop app",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1586,36 +1629,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "edd7f454a2f69c0b485ca9f198f6202a",
-      "title": "LWiAI Podcast #234 - Opus 4.6, GPT-5.3-Codex, Seedance 2.0, GLM-5",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-234-opus-46-gpt-53",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-17T04:43:31+00:00",
-      "summary": "An action-packed episode!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1493b020123756010c035dbe177da6c0",
-      "title": "Last Week in AI #335 - Opus 4.6, Codex 5.3, Gemini 3 Deep Think, GLM 5, Seedance 2.0",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-335-opus-46-codex",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-16T02:00:20+00:00",
-      "summary": "A crazy packed edition of Last Week in AI! Plus some small updates.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5212d77759d956e815cc7a90f1ff063f",
       "title": "Prediction: Websites are disappearing",
       "url": "https://designplusai.com/p/prediction-websites-are-disappearing",
@@ -1626,21 +1639,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dfc8c1534256bcec99e61b6338ab8930",
-      "title": "LWiAI Podcast #233 - Moltbot, Genie 3, Qwen3-Max-Thinking",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-233-moltbot-genie-3",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-02-06T05:06:04+00:00",
-      "summary": "Google adds Gemini AI-powered ‘auto browse’ to Chrome, Users flock to open source Moltbot for always-on AI, Qwen3-Max-Thinking debuts, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1795,5 +1793,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-21T11:03:42.223541+00:00"
+  "generated_at": "2026-07-21T13:38:31.513413+00:00"
 }
