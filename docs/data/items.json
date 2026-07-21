@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "40f6137eef2ca26644dcbe70778319eb",
+      "title": "Gold Investing on The Stock Market: The Case For Buying Today",
+      "url": "https://www.youtube.com/watch?v=_Iih8RG5UTo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-21T16:34:00+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a7218f031fe2a2c70de7f86ad7122f81",
       "title": "Why a sabbatical can change everything",
       "url": "https://www.lennysnewsletter.com/p/how-to-take-a-sabbatical",
@@ -1115,21 +1128,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b62adbaa4a1f32a5e26dd628ae8ea0cd",
-      "title": "The Fed Found a New Way to Lower Inflation",
-      "url": "https://www.youtube.com/watch?v=iJGMYvFnH9Y",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-03T15:00:10+00:00",
-      "summary": "Visit my Patreon site: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "558b69b078dd7fbf0b8c14c31ee10296",
       "title": "Deep Learning Weekly: Issue 457",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-457",
@@ -1793,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-21T15:39:21.530314+00:00"
+  "generated_at": "2026-07-21T17:13:10.325417+00:00"
 }
