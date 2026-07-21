@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "1eb59341e7dce9552a03cbac1f253534",
+      "title": "Is Kimi K3 Really Fable Class",
+      "url": "https://www.youtube.com/watch?v=lmQqiWQF_8I",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-21T20:11:26+00:00",
+      "summary": "Moonshot’s Kimi K3 is the strongest open-weight model yet, with benchmarks approaching Fable 5 and GPT-5.6. But early testing reveals major limitations in reliability, speed, and cost. NLW examines whether K3 lives up to the hype—and what it means for open models, AI safety, and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "40f6137eef2ca26644dcbe70778319eb",
       "title": "Gold Investing on The Stock Market: The Case For Buying Today",
       "url": "https://www.youtube.com/watch?v=_Iih8RG5UTo",
@@ -909,21 +924,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c33cfee1f7538c4defe1a4999bd0e12d",
-      "title": "5 Ways Claude Tag Could Change How You Use AI",
-      "url": "https://www.youtube.com/watch?v=EpxZEvvOTL8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-24T21:57:57+00:00",
-      "summary": "Claude Tag embeds persistent, proactive AI coworkers into Slack channels to access team context, manage long‑horizon tasks, and automate code and incident response. Regulatory flashpoints include the Anthropic Fable access ban, a lawsuit seeking model reinstatement, and governme…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a57d92b6da5b727f942f46dfcad5c1d6",
       "title": "US Debt Crisis: Interest Payments Are Becoming a Major Problem",
       "url": "https://www.youtube.com/watch?v=LhCI3Uc66lI",
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-21T19:14:07.896897+00:00"
+  "generated_at": "2026-07-21T21:02:49.313106+00:00"
 }
