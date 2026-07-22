@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "19190ac19c9e0eac32af5b51ae790306",
+      "title": "Computer and browser use in Codex (5 real examples)",
+      "url": "https://www.lennysnewsletter.com/p/computer-and-browser-use-in-codex",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-22T12:03:38+00:00",
+      "summary": "Watch now | 🎙️ I show you exactly how I use browser use and computer use in Codex to QA my app, manage LinkedIn, and shop for Hawaii, including the under-prompting trick that makes frontier models work harder",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1eb59341e7dce9552a03cbac1f253534",
       "title": "Is Kimi K3 Really Fable Class",
       "url": "https://www.youtube.com/watch?v=lmQqiWQF_8I",
@@ -827,21 +842,6 @@
       "source_type": "rss",
       "published": "2026-06-29T15:02:35+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "fc76fc8f65b4befe96ec52b0747e159b",
-      "title": "No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)",
-      "url": "https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-29T12:03:38+00:00",
-      "summary": "Watch now | 🎙️ Eddie Kim, the CTO of Gusto, shows how a 5-person team shipped a full AI product line in 10 weeks using Claude Code, a perma-Zoom, and zero documentation",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-22T11:04:50.025499+00:00"
+  "generated_at": "2026-07-22T13:42:00.292818+00:00"
 }
