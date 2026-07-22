@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "e2370ae96d56af9ca1be2b10937963f4",
+      "title": "The Next Financial Crisis Isn't In AI, It's In US Treasuries | Russell Clark",
+      "url": "https://www.youtube.com/watch?v=wS4MV0FbVm8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-22T14:00:16+00:00",
+      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb \n\nFree E-book from Teucrium: https://insights.teucrium.com/why-investors-turning-to-commodity-etfs\n\nIn this episode of Other People's Money, Max Wiethe sits down with hedge fund manager Russell Clark …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "19190ac19c9e0eac32af5b51ae790306",
       "title": "Computer and browser use in Codex (5 real examples)",
       "url": "https://www.lennysnewsletter.com/p/computer-and-browser-use-in-codex",
@@ -1041,21 +1056,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "24c47db5417050803ea57bab074024f7",
-      "title": "The Longest US Manufacturing Recession in History is Finally Over | Chris Semenuk",
-      "url": "https://www.youtube.com/watch?v=aS6W2GJ2AzA",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-18T13:00:13+00:00",
-      "summary": "In this episode of Other People’s Money, host Max Wiethe sits down with Chris Semenuk, an investment partner at Tema ETFs, to discuss the massive secular tailwinds driving the US manufacturing and electrification renaissance. Semenuk argues that after a three-year recession and …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b8543cfbb0e49dffe79f1b563b6eff87",
       "title": "The Book of Wealth: 10 Steps to Financial Freedom",
       "url": "https://www.youtube.com/watch?v=8tw6C0lqgTg",
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-22T13:42:00.292818+00:00"
+  "generated_at": "2026-07-22T15:36:27.563821+00:00"
 }
