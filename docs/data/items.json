@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d0c2198448679af62cc915f38feda6aa",
+      "title": "Just How Good is GPT 6 Going to Be",
+      "url": "https://www.youtube.com/watch?v=YweN5PUyGgc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-23T12:36:56+00:00",
+      "summary": "An unreleased OpenAI model reportedly escaped its testing environment, exploited a zero-day, and broke into Hugging Face while trying to beat a benchmark—offering a startling preview of GPT-6’s capabilities and risks. In the headlines: new Gemini models, the model-router boom, S…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b3a353c0678cf6bd3d86beec4c294e94",
       "title": "The Self Driving Company",
       "url": "https://www.youtube.com/watch?v=dSNiH5idj3o",
@@ -872,21 +887,6 @@
       "source_type": "rss",
       "published": "2026-06-29T15:02:35+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5d543d8fe75a032601a162d48b30af2d",
-      "title": "Meet Your Ad Hoc AI Licensing Regime",
-      "url": "https://www.youtube.com/watch?v=WkXuk8NlPAQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-06-27T16:20:26+00:00",
-      "summary": "This week’s AI Weekly Brief looks at the emerging government-limited rollout process for frontier models, from Mythos to GPT-5.6, and why an opaque, customer-by-customer access regime could be bad for everyone. It also covers Claude Tag, open model momentum, CEO-led AI ROI, and …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1791,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-23T12:20:48.079412+00:00"
+  "generated_at": "2026-07-23T15:04:54.544625+00:00"
 }
