@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "9deb9e597965dc7ef9d6a965352d5d7f",
+      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
+      "url": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-24T17:15:25+00:00",
+      "summary": "Watch now | 🎙️ I ran Opus 5 through my seven-model benchmark, compared it with six other leading models, and came away with a verdict I genuinely didn’t expect",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a6a468f29dc4eb441da9c33e4e8659ce",
       "title": "How to Invest Your First $1,000 in The Stock Market",
       "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
@@ -906,21 +919,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "73ce1d8015402893378f89c0f2159064",
-      "title": "🎙️ How I AI: GLM-5.2 review & How Gusto built a new product line with Claude Code",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-glm-52-review-and-how-gusto",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-29T15:02:35+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "003f9e1537c064d41498e26e4f688f3a",
       "title": "Inflation is Rising Again — Here's What the Fed Will Do",
       "url": "https://www.youtube.com/watch?v=Jx9jpLmiDQY",
@@ -1788,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-24T16:32:17.246424+00:00"
+  "generated_at": "2026-07-24T18:15:11.458320+00:00"
 }
