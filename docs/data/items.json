@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "a6a468f29dc4eb441da9c33e4e8659ce",
+      "title": "How to Invest Your First $1,000 in The Stock Market",
+      "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-24T16:00:04+00:00",
+      "summary": "Stock Brokerage Accounts That Offer Fractional Shares:\nRobinhood: https://join.robinhood.com/briank4837/\nWeBull: https://www.webull.com/k/ClearValueTax\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the co…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9bf41bb987ce1e48e329ad3aefe4e46c",
+      "title": "Deep Learning Weekly: Issue 465",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-465",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-24T15:02:41+00:00",
+      "summary": "Kimi K3, Beyond the Single Trace: How We Built Agent Diagnostics for Opik, a paper on Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "2aaeb182fa14c5461e1bec1673fc721d",
       "title": "A Field Guide to AI Freakouts",
       "url": "https://www.youtube.com/watch?v=rGd91f4ohZk",
@@ -1097,22 +1123,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3e8dc560258b8f2fbcd51feeeff5033b",
-      "title": "The Fed May Be Forced to Raise Rates After This",
-      "url": "https://www.youtube.com/watch?v=dIS4pRHl9iI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-08T22:15:28+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9e939a7d188eabf678b009d63f68b23",
       "title": "Deep Learning Weekly: Issue 458",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
@@ -1571,19 +1581,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5d36618961dd198eaa49029c8632578d",
-      "title": "Deep Learning Weekly: Issue 445",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-445",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-03-05T16:03:02+00:00",
-      "summary": "Opik Claude Code Plugin: Automatically Configure Observability for Complex Agentic Systems, Nano Banana 2: Combining Pro capabilities with lightning-fast speed, a paper on Beyond Language Modeling: An",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "94cadf05be70d1289d14d790afceccb7",
       "title": "LWiAI Podcast #235 - Sonnet 4.6, Deep-thinking tokens, Anthropic vs Pentagon",
       "url": "https://lastweekin.ai/p/lwiai-podcast-235-sonnet-46-deep",
@@ -1791,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-24T14:51:09.584769+00:00"
+  "generated_at": "2026-07-24T16:32:17.246424+00:00"
 }
