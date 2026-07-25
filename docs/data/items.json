@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "4180ca0c663acbcaa4c25257ebd6993e",
+      "title": "How to Get the Most Out of Fable 5 and GPT 5.6 Sol",
+      "url": "https://www.youtube.com/watch?v=69JMFDFuI3A",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-25T19:00:06+00:00",
+      "summary": "Fable 5 and GPT‑5.6 Sol require new prompting patterns: explicit boundaries, iterative steering, and matching compute and effort to the task. Best practices include deleting repeated instructions, giving concrete directives, using voice dictation for richer context, and setting …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ec3bb0b924a93492e2ad88a606c9b247",
       "title": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients",
@@ -273,19 +286,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4180ca0c663acbcaa4c25257ebd6993e",
-      "title": "How to Get the Most Out of Fable 5 and GPT 5.6 Sol",
-      "url": "https://www.youtube.com/watch?v=69JMFDFuI3A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-20T15:28:27+00:00",
-      "summary": "Fable 5 and GPT‑5.6 Sol require new prompting patterns: explicit boundaries, iterative steering, and matching compute and effort to the task. Best practices include deleting repeated instructions, giving concrete directives, using voice dictation for richer context, and setting …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-25T17:55:12.888375+00:00"
+  "generated_at": "2026-07-25T19:01:43.427041+00:00"
 }
