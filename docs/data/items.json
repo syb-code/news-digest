@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "34e522144d32921b83c360f2de75be98",
+      "title": "Next Financial Crisis Unlikely To Start in Private Markets (Fundamentals Solid!) | Nicholas Brooks",
+      "url": "https://www.youtube.com/watch?v=wM0_rexOj_w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-26T16:59:20+00:00",
+      "summary": "In this episode of Monetary Matters, host Jack sits down with Nicholas Brooks, Head of Economic and Investment Research at ICG, to discuss the true health of private credit and corporate balance sheets. Brooks argues that underlying corporate fundamentals and EBITDA growth remai…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "dfe1570555b9d74aaba2dbcafdd505b0",
       "title": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
       "url": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
@@ -1033,21 +1048,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "32dd2136c8cabc7093e8f45d49424913",
-      "title": "Accounting Mismatch in AI Profits | Jim Chanos and Val Zlatev on Long/Short Alpha in AI & Semis",
-      "url": "https://www.youtube.com/watch?v=NlIsoPhQePs",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-20T21:15:32+00:00",
-      "summary": "In this panel at MacroMinds Symposium, Jack Farley sits down with legendary short seller Jim Chanos and Val Zlatev, Portfolio Manager and Partner at Analog Century Management, to analyze the long and short opportunities of the AI and semiconductor boom. Chanos highlights a signi…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "70dbd4a1d7791bbc5a91b072774c4a76",
       "title": "The Fed Quietly Abandoned the 2% Inflation Target",
       "url": "https://www.youtube.com/watch?v=CvQbW19GxWQ",
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-26T16:53:49.305955+00:00"
+  "generated_at": "2026-07-26T17:58:39.199629+00:00"
 }
