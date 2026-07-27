@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "146491037227843688b0960127b1ac3f",
+      "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
+      "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-27T20:39:34+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c44e4dd177258b50a2a8eef57179bf54",
       "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
@@ -1102,21 +1117,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bb8be81b2ad2cc91b7dcd46cabc4f37e",
-      "title": "Inflation is Surging Again",
-      "url": "https://www.youtube.com/watch?v=hbYCGgOQFhU",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-10T19:30:10+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c9e939a7d188eabf678b009d63f68b23",
       "title": "Deep Learning Weekly: Issue 458",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-458",
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-27T20:18:49.232588+00:00"
+  "generated_at": "2026-07-27T22:02:34.140971+00:00"
 }
