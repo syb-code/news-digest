@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "d44de19aa031ba9b7ffaf78805635cf5",
+      "title": "How to Get the Most from AI This Summer",
+      "url": "https://www.youtube.com/watch?v=kvmkj3dj_kw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-27T13:21:36+00:00",
+      "summary": "Ethan Mollick’s latest guide reveals the widening divide between casual chatbot use and serious work with agents. NLW breaks down his recommendations and launches AI Summer Adventure, a free choose-your-own-adventure with more than 20 hands-on projects—from building better conte…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0001693ff9ef60c83092247a742179f4",
+      "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
+      "url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-27T12:04:34+00:00",
+      "summary": "Watch now | 🎙️ Maddie Reese built a thermal printer anyone can message, a working Twitter pager, and a personal API using Cursor, a Raspberry Pi, and the radical idea that fun beats practical",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "34e522144d32921b83c360f2de75be98",
       "title": "Next Financial Crisis Unlikely To Start in Private Markets (Fundamentals Solid!) | Nicholas Brooks",
       "url": "https://www.youtube.com/watch?v=wM0_rexOj_w",
@@ -718,21 +748,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4542e5bd2876b0d790fbceec8e1d7dab",
-      "title": "AI Focused Companies Are Hiring More",
-      "url": "https://www.youtube.com/watch?v=PnEWo_AKzIU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-07T18:45:11+00:00",
-      "summary": "Coverage examines OpenAI's proposal to transfer a 5% stake to a US sovereign fund and the political fallout from corporate-government AI ties. KPMG, Ramp/Revelio and Box studies link higher AI adoption to headcount growth and show treating AI as a reasoning partner boosts workpl…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "cf0b16176db6f8204fad8104a5e4c825",
       "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould",
       "url": "https://www.youtube.com/watch?v=2hJOcV53Nng",
@@ -828,21 +843,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "68c6a25bd0002b00128129e97c156653",
-      "title": "🧠 Community Wisdom: Quarterly planning and AI, cash vs. equity comp, paying for interview exercises, AI-powered outbound, compliance startup opportunities, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-quarterly-planning",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-04T16:58:47+00:00",
-      "summary": "Community Wisdom 192",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-27T11:15:20.673467+00:00"
+  "generated_at": "2026-07-27T14:23:30.375552+00:00"
 }
