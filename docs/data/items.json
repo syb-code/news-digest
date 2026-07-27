@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c44e4dd177258b50a2a8eef57179bf54",
+      "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-27T15:03:21+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d44de19aa031ba9b7ffaf78805635cf5",
       "title": "How to Get the Most from AI This Summer",
       "url": "https://www.youtube.com/watch?v=kvmkj3dj_kw",
@@ -794,21 +809,6 @@
       "source_type": "rss",
       "published": "2026-07-06T15:01:17+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "29385ba3ffa3ddf29eb77fa0c30c83ff",
-      "title": "How I run autonomous coding agents from my phone with OpenAI Symphony + Linear | Alessio Fanelli (Kernel Labs)",
-      "url": "https://www.lennysnewsletter.com/p/how-i-run-autonomous-coding-agents",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-06T12:03:37+00:00",
-      "summary": "Watch now | 🎙️ Alessio Fanelli shows his Symphony + Linear setup for running parallel coding agents from his phone, then demos Codex hunting underpriced Pokémon cards in real time",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-27T14:23:30.375552+00:00"
+  "generated_at": "2026-07-27T16:54:27.511581+00:00"
 }
