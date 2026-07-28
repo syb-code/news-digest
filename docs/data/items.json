@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5198df5a89b7be177c47b9faa3d96025",
+      "title": "Where Should Claude Opus 5 Fit In Your Model Rotation",
+      "url": "https://www.youtube.com/watch?v=PL2JrJRaDSg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-28T03:02:31+00:00",
+      "summary": "Claude Opus 5 analyzed as a mid‑frontier model that challenges Fable and GPT by offering frontier performance at lower cost. Benchmarks show ARC‑AGI and FrontierBench gains, while user reports cite early stopping, argumentative behavior, and integration headaches. Coverage ties …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "146491037227843688b0960127b1ac3f",
       "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
       "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
@@ -755,21 +770,6 @@
       "source_type": "youtube",
       "published": "2026-07-08T11:00:27+00:00",
       "summary": "Open-weight models and data sovereignty take center stage as Palantir challenges frontier model companies over ownership, security, and competitive risk. Nvidia's NeoCloud backstop and SoftBank's NeoCloud plans aim to expand GPU access and reshape infrastructure financing for AI…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "44ff255994d44c94db02f922b7608bc7",
-      "title": "The Big Ways AI Just Changed",
-      "url": "https://www.youtube.com/watch?v=WUeMqk_ABmY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-07T21:00:08+00:00",
-      "summary": "June marked a pivot from token-subsidized experimentation to token scarcity, forcing enterprises to prioritize cost, efficiency, and model sovereignty. The Fable 5 launch and ensuing US export-control restrictions triggered intense debate over safety, data retention, and access …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-27T23:59:01.470088+00:00"
+  "generated_at": "2026-07-28T03:14:03.911573+00:00"
 }
