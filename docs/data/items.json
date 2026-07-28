@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "24af567603744cdeb044c039d7659688",
+      "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
+      "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-28T15:54:24+00:00",
+      "summary": "Runway, Higgsfield, Waking Up, Brain.fm, Customer.io, Resend, Pangram, Mercury Personal, Supercut, Readwise, and Jam are joining Product Pass today, all included with Annual and Insider memberships",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7f4714f39ca9065b9d8ea94524558748",
+      "title": "Why Yield Curve Control is the Only Way to Stop a Global Bond Crisis | Luke Gromen",
+      "url": "https://www.youtube.com/watch?v=lS67XZP81Tc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-28T13:52:54+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here: https://Fundrise.com/mm\n\nLuke Gromen, founder of Forest for the Trees, sites down with Max Wiethe to dissect the escalating crisis in the global bond market. Gromen argues that off-balance sheet liabilities, such as baby boomer ret…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5198df5a89b7be177c47b9faa3d96025",
       "title": "Where Should Claude Opus 5 Fit In Your Model Rotation",
       "url": "https://www.youtube.com/watch?v=PL2JrJRaDSg",
@@ -817,21 +845,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "613408d57a9130a17c076b9d666d341f",
-      "title": "🎙️ How I AI: Sonnet 5 review & How to run autonomous coding agents from your phone",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-sonnet-5-review-and-how",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-06T15:01:17+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2d9e5a5afedfcc40dd06ce7c4a4f8ed8",
       "title": "How The Federal Reserve Could Shrink Trillions From Its Balance Sheet | Darrell Duffie",
       "url": "https://www.youtube.com/watch?v=dpcn7Mj0f74",
@@ -1044,21 +1057,6 @@
       "duration_sec": null,
       "themes": [
         "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ad3990133109df7102f25dd27c0bdbac",
-      "title": "Ed Zitron: The AI Bubble is Bleeding Cash, Here Are The Receipts",
-      "url": "https://www.youtube.com/watch?v=xFd8X7TI7Sc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-21T21:44:21+00:00",
-      "summary": "Ed Zitron is one of the most prolific skeptic of the AI Boom. Having just reported OpenAI’s 2025 financial loss, he joins Jack to argue that the sheer size of the losses by the large language model (LLM) companies are unsustainable and the operational costs of training and runni…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1782,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-28T13:55:42.426224+00:00"
+  "generated_at": "2026-07-28T16:03:42.326263+00:00"
 }
