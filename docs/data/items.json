@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ce8a3659a9125817c2af497c2bf4b3b3",
+      "title": "Why Everyone Is Debating AI Policy",
+      "url": "https://www.youtube.com/watch?v=RlCAucFCwoo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-29T17:37:01+00:00",
+      "summary": "Debate over AI policy focuses on whether open-weight models should face formal regulation or be sidelined through manufactured regulatory risk. A high-profile tweet advocating regulatory uncertainty ignited fights over Operation Choke Point–style tactics, market power, and natio…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "24af567603744cdeb044c039d7659688",
       "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
       "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
@@ -543,6 +558,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "c851815d29c39efc4c91a07597d08566",
+      "title": "5 AI Engineering Trends That Non Engineers Should Know About",
+      "url": "https://www.youtube.com/watch?v=wGOsOMXMCG0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-15T18:28:31+00:00",
+      "summary": "OpenAI is prototyping a portable, screen-free smart speaker functioning as a ChatGPT-like companion with cameras, sensors, movable components, onboard memory, and rechargeable batteries. Legal friction with Apple and debates over in-home surveillance create commercialization and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ab1eb4188cc704626967b9171d5da943",
       "title": "Semiconductors Are Gushing Cash… Here’s What’s Next in The AI Trade  | Ben Pouladian",
       "url": "https://www.youtube.com/watch?v=1PiHrb6mmo4",
@@ -704,21 +734,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8be796f8257804b2e7ab1fc5037fb20e",
-      "title": "How AI Changes if Open Source Gets Banned",
-      "url": "https://www.youtube.com/watch?v=kpGZ83XqDqA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-09T18:54:26+00:00",
-      "summary": "Potential Chinese limits on overseas distribution of open-weight models could recast frontier AI as a national security asset and reshape global model access. Consequences for token efficiency and cost structures point toward heavier reliance on post-training tuning, lightweight…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b2f8c92b4462d9c7922e0bf4b9e93dcd",
       "title": "GPT-5.6 Sol vs. Claude Fable: Why OpenAI’s new model crushes my benchmark",
       "url": "https://www.lennysnewsletter.com/p/gpt-56-sol-vs-claude-fable-why-openais",
@@ -788,21 +803,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1022ac5b5ebad813bdcb76f62f1d0f0e",
-      "title": "How AI Is Changing How Companies Get Built",
-      "url": "https://www.youtube.com/watch?v=58xIe60tBfw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-08T11:00:27+00:00",
-      "summary": "Open-weight models and data sovereignty take center stage as Palantir challenges frontier model companies over ownership, security, and competitive risk. Nvidia's NeoCloud backstop and SoftBank's NeoCloud plans aim to expand GPU access and reshape infrastructure financing for AI…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1780,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-29T16:17:29.939078+00:00"
+  "generated_at": "2026-07-29T18:03:02.052184+00:00"
 }
