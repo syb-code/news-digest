@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c851815d29c39efc4c91a07597d08566",
+      "title": "5 AI Engineering Trends That Non Engineers Should Know About",
+      "url": "https://www.youtube.com/watch?v=wGOsOMXMCG0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-29T21:00:06+00:00",
+      "summary": "OpenAI is prototyping a portable, screen-free smart speaker functioning as a ChatGPT-like companion with cameras, sensors, movable components, onboard memory, and rechargeable batteries. Legal friction with Apple and debates over in-home surveillance create commercialization and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ce8a3659a9125817c2af497c2bf4b3b3",
       "title": "Why Everyone Is Debating AI Policy",
       "url": "https://www.youtube.com/watch?v=RlCAucFCwoo",
@@ -550,21 +565,6 @@
       "source_type": "youtube",
       "published": "2026-07-15T20:21:51+00:00",
       "summary": "AI discourse now balances cautious optimism against persistent doomsday narratives. A Stanford-led statement calls for focused study of AI's economic transformation and pragmatic policy preparation. Proposals range from voluntary frontier-model standards with pre-release testing…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c851815d29c39efc4c91a07597d08566",
-      "title": "5 AI Engineering Trends That Non Engineers Should Know About",
-      "url": "https://www.youtube.com/watch?v=wGOsOMXMCG0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-15T18:28:31+00:00",
-      "summary": "OpenAI is prototyping a portable, screen-free smart speaker functioning as a ChatGPT-like companion with cameras, sensors, movable components, onboard memory, and rechargeable batteries. Legal friction with Apple and debates over in-home surveillance create commercialization and…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1780,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-29T20:09:06.166465+00:00"
+  "generated_at": "2026-07-29T21:56:20.556001+00:00"
 }
