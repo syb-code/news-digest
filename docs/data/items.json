@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "50468330b37adef54625a54d3995378c",
+      "title": "Mum’s The Word: Kathryn Rooney Vera on Fed’s Second Meeting under Kevin Warsh (Live Replay)",
+      "url": "https://www.youtube.com/watch?v=fMNSCF1bW0w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-29T21:55:49+00:00",
+      "summary": "In this episode, Jack sits down with Kathryn Rooney Vera, Chief Market Strategist at StoneX Group, to unpack the Federal Reserve's decision to hold interest rates and Chair Warsh's transition toward a quieter, laissez-faire communication style. Kathryn shares her macroeconomic o…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c851815d29c39efc4c91a07597d08566",
       "title": "5 AI Engineering Trends That Non Engineers Should Know About",
       "url": "https://www.youtube.com/watch?v=wGOsOMXMCG0",
@@ -1030,22 +1046,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b2ea40c8e9ecc14700684e7e8b4c09ec",
-      "title": "OpenAI Lost HOW Much?! 😳",
-      "url": "https://www.youtube.com/shorts/QXjxYtjNdlE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-23T21:00:21+00:00",
-      "summary": "Jack Farley sits down with Ed Zitron to discuss reported 2025 financial figures for OpenAI.\n\nDespite generating more than $13 billion in revenue, Zitron points to enormous spending on research, infrastructure, and growth initiatives that could result in losses approaching $21 bi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bbee467fc63aa547c1859274d609347c",
       "title": "Housing Market Update: Home Prices, Mortgage Rates & Outlook",
       "url": "https://www.youtube.com/watch?v=fyl1_MclCOU",
@@ -1780,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-29T21:56:20.556001+00:00"
+  "generated_at": "2026-07-29T22:58:23.141996+00:00"
 }
