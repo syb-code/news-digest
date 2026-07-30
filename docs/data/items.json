@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "728c2a87ad275a7bacbc9cfeeabf55a8",
+      "title": "The Fed on Inflation: \"Americans Are Being Impatient\"",
+      "url": "https://www.youtube.com/watch?v=5e8txMnFbB0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-29T23:30:32+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "50468330b37adef54625a54d3995378c",
       "title": "Mum’s The Word: Kathryn Rooney Vera on Fed’s Second Meeting under Kevin Warsh (Live Replay)",
       "url": "https://www.youtube.com/watch?v=fMNSCF1bW0w",
@@ -1089,19 +1104,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b8543cfbb0e49dffe79f1b563b6eff87",
-      "title": "The Book of Wealth: 10 Steps to Financial Freedom",
-      "url": "https://www.youtube.com/watch?v=8tw6C0lqgTg",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-16T15:24:07+00:00",
-      "summary": "📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/B0DSLT8SRZ\nSpanish Version (Español): https://www.amazon.com/dp/B0F2GTZY7T\n\n📘 Get our Productivity Checklist on Amazon to boost your day-to-day productivity: https://www.amazon.com/dp/B0G1Z…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "196348b9a8405584c40c713c55d44e1f",
       "title": "Deep Learning Weekly: Issue 459",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-459",
@@ -1780,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-29T22:58:23.141996+00:00"
+  "generated_at": "2026-07-30T00:02:47.138523+00:00"
 }
