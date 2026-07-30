@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "62590f17eb1b8cfa547cff6c3cc7c70b",
+      "title": "Deep Learning Weekly: Issue 466",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-466",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-30T15:02:13+00:00",
+      "summary": "Claude Opus 5, How Digibee Builds Prompts with Opik to Power Their AI-Native Integration Platform, a paper on Progress Reward Modeling for Robotic Learning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "728c2a87ad275a7bacbc9cfeeabf55a8",
       "title": "The Fed on Inflation: \"Americans Are Being Impatient\"",
       "url": "https://www.youtube.com/watch?v=5e8txMnFbB0",
@@ -1534,19 +1549,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "904bc22d9379cc1d69be6472cc244384",
-      "title": "Deep Learning Weekly: Issue 446",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-446",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-03-12T15:02:50+00:00",
-      "summary": "Native Observability & Alerts for Your OpenClaw with Opik, Gemini Embedding 2, a paper on LoGeR: Long-Context Geometric Reconstruction with Hybrid Memory, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "1d0aca8b5a2b1736506fb6317d31092a",
       "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
       "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
@@ -1782,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-30T13:49:17.259395+00:00"
+  "generated_at": "2026-07-30T15:48:47.905068+00:00"
 }
