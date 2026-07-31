@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2ed1fc56bacfb6a290895f689bde9886",
+      "title": "6 Questions Shaping Enterprise AI",
+      "url": "https://www.youtube.com/watch?v=qUXAk4iZs4k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-07-31T19:05:36+00:00",
+      "summary": "Six questions shaping enterprise AI focus on strategy, architecture, cost allocation, upskilling, monitoring, and external business models. Sam Altman's Washington visits surface debates over model releases, voluntary safety testing, and deactivated research prototypes. Agentic …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "62590f17eb1b8cfa547cff6c3cc7c70b",
       "title": "Deep Learning Weekly: Issue 466",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-466",
@@ -762,21 +777,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "50993b6b2594ecb5ef01d3ea723ebe40",
-      "title": "How the 4 New Models Released This Week Will Change How You Work",
-      "url": "https://www.youtube.com/watch?v=ZX9dXdAL5IU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-10T19:53:56+00:00",
-      "summary": "Four major releases—GPT Live, Grok 4.5, Cognition SWE 1.7, and GPT‑5.6 Sol—signal an accelerated model cadence and growing specialization across AI. GPT Live introduces full‑duplex voice with background model orchestration for real‑time translation, tutoring, and conversational …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-07-31T19:18:08.357091+00:00"
+  "generated_at": "2026-07-31T21:00:20.848651+00:00"
 }
