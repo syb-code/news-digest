@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d2170a2b98a48ed4a8965e726d1a4c60",
+      "title": "AI Trade \"Dead Money\" For Now - But Macro Overall Is \"Pretty Risk-On\" For Stocks | Tian Yang",
+      "url": "https://www.youtube.com/watch?v=Q4eRWt2Zxx8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-02T22:35:51+00:00",
+      "summary": "In this episode, Jack sits down with Tian Yang, co-founder and head of research at Variant Perception, to analyze the current macroeconomic landscape and equity market outlook. Tian shares why macro indicators point to a broadly supportive \"risk-on\" environment over the next thr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "70a42a6110f37050d8e7da049b2a4ad3",
       "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
       "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
@@ -1063,21 +1078,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "16c16528756c6b560c3dd58afb3de61b",
-      "title": "The Secret to Investing Like Substack & FinTwit's Top Researchers",
-      "url": "https://www.youtube.com/watch?v=IHFVBrwt54s",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-24T17:35:56+00:00",
-      "summary": "In this episode of Other People's Money, host Max Wiethe sits down with Shashank Chiranewala, founder of the new investment platform Plutus, to explore the future of independent research and portfolio management. Shashank explains why his platform is fundamentally different from…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bbee467fc63aa547c1859274d609347c",
       "title": "Housing Market Update: Home Prices, Mortgage Rates & Outlook",
       "url": "https://www.youtube.com/watch?v=fyl1_MclCOU",
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-02T21:51:09.922481+00:00"
+  "generated_at": "2026-08-02T22:51:48.527107+00:00"
 }
