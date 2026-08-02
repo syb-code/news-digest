@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "70a42a6110f37050d8e7da049b2a4ad3",
+      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+      "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-02T12:32:02+00:00",
+      "summary": "Listen now | Tom Verrilli explains why fewer, more senior PMs doing real IC work outperform any ratio-driven org structure",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9f08873cb9db1536f8986c4786bb07fa",
       "title": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started",
@@ -849,19 +864,6 @@
         "AI/ML",
         "Macro/Fed"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c3ac762076407e797117905e23742833",
-      "title": "What a harness is and how to build one with Claude Agent SDK",
-      "url": "https://www.lennysnewsletter.com/p/what-a-harness-is-and-how-to-build",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-08T12:03:35+00:00",
-      "summary": "Listen now | 🎙️ I built a custom Claude Agent SDK harness to automate Sentry bug triage, saved the \"dear agent, please fix this\" prompt forever, and show you exactly how to build your own",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-02T11:58:50.994721+00:00"
+  "generated_at": "2026-08-02T13:39:41.641213+00:00"
 }
