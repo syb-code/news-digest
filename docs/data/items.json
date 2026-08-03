@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "001884a3b28013d0807a54d5cb55fad2",
+      "title": "How a $30B Hedge Fund Implosion Will Effect AI",
+      "url": "https://www.youtube.com/watch?v=-BFKpd24vP0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-03T13:21:51+00:00",
+      "summary": "OpenAI and Anthropic reported jaw‑dropping ARR growth, signaling surging token demand and a shift from seat‑based to consumption‑based business models. Hyperscaler capex and off‑balance‑sheet data‑center debt expose financing risks without mirroring 2008 systemic mechanisms. The…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3b87f6c21ee92236232f2030d628eec3",
+      "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
+      "url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-03T12:04:26+00:00",
+      "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0d7d50ade4fffb354c8d31000a62b977",
       "title": "LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack",
       "url": "https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36",
@@ -780,21 +810,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f3034f4aaa9a54f81a7ddcd5a84f9953",
-      "title": "Anthropic Can Now Read Claude's Mind",
-      "url": "https://www.youtube.com/watch?v=TgOpdC2HrE8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-13T13:58:26+00:00",
-      "summary": "UN leaders called for a ban on autonomous weapons and introduced a child safety pledge to hold AI developers accountable. Anthropic revealed a J-Lens tool to read and edit Claude's private reasoning, exposing a small \"J-space\" of reportable concepts driving model decisions. Poli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9d90ed351e81e086bcc03e46e15eba49",
       "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
       "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
@@ -863,21 +878,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6dbacd911f88e3a667576259276d2b9f",
-      "title": "Adam Mosseri: AI is a tailwind for authenticity",
-      "url": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-09T12:32:21+00:00",
-      "summary": "Listen now | Instagram’s Adam Mosseri on the new product team structure in 2026, the rise of the “product staff” role, and the hiring traits that matter most today",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-03T10:38:14.710181+00:00"
+  "generated_at": "2026-08-03T13:37:09.585484+00:00"
 }
