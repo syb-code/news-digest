@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "2cc781540e8cdc44cc22dfb9e4d3644a",
+      "title": "What if you’re not supposed to have a long-term plan?",
+      "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-04T13:02:53+00:00",
+      "summary": "The case for career emergence",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "47dc24d60fb07577364b69633360e684",
+      "title": "How Significant Are AI's Latest Math Breakthroughs?",
+      "url": "https://www.youtube.com/watch?v=nWdL7fvOUXA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-04T12:59:31+00:00",
+      "summary": "OpenAI Astra reportedly produced Lean-certified proofs solving ten longstanding mathematical problems for roughly $2,000 in token costs. Debate centers on scientific-discovery acceleration, verification bottlenecks as experts struggle to validate advanced proofs, and potential u…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9083906baaa936ce04c690bc6b772be6",
+      "title": "Everything You Need to Know about AI Tokens",
+      "url": "https://www.youtube.com/watch?v=dSNgCgQYYFY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-03T18:04:48+00:00",
+      "summary": "In this Operator's edition, Nufar Gaspar explains what AI tokens actually are, why costs can spiral in agentic workflows, and how to distinguish valuable usage from waste. Learn how to measure cost per successful task, eliminate “tokens that spin,” choose the right models and pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f4b4e4a5f9560840e04c2803c1aa88f3",
       "title": "GDP Report: Americans Are Burning Through Their Savings",
       "url": "https://www.youtube.com/watch?v=XGtzoJK0Smw",
@@ -780,36 +823,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "02871722385e13e8934a2a91abd92855",
-      "title": "How the Escalating AI Wars Benefit You",
-      "url": "https://www.youtube.com/watch?v=jZfJ2obqT-s",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-14T11:35:17+00:00",
-      "summary": "Apple’s lawsuit against OpenAI signals an AI race expanding beyond models into hardware, efficiency and control. NLW explains how the escalating competition is producing better models, higher usage limits and lower costs for users—and why the opportunity may not last. In the hea…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "37bde81edb49710e9e822832f815fd3d",
-      "title": "How to Help People Thrive with AI",
-      "url": "https://www.youtube.com/watch?v=bl76qV0xwec",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-13T23:09:01+00:00",
-      "summary": "AI can eliminate tedious work, but its real promise is helping people stretch their capabilities and pursue things that weren’t possible before. From the risk of “AI brain fry” to Uber’s agentic pods, NLW explores how organizations can turn productivity gains into human growth a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f70dab487d42d617feb8b806c4e1dd85",
       "title": "The Stock Market's Midterm Election Pattern: 98 Years of Data",
       "url": "https://www.youtube.com/watch?v=xxKl1i7iD88",
@@ -865,19 +878,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0cbe6c8707097d34a1f554adc7fc9b8e",
-      "title": "🧠 Community Wisdom: Negative network effects, managing overconfident colleagues, developers sidestepping design decisions, keeping stakeholder meetings on track, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-negative-network",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-11T16:40:58+00:00",
-      "summary": "Community Wisdom 193",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-04T12:57:39.575259+00:00"
+  "generated_at": "2026-08-04T15:24:35.935125+00:00"
 }
