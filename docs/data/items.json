@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
+      "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
+      "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-04T18:58:32+00:00",
+      "summary": "Victor Haghani — founder of Elm Wealth, co-author of “The Missing Billionaires” and former founding partner of Long-Term Capital Management — joins Monetary Matters to explain why the stock market doesn't follow a random walk. Drawing on his new paper \"Who Killed the Random Walk…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2cc781540e8cdc44cc22dfb9e4d3644a",
       "title": "What if you’re not supposed to have a long-term plan?",
       "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
@@ -1078,21 +1093,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "73e0be11f7f586ae971363e8ae175928",
-      "title": "Every Layer of AI Is Losing Money!",
-      "url": "https://www.youtube.com/shorts/WbrhzFmVr7w",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-25T11:30:21+00:00",
-      "summary": "Jack Farley sits down with Ed Zitron to discuss what he sees as a fundamental problem in the AI industry. Zitron argues that the economics of artificial intelligence remain deeply challenged. From AI developers to compute providers and even many of their customers, profitability…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a57d92b6da5b727f942f46dfcad5c1d6",
       "title": "US Debt Crisis: Interest Payments Are Becoming a Major Problem",
       "url": "https://www.youtube.com/watch?v=LhCI3Uc66lI",
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-04T17:42:16.666982+00:00"
+  "generated_at": "2026-08-04T19:25:27.580603+00:00"
 }
