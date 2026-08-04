@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9083906baaa936ce04c690bc6b772be6",
+      "title": "Everything You Need to Know about AI Tokens",
+      "url": "https://www.youtube.com/watch?v=dSNgCgQYYFY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-04T21:00:06+00:00",
+      "summary": "In this Operator's edition, Nufar Gaspar explains what AI tokens actually are, why costs can spiral in agentic workflows, and how to distinguish valuable usage from waste. Learn how to measure cost per successful task, eliminate “tokens that spin,” choose the right models and pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
       "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
       "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
@@ -36,21 +51,6 @@
       "source_type": "youtube",
       "published": "2026-08-04T12:59:31+00:00",
       "summary": "OpenAI Astra reportedly produced Lean-certified proofs solving ten longstanding mathematical problems for roughly $2,000 in token costs. Debate centers on scientific-discovery acceleration, verification bottlenecks as experts struggle to validate advanced proofs, and potential u…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9083906baaa936ce04c690bc6b772be6",
-      "title": "Everything You Need to Know about AI Tokens",
-      "url": "https://www.youtube.com/watch?v=dSNgCgQYYFY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-03T18:04:48+00:00",
-      "summary": "In this Operator's edition, Nufar Gaspar explains what AI tokens actually are, why costs can spiral in agentic workflows, and how to distinguish valuable usage from waste. Learn how to measure cost per successful task, eliminate “tokens that spin,” choose the right models and pr…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-04T21:07:08.326637+00:00"
+  "generated_at": "2026-08-04T22:58:35.105589+00:00"
 }
