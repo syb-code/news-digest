@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3d9f94e3a222cd46735a61cb56a43518",
+      "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
+      "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-05T12:04:01+00:00",
+      "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9083906baaa936ce04c690bc6b772be6",
       "title": "Everything You Need to Know about AI Tokens",
       "url": "https://www.youtube.com/watch?v=dSNgCgQYYFY",
@@ -873,21 +888,6 @@
       "source_type": "rss",
       "published": "2026-07-13T12:05:20+00:00",
       "summary": "Watch now | 🎙️ Alex Finn breaks down his five-computer local AI setup, the Claude Code build-and-review loop that ships features while he sleeps, and why unlimited local intelligence beats a $20 subscription",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "022d324a2310e37d666b9c602a1c91d3",
-      "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
-      "url": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-12T12:32:14+00:00",
-      "summary": "Listen now | The great tech bifurcation: half the workforce is thriving, half is struggling, and burnout just hit a record high",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-05T11:55:51.161445+00:00"
+  "generated_at": "2026-08-05T14:02:50.162802+00:00"
 }
