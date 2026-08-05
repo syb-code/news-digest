@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7f40431c7645e77972a507bf1c02eb90",
+      "title": "Can Open Models Solve Corporate AI Washing",
+      "url": "https://www.youtube.com/watch?v=yg_ZF8pPvIE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-05T18:28:46+00:00",
+      "summary": "Qwen 3.8 Max marks a major open-weights return with aggressive pricing and contested benchmark claims. Enterprise conversation has shifted toward governance, cost optimization, fine-tuning strategies, and combating AI wishing and washing. News highlights include Palantir's AI so…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3d9f94e3a222cd46735a61cb56a43518",
       "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
       "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
@@ -805,21 +820,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e9e7c3de7e147dd2c1dfa6a23fdad198",
-      "title": "AI Optimism vs AI Pessimism",
-      "url": "https://www.youtube.com/watch?v=xjMXGNxJMXI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-15T20:21:51+00:00",
-      "summary": "AI discourse now balances cautious optimism against persistent doomsday narratives. A Stanford-led statement calls for focused study of AI's economic transformation and pragmatic policy preparation. Proposals range from voluntary frontier-model standards with pre-release testing…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-05T18:16:59.469579+00:00"
+  "generated_at": "2026-08-05T20:22:46.089561+00:00"
 }
