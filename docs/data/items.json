@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "979514cbdf2e5fd252c24da308b1e6db",
+      "title": "These Power Stocks (Not Semis) Are The Real AI Beneficiaries, Say Investing Brother Duo Up 1,300%",
+      "url": "https://www.youtube.com/watch?v=cUO79k97pJ8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-07T19:41:12+00:00",
+      "summary": "Monetary Matters listeners can get 20% off subscriptions for one year here (billed quarterly):\nhttps://pernasresearch.com/register/monetary-matters/?coupon=monetarymatters\n\nIn this episode of Monetary Matters, Jack Farley sits down with Deiya and Dean Pernas of Pernas Research t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "76bdf2a57d2191e6396183a40360f5af",
       "title": "Deep Learning Weekly: Issue 467",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-467",
@@ -1062,21 +1077,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "784448ab15bc16d3ce53945631dda8c6",
-      "title": "Lessons From The First Great Depression You Never Were Taught | Liaquat Ahamed",
-      "url": "https://www.youtube.com/watch?v=czdGQG9HvGM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-29T17:39:06+00:00",
-      "summary": "Liaquat Ahamed, legendary financial historian and author, joins Jack to discuss his latest book, \"1873: The Rothschilds, the First Great Depression, and the Making of the Modern World.” Ahamed unpacks the 1873 financial crisis, explaining how Germany's abrupt move from silver to…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "4b0c87ced532b4c74a0046d495dc1115",
       "title": "The Fed's Money Printing Machine Never Stopped",
       "url": "https://www.youtube.com/watch?v=o41v1Xcbi8o",
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-07T19:49:19.099234+00:00"
+  "generated_at": "2026-08-07T20:35:43.221112+00:00"
 }
