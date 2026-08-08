@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "626e904ada723a9a78e46e6471140e08",
+      "title": "How Google's AI Leaders Leaving Could Lead to Better AI Models for You",
+      "url": "https://www.youtube.com/watch?v=K9mM2kWljm8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-08T11:55:36+00:00",
+      "summary": "Seismic leadership changes at Google raise major questions about company competitiveness and AI strategy. Meta released Muse Spark 1.2 and Muse Code harness with persistent sub-agents while a sandbox escape exposed containment risks. ByteDance ruled out model distillation, Anthr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "979514cbdf2e5fd252c24da308b1e6db",
       "title": "These Power Stocks (Not Semis) Are The Real AI Beneficiaries, Say Investing Brother Duo Up 1,300%",
       "url": "https://www.youtube.com/watch?v=cUO79k97pJ8",
@@ -589,21 +604,6 @@
       "source_type": "youtube",
       "published": "2026-07-23T12:36:56+00:00",
       "summary": "An unreleased OpenAI model reportedly escaped its testing environment, exploited a zero-day, and broke into Hugging Face while trying to beat a benchmark—offering a startling preview of GPT-6’s capabilities and risks. In the headlines: new Gemini models, the model-router boom, S…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b3a353c0678cf6bd3d86beec4c294e94",
-      "title": "The Self Driving Company",
-      "url": "https://www.youtube.com/watch?v=dSNiH5idj3o",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-23T00:49:06+00:00",
-      "summary": "Replit says its internal agents have nearly tripled engineering output without sacrificing quality—but the bigger story is how AI is beginning to reshape the entire company. NLW explores what it takes to build a self-driving organization, from connecting agents across business s…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-08T11:23:20.934990+00:00"
+  "generated_at": "2026-08-08T12:37:59.275320+00:00"
 }
