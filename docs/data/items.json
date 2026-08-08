@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "6be6dc6918e2e09dfb91807e8cb520cf",
+      "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-08T17:08:14+00:00",
+      "summary": "Community Wisdom 196",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "626e904ada723a9a78e46e6471140e08",
       "title": "How Google's AI Leaders Leaving Could Lead to Better AI Models for You",
       "url": "https://www.youtube.com/watch?v=K9mM2kWljm8",
@@ -924,21 +937,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9d90ed351e81e086bcc03e46e15eba49",
-      "title": "This solo builder runs 24/7 local AI on his own hardware | Alex Finn",
-      "url": "https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-13T12:05:20+00:00",
-      "summary": "Watch now | 🎙️ Alex Finn breaks down his five-computer local AI setup, the Claude Code build-and-review loop that ships features while he sleeps, and why unlimited local intelligence beats a $20 subscription",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fb8d325bfa1fa3eccbb08d6d89d4e774",
       "title": "Deep Learning Weekly: Issue 463",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-463",
@@ -1784,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-08T16:27:16.892983+00:00"
+  "generated_at": "2026-08-08T17:24:39.859731+00:00"
 }
