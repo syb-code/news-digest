@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "06b8724864d4d4b640c41116d23300ef",
+      "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+      "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-09T12:31:29+00:00",
+      "summary": "Listen now | Cursor’s Adam Ward on “funnel of doom” hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6be6dc6918e2e09dfb91807e8cb520cf",
       "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
@@ -922,21 +937,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9114cbd5d6d16a967e5d9f70a3c8326d",
-      "title": "🎙️ How I AI: GPT-5.6 review, How a solo builder runs 24/7 local AI, and What an agent harness is and how to build one",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-56-review-how-a-solo",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-13T15:02:17+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fb8d325bfa1fa3eccbb08d6d89d4e774",
       "title": "Deep Learning Weekly: Issue 463",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-463",
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-09T11:24:14.842838+00:00"
+  "generated_at": "2026-08-09T12:40:32.989941+00:00"
 }
