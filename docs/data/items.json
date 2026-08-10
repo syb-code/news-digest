@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9b80b406351b6fc2373d447572e5f7df",
+      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-10T15:01:49+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ca4c2056d8d35b01815596e3a12df135",
       "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
       "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
@@ -839,21 +854,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a79e7c4725b3577719cf47097eb3be20",
-      "title": "Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO)",
-      "url": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-19T12:31:21+00:00",
-      "summary": "Listen now (72 mins) | Elizabeth Stone, CPTO of Netflix, on managing AI-era product teams, the rise of systems thinking, and how to build excellence as an operating system",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-10T14:19:48.157055+00:00"
+  "generated_at": "2026-08-10T15:56:09.622314+00:00"
 }
