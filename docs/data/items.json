@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ca4c2056d8d35b01815596e3a12df135",
+      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-10T12:01:44+00:00",
+      "summary": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "06b8724864d4d4b640c41116d23300ef",
       "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
       "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
@@ -839,19 +854,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "644dffd43b1b3aace6eb1c8047bf2348",
-      "title": "🧠 Community Wisdom: Syncing Claude Code and Claude Design, earning trust when customers assume you vibe coded it, co-founder fallout lessons, personal CRMs, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-syncing-claude-code",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-18T17:04:04+00:00",
-      "summary": "Community Wisdom 194",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1782,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-10T11:03:27.884194+00:00"
+  "generated_at": "2026-08-10T12:57:29.637084+00:00"
 }
