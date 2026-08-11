@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "85fd2d86d7b555e965983517488a8a1a",
+      "title": "41 Stats About AI Adoption",
+      "url": "https://www.youtube.com/watch?v=Laws8go7v98",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-11T19:45:36+00:00",
+      "summary": "AI is now used by a majority of American workers—but the gap between the frontier and everyone else is growing fast. NLW draws on 41 recent statistics to map the real state of AI across business, work and society, revealing a world where AI is simultaneously mainstream and still…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "78eb147a77e27f70f5064967fe937235",
       "title": "How to make people care about your startup",
       "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
@@ -678,21 +693,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2aaeb182fa14c5461e1bec1673fc721d",
-      "title": "A Field Guide to AI Freakouts",
-      "url": "https://www.youtube.com/watch?v=rGd91f4ohZk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-24T02:49:53+00:00",
-      "summary": "Coverage of allegations that Chinese labs used industrial-scale model distillation to produce Kimi K‑3 and calls for sanctions. Analysis of investor fears about cheaper models undercutting OpenAI and Anthropic, circular financing risks, and runaway CapEx. Examination of inferenc…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-11T18:56:03.543634+00:00"
+  "generated_at": "2026-08-11T19:58:56.775439+00:00"
 }
