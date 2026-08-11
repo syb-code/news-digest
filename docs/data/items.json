@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "78eb147a77e27f70f5064967fe937235",
+      "title": "How to make people care about your startup",
+      "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-11T13:31:07+00:00",
+      "summary": "Three founder archetypes—and how to turn your origin story into a communications strategy",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "2614e045f1f8add8777e7976ff53cfef",
       "title": "What the Heck is Graph Engineering?",
       "url": "https://www.youtube.com/watch?v=iPveX4yQ68w",
@@ -854,19 +867,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e4b12c90e618f3cf409f1b18a3887812",
-      "title": "How the founder of Morning Brew built a Claude content machine that never runs out of ideas and never sounds like slop | Alex Lieberman",
-      "url": "https://www.lennysnewsletter.com/p/how-the-founder-of-morning-brew-built",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-20T12:04:47+00:00",
-      "summary": "Listen now | 🎙 How Alex Lieberman (Morning Brew) built a Claude workflow that interviews him before drafting, codes his voice in Markdown, and runs a six-persona revision loop before posting",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-11T12:53:40.723688+00:00"
+  "generated_at": "2026-08-11T14:16:49.993009+00:00"
 }
