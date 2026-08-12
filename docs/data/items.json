@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6fe8dbe7373e5744ff744a565b6a72dc",
+      "title": "AI Optimism Has a Trust Problem",
+      "url": "https://www.youtube.com/watch?v=Gw6fGg-oO94",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-12T18:52:46+00:00",
+      "summary": "Political stakes around AI are rising as models grow more powerful and elections push the topic into mainstream debate. Mark Zuckerberg's 6,500-word manifesto promotes individual empowerment, open-source and open-weight models, proactive government–lab collaboration, and communi…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "85fd2d86d7b555e965983517488a8a1a",
       "title": "41 Stats About AI Adoption",
       "url": "https://www.youtube.com/watch?v=Laws8go7v98",
@@ -634,21 +649,6 @@
       "source_type": "rss",
       "published": "2026-07-25T16:01:44+00:00",
       "summary": "Community Wisdom 194",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "64cc3c2128899a83563d61a749e6babb",
-      "title": "Why AI Hasn't Increased Unemployment, According to Anthropic",
-      "url": "https://www.youtube.com/watch?v=niPCJO0Cdss",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-25T15:04:06+00:00",
-      "summary": "Anthropic’s head of economics argues that AI is still augmenting workers rather than replacing them—and that expertise becomes more valuable as AI handles more tasks. NLW examines the evidence, the warning signs in junior hiring, and why the story executives tell themselves abou…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1784,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-12T18:55:57.717324+00:00"
+  "generated_at": "2026-08-12T19:58:56.951041+00:00"
 }
