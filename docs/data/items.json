@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "4b4e3745d49aa4734159551d885f7aac",
+      "title": "The Worst Panic in 4 Years Just Happened. Here's Why Milton Berg Is VERY BULLISH on Stocks",
+      "url": "https://www.youtube.com/watch?v=Idj7jAOtE50",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-12T19:52:26+00:00",
+      "summary": "Milton Berg, one of Wall Street's legendary market technicians, returns to Monetary Matters to explain why he believes the recent crash across the S&P 500, Nasdaq 100, KOSPI, and semiconductor stocks has already bottomed — and why he's still positioned long despite major caveats…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "6fe8dbe7373e5744ff744a565b6a72dc",
       "title": "AI Optimism Has a Trust Problem",
       "url": "https://www.youtube.com/watch?v=Gw6fGg-oO94",
@@ -1077,19 +1092,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bc3563c39fc20db219939c76159e67a5",
-      "title": "Top IPO Scholar on Unprecedented IPO Wave & Why IPOs Underperform the Market | Jay Ritter",
-      "url": "https://www.youtube.com/watch?v=LKT7oRk7OTI",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-06-30T17:13:42+00:00",
-      "summary": "Leading IPO researcher Jay Ritter, widely known as \"Mr. IPO\" and the director of the IPO Initiative at the University of Florida's Warrington College of Business breaks down the historic 2026 public market landscape. Ritter analyzes the unprecedented potential for a wave of mega…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4b0c87ced532b4c74a0046d495dc1115",
       "title": "The Fed's Money Printing Machine Never Stopped",
       "url": "https://www.youtube.com/watch?v=o41v1Xcbi8o",
@@ -1784,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-12T19:58:56.951041+00:00"
+  "generated_at": "2026-08-12T20:51:52.995105+00:00"
 }
