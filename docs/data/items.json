@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "248607abcb85eac8fb12925baa5f8c0d",
+      "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
+      "url": "https://www.youtube.com/watch?v=suivZa95fkM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-13T20:00:12+00:00",
+      "summary": "Andy Unanue, Founder and Managing Partner of AUA Private Equity Partners and former COO of Goya Foods breaks down the trillion-dollar opportunity in US food, beverage, and pet wellness family businesses. Andy shares how his experience in a family-run business shaped his firm's s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0e59671e61ad3105313c46247c8619d5",
+      "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
+      "url": "https://www.youtube.com/watch?v=8exG3NcsKxw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T19:57:21+00:00",
+      "summary": "Grok 4.6 is fast, capable, dramatically cheaper than the leading models—and another sign that AI users have more genuinely strong options than ever. NLW explores how competition from xAI, Chinese labs, and open-weight models is giving individuals and businesses more freedom to c…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c39d8c07bf71acdc091fbb2c929707fd",
       "title": "Inflation Fell to 3.4%... But There's a Problem",
       "url": "https://www.youtube.com/watch?v=4cSZY-AEuog",
@@ -571,21 +599,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "c851815d29c39efc4c91a07597d08566",
-      "title": "5 AI Engineering Trends That Non Engineers Should Know About",
-      "url": "https://www.youtube.com/watch?v=wGOsOMXMCG0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-29T21:00:06+00:00",
-      "summary": "OpenAI is prototyping a portable, screen-free smart speaker functioning as a ChatGPT-like companion with cameras, sensors, movable components, onboard memory, and rechargeable batteries. Legal friction with Apple and debates over in-home surveillance create commercialization and…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "24af567603744cdeb044c039d7659688",
       "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
       "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
@@ -1104,21 +1117,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "83da701d0227794e343833bd40063c7a",
-      "title": "The Reverse Crash: Why the S&P 500 is Headed Straight to 10,000 By 2027 | Erik YWR",
-      "url": "https://www.youtube.com/watch?v=fcuaGmxTFZk",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-02T14:43:22+00:00",
-      "summary": "In this episode, veteran investor and macro strategist Erik from the Erik YWR Substack breaks down his bold bull thesis projecting the S&P 500 to hit 10,000 by the end of 2027. Drawing on his past investing experience in Africa, Erik introduces \"Project Zimbabwe,\" explaining why…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-13T19:54:49.822229+00:00"
+  "generated_at": "2026-08-13T20:36:54.332532+00:00"
 }
