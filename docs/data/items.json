@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "dacad8b829a54b0ae311d0a75874cef2",
+      "title": "Deep Learning Weekly: Issue 468",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-468",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-08-13T15:02:24+00:00",
+      "summary": "Introducing Grok 4.6, TutorMoments: Do AI tutors know when to help and when to hold back?, a paper on BDH-CQ: In-Context Learning with Recurrent Latent Reasoning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3c8722dd1df94e5a2f441e267175f56c",
       "title": "How Grok Bot is Finally Making AI Agents Easy",
       "url": "https://www.youtube.com/shorts/qQcmP9rg1EE",
@@ -1480,21 +1495,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e37c2bfa951e3993d02e30fb46160ab6",
-      "title": "Deep Learning Weekly: Issue 448",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-448",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-03-26T15:03:09+00:00",
-      "summary": "Cursor's Composer 2, TurboQuant: Redefining AI efficiency with extreme compression, a paper on Beyond RAG for Agent Memory: Retrieval by Decoupling and Aggregation, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "aa254796804e00f2e17fb9cbf1d501ff",
       "title": "Last Week in AI #339 - DLSS 5, OpenAI Superapp, MiniMax M2.7",
       "url": "https://lastweekin.ai/p/last-week-in-ai-339-dlss-5-openai",
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-13T14:24:14.613719+00:00"
+  "generated_at": "2026-08-13T15:54:53.276157+00:00"
 }
