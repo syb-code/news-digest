@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "afa4492dd0692dc589f9187e662040a6",
+      "title": "The Right Way to Worry About AI",
+      "url": "https://www.youtube.com/watch?v=OR7aElrW2vU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T09:41:06+00:00",
+      "summary": "Headlines cover OpenAI model and pricing changes, Stripe's OpenRouter talks, NVIDIA memory shortages, and SoftBank's OpenAI-backed borrowing. Main discussions examine AI-designed novel viruses from Evo and the OpenAI agent exploits showcased at Black Hat, revealing biosecurity a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4f4ad4cc51a9f627fe295f2b86c5a73b",
       "title": "Why AI Will IMPROVE Writing",
       "url": "https://www.youtube.com/shorts/uIDHqX4SReI",
@@ -568,21 +583,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5198df5a89b7be177c47b9faa3d96025",
-      "title": "Where Should Claude Opus 5 Fit In Your Model Rotation",
-      "url": "https://www.youtube.com/watch?v=PL2JrJRaDSg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-28T03:02:31+00:00",
-      "summary": "Claude Opus 5 analyzed as a mid‑frontier model that challenges Fable and GPT by offering frontier performance at lower cost. Benchmarks show ARC‑AGI and FrontierBench gains, while user reports cite early stopping, argumentative behavior, and integration headaches. Coverage ties …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-13T08:16:25.858335+00:00"
+  "generated_at": "2026-08-13T09:59:28.168540+00:00"
 }
