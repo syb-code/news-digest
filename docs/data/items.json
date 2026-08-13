@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3c8722dd1df94e5a2f441e267175f56c",
+      "title": "How Grok Bot is Finally Making AI Agents Easy",
+      "url": "https://www.youtube.com/shorts/qQcmP9rg1EE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T12:36:52+00:00",
+      "summary": "Agents have been exciting all year, but technically difficult. Grok Bot is bringing the power of platforms like OpenClaw to a wider audience. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Dail…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "afa4492dd0692dc589f9187e662040a6",
       "title": "The Right Way to Worry About AI",
       "url": "https://www.youtube.com/watch?v=OR7aElrW2vU",
@@ -535,21 +550,6 @@
       "source_type": "youtube",
       "published": "2026-07-29T21:00:06+00:00",
       "summary": "OpenAI is prototyping a portable, screen-free smart speaker functioning as a ChatGPT-like companion with cameras, sensors, movable components, onboard memory, and rechargeable batteries. Legal friction with Apple and debates over in-home surveillance create commercialization and…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ce8a3659a9125817c2af497c2bf4b3b3",
-      "title": "Why Everyone Is Debating AI Policy",
-      "url": "https://www.youtube.com/watch?v=RlCAucFCwoo",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-29T17:37:01+00:00",
-      "summary": "Debate over AI policy focuses on whether open-weight models should face formal regulation or be sidelined through manufactured regulatory risk. A high-profile tweet advocating regulatory uncertainty ignited fights over Operation Choke Point–style tactics, market power, and natio…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-13T11:04:13.289411+00:00"
+  "generated_at": "2026-08-13T12:59:44.095507+00:00"
 }
