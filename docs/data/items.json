@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "4f4ad4cc51a9f627fe295f2b86c5a73b",
+      "title": "Why AI Will IMPROVE Writing",
+      "url": "https://www.youtube.com/shorts/uIDHqX4SReI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T00:23:37+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "50fe3dd0fbfe414d8a62783bc13803b3",
+      "title": "Grok Bot Finally Makes AI Agents Easy",
+      "url": "https://www.youtube.com/watch?v=kckD1hgkYvk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T00:05:26+00:00",
+      "summary": "Grok Bot packages persistent computers, coordinated agent teams, workflow learning, and computer use into a remarkably simple interface. NLW explores why it could finally unlock widespread AI-agent adoption—and the cost, reliability, and trust issues that could hold it back. In …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4b4e3745d49aa4734159551d885f7aac",
       "title": "The Worst Panic in 4 Years Just Happened. Here's Why Milton Berg Is VERY BULLISH on Stocks",
       "url": "https://www.youtube.com/watch?v=Idj7jAOtE50",
@@ -586,21 +616,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d44de19aa031ba9b7ffaf78805635cf5",
-      "title": "How to Get the Most from AI This Summer",
-      "url": "https://www.youtube.com/watch?v=kvmkj3dj_kw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-27T13:21:36+00:00",
-      "summary": "Ethan Mollick’s latest guide reveals the widening divide between casual chatbot use and serious work with agents. NLW breaks down his recommendations and launches AI Summer Adventure, a free choose-your-own-adventure with more than 20 hands-on projects—from building better conte…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "0001693ff9ef60c83092247a742179f4",
       "title": "From zero coding background to hardware hacker: How Cursor + a Raspberry Pi makes AI fun",
       "url": "https://www.lennysnewsletter.com/p/from-zero-coding-background-to-hardware",
@@ -638,19 +653,6 @@
       "source_type": "rss",
       "published": "2026-07-26T12:32:06+00:00",
       "summary": "Listen now | Dianne Penn, Anthropic’s first PM, on the bets that made Claude dominant: the coding pivot, the eval-driven development loop, and what comes after coding is solved",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4180ca0c663acbcaa4c25257ebd6993e",
-      "title": "How to Get the Most Out of Fable 5 and GPT 5.6 Sol",
-      "url": "https://www.youtube.com/watch?v=69JMFDFuI3A",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-25T19:00:06+00:00",
-      "summary": "Fable 5 and GPT‑5.6 Sol require new prompting patterns: explicit boundaries, iterative steering, and matching compute and effort to the task. Best practices include deleting repeated instructions, giving concrete directives, using voice dictation for richer context, and setting …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1786,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-12T23:35:38.267898+00:00"
+  "generated_at": "2026-08-13T01:39:26.931480+00:00"
 }
