@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c39d8c07bf71acdc091fbb2c929707fd",
+      "title": "Inflation Fell to 3.4%... But There's a Problem",
+      "url": "https://www.youtube.com/watch?v=4cSZY-AEuog",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-13T16:00:29+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "dacad8b829a54b0ae311d0a75874cef2",
       "title": "Deep Learning Weekly: Issue 468",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-468",
@@ -1124,22 +1137,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "003f9e1537c064d41498e26e4f688f3a",
-      "title": "Inflation is Rising Again — Here's What the Fed Will Do",
-      "url": "https://www.youtube.com/watch?v=Jx9jpLmiDQY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-26T19:00:19+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "087325382843e4148a7bd23c0bfeb562",
       "title": "Deep Learning Weekly: Issue 461",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-461",
@@ -1788,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-13T15:54:53.276157+00:00"
+  "generated_at": "2026-08-13T16:52:21.022031+00:00"
 }
