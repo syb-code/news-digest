@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bfa1ce110e906c162e078a0e93b504f2",
+      "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-15T17:01:13+00:00",
+      "summary": "Community Wisdom 197",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "248607abcb85eac8fb12925baa5f8c0d",
       "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
       "url": "https://www.youtube.com/watch?v=suivZa95fkM",
@@ -913,21 +928,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "618443aef1a55ada25722a181b5ab89f",
-      "title": "🎙️ How I AI: How the founder of Morning Brew built a Claude content machine that never runs out of ideas",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-the-founder-of-morning",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-20T15:01:56+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "47107b841fc91a4badbd3122e08c59bd",
       "title": "Retirement Plans: The Best Order to Invest Your Money",
       "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-15T16:18:24.267822+00:00"
+  "generated_at": "2026-08-15T17:16:14.508900+00:00"
 }
