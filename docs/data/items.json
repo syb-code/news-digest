@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8587bfcff0f0884293d31f89260198d1",
+      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+      "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-16T12:31:42+00:00",
+      "summary": "Listen now | OpenAI’s head of product design on why this is the best time in history to be a designer, where humans still beat AI, and how to escape the overwhelm",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bb2541d3f076db67296b208a506809ca",
       "title": "How to Help AI Do Your Work Better",
       "url": "https://www.youtube.com/watch?v=GtnZzy6tERA",
@@ -806,19 +821,6 @@
       "source_type": "youtube",
       "published": "2026-07-21T16:34:00+00:00",
       "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a7218f031fe2a2c70de7f86ad7122f81",
-      "title": "Why a sabbatical can change everything",
-      "url": "https://www.lennysnewsletter.com/p/how-to-take-a-sabbatical",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-21T12:45:10+00:00",
-      "summary": "How to take Big Time Off",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1783,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-16T12:30:24.194490+00:00"
+  "generated_at": "2026-08-16T13:26:53.789780+00:00"
 }
