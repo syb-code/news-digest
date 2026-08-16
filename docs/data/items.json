@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "bb2541d3f076db67296b208a506809ca",
+      "title": "How to Help AI Do Your Work Better",
+      "url": "https://www.youtube.com/watch?v=GtnZzy6tERA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-16T11:14:46+00:00",
+      "summary": "GrokBot's teach-a-task and ChatGPT's Computer History shift the bottleneck from model capability to contextual access.  \nA deputization audit applies five criteria—frequency, teachability, checkability, stakes, and personal involvement—to score recurring workflows and decide whe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bfa1ce110e906c162e078a0e93b504f2",
       "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
@@ -550,21 +565,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2ed1fc56bacfb6a290895f689bde9886",
-      "title": "6 Questions Shaping Enterprise AI",
-      "url": "https://www.youtube.com/watch?v=qUXAk4iZs4k",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-07-31T19:05:36+00:00",
-      "summary": "Six questions shaping enterprise AI focus on strategy, architecture, cost allocation, upskilling, monitoring, and external business models. Sam Altman's Washington visits surface debates over model releases, voluntary safety testing, and deactivated research prototypes. Agentic …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-16T11:15:33.146015+00:00"
+  "generated_at": "2026-08-16T12:30:24.194490+00:00"
 }
