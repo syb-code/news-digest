@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7c4d995d095686c9c42428bfc2242c07",
+      "title": "The $1.5 Trillion of Hidden Debt Fueling the AI Boom | Robin Wigglesworth of FT Alphaville",
+      "url": "https://www.youtube.com/watch?v=kZXjQZWUHH0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-17T00:22:43+00:00",
+      "summary": "Robin Wigglesworth — editor of FT Alphaville and author of A Fabulous Debt: The Epic Story of How Bonds Built the Modern World — joins Jack Farley to unpack the hidden debt fueling the AI buildout. Wigglesworth reveals that off-balance-sheet leverage from hyperscalers like Meta,…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8587bfcff0f0884293d31f89260198d1",
       "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
       "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
@@ -1083,19 +1098,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ac654bd46429652e9d87dd451003d729",
-      "title": "Why This $73 Billion Investor is Avoiding Data Centers: “They’re Too Expensive” | Josh Pristaw",
-      "url": "https://www.youtube.com/watch?v=25c8ffah2ZU",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-04T20:01:35+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIn this episode of Monetary Matters, host Jack sits down with Josh Pristaw, President of the $73 Billion real estate firm Clarion Partners, to decode the smartest institutional property plays for the new 20…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "46681fedb9a124d02fa49bf8e489c0c3",
       "title": "Jobs Report: Much Worse Than Expected",
       "url": "https://www.youtube.com/watch?v=UbVCuBJvTz4",
@@ -1785,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-16T23:15:02.996129+00:00"
+  "generated_at": "2026-08-17T01:00:15.970919+00:00"
 }
