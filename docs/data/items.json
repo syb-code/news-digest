@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "7beb2b6fbdefb64e257164b1851030c3",
+      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
+      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-17T12:04:02+00:00",
+      "summary": "Watch now | 🎙️From hand-drawn sketch to 3D-printed gown, Yana Welinder shows how Codex plus computer use makes previously unmanufacturable garments and full e-commerce builds possible for a solo founder",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "7c4d995d095686c9c42428bfc2242c07",
       "title": "The $1.5 Trillion of Hidden Debt Fueling the AI Boom | Robin Wigglesworth of FT Alphaville",
       "url": "https://www.youtube.com/watch?v=kZXjQZWUHH0",
@@ -807,21 +820,6 @@
       "published": "2026-07-22T14:00:16+00:00",
       "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb \n\nFree E-book from Teucrium: https://insights.teucrium.com/why-investors-turning-to-commodity-etfs\n\nIn this episode of Other People's Money, Max Wiethe sits down with hedge fund manager Russell Clark …",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "19190ac19c9e0eac32af5b51ae790306",
-      "title": "Computer and browser use in Codex (5 real examples)",
-      "url": "https://www.lennysnewsletter.com/p/computer-and-browser-use-in-codex",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-22T12:03:38+00:00",
-      "summary": "Watch now | 🎙️ I show you exactly how I use browser use and computer use in Codex to QA my app, manage LinkedIn, and shop for Hawaii, including the under-prompting trick that makes frontier models work harder",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1787,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-17T11:20:07.719612+00:00"
+  "generated_at": "2026-08-17T12:34:38.274922+00:00"
 }
