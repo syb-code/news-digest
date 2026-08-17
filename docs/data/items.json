@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d091c77a45d6ed94f8930307fdd78f45",
+      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-17T15:03:16+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "7beb2b6fbdefb64e257164b1851030c3",
       "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
       "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
@@ -770,19 +785,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9deb9e597965dc7ef9d6a965352d5d7f",
-      "title": "Claude Opus 5 review: this model is brilliant (but annoying)",
-      "url": "https://www.lennysnewsletter.com/p/claude-opus-5-review-this-model-is",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-24T17:15:25+00:00",
-      "summary": "Watch now | 🎙️ I ran Opus 5 through my seven-model benchmark, compared it with six other leading models, and came away with a verdict I genuinely didn’t expect",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-17T14:22:12.828719+00:00"
+  "generated_at": "2026-08-17T15:20:17.972425+00:00"
 }
