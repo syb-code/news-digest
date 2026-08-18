@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "696c5af202c75a72cc586cd219126218",
+      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
+      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-18T21:30:31+00:00",
+      "summary": "Watch now | 🎙️ I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bfbfb59b0d467f1ebae49ccfd827f3a0",
+      "title": "How People Are Fixing AI's Problems",
+      "url": "https://www.youtube.com/watch?v=Zq8e3xX02u8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-18T21:17:56+00:00",
+      "summary": "AI is solving old problems while creating entirely new ones. NLW looks at how people and companies are responding to AI slop, rising token costs, uneven productivity, workforce deskilling, and the long-term challenge of preserving human expertise.\n\n\nThe AI Daily Brief helps you …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "418e5bf86c155d02ed382027d38796bc",
       "title": "Japan's Yen Crisis is Becoming America's Problem",
       "url": "https://www.youtube.com/watch?v=StdA6-BovKw",
@@ -536,21 +566,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "47dc24d60fb07577364b69633360e684",
-      "title": "How Significant Are AI's Latest Math Breakthroughs?",
-      "url": "https://www.youtube.com/watch?v=nWdL7fvOUXA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-04T12:59:31+00:00",
-      "summary": "OpenAI Astra reportedly produced Lean-certified proofs solving ten longstanding mathematical problems for roughly $2,000 in token costs. Debate centers on scientific-discovery acceleration, verification bottlenecks as experts struggle to validate advanced proofs, and potential u…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f4b4e4a5f9560840e04c2803c1aa88f3",
       "title": "GDP Report: Americans Are Burning Through Their Savings",
       "url": "https://www.youtube.com/watch?v=XGtzoJK0Smw",
@@ -783,19 +798,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "dfe1570555b9d74aaba2dbcafdd505b0",
-      "title": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
-      "url": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-26T12:32:06+00:00",
-      "summary": "Listen now | Dianne Penn, Anthropic’s first PM, on the bets that made Claude dominant: the coding pivot, the eval-driven development loop, and what comes after coding is solved",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1783,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-18T21:18:55.058602+00:00"
+  "generated_at": "2026-08-18T22:17:56.002547+00:00"
 }
