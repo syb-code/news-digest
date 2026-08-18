@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "418e5bf86c155d02ed382027d38796bc",
+      "title": "Japan's Yen Crisis is Becoming America's Problem",
+      "url": "https://www.youtube.com/watch?v=StdA6-BovKw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-18T16:00:26+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "04fc625dc1526bbce3da9733b6d78bb9",
+      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
+      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-18T15:40:06+00:00",
+      "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "a6b69dd4e62108a5d7d9c62e3033b25b",
       "title": "Dario Amodei Breaks His Social Media Silence",
       "url": "https://www.youtube.com/watch?v=_q3yhihZKSg",
@@ -773,21 +799,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ec3bb0b924a93492e2ad88a606c9b247",
-      "title": "🧠 Community Wisdom: Staying on a client’s radar during pilot purgatory, pairing Linear with a discovery tool, the limits of what AI can automate, whether Techstars is worth it, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-staying-on-a-clients",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-25T16:01:44+00:00",
-      "summary": "Community Wisdom 194",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a6a468f29dc4eb441da9c33e4e8659ce",
       "title": "How to Invest Your First $1,000 in The Stock Market",
       "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
@@ -1121,21 +1132,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4b0c87ced532b4c74a0046d495dc1115",
-      "title": "The Fed's Money Printing Machine Never Stopped",
-      "url": "https://www.youtube.com/watch?v=o41v1Xcbi8o",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-06-29T16:00:21+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1787,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-18T15:26:30.048009+00:00"
+  "generated_at": "2026-08-18T16:25:40.377292+00:00"
 }
