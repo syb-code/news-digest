@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a6b69dd4e62108a5d7d9c62e3033b25b",
+      "title": "Dario Amodei Breaks His Social Media Silence",
+      "url": "https://www.youtube.com/watch?v=_q3yhihZKSg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-18T14:48:11+00:00",
+      "summary": "Dario Amodei's rare public clash with investor Gavin Baker turns a leaked comment about Anthropic's ambitions into a real debate over power, trust, and AI regulation. NLW breaks down Amodei's lengthy X posts on regulatory capture, messaging strategy, and why curing disease—not m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d091c77a45d6ed94f8930307fdd78f45",
       "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
@@ -530,21 +545,6 @@
       "source_type": "rss",
       "published": "2026-08-03T15:02:21+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "001884a3b28013d0807a54d5cb55fad2",
-      "title": "How a $30B Hedge Fund Implosion Will Effect AI",
-      "url": "https://www.youtube.com/watch?v=-BFKpd24vP0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-03T13:21:51+00:00",
-      "summary": "OpenAI and Anthropic reported jaw‑dropping ARR growth, signaling surging token demand and a shift from seat‑based to consumption‑based business models. Hyperscaler capex and off‑balance‑sheet data‑center debt expose financing risks without mirroring 2008 systemic mechanisms. The…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1787,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-18T14:27:54.763225+00:00"
+  "generated_at": "2026-08-18T15:26:30.048009+00:00"
 }
