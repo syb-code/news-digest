@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "66a07f5a23abddd5c044d2c2006ab433",
+      "title": "The AI Engineering Skills Map for Knowledge Workers",
+      "url": "https://www.youtube.com/watch?v=f40AKMHebrY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-19T11:24:16+00:00",
+      "summary": "Knowledge work is shifting from doing tasks directly to managing agents now performing those tasks, demanding a new set of core skills. NLW maps five essential AI engineering skills for knowledge workers: capability mapping, context and harness management, problem and product pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "696c5af202c75a72cc586cd219126218",
       "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
       "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
@@ -515,21 +530,6 @@
       "source_type": "rss",
       "published": "2026-08-05T12:04:01+00:00",
       "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9083906baaa936ce04c690bc6b772be6",
-      "title": "Everything You Need to Know about AI Tokens",
-      "url": "https://www.youtube.com/watch?v=dSNgCgQYYFY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-04T21:00:06+00:00",
-      "summary": "In this Operator's edition, Nufar Gaspar explains what AI tokens actually are, why costs can spiral in agentic workflows, and how to distinguish valuable usage from waste. Learn how to measure cost per successful task, eliminate “tokens that spin,” choose the right models and pr…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-19T11:20:15.238689+00:00"
+  "generated_at": "2026-08-19T12:37:06.500209+00:00"
 }
