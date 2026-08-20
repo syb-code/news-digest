@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "121fa04623ee6ace9d8139b81a870019",
+      "title": "Why U.S. Treasury’s Bond Market Intervention Is Just The Beginning | Luke Gromen",
+      "url": "https://www.youtube.com/watch?v=IsswgLUkUas",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-20T20:03:45+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nLuke Gromen — founder of Forest for the Trees (FFTT) Research — returns to Monetary Matters the same week Treasury Secretary Scott Bessent doubled the size of Treasury buybacks, and Luke argues it's the fi…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "66a07f5a23abddd5c044d2c2006ab433",
       "title": "The AI Engineering Skills Map for Knowledge Workers",
       "url": "https://www.youtube.com/watch?v=f40AKMHebrY",
@@ -1095,22 +1108,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2d9e5a5afedfcc40dd06ce7c4a4f8ed8",
-      "title": "How The Federal Reserve Could Shrink Trillions From Its Balance Sheet | Darrell Duffie",
-      "url": "https://www.youtube.com/watch?v=dpcn7Mj0f74",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-05T19:30:25+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here:\nhttps://Fundrise.com/mm\n\nIt's no secret that the new Fed chair, Kevin Warsh, prefers the Federal Reserve to have a smaller balance sheet, perhaps a much, much smaller balance sheet. The consequences of this range from the mundane t…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "46681fedb9a124d02fa49bf8e489c0c3",
       "title": "Jobs Report: Much Worse Than Expected",
       "url": "https://www.youtube.com/watch?v=UbVCuBJvTz4",
@@ -1785,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-20T19:26:55.368390+00:00"
+  "generated_at": "2026-08-20T20:22:21.411043+00:00"
 }
