@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "7bf487654ab247d74f6653d2217a577f",
+      "title": "9 AI Techniques You Probably Haven't Tried",
+      "url": "https://www.youtube.com/watch?v=o5PzgHXXjjQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-21T11:41:36+00:00",
+      "summary": "Nine emerging AI techniques are reshaping daily workflows, from live voice mode and teaching agents by screen recording to custom writing skills and Claude's /design command. NLW covers multiplayer team agents, GrokBot experiments, local models like Qwen 3.8 27B, and two-word pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ddb1435db12f91548bbb6a079e453c62",
       "title": "The AI Backlash Is Getting Stupider But Also Smarter",
       "url": "https://www.youtube.com/watch?v=efyXCQSu-bU",
@@ -518,21 +533,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a58628c1ccd1bafb3295fb90c6b416ca",
-      "title": "Why the Data Center Debate Has Little to Do with AI",
-      "url": "https://www.youtube.com/watch?v=pIbi-dYCYeU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-06T11:53:21+00:00",
-      "summary": "The data center debate is framed as a struggle over agency, secrecy, and political distrust rather than purely technical AI risks. Coverage highlights a restricted White House safety-testing framework, state moratoriums in New York and Texas, and proposed bans on Chinese compone…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-21T11:20:42.742776+00:00"
+  "generated_at": "2026-08-21T12:37:14.207920+00:00"
 }
