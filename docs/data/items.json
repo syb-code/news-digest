@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "ddb1435db12f91548bbb6a079e453c62",
+      "title": "The AI Backlash Is Getting Stupider But Also Smarter",
+      "url": "https://www.youtube.com/watch?v=efyXCQSu-bU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-21T01:16:46+00:00",
+      "summary": "Data center backlash swings between viral meme campaigns and Governor Shapiro's surprisingly substantive executive order, revealing two very different tracks for AI's political fight. NLW breaks down why targeted regulation beats blanket moratoriums, and how OpenAI's voluntary t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "121fa04623ee6ace9d8139b81a870019",
       "title": "Why U.S. Treasury’s Bond Market Intervention Is Just The Beginning | Luke Gromen",
       "url": "https://www.youtube.com/watch?v=IsswgLUkUas",
@@ -513,21 +528,6 @@
       "source_type": "youtube",
       "published": "2026-08-06T11:53:21+00:00",
       "summary": "The data center debate is framed as a struggle over agency, secrecy, and political distrust rather than purely technical AI risks. Coverage highlights a restricted White House safety-testing framework, state moratoriums in New York and Texas, and proposed bans on Chinese compone…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7f40431c7645e77972a507bf1c02eb90",
-      "title": "Can Open Models Solve Corporate AI Washing",
-      "url": "https://www.youtube.com/watch?v=yg_ZF8pPvIE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-05T18:28:46+00:00",
-      "summary": "Qwen 3.8 Max marks a major open-weights return with aggressive pricing and contested benchmark claims. Enterprise conversation has shifted toward governance, cost optimization, fine-tuning strategies, and combating AI wishing and washing. News highlights include Palantir's AI so…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-21T01:02:35.921860+00:00"
+  "generated_at": "2026-08-21T02:57:47.760450+00:00"
 }
