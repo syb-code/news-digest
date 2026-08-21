@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "2d92ac0322e543b25e72be6874cd6727",
+      "title": "US Government is Running Out of People to Borrow Money From",
+      "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-21T16:00:00+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "19d5bb236e66acf2d7baa2c953f37960",
       "title": "Deep Learning Weekly: Issue 469",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-469",
@@ -1121,19 +1134,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "46681fedb9a124d02fa49bf8e489c0c3",
-      "title": "Jobs Report: Much Worse Than Expected",
-      "url": "https://www.youtube.com/watch?v=UbVCuBJvTz4",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-02T18:31:23+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9c2a0c6f55befa26bba0879b2a9543bc",
       "title": "Deep Learning Weekly: Issue 462",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-462",
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-21T15:27:49.384427+00:00"
+  "generated_at": "2026-08-21T16:27:22.579941+00:00"
 }
