@@ -14,66 +14,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e46dbb68124d44bddddb2ca0ef19c197",
-      "title": "How to Make AI Writing Suck Less",
-      "url": "https://www.youtube.com/shorts/946SQc5D5RE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T15:00:38+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7bf487654ab247d74f6653d2217a577f",
-      "title": "9 AI Techniques You Probably Haven't Tried",
-      "url": "https://www.youtube.com/watch?v=o5PzgHXXjjQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T11:41:36+00:00",
-      "summary": "Nine emerging AI techniques are reshaping daily workflows, from live voice mode and teaching agents by screen recording to custom writing skills and Claude's /design command. NLW covers multiplayer team agents, GrokBot experiments, local models like Qwen 3.8 27B, and two-word pr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ddb1435db12f91548bbb6a079e453c62",
-      "title": "The AI Backlash Is Getting Stupider But Also Smarter",
-      "url": "https://www.youtube.com/watch?v=efyXCQSu-bU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T01:16:46+00:00",
-      "summary": "Data center backlash swings between viral meme campaigns and Governor Shapiro's surprisingly substantive executive order, revealing two very different tracks for AI's political fight. NLW breaks down why targeted regulation beats blanket moratoriums, and how OpenAI's voluntary t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "66a07f5a23abddd5c044d2c2006ab433",
-      "title": "The AI Engineering Skills Map for Knowledge Workers",
-      "url": "https://www.youtube.com/watch?v=f40AKMHebrY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-19T11:24:16+00:00",
-      "summary": "Knowledge work is shifting from doing tasks directly to managing agents now performing those tasks, demanding a new set of core skills. NLW maps five essential AI engineering skills for knowledge workers: capability mapping, context and harness management, problem and product pr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "696c5af202c75a72cc586cd219126218",
       "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
       "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
@@ -81,21 +21,6 @@
       "source_type": "rss",
       "published": "2026-08-18T21:30:31+00:00",
       "summary": "Watch now | 🎙️ I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bfbfb59b0d467f1ebae49ccfd827f3a0",
-      "title": "How People Are Fixing AI's Problems",
-      "url": "https://www.youtube.com/watch?v=Zq8e3xX02u8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-18T21:17:56+00:00",
-      "summary": "AI is solving old problems while creating entirely new ones. NLW looks at how people and companies are responding to AI slop, rising token costs, uneven productivity, workforce deskilling, and the long-term challenge of preserving human expertise.\n\n\nThe AI Daily Brief helps you …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -114,21 +39,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6b69dd4e62108a5d7d9c62e3033b25b",
-      "title": "Dario Amodei Breaks His Social Media Silence",
-      "url": "https://www.youtube.com/watch?v=_q3yhihZKSg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-18T14:48:11+00:00",
-      "summary": "Dario Amodei's rare public clash with investor Gavin Baker turns a leaked comment about Anthropic's ambitions into a real debate over power, trust, and AI regulation. NLW breaks down Amodei's lengthy X posts on regulatory capture, messaging strategy, and why curing disease—not m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -175,21 +85,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bb2541d3f076db67296b208a506809ca",
-      "title": "How to Help AI Do Your Work Better",
-      "url": "https://www.youtube.com/watch?v=GtnZzy6tERA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-16T11:14:46+00:00",
-      "summary": "GrokBot's teach-a-task and ChatGPT's Computer History shift the bottleneck from model capability to contextual access.  \nA deputization audit applies five criteria—frequency, teachability, checkability, stakes, and personal involvement—to score recurring workflows and decide whe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bfa1ce110e906c162e078a0e93b504f2",
       "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
@@ -197,21 +92,6 @@
       "source_type": "rss",
       "published": "2026-08-15T17:01:13+00:00",
       "summary": "Community Wisdom 197",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0e59671e61ad3105313c46247c8619d5",
-      "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
-      "url": "https://www.youtube.com/watch?v=8exG3NcsKxw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T19:57:21+00:00",
-      "summary": "Grok 4.6 is fast, capable, dramatically cheaper than the leading models—and another sign that AI users have more genuinely strong options than ever. NLW explores how competition from xAI, Chinese labs, and open-weight models is giving individuals and businesses more freedom to c…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -235,96 +115,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3c8722dd1df94e5a2f441e267175f56c",
-      "title": "How Grok Bot is Finally Making AI Agents Easy",
-      "url": "https://www.youtube.com/shorts/qQcmP9rg1EE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T12:36:52+00:00",
-      "summary": "Agents have been exciting all year, but technically difficult. Grok Bot is bringing the power of platforms like OpenClaw to a wider audience. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Dail…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "afa4492dd0692dc589f9187e662040a6",
-      "title": "The Right Way to Worry About AI",
-      "url": "https://www.youtube.com/watch?v=OR7aElrW2vU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T09:41:06+00:00",
-      "summary": "Headlines cover OpenAI model and pricing changes, Stripe's OpenRouter talks, NVIDIA memory shortages, and SoftBank's OpenAI-backed borrowing. Main discussions examine AI-designed novel viruses from Evo and the OpenAI agent exploits showcased at Black Hat, revealing biosecurity a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4f4ad4cc51a9f627fe295f2b86c5a73b",
-      "title": "Why AI Will IMPROVE Writing",
-      "url": "https://www.youtube.com/shorts/uIDHqX4SReI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T00:23:37+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "50fe3dd0fbfe414d8a62783bc13803b3",
-      "title": "Grok Bot Finally Makes AI Agents Easy",
-      "url": "https://www.youtube.com/watch?v=kckD1hgkYvk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T00:05:26+00:00",
-      "summary": "Grok Bot packages persistent computers, coordinated agent teams, workflow learning, and computer use into a remarkably simple interface. NLW explores why it could finally unlock widespread AI-agent adoption—and the cost, reliability, and trust issues that could hold it back. In …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6fe8dbe7373e5744ff744a565b6a72dc",
-      "title": "AI Optimism Has a Trust Problem",
-      "url": "https://www.youtube.com/watch?v=Gw6fGg-oO94",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-12T18:52:46+00:00",
-      "summary": "Political stakes around AI are rising as models grow more powerful and elections push the topic into mainstream debate. Mark Zuckerberg's 6,500-word manifesto promotes individual empowerment, open-source and open-weight models, proactive government–lab collaboration, and communi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "85fd2d86d7b555e965983517488a8a1a",
-      "title": "41 Stats About AI Adoption",
-      "url": "https://www.youtube.com/watch?v=Laws8go7v98",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-11T19:45:36+00:00",
-      "summary": "AI is now used by a majority of American workers—but the gap between the frontier and everyone else is growing fast. NLW draws on 41 recent statistics to map the real state of AI across business, work and society, revealing a world where AI is simultaneously mainstream and still…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "78eb147a77e27f70f5064967fe937235",
       "title": "How to make people care about your startup",
       "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
@@ -335,21 +125,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2614e045f1f8add8777e7976ff53cfef",
-      "title": "What the Heck is Graph Engineering?",
-      "url": "https://www.youtube.com/watch?v=iPveX4yQ68w",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-10T21:06:16+00:00",
-      "summary": "Graph engineering is the design of multi-agent systems that link agents, tools, knowledge, and humans via nodes and edges. OpenAI paused Astra over potential cyber capabilities and implemented stricter sandboxing, weight encryption, and chain-of-thought monitoring. ByteDance rep…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1364,5 +1139,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-22T05:22:05.680564+00:00"
+  "generated_at": "2026-08-22T06:32:09.378292+00:00"
 }
