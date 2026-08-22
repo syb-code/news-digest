@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "01529a68af66a1af548913a87ee8d14d",
+      "title": "The AI Data Center Debate is Getting More Fierce",
+      "url": "https://www.youtube.com/shorts/wb34tKgMpLQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-22T17:00:11+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d66a908336010e8a9571b6b1fb1c8acf",
       "title": "Why Everyone Suddenly Hates AI Data Centers",
       "url": "https://www.youtube.com/watch?v=-t4RC5JmnTk",
@@ -412,21 +427,6 @@
       "source_type": "youtube",
       "published": "2026-08-12T18:52:46+00:00",
       "summary": "Political stakes around AI are rising as models grow more powerful and elections push the topic into mainstream debate. Mark Zuckerberg's 6,500-word manifesto promotes individual empowerment, open-source and open-weight models, proactive government–lab collaboration, and communi…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "85fd2d86d7b555e965983517488a8a1a",
-      "title": "41 Stats About AI Adoption",
-      "url": "https://www.youtube.com/watch?v=Laws8go7v98",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-11T19:45:36+00:00",
-      "summary": "AI is now used by a majority of American workers—but the gap between the frontier and everyone else is growing fast. NLW draws on 41 recent statistics to map the real state of AI across business, work and society, revealing a world where AI is simultaneously mainstream and still…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-22T16:18:00.282441+00:00"
+  "generated_at": "2026-08-22T17:16:24.258619+00:00"
 }
