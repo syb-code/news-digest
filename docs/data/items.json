@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "d66a908336010e8a9571b6b1fb1c8acf",
+      "title": "Why Everyone Suddenly Hates AI Data Centers",
+      "url": "https://www.youtube.com/watch?v=-t4RC5JmnTk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-22T11:39:46+00:00",
+      "summary": "Opposition to AI data centers has swung from 51% to 75% in six months, making it one of the fastest-moving bipartisan issues in recent polling. NLW unpacks the real drivers behind the anger — grid and water fears, NDA secrecy, a decade of big tech distrust, and communities feeli…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d92ac0322e543b25e72be6874cd6727",
       "title": "US Government is Running Out of People to Borrow Money From",
       "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
@@ -430,21 +445,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2614e045f1f8add8777e7976ff53cfef",
-      "title": "What the Heck is Graph Engineering?",
-      "url": "https://www.youtube.com/watch?v=iPveX4yQ68w",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-10T21:06:16+00:00",
-      "summary": "Graph engineering is the design of multi-agent systems that link agents, tools, knowledge, and humans via nodes and edges. OpenAI paused Astra over potential cyber capabilities and implemented stricter sandboxing, weight encryption, and chain-of-thought monitoring. ByteDance rep…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1782,5 +1782,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-22T11:16:46.243163+00:00"
+  "generated_at": "2026-08-22T12:29:49.614645+00:00"
 }
