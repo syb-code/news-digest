@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "4d36c9ba207d223dc6952fb54a64c58f",
+      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+      "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-23T12:31:43+00:00",
+      "summary": "Listen now | Jen Abel returns for a third time to walk us through every step of the enterprise sales cycle—from the first cold outreach to the final contract signature",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "3ba2b6f25294147ce144d3d7aa36735e",
       "title": "🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys",
@@ -806,21 +819,6 @@
       "duration_sec": null,
       "themes": [
         "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c44e4dd177258b50a2a8eef57179bf54",
-      "title": "🎙️ How I AI: Claude Opus 5 Review + Browser use in Codex + How Cursor and a Raspberry Pi makes AI fun",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-opus-5-review-browser",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-27T15:03:21+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1782,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-23T12:30:51.786639+00:00"
+  "generated_at": "2026-08-23T13:27:51.541974+00:00"
 }
