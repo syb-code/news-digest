@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3f794bbc7187899a85e916c053a1c504",
+      "title": "No AI Won't Take All Our Jobs. Here's What WILL Happen.",
+      "url": "https://www.youtube.com/shorts/UMDxpXGGdMs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-24T20:12:19+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d8d0d752fe693558a8497acd1791170f",
       "title": "I Bet Money The Fed WON'T Raise Interest Rates in September — Here's Why...",
       "url": "https://www.youtube.com/watch?v=B7fXmUqCANY",
@@ -486,21 +501,6 @@
       "source_type": "youtube",
       "published": "2026-08-13T00:23:37+00:00",
       "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "50fe3dd0fbfe414d8a62783bc13803b3",
-      "title": "Grok Bot Finally Makes AI Agents Easy",
-      "url": "https://www.youtube.com/watch?v=kckD1hgkYvk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T00:05:26+00:00",
-      "summary": "Grok Bot packages persistent computers, coordinated agent teams, workflow learning, and computer use into a remarkably simple interface. NLW explores why it could finally unlock widespread AI-agent adoption—and the cost, reliability, and trust issues that could hold it back. In …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1787,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-24T19:24:40.158155+00:00"
+  "generated_at": "2026-08-24T20:24:26.225513+00:00"
 }
