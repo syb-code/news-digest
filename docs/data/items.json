@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "55b7ce746687f6190e58ee075b3176b1",
+      "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
+      "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-24T12:04:02+00:00",
+      "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3542531661377ec9901539c0e5c27519",
       "title": "The Future of AI and Work",
       "url": "https://www.youtube.com/watch?v=m8x-gYMYFCg",
@@ -776,21 +791,6 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "24af567603744cdeb044c039d7659688",
-      "title": "11 products I love, free for a year—the biggest Product Pass expansion in 2 years",
-      "url": "https://www.lennysnewsletter.com/p/productpass-summer2026launch",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-28T15:54:24+00:00",
-      "summary": "Runway, Higgsfield, Waking Up, Brain.fm, Customer.io, Resend, Pangram, Mercury Personal, Supercut, Readwise, and Jam are joining Product Pass today, all included with Annual and Insider memberships",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1780,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-24T11:22:38.217021+00:00"
+  "generated_at": "2026-08-24T12:40:06.688277+00:00"
 }
