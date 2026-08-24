@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "3542531661377ec9901539c0e5c27519",
+      "title": "The Future of AI and Work",
+      "url": "https://www.youtube.com/watch?v=m8x-gYMYFCg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-24T01:24:01+00:00",
+      "summary": "Opposition to AI data centers has become one of America’s fastest-moving bipartisan political issues, driven by concerns about electricity, water, noise, property values, jobs, and a deeper mistrust of Big Tech. NLW provides an end-to-end primer on what data centers actually do,…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4d36c9ba207d223dc6952fb54a64c58f",
       "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
       "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
@@ -441,21 +456,6 @@
       "published": "2026-08-12T19:52:26+00:00",
       "summary": "Milton Berg, one of Wall Street's legendary market technicians, returns to Monetary Matters to explain why he believes the recent crash across the S&P 500, Nasdaq 100, KOSPI, and semiconductor stocks has already bottomed — and why he's still positioned long despite major caveats…",
       "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6fe8dbe7373e5744ff744a565b6a72dc",
-      "title": "AI Optimism Has a Trust Problem",
-      "url": "https://www.youtube.com/watch?v=Gw6fGg-oO94",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-12T18:52:46+00:00",
-      "summary": "Political stakes around AI are rising as models grow more powerful and elections push the topic into mainstream debate. Mark Zuckerberg's 6,500-word manifesto promotes individual empowerment, open-source and open-weight models, proactive government–lab collaboration, and communi…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1780,5 +1780,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-24T01:01:45.511660+00:00"
+  "generated_at": "2026-08-24T02:58:11.162078+00:00"
 }
