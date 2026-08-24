@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "9312216d7482b03268a9cbbb7598c6c6",
+      "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-24T15:02:23+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d4c6d72d476b20aaa8005537ee1b8519",
+      "title": "Is Private Equity Broken? High Yield Harry on Wall Street’s New Reality",
+      "url": "https://www.youtube.com/watch?v=YOnxRmI6CV8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-24T14:33:24+00:00",
+      "summary": "In this episode of Other People's Money, host Max Wiethe sits down with High Yield Harry to examine the major trends in Wall Street compensation and careers, and why 2026 may be the year of the investment banker. Harry shares data from Buy Side Hub to detail buy-side compensatio…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "55b7ce746687f6190e58ee075b3176b1",
       "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
       "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
@@ -736,19 +766,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9f08873cb9db1536f8986c4786bb07fa",
-      "title": "🧠 Community Wisdom: Getting started with open source models, making a U.S. business trip worth it, preparing for a possible layoff, when marketing can’t keep up with product, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-getting-started",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-01T17:25:18+00:00",
-      "summary": "Community Wisdom 195",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "62590f17eb1b8cfa547cff6c3cc7c70b",
       "title": "Deep Learning Weekly: Issue 466",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-466",
@@ -1103,19 +1120,6 @@
         "AI/ML",
         "Macro/Fed"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "cf0b16176db6f8204fad8104a5e4c825",
-      "title": "Breaking Down the Multi-Manager Playbook: How This $19B CIO Thinks About Alpha | Sean McGould",
-      "url": "https://www.youtube.com/watch?v=2hJOcV53Nng",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-07T16:07:35+00:00",
-      "summary": "Sean McGould, CEO and CIO of $19 billion hedge fund manager The Lighthouse Group, joins OPM to discuss navigating today's bull market by targeting diverse sources of global alpha. The conversation focuses on Japan as a new source of alpha, spurred by the country's historic corpo…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1780,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-24T14:36:33.944118+00:00"
+  "generated_at": "2026-08-24T15:34:08.910314+00:00"
 }
