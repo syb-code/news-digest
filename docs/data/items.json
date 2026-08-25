@@ -1,37 +1,6 @@
 {
   "items": [
     {
-      "id": "3f794bbc7187899a85e916c053a1c504",
-      "title": "No AI Won't Take All Our Jobs. Here's What WILL Happen.",
-      "url": "https://www.youtube.com/shorts/UMDxpXGGdMs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-24T20:12:19+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d8d0d752fe693558a8497acd1791170f",
-      "title": "I Bet Money The Fed WON'T Raise Interest Rates in September — Here's Why...",
-      "url": "https://www.youtube.com/watch?v=B7fXmUqCANY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-24T16:00:39+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9312216d7482b03268a9cbbb7598c6c6",
       "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
@@ -54,21 +23,6 @@
       "source_type": "rss",
       "published": "2026-08-24T12:04:02+00:00",
       "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3542531661377ec9901539c0e5c27519",
-      "title": "The Future of AI and Work",
-      "url": "https://www.youtube.com/watch?v=m8x-gYMYFCg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-24T01:24:01+00:00",
-      "summary": "Opposition to AI data centers has become one of America’s fastest-moving bipartisan political issues, driven by concerns about electricity, water, noise, property values, jobs, and a deeper mistrust of Big Tech. NLW provides an end-to-end primer on what data centers actually do,…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -105,49 +59,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "01529a68af66a1af548913a87ee8d14d",
-      "title": "The AI Data Center Debate is Getting More Fierce",
-      "url": "https://www.youtube.com/shorts/wb34tKgMpLQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-22T17:00:11+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d66a908336010e8a9571b6b1fb1c8acf",
-      "title": "Why Everyone Suddenly Hates AI Data Centers",
-      "url": "https://www.youtube.com/watch?v=-t4RC5JmnTk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-22T11:39:46+00:00",
-      "summary": "Opposition to AI data centers has swung from 51% to 75% in six months, making it one of the fastest-moving bipartisan issues in recent polling. NLW unpacks the real drivers behind the anger — grid and water fears, NDA secrecy, a decade of big tech distrust, and communities feeli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2d92ac0322e543b25e72be6874cd6727",
-      "title": "US Government is Running Out of People to Borrow Money From",
-      "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-21T16:00:00+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "19d5bb236e66acf2d7baa2c953f37960",
       "title": "Deep Learning Weekly: Issue 469",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-469",
@@ -158,66 +69,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e46dbb68124d44bddddb2ca0ef19c197",
-      "title": "How to Make AI Writing Suck Less",
-      "url": "https://www.youtube.com/shorts/946SQc5D5RE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T15:00:38+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7bf487654ab247d74f6653d2217a577f",
-      "title": "9 AI Techniques You Probably Haven't Tried",
-      "url": "https://www.youtube.com/watch?v=o5PzgHXXjjQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T11:41:36+00:00",
-      "summary": "Nine emerging AI techniques are reshaping daily workflows, from live voice mode and teaching agents by screen recording to custom writing skills and Claude's /design command. NLW covers multiplayer team agents, GrokBot experiments, local models like Qwen 3.8 27B, and two-word pr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ddb1435db12f91548bbb6a079e453c62",
-      "title": "The AI Backlash Is Getting Stupider But Also Smarter",
-      "url": "https://www.youtube.com/watch?v=efyXCQSu-bU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T01:16:46+00:00",
-      "summary": "Data center backlash swings between viral meme campaigns and Governor Shapiro's surprisingly substantive executive order, revealing two very different tracks for AI's political fight. NLW breaks down why targeted regulation beats blanket moratoriums, and how OpenAI's voluntary t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "66a07f5a23abddd5c044d2c2006ab433",
-      "title": "The AI Engineering Skills Map for Knowledge Workers",
-      "url": "https://www.youtube.com/watch?v=f40AKMHebrY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-19T11:24:16+00:00",
-      "summary": "Knowledge work is shifting from doing tasks directly to managing agents now performing those tasks, demanding a new set of core skills. NLW maps five essential AI engineering skills for knowledge workers: capability mapping, context and harness management, problem and product pr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -236,34 +87,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bfbfb59b0d467f1ebae49ccfd827f3a0",
-      "title": "How People Are Fixing AI's Problems",
-      "url": "https://www.youtube.com/watch?v=Zq8e3xX02u8",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-18T21:17:56+00:00",
-      "summary": "AI is solving old problems while creating entirely new ones. NLW looks at how people and companies are responding to AI slop, rising token costs, uneven productivity, workforce deskilling, and the long-term challenge of preserving human expertise.\n\n\nThe AI Daily Brief helps you …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "418e5bf86c155d02ed382027d38796bc",
-      "title": "Japan's Yen Crisis is Becoming America's Problem",
-      "url": "https://www.youtube.com/watch?v=StdA6-BovKw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-18T16:00:26+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "04fc625dc1526bbce3da9733b6d78bb9",
       "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
       "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
@@ -274,21 +97,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6b69dd4e62108a5d7d9c62e3033b25b",
-      "title": "Dario Amodei Breaks His Social Media Silence",
-      "url": "https://www.youtube.com/watch?v=_q3yhihZKSg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-18T14:48:11+00:00",
-      "summary": "Dario Amodei's rare public clash with investor Gavin Baker turns a leaked comment about Anthropic's ambitions into a real debate over power, trust, and AI regulation. NLW breaks down Amodei's lengthy X posts on regulatory capture, messaging strategy, and why curing disease—not m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -335,21 +143,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bb2541d3f076db67296b208a506809ca",
-      "title": "How to Help AI Do Your Work Better",
-      "url": "https://www.youtube.com/watch?v=GtnZzy6tERA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-16T11:14:46+00:00",
-      "summary": "GrokBot's teach-a-task and ChatGPT's Computer History shift the bottleneck from model capability to contextual access.  \nA deputization audit applies five criteria—frequency, teachability, checkability, stakes, and personal involvement—to score recurring workflows and decide whe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bfa1ce110e906c162e078a0e93b504f2",
       "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
@@ -362,34 +155,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0e59671e61ad3105313c46247c8619d5",
-      "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
-      "url": "https://www.youtube.com/watch?v=8exG3NcsKxw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T19:57:21+00:00",
-      "summary": "Grok 4.6 is fast, capable, dramatically cheaper than the leading models—and another sign that AI users have more genuinely strong options than ever. NLW explores how competition from xAI, Chinese labs, and open-weight models is giving individuals and businesses more freedom to c…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c39d8c07bf71acdc091fbb2c929707fd",
-      "title": "Inflation Fell to 3.4%... But There's a Problem",
-      "url": "https://www.youtube.com/watch?v=4cSZY-AEuog",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-13T16:00:29+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -408,51 +173,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3c8722dd1df94e5a2f441e267175f56c",
-      "title": "How Grok Bot is Finally Making AI Agents Easy",
-      "url": "https://www.youtube.com/shorts/qQcmP9rg1EE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T12:36:52+00:00",
-      "summary": "Agents have been exciting all year, but technically difficult. Grok Bot is bringing the power of platforms like OpenClaw to a wider audience. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Dail…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "afa4492dd0692dc589f9187e662040a6",
-      "title": "The Right Way to Worry About AI",
-      "url": "https://www.youtube.com/watch?v=OR7aElrW2vU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T09:41:06+00:00",
-      "summary": "Headlines cover OpenAI model and pricing changes, Stripe's OpenRouter talks, NVIDIA memory shortages, and SoftBank's OpenAI-backed borrowing. Main discussions examine AI-designed novel viruses from Evo and the OpenAI agent exploits showcased at Black Hat, revealing biosecurity a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4f4ad4cc51a9f627fe295f2b86c5a73b",
-      "title": "Why AI Will IMPROVE Writing",
-      "url": "https://www.youtube.com/shorts/uIDHqX4SReI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T00:23:37+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "78eb147a77e27f70f5064967fe937235",
       "title": "How to make people care about your startup",
       "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
@@ -460,19 +180,6 @@
       "source_type": "rss",
       "published": "2026-08-11T13:31:07+00:00",
       "summary": "Three founder archetypes—and how to turn your origin story into a communications strategy",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "cc752c391f0c4c0567ed2ad6032d019c",
-      "title": "Jobs Report Was a Disaster... But The Stock Market Loves It",
-      "url": "https://www.youtube.com/watch?v=XOmEIOWwaJs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-10T20:42:31+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -552,19 +259,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f268ced1f3282d492657a2a173b5f979",
-      "title": "U.S. National Debt: Government Announces Massive New Borrowing",
-      "url": "https://www.youtube.com/watch?v=0jZ6Tz7zYME",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-06T16:00:07+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "3d9f94e3a222cd46735a61cb56a43518",
       "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
       "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
@@ -587,19 +281,6 @@
       "source_type": "rss",
       "published": "2026-08-04T13:02:53+00:00",
       "summary": "The case for career emergence",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f4b4e4a5f9560840e04c2803c1aa88f3",
-      "title": "GDP Report: Americans Are Burning Through Their Savings",
-      "url": "https://www.youtube.com/watch?v=XGtzoJK0Smw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-03T16:00:03+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -681,49 +362,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "728c2a87ad275a7bacbc9cfeeabf55a8",
-      "title": "The Fed on Inflation: \"Americans Are Being Impatient\"",
-      "url": "https://www.youtube.com/watch?v=5e8txMnFbB0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-29T23:30:32+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "146491037227843688b0960127b1ac3f",
-      "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
-      "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-27T20:39:34+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6a468f29dc4eb441da9c33e4e8659ce",
-      "title": "How to Invest Your First $1,000 in The Stock Market",
-      "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-24T16:00:04+00:00",
-      "summary": "Stock Brokerage Accounts That Offer Fractional Shares:\nRobinhood: https://join.robinhood.com/briank4837/\nWeBull: https://www.webull.com/k/ClearValueTax\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9bf41bb987ce1e48e329ad3aefe4e46c",
       "title": "Deep Learning Weekly: Issue 465",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-465",
@@ -731,19 +369,6 @@
       "source_type": "rss",
       "published": "2026-07-24T15:02:41+00:00",
       "summary": "Kimi K3, Beyond the Single Trace: How We Built Agent Diagnostics for Opik, a paper on Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "40f6137eef2ca26644dcbe70778319eb",
-      "title": "Gold Investing on The Stock Market: The Case For Buying Today",
-      "url": "https://www.youtube.com/watch?v=_Iih8RG5UTo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-21T16:34:00+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -840,19 +465,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "47107b841fc91a4badbd3122e08c59bd",
-      "title": "Retirement Plans: The Best Order to Invest Your Money",
-      "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-17T16:00:25+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5acc3c9930f65e603d76e00ad4de6bf8",
       "title": "Deep Learning Weekly: Issue 464",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-464",
@@ -860,34 +472,6 @@
       "source_type": "rss",
       "published": "2026-07-16T15:01:04+00:00",
       "summary": "Thinking Machines' Inkling, How We Optimized Opik’s MCP Server for Cost & Performance, Metacognition in LLMs: Foundations, Progress, and Opportunities, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "14b9eb7ced07f628ea9d3b5ecdb9223d",
-      "title": "Stock Market: CPI Inflation Report Sends Fed Rate Hike Odds Lower",
-      "url": "https://www.youtube.com/watch?v=dPyrtDC9c4M",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-14T18:46:57+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f70dab487d42d617feb8b806c4e1dd85",
-      "title": "The Stock Market's Midterm Election Pattern: 98 Years of Data",
-      "url": "https://www.youtube.com/watch?v=xxKl1i7iD88",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-13T16:00:19+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -904,22 +488,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f31e913dad285f59665ba665aebda0b9",
-      "title": "Fed Minutes Released: What They Really Said",
-      "url": "https://www.youtube.com/watch?v=Fs0PlxOAxcs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-08T21:47:27+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1571,5 +1139,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-25T02:53:37.787087+00:00"
+  "generated_at": "2026-08-25T03:43:45.161365+00:00"
 }
