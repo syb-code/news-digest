@@ -1,6 +1,49 @@
 {
   "items": [
     {
+      "id": "cb0534ec4d4ecfd623a0702fa32259ee",
+      "title": "Last Week in AI #342 - Last 3 Months in AI",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-342-last-3-months",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-25T13:25:48+00:00",
+      "summary": "The newsletter is finally back!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4de58eb74ffa5a0fe8dbf7369152d2e1",
+      "title": "How to figure out your next career move",
+      "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-25T13:04:15+00:00",
+      "summary": "Six essential questions to help you navigate change",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "42a315e22c9bebc7c8c99584cb025a51",
+      "title": "The Underappreciated Macro Risks That Could Derail the Bull Market | Warren Pies",
+      "url": "https://www.youtube.com/watch?v=LcJTSTmnjsc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-25T13:00:34+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: unlimitedetfs.com/globalmacro-hfgm\n\nIn this episode of \"Other People's Money,\" host Max Wiethe welcomes back Warren Pies, co-founder of 3Fourteen Research, to unpack why macro risks are suddenly taking control of the stock …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "3f794bbc7187899a85e916c053a1c504",
       "title": "No AI Won't Take All Our Jobs. Here's What WILL Happen.",
       "url": "https://www.youtube.com/shorts/UMDxpXGGdMs",
@@ -767,21 +810,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "70a42a6110f37050d8e7da049b2a4ad3",
-      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
-      "url": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-02T12:32:02+00:00",
-      "summary": "Listen now | Tom Verrilli explains why fewer, more senior PMs doing real IC work outperform any ratio-driven org structure",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "62590f17eb1b8cfa547cff6c3cc7c70b",
       "title": "Deep Learning Weekly: Issue 466",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-466",
@@ -1064,21 +1092,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ab1eb4188cc704626967b9171d5da943",
-      "title": "Semiconductors Are Gushing Cash… Here’s What’s Next in The AI Trade  | Ben Pouladian",
-      "url": "https://www.youtube.com/watch?v=1PiHrb6mmo4",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-14T20:05:58+00:00",
-      "summary": "In this episode of Monetary Matters, Jack Farley sits down with semiconductor analyst Ben Pouladian of BEP Research to unpack the complex hardware supply chain powering the AI revolution. Pouladian pushes back against the bear argument that the current boom is merely a dot-com b…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1595,21 +1608,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "94cadf05be70d1289d14d790afceccb7",
-      "title": "LWiAI Podcast #235 - Sonnet 4.6, Deep-thinking tokens, Anthropic vs Pentagon",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-235-sonnet-46-deep",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-05T08:42:21+00:00",
-      "summary": "Anthropic releases Sonnet 4.6, Google Rolls Out Gemini 3.1 Pro, Anthropic CEO Amodei says Pentagon’s threats ‘do not change our position’ on AI",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f22bc317a2702455b51ba02f86f11864",
       "title": "The Approval Interface",
       "url": "https://designplusai.com/p/the-approval-interface",
@@ -1787,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-25T12:38:39.069094+00:00"
+  "generated_at": "2026-08-25T13:44:26.924773+00:00"
 }
