@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "2fcd46ce92fe375d5ddfbbf1ff93b021",
+      "title": "What the Top AI Users Are Doing Differently",
+      "url": "https://www.youtube.com/watch?v=usNZ0fWbTok",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-26T13:10:56+00:00",
+      "summary": "New OpenAI research shows the usage gap between frontier firms and average enterprises exploded from 2.6X to 8.3X in six months, driven entirely by agentic adoption. NLW breaks down the flip from chat to agentic tokens, why legal saw 108X growth in Codex usage, and how skills an…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "67f93eb1fb588b9cdd28f5fe8796a97c",
       "title": "The AI Model Tier List",
       "url": "https://www.youtube.com/watch?v=SHPIEDynd9I",
@@ -529,21 +544,6 @@
       "source_type": "youtube",
       "published": "2026-08-13T12:36:52+00:00",
       "summary": "Agents have been exciting all year, but technically difficult. Grok Bot is bringing the power of platforms like OpenClaw to a wider audience. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Dail…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "afa4492dd0692dc589f9187e662040a6",
-      "title": "The Right Way to Worry About AI",
-      "url": "https://www.youtube.com/watch?v=OR7aElrW2vU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T09:41:06+00:00",
-      "summary": "Headlines cover OpenAI model and pricing changes, Stripe's OpenRouter talks, NVIDIA memory shortages, and SoftBank's OpenAI-backed borrowing. Main discussions examine AI-designed novel viruses from Evo and the OpenAI agent exploits showcased at Black Hat, revealing biosecurity a…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-26T12:42:03.115851+00:00"
+  "generated_at": "2026-08-26T13:50:59.778107+00:00"
 }
