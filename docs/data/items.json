@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "47fa1838916a930fc540c08d29139a78",
+      "title": "Gold, Silver, Copper, Oil — Why They're ALL Rallying Together | Jim Wiederhold",
+      "url": "https://www.youtube.com/watch?v=9PbTMpA8KD4",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-26T18:36:39+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nJim Wiederhold, Commodity Indices Product Manager at Bloomberg, joins Monetary Matters for a deep dive into what's really driving this commodities cycle. We start with the AI buildout and why it's quietly …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2fcd46ce92fe375d5ddfbbf1ff93b021",
       "title": "What the Top AI Users Are Doing Differently",
       "url": "https://www.youtube.com/watch?v=usNZ0fWbTok",
@@ -1082,19 +1097,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "679145c564ea081d8b0953a80cac5ef3",
-      "title": "Why Capturing The Market’s Biggest Trends Means Embracing High Volatility | Takahe Capital",
-      "url": "https://www.youtube.com/watch?v=6mCs4MDHoGE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-16T13:26:50+00:00",
-      "summary": "Moritz Seibert and Moritz Heiden of Takahe Capital dive deep into the mechanics of high-octane trend-following strategies and unpack why they target 25-30% annualized volatility, bucking the institutional trend of lower volatility to capture massive outlier trades like the recen…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "14b9eb7ced07f628ea9d3b5ecdb9223d",
       "title": "Stock Market: CPI Inflation Report Sends Fed Rate Hike Odds Lower",
       "url": "https://www.youtube.com/watch?v=dPyrtDC9c4M",
@@ -1785,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-26T16:13:47.661686+00:00"
+  "generated_at": "2026-08-26T18:55:18.024274+00:00"
 }
