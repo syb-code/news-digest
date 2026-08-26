@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "67f93eb1fb588b9cdd28f5fe8796a97c",
+      "title": "The AI Model Tier List",
+      "url": "https://www.youtube.com/watch?v=SHPIEDynd9I",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-26T02:54:11+00:00",
+      "summary": "A viral AI model tier list sparks debate, but the real story is how individuals and enterprises now build full model stacks instead of picking one winner. NLW breaks down why the Financial Times misread Anthropic's Fable 5 sales data, how AT&T is shifting most queries to open mo…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cb0534ec4d4ecfd623a0702fa32259ee",
       "title": "Last Week in AI #342 - Last 3 Months in AI",
       "url": "https://lastweekin.ai/p/last-week-in-ai-342-last-3-months",
@@ -26,6 +41,36 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "42a315e22c9bebc7c8c99584cb025a51",
+      "title": "The Underappreciated Macro Risks That Could Derail the Bull Market | Warren Pies",
+      "url": "https://www.youtube.com/watch?v=LcJTSTmnjsc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-25T13:00:34+00:00",
+      "summary": "Learn More About Unlimited HFGM Global Macro ETF $HFGM: unlimitedetfs.com/globalmacro-hfgm\n\nIn this episode of \"Other People's Money,\" host Max Wiethe welcomes back Warren Pies, co-founder of 3Fourteen Research, to unpack why macro risks are suddenly taking control of the stock …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3f794bbc7187899a85e916c053a1c504",
+      "title": "No AI Won't Take All Our Jobs. Here's What WILL Happen.",
+      "url": "https://www.youtube.com/shorts/UMDxpXGGdMs",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-24T20:12:19+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -60,6 +105,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "d4c6d72d476b20aaa8005537ee1b8519",
+      "title": "Is Private Equity Broken? High Yield Harry on Wall Street’s New Reality",
+      "url": "https://www.youtube.com/watch?v=YOnxRmI6CV8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-24T14:33:24+00:00",
+      "summary": "In this episode of Other People's Money, host Max Wiethe sits down with High Yield Harry to examine the major trends in Wall Street compensation and careers, and why 2026 may be the year of the investment banker. Harry shares data from Buy Side Hub to detail buy-side compensatio…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "55b7ce746687f6190e58ee075b3176b1",
       "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
       "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
@@ -67,6 +127,21 @@
       "source_type": "rss",
       "published": "2026-08-24T12:04:02+00:00",
       "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3542531661377ec9901539c0e5c27519",
+      "title": "The Future of AI and Work",
+      "url": "https://www.youtube.com/watch?v=m8x-gYMYFCg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-24T01:24:01+00:00",
+      "summary": "Opposition to AI data centers has become one of America’s fastest-moving bipartisan political issues, driven by concerns about electricity, water, noise, property values, jobs, and a deeper mistrust of Big Tech. NLW provides an end-to-end primer on what data centers actually do,…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -103,6 +178,36 @@
       "bucket": "highlight"
     },
     {
+      "id": "01529a68af66a1af548913a87ee8d14d",
+      "title": "The AI Data Center Debate is Getting More Fierce",
+      "url": "https://www.youtube.com/shorts/wb34tKgMpLQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-22T17:00:11+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d66a908336010e8a9571b6b1fb1c8acf",
+      "title": "Why Everyone Suddenly Hates AI Data Centers",
+      "url": "https://www.youtube.com/watch?v=-t4RC5JmnTk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-22T11:39:46+00:00",
+      "summary": "Opposition to AI data centers has swung from 51% to 75% in six months, making it one of the fastest-moving bipartisan issues in recent polling. NLW unpacks the real drivers behind the anger — grid and water fears, NDA secrecy, a decade of big tech distrust, and communities feeli…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "2d92ac0322e543b25e72be6874cd6727",
       "title": "US Government is Running Out of People to Borrow Money From",
       "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
@@ -129,6 +234,79 @@
       "bucket": "highlight"
     },
     {
+      "id": "e46dbb68124d44bddddb2ca0ef19c197",
+      "title": "How to Make AI Writing Suck Less",
+      "url": "https://www.youtube.com/shorts/946SQc5D5RE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-21T15:00:38+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7bf487654ab247d74f6653d2217a577f",
+      "title": "9 AI Techniques You Probably Haven't Tried",
+      "url": "https://www.youtube.com/watch?v=o5PzgHXXjjQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-21T11:41:36+00:00",
+      "summary": "Nine emerging AI techniques are reshaping daily workflows, from live voice mode and teaching agents by screen recording to custom writing skills and Claude's /design command. NLW covers multiplayer team agents, GrokBot experiments, local models like Qwen 3.8 27B, and two-word pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ddb1435db12f91548bbb6a079e453c62",
+      "title": "The AI Backlash Is Getting Stupider But Also Smarter",
+      "url": "https://www.youtube.com/watch?v=efyXCQSu-bU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-21T01:16:46+00:00",
+      "summary": "Data center backlash swings between viral meme campaigns and Governor Shapiro's surprisingly substantive executive order, revealing two very different tracks for AI's political fight. NLW breaks down why targeted regulation beats blanket moratoriums, and how OpenAI's voluntary t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "121fa04623ee6ace9d8139b81a870019",
+      "title": "Why U.S. Treasury’s Bond Market Intervention Is Just The Beginning | Luke Gromen",
+      "url": "https://www.youtube.com/watch?v=IsswgLUkUas",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-20T20:03:45+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nLuke Gromen — founder of Forest for the Trees (FFTT) Research — returns to Monetary Matters the same week Treasury Secretary Scott Bessent doubled the size of Treasury buybacks, and Luke argues it's the fi…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "66a07f5a23abddd5c044d2c2006ab433",
+      "title": "The AI Engineering Skills Map for Knowledge Workers",
+      "url": "https://www.youtube.com/watch?v=f40AKMHebrY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-19T11:24:16+00:00",
+      "summary": "Knowledge work is shifting from doing tasks directly to managing agents now performing those tasks, demanding a new set of core skills. NLW maps five essential AI engineering skills for knowledge workers: capability mapping, context and harness management, problem and product pr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "696c5af202c75a72cc586cd219126218",
       "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
       "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
@@ -136,6 +314,21 @@
       "source_type": "rss",
       "published": "2026-08-18T21:30:31+00:00",
       "summary": "Watch now | 🎙️ I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bfbfb59b0d467f1ebae49ccfd827f3a0",
+      "title": "How People Are Fixing AI's Problems",
+      "url": "https://www.youtube.com/watch?v=Zq8e3xX02u8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-18T21:17:56+00:00",
+      "summary": "AI is solving old problems while creating entirely new ones. NLW looks at how people and companies are responding to AI slop, rising token costs, uneven productivity, workforce deskilling, and the long-term challenge of preserving human expertise.\n\n\nThe AI Daily Brief helps you …",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -170,6 +363,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "a6b69dd4e62108a5d7d9c62e3033b25b",
+      "title": "Dario Amodei Breaks His Social Media Silence",
+      "url": "https://www.youtube.com/watch?v=_q3yhihZKSg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-18T14:48:11+00:00",
+      "summary": "Dario Amodei's rare public clash with investor Gavin Baker turns a leaked comment about Anthropic's ambitions into a real debate over power, trust, and AI regulation. NLW breaks down Amodei's lengthy X posts on regulatory capture, messaging strategy, and why curing disease—not m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d091c77a45d6ed94f8930307fdd78f45",
       "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
@@ -198,6 +406,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "7c4d995d095686c9c42428bfc2242c07",
+      "title": "The $1.5 Trillion of Hidden Debt Fueling the AI Boom | Robin Wigglesworth of FT Alphaville",
+      "url": "https://www.youtube.com/watch?v=kZXjQZWUHH0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-17T00:22:43+00:00",
+      "summary": "Robin Wigglesworth — editor of FT Alphaville and author of A Fabulous Debt: The Epic Story of How Bonds Built the Modern World — joins Jack Farley to unpack the hidden debt fueling the AI buildout. Wigglesworth reveals that off-balance-sheet leverage from hyperscalers like Meta,…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8587bfcff0f0884293d31f89260198d1",
       "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
       "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
@@ -213,6 +436,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "bb2541d3f076db67296b208a506809ca",
+      "title": "How to Help AI Do Your Work Better",
+      "url": "https://www.youtube.com/watch?v=GtnZzy6tERA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-16T11:14:46+00:00",
+      "summary": "GrokBot's teach-a-task and ChatGPT's Computer History shift the bottleneck from model capability to contextual access.  \nA deputization audit applies five criteria—frequency, teachability, checkability, stakes, and personal involvement—to score recurring workflows and decide whe…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "bfa1ce110e906c162e078a0e93b504f2",
       "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
@@ -220,6 +458,34 @@
       "source_type": "rss",
       "published": "2026-08-15T17:01:13+00:00",
       "summary": "Community Wisdom 197",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "248607abcb85eac8fb12925baa5f8c0d",
+      "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
+      "url": "https://www.youtube.com/watch?v=suivZa95fkM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-13T20:00:12+00:00",
+      "summary": "Andy Unanue, Founder and Managing Partner of AUA Private Equity Partners and former COO of Goya Foods breaks down the trillion-dollar opportunity in US food, beverage, and pet wellness family businesses. Andy shares how his experience in a family-run business shaped his firm's s…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0e59671e61ad3105313c46247c8619d5",
+      "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
+      "url": "https://www.youtube.com/watch?v=8exG3NcsKxw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T19:57:21+00:00",
+      "summary": "Grok 4.6 is fast, capable, dramatically cheaper than the leading models—and another sign that AI users have more genuinely strong options than ever. NLW explores how competition from xAI, Chinese labs, and open-weight models is giving individuals and businesses more freedom to c…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -249,6 +515,51 @@
       "published": "2026-08-13T15:02:24+00:00",
       "summary": "Introducing Grok 4.6, TutorMoments: Do AI tutors know when to help and when to hold back?, a paper on BDH-CQ: In-Context Learning with Recurrent Latent Reasoning, and many more!",
       "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3c8722dd1df94e5a2f441e267175f56c",
+      "title": "How Grok Bot is Finally Making AI Agents Easy",
+      "url": "https://www.youtube.com/shorts/qQcmP9rg1EE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T12:36:52+00:00",
+      "summary": "Agents have been exciting all year, but technically difficult. Grok Bot is bringing the power of platforms like OpenClaw to a wider audience. \n\nThe AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Dail…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "afa4492dd0692dc589f9187e662040a6",
+      "title": "The Right Way to Worry About AI",
+      "url": "https://www.youtube.com/watch?v=OR7aElrW2vU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-13T09:41:06+00:00",
+      "summary": "Headlines cover OpenAI model and pricing changes, Stripe's OpenRouter talks, NVIDIA memory shortages, and SoftBank's OpenAI-backed borrowing. Main discussions examine AI-designed novel viruses from Evo and the OpenAI agent exploits showcased at Black Hat, revealing biosecurity a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4b4e3745d49aa4734159551d885f7aac",
+      "title": "The Worst Panic in 4 Years Just Happened. Here's Why Milton Berg Is VERY BULLISH on Stocks",
+      "url": "https://www.youtube.com/watch?v=Idj7jAOtE50",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-12T19:52:26+00:00",
+      "summary": "Milton Berg, one of Wall Street's legendary market technicians, returns to Monetary Matters to explain why he believes the recent crash across the S&P 500, Nasdaq 100, KOSPI, and semiconductor stocks has already bottomed — and why he's still positioned long despite major caveats…",
+      "read_minutes": 4,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -340,6 +651,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "979514cbdf2e5fd252c24da308b1e6db",
+      "title": "These Power Stocks (Not Semis) Are The Real AI Beneficiaries, Say Investing Brother Duo Up 1,300%",
+      "url": "https://www.youtube.com/watch?v=cUO79k97pJ8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-07T19:41:12+00:00",
+      "summary": "Monetary Matters listeners can get 20% off subscriptions for one year here (billed quarterly):\nhttps://pernasresearch.com/register/monetary-matters/?coupon=monetarymatters\n\nIn this episode of Monetary Matters, Jack Farley sits down with Deiya and Dean Pernas of Pernas Research t…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "76bdf2a57d2191e6396183a40360f5af",
       "title": "Deep Learning Weekly: Issue 467",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-467",
@@ -375,6 +701,21 @@
       "source_type": "rss",
       "published": "2026-08-05T12:04:01+00:00",
       "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
+      "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
+      "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-04T18:58:32+00:00",
+      "summary": "Victor Haghani — founder of Elm Wealth, co-author of “The Missing Billionaires” and former founding partner of Long-Term Capital Management — joins Monetary Matters to explain why the stock market doesn't follow a random walk. Drawing on his new paper \"Who Killed the Random Walk…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -454,6 +795,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "d2170a2b98a48ed4a8965e726d1a4c60",
+      "title": "AI Trade \"Dead Money\" For Now - But Macro Overall Is \"Pretty Risk-On\" For Stocks | Tian Yang",
+      "url": "https://www.youtube.com/watch?v=Q4eRWt2Zxx8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-02T22:35:51+00:00",
+      "summary": "In this episode, Jack sits down with Tian Yang, co-founder and head of research at Variant Perception, to analyze the current macroeconomic landscape and equity market outlook. Tian shares why macro indicators point to a broadly supportive \"risk-on\" environment over the next thr…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "62590f17eb1b8cfa547cff6c3cc7c70b",
       "title": "Deep Learning Weekly: Issue 466",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-466",
@@ -484,6 +840,35 @@
       "bucket": "highlight"
     },
     {
+      "id": "50468330b37adef54625a54d3995378c",
+      "title": "Mum’s The Word: Kathryn Rooney Vera on Fed’s Second Meeting under Kevin Warsh (Live Replay)",
+      "url": "https://www.youtube.com/watch?v=fMNSCF1bW0w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-29T21:55:49+00:00",
+      "summary": "In this episode, Jack sits down with Kathryn Rooney Vera, Chief Market Strategist at StoneX Group, to unpack the Federal Reserve's decision to hold interest rates and Chair Warsh's transition toward a quieter, laissez-faire communication style. Kathryn shares her macroeconomic o…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7f4714f39ca9065b9d8ea94524558748",
+      "title": "Why Yield Curve Control is the Only Way to Stop a Global Bond Crisis | Luke Gromen",
+      "url": "https://www.youtube.com/watch?v=lS67XZP81Tc",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-28T13:52:54+00:00",
+      "summary": "Learn more about the Fundrise Income Fund here: https://Fundrise.com/mm\n\nLuke Gromen, founder of Forest for the Trees, sites down with Max Wiethe to dissect the escalating crisis in the global bond market. Gromen argues that off-balance sheet liabilities, such as baby boomer ret…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "146491037227843688b0960127b1ac3f",
       "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
       "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
@@ -495,6 +880,21 @@
       "duration_sec": null,
       "themes": [
         "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "34e522144d32921b83c360f2de75be98",
+      "title": "Next Financial Crisis Unlikely To Start in Private Markets (Fundamentals Solid!) | Nicholas Brooks",
+      "url": "https://www.youtube.com/watch?v=wM0_rexOj_w",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-26T16:59:20+00:00",
+      "summary": "In this episode of Monetary Matters, host Jack sits down with Nicholas Brooks, Head of Economic and Investment Research at ICG, to discuss the true health of private credit and corporate balance sheets. Brooks argues that underlying corporate fundamentals and EBITDA growth remai…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -522,6 +922,21 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e2370ae96d56af9ca1be2b10937963f4",
+      "title": "The Next Financial Crisis Isn't In AI, It's In US Treasuries | Russell Clark",
+      "url": "https://www.youtube.com/watch?v=wS4MV0FbVm8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-22T14:00:16+00:00",
+      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb \n\nFree E-book from Teucrium: https://insights.teucrium.com/why-investors-turning-to-commodity-etfs\n\nIn this episode of Other People's Money, Max Wiethe sits down with hedge fund manager Russell Clark …",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -628,6 +1043,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "8ebe9a0a9b58b8485ee3f08fd24ef892",
+      "title": "The Next Financial Crisis Isn’t In Banks. It’s In Insurance & Private Credit | Nick Nemeth",
+      "url": "https://www.youtube.com/watch?v=5qkNpMxD9kw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-20T15:16:26+00:00",
+      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nPrivate credit has ballooned to roughly a trillion dollars, but Nick Nemeth of Mispriced Assets argues the danger isn't the banking system — it's insurance. In this Monetary Matters interview with Jack Far…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "47107b841fc91a4badbd3122e08c59bd",
       "title": "Retirement Plans: The Best Order to Invest Your Money",
       "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
@@ -648,6 +1076,19 @@
       "source_type": "rss",
       "published": "2026-07-16T15:01:04+00:00",
       "summary": "Thinking Machines' Inkling, How We Optimized Opik’s MCP Server for Cost & Performance, Metacognition in LLMs: Foundations, Progress, and Opportunities, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "679145c564ea081d8b0953a80cac5ef3",
+      "title": "Why Capturing The Market’s Biggest Trends Means Embracing High Volatility | Takahe Capital",
+      "url": "https://www.youtube.com/watch?v=6mCs4MDHoGE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-07-16T13:26:50+00:00",
+      "summary": "Moritz Seibert and Moritz Heiden of Takahe Capital dive deep into the mechanics of high-octane trend-following strategies and unpack why they target 25-30% annualized volatility, bucking the institutional trend of lower volatility to capture massive outlier trades like the recen…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1344,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-26T06:40:14.635230+00:00"
+  "generated_at": "2026-08-26T07:41:13.865143+00:00"
 }
