@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c6581a7a41064abf0ffab505ba73693c",
+      "title": "Deep Learning Weekly: Issue 470",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-470",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-08-27T15:03:29+00:00",
+      "summary": "GLM-5.3-Flash, Evaluating Explanations of LLM Behavior in the Wild with Counterfactual Experiments, a paper on FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution, and many",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "47fa1838916a930fc540c08d29139a78",
       "title": "Gold, Silver, Copper, Oil — Why They're ALL Rallying Together | Jim Wiederhold",
       "url": "https://www.youtube.com/watch?v=9PbTMpA8KD4",
@@ -1453,19 +1466,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d5bfed3cb265a1fa68dcc193c70bd7ba",
-      "title": "Deep Learning Weekly: Issue 450",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-450",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-04-09T15:01:40+00:00",
-      "summary": "Gemma 4, Components of A Coding Agent, a paper on VOID: Video Object and Interaction Deletion, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9c6588d0291771dd07f4d609e8311d7e",
       "title": "How to Build Something Lovable",
       "url": "https://designplusai.com/p/how-to-build-something-lovable",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-27T13:41:05.649760+00:00"
+  "generated_at": "2026-08-27T23:31:44.148974+00:00"
 }
