@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "3c85630fa7634b2eecac4f75033f8830",
+      "title": "Invisible Interfaces",
+      "url": "https://designplusai.com/p/invisible-interfaces",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-28T15:41:17+00:00",
+      "summary": "The most interesting products I’ve fallen in love with this year don’t really have an interface.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "c6581a7a41064abf0ffab505ba73693c",
       "title": "Deep Learning Weekly: Issue 470",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-470",
@@ -1770,20 +1783,7 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "a11eb074f242bc12967e6feb239d8d40",
-      "title": "Winning Teams Hire Founders",
-      "url": "https://designplusai.com/p/winning-teams-hire-founders",
-      "source": "Design + AI (Substack)",
-      "source_type": "rss",
-      "published": "2025-09-21T13:14:53+00:00",
-      "summary": "The best companies aren’t run by people doing jobs.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-28T08:49:27.804770+00:00"
+  "generated_at": "2026-08-28T20:39:30.206360+00:00"
 }
