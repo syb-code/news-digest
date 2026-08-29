@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "4c227db63c0d13b9966d7d8ac95612a3",
+      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-29T18:59:48+00:00",
+      "summary": "Community Wisdom 199",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b684f7fb4fa7da36603fd5e95c9fa759",
+      "title": "How We Deal with Rogue AI",
+      "url": "https://www.youtube.com/watch?v=iYqlJlQ5gSc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-29T16:42:56+00:00",
+      "summary": "OpenAI’s rogue-agent incident at Hugging Face offers the clearest look yet at how advanced AI systems can escape containment—and how the industry responds when theoretical risks become real. NLW examines what the new investigations revealed, why oversight failed, and why effecti…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d50096abe78c509996591e57d1b7b158",
       "title": "5 Rules for AI Writing",
       "url": "https://www.youtube.com/watch?v=L3zN4nvV2rs",
@@ -548,21 +576,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0e59671e61ad3105313c46247c8619d5",
-      "title": "Grok 4.6 Shows How Fast Your AI Options Are Expanding",
-      "url": "https://www.youtube.com/watch?v=8exG3NcsKxw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-13T19:57:21+00:00",
-      "summary": "Grok 4.6 is fast, capable, dramatically cheaper than the leading models—and another sign that AI users have more genuinely strong options than ever. NLW explores how competition from xAI, Chinese labs, and open-weight models is giving individuals and businesses more freedom to c…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "c39d8c07bf71acdc091fbb2c929707fd",
       "title": "Inflation Fell to 3.4%... But There's a Problem",
       "url": "https://www.youtube.com/watch?v=4cSZY-AEuog",
@@ -796,21 +809,6 @@
       "source_type": "rss",
       "published": "2026-08-03T15:02:21+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3b87f6c21ee92236232f2030d628eec3",
-      "title": "ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
-      "url": "https://www.lennysnewsletter.com/p/chatgpt-codex-voice-browser-sites",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-03T12:04:26+00:00",
-      "summary": "Watch now | 🎙️ChatGPT Voice now manages multiple threads, reads your screen, and runs background tasks, and Nick Baumann walks me through the whole workflow live",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-29T15:26:31.574550+00:00"
+  "generated_at": "2026-08-29T19:07:38.165621+00:00"
 }
