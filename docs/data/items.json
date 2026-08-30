@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "40640a05d50d9a22a4254f44e1ebe88d",
+      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+      "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-30T12:31:30+00:00",
+      "summary": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "4c227db63c0d13b9966d7d8ac95612a3",
       "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
@@ -799,21 +814,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e0453d86a8750bf0b030bc89d1cb1fc9",
-      "title": "🎙️ How I AI: ChatGPT Codex Voice + browser + Sites: an expert’s AI workflow | Nick Baumann (OpenAI)",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-chatgpt-codex-voice-browser",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-03T15:02:21+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-30T12:33:09.247348+00:00"
+  "generated_at": "2026-08-30T17:09:52.506146+00:00"
 }
