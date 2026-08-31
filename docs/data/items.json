@@ -1,6 +1,82 @@
 {
   "items": [
     {
+      "id": "9e5ab2a17b37d7a686897a71a913eb78",
+      "title": "Is the AI Trade Over? (Why July Wasn’t a Blowoff Top) | Jeff Keller",
+      "url": "https://www.youtube.com/watch?v=zaI0QdiAmjs",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-08-31T16:42:14+00:00",
+      "summary": "Max Wiethe sits down with Capelight Partners founder Jeff Keller to dissect the massive Q3 technology sector divergence and the rapidly shifting landscape of AI investments. Keller breaks down why the market is rewarding near-term certainty in the tech sector and why he doesn’t …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b5fd5262465ada9edd5fce1a0602bae4",
+      "title": "The Fed Could Raise Interest Rates. This Could Get Ugly.",
+      "url": "https://www.youtube.com/watch?v=7tbI2hyy7Jc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-31T16:39:49+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e67735379c8825ee141e5a3ac52eb295",
+      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-31T15:01:58+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "70fc8d8f785d88f2cbe3d600cdb8c96c",
+      "title": "Where to Start AI Coding if You're Not Yet",
+      "url": "https://www.youtube.com/watch?v=oOypWmORZRk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-08-31T14:11:41+00:00",
+      "summary": "AI coding is quickly becoming a foundational skill for knowledge workers, not just software engineers. NLW breaks down how to identify software-shaped problems in your work, choose between automating, upgrading, and inventing, and find a practical first project worth building.\n\n…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b352e3009c5b2443fb7b7b8d71295748",
+      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
+      "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-31T12:04:18+00:00",
+      "summary": "Listen now | 🎙️ PM Daniel Blum walks through the exact Cowork and Claude setup that manages his Notion, tracks his tasks across Slack and email, and self-improves every week without him lifting a finger",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5e452cbbc6b5cc90e5611ede3b9eddb9",
       "title": "LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones",
       "url": "https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno",
@@ -17,7 +93,7 @@
     },
     {
       "id": "40640a05d50d9a22a4254f44e1ebe88d",
-      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)",
       "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
@@ -563,21 +639,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bb2541d3f076db67296b208a506809ca",
-      "title": "How to Help AI Do Your Work Better",
-      "url": "https://www.youtube.com/watch?v=GtnZzy6tERA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-16T11:14:46+00:00",
-      "summary": "GrokBot's teach-a-task and ChatGPT's Computer History shift the bottleneck from model capability to contextual access.  \nA deputization audit applies five criteria—frequency, teachability, checkability, stakes, and personal involvement—to score recurring workflows and decide whe…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "bfa1ce110e906c162e078a0e93b504f2",
       "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
@@ -776,21 +837,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "3d9f94e3a222cd46735a61cb56a43518",
-      "title": "Build an AI code review bot in 30 minutes with Vercel Eve",
-      "url": "https://www.lennysnewsletter.com/p/build-an-ai-code-review-bot-in-30",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-05T12:04:01+00:00",
-      "summary": "Watch now | 🎙️ I used Vercel Eve agents and Codex to build Merge Mommy: a PR review bot that scores risk, auto-approves the easy ones, and pings me in Slack for the rest",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
       "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
       "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
@@ -803,19 +849,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2cc781540e8cdc44cc22dfb9e4d3644a",
-      "title": "What if you’re not supposed to have a long-term plan?",
-      "url": "https://www.lennysnewsletter.com/p/what-if-youre-not-supposed-to-have",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-04T13:02:53+00:00",
-      "summary": "The case for career emergence",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1095,19 +1128,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8ebe9a0a9b58b8485ee3f08fd24ef892",
-      "title": "The Next Financial Crisis Isn’t In Banks. It’s In Insurance & Private Credit | Nick Nemeth",
-      "url": "https://www.youtube.com/watch?v=5qkNpMxD9kw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-20T15:16:26+00:00",
-      "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nPrivate credit has ballooned to roughly a trillion dollars, but Nick Nemeth of Mispriced Assets argues the danger isn't the banking system — it's insurance. In this Monetary Matters interview with Jack Far…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "47107b841fc91a4badbd3122e08c59bd",
       "title": "Retirement Plans: The Best Order to Invest Your Money",
       "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
@@ -1172,22 +1192,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f31e913dad285f59665ba665aebda0b9",
-      "title": "Fed Minutes Released: What They Really Said",
-      "url": "https://www.youtube.com/watch?v=Fs0PlxOAxcs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-08T21:47:27+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1783,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-31T10:26:07.959042+00:00"
+  "generated_at": "2026-08-31T17:49:13.521972+00:00"
 }
