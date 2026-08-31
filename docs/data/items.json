@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5e452cbbc6b5cc90e5611ede3b9eddb9",
+      "title": "LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-31T08:20:04+00:00",
+      "summary": "Google announces Gemini 3.7 Flash, Jalapeño’s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "40640a05d50d9a22a4254f44e1ebe88d",
       "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
       "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
@@ -1591,21 +1606,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "1d0aca8b5a2b1736506fb6317d31092a",
-      "title": "Last Week in AI #337 - Anthropic Risk, QuitGPT, ChatGPT 5.4",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-337-anthropic-risk",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-09T07:15:45+00:00",
-      "summary": "Anthropic officially told by DOD that it’s a supply chain risk, ‘cancel ChatGPT’ trend is growing after OpenAI signs a deal with the US military, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "05f93b920f30b8406b4f566e4ac95dfe",
       "title": "How to build premium pitch decks in Lovable",
       "url": "https://designplusai.com/p/how-to-build-premium-pitch-decks",
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-08-31T03:18:16.123469+00:00"
+  "generated_at": "2026-08-31T10:26:07.959042+00:00"
 }
