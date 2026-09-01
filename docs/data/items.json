@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9c44d6cfdf164d431f9a0b617c1e3d39",
+      "title": "How to turn your AI into a world-class designer",
+      "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-01T12:45:59+00:00",
+      "summary": "An end-to-end process for tapping into AI’s hidden creativity",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9e5ab2a17b37d7a686897a71a913eb78",
       "title": "Is the AI Trade Over? (Why July Wasn’t a Blowoff Top) | Jeff Keller",
       "url": "https://www.youtube.com/watch?v=zaI0QdiAmjs",
@@ -778,19 +793,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6be6dc6918e2e09dfb91807e8cb520cf",
-      "title": "🧠 Community Wisdom: Crafting outreach that reads as authentic, finding design partners, what counts as a moat when anyone can build, making a product vision stick, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-crafting-outreach",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-08T17:08:14+00:00",
-      "summary": "Community Wisdom 196",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1787,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-01T07:10:22.985934+00:00"
+  "generated_at": "2026-09-01T13:00:49.514588+00:00"
 }
