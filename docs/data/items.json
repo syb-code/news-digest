@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0b13366b4f0cf264c46027d887b8cda7",
+      "title": "How To Navigate the Next Wave of AI Competition",
+      "url": "https://www.youtube.com/watch?v=mLaO3L0dLlw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-01T18:37:11+00:00",
+      "summary": "OpenAI cutting off Cursor after the SpaceX acquisition follows a pattern already set by Anthropic with Windsurf, and the fallout reaches far beyond lab rivalry. NLW explains why enterprises now need a strategy for open weights and open harnesses, treating model and tooling indep…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9c44d6cfdf164d431f9a0b617c1e3d39",
       "title": "How to turn your AI into a world-class designer",
       "url": "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world",
@@ -578,21 +593,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6b69dd4e62108a5d7d9c62e3033b25b",
-      "title": "Dario Amodei Breaks His Social Media Silence",
-      "url": "https://www.youtube.com/watch?v=_q3yhihZKSg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-18T14:48:11+00:00",
-      "summary": "Dario Amodei's rare public clash with investor Gavin Baker turns a leaked comment about Anthropic's ambitions into a real debate over power, trust, and AI regulation. NLW breaks down Amodei's lengthy X posts on regulatory capture, messaging strategy, and why curing disease—not m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-01T17:32:48.004250+00:00"
+  "generated_at": "2026-09-01T20:28:10.011455+00:00"
 }
