@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "192d2cbb59b2052b17077db916d39bc0",
+      "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-02T12:03:39+00:00",
+      "summary": "Watch now | 🎙️ I’ve been running Grok Bot for several weeks, and I’ve killed every OpenClaw I had. Here are the nine bots doing real work across my inbox, my kids’ school pickups, my PR queue, and my wardrobe",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "0b13366b4f0cf264c46027d887b8cda7",
       "title": "How To Navigate the Next Wave of AI Competition",
       "url": "https://www.youtube.com/watch?v=mLaO3L0dLlw",
@@ -773,21 +786,6 @@
       "source_type": "rss",
       "published": "2026-08-10T12:01:44+00:00",
       "summary": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "06b8724864d4d4b640c41116d23300ef",
-      "title": "The playbook for building high-talent-density teams | Adam Ward, Head of Talent at Cursor",
-      "url": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-09T12:31:29+00:00",
-      "summary": "Listen now | Cursor’s Adam Ward on “funnel of doom” hiring, treating every hire like an executive search, and why caring is the biggest unfair advantage in recruiting",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1789,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-02T10:31:06.058373+00:00"
+  "generated_at": "2026-09-02T14:55:49.865108+00:00"
 }
