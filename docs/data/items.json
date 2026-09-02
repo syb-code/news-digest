@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "eb1cae45ee2021e20d47154bed2cc474",
+      "title": "Why Fable 5.1 Is Worth the Upgrade",
+      "url": "https://www.youtube.com/watch?v=CDUclXojmDg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-02T21:41:51+00:00",
+      "summary": "Fable 5.1 takes the top spot across nearly every benchmark while Anthropic pushes hard on cost, safeguards, and zero data retention for enterprises. NLW breaks down what independent evals actually found on token burn, why the right question is no longer whether to switch models …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "22327f64327c69be960f14c4869357a6",
       "title": "Expect Social Security Benefit Cuts... I Am.",
       "url": "https://www.youtube.com/watch?v=fGXwa_kdOgY",
@@ -563,21 +576,6 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "66a07f5a23abddd5c044d2c2006ab433",
-      "title": "The AI Engineering Skills Map for Knowledge Workers",
-      "url": "https://www.youtube.com/watch?v=f40AKMHebrY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-19T11:24:16+00:00",
-      "summary": "Knowledge work is shifting from doing tasks directly to managing agents now performing those tasks, demanding a new set of core skills. NLW maps five essential AI engineering skills for knowledge workers: capability mapping, context and harness management, problem and product pr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1787,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-02T21:32:21.188633+00:00"
+  "generated_at": "2026-09-02T23:48:32.279202+00:00"
 }
