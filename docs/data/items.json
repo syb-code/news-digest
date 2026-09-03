@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "8f71189877a4c3fc1e9d8f3a5c5c3c65",
+      "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
+      "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-03T19:34:20+00:00",
+      "summary": "Watch now | 🎙️ My hands-on GPT-6 Astra review covers real production work in Figma, Flora, and Adio, one-shot coding wins 5.6 and Fable couldn’t match, and a hardware hack I’ve chased for months",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "fb7b6e8c91e1b7d9f56f1fdff3bf083d",
       "title": "The Bond Market \"Mind Virus\" | Jared Dillian on why Debt Crisis",
       "url": "https://www.youtube.com/watch?v=-pR9bTQ--J8",
@@ -797,21 +810,6 @@
       "source_type": "rss",
       "published": "2026-08-10T15:01:49+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ca4c2056d8d35b01815596e3a12df135",
-      "title": "Claude Code for normal people: skills, voice mode, and how to collaborate with AI",
-      "url": "https://www.lennysnewsletter.com/p/claude-code-for-normal-people-skills",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-10T12:01:44+00:00",
-      "summary": "Listen now | 🎙️ Grace Clarke rebuilt her service business in Claude, turning 20 hours of weekly admin into one automated pipeline for proposals, client tracking, and email",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-03T16:53:17.698017+00:00"
+  "generated_at": "2026-09-03T19:36:25.672270+00:00"
 }
