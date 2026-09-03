@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "fb7b6e8c91e1b7d9f56f1fdff3bf083d",
+      "title": "The Bond Market \"Mind Virus\" | Jared Dillian on why Debt Crisis",
+      "url": "https://www.youtube.com/watch?v=-pR9bTQ--J8",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-03T13:10:38+00:00",
+      "summary": "Jared Dillian, author of The Daily Dirtmap and the new book “The Awesome Portfolio”, returns to argue that the bond bear market is a sentiment story that has gone too far. Jared calls the market's obsession with deficits and inflation a \"mind virus,\" notes that the $2 trillion d…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "eb1cae45ee2021e20d47154bed2cc474",
       "title": "Why Fable 5.1 Is Worth the Upgrade",
       "url": "https://www.youtube.com/watch?v=CDUclXojmDg",
@@ -1021,21 +1036,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e2370ae96d56af9ca1be2b10937963f4",
-      "title": "The Next Financial Crisis Isn't In AI, It's In US Treasuries | Russell Clark",
-      "url": "https://www.youtube.com/watch?v=wS4MV0FbVm8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-22T14:00:16+00:00",
-      "summary": "Learn more about Teucrium’s Soybean ETF (SOYB) here: https://teucrium.com/soyb \n\nFree E-book from Teucrium: https://insights.teucrium.com/why-investors-turning-to-commodity-etfs\n\nIn this episode of Other People's Money, Max Wiethe sits down with hedge fund manager Russell Clark …",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "40f6137eef2ca26644dcbe70778319eb",
       "title": "Gold Investing on The Stock Market: The Case For Buying Today",
       "url": "https://www.youtube.com/watch?v=_Iih8RG5UTo",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-03T12:32:13.880616+00:00"
+  "generated_at": "2026-09-03T16:53:17.698017+00:00"
 }
