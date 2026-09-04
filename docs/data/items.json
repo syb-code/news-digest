@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "aebdfbbddf5d0d05a2559856bb2bee46",
+      "title": "Jobs Report Crushes Expectations... Stock Market Hates It",
+      "url": "https://www.youtube.com/watch?v=kLw0TWFKxT4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-04T20:08:42+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b27b662bb67550bc48c550ea1975ee51",
       "title": "Deep Learning Weekly: Issue 471",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-471",
@@ -1178,21 +1191,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "14b9eb7ced07f628ea9d3b5ecdb9223d",
-      "title": "Stock Market: CPI Inflation Report Sends Fed Rate Hike Odds Lower",
-      "url": "https://www.youtube.com/watch?v=dPyrtDC9c4M",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-14T18:46:57+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "fb8d325bfa1fa3eccbb08d6d89d4e774",
       "title": "Deep Learning Weekly: Issue 463",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-463",
@@ -1783,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-04T18:01:50.112584+00:00"
+  "generated_at": "2026-09-04T21:11:33.409666+00:00"
 }
