@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "b27b662bb67550bc48c550ea1975ee51",
+      "title": "Deep Learning Weekly: Issue 471",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-471",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-04T16:02:02+00:00",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1, Evaluating LLMs Under Production Parity, a paper on Automated Researchers Can Reliably Mitigate Alignment Failures, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2c29a27e0616a59a0cd786e45d9900eb",
+      "title": "Agentic Loops for Knowledge Workers",
+      "url": "https://www.youtube.com/watch?v=dLiXiD8hOAI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-04T14:56:16+00:00",
+      "summary": "Agentic loops let AI run continuously against a measurable goal instead of waiting on prompt-by-prompt direction, and the technique is finally moving beyond software engineering. NLW and Nufar Gaspar walk through how to structure knowledge work tasks so agents can self-check and…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8f71189877a4c3fc1e9d8f3a5c5c3c65",
       "title": "GPT-6 Astra is a banger - here’s everything I’ve built",
       "url": "https://www.lennysnewsletter.com/p/gpt-6-astra-is-a-banger-heres-everything",
@@ -571,21 +601,6 @@
       "source_type": "youtube",
       "published": "2026-08-21T11:41:36+00:00",
       "summary": "Nine emerging AI techniques are reshaping daily workflows, from live voice mode and teaching agents by screen recording to custom writing skills and Claude's /design command. NLW covers multiplayer team agents, GrokBot experiments, local models like Qwen 3.8 27B, and two-word pr…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "ddb1435db12f91548bbb6a079e453c62",
-      "title": "The AI Backlash Is Getting Stupider But Also Smarter",
-      "url": "https://www.youtube.com/watch?v=efyXCQSu-bU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T01:16:46+00:00",
-      "summary": "Data center backlash swings between viral meme campaigns and Governor Shapiro's surprisingly substantive executive order, revealing two very different tracks for AI's political fight. NLW breaks down why targeted regulation beats blanket moratoriums, and how OpenAI's voluntary t…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1477,21 +1492,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "5029f5f93021fab99a2badb8a0f1eef4",
-      "title": "Deep Learning Weekly: Issue 451",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-451",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-04-16T15:03:11+00:00",
-      "summary": "The 2026 AI Index Report, MirrorCode: Evidence that AI can already do some weeks-long coding tasks, a paper on Introspective Diffusion Language Models, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9c6588d0291771dd07f4d609e8311d7e",
       "title": "How to Build Something Lovable",
       "url": "https://designplusai.com/p/how-to-build-something-lovable",
@@ -1783,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-04T14:44:15.273351+00:00"
+  "generated_at": "2026-09-04T18:01:50.112584+00:00"
 }
