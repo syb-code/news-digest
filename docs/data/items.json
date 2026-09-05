@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0452509c189501b575361076b31058ed",
+      "title": "How AI Changed This Summer",
+      "url": "https://www.youtube.com/watch?v=5MMFeibSkqc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-05T21:12:36+00:00",
+      "summary": "Fable 5 launched and got shut down by the government within days, Kimi K3 triggered a second DeepSeek moment, and data centers became the most bipartisan issue in America. NLW walks through eight ways AI shifted over the summer, from Washington becoming a release gate to the rev…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "a08fa2b157f14eb9010dfa135dfc24de",
       "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
@@ -614,21 +629,6 @@
       "source_type": "youtube",
       "published": "2026-08-21T15:00:38+00:00",
       "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7bf487654ab247d74f6653d2217a577f",
-      "title": "9 AI Techniques You Probably Haven't Tried",
-      "url": "https://www.youtube.com/watch?v=o5PzgHXXjjQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T11:41:36+00:00",
-      "summary": "Nine emerging AI techniques are reshaping daily workflows, from live voice mode and teaching agents by screen recording to custom writing skills and Claude's /design command. NLW covers multiplayer team agents, GrokBot experiments, local models like Qwen 3.8 27B, and two-word pr…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1781,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-05T19:51:42.443833+00:00"
+  "generated_at": "2026-09-05T21:52:34.295571+00:00"
 }
