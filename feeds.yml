@@ -6,6 +6,8 @@ youtube:
 rss:
   - label: Last Week in AI (Substack)
     feed_url: https://lastweekin.ai/feed
+  - label: AI Weekly
+    feed_url: https://aiweekly.co/feed
   - label: Lenny’s Newsletter (Substack)
     feed_url: https://www.lennysnewsletter.com/feed
   - label: Exploring ChatGPT (Substack)
