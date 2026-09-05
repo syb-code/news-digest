@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "a08fa2b157f14eb9010dfa135dfc24de",
+      "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-05T17:00:46+00:00",
+      "summary": "Community Wisdom 200",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "aebdfbbddf5d0d05a2559856bb2bee46",
       "title": "Jobs Report Crushes Expectations... Stock Market Hates It",
       "url": "https://www.youtube.com/watch?v=kLw0TWFKxT4",
@@ -828,21 +843,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "9b80b406351b6fc2373d447572e5f7df",
-      "title": "🎙️ How I AI: Build an AI code review bot in 30 minutes + Claude Code for normal people",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-build-an-ai-code-review",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-10T15:01:49+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1781,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-05T14:28:58.511675+00:00"
+  "generated_at": "2026-09-05T17:05:36.143886+00:00"
 }
