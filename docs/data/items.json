@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "70401ac6f3f90e8366dfb5e8efa88b28",
+      "title": "How Private Equity Turned Life Insurance Into a Taxpayer Backstop | Pranjal Drall & Andrew Granato",
+      "url": "https://www.youtube.com/watch?v=1qOphReO4Js",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-06T17:05:27+00:00",
+      "summary": "Andrew Granato, Assistant Professor of Law at the University of Texas at Austin, and Pranjal Drall, JD/PhD candidate at Yale, join Jack Farley to discuss their paper \"Private Credit, State Backstop: How Private Equity Socializes Risk Through Insurers.\" Private equity ownership o…",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "78c88e4795c785b7c1554d0bd4014190",
       "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
       "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
@@ -1023,21 +1036,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "34e522144d32921b83c360f2de75be98",
-      "title": "Next Financial Crisis Unlikely To Start in Private Markets (Fundamentals Solid!) | Nicholas Brooks",
-      "url": "https://www.youtube.com/watch?v=wM0_rexOj_w",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-26T16:59:20+00:00",
-      "summary": "In this episode of Monetary Matters, host Jack sits down with Nicholas Brooks, Head of Economic and Investment Research at ICG, to discuss the true health of private credit and corporate balance sheets. Brooks argues that underlying corporate fundamentals and EBITDA growth remai…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a6a468f29dc4eb441da9c33e4e8659ce",
       "title": "How to Invest Your First $1,000 in The Stock Market",
       "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
@@ -1783,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-06T14:51:08.782858+00:00"
+  "generated_at": "2026-09-06T17:28:29.619000+00:00"
 }
