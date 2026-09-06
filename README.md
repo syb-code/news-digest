@@ -1,6 +1,6 @@
 # News Digest Starter (GitHub Pages + GitHub Actions)
 
-A $0/month personal news dashboard that aggregates **newsletters (via RSS)**, **YouTube channels**, and **websites** into a single page with **Highlights**, **Deeper Dives**, **filters**, and **search**. It also sends a **daily email digest** at **7:30 AM PT** from your collector Gmail (e.g., `mikayell9@gmail.com`) to your main inbox (e.g., `mgome028@gmail.com`).
+A $0/month personal news dashboard that aggregates **newsletters (via RSS)**, **YouTube channels**, and **websites** into a single page with **Highlights**, **Deeper Dives**, **filters**, and **search**. It also sends a **daily email digest** at **7:30 AM PT** from your collector Gmail (e.g., `your-collector@gmail.com`) to your main inbox (e.g., `you@gmail.com`).
 
 ## What you get
 - Static website on **GitHub Pages** (`/docs` folder) with:
@@ -19,9 +19,9 @@ A $0/month personal news dashboard that aggregates **newsletters (via RSS)**, **
 5) **Set Secrets** (Settings → Secrets and variables → Actions → New repository secret):
    - `GMAIL_CLIENT_ID` — From Google Cloud OAuth client (Desktop app)
    - `GMAIL_CLIENT_SECRET` — From Google Cloud OAuth client
-   - `GMAIL_REFRESH_TOKEN` — Refresh token for the collector Gmail (`mikayell9@gmail.com`)
-   - `SENDER_EMAIL` — `mikayell9@gmail.com`
-   - `RECIPIENT_EMAIL` — `mgome028@gmail.com`
+   - `GMAIL_REFRESH_TOKEN` — Refresh token for the collector Gmail (`your-collector@gmail.com`)
+   - `SENDER_EMAIL` — `your-collector@gmail.com`
+   - `RECIPIENT_EMAIL` — `you@gmail.com`
 6) The site will auto-build hourly. The **daily email** goes out at **14:30 UTC** (7:30 AM PT during Daylight Savings).
 
 > **DST note:** GitHub Actions uses **UTC** for schedules. The provided email workflow runs at **14:30 UTC** (7:30 AM during **PDT**). During **PST**, it will hit at **06:30** local. If you want a strict 7:30 local send, adjust the cron twice a year or use an external scheduler.
@@ -98,7 +98,7 @@ themes:
 3. **OAuth consent screen**: External (Testing is fine), add your Gmail as a test user.
 4. **Credentials** → **Create Credentials** → **OAuth client ID** → **Desktop app**.
 5. Note your **Client ID** and **Client Secret**.
-6. Generate a **Refresh Token** for the collector Gmail (`mikayell9@gmail.com`):
+6. Generate a **Refresh Token** for the collector Gmail (`your-collector@gmail.com`):
    - Use the Google OAuth 2.0 Playground: https://developers.google.com/oauthplayground
    - Select scope: `https://mail.google.com/`
    - Authorize and exchange for tokens
