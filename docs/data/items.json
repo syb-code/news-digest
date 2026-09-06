@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "78c88e4795c785b7c1554d0bd4014190",
+      "title": "Why companies are becoming a series of loops | Anish Acharya (a16z)",
+      "url": "https://www.lennysnewsletter.com/p/why-companies-are-becoming-a-series",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-06T12:32:00+00:00",
+      "summary": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "96cdd91ad1248a5ec2e79f485112fa5a",
+      "title": "How to Build an AI-Native Company Today",
+      "url": "https://www.youtube.com/watch?v=Qa4juJzo0TY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-06T11:52:51+00:00",
+      "summary": "What does it actually take to build an AI-native company? NLW breaks down Alex Lieberman’s 30 features of AI-native organizations, from shared context and agent skills to self-improving workflows, token efficiency, and making every employee a builder. The episode explores how co…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0452509c189501b575361076b31058ed",
       "title": "How AI Changed This Summer",
       "url": "https://www.youtube.com/watch?v=5MMFeibSkqc",
@@ -622,21 +652,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "e46dbb68124d44bddddb2ca0ef19c197",
-      "title": "How to Make AI Writing Suck Less",
-      "url": "https://www.youtube.com/shorts/946SQc5D5RE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-21T15:00:38+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "121fa04623ee6ace9d8139b81a870019",
       "title": "Why U.S. Treasury’s Bond Market Intervention Is Just The Beginning | Luke Gromen",
       "url": "https://www.youtube.com/watch?v=IsswgLUkUas",
@@ -817,19 +832,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "78eb147a77e27f70f5064967fe937235",
-      "title": "How to make people care about your startup",
-      "url": "https://www.lennysnewsletter.com/p/how-to-make-people-care-about-your",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-11T13:31:07+00:00",
-      "summary": "Three founder archetypes—and how to turn your origin story into a communications strategy",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1781,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-06T11:54:30.550959+00:00"
+  "generated_at": "2026-09-06T14:51:08.782858+00:00"
 }
