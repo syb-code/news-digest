@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "id": "91a5da582510c78180d73be0823d0bae",
+      "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-07T13:02:49+00:00",
+      "summary": "GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f50fed8f272873a5c60422b0718274d5",
+      "title": "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent",
+      "url": "https://www.youtube.com/watch?v=1BqWLLkJym0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-07T12:05:51+00:00",
+      "summary": "AI agents have transformed how individuals work, but the next leap is moving them into the shared spaces where teams actually collaborate. In this episode, NLW explores how Anthropic, Every, OpenClaw and others are shifting from single-player AI to shared agents—and launches the…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5075c96716e075a855612520baee45ed",
+      "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
+      "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-07T12:04:19+00:00",
+      "summary": "Watch now | 🎙️ Learn how Stripe scaled AI to everyone at a complex global company by building context, governance, and a shared skills platform directly into their internal agent",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "70401ac6f3f90e8366dfb5e8efa88b28",
       "title": "How Private Equity Turned Life Insurance Into a Taxpayer Backstop | Pranjal Drall & Andrew Granato",
       "url": "https://www.youtube.com/watch?v=1qOphReO4Js",
@@ -624,21 +669,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d66a908336010e8a9571b6b1fb1c8acf",
-      "title": "Why Everyone Suddenly Hates AI Data Centers",
-      "url": "https://www.youtube.com/watch?v=-t4RC5JmnTk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-22T11:39:46+00:00",
-      "summary": "Opposition to AI data centers has swung from 51% to 75% in six months, making it one of the fastest-moving bipartisan issues in recent polling. NLW unpacks the real drivers behind the anger — grid and water fears, NDA secrecy, a decade of big tech distrust, and communities feeli…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "2d92ac0322e543b25e72be6874cd6727",
       "title": "US Government is Running Out of People to Borrow Money From",
       "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
@@ -769,21 +799,6 @@
       "source_type": "rss",
       "published": "2026-08-16T12:31:42+00:00",
       "summary": "Listen now | OpenAI’s head of product design on why this is the best time in history to be a designer, where humans still beat AI, and how to escape the overwhelm",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "bfa1ce110e906c162e078a0e93b504f2",
-      "title": "🧠 Community Wisdom: Recovering from burnout, what Airtable’s sale says about the ceiling on a startup, keeping architecture docs up to date, running competitor analysis, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-recovering-from",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-15T17:01:13+00:00",
-      "summary": "Community Wisdom 197",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1589,21 +1604,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d005e1ce1065e521462425789b4b2efe",
-      "title": "LWiAI Podcast #236 - GPT 5.4, Gemini 3.1 Flash Lite, Supply Chain Risk",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-236-gpt-54-gemini-31",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-13T05:38:49+00:00",
-      "summary": "OpenAI launches GPT-5.4 with Pro and Thinking versions, Google releases Gemini 3.1 Flash Lite at 1/8th the cost of Pro, Where things stand with the Department of War Anthropic",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "05f93b920f30b8406b4f566e4ac95dfe",
       "title": "How to build premium pitch decks in Lovable",
       "url": "https://designplusai.com/p/how-to-build-premium-pitch-decks",
@@ -1781,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-07T07:51:35.974308+00:00"
+  "generated_at": "2026-09-07T13:55:17.324397+00:00"
 }
