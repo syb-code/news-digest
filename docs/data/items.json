@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "0a9ba2efac180753ba8c744f60f341cd",
+      "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-07T15:02:41+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "91a5da582510c78180d73be0823d0bae",
       "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
       "url": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
@@ -785,21 +800,6 @@
       "published": "2026-08-17T00:22:43+00:00",
       "summary": "Robin Wigglesworth — editor of FT Alphaville and author of A Fabulous Debt: The Epic Story of How Bonds Built the Modern World — joins Jack Farley to unpack the hidden debt fueling the AI buildout. Wigglesworth reveals that off-balance-sheet leverage from hyperscalers like Meta,…",
       "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "8587bfcff0f0884293d31f89260198d1",
-      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
-      "url": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-16T12:31:42+00:00",
-      "summary": "Listen now | OpenAI’s head of product design on why this is the best time in history to be a designer, where humans still beat AI, and how to escape the overwhelm",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
@@ -1781,5 +1781,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-07T13:55:17.324397+00:00"
+  "generated_at": "2026-09-07T18:34:04.616875+00:00"
 }
