@@ -1,4 +1,4 @@
-/* News Digest app.js — v5.2 (extra safe)
+/* News Digest app.js — v5.4 (extra safe)
    - No template literals
    - No regex lookbehind
    - No object-literal keys with quotes
@@ -6,7 +6,23 @@
 (function(){
   // IMPORTANT: include the protocol (https://)
   var WORKER_BASE_URL = "https://news-extract.mikayell9.workers.dev";
-  console.log("news-digest app v5.2 loaded");
+  // Cloudflare Turnstile sitekey (PUBLIC, safe to commit). Leave "" to disable:
+  // with an empty key nothing changes — no extra script, no extra headers.
+  // With a key set, every Worker call sends a fresh single-use token in the
+  // X-Turnstile-Token header, which the Worker verifies before doing any work.
+  var TURNSTILE_SITE_KEY = "";
+  // Owner key (the primary lock — this site is public but only its owner summarizes).
+  // Set to true FIRST, before "wrangler secret put OWNER_KEY" (ROLLOUT.md Step 6): the Worker
+  // ignores the X-Owner-Key header until the secret exists, so the site keeps working while the
+  // new file propagates. The key itself is NEVER written in this file: the browser asks for it
+  // once and remembers it (localStorage). While false nothing changes — no prompt, no storage
+  // access, no extra header, and a "#key=" URL fragment is left alone.
+  var OWNER_KEY_ENABLED = false;
+  var OWNER_KEY_STORAGE = "nd_owner_key_v1";
+  var ownerKeyCache = "";         // the key for this page load (so a failing localStorage write cannot re-prompt per call)
+  var ownerKeyRejected = false;   // set when the Worker answered 401 during the current summarize run
+  var ownerKeyDeclined = false;   // set when the prompt was cancelled during the current summarize run
+  console.log("news-digest app v5.4 loaded");
 
   // ---------- DOM ----------
  var listHighlights = document.getElementById("list-highlights");
@@ -148,6 +164,7 @@
       var selected=items.filter(function(i){return selectedSet.has(i.id)&&i.bucket==="highlight";});
       if(!selected.length){ if(deeperContainer){ deeperContainer.innerHTML='<p class="meta">No highlights selected. Tick the boxes, then click summarize_selected.</p>'; } return; }
       if(deeperContainer){ deeperContainer.innerHTML='<p class="meta">Analyzing…</p>'; }
+      ownerKeyRejected=false; ownerKeyDeclined=false;
       var sections=[];
       for(var k=0;k<selected.length;k++){
         var it=selected[k];
@@ -160,9 +177,254 @@
           sections.push(renderFallbackSection(it,bullets));
         }
       }
+      // The notice is part of the same write as the sections (and the flags are only reset at the
+      // START of a run), so an overlapping run (double-click) that finishes later still shows it.
+      if(ownerKeyRejected){ sections.unshift('<p class="meta">Owner key rejected — click summarize_selected again to enter it.</p>'); }
       if(deeperContainer){ deeperContainer.innerHTML=sections.join(""); }
       if(listDeeper) listDeeper.style.display="none";
     });
+  }
+
+  // ---------- Turnstile (only active when TURNSTILE_SITE_KEY is non-empty) ----------
+  var turnstileScriptPromise = null;   // loads api.js once
+  var turnstileScriptEl = null;        // the <script> tag of the in-flight load (so a stalled one can be abandoned)
+  var turnstileWidgetId = null;        // one invisible widget, rendered once
+  var turnstileQueue = Promise.resolve(); // serializes token requests (one execute in flight)
+  var turnstilePending = null;         // {resolve, reject, timer} for the in-flight execute
+  var turnstileFailedAt = 0;           // circuit breaker: time of the last token failure (0 = none)
+  var TURNSTILE_TIMEOUT_MS = 15000;    // max wait for one token — covers script load + widget render + execute
+  var TURNSTILE_BACKOFF_MS = 60000;    // after a failure, skip Turnstile (fall back locally) for this long
+
+  function loadTurnstileScript(){
+    if(turnstileScriptPromise) return turnstileScriptPromise;
+    turnstileScriptPromise = new Promise(function(resolve, reject){
+      if(window.turnstile && typeof window.turnstile.render === "function"){ resolve(); return; }
+      var s = document.createElement("script");
+      turnstileScriptEl = s;
+      // The script is loaded async, so we rely on the documented onload=<global> callback
+      // (turnstile.ready() is only reliable for synchronously loaded scripts).
+      window.ndTurnstileLoaded = function(){ resolve(); };
+      s.src = "https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=ndTurnstileLoaded";
+      s.async = true;
+      s.defer = true;
+      s.onload = function(){ if(window.turnstile && typeof window.turnstile.render === "function") resolve(); };
+      s.onerror = function(){
+        abandonTurnstileScript(s);                       // don't leave a dead tag behind; a later attempt may retry
+        reject(new Error("turnstile script failed to load"));
+      };
+      (document.head || document.body).appendChild(s);
+    });
+    return turnstileScriptPromise;
+  }
+
+  // Forget an in-flight api.js load (failed, or stalled past the deadline) so that the next
+  // attempt after the back-off injects a fresh tag instead of awaiting the dead promise forever.
+  function abandonTurnstileScript(s){
+    if(!s) s = turnstileScriptEl;                      // null = "whatever is in flight now"
+    if(s && s.parentNode) s.parentNode.removeChild(s);
+    if(s === turnstileScriptEl){ turnstileScriptEl = null; turnstileScriptPromise = null; }
+  }
+
+  function settleTurnstile(err, token){
+    var p = turnstilePending;
+    if(!p) return;
+    turnstilePending = null;
+    clearTimeout(p.timer);
+    if(err) p.reject(err); else p.resolve(token);
+  }
+
+  function ensureTurnstileWidget(){
+    return loadTurnstileScript().then(function(){
+      return new Promise(function(resolve, reject){
+        if(turnstileWidgetId !== null){ resolve(turnstileWidgetId); return; }
+        var ts = window.turnstile;
+        if(!ts){ reject(new Error("turnstile unavailable")); return; }
+        var container = document.createElement("div");
+        container.id = "turnstile-container";
+        container.setAttribute("aria-hidden", "true");
+        // Keep it out of the layout but NOT display:none (that can stop the widget from loading).
+        container.style.cssText = "position:fixed;left:0;bottom:0;width:0;height:0;overflow:hidden;";
+        document.body.appendChild(container);
+        var opts = {
+          sitekey: TURNSTILE_SITE_KEY,
+          execution: "execute",   // do nothing until turnstile.execute() is called
+          size: "invisible",
+          action: "digest",
+          callback: function(token){ settleTurnstile(null, token); }
+        };
+        // Hyphenated option names required by the Turnstile API (bracket assignment keeps our no-quoted-keys rule).
+        opts["error-callback"] = function(code){ settleTurnstile(new Error("turnstile error " + code)); };
+        opts["timeout-callback"] = function(){ settleTurnstile(new Error("turnstile timeout")); };
+        opts["expired-callback"] = function(){ /* we always reset before execute, nothing to do */ };
+        // The script has executed (we are past its onload callback) and the page is long past
+        // DOMContentLoaded, so render directly instead of via turnstile.ready().
+        try {
+          var id = ts.render(container, opts);
+          if(!id){ reject(new Error("turnstile render failed")); return; }
+          turnstileWidgetId = id;
+          resolve(id);
+        } catch(e){ reject(e); }
+      });
+    });
+  }
+
+  function executeTurnstile(id){
+    return new Promise(function(resolve, reject){
+      // Never let two executes overlap: settle any leftover pending (and clear its timer) before
+      // installing ours, so no stale timer can ever reject the request that follows it.
+      if(turnstilePending) settleTurnstile(new Error("turnstile execute superseded"));
+      var timer = setTimeout(function(){ settleTurnstile(new Error("turnstile token timeout")); }, TURNSTILE_TIMEOUT_MS);
+      turnstilePending = { resolve: resolve, reject: reject, timer: timer };
+      try {
+        var ts = window.turnstile;
+        ts.reset(id);    // clear any spent token, then run a fresh challenge
+        ts.execute(id);
+      } catch(e){ settleTurnstile(e); }
+    });
+  }
+
+  // One deadline over the WHOLE acquisition (script load + widget render + execute), not just
+  // the execute phase: a black-holed api.js request fires neither onload nor onerror for a very
+  // long time, and without this the first summarize would hang on "Analyzing…" for all items.
+  function acquireTurnstileToken(){
+    return new Promise(function(resolve, reject){
+      var done = false;
+      var deadline = setTimeout(function(){
+        if(done) return; done = true;
+        if(turnstileWidgetId === null) abandonTurnstileScript(null);   // still loading: retry with a fresh tag later
+        settleTurnstile(new Error("turnstile not ready in time"));     // cancels an in-flight execute, if any
+        reject(new Error("turnstile not ready in time"));
+      }, TURNSTILE_TIMEOUT_MS);
+      // A <script> removed after its fetch started still executes when the bytes finally arrive,
+      // so an abandoned load can resume this chain later. Once the deadline has fired, stop here:
+      // never run a stray execute() with no caller waiting (its timer would reject the next request).
+      ensureTurnstileWidget().then(function(id){
+        if(done) throw new Error("turnstile acquisition abandoned");
+        return executeTurnstile(id);
+      }).then(
+        function(token){ if(done) return; done = true; clearTimeout(deadline); resolve(token); },
+        function(err){ if(done) return; done = true; clearTimeout(deadline); reject(err); }
+      );
+    });
+  }
+
+  // Resolves with a FRESH single-use token. Concurrent callers are queued so only one
+  // execute() runs at a time (a reset() would otherwise cancel a pending one).
+  // Circuit breaker: after any failure (script blocked or stalled, challenge error, timeout)
+  // every call for the next TURNSTILE_BACKOFF_MS rejects immediately, so a batch of items falls
+  // back to the local summary at once instead of waiting one timeout per Worker call.
+  function getTurnstileToken(){
+    var run = function(){
+      if(turnstileFailedAt && (Date.now() - turnstileFailedAt) < TURNSTILE_BACKOFF_MS){
+        return Promise.reject(new Error("turnstile recently failed; backing off"));
+      }
+      return acquireTurnstileToken().then(
+        function(token){ turnstileFailedAt = 0; return token; },
+        function(err){ turnstileFailedAt = Date.now(); throw err; }
+      );
+    };
+    var p = turnstileQueue.then(run, run);
+    turnstileQueue = p.then(function(){}, function(){}); // keep the chain alive after a failure
+    return p;
+  }
+
+  // ---------- Owner key (only active when OWNER_KEY_ENABLED is true) ----------
+  function storeOwnerKey(key){ try { localStorage.setItem(OWNER_KEY_STORAGE, key); } catch(e){} }
+  function forgetOwnerKey(){ ownerKeyCache = ""; try { localStorage.removeItem(OWNER_KEY_STORAGE); } catch(e){} }
+  // HTTP header values are byte strings: fetch() throws a TypeError for any character above U+00FF
+  // and refuses control characters, so such a key could never reach the Worker (it would fail
+  // silently, forever, with no 401 to clear it). Real keys are base64 / base64url; accept printable ASCII.
+  function isSendableOwnerKey(key){ return !/[^\x20-\x7e]/.test(key); }
+
+  // One-time "#key=..." URL fragment: decoded, trimmed, validated, stored (localStorage + the
+  // in-memory copy) and stripped from the address bar right away. Runs once at page load (see the
+  // end of this file) so the key does not sit in the address bar / tab sync / session restore until
+  // the first click, and again on every summarize call (a #key= link pasted into an already open
+  // tab changes the fragment without reloading). The fragment never leaves the browser, but it does
+  // land in browser history — prefer the prompt on shared machines. Returns the key or "".
+  function consumeKeyFragment(){
+    var hash = String(location.hash || "");
+    if(hash.indexOf("#key=") !== 0) return "";
+    var raw = hash.slice(5), key;
+    try { key = decodeURIComponent(raw); } catch(e){ key = raw; }
+    key = key.trim();
+    try { history.replaceState(null, "", location.pathname + location.search); }
+    catch(e2){ location.hash = ""; }
+    if(key && !isSendableOwnerKey(key)){
+      window.alert("Owner key not usable: it must be plain ASCII (letters, digits, - _ = + /). Nothing was saved — click summarize_selected again to enter it.");
+      return "";
+    }
+    if(key){ storeOwnerKey(key); ownerKeyCache = key; }
+    return key;
+  }
+
+  // Returns the owner key or throws Error("no owner key") — every caller already falls back to
+  // the local summarizer on a throw. Sources, in order:
+  //   (a) a "#key=..." URL fragment (consumeKeyFragment — normally already consumed at page load);
+  //   (b) the in-memory copy from earlier in this page load;
+  //   (c) localStorage (remembered from an earlier visit);
+  //   (d) a prompt, asked once per page load when storage works and at most once per summarize
+  //       run when it does not (a cancelled prompt is not repeated for the other items of the
+  //       same run — they just use the local summary).
+  // After the Worker answered 401 (see noteWorkerResponse) the stored key is gone and nothing is
+  // asked again until the next click on summarize_selected.
+  function getOwnerKey(){
+    if(ownerKeyRejected || ownerKeyDeclined) throw new Error("no owner key");
+    var key = consumeKeyFragment();
+    var remembered = !!key;   // came from (a)/(b)/(c): already stored, nothing to write
+    if(!key && ownerKeyCache){ key = ownerKeyCache; remembered = true; }
+    if(!key){
+      try { key = String(localStorage.getItem(OWNER_KEY_STORAGE) || "").trim(); } catch(e3){ key = ""; }
+      remembered = !!key;
+    }
+    if(!key){
+      var typed = window.prompt("Enter your news-digest owner key");
+      key = typed ? String(typed).trim() : "";
+    }
+    if(key && !isSendableOwnerKey(key)){
+      if(remembered) forgetOwnerKey();
+      window.alert("Owner key not usable: it must be plain ASCII (letters, digits, - _ = + /). Nothing was saved — click summarize_selected again to enter it.");
+      key = "";
+    }
+    if(!key){ ownerKeyDeclined = true; throw new Error("no owner key"); }
+    if(!remembered) storeOwnerKey(key);
+    ownerKeyCache = key;
+    return key;
+  }
+
+  // Every Worker response passes through here: a 401 that carries "WWW-Authenticate: X-Owner-Key"
+  // comes from the guard and means it rejected (or now requires) the owner key, so forget the
+  // stored one and tell the user once the run is over. A 401 without that marker is the Worker's
+  // handler relaying an upstream site's answer (a paywalled article) — the key was not checked,
+  // so it is kept. (guard.js exposes the header via Access-Control-Expose-Headers.)
+  function noteWorkerResponse(r){
+    if(OWNER_KEY_ENABLED && r && r.status === 401 && isOwnerKey401(r)){ forgetOwnerKey(); ownerKeyRejected = true; }
+    return r;
+  }
+  function isOwnerKey401(r){
+    var v = "";
+    try { v = String((r.headers && r.headers.get("WWW-Authenticate")) || ""); } catch(e){ v = ""; }
+    return /(^|[\s,])X-Owner-Key([\s,]|$)/i.test(v);
+  }
+
+  // Extra headers for every Worker call: {} when both locks are off (so requests are unchanged);
+  // otherwise X-Owner-Key and/or X-Turnstile-Token (both when both are enabled). The owner key
+  // comes first because it is cheap and a missing key must not burn a Turnstile token. Throws if
+  // the key / token could not be obtained.
+  async function workerAuthHeaders(){
+    var h = {};
+    if(OWNER_KEY_ENABLED) h["X-Owner-Key"] = getOwnerKey();
+    if(!TURNSTILE_SITE_KEY) return h;
+    var token = await getTurnstileToken();
+    h["X-Turnstile-Token"] = token;
+    return h;
+  }
+
+  // fetch() wrapper for Worker GETs: byte-for-byte the old plain fetch(url) when both locks are off.
+  async function workerGet(url){
+    if(!TURNSTILE_SITE_KEY && !OWNER_KEY_ENABLED) return fetch(url);
+    var r = await fetch(url, { headers: await workerAuthHeaders() });
+    return noteWorkerResponse(r);
   }
 
   function isYouTube(u){ return /(?:^|\.)youtube\.com|youtu\.be/.test(u); }
@@ -179,11 +441,11 @@
         if(isYouTube(it.url)){
           var id=youTubeId(it.url);
           if(id){
-            var r=await fetch(WORKER_BASE_URL+"/yt-transcript?id="+encodeURIComponent(id));
+            var r=await workerGet(WORKER_BASE_URL+"/yt-transcript?id="+encodeURIComponent(id));
             if(r.ok){ var j=await r.json(); if(j&&j.text)return j.text; }
           }
         }
-        var r2=await fetch(WORKER_BASE_URL+"/extract?url="+encodeURIComponent(it.url));
+        var r2=await workerGet(WORKER_BASE_URL+"/extract?url="+encodeURIComponent(it.url));
         if(r2.ok){ var j2=await r2.json(); if(j2&&j2.text)return j2.text; }
       }
     }catch(e){}
@@ -215,11 +477,18 @@ async function analyzeViaWorker(it){
           detail: 'long'
         };
 
+    // Owner key and/or fresh Turnstile token per call (tokens are single-use); a failure here
+    // throws and we fall back to the local summarizer exactly as before.
+    var headers = { 'content-type': 'application/json' };
+    var auth = await workerAuthHeaders();
+    for (var hk in auth) { if (Object.prototype.hasOwnProperty.call(auth, hk)) headers[hk] = auth[hk]; }
+
     var r = await fetch(WORKER_BASE_URL + '/analyze', {
       method: 'POST',
-      headers: { 'content-type': 'application/json' },
+      headers: headers,
       body: JSON.stringify(payload)
     });
+    noteWorkerResponse(r);
     if (!r.ok) return null;
     var j = await r.json();
     return j.analysis || null;
@@ -252,4 +521,8 @@ async function analyzeViaWorker(it){
   function tokenizeWords(s){ return s.toLowerCase().match(/[a-z0-9']+/g)||[]; }
   function summarizeText(text,maxSentences){ maxSentences=maxSentences||6; var sentences=tokenizeSentences(text); if(sentences.length<=maxSentences) return sentences; var tf=Object.create(null); var sWords=sentences.map(tokenizeWords); sWords.forEach(function(words){ words.forEach(function(w){ if(!STOP.has(w)) tf[w]=(tf[w]||0)+1; }); }); var scores=sWords.map(function(words){ return words.reduce(function(acc,w){ return acc+(STOP.has(w)?0:(tf[w]||0)); },0); }); var idxs=scores.map(function(s,i){return [s,i];}).sort(function(a,b){return b[0]-a[0];}).slice(0,maxSentences).map(function(x){return x[1];}).sort(function(a,b){return a-b;}); return idxs.map(function(i){return sentences[i];}); }
   function summaryToBullets(sentences,maxBullets){ maxBullets=maxBullets||6; return (sentences||[]).slice(0,maxBullets).map(function(s){return s.trim();}); }
+
+  // Consume a "#key=..." link as soon as the page loads (only when the lock is on — with the flag
+  // off this line does nothing: no storage access, no history change, the fragment is left alone).
+  if(OWNER_KEY_ENABLED){ try { consumeKeyFragment(); } catch(e){} }
 })();
