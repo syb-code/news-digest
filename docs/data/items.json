@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "255a13f5c73fc1b13252f5a00019f86d",
+      "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
+      "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-08T12:31:49+00:00",
+      "summary": "Listen now | Roman Ugarte of SpaceXAI on going from first line of code to the world’s hottest AI product in seven weeks, and what it really takes to win in the most competitive market ever",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0a9ba2efac180753ba8c744f60f341cd",
       "title": "🎙️ How I AI: GPT-6 Astra is a banger + Stripe’s AI playbook + Grok Bot vs. OpenClaw: why I replaced my entire agent stack",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-gpt-6-astra-is-a-banger",
@@ -776,19 +791,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "7beb2b6fbdefb64e257164b1851030c3",
-      "title": "How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers | Yana Welinder",
-      "url": "https://www.lennysnewsletter.com/p/how-a-solo-founder-used-codex-and",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-17T12:04:02+00:00",
-      "summary": "Watch now | 🎙️From hand-drawn sketch to 3D-printed gown, Yana Welinder shows how Codex plus computer use makes previously unmanufacturable garments and full e-commerce builds possible for a solo founder",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1781,5 +1783,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-08T08:32:11.327225+00:00"
+  "generated_at": "2026-09-08T13:15:31.936942+00:00"
 }
