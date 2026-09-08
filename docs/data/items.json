@@ -77,7 +77,7 @@
     },
     {
       "id": "70401ac6f3f90e8366dfb5e8efa88b28",
-      "title": "How Private Equity Turned Life Insurance Into a Taxpayer Backstop | Pranjal Drall & Andrew Granato",
+      "title": "Worse Than A Bank Failure: What Actually Happens When a Life Insurer Goes Bust | Drall & Granato",
       "url": "https://www.youtube.com/watch?v=1qOphReO4Js",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -85,7 +85,9 @@
       "summary": "Andrew Granato, Assistant Professor of Law at the University of Texas at Austin, and Pranjal Drall, JD/PhD candidate at Yale, join Jack Farley to discuss their paper \"Private Credit, State Backstop: How Private Equity Socializes Risk Through Insurers.\" Private equity ownership o…",
       "read_minutes": 3,
       "duration_sec": null,
-      "themes": [],
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "highlight"
     },
     {
@@ -1783,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-08T13:15:31.936942+00:00"
+  "generated_at": "2026-09-08T17:42:50.713434+00:00"
 }
