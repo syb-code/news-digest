@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "f4d7f71a4f7c33758580e2ec0e1f7d4a",
+      "title": "LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-256-fable-51-astra",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-09T08:01:40+00:00",
+      "summary": "Anthropic launches Claude Fable 5.1, OpenAI Is About (already has) to Release Its First AI Model With ‘Critical’ Cyber Abilities, OpenAI’s rogue AI model incident was worse than we thought",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "255a13f5c73fc1b13252f5a00019f86d",
       "title": "How we built Grok Bot in a month | Roman Ugarte (SpaceXAI)",
       "url": "https://www.lennysnewsletter.com/p/how-we-built-grok-bot-in-a-month",
@@ -1593,21 +1608,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "132e7ff75e5e5f23dac3ff498a43bd74",
-      "title": "Last Week in AI #338 - Anthropic sues Trump, xAI starting over, Iran AI Fakes",
-      "url": "https://lastweekin.ai/p/last-week-in-ai-338-anthropic-sues",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-03-16T04:18:14+00:00",
-      "summary": "Anthropic sues Trump administration in AI dispute with Pentagon, ‘Not built right the first time’ — Musk’s xAI is starting over again, again, Cascade of A.I. Fakes About War With Iran Causes Chaos Onl",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "05f93b920f30b8406b4f566e4ac95dfe",
       "title": "How to build premium pitch decks in Lovable",
       "url": "https://designplusai.com/p/how-to-build-premium-pitch-decks",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-09T07:49:10.720597+00:00"
+  "generated_at": "2026-09-09T12:40:59.180826+00:00"
 }
