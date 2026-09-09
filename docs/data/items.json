@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "c23f39ab7c96da68c1c83e51c3d54aa8",
+      "title": "Why Astra Is the Most Significant and Confounding Model in a Very Long Time",
+      "url": "https://www.youtube.com/watch?v=Wqz2yyUCtiw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-09T14:28:11+00:00",
+      "summary": "GPT-6 Astra lands with a viral launch video and wildly mixed first impressions, topping computer use and 3D benchmarks while trailing Fable 5.1 on front-end design and general intelligence indexes. NLW argues the disconnect comes from judging an opportunity model by efficiency-m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "f4d7f71a4f7c33758580e2ec0e1f7d4a",
       "title": "LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash",
       "url": "https://lastweekin.ai/p/lwiai-podcast-256-fable-51-astra",
@@ -693,21 +708,6 @@
       "source_type": "rss",
       "published": "2026-08-22T19:23:07+00:00",
       "summary": "Community Wisdom 198",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "01529a68af66a1af548913a87ee8d14d",
-      "title": "The AI Data Center Debate is Getting More Fierce",
-      "url": "https://www.youtube.com/shorts/wb34tKgMpLQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-22T17:00:11+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-09T12:40:59.180826+00:00"
+  "generated_at": "2026-09-09T16:59:47.690600+00:00"
 }
