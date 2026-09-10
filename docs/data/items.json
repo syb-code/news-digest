@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "6431f1cb526d3d06fe788fcbfc2124d5",
+      "title": "AI Model Month is Already Delivering Big Gains",
+      "url": "https://www.youtube.com/watch?v=j90tdo5Tjes",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-10T13:53:51+00:00",
+      "summary": "September opens with a flood of releases as Gemini 3.8 Flash, Muse Spark 1.3, and ChatGPT Images 2.5 all land within days of Fable 5.1 and GPT-6 Astra. NLW breaks down where each one actually fits, why speed and cost efficiency now matter as much as raw capability, and what Meta…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c23f39ab7c96da68c1c83e51c3d54aa8",
       "title": "Why Astra Is the Most Significant and Confounding Model in a Very Long Time",
       "url": "https://www.youtube.com/watch?v=Wqz2yyUCtiw",
@@ -665,21 +680,6 @@
       "source_type": "rss",
       "published": "2026-08-24T12:04:02+00:00",
       "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3542531661377ec9901539c0e5c27519",
-      "title": "The Future of AI and Work",
-      "url": "https://www.youtube.com/watch?v=m8x-gYMYFCg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-24T01:24:01+00:00",
-      "summary": "Opposition to AI data centers has become one of America’s fastest-moving bipartisan political issues, driven by concerns about electricity, water, noise, property values, jobs, and a deeper mistrust of Big Tech. NLW provides an end-to-end primer on what data centers actually do,…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-10T10:30:06.903087+00:00"
+  "generated_at": "2026-09-10T14:45:38.671425+00:00"
 }
