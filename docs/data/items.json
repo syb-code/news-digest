@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c504eb0c87e6b904b84ad8aca7aec2be",
+      "title": "Here's What I'm Investing in Next",
+      "url": "https://www.youtube.com/watch?v=Em56VP75r2Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-10T16:00:12+00:00",
+      "summary": "Invest in GigaStar and become a shareholder: https://wefunder.com/gigastar\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Ma…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "6431f1cb526d3d06fe788fcbfc2124d5",
       "title": "AI Model Month is Already Delivering Big Gains",
       "url": "https://www.youtube.com/watch?v=j90tdo5Tjes",
@@ -1199,19 +1212,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "47107b841fc91a4badbd3122e08c59bd",
-      "title": "Retirement Plans: The Best Order to Invest Your Money",
-      "url": "https://www.youtube.com/watch?v=ZwJhUONHLvk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-17T16:00:25+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "5acc3c9930f65e603d76e00ad4de6bf8",
       "title": "Deep Learning Weekly: Issue 464",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-464",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-10T14:45:38.671425+00:00"
+  "generated_at": "2026-09-10T18:01:21.293060+00:00"
 }
