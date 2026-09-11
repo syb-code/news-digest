@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "8d23f1b6cecc67ef29b35f7c1081c834",
+      "title": "“Super El Nino” Jeopardizes Global Food Supplies In 2026 | John Farris of LandFund Partners",
+      "url": "https://www.youtube.com/watch?v=mGB5OOLTGN0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-11T17:42:47+00:00",
+      "summary": "Learn more about LandFund Partners: https://landfundpartners.com/invest#get-started\n\nJack Farley speaks with John Farris, founder & CEO of LandFund Partners and former World Bank agricultural economist, about the tightening global food equation — and where the return actually co…",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ad0a0847ad8920a4d1363970aa73d6f4",
       "title": "Deep Learning Weekly: Issue 472",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-472",
@@ -1068,19 +1081,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "7f4714f39ca9065b9d8ea94524558748",
-      "title": "Why Yield Curve Control is the Only Way to Stop a Global Bond Crisis | Luke Gromen",
-      "url": "https://www.youtube.com/watch?v=lS67XZP81Tc",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-28T13:52:54+00:00",
-      "summary": "Learn more about the Fundrise Income Fund here: https://Fundrise.com/mm\n\nLuke Gromen, founder of Forest for the Trees, sites down with Max Wiethe to dissect the escalating crisis in the global bond market. Gromen argues that off-balance sheet liabilities, such as baby boomer ret…",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "146491037227843688b0960127b1ac3f",
       "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
       "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-11T16:51:56.592685+00:00"
+  "generated_at": "2026-09-11T19:24:41.399652+00:00"
 }
