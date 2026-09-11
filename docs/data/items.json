@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "c504eb0c87e6b904b84ad8aca7aec2be",
+      "title": "Here's What I'm Investing in Next",
+      "url": "https://www.youtube.com/watch?v=Em56VP75r2Q",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-10T16:00:12+00:00",
+      "summary": "Invest in GigaStar and become a shareholder: https://wefunder.com/gigastar\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Ma…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "6431f1cb526d3d06fe788fcbfc2124d5",
       "title": "AI Model Month is Already Delivering Big Gains",
       "url": "https://www.youtube.com/watch?v=j90tdo5Tjes",
@@ -196,6 +209,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "aebdfbbddf5d0d05a2559856bb2bee46",
+      "title": "Jobs Report Crushes Expectations... Stock Market Hates It",
+      "url": "https://www.youtube.com/watch?v=kLw0TWFKxT4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-04T20:08:42+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b27b662bb67550bc48c550ea1975ee51",
       "title": "Deep Learning Weekly: Issue 471",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-471",
@@ -261,6 +287,19 @@
       "source_type": "youtube",
       "published": "2026-09-02T21:41:51+00:00",
       "summary": "Fable 5.1 takes the top spot across nearly every benchmark while Anthropic pushes hard on cost, safeguards, and zero data retention for enterprises. NLW breaks down what independent evals actually found on token burn, why the right question is no longer whether to switch models …",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "22327f64327c69be960f14c4869357a6",
+      "title": "Expect Social Security Benefit Cuts... I Am.",
+      "url": "https://www.youtube.com/watch?v=fGXwa_kdOgY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-02T16:00:32+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -336,6 +375,22 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b5fd5262465ada9edd5fce1a0602bae4",
+      "title": "The Fed Could Raise Interest Rates. This Could Get Ugly.",
+      "url": "https://www.youtube.com/watch?v=7tbI2hyy7Jc",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-31T16:39:49+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -585,6 +640,22 @@
       "bucket": "highlight"
     },
     {
+      "id": "d8d0d752fe693558a8497acd1791170f",
+      "title": "I Bet Money The Fed WON'T Raise Interest Rates in September — Here's Why...",
+      "url": "https://www.youtube.com/watch?v=B7fXmUqCANY",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-24T16:00:39+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9312216d7482b03268a9cbbb7598c6c6",
       "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
@@ -658,6 +729,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "2d92ac0322e543b25e72be6874cd6727",
+      "title": "US Government is Running Out of People to Borrow Money From",
+      "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-21T16:00:00+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "19d5bb236e66acf2d7baa2c953f37960",
       "title": "Deep Learning Weekly: Issue 469",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-469",
@@ -696,6 +780,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "418e5bf86c155d02ed382027d38796bc",
+      "title": "Japan's Yen Crisis is Becoming America's Problem",
+      "url": "https://www.youtube.com/watch?v=StdA6-BovKw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-18T16:00:26+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -755,6 +852,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "c39d8c07bf71acdc091fbb2c929707fd",
+      "title": "Inflation Fell to 3.4%... But There's a Problem",
+      "url": "https://www.youtube.com/watch?v=4cSZY-AEuog",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-13T16:00:29+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "dacad8b829a54b0ae311d0a75874cef2",
       "title": "Deep Learning Weekly: Issue 468",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-468",
@@ -782,6 +892,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "cc752c391f0c4c0567ed2ad6032d019c",
+      "title": "Jobs Report Was a Disaster... But The Stock Market Loves It",
+      "url": "https://www.youtube.com/watch?v=XOmEIOWwaJs",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-10T20:42:31+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -815,6 +938,19 @@
       "bucket": "highlight"
     },
     {
+      "id": "f268ced1f3282d492657a2a173b5f979",
+      "title": "U.S. National Debt: Government Announces Massive New Borrowing",
+      "url": "https://www.youtube.com/watch?v=0jZ6Tz7zYME",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-06T16:00:07+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
       "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
       "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
@@ -827,6 +963,19 @@
       "themes": [
         "AI/ML"
       ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f4b4e4a5f9560840e04c2803c1aa88f3",
+      "title": "GDP Report: Americans Are Burning Through Their Savings",
+      "url": "https://www.youtube.com/watch?v=XGtzoJK0Smw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-08-03T16:00:03+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -875,6 +1024,21 @@
       "bucket": "highlight"
     },
     {
+      "id": "728c2a87ad275a7bacbc9cfeeabf55a8",
+      "title": "The Fed on Inflation: \"Americans Are Being Impatient\"",
+      "url": "https://www.youtube.com/watch?v=5e8txMnFbB0",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-29T23:30:32+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "50468330b37adef54625a54d3995378c",
       "title": "Mum’s The Word: Kathryn Rooney Vera on Fed’s Second Meeting under Kevin Warsh (Live Replay)",
       "url": "https://www.youtube.com/watch?v=fMNSCF1bW0w",
@@ -904,6 +1068,34 @@
       "bucket": "highlight"
     },
     {
+      "id": "146491037227843688b0960127b1ac3f",
+      "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
+      "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-27T20:39:34+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Housing (CA/SD)"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a6a468f29dc4eb441da9c33e4e8659ce",
+      "title": "How to Invest Your First $1,000 in The Stock Market",
+      "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-24T16:00:04+00:00",
+      "summary": "Stock Brokerage Accounts That Offer Fractional Shares:\nRobinhood: https://join.robinhood.com/briank4837/\nWeBull: https://www.webull.com/k/ClearValueTax\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the co…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "9bf41bb987ce1e48e329ad3aefe4e46c",
       "title": "Deep Learning Weekly: Issue 465",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-465",
@@ -911,6 +1103,19 @@
       "source_type": "rss",
       "published": "2026-07-24T15:02:41+00:00",
       "summary": "Kimi K3, Beyond the Single Trace: How We Built Agent Diagnostics for Opik, a paper on Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "40f6137eef2ca26644dcbe70778319eb",
+      "title": "Gold Investing on The Stock Market: The Case For Buying Today",
+      "url": "https://www.youtube.com/watch?v=_Iih8RG5UTo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-07-21T16:34:00+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1580,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-11T02:46:39.309888+00:00"
+  "generated_at": "2026-09-11T07:43:48.978637+00:00"
 }
