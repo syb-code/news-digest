@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "b6c77a9fe6e11526b72a49754064de1f",
+      "title": "Anthropic Researcher Says 10% Chance AI Kills All Humans",
+      "url": "https://www.youtube.com/watch?v=gzMQtm-cIiY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-11T12:13:41+00:00",
+      "summary": "An Anthropic researcher resigned publicly saying both his former labs are gambling with our lives, a colleague still there put the odds of extinction above 10%, and the posts pulled nearly 200 million views plus responses from two dozen elected officials. NLW examines why this p…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c504eb0c87e6b904b84ad8aca7aec2be",
       "title": "Here's What I'm Investing in Next",
       "url": "https://www.youtube.com/watch?v=Em56VP75r2Q",
@@ -622,21 +637,6 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3f794bbc7187899a85e916c053a1c504",
-      "title": "No AI Won't Take All Our Jobs. Here's What WILL Happen.",
-      "url": "https://www.youtube.com/shorts/UMDxpXGGdMs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-24T20:12:19+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. \nSubscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614\nGet it ad free at http://patreon.com/aidailybrief\nLearn more about the show https://aid…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-11T07:43:48.978637+00:00"
+  "generated_at": "2026-09-11T12:32:37.378415+00:00"
 }
