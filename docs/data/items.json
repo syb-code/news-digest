@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ad0a0847ad8920a4d1363970aa73d6f4",
+      "title": "Deep Learning Weekly: Issue 472",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-472",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-11T14:02:48+00:00",
+      "summary": "Introducing ChatGPT Images 2.5, Linguistic drift at the frontier, a paper on Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b6c77a9fe6e11526b72a49754064de1f",
       "title": "Anthropic Researcher Says 10% Chance AI Kills All Humans",
       "url": "https://www.youtube.com/watch?v=gzMQtm-cIiY",
@@ -1511,19 +1524,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "8f2978b84d20872d6799e848a9868014",
-      "title": "Deep Learning Weekly: Issue 452",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-452",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-04-23T15:01:16+00:00",
-      "summary": "Introducing Ollie: Auto-Fix Your Agent’s Codebase, Designing synthetic datasets for the real world: Mechanism design and reasoning from first principles, a paper on Adam's Law: Textual Frequency Law o",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9c6588d0291771dd07f4d609e8311d7e",
       "title": "How to Build Something Lovable",
       "url": "https://designplusai.com/p/how-to-build-something-lovable",
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-11T12:32:37.378415+00:00"
+  "generated_at": "2026-09-11T16:51:56.592685+00:00"
 }
