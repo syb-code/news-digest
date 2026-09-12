@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "cafa1ecf99951999e9d636e6b76642d9",
+      "title": "What to Use the Latest AI Tools For",
+      "url": "https://www.youtube.com/watch?v=Y2hE6kYZPg0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-12T13:06:36+00:00",
+      "summary": "Eight new product launches land in a single week, from OpenAI's GPT Live voice API to Cognition's Swe-2 model to persistent projects in Cursor. NLW goes through each one with a practical read on who should actually use it and what for, plus why voice control and cost-optimized m…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8d23f1b6cecc67ef29b35f7c1081c834",
       "title": "“Super El Nino” Jeopardizes Global Food Supplies In 2026 | John Farris of LandFund Partners",
       "url": "https://www.youtube.com/watch?v=mGB5OOLTGN0",
@@ -602,21 +617,6 @@
       "source_type": "youtube",
       "published": "2026-08-26T13:10:56+00:00",
       "summary": "New OpenAI research shows the usage gap between frontier firms and average enterprises exploded from 2.6X to 8.3X in six months, driven entirely by agentic adoption. NLW breaks down the flip from chat to agentic tokens, why legal saw 108X growth in Codex usage, and how skills an…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "67f93eb1fb588b9cdd28f5fe8796a97c",
-      "title": "The AI Model Tier List",
-      "url": "https://www.youtube.com/watch?v=SHPIEDynd9I",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-26T02:54:11+00:00",
-      "summary": "A viral AI model tier list sparks debate, but the real story is how individuals and enterprises now build full model stacks instead of picking one winner. NLW breaks down why the Financial Times misread Anthropic's Fable 5 sales data, how AT&T is shifting most queries to open mo…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-12T09:59:38.604846+00:00"
+  "generated_at": "2026-09-12T13:30:31.182503+00:00"
 }
