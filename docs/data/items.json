@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9300b1955fc9115ad7e45a9d98b8fc90",
+      "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-12T17:45:34+00:00",
+      "summary": "Community Wisdom 298",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "cafa1ecf99951999e9d636e6b76642d9",
       "title": "What to Use the Latest AI Tools For",
       "url": "https://www.youtube.com/watch?v=Y2hE6kYZPg0",
@@ -256,7 +271,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-09-05T17:00:46+00:00",
-      "summary": "Community Wisdom 200",
+      "summary": "Community Wisdom 297",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -532,7 +547,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-08-29T18:59:48+00:00",
-      "summary": "Community Wisdom 199",
+      "summary": "Community Wisdom 296",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -746,7 +761,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-08-22T19:23:07+00:00",
-      "summary": "Community Wisdom 198",
+      "summary": "Community Wisdom 295",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -832,21 +847,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d091c77a45d6ed94f8930307fdd78f45",
-      "title": "🎙️ How I AI: How a solo founder used Codex and ChatGPT to launch a fashion brand without engineers",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-a-solo-founder-used",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-17T15:03:16+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-12T16:42:09.859078+00:00"
+  "generated_at": "2026-09-12T18:54:40.358725+00:00"
 }
