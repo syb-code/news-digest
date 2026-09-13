@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5b5561ca26533eed0db9e994a205e307",
+      "title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
+      "url": "https://www.youtube.com/watch?v=GmQ8Mq_pnAw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-13T16:00:37+00:00",
+      "summary": "Precious metal and base metal prices have soared as have many mining stocks, but despite this, Freddy Brick, partner at Muddy Waters Capital says that the industry feels closer to left for dead than euphoric. He explains why that setup and the consistency of the mispricing in th…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9300b1955fc9115ad7e45a9d98b8fc90",
       "title": "🧠 Community Wisdom: AI basketball coaching, Jira vs. Linear, building a business case for platform teams, favorite AI use cases, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-ai-basketball-coaching",
@@ -1065,22 +1080,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "50468330b37adef54625a54d3995378c",
-      "title": "Mum’s The Word: Kathryn Rooney Vera on Fed’s Second Meeting under Kevin Warsh (Live Replay)",
-      "url": "https://www.youtube.com/watch?v=fMNSCF1bW0w",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-07-29T21:55:49+00:00",
-      "summary": "In this episode, Jack sits down with Kathryn Rooney Vera, Chief Market Strategist at StoneX Group, to unpack the Federal Reserve's decision to hold interest rates and Chair Warsh's transition toward a quieter, laissez-faire communication style. Kathryn shares her macroeconomic o…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "146491037227843688b0960127b1ac3f",
       "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
       "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
@@ -1785,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-13T13:09:38.095515+00:00"
+  "generated_at": "2026-09-13T17:12:23.817703+00:00"
 }
