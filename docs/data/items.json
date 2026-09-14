@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "73b5b293fad7ae3c5050fc8571ad81a9",
+      "title": "🎙️ How I AI: How two SpaceXAI designers use Grok Bot to do their jobs",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-two-spacexai-designers",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-14T15:03:48+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ebe3fccd0a775f9618fb6b70bbe04b99",
+      "title": "How Grok Bot designers use AI agents to build personal sites and product prototypes | John Bai & Peng Zheng",
+      "url": "https://www.lennysnewsletter.com/p/how-grok-bot-designers-use-ai-agents",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-14T12:04:39+00:00",
+      "summary": "Watch now (42 mins) | 🎙️ Two designers at SpaceXAI show me how they use Grok Bot to run Figma from the gym, update a portfolio with one photo, and turn shower thoughts into working prototypes",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "5b5561ca26533eed0db9e994a205e307",
       "title": "Hunting for Value in Mining Stocks Amid Soaring Metals Prices | Freddy Brick | Muddy Waters Capital",
       "url": "https://www.youtube.com/watch?v=GmQ8Mq_pnAw",
@@ -824,21 +854,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "696c5af202c75a72cc586cd219126218",
-      "title": "I tested Grok Bot, Grok 4.6, and Cursor Origin - here’s my honest take",
-      "url": "https://www.lennysnewsletter.com/p/i-tested-grok-bot-grok-46-and-cursor",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-18T21:30:31+00:00",
-      "summary": "Watch now | 🎙️ I tested Grok Bot, Cursor Origin, and Grok 4.6 head-to-head against my favorite models and ranked them on the Claire Index: here's what actually moved the needle",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "418e5bf86c155d02ed382027d38796bc",
       "title": "Japan's Yen Crisis is Becoming America's Problem",
       "url": "https://www.youtube.com/watch?v=StdA6-BovKw",
@@ -846,19 +861,6 @@
       "source_type": "youtube",
       "published": "2026-08-18T16:00:26+00:00",
       "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "04fc625dc1526bbce3da9733b6d78bb9",
-      "title": "Announcing Lenny’s Jobs: The best place in the world to find, vet, and land your dream job",
-      "url": "https://www.lennysnewsletter.com/p/announcing-lennys-jobs-the-best-place",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-18T15:40:06+00:00",
-      "summary": "Where product managers, engineers, designers, and growth/marketing professionals discover high-quality open roles at tech companies",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -1784,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-14T11:38:55.181034+00:00"
+  "generated_at": "2026-09-14T17:33:49.544555+00:00"
 }
