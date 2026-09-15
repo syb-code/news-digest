@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "574e3709f2db48f022dc9de40cb770c1",
+      "title": "60+ new creative growth ideas",
+      "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-15T12:45:28+00:00",
+      "summary": "How to stand out when everyone is running the same playbook",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "b0555de4b6b1d212203d3fedae9b10e4",
       "title": "AI Companies Begin to Align Around Slowdown",
       "url": "https://www.youtube.com/watch?v=5Wivm4gd9YQ",
@@ -810,21 +823,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "3ba2b6f25294147ce144d3d7aa36735e",
-      "title": "🧠 Community Wisdom: Favorite Lenny’s Product Pass tools, how AI is reshaping hiring, what to prioritize when you join a new company, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-favorite-lennys",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-22T19:23:07+00:00",
-      "summary": "Community Wisdom 295",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1786,5 +1784,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-15T10:58:01.987032+00:00"
+  "generated_at": "2026-09-15T15:28:33.839866+00:00"
 }
