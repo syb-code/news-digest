@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9fca081b9a1494d19ff5ceeef44403db",
+      "title": "Muse review: The personal AI agent that gets consumer UX right",
+      "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-16T12:02:14+00:00",
+      "summary": "Watch now (38 mins) | 🎙️ I gave Meta’s Muse my calendar, my email, and my kids’ chaotic schedule, and it produced a one-shot family PDF more beautiful than anything I’ve ever made with Claude or Codex",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "574e3709f2db48f022dc9de40cb770c1",
       "title": "60+ new creative growth ideas",
       "url": "https://www.lennysnewsletter.com/p/60-creative-growth-ideas",
@@ -810,19 +825,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4d36c9ba207d223dc6952fb54a64c58f",
-      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
-      "url": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-23T12:31:43+00:00",
-      "summary": "Listen now | Jen Abel returns for a third time to walk us through every step of the enterprise sales cycle—from the first cold outreach to the final contract signature",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1784,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-16T07:08:25.502652+00:00"
+  "generated_at": "2026-09-16T13:03:14.108346+00:00"
 }
