@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "755cef04c1f6f03517cb4dcdb6342dda",
+      "title": "Joseph Wang LIVE on the Fed's Hardest Decision in Years",
+      "url": "https://www.youtube.com/watch?v=hVN0rzMJ2Mk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-16T16:39:28+00:00",
+      "summary": "",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1a8a191585418ccf55bea4c5da41f3bc",
+      "title": "Trump Rails Against AI Slowdown \"Hoax\"",
+      "url": "https://www.youtube.com/watch?v=5vh1Vr3QSCY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-16T15:00:31+00:00",
+      "summary": "Trump posts seven times on Truth Social calling AI extinction risk a hoax on par with global warming, while Jensen Huang calls doom predictions irresponsible and takes a surprise call from the Oval Office live on stage. NLW tracks how the pacing debate turned partisan almost ove…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "9fca081b9a1494d19ff5ceeef44403db",
       "title": "Muse review: The personal AI agent that gets consumer UX right",
       "url": "https://www.lennysnewsletter.com/p/muse-review-the-personal-ai-agent",
@@ -670,21 +700,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d50096abe78c509996591e57d1b7b158",
-      "title": "5 Rules for AI Writing",
-      "url": "https://www.youtube.com/watch?v=L3zN4nvV2rs",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-28T22:28:51+00:00",
-      "summary": "Stanley Druckenmiller's obviously AI-written Wall Street Journal op-ed sparked a fierce debate about disclosure, plagiarism, and whether the tool used matters more than the thinking behind it. NLW lays out five rules for AI writing, including why the purity test will fade but th…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "3c85630fa7634b2eecac4f75033f8830",
       "title": "Invisible Interfaces",
       "url": "https://designplusai.com/p/invisible-interfaces",
@@ -1042,21 +1057,6 @@
       "source_type": "rss",
       "published": "2026-08-03T10:04:18+00:00",
       "summary": "Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d2170a2b98a48ed4a8965e726d1a4c60",
-      "title": "AI Trade \"Dead Money\" For Now - But Macro Overall Is \"Pretty Risk-On\" For Stocks | Tian Yang",
-      "url": "https://www.youtube.com/watch?v=Q4eRWt2Zxx8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-08-02T22:35:51+00:00",
-      "summary": "In this episode, Jack sits down with Tian Yang, co-founder and head of research at Variant Perception, to analyze the current macroeconomic landscape and equity market outlook. Tian shares why macro indicators point to a broadly supportive \"risk-on\" environment over the next thr…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-16T13:03:14.108346+00:00"
+  "generated_at": "2026-09-16T17:55:17.314269+00:00"
 }
