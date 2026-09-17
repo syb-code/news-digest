@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "920ca08615d6b09413682080889f8c46",
+      "title": "10 Ways to Think Bigger with Opportunity AI",
+      "url": "https://www.youtube.com/watch?v=XsOoumeXtm4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-17T17:36:31+00:00",
+      "summary": "AI can help you work faster, but it can also expand what you’re capable of doing in the first place. NLW explores ten ways to think bigger with “opportunity AI,” from building video production pipelines and interactive client proposals to turning your expertise into a product, w…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d90d9672d7c3d927b02141aa8f024f3e",
       "title": "Last Week in AI #344 - Navier–Stokes, Pacing the Frontier, AI Misuse",
       "url": "https://lastweekin.ai/p/last-week-in-ai-344-navierstokes",
@@ -635,21 +650,6 @@
       "source_type": "rss",
       "published": "2026-08-31T15:01:58+00:00",
       "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "70fc8d8f785d88f2cbe3d600cdb8c96c",
-      "title": "Where to Start AI Coding if You're Not Yet",
-      "url": "https://www.youtube.com/watch?v=oOypWmORZRk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-08-31T14:11:41+00:00",
-      "summary": "AI coding is quickly becoming a foundational skill for knowledge workers, not just software engineers. NLW breaks down how to identify software-shaped problems in your work, choose between automating, upgrading, and inventing, and find a practical first project worth building.\n\n…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1787,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-17T14:37:31.441120+00:00"
+  "generated_at": "2026-09-17T18:45:45.302103+00:00"
 }
