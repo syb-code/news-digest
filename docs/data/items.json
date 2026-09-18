@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "8ac85b76a95bc552aa4d09239ad2bc1a",
+      "title": "Why Everyone is Now Getting Excited About Personal AI Agents",
+      "url": "https://www.youtube.com/watch?v=NmXhFS39ad0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-18T20:00:10+00:00",
+      "summary": "Six weeks ago the consensus was that normal people weren't using AI agents at all, and now Meta's Muse sits at number two on the App Store with unprompted praise pouring in from people who don't usually post about Meta products. NLW digs into what changed, breaking down the spec…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "0a63274e07941dc2ce34c964622cf186",
       "title": "The Fed Just Admitted Inflation Won’t Be Under Control Until 2029",
       "url": "https://www.youtube.com/watch?v=jldrPVUJv18",
@@ -609,21 +624,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b13366b4f0cf264c46027d887b8cda7",
-      "title": "How To Navigate the Next Wave of AI Competition",
-      "url": "https://www.youtube.com/watch?v=mLaO3L0dLlw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-01T18:37:11+00:00",
-      "summary": "OpenAI cutting off Cursor after the SpaceX acquisition follows a pattern already set by Anthropic with Windsurf, and the fallout reaches far beyond lab rivalry. NLW explains why enterprises now need a strategy for open weights and open harnesses, treating model and tooling indep…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-18T17:26:19.946027+00:00"
+  "generated_at": "2026-09-18T20:19:29.782226+00:00"
 }
