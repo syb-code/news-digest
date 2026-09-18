@@ -1,21 +1,6 @@
 {
   "items": [
     {
-      "id": "920ca08615d6b09413682080889f8c46",
-      "title": "10 Ways to Think Bigger with Opportunity AI",
-      "url": "https://www.youtube.com/watch?v=XsOoumeXtm4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-17T17:36:31+00:00",
-      "summary": "AI can help you work faster, but it can also expand what you’re capable of doing in the first place. NLW explores ten ways to think bigger with “opportunity AI,” from building video production pipelines and interactive client proposals to turning your expertise into a product, w…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d90d9672d7c3d927b02141aa8f024f3e",
       "title": "Last Week in AI #344 - Navier–Stokes, Pacing the Frontier, AI Misuse",
       "url": "https://lastweekin.ai/p/last-week-in-ai-344-navierstokes",
@@ -23,21 +8,6 @@
       "source_type": "rss",
       "published": "2026-09-17T08:02:55+00:00",
       "summary": "OpenAI claims a Millennium Prize proof amid a feud with mathematicians, Anthropic's CEO calls to pace the frontier, extinction warnings spur a regulation push, and more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6dff32ea3e224ec1dbb152961eb17aa2",
-      "title": "Why a New Class of AI \"Judgement Models\" Could Have Big Business Implications",
-      "url": "https://www.youtube.com/watch?v=sdR7FZ0SeqA",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-17T01:52:26+00:00",
-      "summary": "TypeSafe's new model Jev skips text generation entirely and returns calibrated probabilities instead, claiming speeds 20 to 200 times faster at a fraction of the cost. NLW explains what judgment models actually do, why so much business work is really just small decisions dressed…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -58,21 +28,6 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "1a8a191585418ccf55bea4c5da41f3bc",
-      "title": "Trump Rails Against AI Slowdown \"Hoax\"",
-      "url": "https://www.youtube.com/watch?v=5vh1Vr3QSCY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-16T15:00:31+00:00",
-      "summary": "Trump posts seven times on Truth Social calling AI extinction risk a hoax on par with global warming, while Jensen Huang calls doom predictions irresponsible and takes a surprise call from the Oval Office live on stage. NLW tracks how the pacing debate turned partisan almost ove…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -99,34 +54,6 @@
       "source_type": "rss",
       "published": "2026-09-15T12:45:28+00:00",
       "summary": "How to stand out when everyone is running the same playbook",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b0555de4b6b1d212203d3fedae9b10e4",
-      "title": "AI Companies Begin to Align Around Slowdown",
-      "url": "https://www.youtube.com/watch?v=5Wivm4gd9YQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-15T02:08:16+00:00",
-      "summary": "Dario Amodei's \"We Must Pace the Frontier\" essay draws public agreement from Sam Altman, Elon Musk, Demis Hassabis, and Satya Nadella within hours, marking the closest thing yet to industry alignment on slowing down. NLW walks through the three-step plan, why embedded third-part…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "60f5aebac231cd41dec2a909637dc91b",
-      "title": "A Major Interest Rate Decision is Coming Wednesday",
-      "url": "https://www.youtube.com/watch?v=VuXdkYZ9TXc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-09-14T20:03:34+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -193,21 +120,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cafa1ecf99951999e9d636e6b76642d9",
-      "title": "What to Use the Latest AI Tools For",
-      "url": "https://www.youtube.com/watch?v=Y2hE6kYZPg0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-12T13:06:36+00:00",
-      "summary": "Eight new product launches land in a single week, from OpenAI's GPT Live voice API to Cognition's Swe-2 model to persistent projects in Cursor. NLW goes through each one with a practical read on who should actually use it and what for, plus why voice control and cost-optimized m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "8d23f1b6cecc67ef29b35f7c1081c834",
       "title": "“Super El Nino” Jeopardizes Global Food Supplies In 2026 | John Farris of LandFund Partners",
       "url": "https://www.youtube.com/watch?v=mGB5OOLTGN0",
@@ -231,64 +143,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b6c77a9fe6e11526b72a49754064de1f",
-      "title": "Anthropic Researcher Says 10% Chance AI Kills All Humans",
-      "url": "https://www.youtube.com/watch?v=gzMQtm-cIiY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-11T12:13:41+00:00",
-      "summary": "An Anthropic researcher resigned publicly saying both his former labs are gambling with our lives, a colleague still there put the odds of extinction above 10%, and the posts pulled nearly 200 million views plus responses from two dozen elected officials. NLW examines why this p…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c504eb0c87e6b904b84ad8aca7aec2be",
-      "title": "Here's What I'm Investing in Next",
-      "url": "https://www.youtube.com/watch?v=Em56VP75r2Q",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-09-10T16:00:12+00:00",
-      "summary": "Invest in GigaStar and become a shareholder: https://wefunder.com/gigastar\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Ma…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "6431f1cb526d3d06fe788fcbfc2124d5",
-      "title": "AI Model Month is Already Delivering Big Gains",
-      "url": "https://www.youtube.com/watch?v=j90tdo5Tjes",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-10T13:53:51+00:00",
-      "summary": "September opens with a flood of releases as Gemini 3.8 Flash, Muse Spark 1.3, and ChatGPT Images 2.5 all land within days of Fable 5.1 and GPT-6 Astra. NLW breaks down where each one actually fits, why speed and cost efficiency now matter as much as raw capability, and what Meta…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c23f39ab7c96da68c1c83e51c3d54aa8",
-      "title": "Why Astra Is the Most Significant and Confounding Model in a Very Long Time",
-      "url": "https://www.youtube.com/watch?v=Wqz2yyUCtiw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-09T14:28:11+00:00",
-      "summary": "GPT-6 Astra lands with a viral launch video and wildly mixed first impressions, topping computer use and 3D benchmarks while trailing Fable 5.1 on front-end design and general intelligence indexes. NLW argues the disconnect comes from judging an opportunity model by efficiency-m…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -352,21 +206,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f50fed8f272873a5c60422b0718274d5",
-      "title": "The Multiplayer AI Sprint: Build Your Team’s First Shared Agent",
-      "url": "https://www.youtube.com/watch?v=1BqWLLkJym0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-07T12:05:51+00:00",
-      "summary": "AI agents have transformed how individuals work, but the next leap is moving them into the shared spaces where teams actually collaborate. In this episode, NLW explores how Anthropic, Every, OpenClaw and others are shifting from single-player AI to shared agents—and launches the…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5075c96716e075a855612520baee45ed",
       "title": "Build your own company brain: the enterprise AI playbook from Stripe’s engineering team | Sharadh Krishnamurthy",
       "url": "https://www.lennysnewsletter.com/p/build-your-own-company-brain-the",
@@ -412,36 +251,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "96cdd91ad1248a5ec2e79f485112fa5a",
-      "title": "How to Build an AI-Native Company Today",
-      "url": "https://www.youtube.com/watch?v=Qa4juJzo0TY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-06T11:52:51+00:00",
-      "summary": "What does it actually take to build an AI-native company? NLW breaks down Alex Lieberman’s 30 features of AI-native organizations, from shared context and agent skills to self-improving workflows, token efficiency, and making every employee a builder. The episode explores how co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0452509c189501b575361076b31058ed",
-      "title": "How AI Changed This Summer",
-      "url": "https://www.youtube.com/watch?v=5MMFeibSkqc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-05T21:12:36+00:00",
-      "summary": "Fable 5 launched and got shut down by the government within days, Kimi K3 triggered a second DeepSeek moment, and data centers became the most bipartisan issue in America. NLW walks through eight ways AI shifted over the summer, from Washington becoming a release gate to the rev…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "a08fa2b157f14eb9010dfa135dfc24de",
       "title": "🧠 Community Wisdom: Driving AI adoption when habits are the bottleneck, leveling up from APM to a mid-level PM role, converting a wave of new users to subscription, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-driving-ai-adoption",
@@ -457,19 +266,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "aebdfbbddf5d0d05a2559856bb2bee46",
-      "title": "Jobs Report Crushes Expectations... Stock Market Hates It",
-      "url": "https://www.youtube.com/watch?v=kLw0TWFKxT4",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-09-04T20:08:42+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "b27b662bb67550bc48c550ea1975ee51",
       "title": "Deep Learning Weekly: Issue 471",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-471",
@@ -477,21 +273,6 @@
       "source_type": "rss",
       "published": "2026-09-04T16:02:02+00:00",
       "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1, Evaluating LLMs Under Production Parity, a paper on Automated Researchers Can Reliably Mitigate Alignment Failures, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "2c29a27e0616a59a0cd786e45d9900eb",
-      "title": "Agentic Loops for Knowledge Workers",
-      "url": "https://www.youtube.com/watch?v=dLiXiD8hOAI",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-04T14:56:16+00:00",
-      "summary": "Agentic loops let AI run continuously against a measurable goal instead of waiting on prompt-by-prompt direction, and the technique is finally moving beyond software engineering. NLW and Nufar Gaspar walk through how to structure knowledge work tasks so agents can self-check and…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -528,47 +309,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "eb1cae45ee2021e20d47154bed2cc474",
-      "title": "Why Fable 5.1 Is Worth the Upgrade",
-      "url": "https://www.youtube.com/watch?v=CDUclXojmDg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-02T21:41:51+00:00",
-      "summary": "Fable 5.1 takes the top spot across nearly every benchmark while Anthropic pushes hard on cost, safeguards, and zero data retention for enterprises. NLW breaks down what independent evals actually found on token burn, why the right question is no longer whether to switch models …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "22327f64327c69be960f14c4869357a6",
-      "title": "Expect Social Security Benefit Cuts... I Am.",
-      "url": "https://www.youtube.com/watch?v=fGXwa_kdOgY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-09-02T16:00:32+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5eae69f16aa1bd0bb8fcc6e6979b7989",
-      "title": "OpenClaw 2.0 Shows Where AI Agents Are Going Next",
-      "url": "https://www.youtube.com/watch?v=9IYTGvNOmLk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-02T15:06:46+00:00",
-      "summary": "OpenClaw 2.0 arrives after seven quiet weeks, rebuilt from the ground up with 933 contributors and a far simpler install, but the real story is its shift to shared multiplayer agents. NLW explains why agents built for solo work miss most of how knowledge work actually happens, a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "192d2cbb59b2052b17077db916d39bc0",
       "title": "Grok Bot vs. OpenClaw: How I replaced my entire agent stack",
       "url": "https://www.lennysnewsletter.com/p/grok-bot-vs-openclaw-how-i-replaced",
@@ -579,21 +319,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0b13366b4f0cf264c46027d887b8cda7",
-      "title": "How To Navigate the Next Wave of AI Competition",
-      "url": "https://www.youtube.com/watch?v=mLaO3L0dLlw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-01T18:37:11+00:00",
-      "summary": "OpenAI cutting off Cursor after the SpaceX acquisition follows a pattern already set by Anthropic with Windsurf, and the fallout reaches far beyond lab rivalry. NLW explains why enterprises now need a strategy for open weights and open harnesses, treating model and tooling indep…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -623,22 +348,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "b5fd5262465ada9edd5fce1a0602bae4",
-      "title": "The Fed Could Raise Interest Rates. This Could Get Ugly.",
-      "url": "https://www.youtube.com/watch?v=7tbI2hyy7Jc",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-31T16:39:49+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
       ],
       "bucket": "highlight"
     },
@@ -798,22 +507,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "d8d0d752fe693558a8497acd1791170f",
-      "title": "I Bet Money The Fed WON'T Raise Interest Rates in September — Here's Why...",
-      "url": "https://www.youtube.com/watch?v=B7fXmUqCANY",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-24T16:00:39+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "9312216d7482b03268a9cbbb7598c6c6",
       "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
@@ -859,19 +552,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "2d92ac0322e543b25e72be6874cd6727",
-      "title": "US Government is Running Out of People to Borrow Money From",
-      "url": "https://www.youtube.com/watch?v=fzdK8wZosRs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-21T16:00:00+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "19d5bb236e66acf2d7baa2c953f37960",
       "title": "Deep Learning Weekly: Issue 469",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-469",
@@ -893,19 +573,6 @@
       "published": "2026-08-20T20:03:45+00:00",
       "summary": "Sponsor: Teucrium Corn Fund (NYSE Arca: CORN):\nhttps://teucrium.com/corn\n\nLuke Gromen — founder of Forest for the Trees (FFTT) Research — returns to Monetary Matters the same week Treasury Secretary Scott Bessent doubled the size of Treasury buybacks, and Luke argues it's the fi…",
       "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "418e5bf86c155d02ed382027d38796bc",
-      "title": "Japan's Yen Crisis is Becoming America's Problem",
-      "url": "https://www.youtube.com/watch?v=StdA6-BovKw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-18T16:00:26+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
@@ -933,19 +600,6 @@
       "source_type": "youtube",
       "published": "2026-08-13T20:00:12+00:00",
       "summary": "Andy Unanue, Founder and Managing Partner of AUA Private Equity Partners and former COO of Goya Foods breaks down the trillion-dollar opportunity in US food, beverage, and pet wellness family businesses. Andy shares how his experience in a family-run business shaped his firm's s…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "c39d8c07bf71acdc091fbb2c929707fd",
-      "title": "Inflation Fell to 3.4%... But There's a Problem",
-      "url": "https://www.youtube.com/watch?v=4cSZY-AEuog",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-13T16:00:29+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -982,19 +636,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cc752c391f0c4c0567ed2ad6032d019c",
-      "title": "Jobs Report Was a Disaster... But The Stock Market Loves It",
-      "url": "https://www.youtube.com/watch?v=XOmEIOWwaJs",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-10T20:42:31+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "979514cbdf2e5fd252c24da308b1e6db",
       "title": "These Power Stocks (Not Semis) Are The Real AI Beneficiaries, Say Investing Brother Duo Up 1,300%",
       "url": "https://www.youtube.com/watch?v=cUO79k97pJ8",
@@ -1025,19 +666,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f268ced1f3282d492657a2a173b5f979",
-      "title": "U.S. National Debt: Government Announces Massive New Borrowing",
-      "url": "https://www.youtube.com/watch?v=0jZ6Tz7zYME",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-06T16:00:07+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
       "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
       "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
@@ -1050,19 +678,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "f4b4e4a5f9560840e04c2803c1aa88f3",
-      "title": "GDP Report: Americans Are Burning Through Their Savings",
-      "url": "https://www.youtube.com/watch?v=XGtzoJK0Smw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-08-03T16:00:03+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1093,49 +708,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "728c2a87ad275a7bacbc9cfeeabf55a8",
-      "title": "The Fed on Inflation: \"Americans Are Being Impatient\"",
-      "url": "https://www.youtube.com/watch?v=5e8txMnFbB0",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-29T23:30:32+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "146491037227843688b0960127b1ac3f",
-      "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
-      "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-27T20:39:34+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "a6a468f29dc4eb441da9c33e4e8659ce",
-      "title": "How to Invest Your First $1,000 in The Stock Market",
-      "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-24T16:00:04+00:00",
-      "summary": "Stock Brokerage Accounts That Offer Fractional Shares:\nRobinhood: https://join.robinhood.com/briank4837/\nWeBull: https://www.webull.com/k/ClearValueTax\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1787,5 +1359,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-17T23:52:21.853459+00:00"
+  "generated_at": "2026-09-18T02:58:23.364755+00:00"
 }
