@@ -1,6 +1,36 @@
 {
   "items": [
     {
+      "id": "0a63274e07941dc2ce34c964622cf186",
+      "title": "The Fed Just Admitted Inflation Won’t Be Under Control Until 2029",
+      "url": "https://www.youtube.com/watch?v=jldrPVUJv18",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-18T16:00:08+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "98568d47bdc2665e2d1d25aab54dc4cf",
+      "title": "Deep Learning Weekly: Issue 473",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-473",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-18T15:03:55+00:00",
+      "summary": "We Must Pace the Frontier, ToolGrad: Efficient tool-use dataset generation with textual \"gradients\", a paper on The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "920ca08615d6b09413682080889f8c46",
       "title": "10 Ways to Think Bigger with Opportunity AI",
       "url": "https://www.youtube.com/watch?v=XsOoumeXtm4",
@@ -1126,19 +1156,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "a6a468f29dc4eb441da9c33e4e8659ce",
-      "title": "How to Invest Your First $1,000 in The Stock Market",
-      "url": "https://www.youtube.com/watch?v=nFWk-wa2Ndk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-24T16:00:04+00:00",
-      "summary": "Stock Brokerage Accounts That Offer Fractional Shares:\nRobinhood: https://join.robinhood.com/briank4837/\nWeBull: https://www.webull.com/k/ClearValueTax\n\nJoin our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "9bf41bb987ce1e48e329ad3aefe4e46c",
       "title": "Deep Learning Weekly: Issue 465",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-465",
@@ -1511,21 +1528,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "cb5adec6bbfd690a337d64413d97cfa3",
-      "title": "Deep Learning Weekly: Issue 453",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-453",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-04-30T15:02:50+00:00",
-      "summary": "OpenAI models come to AWS, Hidden Technical Debt of AI Systems: Agent Runtime, a paper on Recursive Multi-Agent Systems, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "e1e400db4541416bb3852fca1be36fd4",
       "title": "LWiAI Podcast #242 - ChatGPT Images 2.0, Qwen 3.6 Max, Kimi-K2.6",
       "url": "https://lastweekin.ai/p/lwiai-podcast-242-chatgpt-images",
@@ -1787,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-18T13:20:13.874314+00:00"
+  "generated_at": "2026-09-18T17:26:19.946027+00:00"
 }
