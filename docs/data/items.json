@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ed90736412cf716f559d59dcd8045ba9",
+      "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-19T19:42:24+00:00",
+      "summary": "Community Wisdom 299",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "9af3bb213abaa002d981a30379af4708",
       "title": "Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch",
       "url": "https://www.youtube.com/watch?v=afFbc9ihr3k",
@@ -881,21 +894,6 @@
       "source_type": "youtube",
       "published": "2026-08-24T14:33:24+00:00",
       "summary": "In this episode of Other People's Money, host Max Wiethe sits down with High Yield Harry to examine the major trends in Wall Street compensation and careers, and why 2026 may be the year of the investment banker. Harry shares data from Buy Side Hub to detail buy-side compensatio…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "55b7ce746687f6190e58ee075b3176b1",
-      "title": "I spent $20,000 on Devin in a month. Here’s what I learned | Ryan Carson (solo founder)",
-      "url": "https://www.lennysnewsletter.com/p/i-spent-20000-on-devin-in-a-month",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-24T12:04:02+00:00",
-      "summary": "Watch now | 🎙️ Solo founder Ryan Carson runs 15 concurrent Devin agents to handle engineering, customer success, and investor updates, and he uses a handwritten list to keep it all straight",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1789,5 +1787,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-19T18:22:19.537926+00:00"
+  "generated_at": "2026-09-19T21:14:47.326598+00:00"
 }
