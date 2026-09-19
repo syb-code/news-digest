@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "9af3bb213abaa002d981a30379af4708",
+      "title": "Why The 30-Year Treasury Lost Its Biggest Buyers | David Busch",
+      "url": "https://www.youtube.com/watch?v=afFbc9ihr3k",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-19T16:34:45+00:00",
+      "summary": "Jack Farley is joined by David Busch, Chief Investment Officer of Trajan Wealth, to discuss rising U.S. Treasury yields, persistent inflation, and the Federal Reserve's monetary policy trajectory. Busch breaks down the structural drivers behind elevated bond yields, including $4…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "8ac85b76a95bc552aa4d09239ad2bc1a",
       "title": "Why Everyone is Now Getting Excited About Personal AI Agents",
       "url": "https://www.youtube.com/watch?v=NmXhFS39ad0",
@@ -1068,21 +1083,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b62f56b8ab7c37c0ae084029ccce4cb8",
-      "title": "Who Killed The Random Walk? | Victor Haghani on Momentum, Passive Investing, and LTCM",
-      "url": "https://www.youtube.com/watch?v=Kg6rRfvGqdY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-08-04T18:58:32+00:00",
-      "summary": "Victor Haghani — founder of Elm Wealth, co-author of “The Missing Billionaires” and former founding partner of Long-Term Capital Management — joins Monetary Matters to explain why the stock market doesn't follow a random walk. Drawing on his new paper \"Who Killed the Random Walk…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "f4b4e4a5f9560840e04c2803c1aa88f3",
       "title": "GDP Report: Americans Are Burning Through Their Savings",
       "url": "https://www.youtube.com/watch?v=XGtzoJK0Smw",
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-19T15:16:00.233380+00:00"
+  "generated_at": "2026-09-19T18:22:19.537926+00:00"
 }
