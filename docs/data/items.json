@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "id": "d08b93399af4286dd3a17231c6eeb5e3",
+      "title": "Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | Jérémie Boyer | Aurelion",
+      "url": "https://www.youtube.com/watch?v=1Lylw0Anyxk",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-20T13:00:04+00:00",
+      "summary": "Try model portfolios available on Plutus and get a 45-day fee waiver when you signup with code OPM45: https://runplutus.com/mm-opm/login\n\nJérémie Boyer, co-founder of Aurelion Research, joins OPM to give his outlook for 5 key commodities. He explains why after avoiding earlier d…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "69f0271ff0dd36edefbf4f9f9a7f1f7f",
+      "title": "90 minutes of unfiltered product advice from Snap and Discord’s product chief | Peter Sellis",
+      "url": "https://www.lennysnewsletter.com/p/90-minutes-of-unfiltered-product",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-20T12:32:17+00:00",
+      "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "ed90736412cf716f559d59dcd8045ba9",
       "title": "🧠 Community Wisdom: Finding your first users before the product exists, debriefing your own interviews, what to optimize for in the early years of your career, and more",
       "url": "https://www.lennysnewsletter.com/p/community-wisdom-finding-your-first",
@@ -872,21 +900,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9312216d7482b03268a9cbbb7598c6c6",
-      "title": "🎙️ How I AI: Grok Bot + Grok 4.6—what’s great (and what’s still hype) & Lessons from spending $20,000 on Devin in one month",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-bot-grok-46whats-great",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-24T15:02:23+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "d4c6d72d476b20aaa8005537ee1b8519",
       "title": "Is Private Equity Broken? High Yield Harry on Wall Street’s New Reality",
       "url": "https://www.youtube.com/watch?v=YOnxRmI6CV8",
@@ -1035,21 +1048,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "979514cbdf2e5fd252c24da308b1e6db",
-      "title": "These Power Stocks (Not Semis) Are The Real AI Beneficiaries, Say Investing Brother Duo Up 1,300%",
-      "url": "https://www.youtube.com/watch?v=cUO79k97pJ8",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-08-07T19:41:12+00:00",
-      "summary": "Monetary Matters listeners can get 20% off subscriptions for one year here (billed quarterly):\nhttps://pernasresearch.com/register/monetary-matters/?coupon=monetarymatters\n\nIn this episode of Monetary Matters, Jack Farley sits down with Deiya and Dean Pernas of Pernas Research t…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1787,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-20T09:00:23.270335+00:00"
+  "generated_at": "2026-09-20T13:54:05.819663+00:00"
 }
