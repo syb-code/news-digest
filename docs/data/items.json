@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "97f7cf9ac6a68bf7e93bc84614a73109",
+      "title": "7 Ways How We Use AI Is Changing",
+      "url": "https://www.youtube.com/watch?v=HNFhXFZxMYQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-20T22:35:12+00:00",
+      "summary": "From persistent conversations and voice commands to chatbots that coordinate entire teams of agents, the way we work with AI is shifting. NLW breaks down seven changes shaping everyday AI use, including the move from prompts to goals, managing model costs, and building shared ag…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "d08b93399af4286dd3a17231c6eeb5e3",
       "title": "Metals Bull Market is Just Getting Started (Gold, Copper, & Uranium) | Jérémie Boyer | Aurelion",
       "url": "https://www.youtube.com/watch?v=1Lylw0Anyxk",
@@ -652,21 +667,6 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "5eae69f16aa1bd0bb8fcc6e6979b7989",
-      "title": "OpenClaw 2.0 Shows Where AI Agents Are Going Next",
-      "url": "https://www.youtube.com/watch?v=9IYTGvNOmLk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-02T15:06:46+00:00",
-      "summary": "OpenClaw 2.0 arrives after seven quiet weeks, rebuilt from the ground up with 933 contributors and a far simpler install, but the real story is its shift to shared multiplayer agents. NLW explains why agents built for solo work miss most of how knowledge work actually happens, a…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1785,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-20T20:14:26.727157+00:00"
+  "generated_at": "2026-09-20T22:55:35.962068+00:00"
 }
