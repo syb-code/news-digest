@@ -1,6 +1,51 @@
 {
   "items": [
     {
+      "id": "243957bdcbad22e5ea56fcddc312896d",
+      "title": "🎙️ How I AI: Meta’s Muse review + How Warp ships 2,000 PRs a month with AI factories",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-metas-muse-review-how-warp",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-21T15:03:51+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ac1f348b36e72b2d3145629781989343",
+      "title": "The AI Challenges Businesses Are Actually Focused On Right Now",
+      "url": "https://www.youtube.com/watch?v=wDiihXDorIY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-21T14:17:32+00:00",
+      "summary": "While the discourse argues about existential risk, enterprises are worried about cyber threats, agent identity, and which model to bet on. NLW breaks down what actually came up at the WSJ Technology Council Summit, why Ramp data shows AI spend shifting, and how open-weight model…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "662a92dfcc9794120438e58d73f6c32b",
+      "title": "How Warp ships 2,000 PRs a month with AI factories | Zach Lloyd (CEO, Warp)",
+      "url": "https://www.lennysnewsletter.com/p/how-warp-ships-2000-prs-a-month-with",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-21T12:04:11+00:00",
+      "summary": "Watch now (47 mins) | 🎙️ Warp CEO Zach Lloyd shows how his team turns requests from Slack, Linear, and GitHub into tracked, tested pull requests, then measures and improves its cloud-based AI software factory over time",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "97f7cf9ac6a68bf7e93bc84614a73109",
       "title": "7 Ways How We Use AI Is Changing",
       "url": "https://www.youtube.com/watch?v=HNFhXFZxMYQ",
@@ -644,19 +689,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "eb1cae45ee2021e20d47154bed2cc474",
-      "title": "Why Fable 5.1 Is Worth the Upgrade",
-      "url": "https://www.youtube.com/watch?v=CDUclXojmDg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-02T21:41:51+00:00",
-      "summary": "Fable 5.1 takes the top spot across nearly every benchmark while Anthropic pushes hard on cost, safeguards, and zero data retention for enterprises. NLW breaks down what independent evals actually found on token burn, why the right question is no longer whether to switch models …",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "22327f64327c69be960f14c4869357a6",
       "title": "Expect Social Security Benefit Cuts... I Am.",
       "url": "https://www.youtube.com/watch?v=fGXwa_kdOgY",
@@ -789,19 +821,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4c227db63c0d13b9966d7d8ac95612a3",
-      "title": "🧠 Community Wisdom: Building without clear PM requirements, selling a product before building it, pricing fast-moving B2B SaaS, a year of job hunting, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-building-without",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-29T18:59:48+00:00",
-      "summary": "Community Wisdom 296",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "3c85630fa7634b2eecac4f75033f8830",
       "title": "Invisible Interfaces",
       "url": "https://designplusai.com/p/invisible-interfaces",
@@ -855,19 +874,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "4de58eb74ffa5a0fe8dbf7369152d2e1",
-      "title": "How to figure out your next career move",
-      "url": "https://www.lennysnewsletter.com/p/how-to-figure-out-your-next-career",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-25T13:04:15+00:00",
-      "summary": "Six essential questions to help you navigate change",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1785,5 +1791,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-21T11:52:00.752010+00:00"
+  "generated_at": "2026-09-21T17:46:38.074506+00:00"
 }
