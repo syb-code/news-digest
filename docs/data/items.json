@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "03468356a474d22253e7d2f24fb843ef",
+      "title": "Agent Wars",
+      "url": "https://www.youtube.com/watch?v=WEqCpG206sc",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-09-22T21:01:28+00:00",
+      "summary": "Meta's Muse hit number one on the App Store, and Amazon responded by cutting it off from shopping. NLW breaks down why the agent wars have officially started, what Shopify's counter-move signals, and whether agentic shopping actually matters to normal people. In the headlines: a…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Tech/Earnings"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "1a982ad9b9437c4c8ed1e8d2c22d832e",
       "title": "I left Claude for months. Opus 5.5 is why I'm back",
       "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
@@ -637,21 +652,6 @@
       "source_type": "youtube",
       "published": "2026-09-06T11:52:51+00:00",
       "summary": "What does it actually take to build an AI-native company? NLW breaks down Alex Lieberman’s 30 features of AI-native organizations, from shared context and agent skills to self-improving workflows, token efficiency, and making every employee a builder. The episode explores how co…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "0452509c189501b575361076b31058ed",
-      "title": "How AI Changed This Summer",
-      "url": "https://www.youtube.com/watch?v=5MMFeibSkqc",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-09-05T21:12:36+00:00",
-      "summary": "Fable 5 launched and got shut down by the government within days, Kimi K3 triggered a second DeepSeek moment, and data centers became the most bipartisan issue in America. NLW walks through eight ways AI shifted over the summer, from Washington becoming a release gate to the rev…",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1788,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-22T19:31:21.086106+00:00"
+  "generated_at": "2026-09-22T22:41:10.372923+00:00"
 }
