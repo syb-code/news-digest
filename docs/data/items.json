@@ -1,6 +1,32 @@
 {
   "items": [
     {
+      "id": "1a982ad9b9437c4c8ed1e8d2c22d832e",
+      "title": "I left Claude for months. Opus 5.5 is why I'm back",
+      "url": "https://www.lennysnewsletter.com/p/i-left-claude-for-months-opus-55",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-22T19:06:40+00:00",
+      "summary": "Watch now (25 mins) | 🎙️ I abandoned Claude for months because it drove me insane. Opus 5.5 changed that, and I'll show you exactly where it's earning a spot back in my stack for frontend, SVGs, and agentic tasks",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "45fb93e14ec9c15da6c10ae2bbdde525",
+      "title": "Trump Promises a $5,000 Dividend Check to ALL American Adults",
+      "url": "https://www.youtube.com/watch?v=OC9cRh7Tu88",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-09-22T16:00:36+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See What I'm Investing In\n⭐ Trade Alerts\n⭐ Get Your Questions Answered\n⭐ Join Our Private Chatroom\n⭐ Exclusive Content About Markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https…",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "5189ec7c6cf2f765a9cc0119b619c568",
       "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
       "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
@@ -792,21 +818,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "b352e3009c5b2443fb7b7b8d71295748",
-      "title": "How I turned Claude into a self-improving PM assistant | Daniel Blum (PM, Melio)",
-      "url": "https://www.lennysnewsletter.com/p/how-i-turned-claude-into-a-self-improving",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-31T12:04:18+00:00",
-      "summary": "Listen now | 🎙️ PM Daniel Blum walks through the exact Cowork and Claude setup that manages his Notion, tracks his tasks across Slack and email, and self-improves every week without him lifting a finger",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "5e452cbbc6b5cc90e5611ede3b9eddb9",
       "title": "LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones",
       "url": "https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno",
@@ -1140,21 +1151,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "146491037227843688b0960127b1ac3f",
-      "title": "Housing Market Update: Truth About Home Prices & Mortgage Rates",
-      "url": "https://www.youtube.com/watch?v=4ATQ_MarE1I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-07-27T20:39:34+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting\n⭐ See what I'm investing in\n⭐ Bounce ideas in the community\n⭐ Join our chatroom\n⭐ Exclusive content about markets\n\n📘 My Book on Wealth-Building is Now on Amazon \nEnglish Version: https://www.amazon.com/dp/…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Housing (CA/SD)"
       ],
       "bucket": "highlight"
     },
@@ -1792,5 +1788,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-22T15:23:04.665010+00:00"
+  "generated_at": "2026-09-22T19:31:21.086106+00:00"
 }
