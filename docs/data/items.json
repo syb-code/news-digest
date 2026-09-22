@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5189ec7c6cf2f765a9cc0119b619c568",
+      "title": "Advanced evals: How to find (and fix) hidden AI failures in your product",
+      "url": "https://www.lennysnewsletter.com/p/advanced-evals-how-to-find-and-fix",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-22T12:45:14+00:00",
+      "summary": "Why you should never skip error discovery",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ce9a4afd83a25341e0108b9ed40ee2e6",
       "title": "The State of the AI Debate",
       "url": "https://www.youtube.com/watch?v=Fuczz33ZBtI",
@@ -799,21 +814,6 @@
       "source_type": "rss",
       "published": "2026-08-31T08:20:04+00:00",
       "summary": "Google announces Gemini 3.7 Flash, Jalapeño’s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "40640a05d50d9a22a4254f44e1ebe88d",
-      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (Product Lead ChatGPT Work)",
-      "url": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-30T12:31:30+00:00",
-      "summary": "Listen now | Tara Seshan, head of Codex and ChatGPT Work at OpenAI, on why ambition is now the differentiator, steering vs. rowing, and why you need to build for where the models will be in two to three months",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1792,5 +1792,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-22T10:52:52.163995+00:00"
+  "generated_at": "2026-09-22T15:23:04.665010+00:00"
 }
