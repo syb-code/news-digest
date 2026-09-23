@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "5990361e67b6b5081a4bc2a3012a6e70",
+      "title": "An Energy Shock and Rate Hikes Could Mean a 2022 Style Bear Market | Eric Wallerstein | Clocktower",
+      "url": "https://www.youtube.com/watch?v=DtuS3vrYAMg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-23T12:53:59+00:00",
+      "summary": "Eric Wallerstein, Chief Macro Strategist at Clocktower Group, joins OPM to discuss why he sees substantial risk that the Fed is making a policy mistake by hiking into a supply shock that could cause a 2022 style bear market. He also explores the global coordination of rate hikes…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "ffe6012d6fee0394e707d975fa393b68",
       "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
       "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
@@ -1039,21 +1054,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4b4e3745d49aa4734159551d885f7aac",
-      "title": "The Worst Panic in 4 Years Just Happened. Here's Why Milton Berg Is VERY BULLISH on Stocks",
-      "url": "https://www.youtube.com/watch?v=Idj7jAOtE50",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-08-12T19:52:26+00:00",
-      "summary": "Milton Berg, one of Wall Street's legendary market technicians, returns to Monetary Matters to explain why he believes the recent crash across the S&P 500, Nasdaq 100, KOSPI, and semiconductor stocks has already bottomed — and why he's still positioned long despite major caveats…",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "cc752c391f0c4c0567ed2ad6032d019c",
       "title": "Jobs Report Was a Disaster... But The Stock Market Loves It",
       "url": "https://www.youtube.com/watch?v=XOmEIOWwaJs",
@@ -1786,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-23T07:15:32.848442+00:00"
+  "generated_at": "2026-09-23T13:18:11.065566+00:00"
 }
