@@ -1,6 +1,19 @@
 {
   "items": [
     {
+      "id": "ffe6012d6fee0394e707d975fa393b68",
+      "title": "Opus 5.5 vs. GPT-6 Sol: which model won my blind taste test?",
+      "url": "https://www.lennysnewsletter.com/p/opus-55-vs-gpt-6-sol-which-model",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-22T23:12:49+00:00",
+      "summary": "Watch now (39 mins) | 🎙️ I ran blind evaluations across writing, frontend prototypes, long-running agentic tasks, SVGs, coding, and video editing, then put Opus 5.5 through Barbie Bench",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
       "id": "03468356a474d22253e7d2f24fb843ef",
       "title": "Agent Wars",
       "url": "https://www.youtube.com/watch?v=WEqCpG206sc",
@@ -799,21 +812,6 @@
       "themes": [
         "AI/ML",
         "Macro/Fed"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "e67735379c8825ee141e5a3ac52eb295",
-      "title": "🎙️ How I AI: How this PM uses Claude to handle 70% to 80% of his workday",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-pm-uses-claude",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-31T15:01:58+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "highlight"
     },
@@ -1788,5 +1786,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-22T22:41:10.372923+00:00"
+  "generated_at": "2026-09-23T01:12:12.563286+00:00"
 }
