@@ -1,6 +1,22 @@
 {
   "items": [
     {
+      "id": "c5d8e310a00b2bedc02969b50c323292",
+      "title": "The Fed Is Losing Control of Credit | Henry Peabody",
+      "url": "https://www.youtube.com/watch?v=uE4KMgxdFFY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-09-24T17:29:31+00:00",
+      "summary": "Henry Peabody, senior investment strategist at GMO, joins Monetary Matters to explain why the Fed has an unofficial third mandate: managing how credit flows through an economy that is increasingly outside the banks. With private credit and fixed-rate borrowing loosening the link…",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Macro/Fed"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "64983711808c569fe2c0c66635805702",
       "title": "LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents",
       "url": "https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai",
@@ -197,7 +213,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-09-20T12:32:17+00:00",
-      "summary": "Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
+      "summary": "Listen now (97 mins) | Peter Sellis on designing teams like terrorist organizations, riding your best people hard, and the three oxymorons of a truly great PM",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
@@ -679,7 +695,7 @@
       "source": "Lenny’s Newsletter (Substack)",
       "source_type": "rss",
       "published": "2026-09-06T12:32:00+00:00",
-      "summary": "Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
+      "summary": "Listen now (79 mins) | Anish Acharya on why the permanent-underclass fear is wrong, how every job function becomes a loop, and where consumer AI is headed",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [
@@ -1025,19 +1041,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "248607abcb85eac8fb12925baa5f8c0d",
-      "title": "Ex-Goya COO on the $1.4 Trillion Family Business Opportunity in Three Consumer Sectors | Andy Unanue",
-      "url": "https://www.youtube.com/watch?v=suivZa95fkM",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-08-13T20:00:12+00:00",
-      "summary": "Andy Unanue, Founder and Managing Partner of AUA Private Equity Partners and former COO of Goya Foods breaks down the trillion-dollar opportunity in US food, beverage, and pet wellness family businesses. Andy shares how his experience in a family-run business shaped his firm's s…",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "highlight"
     },
     {
@@ -1786,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-24T16:24:38.745967+00:00"
+  "generated_at": "2026-09-24T20:15:05.069472+00:00"
 }
