@@ -1,6 +1,21 @@
 {
   "items": [
     {
+      "id": "64fbda89b64c5387625ceb068b473675",
+      "title": "Deep Learning Weekly: Issue 474",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-474",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-25T17:02:28+00:00",
+      "summary": "Introducing GPT-6 Sol and Luna, AI Evals: Everything You Need to Know, a paper on RRSI: Regularized Recursive Self-Improvement of Agent Harnesses, and many more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "98fc0c50eb09419aa8537c221d81eb11",
       "title": "Opus 5.5 vs GPT-6-Sol and Luna",
       "url": "https://www.youtube.com/watch?v=KYGscdtRS1Y",
@@ -1483,21 +1498,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "4e5b1b6a31f803d05ba794b7c380b3d9",
-      "title": "Deep Learning Weekly: Issue 454",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-454",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-05-07T15:03:11+00:00",
-      "summary": "MolmoAct 2: An open foundation for robots, How to Work and Compound with AI, a paper on ARIS: Autonomous Research via Adversarial Multi-Agent Collaboration, and many more!",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "634853ca3c9b6f6ec39328e412c53df3",
       "title": "Generative Interfaces",
       "url": "https://designplusai.com/p/generative-interfaces",
@@ -1789,5 +1789,5 @@
       "bucket": "highlight"
     }
   ],
-  "generated_at": "2026-09-25T14:57:29.776426+00:00"
+  "generated_at": "2026-09-25T19:09:37.399516+00:00"
 }
