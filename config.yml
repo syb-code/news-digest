@@ -1,0 +1,131 @@
+# Settings for the news digest: what to fetch, how to tag it, and how the
+# morning learning briefing is written. scripts/config.py reads this file and
+# fills in a default for anything left out, so a copy can start from a short file.
+#
+# Nothing secret belongs here. Keys, tokens, email addresses and the Worker
+# address live in GitHub (Settings > Secrets and variables > Actions, and the
+# "digest" environment) and in Cloudflare. See .env.example for the names.
+
+# The time zone for the schedule, the briefing date and the email.
+timezone: America/Los_Angeles
+
+# When the runs happen, in the time zone above. This is a note for you: the
+# Cloudflare Worker that starts the runs keeps its own copy of these times
+# (worker/scheduler.js), so change both together.
+#   morning  refresh the feeds, write the learning briefing, send the email
+#   noon     refresh the feeds and update the dashboard only
+schedule:
+  morning: "05:45"
+  noon: "12:00"
+
+# Sources for scripts/fetch_and_build.py. Every feed is fetched once per run;
+# a source that fails, or takes more than a minute, keeps its earlier items
+# (marked stale) and is listed with its error under "sources" in
+# docs/data/items.json.
+feeds:
+  # YouTube: give a handle, a channel_id (UC...), or both. A handle is looked up
+  # on youtube.com once and cached in data/youtube_channels.json; a channel_id here
+  # skips the lookup entirely. An optional label sets the name shown for the source.
+  youtube:
+    - handle: clearvaluetax9382
+    - handle: AIDailyBrief
+    - handle: Monetary-Matters
+
+  # Newsletters: a feed_url and a label, the name shown for the source (default
+  # Newsletter). Give each source its own label; a label used twice gets the feed
+  # host added, so the two sources never share their earlier items.
+  rss:
+    - label: Last Week in AI (Substack)
+      feed_url: https://lastweekin.ai/feed
+    - label: Lenny’s Newsletter (Substack)
+      feed_url: https://www.lennysnewsletter.com/feed
+    # The next three have returned no entries for months.
+    # Check each feed_url in a browser, then fix or remove it.
+    - label: Exploring ChatGPT (Substack)
+      feed_url: https://exploringchatgpt.substack.com/feed
+    - label: Excellent AI Prompts (Substack)
+      feed_url: https://excellentprompts.substack.com/feed
+    - label: a16z speedrun (Substack)
+      feed_url: https://speedrun.substack.com/feed
+    - label: Design + AI (Substack)
+      feed_url: https://designplusai.com/feed
+    - label: Deep Learning Weekly
+      feed_url: https://www.deeplearningweekly.com/feed
+
+  # Websites with an RSS or Atom feed, same fields as rss (default label Website).
+  websites: []
+
+  # X accounts listed on the dashboard (written to docs/data/twitter_posts.json).
+  twitter_embeds:
+    - handle: Polymarket
+    - handle: zerohedge
+    - handle: danielrpopper
+    - handle: RoundtableSpace
+
+  # Optional. Nitter instances (https:// URLs) to read recent X posts from; with none, the build makes no X requests and shows profile links only.
+  nitter_instances: []
+
+# Theme keywords, matched against each item's title and summary. A keyword
+# matches whole words only, with an optional plural s ("fed" matches "Fed" and
+# "feds", not "feed"; "ai" does not match "said").
+# A keyword in ALL CAPS (like COIN) is case-sensitive; every other keyword is not.
+# An item gets every theme that has at least one matching keyword.
+themes:
+  Macro/Fed:
+    - fed
+    - fomc
+    - interest rates
+    - powell
+  Crypto:
+    - bitcoin
+    - btc
+    - crypto
+    - coinbase
+    - ethereum
+    - solana
+  AI/ML:
+    - ai
+    - machine learning
+    - generative
+    - openai
+    - nvidia
+  Housing (CA/SD):
+    - housing
+    - san diego
+    - california
+    - mortgage
+  Tech/Earnings:
+    - earnings
+    - guidance
+    - revenue
+    - net income
+    - Shopify
+    - COIN
+
+# The morning learning briefing (scripts/learn/). The lanes it watches are in
+# learn/lanes.md. The model is called once per morning run, with the
+# ANTHROPIC_API_KEY secret; without the key, or when the call fails, the
+# briefing is built from the headlines alone and the run carries on.
+learn:
+  model: claude-opus-5-5     # Claude model id
+  effort: medium             # low, medium, high, xhigh or max; sent explicitly on every call
+  max_output_tokens: 12000   # hard cap on what one run may generate
+  max_input_chars: 40000     # candidate text sent to the model is cut to this size
+  topics_min: 3              # topics in one briefing, including the one outside the lanes
+  topics_max: 5
+  lookback_hours: 36         # how far back to look for candidate items
+  # US dollars per million tokens, used to record the cost of each run. Check
+  # the current prices when you change the model.
+  price_per_mtok:
+    input: 4.0
+    output: 20.0
+  # Optional. The same prices by model id, so a run that a fallback model
+  # answers is costed at that model's prices. A model listed here is priced
+  # from here; price_per_mtok above is used for any model that is not.
+  prices:
+    claude-opus-5-5: {input: 4.0, output: 20.0}
+    claude-opus-5: {input: 5.0, output: 25.0}
+    claude-opus-4-8: {input: 5.0, output: 25.0}
+  # Another model to answer when this one declines a request: "default" lets
+  # the API choose, "none" turns it off, or list model ids to try in order.
+  fallbacks: default

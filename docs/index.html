@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- Strict policy: scripts, styles and fonts load only from this site, and the page talks only to this site.
+       The deploy job adds the worker's origin to the published copy when the WORKER_URL repository variable is set,
+       and writes the same address into assets/js/config.js. Nothing about the worker is committed here.
+       There is no inline script, inline style or event-handler attribute anywhere, so nothing injected into the page can run. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <title>News digest</title>
+  <meta name="description" content="A daily digest of newsletters, feeds and video, newest first, with summaries on demand.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f4f3ef">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#070708">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <!-- Applies the stored theme before first paint (dark by default). -->
+  <script src="assets/js/theme.js?v=1"></script>
+  <link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/GeistMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/style.css?v=6">
+  <script src="assets/js/vendor/lunr-2.3.9.min.js" defer></script>
+  <!-- Site settings (the worker address) load before app.js, which reads them. -->
+  <script src="assets/js/config.js?v=1" defer></script>
+  <script src="assets/js/app.js?v=10" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="mark" href="#top">News digest<span>.</span></a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#briefing" id="nav-briefing" hidden>Briefing</a>
+      <a href="#items">Items</a>
+      <a href="#deeper">Deeper dives</a>
+      <a href="#on-x">On X</a>
+    </nav>
+    <div class="head-tools">
+      <button type="button" class="hbtn key-btn" id="set-key" aria-haspopup="dialog">Set key</button>
+      <button type="button" class="hbtn theme" data-theme-toggle><span class="t-light">Dark</span><span class="t-dark">Light</span></button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="intro" id="top" aria-labelledby="intro-title">
+    <div class="wrap">
+      <p class="label" id="today-label">Daily digest</p>
+      <h1 id="intro-title">What is worth reading <em>today.<span class="rt" aria-hidden="true"></span></em></h1>
+      <p class="sub">Newsletters, feeds and video in one list, newest first. Tick a few and get the deeper dive.</p>
+      <div class="metrics" role="list">
+        <div class="metric" role="listitem"><b id="m-items">0</b><span>items in the digest</span></div>
+        <div class="metric" role="listitem"><b id="m-new">0</b><span>new today</span></div>
+        <div class="metric" role="listitem"><b id="m-sources">0</b><span id="m-sources-label">sources updating</span></div>
+        <div class="metric" role="listitem"><b id="m-updated">Not yet</b><span id="m-updated-label">last updated</span></div>
+      </div>
+      <p class="health" id="health" hidden></p>
+
+      <section class="brief" id="briefing" aria-labelledby="brief-title" hidden>
+        <div class="brief-head">
+          <h2 class="label" id="brief-title"><span class="ix">00</span><span id="brief-label">Today's briefing</span></h2>
+          <span class="tag" id="brief-meta"></span>
+        </div>
+        <div class="brief-body">
+          <p class="brief-date" id="brief-date"></p>
+          <ol class="brief-topics" id="brief-topics"></ol>
+          <a class="btn btn-primary btn-sm brief-open" id="brief-open" href="learn/">Open the briefing</a>
+        </div>
+      </section>
+    </div>
+  </section>
+
+  <div class="controls-band">
+    <div class="wrap">
+      <div class="controls" role="search" aria-label="Filter items">
+        <label class="field field-search"><span class="col-h">Search</span><input class="input" id="search" type="search" placeholder="Title or summary" autocomplete="off" spellcheck="false"></label>
+        <label class="field field-select"><span class="col-h">Source</span><select class="input" id="filter-source"><option value="">All sources</option></select></label>
+        <label class="field field-select"><span class="col-h">Theme</span><select class="input" id="filter-theme"><option value="">All themes</option></select></label>
+        <label class="check"><span class="pick"><input type="checkbox" id="filter-unread"><span class="tk" aria-hidden="true"><svg viewBox="0 0 16 16" focusable="false"><path d="M3.5 8.5l3 3L12.5 5"/></svg></span></span><span>Unread only</span></label>
+        <button type="button" class="btn" id="mark-all-read">Mark all read</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="wrap layout">
+    <section class="col-items" id="items" aria-labelledby="items-title">
+      <div class="list-head">
+        <h2 class="label" id="items-title"><span class="ix">01</span>Items</h2>
+        <p class="count" id="items-count" aria-live="polite"></p>
+        <div class="seg-ctl" role="group" aria-label="Length">
+          <button type="button" data-bucket="all" aria-pressed="true">All <span class="n" data-count-for="all"></span></button>
+          <button type="button" data-bucket="highlight" aria-pressed="false">Quick reads <span class="n" data-count-for="highlight"></span></button>
+          <button type="button" data-bucket="deeper" aria-pressed="false">Long reads <span class="n" data-count-for="deeper"></span></button>
+        </div>
+      </div>
+      <ul class="items" id="items-list"><li class="empty">Loading the digest…</li></ul>
+      <div class="items-more" id="items-more-wrap" hidden>
+        <button type="button" class="btn btn-sm" id="items-more" aria-controls="items-list" aria-expanded="false">Show all</button>
+      </div>
+    </section>
+
+    <aside class="col-side" aria-label="Deeper dives and accounts on X">
+      <section class="panel" id="deeper" aria-labelledby="deeper-title">
+        <div class="panel-head">
+          <h2 class="label" id="deeper-title"><span class="ix">02</span>Deeper dives</h2>
+          <span class="tag" id="sel-count">0 selected</span>
+        </div>
+        <div class="fig">
+          <p class="hint" id="deeper-hint">Tick items in the list, then summarize them here. With a key set, your worker writes the summary. Without one, you get a short local summary.</p>
+          <p class="hint hint-note" id="sel-hidden" hidden></p>
+          <button type="button" class="btn btn-primary btn-block" id="summarize-selected" data-summarize disabled>Tick items to summarize</button>
+          <div class="msg" id="deeper-msg" role="status" aria-live="polite"></div>
+          <div class="dives" id="dives"></div>
+          <div class="fig-foot" id="dives-foot" hidden><button type="button" class="ghost" id="clear-dives">Clear summaries</button></div>
+        </div>
+      </section>
+
+      <section class="panel" id="on-x" aria-labelledby="x-title">
+        <div class="panel-head">
+          <h2 class="label" id="x-title"><span class="ix">03</span>On X</h2>
+          <span class="tag" id="x-count" hidden></span>
+        </div>
+        <div class="fig">
+          <ul class="accts" id="x-list"><li class="hint">Loading accounts…</li></ul>
+        </div>
+      </section>
+    </aside>
+  </div>
+</main>
+
+<div class="selbar" id="selbar" hidden>
+  <button type="button" class="btn btn-primary btn-sm" data-summarize data-scroll disabled>Summarize</button>
+  <button type="button" class="ghost" id="clear-selection" aria-label="Clear selection">Clear</button>
+</div>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Feeds refresh twice a day. The morning email and briefing follow.</p>
+    <p id="foot-worker">Summaries run on your own worker. Its access key stays in this browser.</p>
+  </div>
+</footer>
+
+<dialog class="key-dialog" id="key-dialog" aria-labelledby="key-title" aria-describedby="key-help">
+  <form class="key-form" id="key-form" novalidate>
+    <p class="label">Worker access</p>
+    <h2 class="key-title" id="key-title">Set the worker access key</h2>
+    <p class="key-help" id="key-help">Stored only in this browser (localStorage on this site). This is the worker password you chose, not your OpenAI or Gmail keys.</p>
+    <input type="text" name="username" autocomplete="username" value="news-digest worker" hidden>
+    <label class="col-h" for="key-input">Access key</label>
+    <div class="key-field">
+      <input class="input" id="key-input" name="password" type="password" autocomplete="current-password" spellcheck="false" autocapitalize="off" autocorrect="off">
+      <button type="button" class="ghost" id="key-show" aria-controls="key-input">Show</button>
+    </div>
+    <p class="key-state" id="key-state"></p>
+    <p class="key-error" id="key-error" role="alert" hidden></p>
+    <div class="key-actions">
+      <button type="submit" class="btn btn-primary btn-sm" id="key-save">Save</button>
+      <button type="button" class="ghost" id="key-forget">Forget key</button>
+      <button type="button" class="ghost" id="key-cancel">Cancel</button>
+    </div>
+  </form>
+</dialog>
+</body>
+</html>

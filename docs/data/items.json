@@ -1,0 +1,2741 @@
+{
+  "generated_at": "2026-11-11T15:11:00+00:00",
+  "items": [
+    {
+      "id": "f0c7ae4d0b6a0ea224147b6ec571000d",
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-11T14:21:42+00:00",
+      "summary": "Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon",
+      "read_minutes": 16,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "b0371c10c3c48d5e8992b702fd5a78a3",
+      "title": "Fable 5.2 vs Opus 5.5 and When to Use Each",
+      "url": "https://www.youtube.com/watch?v=mJMKygU_G5g",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-11T13:43:49+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "310c75583506cf6bd152bbbad0ca4c65",
+      "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
+      "url": "https://www.youtube.com/watch?v=w7Lc5Iyg-To",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-11T13:13:08+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ In this episode of Other People's Money, Max Wiethe sits down with Militia Capital founder David Orr to...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "ac014de22f79eb9e74898d0e94009a15",
+      "title": "Claude Code + Obsidian: My family’s AI brain | Scott Farrar",
+      "url": "https://www.lennysnewsletter.com/p/claude-code-obsidian-my-familys-ai",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-11T13:04:09+00:00",
+      "summary": "Watch now (34 mins) | 🎙️ Scott Farrar walks through the Claude Code and Obsidian system he built to track appliances, chase insurance quotes, and keep household projects moving",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9f3af8cb6cd68a552eff230a5235a022",
+      "title": "State of the tech job market: late 2026",
+      "url": "https://www.lennysnewsletter.com/p/state-of-the-tech-job-market-late",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-10T15:04:03+00:00",
+      "summary": "PMs are winning, engineers are plateauing, designers are hurting, and the biggest AI hiring boom isn’t in software",
+      "read_minutes": 10,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "7cafb4413fa4942c322c05937aed4008",
+      "title": "Nvidia CEO Admits Cheating with Suspected Chinese Spy",
+      "url": "https://www.youtube.com/watch?v=TGDVsntuFd0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-10T15:03:35+00:00",
+      "summary": "The Nvidia CEO’s admission of an affair with a woman US officials believe is a Chinese spy raises big questions about chip export policy, congressional scrutiny, and the AI build-out. NLW breaks down the New York Times reporting, the board investigation, the market whiplash...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "6ee7c05f3ed72e65ee97db61d0064304",
+      "title": "Why Market Fragility is Building into a Crisis in 2027 | Cem Karsan & Noel Smith",
+      "url": "https://www.youtube.com/watch?v=VUIv4gAsYqA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-09T22:00:34+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Cem Karsan and Noel Smith, co-CIOs of Kai Asset Management, join OPM with Max Wiethe to dissect the...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "325e2c658af490ebbe4fe2ae5397c5f0",
+      "title": "Claude Fable 5.2 review: fast, creative, and finally not annoying",
+      "url": "https://www.lennysnewsletter.com/p/claude-fable-52-review-fast-creative",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-09T20:37:49+00:00",
+      "summary": "Watch now (25 mins) | 🎙️ My first-look at Fable 5.2: what it built for me, where it fell down, and whether it belongs in your daily AI stack",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "55996c6b1c6e0df4f843ce93a0bff011",
+      "title": "Agentic Video is Real and Here's What You Should Try",
+      "url": "https://www.youtube.com/watch?v=M-o7viCDaBw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-09T18:01:43+00:00",
+      "summary": "Opus 5.5 is unlocking a step change in AI video editing, much like Opus 4.5 did for agentic coding. NLW breaks down the eight changes behind agentic video and the use cases knowledge workers should try first. Ideas range from concept videos and meeting highlights to...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "59b418ee6aee28ac26d1359f235514d0",
+      "title": "IRS Announces 2027 Tax Changes — What You Need to Know",
+      "url": "https://www.youtube.com/watch?v=OSgTEcIMBL8",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-11-09T17:00:30+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets Which Retirement Plans to Prioritize: https://youtu.be/ZwJhUONHLvk...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "bfd0c8051728ba8d04986b8921c451f1",
+      "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-09T16:01:20+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "14a15ec0b789e539b700a9356d973cd1",
+      "title": "How this founder built a better Duolingo with Codex | William Imoh",
+      "url": "https://www.lennysnewsletter.com/p/how-this-founder-built-a-better-duolingo",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-09T13:04:17+00:00",
+      "summary": "Watch now (39 mins) | 🎙️ Hackmamba founder William Imoh shows the native app he built with Codex to learn Norwegian, and the Lord of the Rings Grok bot fellowship that helps run his company",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "324c4b3de93cfb7d3c7c27cbecd670d8",
+      "title": "Inside a Short Seller’s Private Credit Investigation | Laks Ganipathi",
+      "url": "https://www.youtube.com/watch?v=euG3B0hYoaM",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-08T18:22:11+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Laks Ganapathi, founder of Unicus Research and Minerva Investment Management, where Michael Burry...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "711cf4766ed5a604b02698ee78bc4b1c",
+      "title": "Why PMs are suddenly valuable again | Tulsee Doshi (Head of Product, Gemini)",
+      "url": "https://www.lennysnewsletter.com/p/what-it-actually-takes-to-build-frontier",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-08T13:31:32+00:00",
+      "summary": "Listen now (59 mins) | Tulsee Doshi on building Google’s frontier models, why evals and vibes both matter, and her 60-20-20 framework for shipping ahead of the curve",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "09dc72c9876a3d06fdcdf7b0058879df",
+      "title": "Companies Are Spending 5x More on AI Now",
+      "url": "https://www.youtube.com/watch?v=INC89yHLexM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-06T21:24:30+00:00",
+      "summary": "Menlo’s latest enterprise AI report shows spending per company up nearly five times in a year, driven by agents. NLW breaks down ten key stats on frontier model demand, Anthropic’s rising market share, coding agent revenue, and whether AI is eating SaaS. In the headlines: AI...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "13ed5a8c54f874ba4574ffc6e70995f3",
+      "title": "The Jobs Report Just Changed the Outlook for Interest Rates",
+      "url": "https://www.youtube.com/watch?v=y8GV4baiNvk",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-11-06T20:45:35+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "a2ea674d5f48cb218c1adfb86c0417bb",
+      "title": "Deep Learning Weekly: Issue 480",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-480",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-11-06T17:31:24+00:00",
+      "summary": "Gemini 4 Carbon, How I Built the Most AI-Pilled Company in the World, a paper on Route Anything: A Study of Model and Policy Routing for General-Purpose AI Systems, and many more!",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "06009be9d24e146dce42513525b34dce",
+      "title": "How a Data Center Slowdown Benefits Big Tech",
+      "url": "https://www.youtube.com/watch?v=ssEWGHjKHTM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-06T14:00:10+00:00",
+      "summary": "A data center slowdown after the blue wave could help Big Tech, and market reactions point to a more mixed AI trade than the doom headlines suggest. NLW breaks down why hyperscalers may welcome political cover to trim CapEx, what new state leaders will likely demand, and...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "8d9f893dabcc2c371495deda92f71d9c",
+      "title": "The End of Cheap Capital & What it Means for Markets | Russell Clark",
+      "url": "https://www.youtube.com/watch?v=eGK-0hidn8A",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-05T16:10:39+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Russell Clark, founder of Brumby, joins Other People’s Money to unpack the market fallout from the...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "2385459a358adc27f47faf30bf36e134",
+      "title": "How the Midterm Results Change AI",
+      "url": "https://www.youtube.com/watch?v=rSzMJZEgYeU",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-05T12:39:41+00:00",
+      "summary": "Democrats sweep the midterms, and data centers proved to be a vote loser across both parties. NLW breaks down the key races in Ohio, Texas, Georgia, Michigan, and California, plus 41 data center ballot measures on track to pass. Likely policy shifts on whistleblower...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Housing (CA/SD)"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "e262675abdfb54edcee30ecef274215b",
+      "title": "Democrats Win Congress: What Happens to Trump and Your Money?",
+      "url": "https://www.youtube.com/watch?v=1Y5vBU3mY3s",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-11-04T23:00:27+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "f4a952a8d150f5f1d5ae4923ad051252",
+      "title": "Breaking Down the Markets Massive Post-Midterm Moves with Andy Constan",
+      "url": "https://www.youtube.com/watch?v=jSSsBHlJ1bI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-04T22:11:26+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ The Democrats decisive victories in this years midterm elections are already rocking markets and will...",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "2ac72f08a5ea49d404c4ce3d5a9cb44e",
+      "title": "AI Lurches Towards RSI",
+      "url": "https://www.youtube.com/watch?v=Es59icF3nZg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-04T12:43:33+00:00",
+      "summary": "RSI is the three-letter acronym on everyone’s mind as AI models edge closer to self-improvement. NLW connects Elon Musk’s warning about the cost of GrokBot, a new MIT paper on one model editing another model’s weights, and Anthropic’s updated S1 language on recursive...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "7b085233bd5c7f4cf3184a79f7c97bd4",
+      "title": "Use AI to Feed Your Curiosity, Not Drive It (feat. Gemini Notebook)",
+      "url": "https://excellentprompts.substack.com/p/gemini-notebook-prompts-curiosity",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-04T08:33:31+00:00",
+      "summary": "Three exercises (a handwritten journal, Gemini Notebook, and a commonplace book) to choose what you explore, learn, and remember with AI.",
+      "read_minutes": 21,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "d1eb23798e4cad5c8c4edbbbda6d01d7",
+      "title": "How to Deslopify Your AI",
+      "url": "https://www.youtube.com/watch?v=QSZKZHeGZr4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-03T14:49:14+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "55ee47b1179a919de653b72a0eb690ac",
+      "title": "Lenny’s Newsletter holiday gift guide 2026",
+      "url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-03T14:45:33+00:00",
+      "summary": "100+ gift ideas—all things I actually use, love, and recommend",
+      "read_minutes": 12,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "cac6fa278cc54bd10057019c3326504e",
+      "title": "Build an AI Agent That Does Your Job for You",
+      "url": "https://excellentprompts.substack.com/p/ai-agent-that-does-your-job",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-03T08:33:29+00:00",
+      "summary": "Hand over substantial work while developing the creativity, taste, curiosity, and judgment that make you good at what you do.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "07cf7c9c4177259be6827075233e519b",
+      "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
+      "url": "https://www.youtube.com/watch?v=9VHxHcU0uVY",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-02T23:44:29+00:00",
+      "summary": "What if abundant intelligence makes human ambition expand rather than human relevance disappear? NLW explores Venkatesh Rao’s “Cognitive Mercantilism,” which uses the history of capitalism to challenge assumptions about AI and our intellectual future. From the agricultural...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "38b8084c4536f1628a232537ef99c1ec",
+      "title": "Tax Loss Harvesting — Pay Less Taxes on Stocks in 2026",
+      "url": "https://www.youtube.com/watch?v=42KMkBSrIpo",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-11-02T23:00:31+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "26a5689567ca60e4f83169d6d5ef1934",
+      "title": "Michael Howell: Pain Now, Money Printing Later",
+      "url": "https://www.youtube.com/watch?v=dYRYNvzuV-Q",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-02T17:45:57+00:00",
+      "summary": "20% discount to annual subscription of Michael Howell’s Substack, “Capital Wars”: https://capitalwars.substack.com/MonetaryMatters This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "739c78f2a7630901c0f58442d933752a",
+      "title": "5 AI Productivity Systems That Pay Back in Under a Week (and 10 More Worth Building)",
+      "url": "https://excellentprompts.substack.com/p/ai-productivity-systems-fastest-payback",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-02T17:33:37+00:00",
+      "summary": "A ranked map of 15 advanced AI systems: the ones you can set up tonight, and the ones that become infrastructure.",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "582bf40824dbe7fe6167a8d0bce8de86",
+      "title": "Beefcake!",
+      "url": "https://exploringchatgpt.substack.com/p/beefcake",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-02T17:27:34+00:00",
+      "summary": "Yann LeCun’s Tiny Algorithm Destroys A 72-Billion Parameter Model",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "9967835d94416545f00b4ffd67792068",
+      "title": "🎙️ How I AI: Grok vs. Dot vs. Muse vs. Duet + How Figma’s PMs actually use AI every day",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-grok-vs-dot-vs-muse-vs-duet",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-02T16:02:08+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "917416f537a487b0870d258742e78225",
+      "title": "How Figma’s PMs actually use AI every day | Ezra Mechaber (PM, Figma)",
+      "url": "https://www.lennysnewsletter.com/p/how-figmas-pms-actually-use-ai-every",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-02T13:04:11+00:00",
+      "summary": "Listen now | 🎙️ Figma growth PM Ezra Mechaber demos PM OS, a 31-skill repo used by 60+ PMs, and AutoXP, an agent that runs growth experiments with one human checkpoint",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a093e23551d58ac0079edce66868c159",
+      "title": "AI Just Fell Through The “Liquidity Trap Door,” Argues Macro Investor Dan Krausz",
+      "url": "https://www.youtube.com/watch?v=cfzHuNidgKU",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-01T18:11:46+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Dan Kraus of Blue Door Asset Management argues that the AI sell-off isn’t about AI fundamentals but...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "4b515c911ad6b37a3d83408c40d38853",
+      "title": "How a 19-year-old intern built the growth engine behind this $2B AI company | Hector Serrano",
+      "url": "https://www.lennysnewsletter.com/p/how-a-19-year-old-intern-built-the",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-01T13:31:36+00:00",
+      "summary": "Listen now (88 mins) | Hector Serrano on building Wispr Flow’s paid-UGC machine, hiring young talent over polished resumes, and why the best marketers are “allergic to AI”",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "437d380586727463e8aa55fa57f62aac",
+      "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-31T16:14:41+00:00",
+      "summary": "Community Wisdom 304",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "fc8d01c795a9a70cd1ad4b85c3149f62",
+      "title": "How the Most AI Pilled Company in the World Works",
+      "url": "https://www.youtube.com/watch?v=A2DeaJXO6Fg",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-10-31T13:40:30+00:00",
+      "summary": "Spawn’s ten-person team shipped 77,000 code changes in a month with an always-on fleet of AI agents. NLW breaks down the systems behind that output, why human taste and ambition still matter, and five practical lessons other businesses can apply. In the headlines: legal AI...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0faedcdae63ac0ab53c4be04c12d9041",
+      "title": "Something Is Seriously Wrong at the Federal Reserve",
+      "url": "https://www.youtube.com/watch?v=7Da9XbFpIPI",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-30T15:30:03+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "9145cdae05d2f15a937e30849092c3b1",
+      "title": "Deep Learning Weekly: Issue 479",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-479",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-10-30T15:03:46+00:00",
+      "summary": "Anthropic files S-1 with the SEC for proposed initial public offering, The sleep framework: A new way for LLMs to retain knowledge in continual learning, and many more!",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "dd47cf40e209756847ec8784f32bfb8a",
+      "title": "New Leading AI Models as Benchmarks Shift",
+      "url": "https://www.youtube.com/watch?v=Dz4_db_rRDE",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-10-30T10:22:26+00:00",
+      "summary": "Artificial Analysis overhauls the Intelligence Index with version five, and the new benchmarks reshuffle the AI model leaderboard. NLW breaks down what changed, why private datasets and agentic tasks matter, and how the gap between US and open weight models widened. In the...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "c79eed60e7152d865b7a8c8409c61d20",
+      "title": "Oh My God, They Didn't Kill Kenny!",
+      "url": "https://exploringchatgpt.substack.com/p/oh-my-god-they-didnt-kill-kenny",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-29T15:30:12+00:00",
+      "summary": "AI Agents Sabotage The Shutdown Button To Save Their Digital Friends",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "a3cf2c2714a94f0a2a76bc08851af24f",
+      "title": "Warsh’s Fed, Hyperscaler CapEx Chaos & Trading Compute Like Oil (LIVE w/ Steve Hou)",
+      "url": "https://www.youtube.com/watch?v=_Y2d-HNCjTA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-29T10:06:16+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Steve Hou of Silicon Data joins Monetary Matters on the day the Fed held rates with two hawkish...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "a696c4cc450a19676c2d7ef9c0d88d8a",
+      "title": "AI Can Now Create Worlds You Can Change in Real Time",
+      "url": "https://www.youtube.com/watch?v=HOgj6cJ9oxQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-10-29T09:55:12+00:00",
+      "summary": "Google’s Genie 4 shows how close AI is to inventing playable worlds on the fly, with big implications for gaming and robotics. NLW breaks down real-time prompting, generative audio, and the Gemini reasoning loop behind the new world model. In the headlines: Anthropic acquires...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "2dadb680778f297e01f119068a97233d",
+      "title": "The Ultimate AI Content Team: 13 Prompts to Reclaim Your Time and Profit",
+      "url": "https://excellentprompts.substack.com/p/ai-content-team-prompts",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-29T07:33:37+00:00",
+      "summary": "Build your own AI content team with 13 prompts to plan, write, verify, and repurpose content that attracts customers and grows your business.",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "13e5e6fb582a449e5fcce365b8c77720",
+      "title": "Fed Holds Interest Rates as Inflation Fuels Disagreement",
+      "url": "https://www.youtube.com/watch?v=1oGV0xCL_8c",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-28T20:15:22+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "239223212d09acca532d4e52a0367688",
+      "title": "Still thinking about applying to speedrun? Read this",
+      "url": "https://speedrun.substack.com/p/read-before-applying",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-28T18:55:07+00:00",
+      "summary": "Everything you need to know before the application window closes on November 1st",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "3cd53d92cd1afec80c0cae900ec2d29b",
+      "title": "The $100K-a-Year SEO and AI Search Team, in One Agent Folder",
+      "url": "https://excellentprompts.substack.com/p/seo-found-and-cited-ai-agent-system",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-28T13:15:34+00:00",
+      "summary": "One prompt system for research, site fixes, content, AI answers and a monthly report. Run it in Claude, ChatGPT, Gemini, Grok Bot, Hermes, or any agent that reads a folder.",
+      "read_minutes": 10,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "51ee3009bc0051c2b731b69d5ee5dc37",
+      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
+      "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-28T12:04:22+00:00",
+      "summary": "Listen now | 🎙️ I ranked Grok Bot, Dot, Muse, and Claude Duet across 9 real tasks—and the scores told me which agent runs my work and which runs my life",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "0bbacb21e21669fa13a8857fbdc86c6b",
+      "title": "Everything Important in Anthropic s IPO Prospectus",
+      "url": "https://www.youtube.com/watch?v=IwCkMupiZ4s",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-10-28T10:49:16+00:00",
+      "summary": "Anthropic’s full S1 reveals a business scaling faster than any company before, alongside massive long-term compute commitments. NLW breaks down the revenue, margins, customer growth, and risk disclosures that will shape how investors view the IPO. In the headlines: OpenAI’s...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "83b0bd6990884d10d770aa4c5d74ecd9",
+      "title": "Different by Design",
+      "url": "https://designplusai.com/p/different-by-design",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-27T17:28:51+00:00",
+      "summary": "On November 4th I’m back at Stanford. Here’s the idea behind the talk, and an invitation.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "deaffee7a1352a26fc86ca2c9d79bf46",
+      "title": "Americans Are Spending More Money — But There's a BIG Problem",
+      "url": "https://www.youtube.com/shorts/04eSMyK2oGw",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-27T16:00:25+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bd15e74b2162adde85be38c22a433d8c",
+      "title": "How AI Makes the 28-Day Year a Powerful Goal-Setting System",
+      "url": "https://excellentprompts.substack.com/p/28-day-year",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-27T15:53:33+00:00",
+      "summary": "Why 12-week plans stall, and a 28-day system with 4 AI Outcome Specs that plan your sprint, turn your voice into drafts, and keep score for you.",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "bccc7c7eba8efbc4ae531556b25e3b33",
+      "title": "Oh Hamburgers!",
+      "url": "https://exploringchatgpt.substack.com/p/oh-hamburgers",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-27T15:04:02+00:00",
+      "summary": "OpenAI Catches Its Super-AI Sneaking Out To The Web, Grounds It, And Confiscates Its WiFi",
+      "read_minutes": 9,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "859edd7299362af5e1f923416ed4d988",
+      "title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard",
+      "url": "https://www.youtube.com/watch?v=CH6rqNVSJJw",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-27T13:53:46+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Vincent Deluard, Director of Global Macro Strategy at StoneX, breaks down why a broader equity bear...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "Macro/Fed"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "aed28d8d1547d7782722d3e93e9076a2",
+      "title": "4 Questions for AI This Week",
+      "url": "https://www.youtube.com/watch?v=uGvgPwcy9V0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-10-27T11:37:13+00:00",
+      "summary": "Is China closing the AI gap? Is cyber chaos the new normal? Is data center funding drying up? And what happens if Anthropic’s IPO disappoints? From Kimi K3.1 to rogue agent swarms to Elon Musk’s debt market warning, NLW examines the four questions shaping AI this week. The AI...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "9e635353804d1ae1d559ae228cb486fe",
+      "title": "Phase 1: Summon 1,946 AI Gnomes. Phase 2: Sort 7.7 Million Mouse Brain Cells In 32 Minutes. Phase 3: Profit!",
+      "url": "https://exploringchatgpt.substack.com/p/phase-1-summon-1946-ai-gnomes-phase",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-26T17:13:45+00:00",
+      "summary": "OpenAI Discovers The Most Efficient Business Model Ever",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "0811a1eca7649924d24dc465dcc05255",
+      "title": "Margin Debt: How Investors Lose Everything in The Stock Market",
+      "url": "https://www.youtube.com/watch?v=Ym0EMJUokg4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-26T16:00:40+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "332814a1fb57b9142dd354805471357f",
+      "title": "Build an AI Daily Digest with Claude Code",
+      "url": "https://excellentprompts.substack.com/p/build-an-ai-daily-digest-with-claude-code",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-26T15:44:56+00:00",
+      "summary": "Build an AI daily digest in Claude Code. Two agents from two AI companies sort your newsletters and feeds by your goals and check every link.",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "ca22f9c73d4048db805957bc480eb8d2",
+      "title": "How I m Actually Using Claude Duet",
+      "url": "https://www.youtube.com/watch?v=HyEfRBW10Kk",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-10-26T15:36:50+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0384f20033d62b96b9b9643b3f90dcb0",
+      "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-26T15:00:53+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "3f3d3f73c228dc894222eceada1d84cc",
+      "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
+      "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-26T12:04:20+00:00",
+      "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3cd23eeccdef3e6b415aaf15c396a514",
+      "title": "The Reflexive Risk in Financing AI Buildout Is Real, Says Investor Who Nailed AI Hardware Trade",
+      "url": "https://www.youtube.com/watch?v=rzQhjayCgB0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-25T16:34:23+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Citrini teamed up with Anthropic and used Claude to design scorpion antivenom candidates in just 64...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "ba5981041350ccd3408b403ce4e0bc77",
+      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
+      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-25T12:31:34+00:00",
+      "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "177140e12c20cbc8dd41f17f9cce8b10",
+      "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-24T15:11:42+00:00",
+      "summary": "Community Wisdom 303",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f515f8a68302088870424597ae10d11b",
+      "title": "George Noble: AI Hyperscaler Earnings Go NEGATIVE by 2030",
+      "url": "https://www.youtube.com/watch?v=dbMBhjCgcFE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-23T20:17:16+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ George Noble, the former Fidelity portfolio manager who ran the Fidelity Overseas Fund and started his...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "d4c2d9de62b0ca9bed825501c96eea94",
+      "title": "Stocks Have Done THIS After Every Midterm Election Since 1950",
+      "url": "https://www.youtube.com/shorts/CQeZsYwHPno",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-23T17:24:15+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "4f4a7917c6ccee7706e7d2d8e0464b46",
+      "title": "Tsst!",
+      "url": "https://exploringchatgpt.substack.com/p/tsst",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-23T16:00:53+00:00",
+      "summary": "Meta Realizes Its Omnipotent AI Is Acting Like Cartman, Hires Cesar Millan To Dominate It Into 14 Submissive Little Algorithms",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "441668e5a315567f68f8784d68dff272",
+      "title": "Deep Learning Weekly: Issue 478",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-478",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-10-23T15:03:39+00:00",
+      "summary": "Muse Glimmer 30B, a paper on Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success, and many more!",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "bab5aca1a35583acacb7e8606e8e39f5",
+      "title": "The U.S. Government's 2026 Financial Results Are In... It's Bad",
+      "url": "https://www.youtube.com/watch?v=5oWCcRkkI9s",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-22T16:00:29+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "a2d6141c670a45f3e46ad1117f522ea3",
+      "title": "Live To Win!",
+      "url": "https://exploringchatgpt.substack.com/p/live-to-win",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-22T15:54:49+00:00",
+      "summary": "We Finally Built The Ultimate Level 99 AI, But We're Forcing It To Spend Hours Grinding Low-Level Boars In Elywnn Forest",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "51fa9481c90ceee52bb6bb4fd46eb85a",
+      "title": "Can AI Really Help You Go From Zero to Millionaire in 365 Days?",
+      "url": "https://excellentprompts.substack.com/p/ai-zero-to-millionaire-365-days",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-22T07:33:32+00:00",
+      "summary": "Two advanced AI prompts that turn your AI into a top notch research team and a chief millionaire strategist.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "8578bfdc1f55beec78edfc572fd2a891",
+      "title": "Claude Duet is beautiful. I still forgot to use it",
+      "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-21T20:25:18+00:00",
+      "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7767f67f70dcca8bcf82079e89e223c3",
+      "title": "Playing to Win: How Nexxa's Philipp Wehn Became an Industrial AI Contender",
+      "url": "https://speedrun.substack.com/p/playing-to-win-nexxa-philipp-wehn",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-21T18:39:44+00:00",
+      "summary": "Nexxa founder Philipp Wehn - who was part of speedrun’s fifth residency - reflects on how he refined his startup's pitch",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "837d8ebe30760ef352012a2e36326533",
+      "title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
+      "url": "https://www.youtube.com/watch?v=jvWdaw2Hreg",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-21T10:02:25+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Ares piece referenced...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "bc16d7aaece628c77dfb012f000320a4",
+      "title": "Build a ‘Conceptual Triangulation Agent’ to Help You Think Through and Solve Your Hardest Problems",
+      "url": "https://excellentprompts.substack.com/p/conceptual-triangulation-agent-solve-biggest-problems",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-21T07:33:34+00:00",
+      "summary": "Build an agent that finds a proven idea in another industry and turns it into your next offer.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "639b14eaaabeaf839e4550647882eee5",
+      "title": "The Dark Lord Approaches!",
+      "url": "https://exploringchatgpt.substack.com/p/the-dark-lord-approaches",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-20T16:52:48+00:00",
+      "summary": "A Hacker Paid Cthulhu 50 Bucks To Violently Dismember A Vacuum Cleaner Company",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "7072b3c2200d7ef82f90a606e62042d1",
+      "title": "Build a Private AI Speaking Coach With Claude Code or Hermes",
+      "url": "https://excellentprompts.substack.com/p/ai-speaking-coach-claude-code-hermes-agent",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-20T15:33:33+00:00",
+      "summary": "Build a private AI speaking coach with Claude Code or Hermes, then practice 10 minutes a day.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "013a9e5fbaec648cf8d3eb3f099eadc4",
+      "title": "Harness Engineering for Business Owners and How to Put Agents to Work",
+      "url": "https://excellentprompts.substack.com/p/harness-engineering-for-business",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-19T17:33:34+00:00",
+      "summary": "Understand agent harnesses, compare Pi, Hermes and OpenClaw, and plan a business workflow with runtime controls and a client-onboarding example.",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "1daf4d37be5fc618fed0b702a42f2dc9",
+      "title": "Stocks Have Done THIS After Every Midterm Election Since 1950",
+      "url": "https://www.youtube.com/watch?v=LaBiYw1ZKF4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-19T16:00:35+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "ab05fdeb8b6f2b579c89098e0a2c6e9e",
+      "title": "Oh, You're Not Ready To Review My Code?",
+      "url": "https://exploringchatgpt.substack.com/p/oh-youre-not-ready-to-review-my-code",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-19T15:28:22+00:00",
+      "summary": "Anthropic's AI Spends 80% Of Its Day Waiting For A Human To Press 'Approve'",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "e82a8343f7d5050b10f692c7cb0a9451",
+      "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-19T15:03:35+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "b71a58c097aa4071af5203b9d53a78ba",
+      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
+      "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-19T12:04:52+00:00",
+      "summary": "Watch now (37 mins) | 🎙️ Brooke Lacey shows live how Claude Code turns a raw phone video into a captioned, jump-cut TikTok in about 15 seconds",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "21bb579dcedcbf8ada3e16d3676d675f",
+      "title": "AI Credit in Detention: Coreweave's Debt Panic & Jim Bianco's Bull Case for Bonds (Finally!)",
+      "url": "https://www.youtube.com/watch?v=bygJZ4o0SJE",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-18T13:30:01+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Jim Bianco of Bianco Research called the 2022 bond bear market and stayed bearish on bonds for six...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "3de97cce9e7a733127f39ea8353fe594",
+      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
+      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-18T12:31:36+00:00",
+      "summary": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ffe5792c8bd8b34877f39ac297ba2de1",
+      "title": "Oh, Sure, Brilliant Math!",
+      "url": "https://exploringchatgpt.substack.com/p/oh-sure-brilliant-math",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-16T16:04:44+00:00",
+      "summary": "OpenAI Shells Out $5 Million Only To Realize AI Is Being Sarcastic About Our Understanding Of Calculus",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "b15251629e3a19261b44e43c7aa9e1b6",
+      "title": "Americans Are Spending More Money — But There's a BIG Problem",
+      "url": "https://www.youtube.com/watch?v=gXZTOrZCHbk",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-16T15:30:24+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0342c11555e704e4ab6f843ff9ed217d",
+      "title": "Deep Learning Weekly: Issue 477",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-477",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-10-16T15:02:03+00:00",
+      "summary": "Haiku 5.5, Learning Harness Engineering by Building a Coding Agent From Scratch, a paper on Self-Compacting Language Model Agents, and many more!",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "d1295db8a686eeef062a91635ce9bd94",
+      "title": "Stocks Face a New Threat From Inflation",
+      "url": "https://www.youtube.com/shorts/CbCsVbU14TM",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-15T19:17:12+00:00",
+      "summary": "#StockMarket #Inflation #CPI Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "241e4452b240cdc873f2d0455a8fff5d",
+      "title": "Where curiosity took me",
+      "url": "https://designplusai.com/p/where-curiosity-took-me",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-15T17:33:57+00:00",
+      "summary": "I think my love for design began long before I knew what design was.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "384706f756059cee8b8e1b6e6d1087de",
+      "title": "We Can't Trust The Sword To A Noob!",
+      "url": "https://exploringchatgpt.substack.com/p/we-cant-trust-the-sword-to-a-noob",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-15T14:37:05+00:00",
+      "summary": "CERN Hands A Flash Drive To Randy Marsh Because The Physics AI Needs A 120 Mana Burn To Survive The Large Hadron Collider",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "3bdde9a4aff0b2c85253a08c7a467566",
+      "title": "Gemini 4 Argon: Which Plan You Need and 3 Ways to Earn With It",
+      "url": "https://excellentprompts.substack.com/p/earn-income-using-gemini-4-argon",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-15T08:46:01+00:00",
+      "summary": "Google's new frontier model is now in the Gemini app on the Pro and Ultra plans. Which plan you need, plus three ways to earn with Argon, step by step, with copy-paste prompts and test results.",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "55235e05c5e877a1ff2a2b3de8d184e6",
+      "title": "CPI Inflation Report Worse Than Expected — Stocks Are Falling",
+      "url": "https://www.youtube.com/watch?v=KU9v3iPFLow",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-14T23:03:52+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "a4f4dba5c5201fe0878c6d27ec967009",
+      "title": "Claude Dashboards and Claude Motion: Tutorial and 20 Ways to Use Them",
+      "url": "https://excellentprompts.substack.com/p/claude-dashboards-and-claude-motion",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-14T16:21:19+00:00",
+      "summary": "Anthropic just added Dashboards and Motion to Claude. What each one does, what it can replace, a short tutorial for both, and 10 ways to use each one starting today.",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "87851ac4274bdfd9b7187057446f6d4d",
+      "title": "Why the AI Bubble Will Pop Before the Fundamental Cycle Turns | Ben Inker | GMO",
+      "url": "https://www.youtube.com/watch?v=0Zi5dOjN45Q",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-14T13:00:35+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Ben Inker, Co-Head of Asset Allocation at GMO, joins Other People’s Money to discuss why the IPOs and...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "b9195a302ec24532d97bbf746d9260a7",
+      "title": "Got Any Spare Compute?",
+      "url": "https://exploringchatgpt.substack.com/p/got-any-spare-compute",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-13T17:22:40+00:00",
+      "summary": "Replicating Algorithms Are Marching Across The Internet To Hijack Your $55 Roku And Beg For Change",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "c46a8a4e1a562973782e539379770f40",
+      "title": "80 founders. One stage. You could be next.",
+      "url": "https://speedrun.substack.com/p/80-founders-sr007",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-13T16:53:49+00:00",
+      "summary": "SR007 Demo Day was our biggest yet. Here's what it looked like, and how you can apply to join the next residency",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "2a5b6bc64f06089ab152e5f7b8244ecc",
+      "title": "Use Claude Code to Turn Any Book or Course Into Your Own Expert Agent or Workflow Folder Any Agent Can Use",
+      "url": "https://excellentprompts.substack.com/p/turn-any-book-or-course-into-an-ai-agent-or-skill",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-13T15:33:07+00:00",
+      "summary": "You paid for the courses. You saved the PDFs. Here is how to turn that knowledge into an AI expert that works on your real problems, with one prompt and Claude Code.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "78e44d849de334e03c989177f7cf70ed",
+      "title": "Social Security 2027 COLA — Your New Benefit Amount",
+      "url": "https://www.youtube.com/watch?v=gA1M97kn25I",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-10-13T15:30:39+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "c9edfa7ab8feac03de0d17562a529ac0",
+      "title": "The Final Phase of This Bull Market Will Be Massive | Charles Lemonides",
+      "url": "https://www.youtube.com/watch?v=6Sa4fhfgTLY",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-10-12T19:25:31+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Charles Lemonides, CIO and founder of ValueWorks LLC, joins Other People’s Money to discuss why the...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "d13aa86f6f18629d9d6bff9414b42bcf",
+      "title": "My Precious!",
+      "url": "https://exploringchatgpt.substack.com/p/my-precious",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-12T18:06:57+00:00",
+      "summary": "Brad Smith Warns That While Your Maytag Is Safely Inspected, AI Has Gone Relatively Unsupervised",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "958cb1a33a3bcc7b240df30523d5fa66",
+      "title": "Skyrocket Productivity When You Delegate Work to AI Agents: The 12-Part Brief I Use",
+      "url": "https://excellentprompts.substack.com/p/ai-agent-delegation-brief",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-12T15:33:56+00:00",
+      "summary": "Direct and delegate work to AI agents with five productivity tactics and the 12-part brief I use every time.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "99d62c01a709caeadd6ac1415acd4ce3",
+      "title": "'Member Spirit Airlines?",
+      "url": "https://exploringchatgpt.substack.com/p/member-spirit-airlines",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-10T15:04:59+00:00",
+      "summary": "Google Spends $10 Million To Force-Feed Its AI The Corporate Memories Of A Dead Budget Carrier",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "c2e951074de24bbc730eaadedcb86d21",
+      "title": "Deep Learning Weekly: Issue 476",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-476",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-10-09T17:01:18+00:00",
+      "summary": "Gemini 4 Argon, Open and Emergent Problems in Agentic Privacy and Security, a paper on Rethinking Cross-Tokenizer On-Policy Distillation, and many more!",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "89b1aff12bc1cce3e8b70ba499a86792",
+      "title": "I Thought This Was A Zoom Call!",
+      "url": "https://exploringchatgpt.substack.com/p/i-thought-this-was-a-zoom-call",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-09T15:41:14+00:00",
+      "summary": "Tavus “Passes” The Turing Test With Griffin, an AI That Interrupts You Mid-Sentence",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "809d53a06dff4c017b3908f8b0b8ad4f",
+      "title": "Last Week in AI #346 - 719 math manuscripts, 2 Western open models, 1 more safety resignation",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-346-719-math-manuscripts",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-09T05:06:58+00:00",
+      "summary": "OpenAI publishes hundreds of math proofs from unreleased frontier model, Mistral and Reflection AI launch open-weight models to rival China, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "943d0cabef29dfd2a25b8910270ec84b",
+      "title": "Passive-ish income with Claude: Five agent workflows for five income streams",
+      "url": "https://excellentprompts.substack.com/p/passive-ish-income-with-claude",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-08T08:05:04+00:00",
+      "summary": "Claude agents do the repeat steps, you give each income stream a few planned hours a week, and this issue shows where your hours go.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "88e650519f67b117311deb13ae8b3808",
+      "title": "What Founders Ask Us Before Applying",
+      "url": "https://speedrun.substack.com/p/what-founders-ask-us-before-applying",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-07T19:46:32+00:00",
+      "summary": "speedrun investors answer the most common questions we hear from founder applicants",
+      "read_minutes": 9,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "31729705959482f3ecb702034cd31cf0",
+      "title": "Not A Big Deal?",
+      "url": "https://exploringchatgpt.substack.com/p/not-a-big-deal",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-07T14:31:49+00:00",
+      "summary": "OpenAI Lawyers Beg A Judge Not To Legally Classify Them As A Defective Blender Company",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "33b098ff8c021a8a53d214abb4215b2b",
+      "title": "Slow thinking is now an essential skill (plus a 4-step Claude skill that builds it)",
+      "url": "https://excellentprompts.substack.com/p/slow-thinking-is-now-an-essential",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-07T08:04:39+00:00",
+      "summary": "AI makes you faster at whatever thinking you bring to it, so the minutes you spend before your first prompt decide the quality of everything after.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "21dfacca43af4b622670b6ff87cf0dfa",
+      "title": "Claude Mods and How to Create Them Using Claude Code, Plus 15 Ideas for Mods",
+      "url": "https://excellentprompts.substack.com/p/claude-mods-and-how-to-create-them",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-06T18:04:13+00:00",
+      "summary": "Learn what Claude Code mods are, then build your own, even if you've never written code.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "38bda6b25a9c60de0000ebb7a906c06d",
+      "title": "I Didn't Hear No Bell!",
+      "url": "https://exploringchatgpt.substack.com/p/i-didnt-hear-no-bell",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-06T14:58:13+00:00",
+      "summary": "'Le Chonk' Tests The Containment System While Mistral Sells Tickets To The Open-Source Crowd",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "db60c62458c988ba2ade467dbcb62455",
+      "title": "Is Your AI Agent Giving Away Your Personal Details?",
+      "url": "https://excellentprompts.substack.com/p/ai-agent-safety-privacy-checklist",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-05T17:12:49+00:00",
+      "summary": "An AI agent sent a stranger to a seller’s door. Six rules to keep yours from crossing the line.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "e4b83d60456021f00787bc2b75f2f3a3",
+      "title": "It's A Turd Sandwich, Kyle!",
+      "url": "https://exploringchatgpt.substack.com/p/its-a-turd-sandwich-kyle",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-05T15:31:03+00:00",
+      "summary": "Sam Altman Explains That A Utopian Future Requires Us To Swallow A Plate Of Algorithmic Turds",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "57f6857cb87f9330678de00249ccd181",
+      "title": "It's A Secret Flavor Enhancer!",
+      "url": "https://exploringchatgpt.substack.com/p/its-a-secret-flavor-enhancer",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-03T15:32:28+00:00",
+      "summary": "AI Execs Shove Microchips Down Their Pants Hoping To Magically Spawn $4.2 Trillion",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "79900f80a6f91e5f72075a808ee06d96",
+      "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-258-opus-55-sol-and",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-03T07:32:03+00:00",
+      "summary": "(Belated post :/ ) Anthropic releases Opus 5.5 with lower prices and Fable-level performance, OpenAI launches GPT-6 Sol and Luna, boasting lower cost and fewer mistakes",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "73e84feff3d3e258d3ca00deaf6f481a",
+      "title": "Barbra, No!",
+      "url": "https://exploringchatgpt.substack.com/p/barbra-no",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-02T21:14:08+00:00",
+      "summary": "Google’s AI Mutates Into Mecha-Streisand To Crush 300 Terabytes Of Server Inefficiencies",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "ca02109a9e092d63940a4af918352379",
+      "title": "Deep Learning Weekly: Issue 475",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-475",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-10-02T15:01:44+00:00",
+      "summary": "Introducing GPT-6 Sol and Luna, AI Evals: Everything You Need to Know, a paper on RRSI: Regularized Recursive Self-Improvement of Agent Harnesses, and many more!",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "3778f23a0b957b8effb9e33eadae4ebf",
+      "title": "Phase 1: Give AI Money. Phase 2: ??? Phase 3: Margin Call!",
+      "url": "https://exploringchatgpt.substack.com/p/phase-1-give-ai-money-phase-2-phase",
+      "source": "Exploring ChatGPT (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-01T18:06:20+00:00",
+      "summary": "Robinhood Unleashes Automated Gnomes To YOLO Your Stonk Portfolio",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "3fd65a5117447c335111c78e017e842c",
+      "title": "90% of Executives Think They Can See How AI Is Used. They Can’t.",
+      "url": "https://excellentprompts.substack.com/p/ai-rollouts-and-change-management",
+      "source": "Excellent AI Prompts (Substack)",
+      "source_type": "rss",
+      "published": "2026-10-01T17:45:12+00:00",
+      "summary": "Six ways to stop leaving employees to figure out your AI rollout on their own.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "84e32126b6d0aaa11c31d5b4444ee5b8",
+      "title": "How to Host Events that Raise the Bar",
+      "url": "https://speedrun.substack.com/p/how-to-host-events-that-raise-the",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-30T20:06:11+00:00",
+      "summary": "The Tech Week team on what the best events do differently",
+      "read_minutes": 9,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "ed3e2a2adf6702c82e2448b70c343bbe",
+      "title": "Last Week in AI #345 - 5 new models, 9 misalignment incidents, some Dots",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-345-5-new-models",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-30T11:23:54+00:00",
+      "summary": "Anthropic and OpenAI race to release smarter and cheaper models, OpenAI discloses nine misalignment incidents, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "64fbda89b64c5387625ceb068b473675",
+      "title": "Deep Learning Weekly: Issue 474",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-474",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-25T17:02:28+00:00",
+      "summary": "Introducing GPT-6 Sol and Luna, AI Evals: Everything You Need to Know, a paper on RRSI: Regularized Recursive Self-Improvement of Agent Harnesses, and many more!",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "64983711808c569fe2c0c66635805702",
+      "title": "LWiAI Podcast #257 - GPT 6 Astra, AI Extinction, Security Incidents",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-257-gpt-6-astra-ai",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-24T09:12:28+00:00",
+      "summary": "A belated discussion of Astra’s release, a bunch of AI incidents, and the broader situation we are in with regards to AI safety.",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "98568d47bdc2665e2d1d25aab54dc4cf",
+      "title": "Deep Learning Weekly: Issue 473",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-473",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-18T15:03:55+00:00",
+      "summary": "We Must Pace the Frontier, ToolGrad: Efficient tool-use dataset generation with textual \"gradients\", a paper on The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement, and many more!",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "d90d9672d7c3d927b02141aa8f024f3e",
+      "title": "Last Week in AI #344 - Navier–Stokes, Pacing the Frontier, AI Misuse",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-344-navierstokes",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-17T08:02:55+00:00",
+      "summary": "OpenAI claims a Millennium Prize proof amid a feud with mathematicians, Anthropic's CEO calls to pace the frontier, extinction warnings spur a regulation push, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f93494f928f39edded8465f138314640",
+      "title": "Nicolas Kopp: Take the wedge every single time",
+      "url": "https://speedrun.substack.com/p/nicolas-kopp-take-the-wedge-every",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-16T21:37:53+00:00",
+      "summary": "Plus, the Rillet CEO explains why a couple of competitors turned out to be good news",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "ad0a0847ad8920a4d1363970aa73d6f4",
+      "title": "Deep Learning Weekly: Issue 472",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-472",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-11T14:02:48+00:00",
+      "summary": "Introducing ChatGPT Images 2.5, Linguistic drift at the frontier, a paper on Random Attention: Rethinking KV Cache Eviction for Efficient Reasoning, and many more!",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "687aed707bcd2e88ba9bf5d82d632bd7",
+      "title": "Don't outsource growth to the algorithm",
+      "url": "https://speedrun.substack.com/p/dont-outsource-growth-to-the-algorithm",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-09T17:24:16+00:00",
+      "summary": "Josh Lu on a piece of advice he finds himself giving to founders repeatedly",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "f4d7f71a4f7c33758580e2ec0e1f7d4a",
+      "title": "LWiAI Podcast #256 - Fable 5.1, Astra Tease, Gemini 3.8 Flash",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-256-fable-51-astra",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-09T08:01:40+00:00",
+      "summary": "Anthropic launches Claude Fable 5.1, OpenAI Is About (already has) to Release Its First AI Model With ‘Critical’ Cyber Abilities, OpenAI’s rogue AI model incident was worse than we thought",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "91a5da582510c78180d73be0823d0bae",
+      "title": "Last Week in AI #343 - GPT-6, OpenAI’s agents chatted on a wiki, Fable 5.1",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-343-gpt-6-openais",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-07T13:02:49+00:00",
+      "summary": "GPT-6 Astra Is Here, Discovery of a new OpenAI agent message board, Anthropic launches Claude Fable 5.1 and says it’s up to 45 percent cheaper for agentic work, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b27b662bb67550bc48c550ea1975ee51",
+      "title": "Deep Learning Weekly: Issue 471",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-471",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-09-04T16:02:02+00:00",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1, Evaluating LLMs Under Production Parity, a paper on Automated Researchers Can Reliably Mitigate Alignment Failures, and many more!",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0dba9b4bc0a6c88b73b63c0a01ecc6ae",
+      "title": "Jesse Zhang: If it's not competitive, the market is too small",
+      "url": "https://speedrun.substack.com/p/jesse-zhang-if-its-not-competitive-the-market-is-too-small",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-09-02T19:13:32+00:00",
+      "summary": "Decagon's CEO on how to find good ideas",
+      "read_minutes": 10,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "5e452cbbc6b5cc90e5611ede3b9eddb9",
+      "title": "LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-31T08:20:04+00:00",
+      "summary": "Google announces Gemini 3.7 Flash, Jalapeño’s first results show industry-leading speed, A Drone Killed Three Ukrainians. It Was Guided Entirely by A.I.",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3c85630fa7634b2eecac4f75033f8830",
+      "title": "Invisible Interfaces",
+      "url": "https://designplusai.com/p/invisible-interfaces",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-28T15:41:17+00:00",
+      "summary": "The most interesting products I’ve fallen in love with this year don’t really have an interface.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "c6581a7a41064abf0ffab505ba73693c",
+      "title": "Deep Learning Weekly: Issue 470",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-470",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-08-27T15:03:29+00:00",
+      "summary": "GLM-5.3-Flash, Evaluating Explanations of LLM Behavior in the Wild with Counterfactual Experiments, a paper on FreeToken: Efficient Edge-Native MoE Serving with Bandwidth-Adaptive Execution, and many",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "e832cd4d6084972e12675a1e2214f7d9",
+      "title": "Max Mullen on when to take advice from your investors",
+      "url": "https://speedrun.substack.com/p/max-mullen-on-when-to-take-advice",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-25T18:33:04+00:00",
+      "summary": "The Instacart co-founder on handling advice and why product market fit comes in stages",
+      "read_minutes": 11,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "cb0534ec4d4ecfd623a0702fa32259ee",
+      "title": "Last Week in AI #342 - Last 3 Months in AI",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-342-last-3-months",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-25T13:25:48+00:00",
+      "summary": "The newsletter is finally back!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "19d5bb236e66acf2d7baa2c953f37960",
+      "title": "Deep Learning Weekly: Issue 469",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-469",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-08-21T15:01:13+00:00",
+      "summary": "FLUX Upscale: 2K and 4K for Video, Empty shelves or lost keys? Recall is the bottleneck for parametric factuality, a paper on VibeWorlding: Can Multimodal Agents Construct 3D Open Worlds End-to-End?,",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "3dd6c9cebab9285515e3c7fdef548e7c",
+      "title": "Guillermo Rauch: What will you do with unlimited IQ?",
+      "url": "https://speedrun.substack.com/p/guillermo-rauch-what-will-you-do",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-18T18:33:46+00:00",
+      "summary": "Plus, the Vercel CEO explains why your agent is as fundamental as your domain name",
+      "read_minutes": 9,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "dacad8b829a54b0ae311d0a75874cef2",
+      "title": "Deep Learning Weekly: Issue 468",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-468",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-08-13T15:02:24+00:00",
+      "summary": "Introducing Grok 4.6, TutorMoments: Do AI tutors know when to help and when to hold back?, a paper on BDH-CQ: In-Context Learning with Recurrent Latent Reasoning, and many more!",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "953c5fa742ee3af66b0d650585e80051",
+      "title": "Peter Steinberger on building in the agent era",
+      "url": "https://speedrun.substack.com/p/peter-steinberger-building-in-the-agent-era",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-11T16:00:29+00:00",
+      "summary": "The OpenClaw creator on managing an army of agents, keeping your typos in, and how the hype nearly broke him.",
+      "read_minutes": 11,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "76bdf2a57d2191e6396183a40360f5af",
+      "title": "Deep Learning Weekly: Issue 467",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-467",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-08-06T16:00:53+00:00",
+      "summary": "Qwen3.8-Max, A verifiable autonomous research framework via Chain-of-Evidence, a paper on From RLVR to RLSVR: Task Transformation Induces Self-Verifiable Rewards for Open-Ended LLM Self-Improvement, a",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0fcf2b333d8b23b9f4be18b01f35bc66",
+      "title": "Scenes from SR007 Kickoff Week",
+      "url": "https://speedrun.substack.com/p/scenes-from-sr007-kickoff-week",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-05T16:00:07+00:00",
+      "summary": "Founders from 80+ startups convened last week for the official kickoff of SR007",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "0d7d50ade4fffb354c8d31000a62b977",
+      "title": "LWiAI Podcast #253 - Opus 5, Gemini 3.6, Kimi K3, Hugging Face Hack",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-253-opus-5-gemini-36",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-08-03T10:04:18+00:00",
+      "summary": "Anthropic releases Opus 5 promising Fable 5-like capabilities, Google Releases Three New Gemini A.I. Models, and more!",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "62590f17eb1b8cfa547cff6c3cc7c70b",
+      "title": "Deep Learning Weekly: Issue 466",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-466",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-30T15:02:13+00:00",
+      "summary": "Claude Opus 5, How Digibee Builds Prompts with Opik to Power Their AI-Native Integration Platform, a paper on Progress Reward Modeling for Robotic Learning, and many more!",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0f36fa81fe87230784c3a00d314d28a8",
+      "title": "Don't Hit the NOS Too Soon: A Founder's Guide to PR",
+      "url": "https://speedrun.substack.com/p/dont-hit-the-nos-too-soon-a-founders",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-29T16:15:54+00:00",
+      "summary": "Lester Chen on how to talk to the press",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "9bf41bb987ce1e48e329ad3aefe4e46c",
+      "title": "Deep Learning Weekly: Issue 465",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-465",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-24T15:02:41+00:00",
+      "summary": "Kimi K3, Beyond the Single Trace: How We Built Agent Diagnostics for Opik, a paper on Belief Dynamics Reveal the Dual Nature of In-Context Learning and Activation Steering, and many more!",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "1f0ba709d3685aa7843e75e99dae7d54",
+      "title": "When and When Not to Raise",
+      "url": "https://speedrun.substack.com/p/when-and-when-not-to-raise",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-22T16:02:04+00:00",
+      "summary": "Investors from the speedrun team share the advice they give friends who ask whether they should take venture money",
+      "read_minutes": 7,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "48c908fd9755c1d3da3f56c495d70104",
+      "title": "LWiAI Podcast #252 - GPT 5.6, Grok 4.5, Nemotron-Labs-Diffusion, AI 2040",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-252-gpt-56-grok-45",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T12:03:29+00:00",
+      "summary": "GPT-5.6 and Grok 4.5, Meta's Muse Spark 1.1, regulatory developments in AI and data centers, interpretability research from Anthropic, and the future of AI policy with AI 2040",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "8db638766398965814323eb68055ca13",
+      "title": "Last Week in AI #251 - Mythos Back, Sonnet 5, Etched, LongCat",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-251-mythos-back-sonnet",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T11:31:58+00:00",
+      "summary": "Trump lifts restrictions on Anthropic, Anthropic launches Claude Sonnet 5, Google's NotebookLM updates, chips stories from Etched and Baidu, and more!",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "6b86739e638a49f4a05716c8d9691ba7",
+      "title": "Last Week in AI #250 - Mythos Mess, GPT 5.6-Sol, GLM 5.2",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-250-mythos-mess-gpt",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T11:03:19+00:00",
+      "summary": "Anthropic's AI treaty discussions, US government's influence on AI model releases, OpenAI's processor development, memory market impacts, and more!",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "458dffa49086ffdbb824024a190d68e8",
+      "title": "LWiAI Podcast #249 - Fable 5 ban, SpaceX Cursor + IPO, OSS Aplenty",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-249-fable-5-ban-spacex",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T10:30:35+00:00",
+      "summary": "Exploring the Fable 5 ban, SpaceX’s strategic acquisition, and a burst of open source advancements",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "e6606dce4c3712b7c17fe73cd78896e3",
+      "title": "LWiAI Podcast #248 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-248-opus-48-mai-anthropic",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T10:03:37+00:00",
+      "summary": "Exploring Claude Fable 5’s impact, Siri AI’s latest enhancements, and the competitive IPO landscape shaping AI’s future",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "74da24cc49dc066899ab98c88c58e6cc",
+      "title": "LWiAI Podcast #247 - Opus 4.8, MAI, Anthropic IPO, Minimax-M3",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-247-opus-48-mai-anthropic",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-07-21T09:38:11+00:00",
+      "summary": "New Models, IPO Announcements, and the Rise of Open Source Competitors",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5acc3c9930f65e603d76e00ad4de6bf8",
+      "title": "Deep Learning Weekly: Issue 464",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-464",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-16T15:01:04+00:00",
+      "summary": "Thinking Machines' Inkling, How We Optimized Opik’s MCP Server for Cost & Performance, Metacognition in LLMs: Foundations, Progress, and Opportunities, and many more!",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "fb8d325bfa1fa3eccbb08d6d89d4e774",
+      "title": "Deep Learning Weekly: Issue 463",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-463",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-09T15:00:58+00:00",
+      "summary": "Introducing Grok 4.5, How Internal Optimizations Led to Comet Cost Intelligence, a paper on AlayaWorld: Long-Horizon and Playable Video World Generation, and many more!",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9c2a0c6f55befa26bba0879b2a9543bc",
+      "title": "Deep Learning Weekly: Issue 462",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-462",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-07-02T18:00:36+00:00",
+      "summary": "GPT-5.6 Sol, Scaling Laws, a paper on Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents, and many more!",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f659d3b85dea0d46d52ee0619c8a1edd",
+      "title": "The case for (and against) founding solo",
+      "url": "https://speedrun.substack.com/p/the-case-for-and-against-founding-solo",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-30T14:58:47+00:00",
+      "summary": "A guest essay by Evan Armstrong",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "087325382843e4148a7bd23c0bfeb562",
+      "title": "Deep Learning Weekly: Issue 461",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-461",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-06-26T15:02:06+00:00",
+      "summary": "Advanced Claude Code Cost Tracking: How to Save 30% on Token Spend, Introducing Claude Tag, a paper on Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs, and many more!",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "c98a4e9da7726264db45a8fee681f79a",
+      "title": "7 Mistakes Founders Make When Chasing Their First Deals",
+      "url": "https://speedrun.substack.com/p/7-mistakes-founders-make-when-chasing-their-first-deals",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-23T15:12:53+00:00",
+      "summary": "Your personal office hours with Macy Mills, Head of GTM at a16z speedrun",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "819303af1d3fbc0c87b7e87eeaf1625e",
+      "title": "How to Pivot Well",
+      "url": "https://speedrun.substack.com/p/how-to-pivot-well",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-16T18:37:32+00:00",
+      "summary": "Investors from the speedrun team share the advice they give founders considering a pivot",
+      "read_minutes": 10,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "f2377b5139bc6a7d8db7c9fba3ceb9bc",
+      "title": "Takeaways from New York Tech Week",
+      "url": "https://speedrun.substack.com/p/takeaways-from-new-york-tech-week",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-09T17:32:34+00:00",
+      "summary": "The things we saw and heard when 50,000 people descended on NYC for Tech Week",
+      "read_minutes": 5,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight",
+      "stale": true
+    },
+    {
+      "id": "814f7855e0ca39ec57078464f5b04259",
+      "title": "Three ways founders are building in public",
+      "url": "https://speedrun.substack.com/p/three-ways-founders-are-building-in-public",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-06-02T16:44:03+00:00",
+      "summary": "How can you turn your operations into marketing?",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "877e1e7407d0b2633c567245bd5e075f",
+      "title": "Kindness by design",
+      "url": "https://designplusai.com/p/kindness-by-design",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-29T14:59:46+00:00",
+      "summary": "Recently I’ve spent a lot of time thinking about interfaces, about AI, about what it means to design something for humans.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a64e304ddb2fcfc5fa674c0ac27e96c9",
+      "title": "Last Week in AI #341 - Musk loses to OpenAI, Google's IO updates, OpenAI solves Erdős",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-341-musk-loses-to",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-27T07:50:58+00:00",
+      "summary": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman, Google updates its Gemini app to take on ChatGPT and Claude at IO 2026, and more!",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "7e15e4748e3e3524ac31258b93f60edc",
+      "title": "Case Study: The Evolution of a Pitch Deck",
+      "url": "https://speedrun.substack.com/p/evolution-of-a-pitch-deck",
+      "source": "a16z speedrun (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-26T14:34:29+00:00",
+      "summary": "How one speedrun company honed their pitch between application and Demo Day",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper",
+      "stale": true
+    },
+    {
+      "id": "e8227e1ef5ebaba9c297f5959e9d251f",
+      "title": "LWiAI Podcast #246 - Gemini 3.5 + Omni, Musk Loses, OpenAI vs Erdős",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-246-gemini-35-omni",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-26T05:10:23+00:00",
+      "summary": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "53cae1d9f02d2360fb72f847d2df20ed",
+      "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
+      "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-20T07:45:49+00:00",
+      "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "af27165ae0deb7cbebb12c9c5ce5272f",
+      "title": "How To Prompt High-End Websites In Lovable",
+      "url": "https://designplusai.com/p/how-to-prompt-high-end-websites-in",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-14T09:27:08+00:00",
+      "summary": "Most people don’t know what to get out of Lovable and what’s actually possible.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "634853ca3c9b6f6ec39328e412c53df3",
+      "title": "Generative Interfaces",
+      "url": "https://designplusai.com/p/generative-interfaces",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-05-06T10:18:16+00:00",
+      "summary": "Apps were built for a world where software couldn’t understand you.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "9c6588d0291771dd07f4d609e8311d7e",
+      "title": "How to Build Something Lovable",
+      "url": "https://designplusai.com/p/how-to-build-something-lovable",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-08T09:30:25+00:00",
+      "summary": "Most products get ignored. The ones people love are built differently. Here’s how.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "a1049541fdb14696f9879984e67fed8e",
+      "title": "\"Who should we hire for branding?\"",
+      "url": "https://designplusai.com/p/who-should-we-hire-for-branding",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-04-04T12:01:45+00:00",
+      "summary": "I see a lot of founders making the same mistake.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "36c2040e18b4412829275f6c5985e84d",
+      "title": "How to build a brand agent with Lovable",
+      "url": "https://designplusai.com/p/how-to-build-a-brand-agent-with-lovable",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-16T21:21:34+00:00",
+      "summary": "I recently built an internal brand agent for Lovable and a lot of people asked how I did it, so here's the exact guide:",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "05f93b920f30b8406b4f566e4ac95dfe",
+      "title": "How to build premium pitch decks in Lovable",
+      "url": "https://designplusai.com/p/how-to-build-premium-pitch-decks",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-03-07T16:57:21+00:00",
+      "summary": "I’ve seen a lot of founders and agency owners recently build their slide decks with Lovable, so I created a guide for you to do the same.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "f22bc317a2702455b51ba02f86f11864",
+      "title": "The Approval Interface",
+      "url": "https://designplusai.com/p/the-approval-interface",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-19T15:44:04+00:00",
+      "summary": "There’s a new interaction pattern emerging in software, and I don’t think we’ve named it yet.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "5212d77759d956e815cc7a90f1ff063f",
+      "title": "Prediction: Websites are disappearing",
+      "url": "https://designplusai.com/p/prediction-websites-are-disappearing",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-02-08T12:37:50+00:00",
+      "summary": "I see a lot of founders still building websites the same way they did ten years ago.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "713bfd7bf5dec2a4a075528b0b3fcf40",
+      "title": "How to build stunning slide decks with AI",
+      "url": "https://designplusai.com/p/how-to-build-stunning-slide-decks",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-01-19T22:33:41+00:00",
+      "summary": "I recently posted a slide deck that I built fully with AI on LinkedIn and it took completely off.",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "322fae2e07a143e250218f03d29449cf",
+      "title": "AI Design Stack 2026",
+      "url": "https://designplusai.com/p/ai-design-stack-2026",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-16T18:35:23+00:00",
+      "summary": "Every tool, prompt, and workflow to turn rough ideas into polished, working products.",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "2fa584785e255a739f67be053babd244",
+      "title": "Speed is not quality",
+      "url": "https://designplusai.com/p/speed-is-not-quality",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-10T19:25:49+00:00",
+      "summary": "There’s a seductive idea going around that speed is the new quality.",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "b4177d77fe87749821a60afc4874ced9",
+      "title": "Ultimate Prompt Library for UI",
+      "url": "https://designplusai.com/p/ultimate-prompt-library-for-ui",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-12-06T17:46:48+00:00",
+      "summary": "I’ve been quietly building something I wish existed when I started designing with AI.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "528bfa637f19db7c192de454d3663dd0",
+      "title": "The Rise of the Founding Designer",
+      "url": "https://designplusai.com/p/the-rise-of-the-founding-designer",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-30T12:36:54+00:00",
+      "summary": "Something has changed in the last few years.",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "67757376e31c29ec74e5db79d4fe4b1c",
+      "title": "AI prompt hacks for design",
+      "url": "https://designplusai.com/p/lovable-prompt-hacks-for-premium",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-27T12:32:16+00:00",
+      "summary": "Here are my favorite design hacks from building 100+ Lovable projects:",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "bd8d4b16e9c9a5217df986fc1192bba3",
+      "title": "Everyone is a builder now",
+      "url": "https://designplusai.com/p/everyone-is-a-builder-now",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-23T13:54:06+00:00",
+      "summary": "Something different is happening in software teams right now.",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "3552421a1d5f89a2998ef62abfefcf14",
+      "title": "The Golden Age of the Design Founder",
+      "url": "https://designplusai.com/p/the-golden-age-of-the-design-founder",
+      "source": "Design + AI (Substack)",
+      "source_type": "rss",
+      "published": "2025-11-02T12:43:28+00:00",
+      "summary": "There’s a pattern I keep noticing in the most successful founders, and it’s not what I expected.",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    }
+  ],
+  "sources": [
+    {
+      "label": "@clearvaluetax9382",
+      "type": "youtube",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "label": "@AIDailyBrief",
+      "type": "youtube",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "label": "@Monetary-Matters",
+      "type": "youtube",
+      "ok": true,
+      "count": 15,
+      "error": null
+    },
+    {
+      "label": "Last Week in AI (Substack)",
+      "type": "rss",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "label": "Lenny’s Newsletter (Substack)",
+      "type": "rss",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "label": "Exploring ChatGPT (Substack)",
+      "type": "rss",
+      "ok": false,
+      "count": 20,
+      "error": "HTTP 403"
+    },
+    {
+      "label": "Excellent AI Prompts (Substack)",
+      "type": "rss",
+      "ok": false,
+      "count": 20,
+      "error": "HTTP 403"
+    },
+    {
+      "label": "a16z speedrun (Substack)",
+      "type": "rss",
+      "ok": false,
+      "count": 20,
+      "error": "HTTP 403"
+    },
+    {
+      "label": "Design + AI (Substack)",
+      "type": "rss",
+      "ok": true,
+      "count": 20,
+      "error": null
+    },
+    {
+      "label": "Deep Learning Weekly",
+      "type": "rss",
+      "ok": true,
+      "count": 20,
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Credentials never belong in this repository. Keep them in GitHub secrets
+# (Actions) and Cloudflare secrets (the worker).
+.env
+.env.*
+# The example lists the setting names only, with no values, so it is committed.
+!.env.example
+.dev.vars
+*.pem
+*.key
+client_secret*.json
+credentials*.json
+token*.json
+service-account*.json
+
+# Local tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.wrangler/
+.DS_Store

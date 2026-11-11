@@ -1,0 +1,498 @@
+name: Daily digest
+run-name: Daily digest (${{ inputs.run }})
+
+# One workflow, two runs a day, both started by the Cloudflare Worker cron in
+# worker/scheduler.js through workflow_dispatch (GitHub's own cron runs hours
+# late for this repository):
+#   morning (5:45 AM America/Los_Angeles)  refresh the feeds, write the
+#           learning briefing, commit, deploy the dashboard, send the email.
+#   noon    (12:00 PM)                     refresh the feeds, commit, deploy.
+#
+# Jobs, and why each one is separate:
+#   build   installs the hash-locked packages (requirements.lock) and fetches
+#           the feeds; on the morning run it also picks the learning
+#           candidates. Third-party code runs here, so it has a read-only
+#           token that is not left on disk, and no secret. It hands its files
+#           to the other jobs as artifacts.
+#   brief   (morning) the only job with ANTHROPIC_API_KEY, and only in the one
+#           step that calls Claude. It installs requirements-brief.lock alone
+#           (the Anthropic SDK, wheels only), so nothing from the feed side runs
+#           next to the key. Without the key, or when the call fails,
+#           brief.py writes a briefing from the headlines and still succeeds.
+#   render  (morning) builds the slides with python-pptx. No secret.
+#   commit  holds the contents: write token and runs no Python package: only
+#           git, jq and the shell. It copies an allowlist of files out of the
+#           artifacts (downloaded outside the checkout), each checked: JSON is
+#           parsed and size-capped, a .pptx must be a zip under 20 MB, and no
+#           HTML is ever taken from an artifact. The slideshow page of the day
+#           is copied from docs/learn/viewer.html in the repository itself.
+#   deploy  publishes docs/ to GitHub Pages. It writes the Worker address from
+#           the WORKER_URL repository variable into the published copy only
+#           (assets/js/config.js and the page's connect-src), never into the
+#           repository; with WORKER_URL empty, summaries are off.
+#   email   (morning) holds the Gmail secrets and runs scripts/send_email.py
+#           with the runner's own python3 -I: standard library only, no
+#           setup-python, no pip. Its token can read the repository and this
+#           workflow's runs, so the digest starts where the last morning
+#           digest stopped. It sends even when an earlier job failed, from
+#           the last committed data, and says so. It waits for commit, not
+#           for deploy: the briefing it links to is published a minute or
+#           two after the email arrives.
+#
+# The morning email is meant to arrive by 6:00. The steps that can be slow each
+# have a time limit inside the step, and a fallback, so a slow day ends early
+# with less instead of late or not at all:
+#   feeds        3 minutes on the morning run (FEED_RUN_SECONDS; 6 at noon). A
+#                source not reached keeps its earlier items until noon.
+#   candidates   85 seconds, then once more from the feeds alone (--no-fetch).
+#   briefing     brief.py gives the model about 4 minutes and then writes
+#                the briefing from the headlines alone. If brief.py itself is
+#                still running after 245 seconds it is stopped and run once
+#                more without the key, which writes the same headline briefing.
+# With every limit used up the chain build, brief, render, commit, email takes
+# about 14 minutes; on an ordinary day about 8. The job timeouts sit above
+# those limits and are only a backstop.
+#
+# Every job runs only when the repository variable DIGEST_ENABLED is 'true', so
+# a copy made with "Use this template" runs nothing until it is configured.
+# The Anthropic and Gmail secrets live in the "digest" environment, whose
+# deployment branches are limited to main. Nothing here runs on pull requests.
+
+on:
+  workflow_dispatch:
+    inputs:
+      run:
+        description: 'morning: feeds, briefing, email and dashboard. noon: feeds and dashboard.'
+        type: choice
+        options:
+          - morning
+          - noon
+        default: morning
+        required: true
+
+permissions: {}
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: vars.DIGEST_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    # Feeds take at most 6 minutes (RUN_SECONDS in fetch_and_build.py; 3 on the
+    # morning run) and the candidates step at most 2, so the job timeout never
+    # cuts the feeds short.
+    timeout-minutes: 12
+    permissions:
+      contents: read
+    outputs:
+      sha: ${{ steps.head.outputs.sha }}
+      candidates: ${{ steps.candidates.outcome }}
+    steps:
+      # The branch tip, not the commit that started the run: a run that waited
+      # behind another one starts from the latest data.
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.ref }}
+          persist-credentials: false
+      - name: Record the commit being built
+        id: head
+        run: echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements-build.lock
+            requirements.lock
+      # The build lock pins setuptools by hash; with --no-build-isolation pip
+      # builds sgmllib3k (sdist only) with it instead of fetching the latest.
+      - name: Install dependencies (hash-locked)
+        run: |
+          pip install --require-hashes -r requirements-build.lock
+          pip install --require-hashes --no-build-isolation -r requirements.lock
+      # The morning run has the email to send by 6:00, so it gives the feeds
+      # half the usual time; a source it does not reach is fetched at noon.
+      - name: Fetch and build
+        env:
+          FEED_RUN_SECONDS: ${{ inputs.run == 'morning' && '180' || '' }}
+        run: python scripts/fetch_and_build.py
+      # A failure here must not stop the feeds from being committed, so the
+      # step may fail; brief and render then do not run, and the email goes
+      # out without the briefing. The lane sources get 85 seconds; after that,
+      # or after a failure, the candidates come from the feeds alone.
+      - name: Pick the learning candidates
+        id: candidates
+        if: inputs.run == 'morning'
+        continue-on-error: true
+        timeout-minutes: 2
+        run: |
+          mkdir -p "$RUNNER_TEMP/learn"
+          out="$RUNNER_TEMP/learn/candidates.json"
+          if timeout --kill-after=5 85 python scripts/learn/candidates.py --out "$out"; then
+            exit 0
+          fi
+          echo "::warning::The lane sources took too long, or candidates.py failed. Picking the candidates from the feeds alone."
+          rm -f "$out"
+          timeout --kill-after=5 20 python scripts/learn/candidates.py --no-fetch --out "$out"
+      # A folder with the repository's layout, so the artifact keeps these
+      # paths whichever of the files exist. Given a list of files,
+      # upload-artifact starts the paths at the folder the files share, and
+      # that folder changes when data/youtube_channels.json is missing.
+      - name: Stage the data files
+        run: |
+          stage="$RUNNER_TEMP/digest-data"
+          rm -rf "$stage"
+          for f in docs/data/items.json docs/data/twitter_posts.json data/youtube_channels.json; do
+            if [ -f "$f" ] && [ ! -L "$f" ]; then
+              mkdir -p "$stage/$(dirname "$f")"
+              cp "$f" "$stage/$f"
+            fi
+          done
+      - name: Upload data files
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-data
+          path: ${{ runner.temp }}/digest-data
+          if-no-files-found: error
+          retention-days: 1
+      - name: Upload the candidates
+        if: steps.candidates.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: learn-candidates
+          path: ${{ runner.temp }}/learn/candidates.json
+          if-no-files-found: error
+          retention-days: 1
+
+  brief:
+    needs: build
+    if: vars.DIGEST_ENABLED == 'true' && inputs.run == 'morning' && github.ref == 'refs/heads/main' && needs.build.outputs.candidates == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    environment: digest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.build.outputs.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      # Only this lock, and only wheels: no other package and no build script
+      # runs in the job that holds the key.
+      - name: Install the Anthropic SDK (hash-locked, wheels only)
+        run: |
+          pip install --require-hashes --only-binary :all: -r requirements-brief.lock
+      - name: Download the candidates
+        uses: actions/download-artifact@v4
+        with:
+          name: learn-candidates
+          path: ${{ runner.temp }}/learn
+      # brief.py keeps its own clock on the model (about 4 minutes) and then
+      # writes the briefing from the headlines alone. This limit is the backstop
+      # behind it: after 245 seconds, or after a failure, brief.py runs once
+      # more without the key, so render, commit and the email are not held up.
+      - name: Write the briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          args=(--candidates "$RUNNER_TEMP/learn/candidates.json" --out "$RUNNER_TEMP/learn/briefing.json")
+          if timeout --kill-after=3 245 python scripts/learn/brief.py "${args[@]}"; then
+            exit 0
+          fi
+          echo "::warning::The model did not finish the briefing in time, or brief.py failed. Writing it from the headlines alone."
+          ANTHROPIC_API_KEY="" timeout --kill-after=2 10 python scripts/learn/brief.py "${args[@]}"
+      - name: Upload the briefing
+        uses: actions/upload-artifact@v4
+        with:
+          name: learn-briefing
+          path: ${{ runner.temp }}/learn/briefing.json
+          if-no-files-found: error
+          retention-days: 1
+
+  render:
+    needs: [build, brief]
+    if: vars.DIGEST_ENABLED == 'true' && inputs.run == 'morning' && github.ref == 'refs/heads/main' && needs.brief.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.build.outputs.sha }}
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: |
+            requirements-build.lock
+            requirements.lock
+      - name: Install dependencies (hash-locked)
+        run: |
+          pip install --require-hashes -r requirements-build.lock
+          pip install --require-hashes --no-build-isolation -r requirements.lock
+      - name: Download the candidates
+        uses: actions/download-artifact@v4
+        with:
+          name: learn-candidates
+          path: ${{ runner.temp }}/learn
+      - name: Download the briefing
+        uses: actions/download-artifact@v4
+        with:
+          name: learn-briefing
+          path: ${{ runner.temp }}/learn
+      - name: Render the slides
+        id: render
+        run: python scripts/learn/render.py --briefing "$RUNNER_TEMP/learn/briefing.json" --candidates "$RUNNER_TEMP/learn/candidates.json"
+      - name: Check the briefing date
+        env:
+          DAY: ${{ steps.render.outputs.date }}
+        run: |
+          if ! [[ "$DAY" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+            echo "::error::render.py did not report the briefing date"; exit 1
+          fi
+      - name: Upload the briefing files
+        uses: actions/upload-artifact@v4
+        with:
+          name: learn-output
+          path: |
+            docs/learn/index.json
+            docs/learn/${{ steps.render.outputs.date }}/briefing.json
+            docs/learn/${{ steps.render.outputs.date }}/briefing.pptx
+            learn/seen.json
+          if-no-files-found: error
+          retention-days: 1
+
+  commit:
+    needs: [build, render]
+    if: ${{ !cancelled() && vars.DIGEST_ENABLED == 'true' && github.ref == 'refs/heads/main' && needs.build.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    outputs:
+      sha: ${{ steps.push.outputs.sha }}
+    steps:
+      # Exactly what build built. A late re-run of this job alone then fails at
+      # the rebase instead of pushing older data.
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.build.outputs.sha }}
+      - name: Download data files
+        uses: actions/download-artifact@v4
+        with:
+          name: digest-data
+          path: ${{ runner.temp }}/digest-data
+      - name: Download the briefing files
+        if: needs.render.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: learn-output
+          path: ${{ runner.temp }}/learn-output
+      # Only these names are ever taken from an artifact. The briefing files
+      # are checked as a set first, so a bad one leaves out the whole day and
+      # never stops the feed data.
+      - name: Copy the checked files into the repository
+        env:
+          DATA: ${{ runner.temp }}/digest-data
+          LEARN: ${{ runner.temp }}/learn-output
+        run: |
+          set -euo pipefail
+          list="$RUNNER_TEMP/commit-files.txt"
+          : > "$list"
+
+          is_file() {  # a regular file, not a link, at most $2 bytes
+            if [ -L "$1" ] || [ ! -f "$1" ]; then echo "$3 is not a regular file"; return 1; fi
+            if [ "$(stat -c %s "$1")" -gt "$2" ]; then echo "$3 is larger than $2 bytes"; return 1; fi
+          }
+
+          data_files="docs/data/items.json docs/data/twitter_posts.json data/youtube_channels.json"
+          copied=0
+          for f in $data_files; do
+            src="$DATA/$f"
+            [ -e "$src" ] || [ -L "$src" ] || continue
+            if ! why=$(is_file "$src" 20000000 "$f"); then echo "::error::$why"; exit 1; fi
+            if ! jq -e 'type == "object"' "$src" > /dev/null; then
+              echo "::error::$f in the artifact is not a JSON object"; exit 1
+            fi
+            mkdir -p "$(dirname "$f")"
+            cp "$src" "$f"
+            echo "$f" >> "$list"
+            copied=$((copied + 1))
+          done
+          if [ "$copied" -eq 0 ]; then
+            echo "::error::The artifact holds none of the expected data files"; exit 1
+          fi
+
+          [ -d "$LEARN" ] || exit 0
+          check_learn() {
+            local index="$LEARN/docs/learn/index.json" day
+            is_file "$index" 1000000 "docs/learn/index.json" || return 1
+            jq -e '(.days | type == "array") and (.latest | type == "string")' "$index" > /dev/null \
+              || { echo "docs/learn/index.json has no latest day"; return 1; }
+            day=$(jq -r '.latest' "$index")
+            [[ "$day" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "The latest day is not a date"; return 1; }
+            is_file "$LEARN/docs/learn/$day/briefing.json" 1000000 "briefing.json" || return 1
+            jq -e --arg day "$day" 'type == "object" and .date == $day and (.topics | type == "array")' \
+              "$LEARN/docs/learn/$day/briefing.json" > /dev/null \
+              || { echo "briefing.json is not the briefing of $day"; return 1; }
+            is_file "$LEARN/docs/learn/$day/briefing.pptx" 20000000 "briefing.pptx" || return 1
+            [ "$(head -c 4 "$LEARN/docs/learn/$day/briefing.pptx" | od -An -tx1 | tr -d ' \n')" = "504b0304" ] \
+              || { echo "briefing.pptx is not a zip file"; return 1; }
+            is_file "$LEARN/learn/seen.json" 1000000 "learn/seen.json" || return 1
+            jq -e 'type == "object"' "$LEARN/learn/seen.json" > /dev/null \
+              || { echo "learn/seen.json is not a JSON object"; return 1; }
+            is_file docs/learn/viewer.html 1000000 "docs/learn/viewer.html in the repository" || return 1
+            echo "$day"
+          }
+          if ! day=$(check_learn); then
+            echo "::warning::Briefing files left out: $day"
+            exit 0
+          fi
+          mkdir -p "docs/learn/$day" learn
+          cp "$LEARN/docs/learn/index.json" docs/learn/index.json
+          cp "$LEARN/docs/learn/$day/briefing.json" "docs/learn/$day/briefing.json"
+          cp "$LEARN/docs/learn/$day/briefing.pptx" "docs/learn/$day/briefing.pptx"
+          cp "$LEARN/learn/seen.json" learn/seen.json
+          # The day's slideshow page is the repository's own viewer, byte for byte.
+          cp docs/learn/viewer.html "docs/learn/$day/index.html"
+          printf '%s\n' docs/learn/index.json "docs/learn/$day/briefing.json" "docs/learn/$day/briefing.pptx" \
+            "docs/learn/$day/index.html" learn/seen.json >> "$list"
+          echo "Briefing files for $day copied."
+      - name: Commit and push if changed
+        id: push
+        env:
+          RUN: ${{ inputs.run }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          while IFS= read -r f; do
+            git add -- "$f"
+          done < "$RUNNER_TEMP/commit-files.txt"
+          if git diff --staged --quiet; then
+            echo "No changes."
+          else
+            message="update items.json"
+            if [ -n "$(git diff --staged --name-only -- docs/learn)" ]; then
+              message="update items.json and the briefing"
+            fi
+            git commit -m "$message ($RUN run)"
+            # For a push that reached main while this run was building. No -X theirs:
+            # it would merge hunks of two generated JSON files into a broken file.
+            # --autostash: a file this job did not list never blocks the push.
+            git pull --rebase --autostash origin main
+            git push origin HEAD:main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+  deploy:
+    needs: commit
+    if: ${{ !cancelled() && vars.DIGEST_ENABLED == 'true' && github.ref == 'refs/heads/main' && needs.commit.result == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.commit.outputs.sha }}
+          persist-credentials: false
+      - uses: actions/configure-pages@v5
+      # The Worker address is a repository variable. It is written into the
+      # published copy only, after a strict check, so it never lands in a
+      # committed file and cannot inject anything into the page.
+      - name: Build the site
+        env:
+          WORKER_URL: ${{ vars.WORKER_URL }}
+        run: |
+          set -euo pipefail
+          rm -rf _site
+          cp -R docs _site
+          # The template of the slideshow page only works as the copy in each
+          # day's folder (learn/<date>/index.html), so it is not published itself.
+          rm -f _site/learn/viewer.html
+          url="${WORKER_URL%/}"
+          if [ -n "$url" ] && ! [[ "$url" =~ ^https://[A-Za-z0-9.-]+$ ]]; then
+            echo "::warning::WORKER_URL must be an address such as https://name.example.workers.dev, with no path. Summaries are off."
+            url=""
+          fi
+          printf 'window.NEWS_DIGEST_CONFIG = { workerUrl: "%s" };\n' "$url" > _site/assets/js/config.js
+          if [ -z "$url" ]; then
+            echo "No Worker address, so summaries are off."
+            exit 0
+          fi
+          found=$({ grep -o "connect-src 'self'" _site/index.html || true; } | wc -l)
+          if [ "$found" -ne 1 ]; then
+            echo "::error::index.html must hold connect-src 'self' exactly once"; exit 1
+          fi
+          sed -i "s|connect-src 'self'|connect-src 'self' $url|" _site/index.html
+          echo "Summaries are on."
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+  # Not after deploy: the files are committed by now, and waiting for Pages
+  # would only delay the email.
+  email:
+    needs: [build, commit]
+    if: ${{ !cancelled() && vars.DIGEST_ENABLED == 'true' && inputs.run == 'morning' && github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment: digest
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      # What commit pushed, so the briefing of the day is in the checkout;
+      # the commit that started the run when commit did not finish.
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ needs.commit.outputs.sha || github.sha }}
+          persist-credentials: false
+      - name: Download refreshed data
+        if: needs.build.result == 'success'
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: digest-data
+          path: ${{ runner.temp }}/digest-data
+      - name: Use the refreshed items.json when there is one
+        env:
+          SRC: ${{ runner.temp }}/digest-data/docs/data/items.json
+        run: |
+          if [ -f "$SRC" ] && [ ! -L "$SRC" ] && [ "$(stat -c %s "$SRC")" -le 20000000 ] \
+              && jq -e '.items | type == "array"' "$SRC" > /dev/null 2>&1; then
+            cp "$SRC" docs/data/items.json
+            echo "Using the refreshed items.json."
+          else
+            echo "::warning::No refreshed items.json; sending from the copy committed on main."
+            echo "DIGEST_DATA=fallback" >> "$GITHUB_ENV"
+          fi
+      - name: Send digest
+        env:
+          GMAIL_CLIENT_ID: ${{ secrets.GMAIL_CLIENT_ID }}
+          GMAIL_CLIENT_SECRET: ${{ secrets.GMAIL_CLIENT_SECRET }}
+          GMAIL_REFRESH_TOKEN: ${{ secrets.GMAIL_REFRESH_TOKEN }}
+          SENDER_EMAIL: ${{ secrets.SENDER_EMAIL }}
+          RECIPIENT_EMAIL: ${{ secrets.RECIPIENT_EMAIL }}
+          SITE_URL: ${{ vars.SITE_URL }}
+          # Read-only (contents, actions): finds when this run was created and
+          # which earlier morning run sent its email.
+          GITHUB_TOKEN: ${{ github.token }}
+        # -I: isolated mode, so no file next to the script can shadow a stdlib module.
+        run: python3 -I scripts/send_email.py

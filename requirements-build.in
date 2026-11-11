@@ -1,0 +1,5 @@
+# The build backend for sgmllib3k, a feedparser dependency that is published
+# only as an sdist. The workflows install requirements-build.lock first and then
+# requirements.lock with --no-build-isolation, so pip builds sgmllib3k with this
+# hash-locked setuptools instead of downloading the latest one unchecked.
+setuptools

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title><![CDATA[Example Newsletter]]></title>
+    <description><![CDATA[Notes on AI, rates and markets]]></description>
+    <link>https://example.substack.com</link>
+    <generator>Substack</generator>
+    <lastBuildDate>Thu, 15 Oct 2026 12:10:00 GMT</lastBuildDate>
+    <atom:link href="https://example.substack.com/feed" rel="self" type="application/rss+xml"/>
+    <item>
+      <title><![CDATA[The Fed said nothing new about interest rates]]></title>
+      <description><![CDATA[A short note on what Powell said, and what it means for <b>mortgage</b> rates.]]></description>
+      <link>https://example.substack.com/p/fed-said-nothing-new</link>
+      <guid isPermaLink="false">https://example.substack.com/p/fed-said-nothing-new</guid>
+      <dc:creator><![CDATA[Example Author]]></dc:creator>
+      <pubDate>Thu, 15 Oct 2026 12:04:05 GMT</pubDate>
+      <content:encoded><![CDATA[<p>A short note on what Powell said at the press conference.</p><p>Rates stay where they are.</p>]]></content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[A long essay on generative models]]></title>
+      <description><![CDATA[Why the next AI cycle looks different.]]></description>
+      <link>https://example.substack.com/p/long-essay</link>
+      <guid isPermaLink="false">https://example.substack.com/p/long-essay</guid>
+      <pubDate>Wed, 14 Oct 2026 16:30:00 GMT</pubDate>
+      <content:encoded><![CDATA[{{LONG_BODY}}]]></content:encoded>
+    </item>
+    <item>
+      <title><![CDATA[Bitcoin and the feed of the week]]></title>
+      <description><![CDATA[Bitcoin moved; our feed noticed.]]></description>
+      <link>https://example.substack.com/p/bitcoin-feed</link>
+      <guid isPermaLink="false">https://example.substack.com/p/bitcoin-feed</guid>
+      <pubDate>Tue, 13 Oct 2026 09:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Click me <script>alert(1)</script>]]></title>
+      <description><![CDATA[A link that is not a web link.]]></description>
+      <link>javascript:alert(document.cookie)</link>
+      <guid isPermaLink="false">post-without-web-link-1</guid>
+      <pubDate>Mon, 12 Oct 2026 08:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[Another post without a web link]]></title>
+      <description><![CDATA[Its link is a mailto address.]]></description>
+      <link>mailto:someone@example.com</link>
+      <guid isPermaLink="false">post-without-web-link-2</guid>
+      <pubDate>Mon, 12 Oct 2026 07:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title><![CDATA[The Fed said nothing new about interest rates (repost)]]></title>
+      <description><![CDATA[Same post, posted twice.]]></description>
+      <link>https://example.substack.com/p/fed-said-nothing-new</link>
+      <guid isPermaLink="false">repost</guid>
+      <pubDate>Thu, 15 Oct 2026 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

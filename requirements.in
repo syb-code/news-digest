@@ -1,0 +1,24 @@
+# Regenerate the three locks with Python 3.12 and pip-tools:
+#   pip-compile --generate-hashes --allow-unsafe -o requirements.lock requirements.in
+#   pip-compile --generate-hashes --allow-unsafe -o requirements-build.lock requirements-build.in
+#   pip-compile --generate-hashes --allow-unsafe -o requirements-brief.lock requirements-brief.in
+#
+# Packages for the jobs that hold no secret: scripts/fetch_and_build.py, the
+# learning candidates (scripts/learn/candidates.py) and the slides
+# (scripts/learn/render.py, which uses python-pptx). scripts/send_email.py uses
+# only the Python standard library and needs nothing from this file. The one
+# job that holds the Anthropic key installs requirements-brief.lock instead.
+#
+# The workflow installs requirements.lock, which pins every package, including
+# the transitive ones, to an exact version and sha256 hash. sgmllib3k comes only
+# as an sdist, so its build backend (setuptools) is pinned the same way in
+# requirements-build.lock and installed first. After editing this file,
+# regenerate the locks with the lines above (pip install pip-tools first) and
+# install them with:
+#   pip install --require-hashes -r requirements-build.lock
+#   pip install --require-hashes --no-build-isolation -r requirements.lock
+beautifulsoup4==4.12.3
+feedparser==6.0.11
+PyYAML==6.0.2
+requests==2.32.3
+python-pptx==1.0.2

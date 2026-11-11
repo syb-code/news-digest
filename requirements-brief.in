@@ -1,0 +1,12 @@
+# Packages for the brief job only: scripts/learn/brief.py, the one step that
+# holds ANTHROPIC_API_KEY. It installs requirements-brief.lock alone, with
+# --require-hashes and --only-binary :all:, so nothing else from requirements.in
+# and no package build script runs next to the key. PyYAML is here because
+# brief.py reads config.yml through scripts/config.py.
+#
+# Regenerate with Python 3.12 and pip-tools:
+#   pip-compile --generate-hashes --allow-unsafe -o requirements-brief.lock requirements-brief.in
+# and install with:
+#   pip install --require-hashes --only-binary :all: -r requirements-brief.lock
+anthropic==2.8.0
+PyYAML==6.0.2

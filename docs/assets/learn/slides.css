@@ -1,0 +1,285 @@
+/* Learning briefing slideshow. Dark green with gold accents, DM Serif Display for headings and
+   Outfit for body text, the same palette as briefing.pptx (scripts/learn/render.py).
+   The viewer runs under style-src 'self': everything visual lives in this file, and the script
+   shows the current slide with a class. One slide fills the screen. Every size on a slide is
+   multiplied by --k, and the script steps a slide down the .fit-N classes until its text fits,
+   so text only scrolls inside a slide when the smallest size is still too long for the screen.
+   Printing gives one slide per page. */
+
+/* ---------- fonts: self-hosted latin subsets (SIL OFL 1.1, see fonts/OFL.txt) ---------- */
+@font-face {
+  font-family: "DM Serif Display";
+  src: url("fonts/dm-serif-display-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("fonts/outfit-latin-400-normal.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: "Outfit";
+  src: url("fonts/outfit-latin-600-normal.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ---------- tokens ---------- */
+:root {
+  --green: #0f2a1f;      /* background */
+  --green-2: #173a2b;    /* cards */
+  --green-3: #1f4a37;    /* hover on cards */
+  --gold: #c9a227;       /* accents, headings, links */
+  --gold-hi: #e0bd4c;    /* links on hover */
+  --gold-line: rgba(201, 162, 39, 0.45);
+  --text: #f4efe1;       /* warm off-white */
+  --muted: #b8c4b4;
+  --line: rgba(244, 239, 225, 0.14);
+
+  --serif: "DM Serif Display", Georgia, "Times New Roman", serif;
+  --sans: "Outfit", "Helvetica Neue", Arial, sans-serif;
+
+  --pad-x: clamp(1rem, 5vw, 4.5rem);
+  --pad-y: clamp(1.25rem, 4vh, 3rem);
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color-scheme: dark;
+}
+
+/* ---------- base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; height: 100%; background: var(--green); }
+body {
+  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  display: grid;
+  /* One column, never wider than the screen. An implicit column would grow with its content and
+     be clipped by overflow: hidden, which cut off the right edge on a 320 px screen. */
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  overflow: hidden;
+  color: var(--text);
+  background: radial-gradient(90% 60% at 100% 0%, rgba(201, 162, 39, 0.07), transparent 60%), var(--green);
+  font: 400 1rem/1.6 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+[hidden] { display: none !important; }
+h1, h2, h3, p, ol, ul { margin: 0; }
+ol, ul { padding: 0; list-style: none; }
+button { font: inherit; color: inherit; }
+a { color: var(--gold); text-decoration-color: var(--gold-line); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+@media (hover: hover) { a:hover { color: var(--gold-hi); text-decoration-color: currentColor; } }
+:focus-visible { outline: 2px dashed var(--gold); outline-offset: 3px; }
+.deck:focus { outline: none; }
+.skip { position: absolute; left: -999px; top: 0; }
+.skip:focus { left: 1rem; top: 1rem; z-index: 10; padding: 0.5rem 0.75rem; background: var(--gold); color: var(--green); }
+.vh { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; }
+.muted { color: var(--muted); }
+
+/* ---------- top bar ---------- */
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem 1.25rem;
+  min-height: 3.25rem;
+  padding: 0.5rem var(--pad-x);
+  padding-top: max(0.5rem, env(safe-area-inset-top, 0px));
+  border-bottom: 1px solid var(--line);
+}
+.bar-home { font: 400 1.125rem/1 var(--serif); color: var(--text); text-decoration: none; white-space: nowrap; }
+.bar-home::before { content: ""; display: inline-block; width: 0.5rem; height: 0.5rem; margin-right: 0.55rem; background: var(--gold); transform: translateY(-0.1em); }
+@media (hover: hover) { .bar-home:hover { color: var(--gold-hi); } }
+.bar-date { flex: 1 1 auto; min-width: 0; font-size: 0.875rem; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.bar-link { font-size: 0.875rem; font-weight: 600; white-space: nowrap; }
+
+/* ---------- deck and slides ---------- */
+.deck { position: relative; min-width: 0; min-height: 0; overflow: hidden; touch-action: pan-y; }
+.slide { --k: 1; position: absolute; inset: 0; display: none; }
+.slide.is-current { display: flex; }
+/* The fit steps (slides.js, FIT_STEPS): each one sets the slide's type and spacing a little
+   smaller. Titles shrink twice as fast as the text (--k times --k), so the reading text gives
+   way last. Every size below has a floor, so the smallest step is still readable. */
+.fit-1 { --k: 0.94; }
+.fit-2 { --k: 0.88; }
+.fit-3 { --k: 0.82; }
+.fit-4 { --k: 0.76; }
+.fit-5 { --k: 0.7; }
+.fit-6 { --k: 0.64; }
+.fit-7 { --k: 0.58; }
+.fit-8 { --k: 0.52; }
+.slide-inner {
+  width: 100%;
+  max-width: 78rem;
+  max-height: 100%;
+  margin: auto;
+  padding: max(0.625rem, calc(var(--pad-y) * var(--k) * var(--k))) var(--pad-x);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  overflow-wrap: anywhere;
+  scrollbar-color: var(--gold-line) transparent;
+}
+
+/* Shown only when a slide is still longer than the screen at the smallest step. */
+.more {
+  position: absolute; left: 50%; bottom: 0.625rem; z-index: 2; transform: translateX(-50%);
+  display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.4rem 0.9rem;
+  font: 600 0.8125rem/1.2 var(--sans); color: var(--green); white-space: nowrap;
+  background: var(--gold); border-radius: 999px; box-shadow: 0 0.25rem 1rem rgba(0, 0, 0, 0.45);
+  pointer-events: none;
+}
+.deck.has-more::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; height: 4.5rem;
+  background: linear-gradient(to bottom, rgba(15, 42, 31, 0), var(--green));
+  pointer-events: none;
+}
+
+.eyebrow { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.875rem; font: 600 0.9375rem/1.4 var(--sans); font-size: max(0.75rem, calc(0.9375rem * var(--k))); letter-spacing: 0.02em; color: var(--gold); }
+.lane { display: inline-flex; padding: 0.15rem 0.65rem; font-size: max(0.6875rem, calc(0.8125rem * var(--k))); font-weight: 400; color: var(--text); border: 1px solid var(--gold-line); border-radius: 999px; }
+.lane-off { border-style: dashed; color: var(--gold); }
+.rule { display: block; width: 4.5rem; height: 3px; margin-block: calc(clamp(1rem, 2.6vh, 1.5rem) * var(--k) * var(--k)); background: var(--gold); }
+
+.deck-title { margin-top: 0.75rem; font: 400 clamp(2.25rem, 1.3rem + 4.2vw, 4.75rem)/1.05 var(--serif); font-size: max(1.5rem, calc(clamp(2.25rem, 1.3rem + 4.2vw, 4.75rem) * var(--k) * var(--k))); letter-spacing: -0.01em; overflow-wrap: break-word; }
+.topic-title { margin-top: calc(0.75rem * var(--k)); font: 400 clamp(1.5rem, 1.05rem + 2vw, 2.75rem)/1.1 var(--serif); font-size: max(1.125rem, calc(clamp(1.5rem, 1.05rem + 2vw, 2.75rem) * var(--k) * var(--k))); max-width: 26em; overflow-wrap: break-word; }
+.lede { max-width: 42em; font-size: max(0.8125rem, calc(clamp(1.0625rem, 0.95rem + 0.5vw, 1.375rem) * var(--k))); line-height: 1.55; }
+.lede + .muted { margin-top: 1rem; max-width: 42em; }
+.foot { margin-top: calc(clamp(1.25rem, 3vh, 2rem) * var(--k)); font-size: max(0.75rem, calc(0.9375rem * var(--k))); color: var(--muted); }
+
+/* title slide: the day's topics */
+.toc { display: grid; gap: 0.25rem; margin-top: calc(clamp(1.25rem, 3.5vh, 2.25rem) * var(--k)); max-width: 56rem; counter-reset: none; }
+.toc-item { display: grid; grid-template-columns: 2.25rem minmax(0, 1fr); align-items: baseline; padding-block: calc(0.7rem * var(--k)); border-top: 1px solid var(--line); }
+.toc-item:last-child { border-bottom: 1px solid var(--line); }
+.toc-n { font: 400 1.5rem/1 var(--serif); font-size: max(1rem, calc(1.5rem * var(--k))); color: var(--gold); }
+.toc-body { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 1rem; }
+.toc-link { font-size: max(0.8125rem, calc(clamp(1.0625rem, 0.98rem + 0.45vw, 1.3125rem) * var(--k))); font-weight: 600; line-height: 1.35; color: var(--text); text-decoration: none; }
+@media (hover: hover) { .toc-link:hover { color: var(--gold-hi); text-decoration: underline; } }
+.toc-lane { font-size: max(0.6875rem, calc(0.875rem * var(--k))); color: var(--muted); }
+
+/* topic slides: one section of prose a slide, then the reading list beside the open question */
+.col-head { margin-bottom: calc(0.75rem * var(--k)); font: 400 clamp(1.3125rem, 1.15rem + 0.6vw, 1.75rem)/1.2 var(--serif); font-size: max(1rem, calc(clamp(1.3125rem, 1.15rem + 0.6vw, 1.75rem) * var(--k))); color: var(--gold); }
+.para { max-width: 40em; font-size: max(0.75rem, calc(clamp(1rem, 0.94rem + 0.3vw, 1.1875rem) * var(--k))); line-height: calc(1.2 + 0.4 * var(--k)); white-space: pre-line; orphans: 2; widows: 2; }
+.para + .para { margin-top: 0.85em; }
+/* Long prose is set in two columns on a wide screen, like the same slide in briefing.pptx. */
+.prose-2 { columns: 2; column-gap: clamp(1.75rem, 4vw, 4rem); }
+.prose-2 .para { max-width: none; }
+
+.cols { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); align-items: start; gap: calc(clamp(1.75rem, 4vw, 4rem) * var(--k)); margin-top: 0.25rem; }
+.reads { display: grid; gap: calc(1.125rem * var(--k)); counter-reset: read; }
+.read { position: relative; padding-left: 2rem; counter-increment: read; }
+.read::before { content: counter(read); position: absolute; left: 0; top: 0.05em; font: 400 1.25rem/1.2 var(--serif); font-size: max(0.9375rem, calc(1.25rem * var(--k))); color: var(--gold); }
+.read-link { font-size: max(0.8125rem, calc(clamp(1.0625rem, 0.98rem + 0.4vw, 1.25rem) * var(--k))); font-weight: 600; line-height: 1.35; text-decoration-line: underline; }
+.read-meta { display: flex; flex-wrap: wrap; gap: 0.1rem 0.5rem; margin-top: 0.3rem; font-size: max(0.6875rem, calc(0.875rem * var(--k))); color: var(--muted); }
+.read-meta > * + *::before { content: "·"; margin-right: 0.5rem; color: var(--gold-line); }
+.read-why { margin-top: 0.3rem; max-width: 38em; font-size: max(0.75rem, calc(clamp(0.9375rem, 0.85rem + 0.3vw, 1.0625rem) * var(--k))); line-height: 1.5; }
+
+.question { position: relative; padding: calc(clamp(1.25rem, 2.6vw, 2rem) * var(--k)); background: var(--green-2); border-left: 4px solid var(--gold); }
+.question-text { font: 400 clamp(1.3125rem, 1.1rem + 0.9vw, 1.875rem)/1.3 var(--serif); font-size: max(0.9375rem, calc(clamp(1.3125rem, 1.1rem + 0.9vw, 1.875rem) * var(--k))); }
+
+.signals { display: flex; flex-wrap: wrap; gap: 0.25rem 0.6rem; margin-top: calc(clamp(1.5rem, 4vh, 2.5rem) * var(--k)); padding-top: calc(1rem * var(--k)); border-top: 1px solid var(--line); font-size: max(0.6875rem, calc(0.875rem * var(--k))); color: var(--muted); }
+.signals li + li::before { content: "·"; margin-right: 0.6rem; color: var(--gold-line); }
+
+/* status and closing */
+.slide-status .slide-inner, .slide-close .slide-inner { max-width: 60rem; }
+.status-title { margin-top: 0.75rem; font: 400 clamp(2rem, 1.3rem + 3vw, 3.5rem)/1.1 var(--serif); }
+.status-text { margin-top: 1rem; max-width: 36em; font-size: 1.0625rem; color: var(--muted); }
+.status-actions, .actions { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1.75rem; }
+
+.pill {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-height: 2.75rem; padding: 0.55rem 1.15rem;
+  font: 600 0.9375rem/1.2 var(--sans); color: var(--text); text-decoration: none;
+  border: 1px solid var(--gold-line); border-radius: 999px; background: transparent;
+  touch-action: manipulation;
+}
+.pill-gold { color: var(--green); background: var(--gold); border-color: var(--gold); }
+@media (hover: hover) {
+  .pill:hover { color: var(--gold-hi); border-color: var(--gold); }
+  .pill-gold:hover { color: var(--green); background: var(--gold-hi); }
+}
+
+/* ---------- controls ---------- */
+.controls {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 0.625rem var(--pad-x);
+  padding-bottom: max(0.625rem, env(safe-area-inset-bottom, 0px));
+  border-top: 1px solid var(--line);
+}
+.nav-btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  min-width: 2.75rem; min-height: 2.75rem; padding: 0.5rem 1rem;
+  font: 600 0.9375rem/1 var(--sans); color: var(--text);
+  background: var(--green-2); border: 1px solid var(--gold-line); border-radius: 999px;
+  cursor: pointer; touch-action: manipulation; -webkit-tap-highlight-color: transparent;
+}
+.nav-btn span[aria-hidden] { color: var(--gold); font-size: 1.125rem; }
+.nav-btn:disabled { cursor: default; opacity: 0.4; }
+@media (hover: hover) { .nav-btn:hover:not(:disabled) { background: var(--green-3); border-color: var(--gold); } }
+.nav-btn:active:not(:disabled) { transform: translateY(1px); }
+.counter { display: grid; justify-items: center; gap: 0.35rem; }
+.count { font-size: 0.875rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.progress { -webkit-appearance: none; appearance: none; display: block; width: clamp(5rem, 22vw, 12rem); height: 3px; border: 0; background: var(--line); color: var(--gold); }
+.progress::-webkit-progress-bar { background: var(--line); }
+.progress::-webkit-progress-value { background: var(--gold); }
+.progress::-moz-progress-bar { background: var(--gold); }
+
+/* ---------- small screens ---------- */
+@media (max-width: 900px) {
+  .cols { grid-template-columns: minmax(0, 1fr); }
+  .prose-2 { columns: auto; }
+}
+@media (max-width: 520px) {
+  .bar-link { display: none; }
+  .bar-date { font-size: 0.8125rem; }
+  .nav-word { display: none; }
+  .nav-btn { padding-inline: 0.85rem; }
+  .toc-item { grid-template-columns: 1.75rem minmax(0, 1fr); }
+  .read { padding-left: 1.6rem; }
+}
+@media (max-height: 520px) and (orientation: landscape) {
+  .bar { min-height: 2.5rem; padding-block: 0.25rem; }
+  .controls { padding-block: 0.3rem; }
+}
+
+/* ---------- forced colours ---------- */
+@media (forced-colors: active) {
+  .nav-btn, .pill, .lane { border: 1px solid ButtonText; }
+  .rule, .bar-home::before { forced-color-adjust: none; background: CanvasText; }
+  .more { border: 1px solid CanvasText; }
+  .question { border-left-color: CanvasText; }
+}
+
+/* ---------- motion: a short slide in, only for readers who have not asked for less ---------- */
+@media (prefers-reduced-motion: no-preference) {
+  .slide.from-right .slide-inner { animation: in-right 260ms var(--ease) both; }
+  .slide.from-left .slide-inner { animation: in-left 260ms var(--ease) both; }
+  @keyframes in-right { from { opacity: 0; transform: translateX(1.5rem); } to { opacity: 1; transform: none; } }
+  @keyframes in-left { from { opacity: 0; transform: translateX(-1.5rem); } to { opacity: 1; transform: none; } }
+  .pill, .nav-btn, .toc-link, a { transition: color 160ms var(--ease), background-color 160ms var(--ease), border-color 160ms var(--ease); }
+}
+
+/* ---------- print: every slide, one per page, in the slide colours ---------- */
+@media print {
+  @page { size: 13.333in 7.5in; margin: 0; }
+  html, body { height: auto; overflow: visible; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { display: block; background: var(--green); }
+  .bar, .controls, .skip, .actions, .more { display: none !important; }
+  .deck { position: static; overflow: visible; }
+  .deck.has-more::after { content: none; }
+  /* One size for every printed slide, whatever step the screen had it on. */
+  .slide { --k: 0.8 !important; }
+  .slide, .slide.is-current { position: relative; display: flex !important; min-height: 7.5in; break-after: page; page-break-after: always; break-inside: avoid; background: var(--green); }
+  .slide:last-child { break-after: auto; page-break-after: auto; }
+  .slide-inner { max-height: none; overflow: visible; margin: auto; padding: 0.55in 0.7in; animation: none !important; }
+  .cols { grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); }
+  .prose-2 { columns: 2; }
+  .read-link::after { content: attr(href); display: block; margin-top: 0.15rem; font-size: 0.75rem; font-weight: 400; color: var(--muted); word-break: break-all; }
+  a { text-decoration: none; }
+}

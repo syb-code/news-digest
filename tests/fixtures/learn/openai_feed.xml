@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>OpenAI news (test)</title>
+    <link>https://openai.example.com/news</link>
+    <item>
+      <title>Introducing GPT-5.5</title>
+      <link>https://openai.example.com/index/introducing-gpt-5-5?utm_source=rss</link>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 GMT</pubDate>
+      <description>GPT-5.5 brings a 2M token context window and better tool use.</description>
+    </item>
+    <item>
+      <title>An older post about safety evaluations</title>
+      <link>https://openai.example.com/index/older-post</link>
+      <pubDate>Mon, 02 Nov 2026 09:00:00 GMT</pubDate>
+      <description>Published long before the window.</description>
+    </item>
+  </channel>
+</rss>
