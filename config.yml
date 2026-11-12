@@ -27,7 +27,6 @@ feeds:
   # on youtube.com once and cached in data/youtube_channels.json; a channel_id here
   # skips the lookup entirely. An optional label sets the name shown for the source.
   youtube:
-    - handle: clearvaluetax9382
     - handle: AIDailyBrief
     - handle: Monetary-Matters
 
