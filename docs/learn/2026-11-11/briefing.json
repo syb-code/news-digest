@@ -1,0 +1,159 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-12T04:30:01+00:00",
+  "model": "extractive",
+  "llm": false,
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0.0
+  },
+  "email_summary": "Today's briefing covers 5 topics: Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave, Accelerating generative AI delivery with reusable assets, Automating AWS Agent Registry updates with push-based architecture, b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078) and AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr.",
+  "topics": [
+    {
+      "id": "last-week-month-in-ai-347-nvidia-s-spy-anthropic-s-1-4t-ipo",
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "lanes": [
+        "Frontier models",
+        "Best practices",
+        "Best skills"
+      ],
+      "off_lane": false,
+      "what_happened": "Last Week in AI (Substack): Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon\n\nSimon Willison: Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper...",
+      "why_it_matters": "2 sources covered this story. It is new since last week. It fits your Frontier models, Best practices and Best skills lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "read_first": [
+        {
+          "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+          "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+          "source": "Last Week in AI (Substack)",
+          "why": "Coverage of the story."
+        },
+        {
+          "title": "Anthropic's IPO roadshow video",
+          "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+          "source": "Simon Willison",
+          "why": "Coverage of the story."
+        }
+      ],
+      "open_question": "What does this change for your work on Frontier models?",
+      "reading_minutes": 1,
+      "signals": {
+        "sources": 2,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 6,
+        "score": 4.2
+      }
+    },
+    {
+      "id": "accelerating-generative-ai-delivery-with-reusable-assets",
+      "title": "Accelerating generative AI delivery with reusable assets",
+      "lanes": [
+        "Best practices",
+        "Efficiencies",
+        "Agents and loops"
+      ],
+      "off_lane": false,
+      "what_happened": "AWS machine learning blog: Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.",
+      "why_it_matters": "One source covered this story, including a primary source. It is new since last week. It fits your Best practices, Efficiencies and Agents and loops lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "read_first": [
+        {
+          "title": "Accelerating generative AI delivery with reusable assets",
+          "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
+          "source": "AWS machine learning blog",
+          "why": "Primary source."
+        }
+      ],
+      "open_question": "What does this change for your work on Best practices?",
+      "reading_minutes": 1,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "automating-aws-agent-registry-updates-with-push-based",
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "lanes": [
+        "Agents and loops",
+        "Efficiencies"
+      ],
+      "off_lane": false,
+      "what_happened": "AWS machine learning blog: This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
+      "why_it_matters": "One source covered this story, including a primary source. It is new since last week. It fits your Agents and loops and Efficiencies lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "read_first": [
+        {
+          "title": "Automating AWS Agent Registry updates with push-based architecture",
+          "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
+          "source": "AWS machine learning blog",
+          "why": "Primary source."
+        }
+      ],
+      "open_question": "What does this change for your work on Agents and loops?",
+      "reading_minutes": 1,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "b12300-llama-remove-non-fused-gdn-and-ubatch-dependent",
+      "title": "b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078)",
+      "lanes": [
+        "Local inference",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "llama.cpp releases: remove build_delta_net_chunking and build_delta_net_autoregressive always use the fused gated delta net make graph_max_nodes independent of the ubatch size drop the fused GDN probes and fused node tags Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB)",
+      "why_it_matters": "One source covered this story, including a primary source. It is new since last week. It fits your Local inference and Frontier models lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "read_first": [
+        {
+          "title": "b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12300",
+          "source": "llama.cpp releases",
+          "why": "Primary source."
+        }
+      ],
+      "open_question": "What does this change for your work on Local inference?",
+      "reading_minutes": 1,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 5,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "ai-is-heading-for-a-massive-oversupply-top-hedge-fund",
+      "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "@Monetary-Matters: This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ In this episode of Other People's Money, Max Wiethe sits down with Militia Capital founder David Orr to...",
+      "why_it_matters": "One source covered this story. It is new since last week. It sits outside your lanes and is here to widen the view. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "read_first": [
+        {
+          "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
+          "url": "https://www.youtube.com/watch?v=w7Lc5Iyg-To",
+          "source": "@Monetary-Matters",
+          "why": "Coverage of the story."
+        }
+      ],
+      "open_question": "Does this change anything you are planning?",
+      "reading_minutes": 1,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

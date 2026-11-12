@@ -1,4 +1,142 @@
 {
   "version": 1,
-  "topics": []
+  "topics": [
+    {
+      "id": "accelerating-generative-ai-delivery-with-reusable-assets",
+      "title": "Accelerating generative AI delivery with reusable assets",
+      "date": "2026-11-11",
+      "logged_at": "2026-11-12T04:30:15+00:00",
+      "terms": [
+        "assets",
+        "delivery",
+        "accelerating",
+        "reusable",
+        "generative",
+        "catalog",
+        "components",
+        "curated",
+        "document",
+        "doordash",
+        "innovation",
+        "lyft"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "ai-is-heading-for-a-massive-oversupply-top-hedge-fund",
+      "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
+      "date": "2026-11-11",
+      "logged_at": "2026-11-12T04:30:15+00:00",
+      "terms": [
+        "david",
+        "heading",
+        "hedge",
+        "orr",
+        "oversupply",
+        "fund",
+        "manager",
+        "prediction",
+        "massive",
+        "militia",
+        "sits",
+        "wiethe"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=w7Lc5Iyg-To"
+      ],
+      "sources": [
+        "@Monetary-Matters"
+      ],
+      "primary": false
+    },
+    {
+      "id": "automating-aws-agent-registry-updates-with-push-based",
+      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "date": "2026-11-11",
+      "logged_at": "2026-11-12T04:30:15+00:00",
+      "terms": [
+        "architecture",
+        "registry",
+        "automating",
+        "push",
+        "based",
+        "aws",
+        "account",
+        "automatically",
+        "cloudtrail",
+        "detects",
+        "event",
+        "eventbridge"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "b12300-llama-remove-non-fused-gdn-and-ubatch-dependent",
+      "title": "b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078)",
+      "date": "2026-11-11",
+      "logged_at": "2026-11-12T04:30:15+00:00",
+      "terms": [
+        "32078",
+        "b12300",
+        "dependent",
+        "fused",
+        "gdn",
+        "non",
+        "ubatch",
+        "llama",
+        "nodes",
+        "remove",
+        "graph",
+        "autoregressive"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12300"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "last-week-month-in-ai-347-nvidia-s-spy-anthropic-s-1-4t-ipo",
+      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "date": "2026-11-11",
+      "logged_at": "2026-11-12T04:30:15+00:00",
+      "terms": [
+        "ipo",
+        "anthropic",
+        "nvidia",
+        "1.4t",
+        "347",
+        "roadshow",
+        "month",
+        "spy",
+        "wave",
+        "blue",
+        "1.25t",
+        "amd"
+      ],
+      "urls": [
+        "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+        "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/"
+      ],
+      "sources": [
+        "Last Week in AI (Substack)",
+        "Simon Willison"
+      ],
+      "primary": false
+    }
+  ]
 }
