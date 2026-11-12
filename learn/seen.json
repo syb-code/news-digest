@@ -137,6 +137,145 @@
         "Simon Willison"
       ],
       "primary": false
+    },
+    {
+      "id": "botpsy-on-device-personal-assistant-with-a-sub-billion",
+      "title": "BotPsy pitches an on-device assistant on a sub-billion model",
+      "date": "2026-11-12",
+      "logged_at": "2026-11-12T13:48:35+00:00",
+      "terms": [
+        "assistant",
+        "botpsy",
+        "device",
+        "sub",
+        "parameter",
+        "billion",
+        "language",
+        "personal",
+        "agentic"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/qvac/botpsy"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai",
+      "title": "AWS shows Java teams how to build agents with Spring AI",
+      "date": "2026-11-12",
+      "logged_at": "2026-11-12T13:48:35+00:00",
+      "terms": [
+        "spring",
+        "autonomous",
+        "bedrock",
+        "amazon",
+        "build",
+        "agents",
+        "calling",
+        "deploys",
+        "java",
+        "orchestration",
+        "resilience",
+        "conversation"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "gold-prices-why-i-believe-they-re-going-much-higher",
+      "title": "A gold price forecast video, and how to weigh confident claims",
+      "date": "2026-11-12",
+      "logged_at": "2026-11-12T13:48:35+00:00",
+      "terms": [
+        "gold",
+        "believe",
+        "going",
+        "higher",
+        "much",
+        "prices",
+        "theyre"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=FNJbma4DcR4"
+      ],
+      "sources": [
+        "@clearvaluetax9382"
+      ],
+      "primary": false
+    },
+    {
+      "id": "openai-codex-releases-0-169-0-alpha-10",
+      "title": "Codex ships a flurry of releases and lands on Amazon Bedrock",
+      "date": "2026-11-12",
+      "logged_at": "2026-11-12T13:48:35+00:00",
+      "terms": [
+        "codex",
+        "openai",
+        "0.169.0",
+        "releases0.169.0",
+        "0.170.0",
+        "releases0.170.0",
+        "release0.169.0",
+        "0.167.0",
+        "0.167.2",
+        "alpha.1",
+        "alpha.10",
+        "alpha.11"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+        "https://github.com/openai/codex/releases/tag/rust-v0.167.0-alpha.4.3",
+        "https://github.com/openai/codex/releases/tag/rust-v0.167.2",
+        "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.10",
+        "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11",
+        "https://github.com/openai/codex/releases/tag/rust-v0.169.0-alpha.11.1",
+        "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.1",
+        "https://github.com/openai/codex/releases/tag/rust-v0.170.0-alpha.2",
+        "https://latent.space/p/codex-work/"
+      ],
+      "sources": [
+        "AWS machine learning blog",
+        "Latent Space",
+        "OpenAI Codex releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "were-introducing-a-new-transparency-tool-for-invalid",
+      "title": "Google Ads adds an invalid traffic card, but control stays limited",
+      "date": "2026-11-12",
+      "logged_at": "2026-11-12T13:48:35+00:00",
+      "terms": [
+        "ads",
+        "google",
+        "brookeosmundson",
+        "channel",
+        "invalid",
+        "limits",
+        "pmax",
+        "priorities",
+        "split",
+        "traffic",
+        "transparency",
+        "wont"
+      ],
+      "urls": [
+        "https://blog.google/products/ads-commerce/invalid-traffic-overview-google-ads/",
+        "https://www.searchenginejournal.com/google-ads-gives-you-more-channel-control-but-not-as-much-as-you-think/596266/"
+      ],
+      "sources": [
+        "Google Ads and Commerce blog",
+        "Search Engine Journal"
+      ],
+      "primary": true
     }
   ]
 }

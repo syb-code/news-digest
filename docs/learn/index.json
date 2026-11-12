@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-11",
+  "latest": "2026-11-12",
   "days": [
+    {
+      "date": "2026-11-12",
+      "topics": [
+        "Codex ships a flurry of releases and lands on Amazon Bedrock",
+        "Google Ads adds an invalid traffic card, but control stays limited",
+        "BotPsy pitches an on-device assistant on a sub-billion model",
+        "AWS shows Java teams how to build agents with Spring AI",
+        "A gold price forecast video, and how to weigh confident claims"
+      ]
+    },
     {
       "date": "2026-11-11",
       "topics": [

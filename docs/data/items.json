@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-12T04:53:43+00:00",
+  "generated_at": "2026-11-12T13:46:11+00:00",
   "items": [
+    {
+      "id": "f3597c343c44d22c778b5e4717ee3d00",
+      "title": "Gold Prices: Why I Believe They're Going Much Higher",
+      "url": "https://www.youtube.com/watch?v=FNJbma4DcR4",
+      "source": "@clearvaluetax9382",
+      "source_type": "youtube",
+      "published": "2026-11-11T18:19:09+00:00",
+      "first_seen": "2026-11-12T13:46:11+00:00",
+      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
     {
       "id": "f0c7ae4d0b6a0ea224147b6ec571000d",
       "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
@@ -31,8 +45,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "310c75583506cf6bd152bbbad0ca4c65",
@@ -48,8 +61,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "ac014de22f79eb9e74898d0e94009a15",
@@ -97,8 +109,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "6ee7c05f3ed72e65ee97db61d0064304",
@@ -112,8 +123,7 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "325e2c658af490ebbe4fe2ae5397c5f0",
@@ -145,8 +155,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "59b418ee6aee28ac26d1359f235514d0",
@@ -160,8 +169,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "bfd0c8051728ba8d04986b8921c451f1",
@@ -205,8 +213,7 @@
       "read_minutes": 4,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "711cf4766ed5a604b02698ee78bc4b1c",
@@ -237,8 +244,7 @@
         "AI/ML",
         "Tech/Earnings"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "13ed5a8c54f874ba4574ffc6e70995f3",
@@ -254,8 +260,7 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "a2ea674d5f48cb218c1adfb86c0417bb",
@@ -287,8 +292,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "8d9f893dabcc2c371495deda92f71d9c",
@@ -302,8 +306,7 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "2385459a358adc27f47faf30bf36e134",
@@ -320,8 +323,7 @@
         "AI/ML",
         "Housing (CA/SD)"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "e262675abdfb54edcee30ecef274215b",
@@ -335,8 +337,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "f4a952a8d150f5f1d5ae4923ad051252",
@@ -350,8 +351,7 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "2ac72f08a5ea49d404c4ce3d5a9cb44e",
@@ -367,8 +367,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "7b085233bd5c7f4cf3184a79f7c97bd4",
@@ -401,8 +400,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "55ee47b1179a919de653b72a0eb690ac",
@@ -449,8 +447,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "38b8084c4536f1628a232537ef99c1ec",
@@ -464,8 +461,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "26a5689567ca60e4f83169d6d5ef1934",
@@ -479,8 +475,7 @@
       "read_minutes": 4,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "739c78f2a7630901c0f58442d933752a",
@@ -560,8 +555,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "4b515c911ad6b37a3d83408c40d38853",
@@ -609,8 +603,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "0faedcdae63ac0ab53c4be04c12d9041",
@@ -624,8 +617,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "9145cdae05d2f15a937e30849092c3b1",
@@ -655,8 +647,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "c79eed60e7152d865b7a8c8409c61d20",
@@ -689,8 +680,7 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "a696c4cc450a19676c2d7ef9c0d88d8a",
@@ -706,8 +696,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "2dadb680778f297e01f119068a97233d",
@@ -740,8 +729,7 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "239223212d09acca532d4e52a0367688",
@@ -804,8 +792,7 @@
         "AI/ML",
         "Tech/Earnings"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "83b0bd6990884d10d770aa4c5d74ecd9",
@@ -833,8 +820,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight",
-      "stale": true
+      "bucket": "highlight"
     },
     {
       "id": "bd15e74b2162adde85be38c22a433d8c",
@@ -884,8 +870,7 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "aed28d8d1547d7782722d3e93e9076a2",
@@ -901,8 +886,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "9e635353804d1ae1d559ae228cb486fe",
@@ -933,8 +917,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "332814a1fb57b9142dd354805471357f",
@@ -967,8 +950,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "0384f20033d62b96b9b9643b3f90dcb0",
@@ -1016,8 +998,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "ba5981041350ccd3408b403ce4e0bc77",
@@ -1062,8 +1043,7 @@
         "AI/ML",
         "Tech/Earnings"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "d4c2d9de62b0ca9bed825501c96eea94",
@@ -1077,8 +1057,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight",
-      "stale": true
+      "bucket": "highlight"
     },
     {
       "id": "4f4a7917c6ccee7706e7d2d8e0464b46",
@@ -1123,8 +1102,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "a2d6141c670a45f3e46ad1117f522ea3",
@@ -1206,8 +1184,7 @@
         "AI/ML",
         "Tech/Earnings"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "bc16d7aaece628c77dfb012f000320a4",
@@ -1283,8 +1260,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "ab05fdeb8b6f2b579c89098e0a2c6e9e",
@@ -1349,8 +1325,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "3de97cce9e7a733127f39ea8353fe594",
@@ -1397,8 +1372,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "0342c11555e704e4ab6f843ff9ed217d",
@@ -1426,8 +1400,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "highlight",
-      "stale": true
+      "bucket": "highlight"
     },
     {
       "id": "241e4452b240cdc873f2d0455a8fff5d",
@@ -1487,8 +1460,7 @@
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "a4f4dba5c5201fe0878c6d27ec967009",
@@ -1519,8 +1491,7 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "b9195a302ec24532d97bbf746d9260a7",
@@ -1570,21 +1541,6 @@
       "stale": true
     },
     {
-      "id": "78e44d849de334e03c989177f7cf70ed",
-      "title": "Social Security 2027 COLA — Your New Benefit Amount",
-      "url": "https://www.youtube.com/watch?v=gA1M97kn25I",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-13T15:30:39+00:00",
-      "first_seen": "2026-10-13T15:30:39+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "c9edfa7ab8feac03de0d17562a529ac0",
       "title": "The Final Phase of This Bull Market Will Be Massive | Charles Lemonides",
       "url": "https://www.youtube.com/watch?v=6Sa4fhfgTLY",
@@ -1596,8 +1552,7 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper",
-      "stale": true
+      "bucket": "deeper"
     },
     {
       "id": "d13aa86f6f18629d9d6bff9414b42bcf",
@@ -2900,23 +2855,23 @@
     {
       "label": "@clearvaluetax9382",
       "type": "youtube",
-      "ok": false,
+      "ok": true,
       "count": 15,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "label": "@AIDailyBrief",
       "type": "youtube",
-      "ok": false,
+      "ok": true,
       "count": 15,
-      "error": "HTTP 404"
+      "error": null
     },
     {
       "label": "@Monetary-Matters",
       "type": "youtube",
-      "ok": false,
+      "ok": true,
       "count": 15,
-      "error": "HTTP 500"
+      "error": null
     },
     {
       "label": "Last Week in AI (Substack)",
