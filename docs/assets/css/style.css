@@ -318,6 +318,14 @@ select.input { -webkit-appearance: none; appearance: none; padding-right: 2.25re
 .post a { text-decoration: none; }
 .accts .hint { list-style: none; }
 .accts .accts-note { padding-top: 0.875rem; }
+/* the owner's controls: a Remove button on each account and the "Add account" form (app.js builds them with a key set) */
+.acct-tools { display: inline-flex; flex-wrap: wrap; align-items: center; justify-content: flex-end; gap: 0.25rem 0.75rem; margin-left: auto; }
+.acct-pending { margin-left: 0.6rem; font-size: 0.625rem; vertical-align: 0.1em; }
+.x-tools { margin-top: 1.125rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.x-edit { display: grid; gap: 0.45rem; }
+.x-edit-row { display: flex; align-items: center; gap: 0.5rem; }
+.x-edit-row .input { flex: 1 1 auto; min-width: 0; font-family: var(--mono); font-size: 0.875rem; }
+.x-edit-row .btn { flex: none; }
 
 /* ---------- selection bar: the summarize action stays in reach while the panel is off screen ---------- */
 .selbar { position: fixed; z-index: 40; left: 50%; bottom: calc(1rem + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); display: flex; align-items: center; gap: 0.75rem; width: max-content; max-width: calc(100% - 2rem); padding: 0.625rem 0.75rem; background: color-mix(in srgb, var(--card) 92%, transparent); -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); border: 1px solid var(--line-2); box-shadow: 0 12px 32px var(--shadow); }

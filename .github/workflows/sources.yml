@@ -1,0 +1,176 @@
+name: X accounts
+run-name: X accounts (${{ inputs.action }} @${{ inputs.handle }})
+
+# Adds or removes one X account in data/x_accounts.json, the list behind the
+# dashboard's "On X" panel. The owner's Cloudflare Worker starts it through
+# workflow_dispatch (worker/sources.js) when the owner, who holds the Worker's
+# access key, clicks Add or Remove on the dashboard. It can also be run by
+# hand: Actions > X accounts > Run workflow.
+#
+# Who can start it: someone with write access to this repository, or the
+# Worker's token (Actions: read and write on this one repository). A visitor
+# of the dashboard has neither; the Worker refuses a request without the key.
+#
+# The one job runs no package and no action besides GitHub's own checkout:
+# only git, jq, gh and the shell. Both inputs reach the script through the
+# environment, never as text inside it, and the handle must match
+# ^[A-Za-z0-9_]{1,15}$ before anything is written. The job:
+#   1. takes the newest main and edits the list with jq: an add skips a handle
+#      that is already there in any letter case and stops at 50 accounts; a
+#      remove takes out the handle in any letter case;
+#   2. commits as github-actions[bot] and pushes. When main moved meanwhile
+#      (the daily run, or another edit), it starts again from the new main, so
+#      two edits never overwrite each other and no edit is lost;
+#   3. starts a noon run of daily.yml, which rebuilds the data and publishes
+#      the site. When a daily run is already waiting to start, that run
+#      publishes the change and no second one is started.
+#
+# The same edit started twice runs once at a time (the concurrency group names
+# the edit). Different edits may run side by side; step 2 keeps them apart.
+#
+# Like daily.yml, the job runs only when the repository variable DIGEST_ENABLED
+# is 'true', and only on main. Nothing here runs on pull requests.
+
+on:
+  workflow_dispatch:
+    inputs:
+      action:
+        description: 'add: list the account on the dashboard. remove: take it off.'
+        type: choice
+        options:
+          - add
+          - remove
+        required: true
+      handle:
+        description: 'The X handle, without the @: letters, numbers and underscores, 15 at most.'
+        type: string
+        required: true
+
+permissions: {}
+
+concurrency:
+  group: x-accounts-${{ inputs.action }}-${{ inputs.handle }}
+  cancel-in-progress: false
+
+jobs:
+  edit:
+    if: vars.DIGEST_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+      actions: write
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - name: Edit the list and push
+        id: edit
+        env:
+          ACTION: ${{ inputs.action }}
+          HANDLE: ${{ inputs.handle }}
+        run: |
+          set -euo pipefail
+          file=data/x_accounts.json
+          published=docs/data/twitter_posts.json
+          max=50
+          valid='(.accounts | type == "array") and all(.accounts[]; type == "string" and test("^[A-Za-z0-9_]{1,15}$"))'
+
+          # The inputs are checked before they are used or printed.
+          if [ "$ACTION" != add ] && [ "$ACTION" != remove ]; then
+            echo "::error::The action must be add or remove."; exit 1
+          fi
+          handle="${HANDLE#@}"
+          if ! [[ "$handle" =~ ^[A-Za-z0-9_]{1,15}$ ]]; then
+            echo "::error::The handle must be 1 to 15 letters, numbers or underscores."; exit 1
+          fi
+
+          # Writes the edited list to $1. Returns 0 when the list changed, 3 when
+          # there is nothing to do, 1 when the list cannot be edited. It is called
+          # with "||", which turns off "set -e" inside it, so each write checks itself.
+          edit() {
+            local out="$1" start="$RUNNER_TEMP/x-accounts-start.json"
+            if [ -L "$file" ]; then echo "::error::$file is not a regular file."; return 1; fi
+            if [ -f "$file" ]; then
+              if ! jq -e "$valid" "$file" > /dev/null; then
+                echo "::error::$file is not a list of X handles. Fix the file by hand, then try again."; return 1
+              fi
+              jq '{accounts: .accounts}' "$file" > "$start" || return 1
+            elif [ -f "$published" ] && [ ! -L "$published" ] \
+                && jq -e '(.accounts | type == "array") and all(.accounts[]; type == "object")' "$published" > /dev/null 2>&1; then
+              # No list yet: start from the accounts the dashboard shows now.
+              jq '{accounts: [.accounts[].handle | select(type == "string" and test("^[A-Za-z0-9_]{1,15}$"))]}' "$published" > "$start" || return 1
+              echo "Starting $file from the accounts in $published."
+            else
+              echo '{"accounts": []}' > "$start"
+              echo "Starting $file as an empty list."
+            fi
+            if [ "$ACTION" = add ]; then
+              if jq -e --arg h "$handle" 'any(.accounts[]; ascii_downcase == ($h | ascii_downcase))' "$start" > /dev/null; then
+                echo "@$handle is already in the list. Nothing to do."; return 3
+              fi
+              if [ "$(jq '.accounts | length' "$start")" -ge "$max" ]; then
+                echo "::error::The list already holds $max accounts. Remove one first."; return 1
+              fi
+              jq --arg h "$handle" '.accounts += [$h]' "$start" > "$out" || return 1
+            else
+              if ! jq -e --arg h "$handle" 'any(.accounts[]; ascii_downcase == ($h | ascii_downcase))' "$start" > /dev/null; then
+                echo "@$handle is not in the list. Nothing to do."; return 3
+              fi
+              jq --arg h "$handle" '.accounts |= map(select(ascii_downcase != ($h | ascii_downcase)))' "$start" > "$out" || return 1
+            fi
+            jq -e "$valid" "$out" > /dev/null || { echo "::error::The edited list did not pass its check."; return 1; }
+          }
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          message="add @$handle to the X accounts"
+          if [ "$ACTION" = remove ]; then message="remove @$handle from the X accounts"; fi
+
+          # Each try starts from the newest main, so an edit pushed meanwhile is
+          # kept and this one is made again on top of it. No merge of two edited
+          # copies of the file ever happens.
+          for try in 1 2 3 4 5; do
+            git fetch --quiet origin main
+            git reset --quiet --hard FETCH_HEAD
+            code=0
+            edit "$RUNNER_TEMP/x-accounts-new.json" || code=$?
+            if [ "$code" -eq 3 ]; then
+              echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+            if [ "$code" -ne 0 ]; then exit 1; fi
+            mkdir -p "$(dirname "$file")"
+            cp "$RUNNER_TEMP/x-accounts-new.json" "$file"
+            git add -- "$file"
+            git commit --quiet -m "$message"
+            if git push --quiet origin HEAD:main; then
+              count=$(jq '.accounts | length' "$file")
+              echo "Saved: $message. The list now holds $count accounts."
+              echo "changed=true" >> "$GITHUB_OUTPUT"; exit 0
+            fi
+            echo "Main changed while this edit was being made. Trying again from the new main ($try of 5)."
+            sleep "$try"
+          done
+          echo "::error::The edit could not be pushed after 5 tries."; exit 1
+      # The token of this job can start a workflow_dispatch run. A daily run
+      # that has not started yet checks out main when it does, so it already
+      # carries the change, and starting another would only take its place in
+      # the queue (which could push out a waiting morning run and its email).
+      - name: Publish the change with a noon run
+        if: steps.edit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          set -euo pipefail
+          not_started='[.[] | select(.status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length'
+          waiting=$(gh run list --workflow daily.yml --limit 20 --json status --jq "$not_started" || echo unknown)
+          if [[ "$waiting" =~ ^[0-9]+$ ]] && [ "$waiting" -gt 0 ]; then
+            echo "A daily run is already waiting to start. It publishes this change."
+            exit 0
+          fi
+          if gh workflow run daily.yml --ref main -f run=noon; then
+            echo "Started a noon run of the daily digest to publish the change."
+          else
+            echo "::warning::The list is saved, but the noon run could not be started. The change is published by the next daily run."
+          fi

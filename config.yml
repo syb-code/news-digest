@@ -55,6 +55,10 @@ feeds:
   websites: []
 
   # X accounts listed on the dashboard (written to docs/data/twitter_posts.json).
+  # This is the starting list. Once data/x_accounts.json exists, that file is
+  # the list: the dashboard's owner adds and removes accounts there from the
+  # "On X" panel (see worker/sources.js), and this list is used only when the
+  # file is missing or not valid.
   twitter_embeds:
     - handle: Polymarket
     - handle: zerohedge
