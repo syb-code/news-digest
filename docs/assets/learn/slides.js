@@ -1,4 +1,4 @@
-/* Learning briefing slideshow, slides.js v2.
+/* Learning briefing slideshow, slides.js v3.
    Loaded by docs/learn/viewer.html, which the commit job copies into each dated folder
    (docs/learn/YYYY-MM-DD/index.html). It reads ./briefing.json from that folder and builds
    the slides: a title slide, three slides per topic (what happened; why it matters; what to
@@ -270,7 +270,7 @@
     }
     inner.appendChild(el('p', 'muted', made));
     const actions = el('p', 'actions');
-    const home = el('a', 'pill pill-gold', 'Back to the dashboard');
+    const home = el('a', 'pill pill-primary', 'Back to the dashboard');
     home.href = '../../';
     actions.appendChild(home);
     const again = el('a', 'pill', 'Start over');

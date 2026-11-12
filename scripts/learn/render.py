@@ -45,11 +45,13 @@ from pptx.util import Inches, Pt  # noqa: E402
 HEADING_FONT = "DM Serif Display"
 BODY_FONT = "Outfit"
 
-BACKGROUND = RGBColor(0x0F, 0x2A, 0x1F)  # dark green
-PANEL = RGBColor(0x17, 0x3A, 0x2B)       # a lighter green for cards
-GOLD = RGBColor(0xC9, 0xA2, 0x27)        # accents, headings, links
-TEXT = RGBColor(0xF4, 0xEF, 0xE1)        # warm off-white body text
-MUTED = RGBColor(0xB8, 0xC4, 0xB4)       # secondary text
+# The dark palette of the dashboard (docs/assets/css/style.css) and of the
+# slideshow (docs/assets/learn/slides.css).
+BACKGROUND = RGBColor(0x07, 0x07, 0x08)  # paper, near black
+PANEL = RGBColor(0x11, 0x11, 0x13)       # cards
+ACCENT = RGBColor(0x7E, 0xCE, 0xCC)      # cyan: accents, headings, links
+TEXT = RGBColor(0xED, 0xED, 0xEB)        # body text
+MUTED = RGBColor(0x9D, 0x9D, 0x9D)       # secondary text
 
 SLIDE_W, SLIDE_H = Inches(13.333), Inches(7.5)
 MARGIN = Inches(0.7)
@@ -171,7 +173,7 @@ def set_background(slide):
     fill.fore_color.rgb = BACKGROUND
 
 
-def add_bar(slide, left, top, width, height, color=GOLD):
+def add_bar(slide, left, top, width, height, color=ACCENT):
     shape = slide.shapes.add_shape(MSO_SHAPE.RECTANGLE, left, top, width, height)
     shape.fill.solid()
     shape.fill.fore_color.rgb = color
@@ -298,16 +300,16 @@ def title_size(title, largest):
 
 
 def style_theme(prs):
-    """Gold links and the deck's fonts in the theme, so links read on the dark
+    """Accent links and the deck's fonts in the theme, so links read on the dark
     background and any default text uses DM Serif Display and Outfit."""
     try:
         part = prs.slide_master.part.part_related_by(RT.THEME)
         xml = part.blob.decode("utf-8")
     except (KeyError, AttributeError, UnicodeDecodeError):
         return
-    gold = "%02X%02X%02X" % (GOLD[0], GOLD[1], GOLD[2])
-    xml = re.sub(r"<a:hlink>.*?</a:hlink>", f'<a:hlink><a:srgbClr val="{gold}"/></a:hlink>', xml, count=1, flags=re.S)
-    xml = re.sub(r"<a:folHlink>.*?</a:folHlink>", f'<a:folHlink><a:srgbClr val="{gold}"/></a:folHlink>', xml, count=1, flags=re.S)
+    accent = "%02X%02X%02X" % (ACCENT[0], ACCENT[1], ACCENT[2])
+    xml = re.sub(r"<a:hlink>.*?</a:hlink>", f'<a:hlink><a:srgbClr val="{accent}"/></a:hlink>', xml, count=1, flags=re.S)
+    xml = re.sub(r"<a:folHlink>.*?</a:folHlink>", f'<a:folHlink><a:srgbClr val="{accent}"/></a:folHlink>', xml, count=1, flags=re.S)
     xml = re.sub(r'(<a:majorFont>\s*<a:latin typeface=")[^"]*"', rf'\g<1>{HEADING_FONT}"', xml, count=1)
     xml = re.sub(r'(<a:minorFont>\s*<a:latin typeface=")[^"]*"', rf'\g<1>{BODY_FONT}"', xml, count=1)
     part._blob = xml.encode("utf-8")
@@ -346,13 +348,13 @@ def title_slide(prs, b):
     s = prs.slides.add_slide(prs.slide_layouts[6])
     set_background(s)
     add_bar(s, MARGIN, Inches(0.9), Inches(1.2), Inches(0.08))
-    add_text(s, MARGIN, Inches(1.1), Inches(11.5), Inches(0.5), [[body_run("Learning briefing", 18, GOLD)]])
+    add_text(s, MARGIN, Inches(1.1), Inches(11.5), Inches(0.5), [[body_run("Learning briefing", 18, ACCENT)]])
     add_text(s, MARGIN, Inches(1.6), Inches(11.9), Inches(1.2), [[heading_run(long_date(b["date"]), 44)]])
     topics = b["topics"]
     if topics:
         rows = []
         for n, t in enumerate(topics, start=1):
-            rows.append([heading_run(f"{n}  ", 22, GOLD), body_run(t["title"], 20),
+            rows.append([heading_run(f"{n}  ", 22, ACCENT), body_run(t["title"], 20),
                          body_run(f"   {lane_label(t)}", 13, MUTED)])
         add_text(s, MARGIN, Inches(3.0), Inches(11.9), Inches(3.4), rows, shrink=True)
         minutes = sum(t["reading_minutes"] for t in topics)
@@ -377,10 +379,10 @@ def topic_header(prs, t, n, total, section):
     set_background(s)
     width = SLIDE_W - 2 * MARGIN
     add_text(s, MARGIN, Inches(0.35), width, Inches(0.33),
-             [[body_run(f"Topic {n} of {total}  |  {lane_label(t)}", 14, GOLD)]])
+             [[body_run(f"Topic {n} of {total}  |  {lane_label(t)}", 14, ACCENT)]])
     add_text(s, MARGIN, Inches(0.66), width, Inches(0.7), [[heading_run(t["title"], title_size(t["title"], 26))]],
              anchor=MSO_ANCHOR.MIDDLE, shrink=True)
-    add_text(s, MARGIN, Inches(1.4), width, Inches(0.42), [[heading_run(section, 20, GOLD)]])
+    add_text(s, MARGIN, Inches(1.4), width, Inches(0.42), [[heading_run(section, 20, ACCENT)]])
     return s
 
 
@@ -424,7 +426,7 @@ def topic_slides(prs, t, n, total):
     size = read_first_size(t["read_first"], list_w, list_h)
     rows = []
     for r in t["read_first"]:
-        rows.append([body_run(r["title"], size + 2, GOLD, url=r["url"], space_after=2, line_spacing=BODY_LINE_SPACING)])
+        rows.append([body_run(r["title"], size + 2, ACCENT, url=r["url"], space_after=2, line_spacing=BODY_LINE_SPACING)])
         rows.append([body_run(read_meta(r), size, MUTED, space_after=12, line_spacing=BODY_LINE_SPACING)])
     if not rows:
         rows = [[body_run("No links for this topic.", BODY_TARGET_MIN, MUTED)]]
@@ -435,7 +437,7 @@ def topic_slides(prs, t, n, total):
     add_bar(s3, card_left, card_top, card_w, card_h, PANEL)
     add_bar(s3, card_left, card_top, Inches(0.08), card_h)
     add_text(s3, card_left + Inches(0.35), card_top + Inches(0.2), card_w - Inches(0.6), Inches(0.5),
-             [[heading_run("Open question", 20, GOLD)]])
+             [[heading_run("Open question", 20, ACCENT)]])
     question_w, question_h = card_w - Inches(0.6), card_h - Inches(1.0)
     question_size = body_size(t["open_question"], question_w, question_h, (22, 20, 18, 16, 14, 12),
                               line_height=HEADING_LINE_HEIGHT)
@@ -463,7 +465,7 @@ def closing_slide(prs, b):
         made = "Built from the feeds without a model today."
     add_text(s, MARGIN, Inches(3.6), Inches(11.0), Inches(2.0),
              [[body_run(how, 18, space_after=12)], [body_run(made, 16, MUTED)]])
-    add_text(s, MARGIN, Inches(6.6), Inches(11.9), Inches(0.5), [[body_run(long_date(b["date"]), 14, GOLD)]])
+    add_text(s, MARGIN, Inches(6.6), Inches(11.9), Inches(0.5), [[body_run(long_date(b["date"]), 14, ACCENT)]])
     return s
 
 
