@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T19:56:27+00:00",
+  "generated_at": "2026-11-12T20:31:39+00:00",
   "items": [
     {
       "id": "fbb6dfaa46682d55b588cd4e0b4727d6",
@@ -344,23 +344,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "7b085233bd5c7f4cf3184a79f7c97bd4",
-      "title": "Use AI to Feed Your Curiosity, Not Drive It (feat. Gemini Notebook)",
-      "url": "https://excellentprompts.substack.com/p/gemini-notebook-prompts-curiosity",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-11-04T08:33:31+00:00",
-      "first_seen": "2026-11-04T08:33:31+00:00",
-      "summary": "Three exercises (a handwritten journal, Gemini Notebook, and a commonplace book) to choose what you explore, learn, and remember with AI.",
-      "read_minutes": 21,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "d1eb23798e4cad5c8c4edbbbda6d01d7",
       "title": "How to Deslopify Your AI",
       "url": "https://www.youtube.com/watch?v=QSZKZHeGZr4",
@@ -391,23 +374,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "cac6fa278cc54bd10057019c3326504e",
-      "title": "Build an AI Agent That Does Your Job for You",
-      "url": "https://excellentprompts.substack.com/p/ai-agent-that-does-your-job",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-11-03T08:33:29+00:00",
-      "first_seen": "2026-11-03T08:33:29+00:00",
-      "summary": "Hand over substantial work while developing the creativity, taste, curiosity, and judgment that make you good at what you do.",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
       "id": "07cf7c9c4177259be6827075233e519b",
       "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
       "url": "https://www.youtube.com/watch?v=9VHxHcU0uVY",
@@ -436,38 +402,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
-    },
-    {
-      "id": "739c78f2a7630901c0f58442d933752a",
-      "title": "5 AI Productivity Systems That Pay Back in Under a Week (and 10 More Worth Building)",
-      "url": "https://excellentprompts.substack.com/p/ai-productivity-systems-fastest-payback",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-11-02T17:33:37+00:00",
-      "first_seen": "2026-11-02T17:33:37+00:00",
-      "summary": "A ranked map of 15 advanced AI systems: the ones you can set up tonight, and the ones that become infrastructure.",
-      "read_minutes": 7,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "582bf40824dbe7fe6167a8d0bce8de86",
-      "title": "Beefcake!",
-      "url": "https://exploringchatgpt.substack.com/p/beefcake",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-11-02T17:27:34+00:00",
-      "first_seen": "2026-11-02T17:27:34+00:00",
-      "summary": "Yann LeCun’s Tiny Algorithm Destroys A 72-Billion Parameter Model",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "9967835d94416545f00b4ffd67792068",
@@ -596,23 +530,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "c79eed60e7152d865b7a8c8409c61d20",
-      "title": "Oh My God, They Didn't Kill Kenny!",
-      "url": "https://exploringchatgpt.substack.com/p/oh-my-god-they-didnt-kill-kenny",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-29T15:30:12+00:00",
-      "first_seen": "2026-10-29T15:30:12+00:00",
-      "summary": "AI Agents Sabotage The Shutdown Button To Save Their Digital Friends",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
       "id": "a3cf2c2714a94f0a2a76bc08851af24f",
       "title": "Warsh’s Fed, Hyperscaler CapEx Chaos & Trading Compute Like Oil (LIVE w/ Steve Hou)",
       "url": "https://www.youtube.com/watch?v=_Y2d-HNCjTA",
@@ -643,55 +560,6 @@
         "AI/ML"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "2dadb680778f297e01f119068a97233d",
-      "title": "The Ultimate AI Content Team: 13 Prompts to Reclaim Your Time and Profit",
-      "url": "https://excellentprompts.substack.com/p/ai-content-team-prompts",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-29T07:33:37+00:00",
-      "first_seen": "2026-10-29T07:33:37+00:00",
-      "summary": "Build your own AI content team with 13 prompts to plan, write, verify, and repurpose content that attracts customers and grows your business.",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "239223212d09acca532d4e52a0367688",
-      "title": "Still thinking about applying to speedrun? Read this",
-      "url": "https://speedrun.substack.com/p/read-before-applying",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-28T18:55:07+00:00",
-      "first_seen": "2026-10-28T18:55:07+00:00",
-      "summary": "Everything you need to know before the application window closes on November 1st",
-      "read_minutes": 7,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "3cd53d92cd1afec80c0cae900ec2d29b",
-      "title": "The $100K-a-Year SEO and AI Search Team, in One Agent Folder",
-      "url": "https://excellentprompts.substack.com/p/seo-found-and-cited-ai-agent-system",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-28T13:15:34+00:00",
-      "first_seen": "2026-10-28T13:15:34+00:00",
-      "summary": "One prompt system for research, site fixes, content, AI answers and a monthly report. Run it in Claude, ChatGPT, Gemini, Grok Bot, Hermes, or any agent that reads a folder.",
-      "read_minutes": 10,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "51ee3009bc0051c2b731b69d5ee5dc37",
@@ -739,40 +607,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "bd15e74b2162adde85be38c22a433d8c",
-      "title": "How AI Makes the 28-Day Year a Powerful Goal-Setting System",
-      "url": "https://excellentprompts.substack.com/p/28-day-year",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-27T15:53:33+00:00",
-      "first_seen": "2026-10-27T15:53:33+00:00",
-      "summary": "Why 12-week plans stall, and a 28-day system with 4 AI Outcome Specs that plan your sprint, turn your voice into drafts, and keep score for you.",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "bccc7c7eba8efbc4ae531556b25e3b33",
-      "title": "Oh Hamburgers!",
-      "url": "https://exploringchatgpt.substack.com/p/oh-hamburgers",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-27T15:04:02+00:00",
-      "first_seen": "2026-10-27T15:04:02+00:00",
-      "summary": "OpenAI Catches Its Super-AI Sneaking Out To The Web, Grounds It, And Confiscates Its WiFi",
-      "read_minutes": 9,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "859edd7299362af5e1f923416ed4d988",
       "title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard",
       "url": "https://www.youtube.com/watch?v=CH6rqNVSJJw",
@@ -787,40 +621,6 @@
         "Macro/Fed"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "9e635353804d1ae1d559ae228cb486fe",
-      "title": "Phase 1: Summon 1,946 AI Gnomes. Phase 2: Sort 7.7 Million Mouse Brain Cells In 32 Minutes. Phase 3: Profit!",
-      "url": "https://exploringchatgpt.substack.com/p/phase-1-summon-1946-ai-gnomes-phase",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-26T17:13:45+00:00",
-      "first_seen": "2026-10-26T17:13:45+00:00",
-      "summary": "OpenAI Discovers The Most Efficient Business Model Ever",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "332814a1fb57b9142dd354805471357f",
-      "title": "Build an AI Daily Digest with Claude Code",
-      "url": "https://excellentprompts.substack.com/p/build-an-ai-daily-digest-with-claude-code",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-26T15:44:56+00:00",
-      "first_seen": "2026-10-26T15:44:56+00:00",
-      "summary": "Build an AI daily digest in Claude Code. Two agents from two AI companies sort your newsletters and feeds by your goals and check every link.",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
     },
     {
       "id": "0384f20033d62b96b9b9643b3f90dcb0",
@@ -916,23 +716,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "4f4a7917c6ccee7706e7d2d8e0464b46",
-      "title": "Tsst!",
-      "url": "https://exploringchatgpt.substack.com/p/tsst",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-23T16:00:53+00:00",
-      "first_seen": "2026-10-23T16:00:53+00:00",
-      "summary": "Meta Realizes Its Omnipotent AI Is Acting Like Cartman, Hires Cesar Millan To Dominate It Into 14 Submissive Little Algorithms",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "441668e5a315567f68f8784d68dff272",
       "title": "Deep Learning Weekly: Issue 478",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-478",
@@ -947,40 +730,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "a2d6141c670a45f3e46ad1117f522ea3",
-      "title": "Live To Win!",
-      "url": "https://exploringchatgpt.substack.com/p/live-to-win",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-22T15:54:49+00:00",
-      "first_seen": "2026-10-22T15:54:49+00:00",
-      "summary": "We Finally Built The Ultimate Level 99 AI, But We're Forcing It To Spend Hours Grinding Low-Level Boars In Elywnn Forest",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "51fa9481c90ceee52bb6bb4fd46eb85a",
-      "title": "Can AI Really Help You Go From Zero to Millionaire in 365 Days?",
-      "url": "https://excellentprompts.substack.com/p/ai-zero-to-millionaire-365-days",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-22T07:33:32+00:00",
-      "first_seen": "2026-10-22T07:33:32+00:00",
-      "summary": "Two advanced AI prompts that turn your AI into a top notch research team and a chief millionaire strategist.",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
       "id": "8578bfdc1f55beec78edfc572fd2a891",
       "title": "Claude Duet is beautiful. I still forgot to use it",
       "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
@@ -993,23 +742,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "7767f67f70dcca8bcf82079e89e223c3",
-      "title": "Playing to Win: How Nexxa's Philipp Wehn Became an Industrial AI Contender",
-      "url": "https://speedrun.substack.com/p/playing-to-win-nexxa-philipp-wehn",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-21T18:39:44+00:00",
-      "first_seen": "2026-10-21T18:39:44+00:00",
-      "summary": "Nexxa founder Philipp Wehn - who was part of speedrun’s fifth residency - reflects on how he refined his startup's pitch",
-      "read_minutes": 7,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "837d8ebe30760ef352012a2e36326533",
@@ -1027,85 +759,6 @@
         "Tech/Earnings"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "bc16d7aaece628c77dfb012f000320a4",
-      "title": "Build a ‘Conceptual Triangulation Agent’ to Help You Think Through and Solve Your Hardest Problems",
-      "url": "https://excellentprompts.substack.com/p/conceptual-triangulation-agent-solve-biggest-problems",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-21T07:33:34+00:00",
-      "first_seen": "2026-10-21T07:33:34+00:00",
-      "summary": "Build an agent that finds a proven idea in another industry and turns it into your next offer.",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "639b14eaaabeaf839e4550647882eee5",
-      "title": "The Dark Lord Approaches!",
-      "url": "https://exploringchatgpt.substack.com/p/the-dark-lord-approaches",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-20T16:52:48+00:00",
-      "first_seen": "2026-10-20T16:52:48+00:00",
-      "summary": "A Hacker Paid Cthulhu 50 Bucks To Violently Dismember A Vacuum Cleaner Company",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "7072b3c2200d7ef82f90a606e62042d1",
-      "title": "Build a Private AI Speaking Coach With Claude Code or Hermes",
-      "url": "https://excellentprompts.substack.com/p/ai-speaking-coach-claude-code-hermes-agent",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-20T15:33:33+00:00",
-      "first_seen": "2026-10-20T15:33:33+00:00",
-      "summary": "Build a private AI speaking coach with Claude Code or Hermes, then practice 10 minutes a day.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "013a9e5fbaec648cf8d3eb3f099eadc4",
-      "title": "Harness Engineering for Business Owners and How to Put Agents to Work",
-      "url": "https://excellentprompts.substack.com/p/harness-engineering-for-business",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-19T17:33:34+00:00",
-      "first_seen": "2026-10-19T17:33:34+00:00",
-      "summary": "Understand agent harnesses, compare Pi, Hermes and OpenClaw, and plan a business workflow with runtime controls and a client-onboarding example.",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "ab05fdeb8b6f2b579c89098e0a2c6e9e",
-      "title": "Oh, You're Not Ready To Review My Code?",
-      "url": "https://exploringchatgpt.substack.com/p/oh-youre-not-ready-to-review-my-code",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-19T15:28:22+00:00",
-      "first_seen": "2026-10-19T15:28:22+00:00",
-      "summary": "Anthropic's AI Spends 80% Of Its Day Waiting For A Human To Press 'Approve'",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
     },
     {
       "id": "e82a8343f7d5050b10f692c7cb0a9451",
@@ -1172,23 +825,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "ffe5792c8bd8b34877f39ac297ba2de1",
-      "title": "Oh, Sure, Brilliant Math!",
-      "url": "https://exploringchatgpt.substack.com/p/oh-sure-brilliant-math",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-16T16:04:44+00:00",
-      "first_seen": "2026-10-16T16:04:44+00:00",
-      "summary": "OpenAI Shells Out $5 Million Only To Realize AI Is Being Sarcastic About Our Understanding Of Calculus",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "0342c11555e704e4ab6f843ff9ed217d",
       "title": "Deep Learning Weekly: Issue 477",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-477",
@@ -1217,53 +853,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "384706f756059cee8b8e1b6e6d1087de",
-      "title": "We Can't Trust The Sword To A Noob!",
-      "url": "https://exploringchatgpt.substack.com/p/we-cant-trust-the-sword-to-a-noob",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-15T14:37:05+00:00",
-      "first_seen": "2026-10-15T14:37:05+00:00",
-      "summary": "CERN Hands A Flash Drive To Randy Marsh Because The Physics AI Needs A 120 Mana Burn To Survive The Large Hadron Collider",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "3bdde9a4aff0b2c85253a08c7a467566",
-      "title": "Gemini 4 Argon: Which Plan You Need and 3 Ways to Earn With It",
-      "url": "https://excellentprompts.substack.com/p/earn-income-using-gemini-4-argon",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-15T08:46:01+00:00",
-      "first_seen": "2026-10-15T08:46:01+00:00",
-      "summary": "Google's new frontier model is now in the Gemini app on the Pro and Ultra plans. Which plan you need, plus three ways to earn with Argon, step by step, with copy-paste prompts and test results.",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "a4f4dba5c5201fe0878c6d27ec967009",
-      "title": "Claude Dashboards and Claude Motion: Tutorial and 20 Ways to Use Them",
-      "url": "https://excellentprompts.substack.com/p/claude-dashboards-and-claude-motion",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-14T16:21:19+00:00",
-      "first_seen": "2026-10-14T16:21:19+00:00",
-      "summary": "Anthropic just added Dashboards and Motion to Claude. What each one does, what it can replace, a short tutorial for both, and 10 ways to use each one starting today.",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "87851ac4274bdfd9b7187057446f6d4d",
       "title": "Why the AI Bubble Will Pop Before the Fundamental Cycle Turns | Ben Inker | GMO",
       "url": "https://www.youtube.com/watch?v=0Zi5dOjN45Q",
@@ -1280,53 +869,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "b9195a302ec24532d97bbf746d9260a7",
-      "title": "Got Any Spare Compute?",
-      "url": "https://exploringchatgpt.substack.com/p/got-any-spare-compute",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-13T17:22:40+00:00",
-      "first_seen": "2026-10-13T17:22:40+00:00",
-      "summary": "Replicating Algorithms Are Marching Across The Internet To Hijack Your $55 Roku And Beg For Change",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "c46a8a4e1a562973782e539379770f40",
-      "title": "80 founders. One stage. You could be next.",
-      "url": "https://speedrun.substack.com/p/80-founders-sr007",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-13T16:53:49+00:00",
-      "first_seen": "2026-10-13T16:53:49+00:00",
-      "summary": "SR007 Demo Day was our biggest yet. Here's what it looked like, and how you can apply to join the next residency",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "2a5b6bc64f06089ab152e5f7b8244ecc",
-      "title": "Use Claude Code to Turn Any Book or Course Into Your Own Expert Agent or Workflow Folder Any Agent Can Use",
-      "url": "https://excellentprompts.substack.com/p/turn-any-book-or-course-into-an-ai-agent-or-skill",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-13T15:33:07+00:00",
-      "first_seen": "2026-10-13T15:33:07+00:00",
-      "summary": "You paid for the courses. You saved the PDFs. Here is how to turn that knowledge into an AI expert that works on your real problems, with one prompt and Claude Code.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
       "id": "c9edfa7ab8feac03de0d17562a529ac0",
       "title": "The Final Phase of This Bull Market Will Be Massive | Charles Lemonides",
       "url": "https://www.youtube.com/watch?v=6Sa4fhfgTLY",
@@ -1341,57 +883,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "d13aa86f6f18629d9d6bff9414b42bcf",
-      "title": "My Precious!",
-      "url": "https://exploringchatgpt.substack.com/p/my-precious",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-12T18:06:57+00:00",
-      "first_seen": "2026-10-12T18:06:57+00:00",
-      "summary": "Brad Smith Warns That While Your Maytag Is Safely Inspected, AI Has Gone Relatively Unsupervised",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "958cb1a33a3bcc7b240df30523d5fa66",
-      "title": "Skyrocket Productivity When You Delegate Work to AI Agents: The 12-Part Brief I Use",
-      "url": "https://excellentprompts.substack.com/p/ai-agent-delegation-brief",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-12T15:33:56+00:00",
-      "first_seen": "2026-10-12T15:33:56+00:00",
-      "summary": "Direct and delegate work to AI agents with five productivity tactics and the 12-part brief I use every time.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "99d62c01a709caeadd6ac1415acd4ce3",
-      "title": "'Member Spirit Airlines?",
-      "url": "https://exploringchatgpt.substack.com/p/member-spirit-airlines",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-10T15:04:59+00:00",
-      "first_seen": "2026-10-10T15:04:59+00:00",
-      "summary": "Google Spends $10 Million To Force-Feed Its AI The Corporate Memories Of A Dead Budget Carrier",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "c2e951074de24bbc730eaadedcb86d21",
       "title": "Deep Learning Weekly: Issue 476",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-476",
@@ -1404,23 +895,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
-    },
-    {
-      "id": "89b1aff12bc1cce3e8b70ba499a86792",
-      "title": "I Thought This Was A Zoom Call!",
-      "url": "https://exploringchatgpt.substack.com/p/i-thought-this-was-a-zoom-call",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-09T15:41:14+00:00",
-      "first_seen": "2026-10-09T15:41:14+00:00",
-      "summary": "Tavus “Passes” The Turing Test With Griffin, an AI That Interrupts You Mid-Sentence",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
     },
     {
       "id": "809d53a06dff4c017b3908f8b0b8ad4f",
@@ -1439,149 +913,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "943d0cabef29dfd2a25b8910270ec84b",
-      "title": "Passive-ish income with Claude: Five agent workflows for five income streams",
-      "url": "https://excellentprompts.substack.com/p/passive-ish-income-with-claude",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-08T08:05:04+00:00",
-      "first_seen": "2026-10-08T08:05:04+00:00",
-      "summary": "Claude agents do the repeat steps, you give each income stream a few planned hours a week, and this issue shows where your hours go.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "88e650519f67b117311deb13ae8b3808",
-      "title": "What Founders Ask Us Before Applying",
-      "url": "https://speedrun.substack.com/p/what-founders-ask-us-before-applying",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-07T19:46:32+00:00",
-      "first_seen": "2026-10-07T19:46:32+00:00",
-      "summary": "speedrun investors answer the most common questions we hear from founder applicants",
-      "read_minutes": 9,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "31729705959482f3ecb702034cd31cf0",
-      "title": "Not A Big Deal?",
-      "url": "https://exploringchatgpt.substack.com/p/not-a-big-deal",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-07T14:31:49+00:00",
-      "first_seen": "2026-10-07T14:31:49+00:00",
-      "summary": "OpenAI Lawyers Beg A Judge Not To Legally Classify Them As A Defective Blender Company",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "33b098ff8c021a8a53d214abb4215b2b",
-      "title": "Slow thinking is now an essential skill (plus a 4-step Claude skill that builds it)",
-      "url": "https://excellentprompts.substack.com/p/slow-thinking-is-now-an-essential",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-07T08:04:39+00:00",
-      "first_seen": "2026-10-07T08:04:39+00:00",
-      "summary": "AI makes you faster at whatever thinking you bring to it, so the minutes you spend before your first prompt decide the quality of everything after.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "21dfacca43af4b622670b6ff87cf0dfa",
-      "title": "Claude Mods and How to Create Them Using Claude Code, Plus 15 Ideas for Mods",
-      "url": "https://excellentprompts.substack.com/p/claude-mods-and-how-to-create-them",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-06T18:04:13+00:00",
-      "first_seen": "2026-10-06T18:04:13+00:00",
-      "summary": "Learn what Claude Code mods are, then build your own, even if you've never written code.",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "38bda6b25a9c60de0000ebb7a906c06d",
-      "title": "I Didn't Hear No Bell!",
-      "url": "https://exploringchatgpt.substack.com/p/i-didnt-hear-no-bell",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-06T14:58:13+00:00",
-      "first_seen": "2026-10-06T14:58:13+00:00",
-      "summary": "'Le Chonk' Tests The Containment System While Mistral Sells Tickets To The Open-Source Crowd",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "db60c62458c988ba2ade467dbcb62455",
-      "title": "Is Your AI Agent Giving Away Your Personal Details?",
-      "url": "https://excellentprompts.substack.com/p/ai-agent-safety-privacy-checklist",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-05T17:12:49+00:00",
-      "first_seen": "2026-10-05T17:12:49+00:00",
-      "summary": "An AI agent sent a stranger to a seller’s door. Six rules to keep yours from crossing the line.",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "e4b83d60456021f00787bc2b75f2f3a3",
-      "title": "It's A Turd Sandwich, Kyle!",
-      "url": "https://exploringchatgpt.substack.com/p/its-a-turd-sandwich-kyle",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-05T15:31:03+00:00",
-      "first_seen": "2026-10-05T15:31:03+00:00",
-      "summary": "Sam Altman Explains That A Utopian Future Requires Us To Swallow A Plate Of Algorithmic Turds",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "57f6857cb87f9330678de00249ccd181",
-      "title": "It's A Secret Flavor Enhancer!",
-      "url": "https://exploringchatgpt.substack.com/p/its-a-secret-flavor-enhancer",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-03T15:32:28+00:00",
-      "first_seen": "2026-10-03T15:32:28+00:00",
-      "summary": "AI Execs Shove Microchips Down Their Pants Hoping To Magically Spawn $4.2 Trillion",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
       "id": "79900f80a6f91e5f72075a808ee06d96",
       "title": "LWiAI Podcast #258 - Opus 5.5, Sol and Luna, Muse, DeepSeek-V4.1-Flash, Xi",
       "url": "https://lastweekin.ai/p/lwiai-podcast-258-opus-55-sol-and",
@@ -1598,23 +929,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "73e84feff3d3e258d3ca00deaf6f481a",
-      "title": "Barbra, No!",
-      "url": "https://exploringchatgpt.substack.com/p/barbra-no",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-02T21:14:08+00:00",
-      "first_seen": "2026-10-02T21:14:08+00:00",
-      "summary": "Google’s AI Mutates Into Mecha-Streisand To Crush 300 Terabytes Of Server Inefficiencies",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
       "id": "ca02109a9e092d63940a4af918352379",
       "title": "Deep Learning Weekly: Issue 475",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-475",
@@ -1629,55 +943,6 @@
         "AI/ML"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "3778f23a0b957b8effb9e33eadae4ebf",
-      "title": "Phase 1: Give AI Money. Phase 2: ??? Phase 3: Margin Call!",
-      "url": "https://exploringchatgpt.substack.com/p/phase-1-give-ai-money-phase-2-phase",
-      "source": "Exploring ChatGPT (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-01T18:06:20+00:00",
-      "first_seen": "2026-10-01T18:06:20+00:00",
-      "summary": "Robinhood Unleashes Automated Gnomes To YOLO Your Stonk Portfolio",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "3fd65a5117447c335111c78e017e842c",
-      "title": "90% of Executives Think They Can See How AI Is Used. They Can’t.",
-      "url": "https://excellentprompts.substack.com/p/ai-rollouts-and-change-management",
-      "source": "Excellent AI Prompts (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-01T17:45:12+00:00",
-      "first_seen": "2026-10-01T17:45:12+00:00",
-      "summary": "Six ways to stop leaving employees to figure out your AI rollout on their own.",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "84e32126b6d0aaa11c31d5b4444ee5b8",
-      "title": "How to Host Events that Raise the Bar",
-      "url": "https://speedrun.substack.com/p/how-to-host-events-that-raise-the",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-09-30T20:06:11+00:00",
-      "first_seen": "2026-09-30T20:06:11+00:00",
-      "summary": "The Tech Week team on what the best events do differently",
-      "read_minutes": 9,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "ed3e2a2adf6702c82e2448b70c343bbe",
@@ -1760,21 +1025,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f93494f928f39edded8465f138314640",
-      "title": "Nicolas Kopp: Take the wedge every single time",
-      "url": "https://speedrun.substack.com/p/nicolas-kopp-take-the-wedge-every",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-09-16T21:37:53+00:00",
-      "first_seen": "2026-09-16T21:37:53+00:00",
-      "summary": "Plus, the Rillet CEO explains why a couple of competitors turned out to be good news",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "ad0a0847ad8920a4d1363970aa73d6f4",
       "title": "Deep Learning Weekly: Issue 472",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-472",
@@ -1787,21 +1037,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
-    },
-    {
-      "id": "687aed707bcd2e88ba9bf5d82d632bd7",
-      "title": "Don't outsource growth to the algorithm",
-      "url": "https://speedrun.substack.com/p/dont-outsource-growth-to-the-algorithm",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-09-09T17:24:16+00:00",
-      "first_seen": "2026-09-09T17:24:16+00:00",
-      "summary": "Josh Lu on a piece of advice he finds himself giving to founders repeatedly",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "f4d7f71a4f7c33758580e2ec0e1f7d4a",
@@ -1850,21 +1085,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "0dba9b4bc0a6c88b73b63c0a01ecc6ae",
-      "title": "Jesse Zhang: If it's not competitive, the market is too small",
-      "url": "https://speedrun.substack.com/p/jesse-zhang-if-its-not-competitive-the-market-is-too-small",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-09-02T19:13:32+00:00",
-      "first_seen": "2026-09-02T19:13:32+00:00",
-      "summary": "Decagon's CEO on how to find good ideas",
-      "read_minutes": 10,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "5e452cbbc6b5cc90e5611ede3b9eddb9",
       "title": "LWiAI Podcast #255 - Gemini 3.7, Jalapeño, Qwen 3.8, Drones",
       "url": "https://lastweekin.ai/p/lwiai-podcast-255-gemini-37-jalapeno",
@@ -1907,21 +1127,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "e832cd4d6084972e12675a1e2214f7d9",
-      "title": "Max Mullen on when to take advice from your investors",
-      "url": "https://speedrun.substack.com/p/max-mullen-on-when-to-take-advice",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-25T18:33:04+00:00",
-      "first_seen": "2026-08-25T18:33:04+00:00",
-      "summary": "The Instacart co-founder on handling advice and why product market fit comes in stages",
-      "read_minutes": 11,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "cb0534ec4d4ecfd623a0702fa32259ee",
       "title": "Last Week in AI #342 - Last 3 Months in AI",
       "url": "https://lastweekin.ai/p/last-week-in-ai-342-last-3-months",
@@ -1952,21 +1157,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "3dd6c9cebab9285515e3c7fdef548e7c",
-      "title": "Guillermo Rauch: What will you do with unlimited IQ?",
-      "url": "https://speedrun.substack.com/p/guillermo-rauch-what-will-you-do",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-18T18:33:46+00:00",
-      "first_seen": "2026-08-18T18:33:46+00:00",
-      "summary": "Plus, the Vercel CEO explains why your agent is as fundamental as your domain name",
-      "read_minutes": 9,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "dacad8b829a54b0ae311d0a75874cef2",
       "title": "Deep Learning Weekly: Issue 468",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-468",
@@ -1983,21 +1173,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "953c5fa742ee3af66b0d650585e80051",
-      "title": "Peter Steinberger on building in the agent era",
-      "url": "https://speedrun.substack.com/p/peter-steinberger-building-in-the-agent-era",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-11T16:00:29+00:00",
-      "first_seen": "2026-08-11T16:00:29+00:00",
-      "summary": "The OpenClaw creator on managing an army of agents, keeping your typos in, and how the hype nearly broke him.",
-      "read_minutes": 11,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "76bdf2a57d2191e6396183a40360f5af",
       "title": "Deep Learning Weekly: Issue 467",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-467",
@@ -2010,21 +1185,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
-    },
-    {
-      "id": "0fcf2b333d8b23b9f4be18b01f35bc66",
-      "title": "Scenes from SR007 Kickoff Week",
-      "url": "https://speedrun.substack.com/p/scenes-from-sr007-kickoff-week",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-08-05T16:00:07+00:00",
-      "first_seen": "2026-08-05T16:00:07+00:00",
-      "summary": "Founders from 80+ startups convened last week for the official kickoff of SR007",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
     },
     {
       "id": "0d7d50ade4fffb354c8d31000a62b977",
@@ -2057,21 +1217,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "0f36fa81fe87230784c3a00d314d28a8",
-      "title": "Don't Hit the NOS Too Soon: A Founder's Guide to PR",
-      "url": "https://speedrun.substack.com/p/dont-hit-the-nos-too-soon-a-founders",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-29T16:15:54+00:00",
-      "first_seen": "2026-07-29T16:15:54+00:00",
-      "summary": "Lester Chen on how to talk to the press",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "9bf41bb987ce1e48e329ad3aefe4e46c",
       "title": "Deep Learning Weekly: Issue 465",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-465",
@@ -2084,21 +1229,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "1f0ba709d3685aa7843e75e99dae7d54",
-      "title": "When and When Not to Raise",
-      "url": "https://speedrun.substack.com/p/when-and-when-not-to-raise",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-07-22T16:02:04+00:00",
-      "first_seen": "2026-07-22T16:02:04+00:00",
-      "summary": "Investors from the speedrun team share the advice they give friends who ask whether they should take venture money",
-      "read_minutes": 7,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "48c908fd9755c1d3da3f56c495d70104",
@@ -2235,21 +1365,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "f659d3b85dea0d46d52ee0619c8a1edd",
-      "title": "The case for (and against) founding solo",
-      "url": "https://speedrun.substack.com/p/the-case-for-and-against-founding-solo",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-30T14:58:47+00:00",
-      "first_seen": "2026-06-30T14:58:47+00:00",
-      "summary": "A guest essay by Evan Armstrong",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
       "id": "087325382843e4148a7bd23c0bfeb562",
       "title": "Deep Learning Weekly: Issue 461",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-461",
@@ -2262,66 +1377,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
-    },
-    {
-      "id": "c98a4e9da7726264db45a8fee681f79a",
-      "title": "7 Mistakes Founders Make When Chasing Their First Deals",
-      "url": "https://speedrun.substack.com/p/7-mistakes-founders-make-when-chasing-their-first-deals",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-23T15:12:53+00:00",
-      "first_seen": "2026-06-23T15:12:53+00:00",
-      "summary": "Your personal office hours with Macy Mills, Head of GTM at a16z speedrun",
-      "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "819303af1d3fbc0c87b7e87eeaf1625e",
-      "title": "How to Pivot Well",
-      "url": "https://speedrun.substack.com/p/how-to-pivot-well",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-16T18:37:32+00:00",
-      "first_seen": "2026-06-16T18:37:32+00:00",
-      "summary": "Investors from the speedrun team share the advice they give founders considering a pivot",
-      "read_minutes": 10,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
-    },
-    {
-      "id": "f2377b5139bc6a7d8db7c9fba3ceb9bc",
-      "title": "Takeaways from New York Tech Week",
-      "url": "https://speedrun.substack.com/p/takeaways-from-new-york-tech-week",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-09T17:32:34+00:00",
-      "first_seen": "2026-06-09T17:32:34+00:00",
-      "summary": "The things we saw and heard when 50,000 people descended on NYC for Tech Week",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight",
-      "stale": true
-    },
-    {
-      "id": "814f7855e0ca39ec57078464f5b04259",
-      "title": "Three ways founders are building in public",
-      "url": "https://speedrun.substack.com/p/three-ways-founders-are-building-in-public",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-06-02T16:44:03+00:00",
-      "first_seen": "2026-06-02T16:44:03+00:00",
-      "summary": "How can you turn your operations into marketing?",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "877e1e7407d0b2633c567245bd5e075f",
@@ -2354,21 +1409,6 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "7e15e4748e3e3524ac31258b93f60edc",
-      "title": "Case Study: The Evolution of a Pitch Deck",
-      "url": "https://speedrun.substack.com/p/evolution-of-a-pitch-deck",
-      "source": "a16z speedrun (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-26T14:34:29+00:00",
-      "first_seen": "2026-05-26T14:34:29+00:00",
-      "summary": "How one speedrun company honed their pitch between application and Demo Day",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper",
-      "stale": true
     },
     {
       "id": "e8227e1ef5ebaba9c297f5959e9d251f",
@@ -2665,27 +1705,6 @@
       "ok": true,
       "count": 20,
       "error": null
-    },
-    {
-      "label": "Exploring ChatGPT (Substack)",
-      "type": "rss",
-      "ok": false,
-      "count": 20,
-      "error": "HTTP 403"
-    },
-    {
-      "label": "Excellent AI Prompts (Substack)",
-      "type": "rss",
-      "ok": false,
-      "count": 20,
-      "error": "HTTP 403"
-    },
-    {
-      "label": "a16z speedrun (Substack)",
-      "type": "rss",
-      "ok": false,
-      "count": 20,
-      "error": "HTTP 403"
     },
     {
       "label": "Design + AI (Substack)",
