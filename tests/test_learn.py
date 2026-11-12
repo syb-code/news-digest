@@ -1170,7 +1170,9 @@ class RenderTests(unittest.TestCase):
         self.tmp = tempfile.mkdtemp()
         self.docs = os.path.join(self.tmp, "docs")
         self.seen = os.path.join(self.tmp, "seen.json")
-        shutil.copy(os.path.join(ROOT, "learn", "seen.json"), self.seen)
+        # Start from an empty log, never the repository's own, which fills with real topics.
+        with open(self.seen, "w", encoding="utf-8") as f:
+            json.dump({"version": 1, "topics": []}, f)
         self.briefing = extractive_briefing(self.tmp)
 
     def tearDown(self):
