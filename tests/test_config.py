@@ -16,7 +16,7 @@ class CommittedConfigTests(unittest.TestCase):
         self.assertEqual(cfg["schedule"], {"morning": "05:45", "noon": "12:00"})
         self.assertEqual(set(cfg["feeds"]) >= set(config.FEED_LISTS), True)
         self.assertEqual([y["handle"] for y in cfg["feeds"]["youtube"]],
-                         ["clearvaluetax9382", "AIDailyBrief", "Monetary-Matters"])
+                         ["AIDailyBrief", "Monetary-Matters"])
         self.assertEqual(len(cfg["feeds"]["rss"]), 7)
         self.assertEqual(cfg["feeds"]["rss"][1]["label"], "Lenny\u2019s Newsletter (Substack)")
         self.assertEqual(cfg["feeds"]["nitter_instances"], [])

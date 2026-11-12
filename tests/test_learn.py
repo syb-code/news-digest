@@ -1205,7 +1205,7 @@ class RenderTests(unittest.TestCase):
         self.assertEqual(len(prs.slides), 2 + 3 * 3)  # title, three per topic, closing
         fonts, colors, links = set(), set(), []
         for slide in prs.slides:
-            self.assertEqual(slide.background.fill.fore_color.rgb, RGBColor(0x0F, 0x2A, 0x1F))
+            self.assertEqual(slide.background.fill.fore_color.rgb, RGBColor(0x07, 0x07, 0x08))
             for shape in slide.shapes:
                 if not shape.has_text_frame:
                     if shape.fill.type is not None:
@@ -1218,7 +1218,7 @@ class RenderTests(unittest.TestCase):
                         if run.hyperlink.address:
                             links.append(run.hyperlink.address)
         self.assertEqual(fonts, {"DM Serif Display", "Outfit"})
-        self.assertIn("C9A227", colors)
+        self.assertEqual(colors, {"7ECECC", "EDEDEB", "9D9D9D"})  # the dashboard's dark palette
         self.assertIn("https://openai.example.com/index/introducing-gpt-5-5", links)
         self.assertTrue(all(link.startswith("https://") for link in links))
         title_texts = [s.text_frame.text for s in prs.slides[0].shapes if s.has_text_frame]

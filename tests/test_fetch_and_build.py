@@ -28,6 +28,8 @@ import requests
 import fetch_and_build as fab
 
 NOW = datetime(2026, 10, 15, 15, 0, tzinfo=timezone.utc)
+# The feed of the channel's uploads playlist: its id is the channel id with UU for UC.
+YT_PLAYLIST_URL = f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{CHANNEL_ID[2:]}"
 
 THEMES = {
     "Macro/Fed": ["fed", "fomc", "interest rates", "powell"],
@@ -326,6 +328,7 @@ class PipelineTestCase(unittest.TestCase):
             "DATA_OUT": os.path.join(self.tmp, "docs", "data", "items.json"),
             "TWITTER_OUT": os.path.join(self.tmp, "docs", "data", "twitter_posts.json"),
             "CHANNEL_CACHE": os.path.join(self.tmp, "data", "youtube_channels.json"),
+            "X_ACCOUNTS": os.path.join(self.tmp, "data", "x_accounts.json"),
         }
         for name, value in list(self.paths.items()) + [("RETRY_DELAY", 0)]:
             patcher = mock.patch.object(fab, name, value)
@@ -456,9 +459,117 @@ class CacheTests(PipelineTestCase):
         self.assertEqual(self.read("DATA_OUT")["sources"][0]["label"], "Example TV")
 
     def test_404_on_a_cached_channel_drops_it_from_the_cache(self):
+        # Gone means both of the channel's feeds answer 404, every time.
         self.run_main(FakeSession(self.routes()))
-        self.run_main(FakeSession(self.routes(**{YT_FEED_URL: status(404)})))
+        self.run_main(FakeSession(self.routes(**{YT_FEED_URL: status(404), YT_PLAYLIST_URL: status(404)})))
         self.assertEqual(self.read("CHANNEL_CACHE"), {})
+
+    def test_a_404_that_comes_and_goes_keeps_the_cached_channel(self):
+        self.run_main(FakeSession(self.routes()))
+        for playlist in (status(500), requests.ConnectionError("reset"), ok(b"<html>Sorry</html>")):
+            self.run_main(FakeSession(self.routes(**{YT_FEED_URL: status(404), YT_PLAYLIST_URL: playlist})))
+            self.assertEqual(self.read("CHANNEL_CACHE"), {"ExampleChannel": CHANNEL_ID})
+
+
+class YouTubeFeedTests(PipelineTestCase):
+    """YouTube's feed endpoint answers 404 and 500 on and off for GitHub's
+    runners: three tries, then the uploads-playlist feed, inside the source's
+    own time limit."""
+
+    def youtube_calls(self, session):
+        return [u for u in session.calls if "/feeds/videos.xml" in u]
+
+    def source(self):
+        return self.read("DATA_OUT")["sources"][0]
+
+    def test_the_playlist_feed_is_the_channel_feed_with_uu(self):
+        self.assertEqual(fab.youtube_playlist_feed_url(YT_FEED_URL), YT_PLAYLIST_URL)
+        self.assertTrue(YT_PLAYLIST_URL.endswith("playlist_id=UUabcdefghijklmnopqrstuv"))
+        for other in (None, "", SUBSTACK_URL, YT_PLAYLIST_URL, YT_FEED_URL + "x", YT_FEED_URL + "&a=1",
+                      YT_FEED_URL.replace("https://www.youtube.com", "https://evil.example")):
+            self.assertIsNone(fab.youtube_playlist_feed_url(other), other)
+
+    def test_a_404_then_a_500_then_the_feed(self):
+        feed = [status(404), status(500), ok(fixture_bytes("youtube_feed.xml"))]
+        session = FakeSession(self.routes(**{YT_FEED_URL: feed}))
+        out = self.run_main(session)
+        self.assertEqual(self.youtube_calls(session), [YT_FEED_URL] * 3)
+        self.assertEqual(self.source(), {"label": "@ExampleChannel", "type": "youtube", "ok": True, "count": 2, "error": None})
+        self.assertIn("[warn] @ExampleChannel: HTTP 404, retrying", out)
+        self.assertIn("[warn] @ExampleChannel: HTTP 500, retrying", out)
+
+    def test_connection_errors_are_retried_too(self):
+        feed = [requests.ConnectionError("reset"), requests.ConnectionError("reset"), ok(fixture_bytes("youtube_feed.xml"))]
+        session = FakeSession(self.routes(**{YT_FEED_URL: feed}))
+        self.run_main(session)
+        self.assertEqual(self.youtube_calls(session), [YT_FEED_URL] * 3)
+        self.assertIs(self.source()["ok"], True)
+
+    def test_three_failures_then_the_uploads_playlist(self):
+        for failing in (status(404), status(500), status(503)):
+            with self.subTest(status=failing.status_code):
+                session = FakeSession(self.routes(**{YT_FEED_URL: failing,
+                                                     YT_PLAYLIST_URL: ok(fixture_bytes("youtube_feed.xml"))}))
+                out = self.run_main(session)
+                self.assertEqual(self.youtube_calls(session), [YT_FEED_URL] * 3 + [YT_PLAYLIST_URL])
+                self.assertEqual(self.source(), {"label": "@ExampleChannel", "type": "youtube", "ok": True,
+                                                 "count": 2, "error": None})
+                self.assertIn("trying the uploads playlist feed", out)
+                self.assertEqual(self.read("CHANNEL_CACHE"), {"ExampleChannel": CHANNEL_ID})
+
+    def test_the_playlist_gives_the_same_items(self):
+        self.run_main(FakeSession(self.routes()))
+        before = self.raw("DATA_OUT")
+        self.run_main(FakeSession(self.routes(**{YT_FEED_URL: status(404),
+                                                 YT_PLAYLIST_URL: ok(fixture_bytes("youtube_feed.xml"))})))
+        self.assertEqual(self.raw("DATA_OUT"), before)  # same ids, same links: the file is not rewritten
+
+    def test_both_feeds_failing_keeps_the_earlier_items(self):
+        self.run_main(FakeSession(self.routes()))
+        session = FakeSession(self.routes(**{YT_FEED_URL: status(500), YT_PLAYLIST_URL: status(404)}))
+        out = self.run_main(session)
+        # Three tries of the channel feed, one of the playlist (a 404 is retried for the channel feed only).
+        self.assertEqual(self.youtube_calls(session), [YT_FEED_URL] * 3 + [YT_PLAYLIST_URL])
+        self.assertEqual(self.source(), {"label": "@ExampleChannel", "type": "youtube", "ok": False, "count": 2,
+                                         "error": "HTTP 500"})  # the channel feed's own error
+        stale = [i for i in self.read("DATA_OUT")["items"] if i.get("stale")]
+        self.assertEqual({i["source"] for i in stale}, {"@ExampleChannel"})
+        self.assertIn("kept 2 earlier items, marked stale", out)
+
+    def test_other_sources_keep_one_retry_and_no_retry_on_404(self):
+        session = FakeSession(self.routes(**{SUBSTACK_URL: status(404)}))
+        self.run_main(session)
+        self.assertEqual(session.calls.count(SUBSTACK_URL), 1)
+        session = FakeSession(self.routes(**{SUBSTACK_URL: status(502)}))
+        out = self.run_main(session)
+        self.assertEqual(session.calls.count(SUBSTACK_URL), 2)
+        self.assertIn("[warn] Example: HTTP 502, retrying once", out)
+
+    @unittest.skipUnless(hasattr(signal, "setitimer"), "needs signal.setitimer")
+    def test_the_retries_stay_inside_the_time_limit_of_the_source(self):
+        # Each pause is 0.4 s and the source has 0.5 s in all: the limit ends the
+        # second pause, and the playlist is never asked.
+        session = FakeSession({YT_FEED_URL: status(404), YT_PLAYLIST_URL: ok(fixture_bytes("youtube_feed.xml")),
+                               SUBSTACK_URL: ok(fixture_bytes("substack_feed.xml"))})
+        sources = [fab.Source("Channel", "youtube", YT_FEED_URL, cached_handle="ExampleChannel"),
+                   fab.Source("Example", "rss", SUBSTACK_URL)]
+        start = time.monotonic()
+        with mock.patch.object(fab, "RETRY_DELAY", 0.4), mock.patch.object(fab, "SOURCE_SECONDS", 0.5), \
+                mock.patch("sys.stdout", new_callable=io.StringIO):
+            _, status_list = fab.build_items(sources, session, [], [], NOW)
+        self.assertLess(time.monotonic() - start, 3)
+        self.assertEqual(session.calls, [YT_FEED_URL, YT_FEED_URL, SUBSTACK_URL])
+        self.assertEqual(status_list[0]["error"], "timeout")
+        self.assertIs(sources[0].drop_from_cache, False)
+        self.assertEqual(status_list[1], {"label": "Example", "type": "rss", "ok": True, "count": 5, "error": None})
+
+    def test_a_spent_run_budget_asks_youtube_nothing(self):
+        session = FakeSession({YT_FEED_URL: status(404)})
+        with mock.patch("sys.stdout", new_callable=io.StringIO):
+            _, status_list = fab.build_items([fab.Source("Channel", "youtube", YT_FEED_URL)], session, [], [], NOW,
+                                             fab.RunClock(0))
+        self.assertEqual(session.calls, [])
+        self.assertEqual(status_list[0]["error"], "skipped, out of time")
 
 
 class CarryOverTests(PipelineTestCase):

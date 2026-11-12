@@ -5,6 +5,9 @@ Outputs:
   docs/data/items.json          items, plus the status of every source
   docs/data/twitter_posts.json  X accounts (posts stay empty unless
                                 feeds.nitter_instances is set in config.yml)
+                                The accounts are the ones in data/x_accounts.json,
+                                the list the dashboard's owner edits; without that
+                                file, feeds.twitter_embeds in config.yml.
   data/youtube_channels.json    cache of YouTube @handle -> channel_id
 
 Every item carries "first_seen", the time a run first listed it. It is copied
@@ -16,7 +19,8 @@ so a run that finds nothing new leaves the working tree clean and the workflow
 commits nothing.
 
 Feeds are untrusted input. They are fetched with requests (timeouts, a size cap,
-one retry), parsed from memory, and only http(s) links are kept. Each source has
+one retry; a YouTube feed gets three tries and then its uploads-playlist feed),
+parsed from memory, and only http(s) links are kept. Each source has
 a wall-clock limit that covers its fetch and its parse, and the run has one for
 all sources together, so a slow or hostile host fails its own source only.
 """
@@ -45,6 +49,7 @@ CONFIG_YML = os.path.join(ROOT, "config.yml")
 DATA_OUT = os.path.join(ROOT, "docs", "data", "items.json")
 TWITTER_OUT = os.path.join(ROOT, "docs", "data", "twitter_posts.json")
 CHANNEL_CACHE = os.path.join(ROOT, "data", "youtube_channels.json")
+X_ACCOUNTS = os.path.join(ROOT, "data", "x_accounts.json")
 
 USER_AGENT = (
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 "
@@ -63,7 +68,9 @@ RUN_SECONDS = 360             # wall clock for all sources; the build job's time
 RUN_SECONDS_ENV = "FEED_RUN_SECONDS"  # a shorter wall clock for one run: daily.yml sets it on the
 MIN_RUN_SECONDS = 30                  # morning run, which has the email to send by 6:00
 MAX_BYTES = 15 * 1024 * 1024  # a feed bigger than this is refused
-RETRY_DELAY = 2.0             # seconds before the single retry
+RETRY_DELAY = 2.0             # seconds before a retry
+YOUTUBE_ATTEMPTS = 3          # tries of a YouTube channel feed, which answers 404 and 500 on and off
+MAX_X_ACCOUNTS = 50           # the same cap as .github/workflows/sources.yml
 
 MAX_ITEMS_PER_SOURCE = 50
 SUMMARY_LEN = 280
@@ -257,18 +264,20 @@ def _read_body(resp):
     return b"".join(chunks)
 
 
-def http_get(session, url, label=None):
-    """GET url with a timeout, a size cap and one retry on a connection error
-    or a 5xx. The body is read only for a 2xx. Raises FetchError."""
+def http_get(session, url, label=None, attempts=2, retry_404=False):
+    """GET url with a timeout, a size cap and a retry on a connection error or
+    a 5xx: one retry, or attempts - 1 of them. With retry_404 a 404 is retried
+    too. The body is read only for a 2xx. Raises FetchError."""
     label = label or url
-    for attempt in (1, 2):
-        last = attempt == 2
+    again = "retrying once" if attempts == 2 else "retrying"
+    for attempt in range(1, attempts + 1):
+        last = attempt == attempts
         try:
             resp = session.get(url, headers=HEADERS, timeout=TIMEOUT, stream=True)
             try:
                 status = resp.status_code
-                if status >= 500 and not last:
-                    print(f"[warn] {label}: HTTP {status}, retrying once")
+                if (status >= 500 or (retry_404 and status == 404)) and not last:
+                    print(f"[warn] {label}: HTTP {status}, {again}")
                     time.sleep(RETRY_DELAY)
                     continue
                 body = _read_body(resp) if 200 <= status < 300 else b""
@@ -277,7 +286,7 @@ def http_get(session, url, label=None):
                 resp.close()
         except requests.ConnectionError as e:  # includes connect timeouts
             if not last:
-                print(f"[warn] {label}: {type(e).__name__}, retrying once")
+                print(f"[warn] {label}: {type(e).__name__}, {again}")
                 time.sleep(RETRY_DELAY)
                 continue
             raise FetchError("connection error", f"{type(e).__name__}: {e}") from e
@@ -288,10 +297,10 @@ def http_get(session, url, label=None):
     raise AssertionError("unreachable")
 
 
-def fetch_feed(session, label, url):
+def fetch_feed(session, label, url, attempts=2, retry_404=False):
     """Return (entries, error). error is None on success, else a short reason."""
     try:
-        res = http_get(session, url, label)
+        res = http_get(session, url, label, attempts, retry_404)
     except FetchError as e:
         print(f"[warn] {label}: {e.detail}")
         return [], e.reason
@@ -319,6 +328,38 @@ def fetch_feed(session, label, url):
 
 def youtube_feed_url(channel_id):
     return f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+
+
+def youtube_playlist_feed_url(feed_url):
+    """The feed of a channel's uploads playlist, for a channel feed URL: the
+    playlist id is the channel id with UU in place of the leading UC. None for
+    any other URL."""
+    m = re.fullmatch(r"https://www\.youtube\.com/feeds/videos\.xml\?channel_id=UC([0-9A-Za-z_-]{22})", feed_url or "")
+    return f"https://www.youtube.com/feeds/videos.xml?playlist_id=UU{m.group(1)}" if m else None
+
+
+def fetch_youtube_feed(session, label, url):
+    """Return (entries, error, gone) for a YouTube channel feed.
+
+    YouTube's feed endpoint answers 404 and 500 on and off for GitHub's
+    runners, so the channel feed gets YOUTUBE_ATTEMPTS tries, a 404 included,
+    and then the uploads-playlist feed, which lists the same videos with the
+    same links, is tried before the source is given up. error is the channel
+    feed's own. gone is True only when both feeds answered 404: the channel id
+    itself is no longer right. All of it runs inside the caller's time limit
+    for the source, and a timeout ends it: the playlist feed is on the same
+    host, and the time that is left belongs to the other sources."""
+    entries, error = fetch_feed(session, label, url, attempts=YOUTUBE_ATTEMPTS, retry_404=True)
+    if error is None:
+        return entries, None, False
+    fallback = youtube_playlist_feed_url(url)
+    if not fallback or error == "timeout":
+        return [], error, False
+    print(f"[warn] {label}: the channel feed failed ({error}), trying the uploads playlist feed")
+    entries, fallback_error = fetch_feed(session, f"{label} (uploads playlist)", fallback)
+    if fallback_error is None and entries:
+        return entries, None, False
+    return [], error, error == "HTTP 404" and fallback_error == "HTTP 404"
 
 
 def resolve_youtube_channel_id(session, handle):
@@ -560,6 +601,7 @@ class Source:
         self.error = error
         self.cached_handle = cached_handle  # set when the channel_id came from the cache
         self.drop_from_cache = False
+        self.gone = False  # a YouTube channel whose feeds both answered 404
 
 
 def youtube_sources(entries, cache, session, clock=None):
@@ -695,6 +737,29 @@ def fetch_twitter_posts(session, handles, instances, limit_per_handle=5, clock=N
     return accounts
 
 
+def load_x_accounts():
+    """The handles in data/x_accounts.json, the list the owner edits from the
+    dashboard (.github/workflows/sources.yml writes it), or None when the file
+    is missing or is not {"accounts": [up to MAX_X_ACCOUNTS handles]}. The
+    caller then uses feeds.twitter_embeds from config.yml. An empty list is a
+    valid list: the owner removed every account."""
+    doc = load_json(X_ACCOUNTS)
+    if doc is None:
+        return None
+    accounts = doc.get("accounts") if isinstance(doc, dict) else None
+    if (not isinstance(accounts, list) or len(accounts) > MAX_X_ACCOUNTS
+            or not all(isinstance(h, str) and X_HANDLE_RE.fullmatch(h) for h in accounts)):
+        print(f"[warn] {os.path.relpath(X_ACCOUNTS, ROOT)} is not a list of at most {MAX_X_ACCOUNTS} X handles; "
+              "using feeds.twitter_embeds from config.yml")
+        return None
+    handles, seen = [], set()
+    for handle in accounts:
+        if handle.lower() not in seen:  # X handles are not case-sensitive
+            seen.add(handle.lower())
+            handles.append(handle)
+    return handles
+
+
 def nitter_instances(feeds_cfg):
     configured = feeds_cfg.get("nitter_instances") or []
     if isinstance(configured, str):
@@ -725,7 +790,10 @@ def build_items(sources, session, themes, prev_items, now, clock=None):
         if error is None:
             try:
                 with clock.limit():  # a slow or hostile source fails alone
-                    entries, error = fetch_feed(session, src.label, src.url)
+                    if src.type == "youtube":
+                        entries, error, src.gone = fetch_youtube_feed(session, src.label, src.url)
+                    else:
+                        entries, error = fetch_feed(session, src.label, src.url)
                     if error is None and not entries and previous:
                         error = "no entries"
                     if error is None:
@@ -738,7 +806,7 @@ def build_items(sources, session, themes, prev_items, now, clock=None):
                 error, fresh = "parse error", []
 
         if error is not None:
-            if src.cached_handle and error == "HTTP 404":
+            if src.cached_handle and src.gone:
                 src.drop_from_cache = True
             source_items = carry_over(previous, src.type, themes, now)[:MAX_ITEMS_PER_SOURCE]
             if source_items:
@@ -788,7 +856,7 @@ def main(session=None):
 
     items, status = build_items(sources, session, themes, prev_items, now, clock)
 
-    # A cached channel_id whose feed is gone (404) is resolved again next run.
+    # A cached channel_id whose feeds are both gone (404) is resolved again next run.
     for src in sources:
         if src.drop_from_cache:
             cache.pop(src.cached_handle, None)
@@ -805,7 +873,10 @@ def main(session=None):
         print("Failed sources: " + "; ".join(f"{s['label']} ({s['error']})" for s in status if not s["ok"]))
     write_if_changed(DATA_OUT, {"items": items, "sources": status}, now)
 
-    accounts = fetch_twitter_posts(session, feeds_cfg.get("twitter_embeds"), nitter_instances(feeds_cfg), clock=clock)
+    handles = load_x_accounts()
+    if handles is None:
+        handles = feeds_cfg.get("twitter_embeds")
+    accounts = fetch_twitter_posts(session, handles, nitter_instances(feeds_cfg), clock=clock)
     write_if_changed(TWITTER_OUT, {"accounts": accounts}, now)
 
 

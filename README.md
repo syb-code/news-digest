@@ -10,7 +10,7 @@ This is a template repository. Click **Use this template** to get your own copy,
 
 | Learning briefing | Phone | Morning email |
 |---|---|---|
-| ![A slide from the daily learning briefing, dark green with gold headings](screenshots/slides.jpg) | ![Dashboard on a phone](screenshots/dashboard-mobile.jpg) | ![The morning email, with the briefing first](screenshots/email.jpg) |
+| ![A slide from the daily learning briefing, in the site colors](screenshots/slides.jpg) | ![Dashboard on a phone](screenshots/dashboard-mobile.jpg) | ![The morning email, with the briefing first](screenshots/email.jpg) |
 
 ## What it does
 
@@ -18,6 +18,7 @@ This is a template repository. Click **Use this template** to get your own copy,
 - **A learning briefing every morning.** Three to five topics on what is new and important in AI, as a slideshow in the dashboard and a PowerPoint file. Each topic says what happened, why it matters, what to read first and one open question.
 - **Ranked by importance, not by you.** Topics are picked by code from four signals: how many sources cover the story, whether a primary source published it, whether it is new since last week, and whether it fits a lane you watch. Nothing tracks clicks or reading time. One topic always comes from outside your lanes.
 - **AI summaries on demand.** Tick items and click Summarize. A Cloudflare Worker reads each article or video and returns the key points.
+- **Edit the X accounts from the dashboard.** With your key set, the On X panel gets an Add account form and a Remove button on each account. Visitors do not get them, and the Worker refuses an edit without the key.
 - **A morning email.** The briefing first, then everything published since the last email.
 
 ## How a day runs
@@ -42,7 +43,9 @@ A Cloudflare cron trigger starts both runs (`worker/scheduler.js`). GitHub's own
 | `scripts/send_email.py` | The morning email, built with the Python standard library only. |
 | `docs/` | The dashboard and the slideshow viewer: plain HTML, CSS and JavaScript on GitHub Pages, with self-hosted fonts. |
 | `.github/workflows/daily.yml` | The morning and noon runs. |
-| `worker/` | Two blocks to paste into your Cloudflare Worker: `auth-guard.js` (the lock) and `scheduler.js` (the clock). |
+| `worker/` | Blocks to paste into your Cloudflare Worker: `auth-guard.js` (the lock), `scheduler.js` (the clock) and `sources.js` (add and remove X accounts from the dashboard). `worker.js` is all three in one file, for a Worker with no summaries code of its own. |
+| `.github/workflows/sources.yml` | Adds or removes one X account in `data/x_accounts.json`, then starts a noon run to publish it. Started by the Worker when the owner edits the list. |
+| `data/x_accounts.json` | The X accounts on the dashboard. Without it, `feeds.twitter_embeds` in `config.yml` is used. |
 | `tests/` | Offline tests: `python3 -m unittest discover -s tests`. |
 
 ## The learning briefing
@@ -74,6 +77,7 @@ The repository and the page are public, so everything is built on the assumption
 - **Only the owner can change it.** Others can read and copy the code. They cannot push to it, and a fork or a copy gets none of the secrets or variables.
 - **No workflow runs on pull requests**, and every job is off unless the variable `DIGEST_ENABLED` is `true`.
 - **No third-party code runs next to a secret or a write token.** Feeds are fetched in a job with no secret. The Claude step installs only the Anthropic SDK. The commit job installs nothing and copies only checked files. The email runs on the standard library. Every package is pinned by hash.
+- **Only the key holder edits the X accounts.** The dashboard sends the edit to the Worker, which checks the access key and then starts a workflow with a token that can start workflows and nothing else. The workflow checks the handle again, runs no third-party code, and is the only thing that writes the list.
 - **The Worker is locked.** `worker/auth-guard.js` refuses any request without the access key, so visitors can browse the dashboard but only the owner can spend the AI budget.
 - **The pages load only their own files.** A strict Content-Security-Policy allows no inline script or style. Feed text and model text are always rendered as text, and only `https` links are kept.
 
@@ -88,13 +92,13 @@ About 30 minutes. You need a GitHub account, a Cloudflare account (free), a Clau
    - `ANTHROPIC_API_KEY`, from the Claude Console. Set a monthly spend limit there.
    - `GMAIL_CLIENT_ID`, `GMAIL_CLIENT_SECRET`, `GMAIL_REFRESH_TOKEN`, `SENDER_EMAIL`, `RECIPIENT_EMAIL`. The steps for a send-only Gmail token are in `scripts/oauth_local_example.py`.
 5. **Set up the Worker.** In Cloudflare, create a Worker for summaries, or skip summaries and use the Worker only as the clock.
-   - Paste `worker/auth-guard.js` and then `worker/scheduler.js` at the top of its code and follow the steps at the top of each file.
+   - No summaries code of your own: paste `worker/worker.js` as the whole Worker. It is the lock, the clock and the X account editor in one file. With your own summaries code: paste `worker/auth-guard.js`, `worker/scheduler.js` and `worker/sources.js` at the top of it and follow the steps at the top of each file.
    - Add the Worker secrets `ACCESS_KEY` and `GH_DISPATCH_TOKEN`, and the variables `GH_REPO` (`your-name/your-repo`) and `ALLOWED_ORIGINS` (`https://your-name.github.io`).
    - Add the two cron triggers listed in `scheduler.js`.
 6. **Set the variables.** Settings > Secrets and variables > Actions > Variables:
    - `WORKER_URL`: your Worker's address, such as `https://name.your-subdomain.workers.dev`. Leave it out to turn summaries off.
    - `DIGEST_ENABLED`: `true`. This is the on switch, so set it last.
-7. **Test it.** Actions > Daily digest > Run workflow > `morning`. When it finishes, open your site, click **Today's briefing**, and check your inbox. Then click **Set key** on the dashboard and paste your `ACCESS_KEY`.
+7. **Test it.** Actions > Daily digest > Run workflow > `morning`. When it finishes, open your site, click **Today's briefing**, and check your inbox. Then click **Set key** on the dashboard and paste your `ACCESS_KEY`. With the key set, the On X panel shows Add account and Remove. A change appears on the site a couple of minutes later.
 
 `.env.example` lists every setting by name, with empty values. Real values never go in a file. `.gitignore` only applies to `git add`, and uploading a folder on github.com commits everything in it, so keep credential files outside the project folder.
 

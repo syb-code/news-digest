@@ -1,4 +1,4 @@
-/* News digest dashboard, app.js v7.
+/* News digest dashboard, app.js v8.
    Renders data/items.json, data/twitter_posts.json and the entry for the latest learning
    briefing (learn/index.json), and sends the items you tick to your worker for a summary.
    - The worker's address comes from window.NEWS_DIGEST_CONFIG.workerUrl (assets/js/config.js,
@@ -10,7 +10,9 @@
    - Every value that reaches innerHTML goes through esc(), and every link through httpUrl(),
      which allows absolute http(s) URLs only.
    - Summaries cost money, so a run never starts twice, only sends what you can see and have
-     ticked, skips anything already summarized in this tab, and unticks what it finished. */
+     ticked, skips anything already summarized in this tab, and unticks what it finished.
+   - With a worker and a key set, the "On X" panel lets the owner add and remove accounts. The
+     edit goes to the worker, which checks the key; without a key none of those controls exist. */
 (() => {
   'use strict';
 
@@ -30,6 +32,10 @@
   const CACHE_KEY = 'nd_analysis_v1'; // sessionStorage: analyses already paid for in this tab
   const CACHE_MAX = 60;
   const READ_MAX = 2000;
+  const X_PENDING_KEY = 'nd_x_pending_v1'; // account edits the worker took that are not published yet
+  const X_PENDING_MS = 24 * 60 * 60 * 1000;
+  const X_HANDLE_RE = /^[A-Za-z0-9_]{1,15}$/; // the same check as the worker and the workflow
+  const X_MAX = 50;
 
   // ---------- storage: every access can throw (private windows, blocked site data) ----------
   function storeGet(area, key) { try { return window[area].getItem(key); } catch (e) { return null; } }
@@ -70,6 +76,8 @@
   const clearSelBtn = $('clear-selection');
   const xList = $('x-list');
   const xCount = $('x-count');
+  const xTools = $('x-tools');
+  const xMsg = $('x-msg');
   const setKeyBtn = $('set-key');
   const keyDialog = $('key-dialog');
   const keyForm = $('key-form');
@@ -90,6 +98,10 @@
   let running = false;
   let progress = '';
   let panelBtnInView = 'IntersectionObserver' in window;
+  let summariesOff = false; // the worker answered 501 to a summary: it has no summaries code
+  let xLoaded = false;
+  let xPublished = [];
+  let xBusy = false;
   const readSet = loadSet(READ_KEY);
   const selectedSet = loadSet(SELECT_KEY);
   const memCache = new Map();
@@ -202,7 +214,12 @@
     });
 
   getJson('data/twitter_posts.json')
-    .then((d) => renderX(d && Array.isArray(d.accounts) ? d.accounts : []))
+    .then((d) => {
+      xPublished = publishedAccounts(d && Array.isArray(d.accounts) ? d.accounts : []);
+      xLoaded = true;
+      prunePending();
+      renderXPanel();
+    })
     .catch(() => { xList.innerHTML = '<li class="hint">Could not load the accounts.</li>'; });
 
   function onItems(data) {
@@ -551,8 +568,12 @@
     setKeyBtn.textContent = has ? 'Key set' : 'Set key';
     setKeyBtn.classList.toggle('is-set', has);
     setKeyBtn.title = has ? 'The worker access key is set in this browser. Change or forget it.' : 'Set the worker access key for summaries';
+    if (xLoaded) renderXPanel(); // the account controls exist only while a key is set
   }
-  window.addEventListener('storage', (e) => { if (e.key === KEY_STORE || e.key === null) updateKeyBtn(); });
+  window.addEventListener('storage', (e) => {
+    if (e.key === KEY_STORE || e.key === null) updateKeyBtn();
+    else if (e.key === X_PENDING_KEY && xLoaded) renderXPanel();
+  });
 
   let keyResolve = null;
   let keyOpener = null;
@@ -586,8 +607,11 @@
     keyInput.type = 'password';
     const result = keyDialog.returnValue || 'cancel';
     if (keyResolve) { const done = keyResolve; keyResolve = null; done(result); }
+    const fromX = !!keyOpener && xMsg.contains(keyOpener);
     if (result === 'saved' && (deeperMsg.dataset.kind === 'auth' || deeperMsg.dataset.kind === 'nokey')) clearMsg();
+    if (result === 'saved' && xMsg.dataset.kind === 'auth') clearXMsg();
     if (keyOpener && document.contains(keyOpener) && !keyOpener.disabled) keyOpener.focus();
+    else if (fromX && $('x-handle')) $('x-handle').focus(); // the opener was the "On X" message's own button
     else if (!panelBtn.disabled) panelBtn.focus(); // the opener went away (for example the message's own button)
     keyOpener = null;
   });
@@ -620,7 +644,8 @@
   // ---------- worker calls ----------
   // Returns { kind, status, body }. kind is one of: ok, nokey, auth (the guard refused the key,
   // which is then forgotten), unconfigured (the guard has no key set), rate (the guard's 429),
-  // http (any other error status, usually about this one item), timeout or network.
+  // http (any other error status, usually about this one item; body is the worker's JSON when it
+  // sent some), timeout or network.
   async function workerFetch(path, init) {
     if (!HAS_WORKER) return { kind: 'noworker' };
     const key = getWorkerKey();
@@ -650,7 +675,7 @@
       }
       if (fromGuard && res.status === 503) return { kind: 'unconfigured', status: 503 };
       if (fromGuard && res.status === 429) return { kind: 'rate', status: 429 };
-      return { kind: 'http', status: res.status };
+      return { kind: 'http', status: res.status, body };
     } catch (e) {
       return { kind: e && e.name === 'AbortError' ? 'timeout' : 'network' };
     } finally {
@@ -852,6 +877,14 @@
     if (!it.url) r = { kind: 'nolink' };
     else if (state.workerOff) r = { kind: state.workerOff };
     else r = await analyzeViaWorker(it);
+    // 501 is a worker with no summaries code (worker/sources.js answers it on every path but its
+    // own: the clock and the source editor alone). That is not an error, so there is no note:
+    // from here on this page makes local summaries, as it does on a site with no worker.
+    if (r.kind === 'http' && r.status === 501) {
+      summariesOff = true;
+      state.workerOff = 'noworker';
+      r = { kind: 'noworker' };
+    }
     if (r.kind === 'ok') {
       cachePut(it.id, r.analysis);
       return { html: analysisHtml(it, r.analysis, false), ok: true };
@@ -876,14 +909,14 @@
     progress = 'Starting…';
     updateSelectionUi();
     clearMsg();
-    const state = { workerOff: HAS_WORKER ? null : 'noworker', netShown: false };
+    const state = { workerOff: HAS_WORKER && !summariesOff ? null : 'noworker', netShown: false };
     const run = document.createElement('div');
     run.className = 'run';
     dives.prepend(run);
     divesFoot.hidden = false;
     let askedKey = false;
     try {
-      if (HAS_WORKER && !getWorkerKey() && targets.some((i) => i.url && !cacheGet(i.id))) {
+      if (HAS_WORKER && !summariesOff && !getWorkerKey() && targets.some((i) => i.url && !cacheGet(i.id))) {
         progress = 'Waiting for the key…';
         updateSelectionUi();
         askedKey = true;
@@ -972,23 +1005,100 @@
   }
 
   // ---------- On X ----------
-  function renderX(accounts) {
-    const valid = accounts.filter((a) => a && typeof a === 'object' && str(a.handle));
-    xCount.hidden = !valid.length;
-    xCount.textContent = plural(valid.length, 'account', 'accounts');
-    if (!valid.length) { xList.innerHTML = '<li class="hint">No accounts listed.</li>'; return; }
+  // The panel lists the accounts in data/twitter_posts.json. With a worker and a key set, which
+  // is the owner, it also gets an "Add account" form and a Remove button on every account. Those
+  // send the edit to the worker (POST /x-accounts). The worker checks the key and starts the
+  // repository workflow that edits the list, so nothing on this page can change the list by
+  // itself: leaving the controls out for visitors is tidiness, and the worker's key check is the lock.
+  // An edit the worker took is shown at once and kept in localStorage as pending, so a reload
+  // before the site is republished still shows it. It is dropped once the published data agrees
+  // with it, or after a day.
+  function xSame(a, b) { return a.toLowerCase() === b.toLowerCase(); } // X handles are not case-sensitive
+  function publishedAccounts(raw) {
+    const seen = new Set();
+    const out = [];
+    raw.forEach((a) => {
+      if (!a || typeof a !== 'object') return;
+      const handle = str(a.handle).replace(/^@+/, '');
+      if (!handle || seen.has(handle.toLowerCase())) return;
+      seen.add(handle.toLowerCase());
+      out.push({ handle, url: httpUrl(a.url), posts: Array.isArray(a.posts) ? a.posts : [], pending: false });
+    });
+    return out;
+  }
+  function canEditX() { return HAS_WORKER && xLoaded && !!getWorkerKey(); }
+
+  function loadPending() {
+    try {
+      const v = JSON.parse(storeGet('localStorage', X_PENDING_KEY) || '[]');
+      return (Array.isArray(v) ? v : []).filter((e) => e && typeof e === 'object' &&
+        (e.action === 'add' || e.action === 'remove') && typeof e.handle === 'string' && X_HANDLE_RE.test(e.handle) &&
+        Number.isFinite(e.at)).slice(-2 * X_MAX);
+    } catch (e) {
+      return [];
+    }
+  }
+  function savePending(entries) {
+    if (entries.length) storeSet('localStorage', X_PENDING_KEY, JSON.stringify(entries));
+    else storeRemove('localStorage', X_PENDING_KEY);
+  }
+  function isPublished(handle) { return xPublished.some((a) => xSame(a.handle, handle)); }
+  // Drops the edits the published list already shows, and those older than a day.
+  function prunePending() {
+    const now = Date.now();
+    const before = loadPending();
+    const keep = before.filter((e) => now - e.at < X_PENDING_MS && e.at <= now + 60000 &&
+      (e.action === 'add' ? !isPublished(e.handle) : isPublished(e.handle)));
+    if (keep.length !== before.length) savePending(keep);
+    return keep;
+  }
+  function notePending(action, handle) {
+    const entries = loadPending().filter((e) => !xSame(e.handle, handle));
+    if ((action === 'add') !== isPublished(handle)) entries.push({ action, handle, at: Date.now() });
+    savePending(entries);
+  }
+  // What the panel shows: the published accounts, and for the owner the pending edits on top.
+  function shownAccounts(edit) {
+    if (!edit) return xPublished;
+    const pending = prunePending();
+    const removed = pending.filter((e) => e.action === 'remove');
+    const out = xPublished.filter((a) => !removed.some((e) => xSame(e.handle, a.handle)));
+    pending.filter((e) => e.action === 'add').forEach((e) => {
+      if (!out.some((a) => xSame(a.handle, e.handle))) {
+        out.push({ handle: e.handle, url: 'https://x.com/' + e.handle, posts: [], pending: true });
+      }
+    });
+    return out;
+  }
+
+  function renderXPanel() {
+    const edit = canEditX();
+    renderX(shownAccounts(edit), edit);
+    renderXTools(edit);
+  }
+
+  function renderX(accounts, edit) {
+    xCount.hidden = !accounts.length;
+    xCount.textContent = plural(accounts.length, 'account', 'accounts');
+    if (!accounts.length) { xList.innerHTML = '<li class="hint">No accounts listed.</li>'; return; }
     let anyPosts = false;
-    const rows = valid.map((a) => {
-      const handle = esc(str(a.handle).replace(/^@+/, ''));
+    const rows = accounts.map((a) => {
+      const handle = esc(a.handle);
       const url = httpUrl(a.url);
-      const posts = Array.isArray(a.posts) ? a.posts.filter((p) => p && typeof p === 'object' && str(p.text)).slice(0, 2) : [];
+      const posts = a.posts.filter((p) => p && typeof p === 'object' && str(p.text)).slice(0, 2);
       if (posts.length) anyPosts = true;
-      let h = '<li class="acct"><div class="acct-row"><span class="acct-handle">@' + handle + '</span>';
+      let h = '<li class="acct"><div class="acct-row"><span class="acct-handle">@' + handle +
+        (a.pending ? '<span class="tag acct-pending">Pending</span>' : '') + '</span><span class="acct-tools">';
       if (url) {
         h += '<a class="acct-link" href="' + safeUrl(url) + '" target="_blank" rel="noopener noreferrer">Open profile' +
           '<span aria-hidden="true"> ↗</span><span class="vh"> of @' + handle + ' on X</span></a>';
       }
-      h += '</div>';
+      // Only a handle the worker would accept gets the button; any other one is edited in the repository.
+      if (edit && X_HANDLE_RE.test(a.handle)) {
+        h += '<button type="button" class="ghost acct-remove" data-handle="' + handle + '"' + (xBusy ? ' disabled' : '') +
+          '>Remove<span class="vh"> @' + handle + '</span></button>';
+      }
+      h += '</span></div>';
       if (posts.length) {
         h += '<ul class="posts">' + posts.map((p) => {
           const t = Date.parse(p.published);
@@ -1005,6 +1115,153 @@
     xList.innerHTML = rows.join('') +
       (anyPosts ? '' : '<li class="hint accts-note">Posts are not collected right now, so each account links to its profile.</li>');
   }
+
+  // The form is built here, not in index.html, so a page without a key holds no edit control at all.
+  function renderXTools(edit) {
+    if (!edit) {
+      xTools.textContent = '';
+      xTools.hidden = true;
+      return;
+    }
+    if (!xTools.firstChild) {
+      const form = document.createElement('form');
+      form.className = 'x-edit';
+      form.id = 'x-edit';
+      form.noValidate = true;
+      const label = document.createElement('label');
+      label.className = 'col-h';
+      label.htmlFor = 'x-handle';
+      label.textContent = 'Add account';
+      const row = document.createElement('div');
+      row.className = 'x-edit-row';
+      const input = document.createElement('input');
+      input.className = 'input';
+      input.id = 'x-handle';
+      input.type = 'text';
+      input.placeholder = '@handle';
+      input.maxLength = 16;
+      input.autocomplete = 'off';
+      input.spellcheck = false;
+      input.setAttribute('autocapitalize', 'off');
+      input.setAttribute('autocorrect', 'off');
+      const add = document.createElement('button');
+      add.type = 'submit';
+      add.className = 'btn btn-sm';
+      add.id = 'x-add';
+      add.textContent = 'Add';
+      row.appendChild(input);
+      row.appendChild(add);
+      form.appendChild(label);
+      form.appendChild(row);
+      form.addEventListener('submit', onXAdd);
+      xTools.appendChild(form);
+    }
+    xTools.hidden = false;
+    $('x-add').disabled = xBusy;
+  }
+
+  function showXMsg(kind, text, more) {
+    xMsg.textContent = '';
+    xMsg.dataset.kind = kind;
+    xMsg.classList.toggle('is-info', kind === 'saved');
+    const p = document.createElement('p');
+    p.textContent = text;
+    xMsg.appendChild(p);
+    if (more) {
+      const p2 = document.createElement('p');
+      p2.textContent = more;
+      xMsg.appendChild(p2);
+    }
+    if (kind === 'auth') {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'ghost';
+      b.textContent = 'Set key';
+      b.setAttribute('data-open-key', '');
+      xMsg.appendChild(b);
+    }
+  }
+  function clearXMsg() {
+    xMsg.textContent = '';
+    delete xMsg.dataset.kind;
+  }
+  // [kind, first line, second line] for an edit the worker did not take. Nothing was changed.
+  function xProblem(r) {
+    if (r.kind === 'auth') return ['auth', MESSAGES.auth, 'Nothing was changed.'];
+    if (r.kind === 'unconfigured' || r.kind === 'rate' || r.kind === 'network') return [r.kind, MESSAGES[r.kind], 'Nothing was changed.'];
+    if (r.kind === 'timeout') return ['timeout', 'The worker took too long.', 'Nothing was changed. Try again in a minute.'];
+    if (r.kind === 'nokey' || r.kind === 'noworker') return ['nokey', 'Set the worker access key to edit the list.', ''];
+    if (r.kind === 'http' && r.status === 400) return ['http', 'The worker did not accept that handle.', 'Nothing was changed.'];
+    if (r.kind === 'ok' || (r.kind === 'http' && (r.status === 404 || r.status === 405 || r.status === 501))) {
+      return ['http', 'This worker cannot edit the list yet.', 'Paste worker/sources.js into it, then try again.'];
+    }
+    const why = r.body && typeof r.body === 'object' ? str(r.body.error).slice(0, 200) : '';
+    return ['http', 'Could not save the change' + (r.status ? ' (HTTP ' + r.status + ').' : '.'), why ? 'Nothing was changed. The worker said: ' + why : 'Nothing was changed.'];
+  }
+
+  function setXBusy(on) {
+    xBusy = on;
+    Array.from(xList.querySelectorAll('.acct-remove')).forEach((b) => { b.disabled = on; });
+    const add = $('x-add');
+    if (add) {
+      add.disabled = on;
+      if (on) add.setAttribute('aria-busy', 'true'); else add.removeAttribute('aria-busy');
+    }
+  }
+  async function sendXEdit(action, handle) {
+    if (xBusy || !canEditX()) return;
+    setXBusy(true);
+    clearXMsg();
+    let r;
+    try {
+      r = await workerFetch('/x-accounts', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ action, handle }),
+      });
+    } catch (e) {
+      r = { kind: 'network' };
+    }
+    const saved = r.kind === 'ok' && !!r.body && r.body.ok === true;
+    if (saved) notePending(action, handle);
+    setXBusy(false);
+    renderXPanel(); // after the guard's 401 the key is gone, and the controls with it
+    const input = $('x-handle');
+    if (saved) {
+      if (input && action === 'add') input.value = '';
+      showXMsg('saved', 'Saved. The site updates in a couple of minutes.');
+    } else {
+      const [kind, text, more] = xProblem(r);
+      showXMsg(kind, text, more);
+    }
+    // The button that was clicked is gone or was disabled meanwhile, so focus is put back by hand.
+    const keyBtn = xMsg.querySelector('[data-open-key]');
+    if (keyBtn) keyBtn.focus();
+    else if (input) input.focus();
+  }
+  function onXAdd(e) {
+    e.preventDefault();
+    if (xBusy) return;
+    const input = $('x-handle');
+    const handle = input.value.trim().replace(/^@+/, '');
+    const shown = shownAccounts(true);
+    let problem = '';
+    if (!X_HANDLE_RE.test(handle)) problem = 'Type an X handle: 1 to 15 letters, numbers or underscores.';
+    else if (shown.some((a) => xSame(a.handle, handle))) problem = '@' + handle + ' is already in the list.';
+    else if (shown.length >= X_MAX) problem = 'The list holds ' + X_MAX + ' accounts at most. Remove one first.';
+    if (problem) {
+      showXMsg('invalid', problem);
+      input.focus();
+      return;
+    }
+    sendXEdit('add', handle);
+  }
+  xList.addEventListener('click', (e) => {
+    const b = e.target.closest('.acct-remove');
+    if (!b || b.disabled) return;
+    const handle = b.getAttribute('data-handle') || '';
+    if (X_HANDLE_RE.test(handle)) sendXEdit('remove', handle);
+  });
 
   // ---------- local summary: the top sentences by word frequency ----------
   const STOP = new Set(('a,an,the,of,in,on,for,to,from,by,with,as,at,that,this,these,those,and,or,not,be,is,are,was,were,been,being,has,have,had,do,does,did,will,would,shall,should,can,could,may,might,must,if,then,else,when,while,about,into,over,after,before,up,down,out,off,again,further,here,there,why,how,all,any,both,each,few,more,most,other,some,such,no,nor,only,own,same,so,than,too,very').split(','));

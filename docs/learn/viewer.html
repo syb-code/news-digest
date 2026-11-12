@@ -13,12 +13,15 @@
   <meta name="robots" content="noindex, nofollow">
   <title>Learning briefing</title>
   <meta name="description" content="The day's learning briefing: a few topics worth knowing, why they matter and what to read first.">
-  <meta name="theme-color" content="#0f2a1f">
+  <meta name="theme-color" content="#070708">
   <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="../../assets/learn/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="../../assets/learn/fonts/outfit-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="../../assets/learn/slides.css?v=2">
-  <script src="../../assets/learn/slides.js?v=2" defer></script>
+  <!-- The dashboard's theme script: it sets data-theme on <html> from localStorage 'theme' before
+       first paint, so the slides open in the palette the reader chose on the dashboard. -->
+  <script src="../../assets/js/theme.js?v=1"></script>
+  <link rel="stylesheet" href="../../assets/learn/slides.css?v=3">
+  <script src="../../assets/learn/slides.js?v=3" defer></script>
 </head>
 <body>
 <a class="skip" href="#deck">Skip to the slides</a>
@@ -48,7 +51,7 @@
     <progress class="progress" id="progress" max="1" value="1" aria-hidden="true"></progress>
     <p class="vh" id="count-live" aria-live="polite" aria-atomic="true"></p>
   </div>
-  <button type="button" class="nav-btn" id="next" aria-label="Next slide"><span class="nav-word">Next</span><span aria-hidden="true">&#8594;</span></button>
+  <button type="button" class="nav-btn nav-primary" id="next" aria-label="Next slide"><span class="nav-word">Next</span><span aria-hidden="true">&#8594;</span></button>
 </nav>
 </body>
 </html>

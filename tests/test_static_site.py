@@ -152,7 +152,7 @@ class ViewerPageTests(unittest.TestCase):
 
     def test_every_path_is_relative_to_a_dated_folder(self):
         # The commit job copies this file to docs/learn/<date>/index.html unchanged.
-        allowed = {"../../", "#deck", "./briefing.pptx", "../../assets/favicon.svg"}
+        allowed = {"../../", "#deck", "./briefing.pptx", "../../assets/favicon.svg", "../../assets/js/theme.js?v=1"}
         refs = self.page.references()
         self.assertGreaterEqual(len(refs), 8)
         for tag, name, value in refs:

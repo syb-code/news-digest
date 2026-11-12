@@ -101,8 +101,9 @@ class TriggerAndGateTests(unittest.TestCase):
     def setUp(self):
         self.text, self.doc = load()
 
-    def test_only_daily_yml_remains(self):
-        self.assertEqual(sorted(os.listdir(WORKFLOWS)), ["daily.yml"])
+    def test_only_the_two_workflows_exist(self):
+        # sources.yml (the owner's edits of the X accounts) is checked in tests/test_sources.py.
+        self.assertEqual(sorted(os.listdir(WORKFLOWS)), ["daily.yml", "sources.yml"])
 
     def test_trigger_is_workflow_dispatch_only(self):
         on = self.doc.get("on", self.doc.get(True))  # YAML 1.1 reads a bare on as true
