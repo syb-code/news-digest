@@ -1,42 +1,42 @@
 {
   "date": "2026-11-11",
-  "generated_at": "2026-11-12T04:30:01+00:00",
-  "model": "extractive",
-  "llm": false,
+  "generated_at": "2026-11-12T04:54:18+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
   "usage": {
-    "input_tokens": 0,
-    "output_tokens": 0,
-    "cost_usd": 0.0
+    "input_tokens": 4125,
+    "output_tokens": 5825,
+    "cost_usd": 0.133
   },
-  "email_summary": "Today's briefing covers 5 topics: Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave, Accelerating generative AI delivery with reusable assets, Automating AWS Agent Registry updates with push-based architecture, b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078) and AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr.",
+  "email_summary": "Today: Anthropic's IPO roadshow and a five-week AI news catch-up, AWS's catalog of 23 reusable generative AI assets, a push-based pipeline that keeps the AWS Agent Registry in sync with MCP servers, a llama.cpp cleanup that makes fused gated delta net the only path, and a hedge fund manager's case that AI is heading for oversupply.",
   "topics": [
     {
       "id": "last-week-month-in-ai-347-nvidia-s-spy-anthropic-s-1-4t-ipo",
-      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "title": "Anthropic starts its IPO roadshow as AI valuations reach trillions",
       "lanes": [
         "Frontier models",
         "Best practices",
         "Best skills"
       ],
       "off_lane": false,
-      "what_happened": "Last Week in AI (Substack): Catching up on five weeks: Huang under investigation, Anthropic and OpenAI priced at $1.4T and $1.25T as spending stalls, Anthropic warns it may be nearing recursive self-improvement, Gemini 4 Carbon\n\nSimon Willison: Anthropic's IPO roadshow video Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works. The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs. I'm not sure why there's no official video transcript, but here's one that I extracted using MacWhisper...",
-      "why_it_matters": "2 sources covered this story. It is new since last week. It fits your Frontier models, Best practices and Best skills lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "what_happened": "Two secondary sources published on November 11 give a picture of a busy five weeks at the frontier.\n\nThe Last Week in AI newsletter, in issue 347, caught up on more than a month of news. Its summary lists several headlines. Nvidia CEO Jensen Huang is under investigation. Anthropic and OpenAI are priced at about $1.4 trillion and $1.25 trillion while spending stalls. Anthropic has warned that it may be nearing recursive self-improvement, meaning AI systems that help build their own successors. Google has released something called Gemini 4 Carbon. The feed summary gives only these headlines, so the details of the investigation, the meaning of \"spending stalls\", and what Gemini 4 Carbon changes from earlier Gemini models are not available here.\n\nSimon Willison wrote that Anthropic began its IPO roadshow on November 10. Its roadshow video includes business details that had not been released before. He singles out the \"Approach to compute\" section with co-founder Tom Brown. It describes how Anthropic trains and serves Claude across four kinds of hardware: AWS Trainium, Google TPUs, NVIDIA GPUs and AMD GPUs. Willison notes there is no official transcript, so he made one with MacWhisper and published it.\n\nThe two sources agree that Anthropic is moving toward a public listing at a very large valuation. Neither item, as summarized, gives the share price, listing date or amount raised. The recursive self-improvement warning appears only as a headline. Read it as a claim reported secondhand, not as a documented finding with evidence attached.",
+      "why_it_matters": "If you build on Claude, a public Anthropic will have to disclose more about its costs, capacity and risks. That is useful input for vendor planning. The compute section matters in a practical way. A provider that serves the same model on four hardware families is spreading its supply risk. That may affect how steady availability and latency are under load. It may also explain small differences in behavior across regions or cloud marketplaces. If you call Claude through Bedrock, Vertex and the direct API, run your evals against each endpoint and do not assume the outputs are identical.\n\nThe valuations and the line about spending stalling are a reminder to avoid lock-in. Keep a thin abstraction over model calls, store your eval sets in version control, and run them against a second frontier model, such as the new Gemini 4 Carbon, each quarter. Then switching is a measured decision rather than a scramble.\n\nThe self-improvement warning is worth tracking for the Best practices lane. If labs believe their models are speeding up their own research, release cadence will rise. More frequent model updates mean your regression evals and prompt reviews need to run on every model version, not once a year.\n\nAs a skill, Willison's transcript method is reusable. Run local speech-to-text on long vendor videos and you get searchable primary material in minutes.",
       "read_first": [
-        {
-          "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
-          "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
-          "source": "Last Week in AI (Substack)",
-          "why": "Coverage of the story."
-        },
         {
           "title": "Anthropic's IPO roadshow video",
           "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
           "source": "Simon Willison",
-          "why": "Coverage of the story."
+          "why": "It contains a transcript and pointers to the new disclosures about how Anthropic trains and serves Claude across four hardware platforms."
+        },
+        {
+          "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+          "url": "https://lastweekin.ai/p/last-week-month-in-ai-347-nvidias",
+          "source": "Last Week in AI (Substack)",
+          "why": "It is the fastest way to catch up on five weeks of headlines, including Gemini 4 Carbon and the self-improvement warning."
         }
       ],
-      "open_question": "What does this change for your work on Frontier models?",
-      "reading_minutes": 1,
+      "open_question": "Once Anthropic is public and reports to shareholders, will the pressure to show revenue growth speed up or slow down its safety commitments around recursive self-improvement?",
+      "reading_minutes": 3,
       "signals": {
         "sources": 2,
         "primary": false,
@@ -47,25 +47,25 @@
     },
     {
       "id": "accelerating-generative-ai-delivery-with-reusable-assets",
-      "title": "Accelerating generative AI delivery with reusable assets",
+      "title": "AWS publishes 23 reusable open source generative AI building blocks",
       "lanes": [
         "Best practices",
         "Efficiencies",
         "Agents and loops"
       ],
       "off_lane": false,
-      "what_happened": "AWS machine learning blog: Every generative AI team keeps rebuilding the same components: RAG pipelines, document processors, and agent scaffolding. This post shows how to access a curated catalog of 23 production-ready, open source reusable assets from the AWS Generative AI Innovation Center, with real delivery results from DoorDash, Lyft, and Ricoh.",
-      "why_it_matters": "One source covered this story, including a primary source. It is new since last week. It fits your Best practices, Efficiencies and Agents and loops lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "what_happened": "On November 11 the AWS machine learning blog published a post on how teams can stop rebuilding the same generative AI components on every project. The post starts from a common complaint. Each team keeps building its own retrieval-augmented generation (RAG) pipelines, document processors and agent scaffolding from scratch.\n\nThe answer AWS offers is a curated catalog of 23 reusable assets from the AWS Generative AI Innovation Center. The Innovation Center is the AWS group that works directly with customers on generative AI projects. The post describes the assets as production-ready and open source. It shows how to access the catalog and includes delivery results from three named customers: DoorDash, Lyft and Ricoh.\n\nThis is a primary source, because the vendor is describing its own assets. The feed summary does not list the 23 assets one by one. It also does not say which license they use, which AWS services they depend on, or what the customer results were in numbers, such as time saved or accuracy gained. Those details sit in the full post. Expect the assets to lean on AWS services, as is usual for this blog, but check each one before assuming it is portable.\n\nThere is only one source for this story, so no outside view exists yet on the quality of the assets or on how much the customer results depended on hands-on help from AWS staff.",
+      "why_it_matters": "Most of the time on an applied AI project goes into plumbing: chunking documents, parsing PDFs, wiring tools into an agent loop, and adding logging. Reusing assets that have been tested at companies like DoorDash and Lyft can cut weeks from a first release. It can also give you defaults that are safer than a quick prototype.\n\nUse the catalog as a reference before you treat it as a dependency. For each asset in your area, compare its design choices with yours. Look at chunk size and overlap, the retrieval strategy, how it handles errors, and whether it ships with evals. The most useful thing to borrow is often the test harness or the evaluation setup, because that is the part teams most often skip.\n\nIf you adopt an asset, wrap it behind your own interface and pin the version. Write a small eval set from your own data before you change anything. That way you can tell whether the asset works on your documents and not only on the customer examples.\n\nFor process, this is a model worth copying inside your own organization. Keep a small internal catalog of approved RAG, extraction and agent templates, each with an owner and a test suite, so new projects start from something that already works.",
       "read_first": [
         {
           "title": "Accelerating generative AI delivery with reusable assets",
           "url": "https://aws.amazon.com/blogs/machine-learning/accelerating-generative-ai-delivery-with-reusable-assets/",
           "source": "AWS machine learning blog",
-          "why": "Primary source."
+          "why": "It is the only source and lists the 23 assets along with the DoorDash, Lyft and Ricoh delivery results."
         }
       ],
-      "open_question": "What does this change for your work on Best practices?",
-      "reading_minutes": 1,
+      "open_question": "Will reusable vendor templates make generative AI systems more reliable across companies, or will they spread the same hidden weaknesses to every team that adopts them?",
+      "reading_minutes": 2,
       "signals": {
         "sources": 1,
         "primary": true,
@@ -76,24 +76,24 @@
     },
     {
       "id": "automating-aws-agent-registry-updates-with-push-based",
-      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "title": "Keeping AWS Agent Registry in sync with MCP servers automatically",
       "lanes": [
         "Agents and loops",
         "Efficiencies"
       ],
       "off_lane": false,
-      "what_happened": "AWS machine learning blog: This post shows how to keep the AWS Agent Registry current automatically. Using AWS CloudTrail, Amazon EventBridge, AWS Lambda, and AgentCore Identity, an event-driven pipeline detects MCP server changes and pushes updated tool metadata to the registry with no stored secrets, across single- and multi-account environments.",
-      "why_it_matters": "One source covered this story, including a primary source. It is new since last week. It fits your Agents and loops and Efficiencies lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "what_happened": "A second AWS machine learning blog post from November 11 explains how to keep the AWS Agent Registry up to date without manual work. The registry holds metadata about the tools agents can use. In this case that means tools exposed by Model Context Protocol (MCP) servers.\n\nThe problem it solves is drift. When an MCP server changes, for example when a tool is added or its description is edited, the registry can fall out of date unless someone updates it. The post describes an event-driven, push-based pipeline that closes this gap. AWS CloudTrail records the change to the MCP server. Amazon EventBridge picks up that event and routes it. An AWS Lambda function then pushes the updated tool metadata to the registry. AgentCore Identity handles authentication, so the pipeline needs no stored secrets.\n\nThe post covers both single-account and multi-account setups. Multi-account matters for larger organizations that run MCP servers in separate accounts but want one central registry.\n\nThis is a single primary source from the vendor. The summary does not give latency figures, cost estimates, or how the pipeline handles failed updates or conflicting changes. It also does not say whether the approach works for MCP servers hosted outside AWS. Those questions would need the full post or hands-on testing to answer.",
+      "why_it_matters": "As agent setups grow, tool metadata becomes part of the prompt. An agent picks tools based on their names, descriptions and schemas. If the registry is stale, the agent may call a tool that no longer exists, pass the wrong arguments, or miss a better tool that was just added. Push-based updates turn that from a periodic chore into a guarantee you can rely on.\n\nThe pattern is useful even if you do not use AWS. The idea is to treat tool definitions like code. Detect changes at the source, push them to one catalog, and authenticate with short-lived identity instead of keys kept in config files. You can build the same thing with a CI step that publishes MCP tool schemas whenever a server is deployed.\n\nTwo concrete things to try. First, add a check that diffs tool descriptions between releases and flags edits for review, because a reworded description can change agent behavior as much as a prompt change can. Second, run a small agent eval after each registry update so tool selection regressions show up quickly.\n\nFor governance, a central registry with automatic updates also gives you an audit trail of which tools agents could reach and when.",
       "read_first": [
         {
           "title": "Automating AWS Agent Registry updates with push-based architecture",
           "url": "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/",
           "source": "AWS machine learning blog",
-          "why": "Primary source."
+          "why": "It is the only source and walks through the CloudTrail, EventBridge, Lambda and AgentCore Identity pipeline in both single- and multi-account setups."
         }
       ],
-      "open_question": "What does this change for your work on Agents and loops?",
-      "reading_minutes": 1,
+      "open_question": "If tool descriptions in a registry shape agent behavior as strongly as prompts do, who should review and approve changes to them before they are pushed?",
+      "reading_minutes": 2,
       "signals": {
         "sources": 1,
         "primary": true,
@@ -104,24 +104,24 @@
     },
     {
       "id": "b12300-llama-remove-non-fused-gdn-and-ubatch-dependent",
-      "title": "b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078)",
+      "title": "llama.cpp makes fused gated delta net the only code path",
       "lanes": [
         "Local inference",
         "Frontier models"
       ],
       "off_lane": false,
-      "what_happened": "llama.cpp releases: remove build_delta_net_chunking and build_delta_net_autoregressive always use the fused gated delta net make graph_max_nodes independent of the ubatch size drop the fused GDN probes and fused node tags Assisted-by: dsh:llama.cpp/ggml-org/DeepSeek-V4.1-Flash-1017-GGUF (Mac Studio, M5 Ultra, 256GB)",
-      "why_it_matters": "One source covered this story, including a primary source. It is new since last week. It fits your Local inference and Frontier models lanes. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "what_happened": "llama.cpp release b12300, published on November 11 from pull request 32078, simplifies how the project runs gated delta net (GDN) layers. Gated delta net is a recurrent, linear attention style layer that some newer model architectures use alongside or in place of standard attention.\n\nThe release notes list four changes. The project removed two older functions, build_delta_net_chunking and build_delta_net_autoregressive. These were the non-fused ways of computing the layer. From now on llama.cpp always uses the fused gated delta net kernel. The maximum number of nodes in the compute graph, graph_max_nodes, no longer depends on the micro-batch (ubatch) size. The project also dropped the probes that checked whether fused GDN was available, along with the tags that marked fused nodes.\n\nThe notes carry an unusual credit line. The change was \"Assisted-by\" DeepSeek-V4.1-Flash in GGUF format, running locally on a Mac Studio with an M5 Ultra chip and 256GB of memory. So a contributor used a locally hosted model to help write a change to the engine that runs local models.\n\nThis is a primary source, but release notes are short. They do not give performance numbers, list which models are affected, or say which hardware backends have a fused GDN kernel. They also do not say what happens on a backend that lacked one before, now that the fallback paths are gone.",
+      "why_it_matters": "If you run hybrid models that use gated delta net layers with llama.cpp, this release changes the only path your model takes. Fused kernels usually mean fewer graph nodes and less memory traffic, so you can expect equal or better speed. Removing the fallbacks also removes a source of behavior that differed by backend. Making graph size independent of ubatch size should make memory planning more predictable when you tune batch settings.\n\nThere is a risk. If your backend relied on the non-fused path, a build at or after b12300 could fail or behave differently. Before you upgrade a production or team setup, rebuild, run a short benchmark with llama-bench at your usual context and batch sizes, and compare perplexity or a small set of fixed prompts against your current build. Pin the build number so you can roll back.\n\nThe credit line is a signal for the Local inference lane. A DeepSeek Flash model running on one desktop machine with 256GB of memory was good enough to help with C++ graph code in a major open source project. That is a practical data point if you are deciding whether a local coding assistant can handle real engineering work on your own hardware.",
       "read_first": [
         {
           "title": "b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078)",
           "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12300",
           "source": "llama.cpp releases",
-          "why": "Primary source."
+          "why": "It is the release itself, with the exact list of removed functions and a link to pull request 32078 for the full diff and discussion."
         }
       ],
-      "open_question": "What does this change for your work on Local inference?",
-      "reading_minutes": 1,
+      "open_question": "With the non-fused fallbacks gone, how quickly will every llama.cpp backend, including smaller ones, get a fused GDN kernel, and what happens for users until then?",
+      "reading_minutes": 2,
       "signals": {
         "sources": 1,
         "primary": true,
@@ -132,21 +132,21 @@
     },
     {
       "id": "ai-is-heading-for-a-massive-oversupply-top-hedge-fund",
-      "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
+      "title": "A hedge fund manager argues AI is heading for oversupply",
       "lanes": [],
       "off_lane": true,
-      "what_happened": "@Monetary-Matters: This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ In this episode of Other People's Money, Max Wiethe sits down with Militia Capital founder David Orr to...",
-      "why_it_matters": "One source covered this story. It is new since last week. It sits outside your lanes and is here to widen the view. Today's briefing was built without a model, so this topic quotes the feeds instead of explaining them.",
+      "what_happened": "On November 11 the Monetary Matters YouTube channel posted an episode of its show Other People's Money. Host Max Wiethe interviews David Orr, founder of Militia Capital, a hedge fund. The episode title gives his main claim: AI is heading for a massive oversupply.\n\nThe feed summary is very thin. Most of it is an advertisement for the episode's sponsor, an investment fund, and it cuts off before describing Orr's argument. From the items alone we cannot say what he means by oversupply. It could be data center capacity, chips, power, model providers, or the cheap tokens all of these produce. We also do not know his timeline, his evidence, or whether he is describing a market position he holds. That last point matters, because investors on podcasts often discuss views that match their trades.\n\nThis is a single, non-primary source, and it falls outside the reader's lanes. It was chosen to widen the view. It fits with a headline in today's first topic, where Last Week in AI reports that spending is stalling even as Anthropic and OpenAI are priced at more than a trillion dollars each. Two separate sources pointing toward a possible gap between capacity and demand is worth noticing. It is still not proof of anything.",
+      "why_it_matters": "For a builder, the supply side of AI decides your costs. If an oversupply of compute does arrive, the likely result is lower prices per token, more providers competing for your workload, and more generous free tiers and discounts. That would favor teams that can move workloads easily between models and providers.\n\nA few practical steps follow from that. Avoid long, fixed-price compute commitments unless the discount is large. Keep your model calls behind an interface so you can change providers when prices drop. Track your cost per task over time, not only cost per token, so you can see when a cheaper provider or a larger model becomes worth testing.\n\nThere is also a downside to plan for. Oversupply cycles often end with consolidation. Smaller providers or tools you depend on could shut down or be bought. Keep exports of your prompts, eval sets, fine-tuning data and vector indexes in formats you control.\n\nLocal inference is part of the same picture. If cloud compute gets cheaper, the case for running models on your own hardware becomes more about privacy and control than about cost.",
       "read_first": [
         {
           "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
           "url": "https://www.youtube.com/watch?v=w7Lc5Iyg-To",
           "source": "@Monetary-Matters",
-          "why": "Coverage of the story."
+          "why": "It is the only source, and you need to hear Orr's actual argument and evidence because the feed summary leaves them out."
         }
       ],
-      "open_question": "Does this change anything you are planning?",
-      "reading_minutes": 1,
+      "open_question": "If AI compute does end up oversupplied, will cheaper inference mostly reach builders as lower prices, or will consolidation among providers soak up the savings?",
+      "reading_minutes": 2,
       "signals": {
         "sources": 1,
         "primary": false,

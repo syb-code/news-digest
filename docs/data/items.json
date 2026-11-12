@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12T04:29:25+00:00",
+  "generated_at": "2026-11-12T04:53:43+00:00",
   "items": [
     {
       "id": "f0c7ae4d0b6a0ea224147b6ec571000d",
@@ -48,7 +48,8 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "ac014de22f79eb9e74898d0e94009a15",
@@ -111,7 +112,8 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "325e2c658af490ebbe4fe2ae5397c5f0",
@@ -203,7 +205,8 @@
       "read_minutes": 4,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "711cf4766ed5a604b02698ee78bc4b1c",
@@ -299,7 +302,8 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "2385459a358adc27f47faf30bf36e134",
@@ -346,7 +350,8 @@
       "read_minutes": 2,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "2ac72f08a5ea49d404c4ce3d5a9cb44e",
@@ -474,7 +479,8 @@
       "read_minutes": 4,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "739c78f2a7630901c0f58442d933752a",
@@ -554,7 +560,8 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "4b515c911ad6b37a3d83408c40d38853",
@@ -682,7 +689,8 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "a696c4cc450a19676c2d7ef9c0d88d8a",
@@ -876,7 +884,8 @@
       "themes": [
         "Macro/Fed"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "aed28d8d1547d7782722d3e93e9076a2",
@@ -1007,7 +1016,8 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "ba5981041350ccd3408b403ce4e0bc77",
@@ -1052,7 +1062,8 @@
         "AI/ML",
         "Tech/Earnings"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "d4c2d9de62b0ca9bed825501c96eea94",
@@ -1195,7 +1206,8 @@
         "AI/ML",
         "Tech/Earnings"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "bc16d7aaece628c77dfb012f000320a4",
@@ -1337,7 +1349,8 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "3de97cce9e7a733127f39ea8353fe594",
@@ -1506,7 +1519,8 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "b9195a302ec24532d97bbf746d9260a7",
@@ -1582,7 +1596,8 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
+      "bucket": "deeper",
+      "stale": true
     },
     {
       "id": "d13aa86f6f18629d9d6bff9414b42bcf",
@@ -2899,9 +2914,9 @@
     {
       "label": "@Monetary-Matters",
       "type": "youtube",
-      "ok": true,
+      "ok": false,
       "count": 15,
-      "error": null
+      "error": "HTTP 500"
     },
     {
       "label": "Last Week in AI (Substack)",

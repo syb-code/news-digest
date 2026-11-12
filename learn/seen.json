@@ -3,9 +3,9 @@
   "topics": [
     {
       "id": "accelerating-generative-ai-delivery-with-reusable-assets",
-      "title": "Accelerating generative AI delivery with reusable assets",
+      "title": "AWS publishes 23 reusable open source generative AI building blocks",
       "date": "2026-11-11",
-      "logged_at": "2026-11-12T04:30:15+00:00",
+      "logged_at": "2026-11-12T04:55:40+00:00",
       "terms": [
         "assets",
         "delivery",
@@ -30,9 +30,9 @@
     },
     {
       "id": "ai-is-heading-for-a-massive-oversupply-top-hedge-fund",
-      "title": "AI is Heading for a Massive Oversupply: Top Hedge Fund Manager’s Prediction | David Orr",
+      "title": "A hedge fund manager argues AI is heading for oversupply",
       "date": "2026-11-11",
-      "logged_at": "2026-11-12T04:30:15+00:00",
+      "logged_at": "2026-11-12T04:55:40+00:00",
       "terms": [
         "david",
         "heading",
@@ -57,9 +57,9 @@
     },
     {
       "id": "automating-aws-agent-registry-updates-with-push-based",
-      "title": "Automating AWS Agent Registry updates with push-based architecture",
+      "title": "Keeping AWS Agent Registry in sync with MCP servers automatically",
       "date": "2026-11-11",
-      "logged_at": "2026-11-12T04:30:15+00:00",
+      "logged_at": "2026-11-12T04:55:40+00:00",
       "terms": [
         "architecture",
         "registry",
@@ -71,8 +71,8 @@
         "automatically",
         "cloudtrail",
         "detects",
-        "event",
-        "eventbridge"
+        "environments",
+        "event"
       ],
       "urls": [
         "https://aws.amazon.com/blogs/machine-learning/automating-aws-agent-registry-updates-with-push-based-architecture/"
@@ -84,9 +84,9 @@
     },
     {
       "id": "b12300-llama-remove-non-fused-gdn-and-ubatch-dependent",
-      "title": "b12300: llama : remove non-fused GDN and ubatch-dependent graph nodes (#32078)",
+      "title": "llama.cpp makes fused gated delta net the only code path",
       "date": "2026-11-11",
-      "logged_at": "2026-11-12T04:30:15+00:00",
+      "logged_at": "2026-11-12T04:55:40+00:00",
       "terms": [
         "32078",
         "b12300",
@@ -94,10 +94,10 @@
         "fused",
         "gdn",
         "non",
+        "remove",
         "ubatch",
         "llama",
         "nodes",
-        "remove",
         "graph",
         "autoregressive"
       ],
@@ -111,9 +111,9 @@
     },
     {
       "id": "last-week-month-in-ai-347-nvidia-s-spy-anthropic-s-1-4t-ipo",
-      "title": "Last Week (Month) in AI #347 - Nvidia's spy, Anthropic's $1.4T IPO, AI's blue wave",
+      "title": "Anthropic starts its IPO roadshow as AI valuations reach trillions",
       "date": "2026-11-11",
-      "logged_at": "2026-11-12T04:30:15+00:00",
+      "logged_at": "2026-11-12T04:55:40+00:00",
       "terms": [
         "ipo",
         "anthropic",
