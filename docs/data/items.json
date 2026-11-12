@@ -1,18 +1,36 @@
 {
-  "generated_at": "2026-11-12T13:46:11+00:00",
+  "generated_at": "2026-11-12T19:56:27+00:00",
   "items": [
     {
-      "id": "f3597c343c44d22c778b5e4717ee3d00",
-      "title": "Gold Prices: Why I Believe They're Going Much Higher",
-      "url": "https://www.youtube.com/watch?v=FNJbma4DcR4",
-      "source": "@clearvaluetax9382",
+      "id": "fbb6dfaa46682d55b588cd4e0b4727d6",
+      "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
+      "url": "https://www.youtube.com/watch?v=Dt7Q_VQxGHc",
+      "source": "@AIDailyBrief",
       "source_type": "youtube",
-      "published": "2026-11-11T18:19:09+00:00",
-      "first_seen": "2026-11-12T13:46:11+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
+      "published": "2026-11-12T18:44:15+00:00",
+      "first_seen": "2026-11-12T19:56:27+00:00",
+      "summary": "Jensen Huang is out at Nvidia, leaving a power vacuum that stretches across the AI industry. NLW examines the allegations behind his departure, who stands to benefit, and what happens when the industry loses one of its most influential figures. From China policy and open...",
       "read_minutes": 1,
       "duration_sec": null,
-      "themes": [],
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "38ec46eee4d1d2c29fe9dd73063ae949",
+      "title": "Wall Street Has No Idea What Anthropic is Worth",
+      "url": "https://www.youtube.com/watch?v=gCOMQPMhIL0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-12T16:12:30+00:00",
+      "first_seen": "2026-11-12T19:56:27+00:00",
+      "summary": "Anthropic’s IPO is days away, and nobody really knows how investors will price the biggest bet in AI. NLW breaks down the share price range, shifting valuation chatter, compute commitments, and the new Claude productivity suite aimed at Microsoft. In the headlines: Google’s...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
       "bucket": "deeper"
     },
     {
@@ -158,20 +176,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "59b418ee6aee28ac26d1359f235514d0",
-      "title": "IRS Announces 2027 Tax Changes — What You Need to Know",
-      "url": "https://www.youtube.com/watch?v=OSgTEcIMBL8",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-11-09T17:00:30+00:00",
-      "first_seen": "2026-11-09T17:00:30+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets Which Retirement Plans to Prioritize: https://youtu.be/ZwJhUONHLvk...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
-    },
-    {
       "id": "bfd0c8051728ba8d04986b8921c451f1",
       "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
@@ -247,22 +251,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "13ed5a8c54f874ba4574ffc6e70995f3",
-      "title": "The Jobs Report Just Changed the Outlook for Interest Rates",
-      "url": "https://www.youtube.com/watch?v=y8GV4baiNvk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-11-06T20:45:35+00:00",
-      "first_seen": "2026-11-06T20:45:35+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "a2ea674d5f48cb218c1adfb86c0417bb",
       "title": "Deep Learning Weekly: Issue 480",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-480",
@@ -323,20 +311,6 @@
         "AI/ML",
         "Housing (CA/SD)"
       ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "e262675abdfb54edcee30ecef274215b",
-      "title": "Democrats Win Congress: What Happens to Trump and Your Money?",
-      "url": "https://www.youtube.com/watch?v=1Y5vBU3mY3s",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-11-04T23:00:27+00:00",
-      "first_seen": "2026-11-04T23:00:27+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "deeper"
     },
     {
@@ -447,20 +421,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "38b8084c4536f1628a232537ef99c1ec",
-      "title": "Tax Loss Harvesting — Pay Less Taxes on Stocks in 2026",
-      "url": "https://www.youtube.com/watch?v=42KMkBSrIpo",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-11-02T23:00:31+00:00",
-      "first_seen": "2026-11-02T23:00:31+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "deeper"
     },
     {
@@ -606,20 +566,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "0faedcdae63ac0ab53c4be04c12d9041",
-      "title": "Something Is Seriously Wrong at the Federal Reserve",
-      "url": "https://www.youtube.com/watch?v=7Da9XbFpIPI",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-30T15:30:03+00:00",
-      "first_seen": "2026-10-30T15:30:03+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
-    },
-    {
       "id": "9145cdae05d2f15a937e30849092c3b1",
       "title": "Deep Learning Weekly: Issue 479",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-479",
@@ -716,22 +662,6 @@
       "stale": true
     },
     {
-      "id": "13e5e6fb582a449e5fcce365b8c77720",
-      "title": "Fed Holds Interest Rates as Inflation Fuels Disagreement",
-      "url": "https://www.youtube.com/watch?v=1oGV0xCL_8c",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-28T20:15:22+00:00",
-      "first_seen": "2026-10-28T20:15:22+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "239223212d09acca532d4e52a0367688",
       "title": "Still thinking about applying to speedrun? Read this",
       "url": "https://speedrun.substack.com/p/read-before-applying",
@@ -809,20 +739,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "deaffee7a1352a26fc86ca2c9d79bf46",
-      "title": "Americans Are Spending More Money — But There's a BIG Problem",
-      "url": "https://www.youtube.com/shorts/04eSMyK2oGw",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-27T16:00:25+00:00",
-      "first_seen": "2026-10-27T16:00:25+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "bd15e74b2162adde85be38c22a433d8c",
       "title": "How AI Makes the 28-Day Year a Powerful Goal-Setting System",
       "url": "https://excellentprompts.substack.com/p/28-day-year",
@@ -873,22 +789,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "aed28d8d1547d7782722d3e93e9076a2",
-      "title": "4 Questions for AI This Week",
-      "url": "https://www.youtube.com/watch?v=uGvgPwcy9V0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-10-27T11:37:13+00:00",
-      "first_seen": "2026-10-27T11:37:13+00:00",
-      "summary": "Is China closing the AI gap? Is cyber chaos the new normal? Is data center funding drying up? And what happens if Anthropic’s IPO disappoints? From Kimi K3.1 to rogue agent swarms to Elon Musk’s debt market warning, NLW examines the four questions shaping AI this week. The AI...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "9e635353804d1ae1d559ae228cb486fe",
       "title": "Phase 1: Summon 1,946 AI Gnomes. Phase 2: Sort 7.7 Million Mouse Brain Cells In 32 Minutes. Phase 3: Profit!",
       "url": "https://exploringchatgpt.substack.com/p/phase-1-summon-1946-ai-gnomes-phase",
@@ -906,20 +806,6 @@
       "stale": true
     },
     {
-      "id": "0811a1eca7649924d24dc465dcc05255",
-      "title": "Margin Debt: How Investors Lose Everything in The Stock Market",
-      "url": "https://www.youtube.com/watch?v=Ym0EMJUokg4",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-26T16:00:40+00:00",
-      "first_seen": "2026-10-26T16:00:40+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
-    },
-    {
       "id": "332814a1fb57b9142dd354805471357f",
       "title": "Build an AI Daily Digest with Claude Code",
       "url": "https://excellentprompts.substack.com/p/build-an-ai-daily-digest-with-claude-code",
@@ -935,22 +821,6 @@
       ],
       "bucket": "highlight",
       "stale": true
-    },
-    {
-      "id": "ca22f9c73d4048db805957bc480eb8d2",
-      "title": "How I m Actually Using Claude Duet",
-      "url": "https://www.youtube.com/watch?v=HyEfRBW10Kk",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-10-26T15:36:50+00:00",
-      "first_seen": "2026-10-26T15:36:50+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
     },
     {
       "id": "0384f20033d62b96b9b9643b3f90dcb0",
@@ -1046,20 +916,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "d4c2d9de62b0ca9bed825501c96eea94",
-      "title": "Stocks Have Done THIS After Every Midterm Election Since 1950",
-      "url": "https://www.youtube.com/shorts/CQeZsYwHPno",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-23T17:24:15+00:00",
-      "first_seen": "2026-10-23T17:24:15+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "4f4a7917c6ccee7706e7d2d8e0464b46",
       "title": "Tsst!",
       "url": "https://exploringchatgpt.substack.com/p/tsst",
@@ -1086,20 +942,6 @@
       "first_seen": "2026-10-23T15:03:39+00:00",
       "summary": "Muse Glimmer 30B, a paper on Good Judgment, Bad Advice: Decision-Model Controllers Raise Agent Cost Without Improving Success, and many more!",
       "read_minutes": 8,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
-    },
-    {
-      "id": "bab5aca1a35583acacb7e8606e8e39f5",
-      "title": "The U.S. Government's 2026 Financial Results Are In... It's Bad",
-      "url": "https://www.youtube.com/watch?v=5oWCcRkkI9s",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-22T16:00:29+00:00",
-      "first_seen": "2026-10-22T16:00:29+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
@@ -1249,20 +1091,6 @@
       "stale": true
     },
     {
-      "id": "1daf4d37be5fc618fed0b702a42f2dc9",
-      "title": "Stocks Have Done THIS After Every Midterm Election Since 1950",
-      "url": "https://www.youtube.com/watch?v=LaBiYw1ZKF4",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-19T16:00:35+00:00",
-      "first_seen": "2026-10-19T16:00:35+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
-    },
-    {
       "id": "ab05fdeb8b6f2b579c89098e0a2c6e9e",
       "title": "Oh, You're Not Ready To Review My Code?",
       "url": "https://exploringchatgpt.substack.com/p/oh-youre-not-ready-to-review-my-code",
@@ -1361,20 +1189,6 @@
       "stale": true
     },
     {
-      "id": "b15251629e3a19261b44e43c7aa9e1b6",
-      "title": "Americans Are Spending More Money — But There's a BIG Problem",
-      "url": "https://www.youtube.com/watch?v=gXZTOrZCHbk",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-16T15:30:24+00:00",
-      "first_seen": "2026-10-16T15:30:24+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
-    },
-    {
       "id": "0342c11555e704e4ab6f843ff9ed217d",
       "title": "Deep Learning Weekly: Issue 477",
       "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-477",
@@ -1384,20 +1198,6 @@
       "first_seen": "2026-10-16T15:02:03+00:00",
       "summary": "Haiku 5.5, Learning Harness Engineering by Building a Coding Agent From Scratch, a paper on Self-Compacting Language Model Agents, and many more!",
       "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "d1295db8a686eeef062a91635ce9bd94",
-      "title": "Stocks Face a New Threat From Inflation",
-      "url": "https://www.youtube.com/shorts/CbCsVbU14TM",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-15T19:17:12+00:00",
-      "first_seen": "2026-10-15T19:17:12+00:00",
-      "summary": "#StockMarket #Inflation #CPI Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on...",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
@@ -1447,20 +1247,6 @@
       "themes": [],
       "bucket": "deeper",
       "stale": true
-    },
-    {
-      "id": "55235e05c5e877a1ff2a2b3de8d184e6",
-      "title": "CPI Inflation Report Worse Than Expected — Stocks Are Falling",
-      "url": "https://www.youtube.com/watch?v=KU9v3iPFLow",
-      "source": "@clearvaluetax9382",
-      "source_type": "youtube",
-      "published": "2026-10-14T23:03:52+00:00",
-      "first_seen": "2026-10-14T23:03:52+00:00",
-      "summary": "Join our Investing Community: https://www.patreon.com/ClearValueInvesting ⭐ See What I'm Investing In ⭐ Trade Alerts ⭐ Get Your Questions Answered ⭐ Join Our Private Chatroom ⭐ Exclusive Content About Markets 📘 My Book on Wealth-Building is Now on Amazon English Version...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
     },
     {
       "id": "a4f4dba5c5201fe0878c6d27ec967009",
@@ -2852,13 +2638,6 @@
     }
   ],
   "sources": [
-    {
-      "label": "@clearvaluetax9382",
-      "type": "youtube",
-      "ok": true,
-      "count": 15,
-      "error": null
-    },
     {
       "label": "@AIDailyBrief",
       "type": "youtube",
