@@ -1,0 +1,920 @@
+[
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 287294.199009,
+  "shortParQuantity": 167986.683176,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-05",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 24281703.641181,
+  "shortParQuantity": 12514292.543527,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-05",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 84429
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1173890.975348,
+  "shortParQuantity": 585111.87312,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-05",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 349
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 269381.435509,
+  "shortParQuantity": 162093.075962,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-02",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 226
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 20896462.225755,
+  "shortParQuantity": 8703870.747171,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-02",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 55891
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1427926.9784,
+  "shortParQuantity": 920798.38479,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-02",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 290
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 142114.086049,
+  "shortParQuantity": 67722.035322,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-02",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 9979074.616751,
+  "shortParQuantity": 5397002.653504,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-02",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 130700
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 407107.83517,
+  "shortParQuantity": 227799.79684,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-02",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 123474.011656,
+  "shortParQuantity": 49702.066702,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-05",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 6
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 9623361.881025,
+  "shortParQuantity": 4338148.425836,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-05",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 16694
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 601266.63669,
+  "shortParQuantity": 195481.70534,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-05",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 216357.144059,
+  "shortParQuantity": 121399.68638,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-01",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 12166872.601386,
+  "shortParQuantity": 6866874.773679,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-01",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 32573
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 406583.08019,
+  "shortParQuantity": 259386.90758,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-01",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 20
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 258963.166783,
+  "shortParQuantity": 152118.385709,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-30",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 140
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 17843652.940528,
+  "shortParQuantity": 8661044.643011,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-30",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 57691
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 878441.469326,
+  "shortParQuantity": 494994.54126,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-30",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 205217.106631,
+  "shortParQuantity": 113114.713406,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-15",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 12670448.312274,
+  "shortParQuantity": 7185904.854394,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-15",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 39274
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 687642.61875,
+  "shortParQuantity": 519498.9949,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-15",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 1425
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 221904.406261,
+  "shortParQuantity": 137435.754011,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-16",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 12
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 19165630.825898,
+  "shortParQuantity": 10186861.639367,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-16",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 148775
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 655191.59619,
+  "shortParQuantity": 473262.72574,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-16",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 4195
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 144435.836184,
+  "shortParQuantity": 72105.84418,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-19",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 14
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 12620537.147417,
+  "shortParQuantity": 6898665.913808,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-19",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 45172
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 418375.89251,
+  "shortParQuantity": 231266.82136,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-19",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 363981.607317,
+  "shortParQuantity": 223176.000671,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-04",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 271
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 31425553.694422,
+  "shortParQuantity": 16201654.504217,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-04",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 167582
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1392987.64999,
+  "shortParQuantity": 1048144.14156,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-04",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 3609
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 233358.397432,
+  "shortParQuantity": 122511.758732,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-14",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 316
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 15438190.529154,
+  "shortParQuantity": 8667748.796779,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-14",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 34932
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1085577.65571,
+  "shortParQuantity": 841522.98403,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-14",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 280
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 148847.815685,
+  "shortParQuantity": 81990.730952,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-06",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 9
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 8935614.520109,
+  "shortParQuantity": 3870709.509349,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-06",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 31031
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 381603.40281,
+  "shortParQuantity": 177808.68991,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-06",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 20
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 174029.662273,
+  "shortParQuantity": 77057.911613,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-08",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11675919.628917,
+  "shortParQuantity": 6242059.005192,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-08",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 53791
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 479515.48734,
+  "shortParQuantity": 313069.82768,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-08",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 732
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 176944.641655,
+  "shortParQuantity": 105142.269605,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-22",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 14099972.80151,
+  "shortParQuantity": 8053779.769819,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-22",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 22096
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 753784.72569,
+  "shortParQuantity": 534841.47147,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-22",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 234362.134724,
+  "shortParQuantity": 78389.026203,
+  "marketCode": "B",
+  "tradeReportDate": "2026-09-30",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 15009679.736611,
+  "shortParQuantity": 6135867.915083,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-09-30",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 27041
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 658776.38674,
+  "shortParQuantity": 312851.73114,
+  "marketCode": "N",
+  "tradeReportDate": "2026-09-30",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 700
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 134009.836496,
+  "shortParQuantity": 60919.415676,
+  "marketCode": "B",
+  "tradeReportDate": "2026-09-28",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 9969520.707443,
+  "shortParQuantity": 4815421.474139,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-09-28",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 43551
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 425312.423651,
+  "shortParQuantity": 257414.17958,
+  "marketCode": "N",
+  "tradeReportDate": "2026-09-28",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 153953.856071,
+  "shortParQuantity": 74832.9234,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-06",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 198
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 12529474.36432,
+  "shortParQuantity": 5095792.602586,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-06",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 71971
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 690707.7782,
+  "shortParQuantity": 421373.53434,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-06",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 488
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 120585.010751,
+  "shortParQuantity": 66529.546649,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-12",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 32
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11447787.095163,
+  "shortParQuantity": 5071816.812875,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-12",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 37482
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 495134.135298,
+  "shortParQuantity": 260681.53684,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-12",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 1016
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 178040.739342,
+  "shortParQuantity": 108816.463811,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-26",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 20
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11624969.923856,
+  "shortParQuantity": 6627687.904191,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-26",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 27870
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 445775.01343,
+  "shortParQuantity": 297268.83569,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-26",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 416
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 123970.498977,
+  "shortParQuantity": 72243.724369,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-10",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 297
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 8782037.344107,
+  "shortParQuantity": 4650880.363833,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-10",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 27084
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 493056.40441,
+  "shortParQuantity": 321384.73205,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-10",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 161606.003954,
+  "shortParQuantity": 90615.952395,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-23",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11304841.531882,
+  "shortParQuantity": 6507814.038547,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-23",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 29326
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1992179.74236,
+  "shortParQuantity": 1839341.0479,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-23",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 131377.705879,
+  "shortParQuantity": 66866.72,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-09",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 153
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 13852317.301844,
+  "shortParQuantity": 7466309.566826,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-09",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 27901
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 512882.618786,
+  "shortParQuantity": 307127.17932,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-09",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 247088.936329,
+  "shortParQuantity": 125493.551188,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-13",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 1
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 14579966.909328,
+  "shortParQuantity": 7896560.950702,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-13",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 32667
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 563683.52036,
+  "shortParQuantity": 379521.49694,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-13",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 145256.499861,
+  "shortParQuantity": 50896.565585,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-07",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 10040894.150072,
+  "shortParQuantity": 4597952.032616,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-07",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 21981
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 882643.80369,
+  "shortParQuantity": 644877.46024,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-07",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 150827.619533,
+  "shortParQuantity": 97499.291581,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-21",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 29
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11953736.759522,
+  "shortParQuantity": 6154986.477535,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-21",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 46805
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 412919.81122,
+  "shortParQuantity": 230649.96604,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-21",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 151167.623697,
+  "shortParQuantity": 44697.509367,
+  "marketCode": "B",
+  "tradeReportDate": "2026-09-29",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 140
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 12784956.507162,
+  "shortParQuantity": 6537144.927595,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-09-29",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 42105
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 536575.077125,
+  "shortParQuantity": 273726.75544,
+  "marketCode": "N",
+  "tradeReportDate": "2026-09-29",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 500
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 155017.189953,
+  "shortParQuantity": 88868.810764,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-11",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 21
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 10993647.679657,
+  "shortParQuantity": 5866862.70509,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-11",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 47184
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1022697.49758,
+  "shortParQuantity": 590394.02746,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-11",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 227
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 128829.294208,
+  "shortParQuantity": 78909.6818,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-27",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11308048.597624,
+  "shortParQuantity": 5643213.160512,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-27",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 41441
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1582090.34029,
+  "shortParQuantity": 494158.97387,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-27",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 132878.39089,
+  "shortParQuantity": 73416.387326,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-29",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 55
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 11370138.506142,
+  "shortParQuantity": 5162730.327318,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-29",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 33207
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 923421.881076,
+  "shortParQuantity": 524303.54482,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-29",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 300
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 168723.281139,
+  "shortParQuantity": 95437.861818,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-20",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 180
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 12064381.398944,
+  "shortParQuantity": 6872139.055708,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-20",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 50433
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 1014114.62673,
+  "shortParQuantity": 880838.04778,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-20",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 102007.95058,
+  "shortParQuantity": 47870.5485,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-28",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 1
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 8272288.262644,
+  "shortParQuantity": 3711386.666561,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-28",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 34444
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 644064.4053,
+  "shortParQuantity": 437883.63991,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-28",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 120
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 242469.809061,
+  "shortParQuantity": 117560.542903,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-09",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 80
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 14457459.097314,
+  "shortParQuantity": 8538628.852349,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-09",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 26977
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 601026.99311,
+  "shortParQuantity": 355095.01853,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-09",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 40
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 301759.498388,
+  "shortParQuantity": 173857.48139,
+  "marketCode": "B",
+  "tradeReportDate": "2026-11-03",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 22855895.896051,
+  "shortParQuantity": 12786810.520149,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-11-03",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 53539
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 968389.179708,
+  "shortParQuantity": 633443.92732,
+  "marketCode": "N",
+  "tradeReportDate": "2026-11-03",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 964
+ },
+ {
+  "reportingFacilityCode": "NCTRF",
+  "totalParQuantity": 156362.805561,
+  "shortParQuantity": 65854.76567,
+  "marketCode": "B",
+  "tradeReportDate": "2026-10-12",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 336
+ },
+ {
+  "reportingFacilityCode": "NQTRF",
+  "totalParQuantity": 8994418.137209,
+  "shortParQuantity": 4651587.529464,
+  "marketCode": "Q",
+  "tradeReportDate": "2026-10-12",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 27458
+ },
+ {
+  "reportingFacilityCode": "NYTRF",
+  "totalParQuantity": 455659.21708,
+  "shortParQuantity": 354158.68565,
+  "marketCode": "N",
+  "tradeReportDate": "2026-10-12",
+  "securitiesInformationProcessorSymbolIdentifier": "AAPL",
+  "shortExemptParQuantity": 0
+ }
+]

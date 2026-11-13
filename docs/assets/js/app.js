@@ -1,4 +1,4 @@
-/* News digest dashboard, app.js v8.
+/* News digest dashboard, app.js v9.
    Renders data/items.json, data/twitter_posts.json and the entry for the latest learning
    briefing (learn/index.json), and sends the items you tick to your worker for a summary.
    - The worker's address comes from window.NEWS_DIGEST_CONFIG.workerUrl (assets/js/config.js,
@@ -12,7 +12,9 @@
    - Summaries cost money, so a run never starts twice, only sends what you can see and have
      ticked, skips anything already summarized in this tab, and unticks what it finished.
    - With a worker and a key set, the "On X" panel lets the owner add and remove accounts. The
-     edit goes to the worker, which checks the key; without a key none of those controls exist. */
+     edit goes to the worker, which checks the key; without a key none of those controls exist.
+   - window.NewsDigest is the one bridge to assets/js/stocks.js, the owner's private stock section,
+     which shows only while a key is set and the worker answers for it. */
 (() => {
   'use strict';
 
@@ -105,6 +107,7 @@
   const readSet = loadSet(READ_KEY);
   const selectedSet = loadSet(SELECT_KEY);
   const memCache = new Map();
+  const keyListeners = []; // stocks.js, through the bridge below: told when the key is set, changed or forgotten
 
   // ---------- small helpers ----------
   const ESC = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
@@ -569,6 +572,7 @@
     setKeyBtn.classList.toggle('is-set', has);
     setKeyBtn.title = has ? 'The worker access key is set in this browser. Change or forget it.' : 'Set the worker access key for summaries';
     if (xLoaded) renderXPanel(); // the account controls exist only while a key is set
+    keyListeners.slice().forEach((fn) => { try { fn(has); } catch (e) { /* a listener's own problem */ } });
   }
   window.addEventListener('storage', (e) => {
     if (e.key === KEY_STORE || e.key === null) updateKeyBtn();
@@ -684,6 +688,17 @@
   }
   // These stop the worker for the rest of a run: every other item would fail the same way.
   const STOPS = { noworker: true, nokey: true, auth: true, unconfigured: true, rate: true };
+
+  // ---------- the bridge for stocks.js ----------
+  // The private stock section (assets/js/stocks.js) talks to the worker only through this frozen
+  // object: the same workerFetch, so the key, the timeout and the guard's 401 rule stay in one place.
+  // The key itself never leaves this file.
+  window.NewsDigest = Object.freeze({
+    workerFetch,
+    hasWorker: () => HAS_WORKER,
+    hasKey: () => !!getWorkerKey(),
+    onKeyChange: (fn) => { if (typeof fn === 'function') keyListeners.push(fn); },
+  });
 
   // Exact host match, so a look-alike such as notyoutu.be or evil.example/x.youtube.com is not a video.
   function youTubeId(u) {

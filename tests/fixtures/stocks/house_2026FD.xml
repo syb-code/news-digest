@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FinancialDisclosure>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Hern</Last>
+    <First>Kevin</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>OK01</StateDst>
+    <Year>2026</Year>
+    <FilingDate>9/25/2026</FilingDate>
+    <DocID>20035491</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Kean</Last>
+    <First>Thomas H.</First>
+    <Suffix>Jr</Suffix>
+    <FilingType>P</FilingType>
+    <StateDst>NJ07</StateDst>
+    <Year>2026</Year>
+    <FilingDate>10/30/2026</FilingDate>
+    <DocID>20035591</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Pelosi</Last>
+    <First>Nancy</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>CA11</StateDst>
+    <Year>2026</Year>
+    <FilingDate>11/6/2026</FilingDate>
+    <DocID>20035780</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Peters</Last>
+    <First>Scott H.</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>CA50</StateDst>
+    <Year>2026</Year>
+    <FilingDate>9/21/2026</FilingDate>
+    <DocID>20035434</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Rogers</Last>
+    <First>Harold Dallas</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>KY05</StateDst>
+    <Year>2026</Year>
+    <FilingDate>9/23/2026</FilingDate>
+    <DocID>9116342</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Wagner</Last>
+    <First>Ann</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>MO02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>1/2/2026</FilingDate>
+    <DocID>20033718</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Wagner</Last>
+    <First>Ann</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>MO02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>5/4/2026</FilingDate>
+    <DocID>20034462</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Wagner</Last>
+    <First>Ann</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>MO02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>7/2/2026</FilingDate>
+    <DocID>20034915</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Wagner</Last>
+    <First>Ann</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>MO02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>11/2/2026</FilingDate>
+    <DocID>20035751</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Walberg</Last>
+    <First>Tim</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>MI05</StateDst>
+    <Year>2026</Year>
+    <FilingDate>6/3/2026</FilingDate>
+    <DocID>20034660</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Wasserman Schultz</Last>
+    <First>Debbie</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>FL25</StateDst>
+    <Year>2026</Year>
+    <FilingDate>7/14/2026</FilingDate>
+    <DocID>20034999</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Webster</Last>
+    <First>Daniel</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>FL11</StateDst>
+    <Year>2026</Year>
+    <FilingDate>6/1/2026</FilingDate>
+    <DocID>20034562</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Williams</Last>
+    <First>Roger</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>TX25</StateDst>
+    <Year>2026</Year>
+    <FilingDate>1/15/2026</FilingDate>
+    <DocID>20033783</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Wittman</Last>
+    <First>Robert J.</First>
+    <Suffix />
+    <FilingType>P</FilingType>
+    <StateDst>VA01</StateDst>
+    <Year>2026</Year>
+    <FilingDate>7/10/2026</FilingDate>
+    <DocID>20034916</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Yakym</Last>
+    <First>Rudy C.</First>
+    <Suffix>III</Suffix>
+    <FilingType>P</FilingType>
+    <StateDst>IN02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>4/6/2026</FilingDate>
+    <DocID>20034298</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Yakym</Last>
+    <First>Rudy C.</First>
+    <Suffix>III</Suffix>
+    <FilingType>P</FilingType>
+    <StateDst>IN02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>7/13/2026</FilingDate>
+    <DocID>20034984</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Yakym</Last>
+    <First>Rudy C.</First>
+    <Suffix>III</Suffix>
+    <FilingType>P</FilingType>
+    <StateDst>IN02</StateDst>
+    <Year>2026</Year>
+    <FilingDate>10/20/2026</FilingDate>
+    <DocID>20035691</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Gallagher</Last>
+    <First>James</First>
+    <Suffix />
+    <FilingType>A</FilingType>
+    <StateDst>CA01</StateDst>
+    <Year>2026</Year>
+    <FilingDate>9/5/2026</FilingDate>
+    <DocID>10082786</DocID>
+  </Member>
+  <Member>
+    <Prefix>Hon.</Prefix>
+    <Last>Sanford</Last>
+    <First>Mark</First>
+    <Suffix />
+    <FilingType>W</FilingType>
+    <StateDst />
+    <Year>2026</Year>
+    <FilingDate />
+    <DocID>9115825</DocID>
+  </Member>
+</FinancialDisclosure>

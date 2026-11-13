@@ -19,11 +19,13 @@
   <script src="assets/js/theme.js?v=1"></script>
   <link rel="preload" href="assets/fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="assets/fonts/GeistMono-Regular.woff2" as="font" type="font/woff2" crossorigin>
-  <link rel="stylesheet" href="assets/css/style.css?v=7">
+  <link rel="stylesheet" href="assets/css/style.css?v=8">
   <script src="assets/js/vendor/lunr-2.3.9.min.js" defer></script>
   <!-- Site settings (the worker address) load before app.js, which reads them. -->
   <script src="assets/js/config.js?v=1" defer></script>
-  <script src="assets/js/app.js?v=11" defer></script>
+  <script src="assets/js/app.js?v=12" defer></script>
+  <!-- The private stock section. It does nothing until a worker key is set, and then reads everything from the worker. -->
+  <script src="assets/js/stocks.js?v=1" defer></script>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -33,6 +35,7 @@
     <a class="mark" href="#top">News digest<span>.</span></a>
     <nav class="site-nav" aria-label="Sections">
       <a href="#briefing" id="nav-briefing" hidden>Briefing</a>
+      <a href="#stocks" id="nav-stocks" hidden>Stocks</a>
       <a href="#items">Items</a>
       <a href="#deeper">Deeper dives</a>
       <a href="#on-x">On X</a>
@@ -69,6 +72,22 @@
           <a class="btn btn-primary btn-sm brief-open" id="brief-open" href="learn/">Open the briefing</a>
         </div>
       </section>
+    </div>
+  </section>
+
+  <!-- The owner's private stock section. Empty and hidden in the published page: stocks.js fills it
+       from the worker only while the access key is set, so a visitor's page has none of it. -->
+  <section class="stocks" id="stocks" aria-labelledby="stocks-title" hidden>
+    <div class="wrap">
+      <div class="st-head">
+        <h2 class="label" id="stocks-title"><span class="ix">04</span>Stocks</h2>
+        <span class="tag" id="st-meta"></span>
+      </div>
+      <div class="st-toolbar" id="st-toolbar"></div>
+      <div class="msg" id="st-msg" role="status" aria-live="polite"></div>
+      <div class="st-manage" id="st-manage" hidden></div>
+      <div class="st-tabs" id="st-tabs"></div>
+      <div class="st-panels" id="st-panels"></div>
     </div>
   </section>
 
