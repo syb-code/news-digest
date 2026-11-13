@@ -1,0 +1,122 @@
+{
+ "0": {
+  "cik_str": 320193,
+  "ticker": "AAPL",
+  "title": "Apple Inc."
+ },
+ "1": {
+  "cik_str": 789019,
+  "ticker": "MSFT",
+  "title": "MICROSOFT CORP"
+ },
+ "2": {
+  "cik_str": 1639920,
+  "ticker": "SPOT",
+  "title": "Spotify Technology S.A."
+ },
+ "3": {
+  "cik_str": 884394,
+  "ticker": "SPY",
+  "title": "SPDR S&P 500 ETF TRUST"
+ },
+ "4": {
+  "cik_str": 1652044,
+  "ticker": "GOOGL",
+  "title": "Alphabet Inc."
+ },
+ "5": {
+  "cik_str": 1652044,
+  "ticker": "GOOG",
+  "title": "Alphabet Inc."
+ },
+ "6": {
+  "cik_str": 1067983,
+  "ticker": "BRK-B",
+  "title": "BERKSHIRE HATHAWAY INC"
+ },
+ "7": {
+  "cik_str": 1067983,
+  "ticker": "BRK-A",
+  "title": "BERKSHIRE HATHAWAY INC"
+ },
+ "8": {
+  "cik_str": 40729,
+  "ticker": "ALLY",
+  "title": "Ally Financial Inc."
+ },
+ "9": {
+  "cik_str": 70858,
+  "ticker": "BAC",
+  "title": "BANK OF AMERICA CORP /DE/"
+ },
+ "10": {
+  "cik_str": 896159,
+  "ticker": "CB",
+  "title": "Chubb Ltd"
+ },
+ "11": {
+  "cik_str": 882184,
+  "ticker": "DHI",
+  "title": "HORTON D R INC /DE/"
+ },
+ "12": {
+  "cik_str": 16918,
+  "ticker": "STZ",
+  "title": "CONSTELLATION BRANDS, INC."
+ },
+ "13": {
+  "cik_str": 56873,
+  "ticker": "KR",
+  "title": "KROGER CO"
+ },
+ "14": {
+  "cik_str": 27904,
+  "ticker": "DAL",
+  "title": "DELTA AIR LINES, INC."
+ },
+ "15": {
+  "cik_str": 21344,
+  "ticker": "KO",
+  "title": "COCA COLA CO"
+ },
+ "16": {
+  "cik_str": 4962,
+  "ticker": "AXP",
+  "title": "AMERICAN EXPRESS CO"
+ },
+ "17": {
+  "cik_str": 93410,
+  "ticker": "CVX",
+  "title": "CHEVRON CORP"
+ },
+ "18": {
+  "cik_str": 797468,
+  "ticker": "OXY",
+  "title": "OCCIDENTAL PETROLEUM CORP /DE/"
+ },
+ "19": {
+  "cik_str": 80424,
+  "ticker": "PG",
+  "title": "PROCTER & GAMBLE Co"
+ },
+ "20": {
+  "cik_str": 858877,
+  "ticker": "CSCO",
+  "title": "CISCO SYSTEMS, INC."
+ },
+ "21": {
+  "cik_str": 89800,
+  "ticker": "SHW",
+  "title": "SHERWIN WILLIAMS CO"
+ },
+ "22": {
+  "cik_str": 1637459,
+  "ticker": "KHC",
+  "title": "Kraft Heinz Co"
+ },
+ "23": {
+  "cik_str": 927628,
+  "ticker": "COF",
+  "title": "CAPITAL ONE FINANCIAL CORP"
+ }
+}

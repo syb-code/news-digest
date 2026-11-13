@@ -1,0 +1,8 @@
+{
+ "ticker": "EXMPL",
+ "name": "Example Corporation",
+ "exchangeCode": "NASDAQ",
+ "startDate": "2019-03-01",
+ "endDate": "2026-11-10",
+ "description": "A synthetic record in the shape of the Tiingo daily metadata endpoint."
+}

@@ -1,0 +1,170 @@
+{
+ "cik": 1639920,
+ "entityName": "Spotify Technology S.A.",
+ "facts": {
+  "ffd": {
+   "NetFeeAmt": {
+    "label": "",
+    "description": "",
+    "units": {
+     "USD": [
+      {
+       "end": "2026-04-28",
+       "val": 16807.82,
+       "accn": "0001140361-26-017505",
+       "fy": null,
+       "fp": null,
+       "form": "S-8",
+       "filed": "2026-04-28",
+       "frame": "CY2026Q1I"
+      }
+     ]
+    }
+   },
+   "TtlFeeAmt": {
+    "label": "",
+    "description": "",
+    "units": {
+     "USD": [
+      {
+       "end": "2026-04-28",
+       "val": 16807.82,
+       "accn": "0001140361-26-017505",
+       "fy": null,
+       "fp": null,
+       "form": "S-8",
+       "filed": "2026-04-28",
+       "frame": "CY2026Q1I"
+      }
+     ]
+    }
+   },
+   "TtlOfferingAmt": {
+    "label": "",
+    "description": "",
+    "units": {
+     "USD": [
+      {
+       "end": "2026-04-28",
+       "val": 121707600,
+       "accn": "0001140361-26-017505",
+       "fy": null,
+       "fp": null,
+       "form": "S-8",
+       "filed": "2026-04-28",
+       "frame": "CY2026Q1I"
+      }
+     ]
+    }
+   },
+   "TtlOffsetAmt": {
+    "label": "",
+    "description": "",
+    "units": {
+     "USD": [
+      {
+       "end": "2026-04-28",
+       "val": 0,
+       "accn": "0001140361-26-017505",
+       "fy": null,
+       "fp": null,
+       "form": "S-8",
+       "filed": "2026-04-28",
+       "frame": "CY2026Q1I"
+      }
+     ]
+    }
+   }
+  },
+  "dei": {
+   "EntityCommonStockSharesOutstanding": {
+    "label": "Entity Common Stock, Shares Outstanding",
+    "description": "Indicate number of shares or other units outstanding of each of registrant's classes of capital or common stock or other ownership interests, if and as stated on cover of related periodic report. Where multiple classes or units exist define each class/interest by adding class of stock items such as Common Class A [Member], Common Class B [Member] or Partnership Interest [Member] onto the Instrument [Domain] of the Entity Listings, Instrument.",
+    "units": {
+     "shares": [
+      {
+       "end": "2018-12-31",
+       "val": 180856081,
+       "accn": "0001564590-19-002688",
+       "fy": 2018,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2019-02-12",
+       "frame": "CY2018Q4I"
+      },
+      {
+       "end": "2019-12-31",
+       "val": 184325957,
+       "accn": "0001564590-20-004357",
+       "fy": 2019,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2020-02-12",
+       "frame": "CY2019Q4I"
+      },
+      {
+       "end": "2020-12-31",
+       "val": 190212847,
+       "accn": "0001639920-21-000006",
+       "fy": 2020,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2021-02-05",
+       "frame": "CY2020Q4I"
+      },
+      {
+       "end": "2021-12-31",
+       "val": 192151811,
+       "accn": "0001639920-22-000004",
+       "fy": 2021,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2022-02-03",
+       "frame": "CY2021Q4I"
+      },
+      {
+       "end": "2022-12-31",
+       "val": 193293269,
+       "accn": "0001639920-23-000004",
+       "fy": 2022,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2023-02-02",
+       "frame": "CY2022Q4I"
+      },
+      {
+       "end": "2023-12-31",
+       "val": 197143389,
+       "accn": "0001639920-24-000004",
+       "fy": 2023,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2024-02-08",
+       "frame": "CY2023Q4I"
+      },
+      {
+       "end": "2024-12-31",
+       "val": 203844409,
+       "accn": "0001639920-25-000003",
+       "fy": 2024,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2025-02-05",
+       "frame": "CY2024Q4I"
+      },
+      {
+       "end": "2025-12-31",
+       "val": 205832527,
+       "accn": "0001628280-26-006874",
+       "fy": 2025,
+       "fp": "FY",
+       "form": "20-F",
+       "filed": "2026-02-10",
+       "frame": "CY2025Q4I"
+      }
+     ]
+    }
+   }
+  }
+ }
+}

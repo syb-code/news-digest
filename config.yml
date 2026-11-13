@@ -126,3 +126,81 @@ learn:
   # Another model to answer when this one declines a request: "default" lets
   # the API choose, "none" turns it off, or list model ids to try in order.
   fallbacks: default
+
+# The private stock section (scripts/stocks/). The ticker list, the analysis
+# and what it learns live in the Cloudflare Worker's KV namespace STOCKS_KV,
+# never in this repository, so nothing here names a stock. The owner adds and
+# removes tickers on the dashboard, with the access key set.
+stocks:
+  model: claude-sonnet-5-5        # the default; the owner switches it from the dashboard
+  effort: medium                  # sent explicitly on every request
+  max_output_tokens: 10000        # one ticker's assessment
+  overview_max_output_tokens: 8000
+  max_input_chars: 80000          # per request
+  max_run_usd: 3.0                # stop asking Claude once a run's worst case would pass this
+  parallel_requests: 4
+  # US dollars per million tokens. Only these three models may be chosen.
+  models:
+    claude-opus-5-5: {input: 4.0, output: 20.0, cache_read: 0.20, fallbacks: default}
+    claude-sonnet-5-5: {input: 2.0, output: 10.0, cache_read: 0.10, fallbacks: default}
+    claude-haiku-5-5: {input: 0.10, output: 0.50, cache_read: 0.01, fallbacks: none}   # prompts up to 100K tokens
+  # Prices of models that can answer a declined request.
+  fallback_prices:
+    claude-opus-5: {input: 5.0, output: 25.0}
+    claude-opus-4-8: {input: 5.0, output: 25.0}
+    claude-sonnet-5: {input: 2.0, output: 10.0}
+  horizons: [5, 20]               # trading days
+  bootstrap_years: 5
+  min_train_rows: 150
+  refit_every: 21
+  lessons_cap: 12
+  chart_days: 400
+  insider_days: 365
+  congress_days: 365
+  # Funds whose 13F filings are read. CIKs checked against SEC on 2026-11-12.
+  funds:
+    - {name: Berkshire Hathaway, cik: 1067983}
+    - {name: Pershing Square, cik: 2026053}
+    - {name: ARK Investment Management, cik: 1697748}
+    - {name: Bridgewater Associates, cik: 1350694}
+    - {name: Renaissance Technologies, cik: 1037389}
+    - {name: Citadel Advisors, cik: 1423053}
+    - {name: Duquesne Family Office, cik: 1536411}
+    - {name: Appaloosa, cik: 1656456}
+    - {name: Soros Fund Management, cik: 1029160}
+    - {name: Tiger Global Management, cik: 1167483}
+    - {name: Coatue Management, cik: 1135730}
+    - {name: Third Point, cik: 1040273}
+    - {name: Viking Global Investors, cik: 1103804}
+    - {name: D. E. Shaw, cik: 1009207}
+    - {name: Lone Pine Capital, cik: 1061165}
+    - {name: Elliott Investment Management, cik: 1791786}
+  # The market overview table, in this order. transform: level, yoy, diff, range, thousands.
+  macro:
+    - {id: fed_funds, label: Fed funds target range, series: [DFEDTARL, DFEDTARU], transform: range, unit: percent}
+    - {id: dgs2, label: 2 year Treasury yield, series: [DGS2], transform: level, unit: percent}
+    - {id: dgs10, label: 10 year Treasury yield, series: [DGS10], transform: level, unit: percent}
+    - {id: t10y2y, label: 10 year minus 2 year, series: [T10Y2Y], transform: level, unit: points}
+    - {id: cpi_yoy, label: "CPI, year over year", series: [CPIAUCSL], transform: yoy, unit: percent}
+    - {id: core_cpi_yoy, label: "Core CPI, year over year", series: [CPILFESL], transform: yoy, unit: percent}
+    - {id: core_pce_yoy, label: "Core PCE, year over year", series: [PCEPILFE], transform: yoy, unit: percent}
+    - {id: unrate, label: Unemployment rate, series: [UNRATE], transform: level, unit: percent}
+    - {id: payrolls, label: "Payrolls, change", series: [PAYEMS], transform: diff, unit: thousands}
+    - {id: gdp, label: "Real GDP growth, annualized", series: [A191RL1Q225SBEA], transform: level, unit: percent}
+    - {id: vix, label: VIX, series: [VIXCLS], transform: level, unit: index}
+    - {id: dollar, label: Dollar index (broad), series: [DTWEXBGS], transform: level, unit: index}
+    - {id: wti, label: WTI oil, series: [DCOILWTICO], transform: level, unit: dollars}
+    - {id: hy_spread, label: High yield spread, series: [BAMLH0A0HYM2], transform: level, unit: percent}
+    - {id: breakeven_5y, label: 5 year breakeven inflation, series: [T5YIE], transform: level, unit: percent}
+    - {id: claims, label: Initial jobless claims, series: [ICSA], transform: thousands, unit: thousands}
+  # Foreign earnings per share are turned into dollars with these series.
+  fx:
+    EUR: {series: DEXUSEU, quote: usd_per_unit}
+    GBP: {series: DEXUSUK, quote: usd_per_unit}
+    JPY: {series: DEXJPUS, quote: units_per_usd}
+    CAD: {series: DEXCAUS, quote: units_per_usd}
+    CHF: {series: DEXSZUS, quote: units_per_usd}
+  trading_days:
+    # The New York time after which a trading day's close counts as published.
+    # NYSE holidays and special closures are computed in scripts/stocks/data/trading_days.py.
+    data_ready: "18:00"

@@ -1,0 +1,36 @@
+[
+ {
+  "symbol": "EXMPL",
+  "disclosureDate": "2026-10-20",
+  "transactionDate": "2026-10-02",
+  "firstName": "Example",
+  "lastName": "Senator",
+  "office": "Example Senator",
+  "district": "ZZ",
+  "owner": "Spouse",
+  "assetDescription": "Example Corporation Common Stock",
+  "assetType": "Stock",
+  "type": "Purchase",
+  "amount": "$1,001 - $15,000",
+  "capitalGainsOver200USD": "False",
+  "comment": "--",
+  "link": "https://efdsearch.senate.gov/search/view/ptr/00000000-0000-0000-0000-000000000000/"
+ },
+ {
+  "symbol": "EXMPL",
+  "disclosureDate": "2026-08-14",
+  "transactionDate": "2026-07-29",
+  "firstName": "Example",
+  "lastName": "Senator",
+  "office": "Example Senator",
+  "district": "ZZ",
+  "owner": "Self",
+  "assetDescription": "Example Corporation Common Stock",
+  "assetType": "Stock",
+  "type": "Sale (Partial)",
+  "amount": "$15,001 - $50,000",
+  "capitalGainsOver200USD": "True",
+  "comment": "--",
+  "link": "https://efdsearch.senate.gov/search/view/ptr/00000000-0000-0000-0000-000000000001/"
+ }
+]

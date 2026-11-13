@@ -6,13 +6,14 @@
   worker/sources.js              handleSources in node with fetch mocked,
                                  behind protect() from worker/auth-guard.js,
                                  wired by the two lines its header gives
-  worker/worker.js               stays the three blocks joined, and behaves
-                                 the same
+  worker/worker.js               stays the four blocks joined (stocks.js is
+                                 tested in tests/test_stocks_worker.py), and
+                                 behaves the same
   scripts/fetch_and_build.py     reads data/x_accounts.json when it is valid,
                                  else feeds.twitter_embeds from config.yml
   docs/                          the page holds no edit control of its own
 
-To rebuild worker/worker.js after changing one of the three blocks:
+To rebuild worker/worker.js after changing one of the four blocks:
   python3 tests/test_sources.py --write-worker
 """
 import json
@@ -34,10 +35,11 @@ from support import FakeSession
 
 WORKFLOW = os.path.join(support.ROOT, ".github", "workflows", "sources.yml")
 WORKER_DIR = os.path.join(support.ROOT, "worker")
-BLOCKS = ("auth-guard.js", "scheduler.js", "sources.js")
+BLOCKS = ("auth-guard.js", "scheduler.js", "sources.js", "stocks.js")
 WORKER_JS = os.path.join(WORKER_DIR, "worker.js")
 X_ACCOUNTS = os.path.join(support.ROOT, "data", "x_accounts.json")
 CLOCK_LINE = "export default { fetch: protect(handleSources), scheduled: dispatchDigest };"
+WORKER_LINE = "export default { fetch: routeWorker, scheduled: scheduledAll };"  # the last line of worker.js
 HANDLE = "^[A-Za-z0-9_]{1,15}$"
 NOT_A_HANDLE = ["", "a-b", "a b", "a.b", "x" * 16, "../../etc", "a;id", "$(id)", "`id`", "a\nb", "ok\n::error::x",
                 "名前", "a'b", 'a"b', "@@two", "-rf"]
@@ -54,7 +56,7 @@ def block(name):
 
 def worker_body():
     """What worker/worker.js holds below its header."""
-    return "\n".join(block(name) for name in BLOCKS) + "\n" + CLOCK_LINE + "\n"
+    return "\n".join(block(name) for name in BLOCKS) + "\n" + WORKER_LINE + "\n"
 
 
 def worker_header(text):
@@ -546,12 +548,12 @@ class WorkerTextTests(unittest.TestCase):
         for message in messages:
             self.assertTrue(message.startswith("News digest: "), message)
 
-    def test_worker_js_is_the_three_blocks_and_the_last_line(self):
+    def test_worker_js_is_the_four_blocks_and_the_last_line(self):
         header = worker_header(self.worker)
         self.assertEqual(self.worker, header + worker_body(),
                          "worker/worker.js is out of date: run python3 tests/test_sources.py --write-worker")
-        self.assertTrue(self.worker.endswith("\n" + CLOCK_LINE + "\n"))
-        self.assertEqual(re.findall(r"(?m)^[ \t]*export\b.*$", self.worker), [CLOCK_LINE])
+        self.assertTrue(self.worker.endswith("\n" + WORKER_LINE + "\n"))
+        self.assertEqual(re.findall(r"(?m)^[ \t]*export\b.*$", self.worker), [WORKER_LINE])
 
     def test_worker_js_header_names_what_it_needs(self):
         header = worker_header(self.worker)
@@ -560,7 +562,8 @@ class WorkerTextTests(unittest.TestCase):
         self.assertEqual(lines[-1], "")
         self.assertTrue(all(line == "" or line.startswith("//") for line in lines), "the header is comments only")
         for needed in ("ACCESS_KEY", "ALLOWED_ORIGINS", "GH_DISPATCH_TOKEN", "GH_REPO", "45 12,13 * * *", "0 19,20 * * *",
-                       "worker/auth-guard.js", "worker/scheduler.js", "worker/sources.js"):
+                       "worker/auth-guard.js", "worker/scheduler.js", "worker/sources.js", "worker/stocks.js",
+                       "STOCKS_KV", "STOCKS_INGEST_KEY"):
             self.assertIn(needed, header)
         scheduler = block("scheduler.js")
         for cron in ("45 12,13 * * *", "0 19,20 * * *"):
@@ -735,7 +738,8 @@ class WorkerBehaviorTests(unittest.TestCase):
             self.assertEqual(seen["unused"], 0, name)
             self.assertIs(seen["tokenLeaked"], False, name)
             for line in seen["logs"]:
-                self.assertTrue(line.startswith("News digest: "), line)
+                # The stocks block (worker.js) logs its own lines, "Stocks: ...".
+                self.assertTrue(line.startswith(("News digest: ", "Stocks: ")), line)
 
     def test_add_starts_the_workflow_once_with_the_right_inputs(self):
         self.assertEqual(self.answer("add"), (202, {"ok": True, "action": "add", "handle": "NASA"}, 1))
@@ -934,7 +938,7 @@ class DashboardTextTests(unittest.TestCase):
 
 
 def write_worker():
-    """Rebuild worker/worker.js: its header as it is, then the three blocks and the last line."""
+    """Rebuild worker/worker.js: its header as it is, then the four blocks and the last line."""
     header = worker_header(read(WORKER_JS))
     with open(WORKER_JS, "w", encoding="utf-8") as f:
         f.write(header + worker_body())

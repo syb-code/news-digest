@@ -1,0 +1,199 @@
+name: Stocks
+run-name: Stocks (${{ inputs.reason }})
+
+# The private stock section of the dashboard: a market overview and one
+# analysis per ticker, for the owner only. The owner's Cloudflare Worker starts
+# this workflow through workflow_dispatch: every morning at 5:45 AM
+# America/Los_Angeles from its cron (worker/stocks.js, next to the daily run),
+# and when the owner clicks "Run analysis now" on the dashboard (at most once
+# every 30 minutes). It can also be run by hand: Actions > Stocks > Run workflow.
+#
+# The privacy model. This repository, its Actions logs and its artifacts are
+# public. The ticker list, the settings, every analysis and what each ticker
+# has learned are private: they live in the Worker's KV namespace STOCKS_KV,
+# behind the Worker's keys, and never in a commit, a log line, an artifact,
+# a cache, a step or job output, a run name or the published site. So:
+#   - The ticker list is read from the Worker in the analyze job, never from
+#     this repository or an input. run.py registers every ticker with
+#     "::add-mask::" before it prints anything else, and every company name,
+#     CIK and CUSIP before the fetch step's first line. Masking is the
+#     backstop: the log lines are built to hold counts, durations, model ids,
+#     token counts and costs only, and a ticker's position ("ticker 3 of 8").
+#   - Private files are written only under $RUNNER_TEMP/stocks/private (mode
+#     0700, named by position, never by ticker) and deleted by the last step,
+#     whatever happened before it. Nothing is uploaded as an artifact, cached,
+#     committed or published by the analyze job.
+#   - The results go back to the Worker over HTTPS with STOCKS_INGEST_KEY. The
+#     dashboard reads them from the Worker with the owner's access key.
+#
+# Jobs, and why each one is separate:
+#   gate      no package, no secret. Is today an NYSE trading day (weekends,
+#             holidays and special closures are computed in
+#             scripts/stocks/data/trading_days.py)? A manual run always goes.
+#   congress  no secret. Reads the House members' periodic transaction reports
+#             (public PDFs) with pypdf, the one third-party package here
+#             (requirements-stocks.lock, wheels only), and uploads every
+#             member's trades as the artifact stocks-congress. It is public
+#             data and holds all of them, so it can include tracked tickers,
+#             but it is never filtered to them: the filtering happens in the
+#             private job. The private job checks the artifact before use.
+#   analyze   the "digest" environment. One step per phase of
+#             scripts/stocks/run.py, each with only the secrets it needs:
+#               config   STOCKS_INGEST_KEY  the ticker list, the model, the states
+#               fetch    TIINGO_API_KEY, SEC_USER_AGENT, FMP_API_KEY (optional)
+#               analyze  no secret
+#               claude   ANTHROPIC_API_KEY  (a failure keeps the code levels)
+#               upload   STOCKS_INGEST_KEY  saves states, analyses, the overview
+#             It installs requirements-brief.lock alone (the Anthropic SDK and
+#             PyYAML, wheels only); the analysis uses the standard library.
+#
+# Like daily.yml, every job runs only when the repository variable
+# DIGEST_ENABLED is 'true', and this workflow also needs STOCKS_ENABLED set
+# to 'true', so a copy made with "Use this template" runs nothing until it is
+# configured. Only on main. Nothing here runs on pull requests.
+
+on:
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: 'scheduled: skip days the NYSE is closed. manual: run now.'
+        type: choice
+        options:
+          - scheduled
+          - manual
+        default: scheduled
+        required: true
+
+permissions: {}
+
+concurrency:
+  group: stocks
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    if: vars.DIGEST_ENABLED == 'true' && vars.STOCKS_ENABLED == 'true' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: read
+    outputs:
+      run: ${{ steps.gate.outputs.run }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      # Standard library only, with the runner's own python3: no package.
+      - name: Check the trading day
+        id: gate
+        env:
+          REASON: ${{ inputs.reason }}
+        run: |
+          python3 -I scripts/stocks/data/trading_days.py gate --reason "$REASON" >> "$GITHUB_OUTPUT"
+
+  congress:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - name: Install pypdf (hash-locked, wheels only)
+        run: |
+          pip install --require-hashes --only-binary :all: -r requirements-stocks.lock
+      - name: Read the House trade reports
+        run: |
+          python -I scripts/stocks/data/congress.py house --out "$RUNNER_TEMP/congress/house.json" --days 365 --max-seconds 300
+      - name: Upload the House trades
+        uses: actions/upload-artifact@v4
+        with:
+          name: stocks-congress
+          path: ${{ runner.temp }}/congress/house.json
+          if-no-files-found: error
+          retention-days: 1
+
+  analyze:
+    needs: [gate, congress]
+    if: ${{ !cancelled() && needs.gate.outputs.run == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    environment: digest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      # Only this lock, and only wheels: no other package and no build script
+      # runs in the job that holds the keys.
+      - name: Install the Anthropic SDK (hash-locked, wheels only)
+        run: |
+          pip install --require-hashes --only-binary :all: -r requirements-brief.lock
+      # Without the artifact (the congress job failed) the run goes on with no
+      # House trades and says so.
+      - name: Download the House trades
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: stocks-congress
+          path: ${{ runner.temp }}/stocks/public
+      - name: Read the settings
+        id: config
+        timeout-minutes: 3
+        env:
+          STOCKS_INGEST_KEY: ${{ secrets.STOCKS_INGEST_KEY }}
+          WORKER_URL: ${{ vars.WORKER_URL }}
+          REASON: ${{ inputs.reason }}
+        run: |
+          python -I scripts/stocks/run.py config --dir "$RUNNER_TEMP/stocks" --reason "$REASON"
+      # run.py keeps its own 15 minute budget on the requests; a ticker past it
+      # keeps its saved data. This limit is the backstop.
+      - name: Fetch the data
+        id: fetch
+        if: steps.config.outcome == 'success'
+        timeout-minutes: 20
+        env:
+          TIINGO_API_KEY: ${{ secrets.TIINGO_API_KEY }}
+          SEC_USER_AGENT: ${{ secrets.SEC_USER_AGENT }}
+          FMP_API_KEY: ${{ secrets.FMP_API_KEY }}
+        run: |
+          python -I scripts/stocks/run.py fetch --dir "$RUNNER_TEMP/stocks"
+      - name: Analyze each ticker
+        id: analyze
+        if: steps.fetch.outcome == 'success'
+        timeout-minutes: 10
+        run: |
+          python -I scripts/stocks/run.py analyze --dir "$RUNNER_TEMP/stocks"
+      # Each call has a 4 minute budget; a failed or skipped call keeps the
+      # levels from the code, so this step never stops the upload.
+      - name: Ask Claude for the assessments
+        id: claude
+        if: steps.analyze.outcome == 'success'
+        continue-on-error: true
+        timeout-minutes: 15
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python -I scripts/stocks/run.py claude --dir "$RUNNER_TEMP/stocks"
+      - name: Save the results in the Worker
+        if: ${{ !cancelled() && steps.analyze.outcome == 'success' }}
+        timeout-minutes: 5
+        env:
+          STOCKS_INGEST_KEY: ${{ secrets.STOCKS_INGEST_KEY }}
+          WORKER_URL: ${{ vars.WORKER_URL }}
+        run: |
+          python -I scripts/stocks/run.py upload --dir "$RUNNER_TEMP/stocks"
+      - name: Remove the private files
+        if: always()
+        run: |
+          rm -rf "$RUNNER_TEMP/stocks"
