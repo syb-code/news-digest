@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-12",
+  "latest": "2026-11-13",
   "days": [
+    {
+      "date": "2026-11-13",
+      "topics": [
+        "Google launches Gemini 4 Hydrogen and makes it default in AI Mode",
+        "Jensen Huang leaves Nvidia and Colette Kress becomes interim CEO",
+        "AgentSSL tests whether ML engineering agents can use unlabeled data",
+        "AnalogLayoutWorld benchmarks coding agents on physical analog chip layout",
+        "AWS shows A2A linking agents built on different frameworks"
+      ]
+    },
     {
       "date": "2026-11-12",
       "topics": [

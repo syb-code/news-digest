@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T13:46:35+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 4098,
+    "output_tokens": 5892,
+    "cost_usd": 0.134232
+  },
+  "email_summary": "Today: Google ships Gemini 4 Hydrogen and makes it the default in AI Mode, Jensen Huang leaves Nvidia with Colette Kress as interim CEO, and three agent pieces: AgentSSL tests ML engineering agents on unlabeled data, AnalogLayoutWorld benchmarks agents on physical chip layout, and AWS shows A2A linking agents across frameworks.",
+  "topics": [
+    {
+      "id": "introducing-gemini-4-hydrogen",
+      "title": "Google launches Gemini 4 Hydrogen and makes it default in AI Mode",
+      "lanes": [
+        "AI in marketing",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 12, 2026, Google DeepMind published a post titled Introducing Gemini 4 Hydrogen on its official blog. That is the primary source for the launch. The feed did not include a summary of the post, so the model's benchmarks, pricing, context window, system card details and changes from earlier Gemini versions are not in today's items. Read the post directly for those specifics rather than relying on secondhand claims.\n\nThe same day, Search Engine Journal, in a piece by Matt G. Southern, reported how Google is putting the model to work in Search. According to that report, Gemini 4 Hydrogen is now the default model in AI Mode worldwide. Google is also using it to answer the hardest questions in AI Overviews, the AI generated summaries that appear above regular search results.\n\nSo there are two parts to this news. One is a new frontier model from Google DeepMind. The other is a fast deployment of that model into the most visible consumer surface Google has. The Search Engine Journal report does not say how Google decides which AI Overview queries count as the hardest, or what share of queries that covers.\n\nThe items are thin on technical detail. Two sources covered the story, one of them primary, and both appeared on the day of the announcement. Anything about performance beyond what the DeepMind post itself states would be guessing at this point.",
+      "why_it_matters": "For the frontier models lane, a new top Gemini model is a reason to rerun your own evals. If you route tasks across providers, add Gemini 4 Hydrogen to your comparison set this week and test it on the prompts that matter to you, not just public leaderboards. Check the DeepMind post for what changed from the last version, since that tells you where to look first.\n\nFor the AI in marketing lane, the bigger change may be in Search. When the default model behind AI Mode changes, the answers people see change too. That can shift which sources get cited, how products are summarized and which brands get mentioned. If you track AI visibility, take a snapshot now of how AI Mode and AI Overviews answer your key queries, then compare in two to four weeks.\n\nThe detail that Hydrogen handles the hardest AI Overview questions matters for content teams. Complex, multi step questions are often where in depth content wins citations. Watch whether your detailed guides gain or lose mentions on those queries.\n\nA practical step: build a small fixed query set, perhaps 30 to 50 questions across simple and complex intent, and log answers and citations weekly. That gives you your own measurement instead of anecdotes when the next model swap happens.",
+      "read_first": [
+        {
+          "title": "Introducing Gemini 4 Hydrogen",
+          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+          "source": "Google DeepMind blog",
+          "why": "It is the primary source and the only place in today's items with the model's actual capabilities and changes."
+        },
+        {
+          "title": "Google Makes Gemini 4 Hydrogen The Default Model In AI Mode via @sejournal, @MattGSouthern",
+          "url": "https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/",
+          "source": "Search Engine Journal",
+          "why": "It explains the Search rollout, which is what changes things for marketers right away."
+        }
+      ],
+      "open_question": "Will swapping the model behind AI Mode and the hardest AI Overviews noticeably change which sites get cited, and how would you even measure that reliably?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 2,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 5,
+        "score": 5.7
+      }
+    },
+    {
+      "id": "jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+      "title": "Jensen Huang leaves Nvidia and Colette Kress becomes interim CEO",
+      "lanes": [
+        "Best skills",
+        "Best processes",
+        "Agents and loops"
+      ],
+      "off_lane": false,
+      "what_happened": "According to two secondary sources, Jensen Huang is out as CEO of Nvidia after 33 years leading the company. Latent Space's AINews post, published November 13, dates the resignation to November 12, 2026, and says Colette Kress takes over as interim CEO. Kress is not otherwise described in the items.\n\nThe AI Daily Brief, a YouTube show hosted by NLW, published an episode on November 12 framing the departure as a power vacuum across the AI industry. The episode description says it examines the allegations behind his departure, who stands to benefit, and what happens when the industry loses one of its most influential figures. It also mentions China policy and open source, though the description is cut off.\n\nThere are important gaps. Neither item, as summarized, states what the allegations are, who made them or whether they have been confirmed. There is no primary source here, such as an Nvidia statement or filing. The two sources also frame the event slightly differently: Latent Space uses the word resigns, while the AI Daily Brief says he is out and refers to allegations. Treat the reasons for the departure as unclear until you see Nvidia's own announcement or solid reporting.\n\nLatent Space raises one specific question: what this means for open source and American AI leadership. Both sources treat the change as significant for the wider industry, not only for Nvidia.",
+      "why_it_matters": "Most builders do not buy GPUs directly, but nearly everyone depends on Nvidia somewhere: CUDA, cloud instances, inference providers, local cards. A leadership change at that scale is a useful prompt to look at your own dependencies, even if nothing changes in the short term.\n\nFor the best processes lane, this is a good moment to write down your compute and vendor risk in plain terms. Which parts of your stack assume Nvidia hardware or CUDA specific libraries? Do you have a fallback provider for inference? A one page note answering those questions is cheap and useful for any team.\n\nFor the best skills lane, being able to move workloads across hardware and providers is a durable skill. Learning how your serving stack handles different backends, or how to benchmark the same model across two providers, pays off regardless of who runs Nvidia.\n\nFor the agents and loops lane, agent workloads are compute hungry and sensitive to pricing and availability. Watch for changes in Nvidia's open model efforts and software direction, since Latent Space flags open source as a possible casualty.\n\nMostly, avoid overreacting to framing like everything is up for grabs. Wait for primary facts, then adjust plans.",
+      "read_first": [
+        {
+          "title": "[AINews] Jensen Huang resigns after 33 years leading NVIDIA",
+          "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+          "source": "Latent Space",
+          "why": "It gives the concrete facts in today's items, the date and the interim CEO, plus the open source angle."
+        },
+        {
+          "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
+          "url": "https://www.youtube.com/watch?v=Dt7Q_VQxGHc",
+          "source": "@AIDailyBrief",
+          "why": "It covers the allegations and industry implications, though you should check its claims against primary reporting."
+        }
+      ],
+      "open_question": "If Nvidia's priorities shift under new leadership, would its support for open models and developer software be the first thing to change, and how exposed is your stack if it does?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 2,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 4.2
+      }
+    },
+    {
+      "id": "agentssl-can-mle-agents-leverage-unlabeled-data",
+      "title": "AgentSSL tests whether ML engineering agents can use unlabeled data",
+      "lanes": [
+        "Agents and loops"
+      ],
+      "off_lane": false,
+      "what_happened": "A paper posted to arXiv on November 12, 2026 introduces AgentSSL, short for Agentic Semi-Supervised Learning. It looks at MLE agents, meaning machine learning engineering agents that automate the design of ML pipelines.\n\nThe authors start from a practical problem. When you apply machine learning to a new domain, two things slow you down: getting labeled data and engineering the pipeline by hand. Recent MLE agents have shown promise at automating the pipeline part. But the authors note that these agents have been studied almost entirely in fully supervised settings, where plenty of labeled data is available.\n\nThat leaves a gap. In many real projects, labeled data is scarce while unlabeled data is plentiful. Semi-supervised learning, or SSL, is the family of methods built for that situation. The paper asks whether MLE agents can make good use of unlabeled data in that regime.\n\nTheir approach is to frame SSL as a program search problem. Rather than picking a fixed SSL method, the agent searches over programs, which presumably means writing and testing pipeline code that uses both labeled and unlabeled data.\n\nThe feed summary is truncated, so the results, the datasets used, which agents or models were tested and how they compare with standard SSL baselines are not in today's item. You need the paper for those. This is a single primary source with no outside coverage yet.",
+      "why_it_matters": "For the agents and loops lane, this is a useful shift in how to think about coding agents for ML work. Most demos assume a clean labeled dataset. Real projects rarely look like that. If an agent can write pipelines that squeeze value out of unlabeled data, it covers a much more common situation.\n\nThe program search framing is worth borrowing even outside this paper. Instead of asking an agent to apply one known technique, you give it a search space, an evaluation signal and room to iterate on code. That is the same loop that powers many strong coding agents, applied to a data scarce problem.\n\nIf you build or use ML agents, a concrete test is to take one of your tasks with few labels, hold out a trustworthy labeled test set, and let an agent try pipelines that include pseudo labeling or other SSL tricks. The key guardrail is evaluation. With few labels, it is easy for an agent to overfit to a small validation set and report gains that do not hold. Keep a separate test set the agent never sees.\n\nWatch the paper's results for how much unlabeled data actually helped compared with simple supervised baselines.",
+      "read_first": [
+        {
+          "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+          "url": "https://arxiv.org/abs/2611.17323v1",
+          "source": "arXiv agents",
+          "why": "It is the only source and holds the results, setup and baselines that the feed summary cuts off."
+        }
+      ],
+      "open_question": "With only a few labels to validate against, how can an agent searching over SSL programs avoid fooling itself with gains that do not hold on fresh data?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "analoglayoutworld-an-open-benchmark-for-agentic-analog",
+      "title": "AnalogLayoutWorld benchmarks coding agents on physical analog chip layout",
+      "lanes": [
+        "Agents and loops",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "A paper posted to arXiv on November 12, 2026 introduces AnalogLayoutWorld, an open source benchmark for agents doing analog circuit layout.\n\nThe starting point is a question about coding agents. They have shown strong capability in software development, but the authors say it is less understood how well they handle long horizon engineering tasks governed by physical constraints. Analog circuit layout is their test case.\n\nThey chose layout because it demands three things at once: domain knowledge about circuits, geometric reasoning about where components go, and iterative interaction with design and verification tools. In other words, an agent cannot just write plausible code. It has to place and route things that pass real checks, and keep adjusting based on tool feedback.\n\nThe benchmark contains 40 tasks, each reviewed by experts, covering end-to-end layout. Being open source means other teams can run their own agents against it.\n\nThe feed summary is cut off, so today's item does not say which models or agents were evaluated, how well they did, what the verification tools are or where agents tend to fail. Those details are in the paper. There is one primary source and no other coverage yet. The topic is tagged for frontier models as well, likely because benchmarks like this are used to compare model capabilities, but the item itself does not name any models.",
+      "why_it_matters": "For the agents and loops lane, this benchmark tests something many real deployments need: agents working with external tools that give hard, objective feedback over many steps. Software tests are forgiving compared with physical design rule checks. How agents cope with that tells you a lot about their reliability in any domain with strict validators.\n\nEven if you never touch chip design, the structure is a good model for your own evals. Pick a small number of expert reviewed tasks, run them end to end, and grade with real verification tools rather than model judgment. Forty careful tasks can be more informative than thousands of shallow ones.\n\nFor the frontier models lane, watch whether results here line up with coding benchmarks. If models that top software benchmarks struggle with geometric and physical constraints, that suggests their strength is narrower than leaderboards imply.\n\nA practical step: look at the failure modes the paper reports. Long horizon failures, such as losing track of earlier decisions or not reacting to tool errors, often transfer to other agent work, and knowing them helps you design better checkpoints and feedback loops.",
+      "read_first": [
+        {
+          "title": "AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design",
+          "url": "https://arxiv.org/abs/2611.16991v1",
+          "source": "arXiv agents",
+          "why": "It is the only source and contains the evaluated agents, results and failure analysis missing from the summary."
+        }
+      ],
+      "open_question": "Are the skills that make coding agents good at software enough for physically constrained engineering, or does that need different training or tooling?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 4,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "build-composable-interoperable-multi-agent-systems-with-a2a",
+      "title": "AWS shows A2A linking agents built on different frameworks",
+      "lanes": [
+        "Agents and loops",
+        "Efficiencies"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 12, 2026, the AWS machine learning blog published a guide to building composable, interoperable multi-agent systems on AWS using the Agent-to-Agent protocol, known as A2A.\n\nThe example architecture has two agents built with different tools. One is an orchestrator built with LangChain and running on Amazon ECS, AWS's container service. The other is an agent built with Strands and running on Amazon Bedrock AgentCore, AWS's managed runtime for agents.\n\nThe two agents talk to each other across organizational boundaries. In other words, the setup is meant to reflect agents owned by different teams or companies, not just two modules in one codebase. The calls go in both directions and are authenticated with OAuth.\n\nThe central claim is independence: neither side depends on the other's framework or SDK. The LangChain orchestrator does not need Strands, and the Strands agent does not need LangChain. A2A is the shared contract between them.\n\nThe feed summary covers the architecture but not the details. It does not say how agents discover each other's capabilities, how long running tasks or failures are handled, what latency or cost looks like, or how much code the setup takes. This is a single vendor source, so it reflects AWS's own framing and services. There is no independent coverage in today's items.",
+      "why_it_matters": "For the agents and loops lane, the important idea is the boundary. Many teams are hitting the point where agents built by different groups, in different frameworks, need to cooperate. Rewriting everything into one framework is slow. A protocol like A2A lets each team keep its tools and expose a stable interface instead.\n\nIt also fits alongside MCP. Roughly, MCP connects an agent to tools and data, while A2A connects agents to other agents. If you are designing a multi agent system, it helps to decide which interactions are tool calls and which are delegations to another agent with its own reasoning.\n\nFor the efficiencies lane, composability can save real work. Reusing an existing agent owned by another team, rather than rebuilding it, cuts engineering time. The flip side is that every cross agent call adds latency and token cost, so measure end to end before splitting things into many agents.\n\nThe OAuth detail matters for governance. Cross organization calls need clear identity and permissions. If you try this, start with two agents, define what each is allowed to ask the other, log every call, and test what happens when one side is down or returns bad output.",
+      "read_first": [
+        {
+          "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+          "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/",
+          "source": "AWS machine learning blog",
+          "why": "It is the only source and has the architecture and code you would need to try this pattern yourself."
+        }
+      ],
+      "open_question": "When agents from different organizations call each other, who is accountable when a delegated task goes wrong, and how should that show up in logs and permissions?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 4,
+        "score": 3.7
+      }
+    }
+  ]
+}

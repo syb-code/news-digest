@@ -276,6 +276,145 @@
         "Search Engine Journal"
       ],
       "primary": true
+    },
+    {
+      "id": "agentssl-can-mle-agents-leverage-unlabeled-data",
+      "title": "AgentSSL tests whether ML engineering agents can use unlabeled data",
+      "date": "2026-11-13",
+      "logged_at": "2026-11-13T13:48:07+00:00",
+      "terms": [
+        "agentssl",
+        "leverage",
+        "mle",
+        "unlabeled",
+        "data",
+        "almost",
+        "applying",
+        "automating",
+        "bottlenecks",
+        "domains",
+        "exclusively",
+        "framing"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.17323v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "analoglayoutworld-an-open-benchmark-for-agentic-analog",
+      "title": "AnalogLayoutWorld benchmarks coding agents on physical analog chip layout",
+      "date": "2026-11-13",
+      "logged_at": "2026-11-13T13:48:07+00:00",
+      "terms": [
+        "analog",
+        "analoglayoutworld",
+        "layout",
+        "benchmark",
+        "agentic",
+        "design",
+        "open",
+        "circuit",
+        "demands",
+        "demonstrated",
+        "expert",
+        "geometric"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.16991v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "build-composable-interoperable-multi-agent-systems-with-a2a",
+      "title": "AWS shows A2A linking agents built on different frameworks",
+      "date": "2026-11-13",
+      "logged_at": "2026-11-13T13:48:07+00:00",
+      "terms": [
+        "a2a",
+        "composable",
+        "interoperable",
+        "aws",
+        "multi",
+        "systems",
+        "build",
+        "authenticated",
+        "bidirectional",
+        "communicates",
+        "depending",
+        "ecs"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "introducing-gemini-4-hydrogen",
+      "title": "Google launches Gemini 4 Hydrogen and makes it default in AI Mode",
+      "date": "2026-11-13",
+      "logged_at": "2026-11-13T13:48:07+00:00",
+      "terms": [
+        "hydrogen",
+        "gemini4",
+        "gemini",
+        "default",
+        "mattgsouthern",
+        "mode",
+        "introducing",
+        "sejournal",
+        "google",
+        "hardest",
+        "worldwide",
+        "questions"
+      ],
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "https://www.searchenginejournal.com/google-gemini-4-hydrogen-default-ai-mode/597096/"
+      ],
+      "sources": [
+        "Google DeepMind blog",
+        "Search Engine Journal"
+      ],
+      "primary": true
+    },
+    {
+      "id": "jensen-huang-is-out-everything-in-ai-is-now-up-for-grabs",
+      "title": "Jensen Huang leaves Nvidia and Colette Kress becomes interim CEO",
+      "date": "2026-11-13",
+      "logged_at": "2026-11-13T13:48:07+00:00",
+      "terms": [
+        "jensen",
+        "huang",
+        "nvidia",
+        "grabs",
+        "resigns",
+        "ainews",
+        "happens",
+        "leading",
+        "everything",
+        "allegations",
+        "american",
+        "colette"
+      ],
+      "urls": [
+        "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
+        "https://www.youtube.com/watch?v=Dt7Q_VQxGHc"
+      ],
+      "sources": [
+        "@AIDailyBrief",
+        "Latent Space"
+      ],
+      "primary": false
     }
   ]
 }
