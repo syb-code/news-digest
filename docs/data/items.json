@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-12T20:31:39+00:00",
+  "generated_at": "2026-11-13T20:00:17+00:00",
   "items": [
+    {
+      "id": "31a350be1dfd663e46cfb32cf5d4ff1f",
+      "title": "Deep Learning Weekly: Issue 481",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-481",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-11-13T19:01:38+00:00",
+      "first_seen": "2026-11-13T20:00:17+00:00",
+      "summary": "Claude Fable 5.2, Inference Performance Index: changing the way we measure inference capacity, a paper on Tools Need Not Speak in Text: Latent Context Compression for Agents, and many more!",
+      "read_minutes": 8,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
     {
       "id": "fbb6dfaa46682d55b588cd4e0b4727d6",
       "title": "Jensen Huang Is Out. Everything in AI Is Now Up for Grabs.",
@@ -1363,20 +1377,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "087325382843e4148a7bd23c0bfeb562",
-      "title": "Deep Learning Weekly: Issue 461",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-461",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-06-26T15:02:06+00:00",
-      "first_seen": "2026-06-26T15:02:06+00:00",
-      "summary": "Advanced Claude Code Cost Tracking: How to Save 30% on Token Spend, Introducing Claude Tag, a paper on Thinking to Recall: How Reasoning Unlocks Parametric Knowledge in LLMs, and many more!",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "deeper"
     },
     {
       "id": "877e1e7407d0b2633c567245bd5e075f",
