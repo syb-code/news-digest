@@ -657,6 +657,15 @@ class StockScriptTests(unittest.TestCase):
         self.assertEqual(int(js_constant(self.code, "MAX_TICKERS")), stocks.MAX_TICKERS)
         self.assertEqual(js_constant(self.code, "DISCLAIMER"), "'" + stocks.DISCLAIMER + "'")
 
+    def test_the_spend_cap_default_is_the_configs(self):
+        import yaml
+
+        with open(CONFIG_YML, encoding="utf-8") as f:
+            cap = yaml.safe_load(f)["stocks"]["max_run_usd"]
+        # the cost estimate stops here unless the worker's list sends settings.max_run_usd
+        self.assertEqual(float(js_constant(self.code, "MAX_RUN_USD")), float(cap))
+        self.assertIn("st.max_run_usd", self.code)
+
     def test_plain_punctuation(self):
         for path in (STOCKS_JS, STYLE_CSS, INDEX, APP_JS):
             self.assertNotRegex(read(path), "[–—]", os.path.basename(path))
@@ -700,20 +709,29 @@ const doc = JSON.parse(fs.readFileSync(path.join(fixDir, 'doc.json'), 'utf8'));
 const overview = JSON.parse(fs.readFileSync(path.join(fixDir, 'overview.json'), 'utf8'));
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
 
-function worker() {
-  const w = { tickers: ['AAPL', 'EXMPL'], model: 'claude-sonnet-5-5', refreshed: false, calls: [] };
+// opts: tickers, docs (ticker -> document), meta (ticker -> list fields), settings (more list
+// settings), refresh, overview, model, delay (path -> ms, once), abort (a path prefix that fails).
+function worker(opts) {
+  opts = opts || {};
+  const w = { tickers: (opts.tickers || ['AAPL', 'EXMPL']).slice(), docs: opts.docs || { AAPL: doc }, meta: opts.meta || {},
+    settings: opts.settings || {}, refresh: opts.refresh || null, overview: opts.overview || overview, delay: opts.delay || {},
+    abort: opts.abort || '', model: opts.model || 'claude-sonnet-5-5', calls: [] };
+  const entry = (t) => {
+    const d = w.docs[t];
+    const e = d ? { ticker: t, status: d.status, name: (d.header || {}).name, close: (d.header || {}).last_close, change_pct: (d.header || {}).change_pct, stance: (d.assessment || {}).stance, confidence: (d.assessment || {}).confidence, data_as_of: d.data_as_of, generated_at: d.generated_at } : { ticker: t, status: 'pending' };
+    return Object.assign(e, w.meta[t] || {});
+  };
   w.handle = (method, url, headers, body) => {
     const p = new URL(url).pathname;
     w.calls.push([method, p, body || '', headers.authorization === 'Bearer ' + KEY]);
     const json = (status, b, extra) => ({ status, headers: Object.assign({ 'content-type': 'application/json' }, extra || {}), body: JSON.stringify(b) });
     if (headers.authorization !== 'Bearer ' + KEY) return json(401, { error: 'unauthorized' }, { 'x-guard': 'deny' });
     if (p === '/stocks/list') return json(200, { max: 30,
-      tickers: w.tickers.map((t) => (t === 'AAPL' ? { ticker: t, status: doc.status, name: doc.header.name, close: doc.header.last_close, change_pct: doc.header.change_pct, stance: doc.assessment.stance, confidence: doc.assessment.confidence, data_as_of: doc.data_as_of, generated_at: doc.generated_at } : { ticker: t, status: 'pending' })),
-      settings: { model: w.model, default_model: 'claude-sonnet-5-5', allowed_models: ['claude-opus-5-5', 'claude-sonnet-5-5', 'claude-haiku-5-5'] },
-      refresh: { min_minutes: 30, requested_at: null, available_at: null }, overview: { generated_at: overview.generated_at } });
-    if (p === '/stocks/overview') return json(200, overview);
-    if (p === '/stocks/t/AAPL') return json(200, doc);
-    if (p.startsWith('/stocks/t/')) return json(404, { error: 'no analysis yet' });
+      tickers: w.tickers.map(entry),
+      settings: Object.assign({ model: w.model, default_model: 'claude-sonnet-5-5', allowed_models: ['claude-opus-5-5', 'claude-sonnet-5-5', 'claude-haiku-5-5'] }, w.settings),
+      refresh: w.refresh || { min_minutes: 30, requested_at: null, available_at: null }, overview: { generated_at: w.overview.generated_at } });
+    if (p === '/stocks/overview') return json(200, w.overview);
+    if (p.startsWith('/stocks/t/')) { const d = w.docs[decodeURIComponent(p.slice(10))]; return d ? json(200, d) : json(404, { error: 'no analysis yet' }); }
     if (p === '/stocks/settings') { w.model = JSON.parse(body).model; return json(200, { ok: true, model: w.model }); }
     if (p === '/stocks/tickers') {
       const b = JSON.parse(body);
@@ -740,18 +758,21 @@ function worker() {
   let browser;
   try { browser = await pw.chromium.launch(); } catch (e) { srv.close(); process.exit(3); }
   const out = {};
-  const open = async (w, key, scheme, width) => {
+  const open = async (w, key, scheme, width, quiet) => {
     const ctx = await browser.newContext({ viewport: { width: width || 1280, height: 900 }, colorScheme: scheme || 'dark', reducedMotion: 'reduce' });
     const page = await ctx.newPage();
     const errors = [];
-    page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
+    page.on('console', (m) => { if (m.type() === 'error' && !(quiet && quiet.test(m.text()))) errors.push(m.text()); });
     page.on('pageerror', (e) => errors.push(e.message));
     await page.addInitScript(() => document.addEventListener('securitypolicyviolation', (e) => console.error('CSP violation ' + e.violatedDirective)));
     if (key) await page.addInitScript((k) => localStorage.setItem('nd_worker_key_v1', k), key);
     if (scheme) await page.addInitScript((t) => localStorage.setItem('theme', t), scheme);
     await page.route(ORIGIN + '/**', async (route) => {
       const q = route.request();
-      const r = w.handle(q.method(), q.url(), q.headers(), q.postData());
+      const p = new URL(q.url()).pathname;
+      if (w.abort && p.startsWith(w.abort)) { w.calls.push([q.method(), p, '', true]); await route.abort('failed'); return; }
+      const r = w.handle(q.method(), q.url(), q.headers(), q.postData()); // the answer as of the request
+      if (w.delay[p]) { const ms = w.delay[p]; delete w.delay[p]; await new Promise((ok) => setTimeout(ok, ms)); }
       await route.fulfill({ status: r.status, body: r.body, headers: Object.assign({ 'access-control-allow-origin': '*', 'access-control-expose-headers': 'x-guard', 'access-control-allow-headers': 'authorization, content-type' }, r.headers) });
     });
     await page.goto(base);
@@ -820,6 +841,102 @@ function worker() {
       await page.waitForSelector('.st-chart svg');
       out.phone = { widths: [market, await page.evaluate(() => document.documentElement.scrollWidth)], errors };
       await ctx.close();
+    }
+    const copy = (v) => JSON.parse(JSON.stringify(v));
+    const hits = (page) => page.evaluate(() => Array.from(document.querySelectorAll('#st-yours .st-hit')).map((c) => c.textContent));
+    const docCalls = (w) => w.calls.filter((c) => c[1].startsWith('/stocks/t/')).length;
+    { // a long list: hit rates from the list, a few documents, and the focus stays while one comes in
+      const zs = ['ZZA', 'ZZB', 'ZZC', 'ZZD', 'ZZE', 'ZZF', 'ZZG'];
+      const meta = {};
+      zs.forEach((t) => { meta[t] = { status: 'ok', name: 'Example ' + t, hit: { rate: 0.61, n: 120, kind: 'backtest', h: 20 } }; });
+      const w = worker({ tickers: ['AAPL'].concat(zs), meta, delay: { '/stocks/t/AAPL': 2500 } });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 0, /status of 404/); // the ZZ stocks have no analysis
+      await page.focus('#st-yours .st-open'); // the first stock, AAPL
+      const before = (await hits(page))[0];
+      await page.waitForFunction(() => /%/.test(document.querySelector('#st-yours .st-hit').textContent), null, { timeout: 10000 });
+      for (let i = 0; i < 50 && docCalls(w) < 4; i += 1) await page.waitForTimeout(100);
+      await page.waitForTimeout(800); // and no more than that
+      out.longList = { before, hits: await hits(page), docCalls: docCalls(w), errors,
+        focus: await page.evaluate(() => document.activeElement.className + ', ' + document.activeElement.getAttribute('aria-label')) };
+      await ctx.close();
+    }
+    { // documents that cannot be fetched: no cell or tab is left on Loading
+      const meta = { ZZA: { status: 'ok' }, ZZB: { status: 'ok' } };
+      const w = worker({ tickers: ['AAPL', 'ZZA', 'ZZB'], meta, abort: '/stocks/t/' });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 0, /Failed to load resource/);
+      const r = { hits: await hits(page) };
+      await page.click('[role=tab][data-key="ZZA"]');
+      await page.waitForTimeout(600);
+      r.tab = await page.evaluate(() => document.getElementById('st-panel').innerText);
+      r.errors = errors;
+      out.failing = r;
+      await ctx.close();
+    }
+    { // new results while an older request for a document is still out: the old answer is dropped
+      const now = Date.now();
+      const newer = copy(doc);
+      newer.header.name = 'Newer Example Inc.';
+      const w = worker({ overview: Object.assign(copy(overview), { generated_at: new Date(now - 3600000).toISOString() }),
+        refresh: { min_minutes: 30, requested_at: new Date(now - 60000).toISOString(), available_at: new Date(now + 1740000).toISOString() },
+        delay: { '/stocks/t/AAPL': 2500 } });
+      const { ctx, page, errors } = await open(w, KEY, 'dark');
+      w.overview = Object.assign(copy(overview), { generated_at: new Date().toISOString() });
+      w.docs = { AAPL: newer };
+      await page.evaluate(() => document.dispatchEvent(new Event('visibilitychange'))); // checks for results at once
+      await page.waitForTimeout(3200);
+      await page.click('[role=tab][data-key="AAPL"]');
+      await page.waitForTimeout(300);
+      out.newRun = { name: await page.evaluate(() => document.querySelector('.st-tfull').textContent),
+        msg: await page.evaluate(() => document.getElementById('st-msg').textContent), errors };
+      await ctx.close();
+    }
+    { // values that do not fit: an impossible day, a far timestamp, one fund, an unknown ticker
+      const bad = copy(doc);
+      bad.holders.insiders.transactions[0].date = '2026-13-01';
+      bad.valuation.latest_end = '2026-02-30';
+      bad.holders.funds.funds_checked = 1;
+      Object.assign(bad.shorts.latest, { percentile: 91.6, n: 251 });
+      const unknown = { kind: 'stocks.ticker', version: 1, ticker: 'EXMPL', status: 'unknown_ticker', notes: [], header: { ticker: 'EXMPL', name: null },
+        model: null, llm: false, cost: { input_tokens: 0, output_tokens: 0, cache_read_tokens: 0, cost_usd: 0, cost_estimated: false },
+        generated_at: doc.generated_at, data_as_of: null, disclaimer: doc.disclaimer };
+      const ov = copy(overview);
+      ov.news[0].published = '+275760-09-13T00:00:00Z'; // a valid Date, but no day the day format can print
+      const w = worker({ docs: { AAPL: bad, EXMPL: unknown }, overview: ov });
+      const { ctx, page, errors } = await open(w, KEY, 'dark');
+      const panel = () => page.evaluate(() => ({
+        cards: Array.from(document.querySelectorAll('#st-panel .st-card')).map((c) => c.querySelector('h3').textContent + (/Not available\. This part/.test(c.textContent) ? ' (not available)' : '')),
+        foot: Array.from(document.querySelectorAll('#st-panel .st-foot p')).map((x) => x.textContent) }));
+      const r = { market: await panel() };
+      await page.click('[role=tab][data-key="AAPL"]');
+      await page.waitForSelector('.st-chart svg', { timeout: 5000 }).catch(() => {}); // a blank panel is checked below
+      r.ticker = await panel();
+      r.texts = await page.evaluate(() => {
+        const dd = (k) => { const dt = Array.from(document.querySelectorAll('#st-panel dt')).find((x) => x.textContent === k); return dt ? dt.nextElementSibling.textContent : null; };
+        const cardOf = (title) => Array.from(document.querySelectorAll('#st-panel .st-card')).find((c) => c.querySelector('h3').textContent === title);
+        const inner = (c, sel) => (c && c.querySelector(sel) ? c.querySelector(sel).textContent : null);
+        return { percentile: dd('Percentile'), latest: dd('Latest period'), funds: inner(cardOf('Famous funds'), '.tag'),
+          insiderDay: inner(cardOf('Company insiders'), 'tbody td') };
+      });
+      await page.click('[role=tab][data-key="EXMPL"]');
+      await page.waitForTimeout(400);
+      r.unknown = await panel();
+      r.errors = errors;
+      out.badValues = r;
+      await ctx.close();
+    }
+    { // the cost estimate for a few lists, models and spend caps
+      const names = Array.from({ length: 30 }, (_, i) => 'Z' + String.fromCharCode(65 + (i % 26)) + (i >= 26 ? 'A' : ''));
+      out.cost = {};
+      for (const [label, model, n, settings] of [['opus30', 'claude-opus-5-5', 30, {}], ['haiku1', 'claude-haiku-5-5', 1, {}],
+        ['opus30cap', 'claude-opus-5-5', 30, { max_run_usd: 1.5 }], ['sonnet0', 'claude-sonnet-5-5', 0, {}]]) {
+        const w = worker({ tickers: names.slice(0, n), docs: {}, model, settings });
+        const { ctx, page, errors } = await open(w, KEY, 'dark');
+        await page.click('#st-settings');
+        out.cost[label] = await page.evaluate(() => ({ options: Array.from(document.querySelectorAll('#st-model option')).map((o) => o.textContent),
+          hints: Array.from(document.querySelectorAll('#st-manage .st-mcol:first-child .hint')).map((x) => x.textContent) }));
+        out.cost[label].errors = errors;
+        await ctx.close();
+      }
     }
   } finally {
     await browser.close();
@@ -911,6 +1028,78 @@ class StocksBrowserTests(unittest.TestCase):
 
     def test_a_phone_never_scrolls_sideways(self):
         self.assertEqual(self.got["phone"]["widths"], [360, 360])
+
+    def test_a_long_list_takes_hit_rates_from_the_list_and_a_few_documents(self):
+        got = self.got["longList"]
+        self.assertEqual(got["docCalls"], 4)  # PREFETCH_MAX: the others load when their tab opens
+        self.assertRegex(got["hits"][0], r"^\d+%(live|backtest), [\d,]+$")  # from AAPL's document
+        self.assertEqual(got["hits"][1:], ["61%backtest, 120"] * 7)     # from the list, no document needed
+        self.assertEqual(got["errors"], [])
+
+    def test_the_focus_stays_in_your_stocks_while_a_document_comes_in(self):
+        got = self.got["longList"]
+        self.assertNotRegex(got["before"], r"%")  # the document was not in yet when the button took the focus
+        self.assertEqual(got["focus"], "st-open, Open AAPL, Apple Inc.")
+
+    def test_documents_that_cannot_be_fetched_leave_nothing_on_loading(self):
+        got = self.got["failing"]
+        self.assertEqual(got["hits"], ["n/a"] * 3)
+        self.assertNotIn("Loading", got["tab"])
+        self.assertIn("Could not reach the worker", got["tab"])
+        self.assertIn("TRY AGAIN", got["tab"].upper())
+        self.assertEqual(got["errors"], [])
+
+    def test_an_answer_from_before_new_results_is_dropped(self):
+        got = self.got["newRun"]
+        self.assertEqual(got["name"], "Newer Example Inc.")
+        self.assertEqual(got["msg"], "New results are in.")
+        self.assertEqual(got["errors"], [])
+
+    def test_a_bad_value_costs_one_card_at_most(self):
+        got = self.got["badValues"]
+        self.assertEqual(got["errors"], [])
+        # an impossible day is not a day: the cell says n/a and every card is there
+        self.assertEqual(len(got["ticker"]["cards"]), 11)
+        self.assertFalse([c for c in got["ticker"]["cards"] if "not available" in c])
+        self.assertEqual((got["texts"]["insiderDay"], got["texts"]["latest"]), ("n/a", "n/a"))
+        # a timestamp no day format can print takes down its card only
+        self.assertEqual(got["market"]["cards"], ["What matters this week", "Macro news (not available)", "Upcoming catalysts",
+                                                  "Macro dashboard", "Your stocks"])
+        for name in ("market", "ticker", "unknown"):
+            self.assertEqual(got[name]["foot"][-1], self.doc["disclaimer"], name)
+
+    def test_words_not_ordinals_and_plurals(self):
+        texts = self.got["badValues"]["texts"]
+        self.assertEqual(texts["percentile"], "Higher than 92 percent of the last 251 days")
+        self.assertEqual(texts["funds"], "1 fund checked")
+
+    def test_an_unknown_ticker_has_no_lines_about_an_assessment_or_a_missing_date(self):
+        foot = self.got["badValues"]["unknown"]["foot"]
+        self.assertEqual(self.got["badValues"]["unknown"]["cards"], ["Unknown ticker"])
+        self.assertEqual(len(foot), 2)
+        self.assertRegex(foot[0], r"^Generated [A-Z][a-z]{2} \d{1,2}, \d{1,2}:\d{2} [AP]M\.$")
+
+    def test_the_cost_estimate_rounds_and_stops_at_the_spend_cap(self):
+        cost = self.got["cost"]
+        self.assertEqual(cost["opus30"]["options"], ["Opus 5.5, about $3.00 a day, capped",
+                                                     "Sonnet 5.5, about $1.83 to $2.75 a day", "Haiku 5.5, about $0.09 to $0.14 a day"])
+        self.assertEqual(cost["opus30"]["hints"][:2], [
+            "Rough cost for 30 stocks and the market summary on each trading day, from typical token counts: about $63 a month with Opus 5.5.",
+            "A run stops asking the model at its $3.00 spend cap, which fits about 16 stocks with Opus 5.5. The others get levels from the code."])
+        # cents under $10 a month, and less than a cent said so
+        self.assertEqual(cost["haiku1"]["options"][2], "Haiku 5.5, less than $0.01 a day")
+        self.assertEqual(cost["haiku1"]["hints"][:2], [
+            "Rough cost for 1 stock and the market summary on each trading day, from typical token counts: about $0.10 to $0.15 a month with Haiku 5.5.",
+            "A run stops asking the model at its $3.00 spend cap, which fits a full list of 30 stocks with Haiku 5.5."])
+        # the worker's own cap wins
+        self.assertEqual(cost["opus30cap"]["options"][:2], ["Opus 5.5, about $1.50 a day, capped",
+                                                            "Sonnet 5.5, about $1.50 a day, capped"])
+        self.assertEqual(cost["opus30cap"]["hints"][1],
+                         "A run stops asking the model at its $1.50 spend cap, which fits about 7 stocks with Opus 5.5. The others get levels from the code.")
+        for label, got in cost.items():
+            self.assertEqual(got["errors"], [], label)
+            for text in got["options"] + got["hints"]:
+                self.assertNotRegex(text, r"\$0(\.00)?(?![.\d])|about less", label)  # never "$0 to $0" or "$0.00"
 
 
 if __name__ == "__main__":

@@ -278,6 +278,20 @@ class FailureTests(RunCase):
         self.assertIn("The data could not be updated today, so this analysis uses the data of the last run.",
                       self.worker.kv["stocks:ticker:MSFT"]["notes"])
 
+    def test_model_answers_with_code_levels_are_counted_apart(self):
+        def behavior(kind, payload, request):
+            if kind == "stock" and payload.get("ticker") == "AAPL":
+                return F.message(F.ticker_answer(payload, off_candidate=True), model=request["model"])
+            return None
+
+        self.claude = F.FakeAnthropic(behavior)
+        logs = self.run_all()
+        doc = self.worker.kv["stocks:ticker:AAPL"]
+        self.assertIs(doc["llm"], True)
+        self.assertEqual((doc["assessment"]["source"], doc["assessment"]["levels_source"]), ("model", "code"))
+        self.assertIn("Assessments: 2 written by the model (1 of them with levels from the code, since the "
+                      "model's did not pass the checks), 0 from the code alone.", logs["claude"])
+
     def test_a_stopped_fetch_uses_the_saved_data(self):
         self.run_all()
         real = run.fetch_ticker
@@ -623,6 +637,207 @@ class ReviewFixesRunTest(RunCase):
         self.assertEqual(v["note"], "The latest earnings in the SEC data are for a period that ended 285 days ago.")
         fresh = run.valuation_block(dict(eps, latest_end="2026-09-30"), bars, {}, {}, "2026-11-12")
         self.assertIsNone(fresh["note"])
+
+
+def ancient_eps_rows():
+    """Four quarters of 2013, filed in 2014: a filer that stopped tagging EPS (Berkshire's class B case)."""
+    quarters = (("2013-01-01", "2013-03-31", 2900.0), ("2013-04-01", "2013-06-30", 2950.0),
+                ("2013-07-01", "2013-09-30", 3000.0), ("2013-10-01", "2013-12-31", 2999.0))
+    return [{"start": s, "end": e, "val": v, "accn": "0001193125-14-000001", "fy": 2013, "fp": "FY", "form": "10-K",
+             "filed": "2014-03-03"} for s, e, v in quarters]
+
+
+ANCIENT_EPS = {"status": "ok", "concept": "us-gaap:EarningsPerShareBasic", "unit": "USD/shares", "currency": "USD",
+               "basis": "four_quarters", "eps_ttm": 11849.0, "quarters": [], "annual": None,
+               "latest_end": "2013-12-31", "latest_filed": "2014-03-03", "note": None}
+
+
+class AncientFactsWeb(F.FakeWeb):
+    """The fake web with company facts whose latest EPS ended in 2013."""
+
+    def route(self, method, host, path, query, body):
+        if host == "data.sec.gov" and path.startswith("/api/xbrl/companyfacts/"):
+            facts = {"facts": {"us-gaap": {"EarningsPerShareBasic": {"units": {"USD/shares": ancient_eps_rows()}}}}}
+            return 200, facts, "application/json"
+        return super().route(method, host, path, query, body)
+
+
+class JobReviewFixesTests(RunCase):
+    """Fixes from the review of the job code: the header's day change, the
+    target direction, the artifact copy, the spend cap with a pricier
+    fallback model, ancient EPS, and the claude step failing soft."""
+
+    def cfg(self):
+        import config
+
+        return config.load_config(check=("stocks",))["stocks"]
+
+    # Finding 5: a split on the last day is not a crash.
+    def test_the_day_change_uses_the_adjusted_closes(self):
+        split_day = [{"date": "2026-11-11", "close": 40.0, "raw_close": 400.0, "split": 1.0},
+                     {"date": "2026-11-12", "close": 41.0, "raw_close": 41.0, "split": 10.0}]
+        h = run.header_block("EXMPL", {}, split_day)
+        self.assertEqual((h["last_close"], h["prev_close"], h["change"], h["change_pct"]), (41.0, 40.0, 1.0, 2.5))
+        # The previous close is on the last close's basis whenever the adjusted and raw closes differ.
+        dividend = [{"date": "2026-11-11", "close": 99.0, "raw_close": 100.0},
+                    {"date": "2026-11-12", "close": 101.0, "raw_close": 101.0}]
+        h = run.header_block("EXMPL", {}, dividend)
+        self.assertEqual((h["last_close"], h["prev_close"], h["change_pct"]), (101.0, 99.0, 2.02))
+        self.assertAlmostEqual(h["change"], h["last_close"] - h["prev_close"], places=4)
+        one = run.header_block("EXMPL", {}, split_day[1:])
+        self.assertEqual((one["last_close"], one["prev_close"], one["change"], one["change_pct"]),
+                         (41.0, None, None, None))
+        self.assertEqual(run.header_block("EXMPL", {}, [])["change_pct"], None)
+
+    # Finding 6: a target must agree with the stance.
+    def test_a_target_on_the_wrong_side_of_the_close_is_dropped(self):
+        from stocks import claude
+
+        d = ss.example_document("AAPL")
+        close = d["technicals"]["close"]
+        prices = {c["id"]: c["price"] for c in d["levels"]["candidates"]}
+        below, above = prices["dd75"], prices["r1"]  # both above the entry zone; one under the close, one over
+        self.assertTrue(prices["atr_m1"] < below < close < above)
+        base = F.ticker_answer({"levels": d["levels"], "technicals": d["technicals"]})
+        base["targets"] = [{"price": below, "horizon_days": 10, "rationale": "r"},
+                           {"price": above, "horizon_days": 20, "rationale": "r"}]
+
+        def check(stance, targets=None):
+            answer = dict(copy.deepcopy(base), stance=stance)
+            if targets is not None:
+                answer["targets"] = targets
+            return claude.validate_ticker_answer(answer, d)
+
+        bull = check("bullish")
+        self.assertEqual((bull["levels_source"], [t["price"] for t in bull["targets"]]), ("model", [above]))
+        self.assertIn("A target was not above the last close for a bullish view, so it was dropped.", bull["problems"])
+        bear = check("bearish")
+        self.assertEqual((bear["levels_source"], [t["price"] for t in bear["targets"]]), ("model", [below]))
+        self.assertIn("A target was not below the last close for a bearish view, so it was dropped.", bear["problems"])
+        neutral = check("neutral")
+        self.assertEqual([t["price"] for t in neutral["targets"]], [below, above])
+        self.assertEqual(neutral["problems"], [])
+        # No target left: all three levels come from the code, the stance is kept.
+        only_below = check("bullish", base["targets"][:1])
+        self.assertEqual((only_below["levels_source"], only_below["stance"]), ("code", "bullish"))
+        self.assertIn(claude.LEVELS_FROM_CODE, only_below["problems"])
+        self.assertIn("For a bullish stance every target is above the last close", claude.SYSTEM_TICKER)
+
+    # Finding 7: the artifact holds every member's trades; it is just not filtered.
+    def test_the_artifact_copy_says_it_is_not_filtered(self):
+        for name in ("README.md", os.path.join(".github", "workflows", "stocks.yml")):
+            with open(os.path.join(ss.ROOT, name), encoding="utf-8") as f:
+                text = " ".join(f.read().replace("#", " ").split())
+            with self.subTest(file=name):
+                self.assertNotIn("names no ticker of yours", text)
+                self.assertNotIn("holds no tracked ticker", text)
+                self.assertIn("never filtered to", text)
+                self.assertNotIn("\u2014", text)
+                self.assertNotIn("\u2013", text)
+
+    # Finding 8: a refusal fallback can run on a pricier model than the one asked for.
+    def test_the_reservation_counts_the_priciest_fallback_model(self):
+        from stocks import claude
+
+        cfg = self.cfg()
+        d = ss.example_document("AAPL")
+        self.assertEqual(cfg["fallback_prices"]["claude-opus-5"]["output"], 25.0)
+        for model, out in (("claude-sonnet-5-5", 10.0 + 25.0), ("claude-opus-5-5", 20.0 + 25.0),
+                           ("claude-haiku-5-5", 0.50)):
+            with self.subTest(model=model):
+                r = claude.ticker_job(d, {"status": "ok", "lessons": []}, {"macro": [], "calendar": []}, cfg,
+                                      model, "Assessment 1 of 1")["request"]
+                chars = len(r["messages"][0]["content"]) + len(claude.SYSTEM_TICKER)
+                inp = cfg["models"][model]["input"]
+                self.assertAlmostEqual(claude.reservation_usd(r, cfg),
+                                       r["max_tokens"] * out / 1e6 + chars / 3 * inp / 1e6)
+        # A pricier fallback model in the table raises the reservation; the model's own price stays first.
+        pricey = copy.deepcopy(cfg)
+        pricey["fallback_prices"]["claude-opus-5"] = {"input": 15.0, "output": 75.0}
+        self.assertEqual(claude.worst_output_price("claude-sonnet-5-5", pricey), 75.0)
+        self.assertEqual(claude.worst_output_price("claude-sonnet-5-5", cfg), 25.0)
+
+    # BRK-B style: earnings that ended years ago give no P/E.
+    def test_ancient_eps_is_not_available(self):
+        from stocks.data import sec
+
+        bars = [{"date": "2026-11-12", "raw_close": 480.0, "close": 480.0, "split": 1.0}]
+        v = run.valuation_block(ANCIENT_EPS, bars, {}, {}, "2026-11-12")
+        self.assertEqual((v["status"], v["pe_ttm"], v["eps_usd"], v["note"]),
+                         ("not_available", None, None, sec.STALE_EPS_NOTE))
+        annual = dict(ANCIENT_EPS, basis="annual", latest_end="2025-02-28")  # 622 days: still used
+        self.assertEqual(run.valuation_block(annual, bars, {}, {}, "2026-11-12")["status"], "ok")
+
+    def test_ancient_eps_from_the_sec_is_not_available_in_the_document(self):
+        from stocks.data import sec
+
+        self.web = AncientFactsWeb(prices=self.bars, spy=F.series_bars(11, 420.0))
+        self.run_all()
+        v = self.worker.kv["stocks:ticker:AAPL"]["valuation"]
+        self.assertEqual((v["status"], v["pe_ttm"], v["note"]), ("not_available", None, sec.STALE_EPS_NOTE))
+        cached = self.worker.kv["stocks:state:AAPL"]["caches"]["eps"]["summary"]
+        self.assertEqual((cached["status"], cached["note"]), ("not_available", sec.STALE_EPS_NOTE))
+
+    def test_a_saved_ancient_eps_is_not_used_when_the_sec_is_down(self):
+        from stocks.data import sec
+
+        self.run_all()
+        state = self.worker.kv["stocks:state:AAPL"]
+        state["caches"]["eps"] = {"summary": dict(ANCIENT_EPS), "fetched_at": F.NOW, "latest_filed": "2014-03-03"}
+        self.web.fail_hosts = {"data.sec.gov"}
+        self.run_all()
+        v = self.worker.kv["stocks:ticker:AAPL"]["valuation"]
+        self.assertEqual((v["status"], v["pe_ttm"], v["note"]), ("not_available", None, sec.STALE_EPS_NOTE))
+
+    # C1 in the claude step: a request that cannot be built costs that one answer only.
+    def test_a_request_that_cannot_be_built_costs_only_that_answer(self):
+        from stocks import claude
+
+        for name in ("config", "fetch", "analyze"):
+            self.assertEqual(self.phase(name)[0], 0)
+        real = claude.ticker_job
+
+        def first_fails(doc, *a, **k):
+            if doc.get("ticker") == "AAPL":
+                raise TypeError("x")
+            return real(doc, *a, **k)
+
+        with mock.patch.object(claude, "overview_job", side_effect=KeyError("x")), \
+                mock.patch.object(claude, "ticker_job", first_fails):
+            code, text = self.phase("claude")
+        self.assertEqual(code, 0)
+        self.assertIn("[warn] The overview request could not be built (KeyError); it has no summary today.", text)
+        self.assertIn("[warn] Ticker 1 of 3 keeps its code levels (TypeError).", text)
+        self.assertEqual(self.phase("upload")[0], 0)
+        kv = self.worker.kv
+        self.assertEqual((kv["stocks:ticker:AAPL"]["llm"], kv["stocks:ticker:MSFT"]["llm"]), (False, True))
+        self.assertEqual(kv["stocks:overview"]["summary"]["source"], "none")
+
+    # C3: a data file is used only at its own position and for its own ticker.
+    def test_a_data_file_of_another_position_is_not_used(self):
+        for name in ("config", "fetch"):
+            self.assertEqual(self.phase(name)[0], 0)
+        paths = run.Paths(self.dir)
+        a, b = run.read_json(paths.data(0)), run.read_json(paths.data(1))
+        run.write_json(paths.data(0), b)
+        run.write_json(paths.data(1), dict(a, index=1))  # the right position, the wrong ticker
+        self.assertEqual(self.phase("analyze")[0], 0)
+        for i in (0, 1):
+            doc = run.read_json(paths.out_ticker(i))
+            self.assertEqual(doc["status"], "error")
+            self.assertEqual((doc["header"]["name"], doc["header"]["cik"]), (None, None))  # nothing of the other
+        self.assertIn(run.read_json(paths.out_ticker(2))["status"], ("no_prices", "unknown_ticker"))
+
+    def test_a_stale_data_file_of_the_same_ticker_is_not_used(self):
+        self.run_all()
+        with mock.patch.object(run, "fetch_ticker", side_effect=RuntimeError("x")), \
+                mock.patch.object(run, "saved_ticker_data", side_effect=RuntimeError("y")):
+            for name in ("config", "fetch", "analyze"):
+                self.phase(name)
+        paths = run.Paths(self.dir)
+        for i in range(len(TICKERS)):
+            self.assertFalse(os.path.exists(paths.data(i)))
+            self.assertEqual(run.read_json(paths.out_ticker(i))["status"], "error")
 
 
 if __name__ == "__main__":

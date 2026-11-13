@@ -620,7 +620,7 @@ async function handleSources(request, env, ctx) {
 //   GET  /stocks/overview    the market overview (404 before the first run)
 //   GET  /stocks/t/<T>       one ticker's analysis
 //   POST /stocks/tickers     {"action": "add" or "remove", "ticker": "..."}; remove also forgets
-//                            that ticker's analysis and learning state
+//                            that ticker's analysis, learning state and overrides
 //   GET  /stocks/settings    the model and the allowed models
 //   POST /stocks/settings    {"model": "..."}, one of STOCKS_MODELS
 //   POST /stocks/refresh     starts stocks.yml now, at most once every 30 minutes
@@ -635,6 +635,10 @@ const STOCKS_TICKER = /^[A-Z]{1,6}(?:-[A-Z]{1,3})?$/; // the same check as scrip
 const STOCKS_BAD_TICKER = "a ticker is 1 to 6 letters, with an optional class such as BRK-B";
 const STOCKS_MAX_BODY = 2000; // characters of JSON accepted from the dashboard
 const STOCKS_CAPS = { config: 16384, settings: 4096, overview: 262144, ticker: 524288, state: 1048576 };
+const STOCKS_META_MAX = 1024; // bytes of JSON, the KV limit for the metadata of a key
+// The spaces Python's str.strip() removes (str.isspace), not trim()'s: U+001C to U+001F and U+0085 are
+// spaces there, U+FEFF is not.
+const STOCKS_SPACES = /^[\t-\r\x1c-\x20\x85\xa0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+|[\t-\r\x1c-\x20\x85\xa0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000]+$/g;
 const STOCKS_KINDS = { overview: "stocks.overview", ticker: "stocks.ticker", state: "stocks.state" };
 const STOCKS_MIN_INGEST_KEY = 32;
 const STOCKS_REFRESH_MIN_MS = 30 * 60 * 1000;
@@ -667,7 +671,7 @@ function stocksDeny(status, message) {
 
 function stocksNormalize(value) {
   if (typeof value !== "string") return null;
-  const ticker = value.trim().toUpperCase().replace(/[./]/g, "-");
+  const ticker = value.replace(STOCKS_SPACES, "").toUpperCase().replace(/[./]/g, "-");
   return STOCKS_TICKER.test(ticker) ? ticker : null;
 }
 
@@ -697,6 +701,15 @@ async function stocksConfig(env) {
   return { version: 1, tickers: [...new Set(tickers)].slice(0, STOCKS_MAX_TICKERS), overrides };
 }
 
+async function stocksListed(env, ticker) {
+  return (await stocksConfig(env)).tickers.includes(ticker);
+}
+
+// The overrides of the listed tickers only, whatever the spelling of their keys.
+function stocksOverridesOf(overrides, tickers) {
+  return Object.fromEntries(Object.entries(overrides).filter(([k]) => tickers.includes(stocksNormalize(k))));
+}
+
 async function stocksModel(env) {
   const doc = await stocksRead(env, "stocks:settings");
   return doc && STOCKS_MODELS.includes(doc.model) ? doc.model : STOCKS_DEFAULT_MODEL;
@@ -707,10 +720,33 @@ function stocksSettingsBody(model) {
 }
 
 // The body as text, at most cap bytes of UTF-8: { text } or { status, error }.
+// Reading stops at cap + 1 bytes, so a body without content-length (chunked)
+// is never held in full.
 async function stocksBody(request, cap) {
   const declared = Number(request.headers.get("content-length") || "0");
   if (Number.isFinite(declared) && declared > cap) return { status: 413, error: "too large" };
-  const text = await request.text();
+  const chunks = [];
+  let size = 0;
+  if (request.body) {
+    const reader = request.body.getReader();
+    for (;;) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      size += value.byteLength;
+      if (size > cap) {
+        reader.cancel().catch(() => {});
+        return { status: 413, error: "too large" };
+      }
+      chunks.push(value);
+    }
+  }
+  const bytes = new Uint8Array(size);
+  let at = 0;
+  for (const chunk of chunks) {
+    bytes.set(chunk, at);
+    at += chunk.byteLength;
+  }
+  const text = new TextDecoder().decode(bytes);
   if (new TextEncoder().encode(text).length > cap) return { status: 413, error: "too large" };
   return { text };
 }
@@ -718,7 +754,9 @@ async function stocksBody(request, cap) {
 // A small JSON body from the dashboard: the object, or null.
 async function stocksSmallJson(request) {
   try {
-    const text = await request.text();
+    const read = await stocksBody(request, STOCKS_MAX_BODY * 4); // no character takes more than 4 bytes
+    if (read.error) return null;
+    const text = read.text;
     if (text.length > STOCKS_MAX_BODY) return null;
     const body = JSON.parse(text);
     return body && typeof body === "object" && !Array.isArray(body) ? body : null;
@@ -731,8 +769,9 @@ function stocksNumber(value) {
   return typeof value === "number" && Number.isFinite(value) ? value : null;
 }
 
+// A text for the metadata: no control characters (6 bytes each in JSON), at most limit characters.
 function stocksWord(value, limit) {
-  return typeof value === "string" ? value.slice(0, limit) : null;
+  return typeof value === "string" ? value.replace(/[\u0000-\u001f\u007f-\u009f]/g, "").slice(0, limit) : null;
 }
 
 // The learner's hit rate over its longest horizon: graded live calls once there
@@ -759,7 +798,7 @@ function stocksHit(doc) {
 function stocksMeta(doc) {
   const header = doc.header && typeof doc.header === "object" ? doc.header : {};
   const assessment = doc.assessment && typeof doc.assessment === "object" ? doc.assessment : {};
-  return {
+  const meta = {
     name: stocksWord(header.name, 60),
     close: stocksNumber(header.last_close),
     change_pct: stocksNumber(header.change_pct),
@@ -770,6 +809,12 @@ function stocksMeta(doc) {
     generated_at: stocksWord(doc.generated_at, 32),
     hit: stocksHit(doc),
   };
+  // KV refuses metadata over 1024 bytes of JSON: the texts go, the name first, until it fits.
+  for (const field of ["name", "generated_at", "data_as_of", "confidence", "stance", "status"]) {
+    if (new TextEncoder().encode(JSON.stringify(meta)).length <= STOCKS_META_MAX) break;
+    meta[field] = null;
+  }
+  return meta;
 }
 
 // Every key under a prefix with its metadata.
@@ -802,7 +847,8 @@ async function handleStocksIngest(request, env, ctx) {
   if (path === "/stocks/ingest/config") {
     if (request.method !== "GET") return stocksAnswer(405, { error: "use GET" });
     const config = await stocksConfig(env);
-    return stocksAnswer(200, { version: 1, tickers: config.tickers, model: await stocksModel(env), overrides: config.overrides });
+    const overrides = stocksOverridesOf(config.overrides, config.tickers);
+    return stocksAnswer(200, { version: 1, tickers: config.tickers, model: await stocksModel(env), overrides });
   }
   if (path === "/stocks/ingest/overview") {
     if (request.method !== "PUT") return stocksAnswer(405, { error: "use PUT" });
@@ -832,9 +878,7 @@ async function handleStocksIngest(request, env, ctx) {
 // Checks and stores one document of the job: the kind, the version, the
 // ticker, the size; an analysis also gets its metadata.
 async function stocksSave(request, env, kind, ticker) {
-  if (ticker && !(await stocksConfig(env)).tickers.includes(ticker)) {
-    return stocksAnswer(409, { error: "not in the list" });
-  }
+  if (ticker && !(await stocksListed(env, ticker))) return stocksAnswer(409, { error: "not in the list" });
   const body = await stocksBody(request, STOCKS_CAPS[kind]);
   if (body.error) return stocksAnswer(body.status, { error: body.error });
   let doc = null;
@@ -848,17 +892,24 @@ async function stocksSave(request, env, kind, ticker) {
   if (doc.version !== 1) return stocksAnswer(400, { error: "version must be 1" });
   if (ticker && doc.ticker !== ticker) return stocksAnswer(400, { error: "the document is for another ticker" });
   const bytes = new TextEncoder().encode(body.text).length;
-  if (kind === "overview") {
-    const generated = stocksWord(doc.generated_at, 32);
-    await env.STOCKS_KV.put("stocks:overview", body.text, { metadata: { generated_at: generated } });
-    console.log(`Stocks: saved the market overview, ${bytes} bytes`);
-  } else if (kind === "ticker") {
-    await env.STOCKS_KV.put(`stocks:ticker:${ticker}`, body.text, { metadata: stocksMeta(doc) });
-    console.log(`Stocks: saved a ticker analysis, ${bytes} bytes`);
-  } else {
-    await env.STOCKS_KV.put(`stocks:state:${ticker}`, body.text);
-    console.log(`Stocks: saved a learning state, ${bytes} bytes`);
+  // Remove forgets everything: a ticker removed while its body was on the way is not written.
+  if (ticker && !(await stocksListed(env, ticker))) return stocksAnswer(409, { error: "not in the list" });
+  const what = { overview: "the market overview", ticker: "a ticker analysis", state: "a learning state" }[kind];
+  try {
+    if (kind === "overview") {
+      const generated = stocksWord(doc.generated_at, 32);
+      await env.STOCKS_KV.put("stocks:overview", body.text, { metadata: { generated_at: generated } });
+    } else if (kind === "ticker") {
+      await env.STOCKS_KV.put(`stocks:ticker:${ticker}`, body.text, { metadata: stocksMeta(doc) });
+    } else {
+      await env.STOCKS_KV.put(`stocks:state:${ticker}`, body.text);
+    }
+  } catch (err) {
+    const code = String((err && err.message) || "").match(/\b[45]\d\d\b/); // only the status, never the key
+    console.log(`Stocks: KV did not save ${what}${code ? ` (${code[0]})` : ""}`);
+    return stocksAnswer(500, { error: "the document could not be saved" });
   }
+  console.log(`Stocks: saved ${what}, ${bytes} bytes`);
   return stocksAnswer(200, { ok: true, bytes });
 }
 
@@ -966,7 +1017,8 @@ async function stocksEditList(request, env) {
   } else {
     if (!has) return stocksAnswer(200, { ok: true, changed: false, tickers: config.tickers });
     config.tickers = config.tickers.filter((t) => t !== ticker);
-    // Removing forgets everything: the analysis and what the ticker learned.
+    // Removing forgets everything: the overrides, the analysis and what the ticker learned.
+    config.overrides = Object.fromEntries(Object.entries(config.overrides).filter(([k]) => stocksNormalize(k) !== ticker));
     await env.STOCKS_KV.delete(`stocks:ticker:${ticker}`);
     await env.STOCKS_KV.delete(`stocks:state:${ticker}`);
   }
@@ -1019,6 +1071,22 @@ function stocksRepoReady(env) {
   return /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(String(env.GH_REPO || "")) && !!env.GH_DISPATCH_TOKEN;
 }
 
+// Puts stocks:refresh back to the run before (or none) when GitHub did not
+// take the run. KV takes one write a second for a key, so a refused write is
+// tried once more a second later.
+async function stocksRefreshRestore(env, requestedAt) {
+  for (let attempt = 1; attempt <= 2; attempt += 1) {
+    try {
+      if (requestedAt) await env.STOCKS_KV.put("stocks:refresh", JSON.stringify({ requested_at: requestedAt }));
+      else await env.STOCKS_KV.delete("stocks:refresh");
+      return;
+    } catch {
+      if (attempt === 1) await new Promise((resolve) => setTimeout(resolve, 1100));
+    }
+  }
+  console.log("Stocks: the refresh limit could not be put back, so the next manual run waits 30 minutes");
+}
+
 async function stocksRefresh(env) {
   const info = await stocksRefreshInfo(env);
   if (info.wait_ms > 0) {
@@ -1029,15 +1097,18 @@ async function stocksRefresh(env) {
     return stocksAnswer(500, { error: "this worker cannot start runs: set GH_REPO and GH_DISPATCH_TOKEN" });
   }
   const repo = String(env.GH_REPO);
-  let result = await stocksDispatch(repo, "manual", env);
-  if (!result.ok && result.unsure) result = await stocksDispatch(repo, "manual", env);
-  if (!result.ok) {
-    console.log(`Stocks: the manual run did not start: ${result.problem}`);
-    return stocksAnswer(502, { error: `the run did not start: ${result.problem}` });
-  }
+  // The record is written before GitHub is asked, so a second request while
+  // GitHub answers is refused; it is put back as it was if GitHub does not take the run.
   const now = Date.now();
   const requested = new Date(now).toISOString();
   await env.STOCKS_KV.put("stocks:refresh", JSON.stringify({ requested_at: requested }));
+  let result = await stocksDispatch(repo, "manual", env);
+  if (!result.ok && result.unsure) result = await stocksDispatch(repo, "manual", env);
+  if (!result.ok) {
+    await stocksRefreshRestore(env, info.requested_at);
+    console.log(`Stocks: the manual run did not start: ${result.problem}`);
+    return stocksAnswer(502, { error: `the run did not start: ${result.problem}` });
+  }
   console.log(`Stocks: started a manual run, GitHub answered ${result.status}`);
   return stocksAnswer(202, { ok: true, requested_at: requested, available_at: new Date(now + STOCKS_REFRESH_MIN_MS).toISOString() });
 }

@@ -10,9 +10,17 @@
              keys, the size caps, the ticker check, the 30 ticker limit,
              remove forgets the state and the analysis, the refresh limit,
              and the cron at 05:45 (both workflows) and 12:00 (daily only).
-             Skipped when node or miniflare is missing.
+             Also the races and limits of the security review: two refreshes
+             together, a remove during a slow upload, metadata over 1024
+             bytes, bodies that never end, the overrides of a removed ticker
+             and Python's spaces in a ticker. Skipped when node or miniflare
+             is missing.
+  block      stocks.js's functions run in node with a KV that refuses writes:
+             a refused save answers 500 with a safe log line, and the refresh
+             record is put back on the second try. Skipped without node.
+  client     worker_client.py's answer parsing of a deeply nested state.
 
-Tickers here are public examples (AAPL, BRK-B) or made up.
+Tickers here are public examples (AAPL, BRK-B, MSFT) or made up.
 """
 import json
 import os
@@ -133,9 +141,50 @@ const GITHUB = `export default { async fetch(request, env) {
   const answers = JSON.parse((await env.LOG.get("answers")) || "[]");
   const answer = answers.length ? answers.shift() : 204;
   await env.LOG.put("answers", JSON.stringify(answers));
+  if (typeof answer === "object" && answer.delay) await new Promise((resolve) => setTimeout(resolve, answer.delay));
   if (typeof answer === "object") return new Response(JSON.stringify(answer.body), { status: answer.status });
   return new Response(answer === 204 ? null : JSON.stringify({ message: "Server said " + answer }), { status: answer });
 } };`;
+const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+// A body sent slowly ({first, wait}: the first bytes, a pause, the rest) or
+// one that sends n bytes and then stays open.
+function streamed(c, text) {
+  const bytes = new TextEncoder().encode(text);
+  return new ReadableStream({
+    async start(controller) {
+      if (c.open) {
+        controller.enqueue(new Uint8Array(c.open).fill(120));
+        return;
+      }
+      controller.enqueue(bytes.slice(0, c.slow.first));
+      await sleep(c.slow.wait);
+      controller.enqueue(bytes.slice(c.slow.first));
+      controller.close();
+    },
+  });
+}
+async function send(mf, c) {
+  const seen = {};
+  const headers = { ...(c.headers || {}) };
+  const init = { method: c.method || "GET", headers };
+  if (c.body !== undefined) init.body = typeof c.body === "string" ? c.body : JSON.stringify(c.body);
+  if (c.repeat) init.body = "x".repeat(c.repeat);
+  if (c.slow || c.open) {
+    init.body = streamed(c, init.body || "");
+    init.duplex = "half";
+  }
+  const pending = mf.dispatchFetch("https://worker.example" + c.path, init);
+  pending.catch(() => {});
+  const r = await Promise.race([pending, sleep(c.timeout || 60000).then(() => null)]);
+  if (!r) return { status: "no answer" };
+  seen.status = r.status;
+  seen.guard = r.headers.get("x-guard");
+  seen.cors = r.headers.get("access-control-allow-origin");
+  seen.cache = r.headers.get("cache-control");
+  const text = await r.text();
+  try { seen.body = JSON.parse(text); } catch { seen.body = text; }
+  return seen;
+}
 const out = {};
 for (const inst of plan) {
   const lines = [];
@@ -155,23 +204,23 @@ for (const inst of plan) {
   for (const c of inst.cases) {
     await log.put("log", "[]");
     await log.put("answers", JSON.stringify(c.answers || []));
-    const seen = {};
+    for (const [k, v] of Object.entries(c.seed || {})) {
+      if (v === null) await kv.delete(k);
+      else await kv.put(k, JSON.stringify(v));
+    }
+    let seen = {};
     if (c.scheduled) {
       const worker = await mf.getWorker("main");
       const res = await worker.scheduled({ scheduledTime: new Date(c.scheduled), cron: "45 12,13 * * *" });
       seen.outcome = res.outcome;
+    } else if (c.together) {
+      // Requests sent at the same time, each after its own delay in ms.
+      seen.answers = await Promise.all(c.together.map(async (q) => {
+        await sleep(q.after || 0);
+        return send(mf, q);
+      }));
     } else {
-      const headers = { ...(c.headers || {}) };
-      const init = { method: c.method || "GET", headers };
-      if (c.body !== undefined) init.body = typeof c.body === "string" ? c.body : JSON.stringify(c.body);
-      if (c.repeat) init.body = "x".repeat(c.repeat);
-      const r = await mf.dispatchFetch("https://worker.example" + c.path, init);
-      seen.status = r.status;
-      seen.guard = r.headers.get("x-guard");
-      seen.cors = r.headers.get("access-control-allow-origin");
-      seen.cache = r.headers.get("cache-control");
-      const text = await r.text();
-      try { seen.body = JSON.parse(text); } catch { seen.body = text; }
+      seen = await send(mf, c);
     }
     seen.github = JSON.parse((await log.get("log")) || "[]");
     if (kv && c.keys) {
@@ -222,6 +271,22 @@ def analysis(ticker):
 FULL = {"ACCESS_KEY": ACCESS, "ALLOWED_ORIGINS": PAGES, "STOCKS_INGEST_KEY": INGEST, "GH_REPO": "owner/news-digest",
         "GH_DISPATCH_TOKEN": TOKEN}
 MANY = [f"Z{chr(65 + i // 26)}{chr(65 + i % 26)}" for i in range(29)]  # made-up symbols
+OLD_RUN = "2026-01-02T03:04:05.000Z"
+TINY = -1.2345678901234567e-300  # 24 characters in JSON
+CONTROLS = chr(1) * 60  # 6 bytes a character in JSON
+LONE = chr(0xD800) * 60  # a lone surrogate: also 6 bytes a character in JSON, and not removed
+# Python's str.strip() spaces, and two characters it keeps (U+FEFF, U+200B) and NUL.
+SPELLINGS = [chr(c) for c in range(0x10000) if chr(c).isspace()] + [chr(0xFEFF), chr(0x200B), chr(0)]
+OVERRIDES = {"AAPL": {"names": ["Apple"]}, "aapl": {"cusips": ["037833100"]}, "msft": {"names": ["Microsoft"]},
+             "ZZZQ": {"names": ["Made up"]}}
+
+
+def heavy(ticker, text):
+    """An analysis whose every metadata text is `text`, with the longest numbers."""
+    return {"kind": "stocks.ticker", "version": 1, "ticker": ticker, "status": text, "data_as_of": text,
+            "generated_at": text, "header": {"name": text, "last_close": TINY, "change_pct": TINY},
+            "assessment": {"stance": text, "confidence": text},
+            "learner": {"scorecard": {"backtest": {"999": {"n": 10 ** 21, "hit_rate": TINY}}}}}
 
 PLAN = [
     {"name": "full", "kv": True, "bindings": FULL, "cases": [
@@ -336,6 +401,38 @@ PLAN = [
          "keys": ["stocks:refresh"]},
         {"name": "refresh, 5xx then taken", "method": "POST", "path": "/stocks/refresh", "headers": key(),
          "answers": [502, 204], "keys": ["stocks:refresh"]},
+        {"name": "refresh, two together while GitHub is slow", "seed": {"stocks:refresh": None},
+         "answers": [{"status": 204, "delay": 800}],
+         "together": [{"method": "POST", "path": "/stocks/refresh", "headers": key()},
+                      {"method": "POST", "path": "/stocks/refresh", "headers": key(), "after": 100}]},
+        {"name": "refresh refused, the run before is kept", "seed": {"stocks:refresh": {"requested_at": OLD_RUN}},
+         "method": "POST", "path": "/stocks/refresh", "headers": key(), "answers": [403], "keys": ["stocks:refresh"]},
+    ]},
+    {"name": "edges", "kv": True, "bindings": FULL, "cases": [
+        {"name": "remove during an upload",
+         "seed": {"stocks:config": {"version": 1, "tickers": ["AAPL", "BRK-B"], "overrides": {}}},
+         "together": [{"method": "PUT", "path": "/stocks/ingest/state/BRK-B", "headers": ingest(),
+                       "body": state("BRK-B", lessons=[{"date": "2026-11-12", "text": "Old."}]),
+                       "slow": {"first": 10, "wait": 600}},
+                      {"method": "POST", "path": "/stocks/tickers", "headers": key(),
+                       "body": {"action": "remove", "ticker": "BRK-B"}, "after": 200}],
+         "keys": ["stocks:state:BRK-B", "stocks:config"]},
+        {"name": "put analysis, control characters", "method": "PUT", "path": "/stocks/ingest/ticker/AAPL",
+         "headers": ingest(), "body": heavy("AAPL", CONTROLS), "keys": ["stocks:ticker:AAPL"]},
+        {"name": "put analysis, escapes over 1024 bytes", "method": "PUT", "path": "/stocks/ingest/ticker/AAPL",
+         "headers": ingest(), "body": heavy("AAPL", LONE), "keys": ["stocks:ticker:AAPL"]},
+        {"name": "settings, a body that never ends", "method": "POST", "path": "/stocks/settings", "headers": key(),
+         "open": 4 * 2000 + 1, "timeout": 5000},
+        {"name": "put state, a body that never ends", "method": "PUT", "path": "/stocks/ingest/state/AAPL",
+         "headers": ingest(), "open": stocks.STATE_MAX_BYTES + 1, "timeout": 5000},
+        {"name": "ingest config, overrides of listed tickers only", "path": "/stocks/ingest/config", "headers": ingest(),
+         "seed": {"stocks:config": {"version": 1, "tickers": ["AAPL", "MSFT"], "overrides": OVERRIDES}}},
+        {"name": "remove a ticker with overrides", "method": "POST", "path": "/stocks/tickers", "headers": key(),
+         "body": {"action": "remove", "ticker": "aapl"}, "keys": ["stocks:config"]},
+        {"name": "ingest config, after the remove", "path": "/stocks/ingest/config", "headers": ingest()},
+        # BRK-B is not in the list here, so a remove only says whether the spelling is a ticker.
+        *[{"name": f"spelling {ord(ch):04x}", "method": "POST", "path": "/stocks/tickers", "headers": key(),
+           "body": {"action": "remove", "ticker": f"{ch}brk.b{ch}"}} for ch in SPELLINGS],
     ]},
 ]
 
@@ -535,8 +632,152 @@ class WorkerdTests(unittest.TestCase):
     def test_logs_hold_no_ticker_key_or_token(self):
         logs = "\n".join(line for k, v in self.got.items() if k.endswith(": logs") for line in v)
         self.assertIn("Stocks: saved a ticker analysis", logs)
-        for leak in ("AAPL", "BRK-B", ACCESS, INGEST, TOKEN, "A lesson."):
+        self.assertIn("Stocks: the manual run did not start", logs)
+        for leak in ("AAPL", "BRK-B", "MSFT", "Microsoft", ACCESS, INGEST, TOKEN, "A lesson.", "Old."):
             self.assertNotIn(leak, logs)
+
+    def test_two_refreshes_together_start_one_run(self):
+        seen = self.r("refresh, two together while GitHub is slow", "github refuses")
+        self.assertEqual([a["status"] for a in seen["answers"]], [202, 429])
+        self.assertEqual(seen["answers"][1]["body"]["error"], "a run was started recently")
+        self.assertEqual(len(seen["github"]), 1)
+        # GitHub refuses: the record of the run before is put back as it was.
+        kept = self.r("refresh refused, the run before is kept", "github refuses")
+        self.assertEqual((kept["status"], len(kept["github"])), (502, 1))
+        self.assertEqual(kept["kv"]["stocks:refresh"]["value"], {"requested_at": OLD_RUN})
+
+    def test_a_remove_during_an_upload_wins(self):
+        seen = self.r("remove during an upload", "edges")
+        upload, remove = seen["answers"]
+        self.assertEqual((remove["status"], remove["body"]["changed"]), (200, True))
+        self.assertEqual((upload["status"], upload["body"]), (409, {"error": "not in the list"}))
+        self.assertIsNone(seen["kv"]["stocks:state:BRK-B"])
+        self.assertEqual(seen["kv"]["stocks:config"]["value"]["tickers"], ["AAPL"])
+
+    def test_metadata_always_fits_in_1024_bytes(self):
+        # 200 means KV took the metadata (over 1024 bytes it refuses, and the upload used to answer 500).
+        for name in ("put analysis, control characters", "put analysis, escapes over 1024 bytes"):
+            seen = self.r(name, "edges")
+            self.assertEqual((seen["status"], seen["body"]["ok"]), (200, True), name)
+            meta = seen["kv"]["stocks:ticker:AAPL"]["metadata"]
+            stored = json.dumps(meta, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
+            self.assertLessEqual(len(stored), 1024, name)
+            self.assertEqual(meta["close"], TINY, name)
+        meta = self.r("put analysis, control characters", "edges")["kv"]["stocks:ticker:AAPL"]["metadata"]
+        self.assertEqual((meta["name"], meta["status"]), ("", ""))  # control characters are removed
+        meta = self.r("put analysis, escapes over 1024 bytes", "edges")["kv"]["stocks:ticker:AAPL"]["metadata"]
+        self.assertIsNone(meta["name"])  # too long in JSON: the name goes first, the other texts stay
+        self.assertTrue(meta["status"] and meta["stance"] and meta["generated_at"])
+
+    def test_bodies_that_never_end_are_cut_at_the_cap(self):
+        seen = self.r("settings, a body that never ends", "edges")
+        self.assertEqual((seen["status"], seen["body"]), (400, {"error": "that model is not allowed"}))
+        seen = self.r("put state, a body that never ends", "edges")
+        self.assertEqual((seen["status"], seen["body"]), (413, {"error": "too large"}))
+
+    def test_a_removed_ticker_leaves_no_overrides(self):
+        listed = {k: v for k, v in OVERRIDES.items() if k != "ZZZQ"}
+        self.assertEqual(self.status("ingest config, overrides of listed tickers only", "edges")[1]["overrides"],
+                         listed)
+        status, body = self.status("remove a ticker with overrides", "edges")
+        self.assertEqual((status, body["tickers"]), (200, ["MSFT"]))
+        stored = self.r("remove a ticker with overrides", "edges")["kv"]["stocks:config"]["value"]
+        self.assertEqual(stored["overrides"], {"msft": OVERRIDES["msft"], "ZZZQ": OVERRIDES["ZZZQ"]})
+        self.assertEqual(self.status("ingest config, after the remove", "edges")[1]["overrides"],
+                         {"msft": OVERRIDES["msft"]})
+
+    def test_tickers_lose_the_spaces_python_strips(self):
+        for ch in SPELLINGS:
+            want = 200 if stocks.normalize_ticker(f"{ch}brk.b{ch}") else 400
+            self.assertEqual(self.status(f"spelling {ord(ch):04x}", "edges")[0], want, f"U+{ord(ch):04X}")
+        # Where trim() and Python's strip() differ.
+        for code, want in (("001c", 200), ("0085", 200), ("feff", 400)):
+            self.assertEqual(self.status(f"spelling {code}", "edges")[0], want, code)
+
+
+BLOCK = r"""
+import { readFileSync } from "node:fs";
+const text = readFileSync(process.argv[2], "utf8");
+const logs = [];
+console.log = (...parts) => logs.push(parts.join(" "));
+const block = new Function(text + "\nreturn { stocksSave, stocksRefreshRestore };")();
+const out = {};
+// KV refuses every write, with a message that names the key.
+const refusing = {
+  async get(name) { return name === "stocks:config" ? JSON.stringify({ tickers: ["AAPL"] }) : null; },
+  async put(name) { throw new Error(`KV PUT failed: 429 Too Many Requests (${name})`); },
+  async delete() {},
+};
+const doc = JSON.stringify({ kind: "stocks.state", version: 1, ticker: "AAPL", lessons: [] });
+const saved = await block.stocksSave(new Request("https://worker.example/", { method: "PUT", body: doc }),
+  { STOCKS_KV: refusing }, "state", "AAPL");
+out.save = { status: saved.status, cache: saved.headers.get("cache-control"), body: await saved.json(),
+  logs: logs.splice(0) };
+// KV refuses the first writes it is given, then takes the rest.
+const writes = [];
+let refusals = 0;
+const flaky = {
+  async put(name, value) { if (refusals-- > 0) throw new Error("KV PUT failed: 429"); writes.push([name, value]); },
+  async delete(name) { if (refusals-- > 0) throw new Error("KV DELETE failed: 429"); writes.push([name, null]); },
+};
+for (const [label, before, refuse] of [["put back", "2026-01-02T03:04:05.000Z", 1], ["deleted", null, 1],
+  ["refused twice", null, 2]]) {
+  writes.length = 0;
+  refusals = refuse;
+  const started = Date.now();
+  await block.stocksRefreshRestore({ STOCKS_KV: flaky }, before);
+  out[label] = { writes: [...writes], ms: Date.now() - started, logs: logs.splice(0) };
+}
+process.stdout.write(JSON.stringify(out) + "\n");
+"""
+
+
+@unittest.skipUnless(shutil.which("node"), "needs node")
+class BlockTests(unittest.TestCase):
+    """stocks.js's own functions in node, with a KV that refuses writes (miniflare's never does)."""
+
+    @classmethod
+    def setUpClass(cls):
+        tmp = tempfile.mkdtemp(prefix="stocks-block-")
+        cls.addClassCleanup(shutil.rmtree, tmp)
+        path = os.path.join(tmp, "block.mjs")
+        with open(path, "w", encoding="utf-8") as f:
+            f.write(BLOCK)
+        res = subprocess.run(["node", path, STOCKS_JS], capture_output=True, text=True, timeout=60, cwd=tmp)
+        if res.returncode != 0:
+            raise AssertionError("the block harness failed: " + res.stderr[-2000:])
+        cls.got = json.loads(res.stdout.strip().splitlines()[-1])
+
+    def test_a_refused_write_answers_500_with_a_safe_log_line(self):
+        save = self.got["save"]
+        self.assertEqual((save["status"], save["body"], save["cache"]),
+                         (500, {"error": "the document could not be saved"}, "no-store"))
+        self.assertEqual(save["logs"], ["Stocks: KV did not save a learning state (429)"])
+
+    def test_the_refresh_record_is_put_back_on_the_second_try(self):
+        put_back = self.got["put back"]
+        self.assertEqual(put_back["writes"], [["stocks:refresh", '{"requested_at":"2026-01-02T03:04:05.000Z"}']])
+        self.assertGreaterEqual(put_back["ms"], 1000)  # KV takes one write a second for a key
+        self.assertEqual(self.got["deleted"]["writes"], [["stocks:refresh", None]])
+        for label in ("put back", "deleted"):
+            self.assertEqual(self.got[label]["logs"], [], label)
+        self.assertEqual(self.got["refused twice"]["writes"], [])
+        self.assertEqual(self.got["refused twice"]["logs"],
+                         ["Stocks: the refresh limit could not be put back, so the next manual run waits 30 minutes"])
+
+
+class ClientTests(unittest.TestCase):
+    def test_a_deeply_nested_answer_is_a_worker_error(self):
+        from stocks import worker_client as wc
+
+        with self.assertRaises(wc.WorkerError) as cm:
+            wc.WorkerClient._parse({}, b"[" * 100000)
+        self.assertEqual(cm.exception.reason, "the answer is not JSON")
+        # A state like that: get_state fails with WorkerError, so the run starts that one ticker fresh.
+        deep = b'{"kind": "stocks.state", "version": 1, "x": ' + b"[" * 100000 + b"]" * 100000 + b"}"
+        client = wc.WorkerClient("https://worker.example", INGEST, transport=lambda *a: (200, {}, deep))
+        with self.assertRaises(wc.WorkerError):
+            client.get_state("AAPL")
 
 
 if __name__ == "__main__":

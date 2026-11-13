@@ -315,6 +315,18 @@ class LevelsTest(unittest.TestCase):
                     self.assertLessEqual(t["price"], c["price"])
             self.assertEqual(zone["rationale"], "Two to one ATR below the last close.")
 
+    def test_a_bearish_fallback_plan_has_no_upside_target(self):
+        bars = ss.synthetic_bars(400, seed=3)
+        tech = indicators.technicals(bars, None)
+        lv = levels.levels_block(bars, tech, None)
+        base = levels.fallback_plan(lv["candidates"], tech["close"], tech["atr14"])
+        self.assertTrue(base["targets"])
+        for stance in ("bullish", "neutral", None):
+            self.assertEqual(levels.fallback_plan(lv["candidates"], tech["close"], tech["atr14"], stance), base)
+        bear = levels.fallback_plan(lv["candidates"], tech["close"], tech["atr14"], "bearish")
+        self.assertEqual(bear["targets"], [])
+        self.assertEqual((bear["entry_zones"], bear["stop"]), (base["entry_zones"], base["stop"]))
+
     def test_fallback_plan_without_atr(self):
         bars = series_bars([10.0, 10.5, 11.0])
         tech = indicators.technicals(bars, None)

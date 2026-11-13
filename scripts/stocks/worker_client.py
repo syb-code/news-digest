@@ -182,7 +182,7 @@ class WorkerClient:
             return None
         try:
             return json.loads(raw.decode("utf-8"))
-        except (UnicodeDecodeError, ValueError):
+        except (UnicodeDecodeError, ValueError, RecursionError):  # RecursionError: nested too deep
             raise WorkerError("the answer is not JSON") from None
 
     def _put(self, path, doc, cap):

@@ -23,11 +23,15 @@ zones, the targets and the stop must be one of the candidate levels the code
 computed (within max(0.5 percent of the level, 0.10 x ATR14)); a level that
 breaks a rule is dropped, and when no entry zone or target is left, or the
 stop fails, the levels come from the code (levels.fallback_plan) and say so.
+A target must also agree with the stance: above the last close when bullish,
+below it when bearish.
 
 Cost: each usage.iterations entry is priced at the model that ran it
 (learn.brief.usage_by_model and cost_usd), prices from stocks.models and
 stocks.fallback_prices in config.yml. A spend cap reserves each call's worst
-case before it is sent and skips a call that would pass max_run_usd.
+case before it is sent and skips a call that would pass max_run_usd; with
+fallbacks on, the second attempt is reserved at the highest output price a
+fallback model can have, as learn.brief.spend_cap does.
 
 anthropic is imported inside functions only, so this module loads without it.
 """
@@ -100,7 +104,7 @@ Write:
 - summary: what matters most today, in three to five sentences.
 - technical, valuation, shorts, holders and macro: two to four sentences each on that part of the data. When a part is not available, say so in one sentence.
 - risks: one to five short risks.
-- entry_zones: one to three buy zones, each a low and a high at or below the last close or near it. targets: one to three prices above the highest entry zone, each with a horizon of 5 to 120 trading days. stop: one price below the lowest entry zone.
+- entry_zones: one to three buy zones, each a low and a high at or below the last close or near it. targets: one to three prices above the highest entry zone, each with a horizon of 5 to 120 trading days. For a bullish stance every target is above the last close, for a bearish stance every target is below it. stop: one price below the lowest entry zone.
 - Every price in entry_zones, targets and stop must be one of the prices in levels.candidates, or within levels.tolerance of one (the larger of 0.5 percent of that price and 0.10 times atr14). The program rejects any other price. Give each a short rationale that names the level it uses.
 - change_my_mind: what would change this view.
 - lessons: zero to two short lessons for your future self on this stock, only when a graded call in learner.recent_calls taught something specific about this stock. Otherwise an empty list.
@@ -284,12 +288,24 @@ def empty_cost():
     return {"input_tokens": 0, "output_tokens": 0, "cache_read_tokens": 0, "cost_usd": 0.0, "cost_estimated": False}
 
 
+def worst_output_price(model, cfg):
+    """The highest output price per million tokens among the model and the
+    models a "default" refusal fallback can run on (every model priced in
+    stocks.models and stocks.fallback_prices), as learn.brief.spend_cap."""
+    table = list(((cfg or {}).get("models") or {}).values()) + list(((cfg or {}).get("fallback_prices") or {}).values())
+    return max([prices_for(model, cfg)[0]["output"]] + [float(p["output"]) for p in table])
+
+
 def reservation_usd(request, cfg):
-    """A call's worst case in dollars: max_tokens at the output price (twice
-    with fallbacks on), plus the characters of the message and the system
-    prompt over 3 at the input price."""
+    """A call's worst case in dollars: max_tokens at the model's output price,
+    with fallbacks on plus max_tokens again at the highest output price a
+    fallback model can have (a model that declines part way has already
+    written up to max_tokens, and the fallback model can write as many), plus
+    the characters of the message and the system prompt over 3 at the input
+    price."""
     prices, _ = prices_for(request["model"], cfg)
-    out = request["max_tokens"] * prices["output"] / 1_000_000 * (2 if request.get("fallbacks") else 1)
+    per_token = prices["output"] + (worst_output_price(request["model"], cfg) if request.get("fallbacks") else 0.0)
+    out = request["max_tokens"] * per_token / 1_000_000
     chars = len(request["messages"][0]["content"]) + sum(len(b.get("text", "")) for b in request["system"])
     return out + chars / 3 * prices["input"] / 1_000_000
 
@@ -465,7 +481,7 @@ def code_assessment(doc, problems=()):
     p20 = _num(((doc.get("learner") or {}).get("probabilities") or {}).get("20"))
     stance = "neutral" if p20 is None else ("bullish" if p20 >= 0.55 else "bearish" if p20 <= 0.45 else "neutral")
     cands, close, atr14 = doc_levels(doc)
-    plan = levels_mod.fallback_plan(cands, close, atr14) if cands and close else \
+    plan = levels_mod.fallback_plan(cands, close, atr14, stance) if cands and close else \
         {"entry_zones": [], "targets": [], "stop": None}
     return {"source": "code", "levels_source": "code", "stance": stance, "confidence": "low",
             "summary": CODE_SUMMARY, "technical": "", "valuation": "", "shorts": "", "holders": "", "macro": "",
@@ -477,9 +493,12 @@ def _text(value, limit):
     return plain(value if isinstance(value, str) else "", limit)
 
 
-def check_levels(raw, cands, close, atr14):
+def check_levels(raw, cands, close, atr14, stance=None):
     """(entry_zones, targets, stop, problems) from the model's levels, or
-    None for the three when the levels cannot be used (see the price rule)."""
+    None for the three when the levels cannot be used (see the price rule).
+    A target must also agree with the stance: above the last close for a
+    bullish one, below it for a bearish one (a rule 10.4 of the contract
+    does not state)."""
     problems = []
 
     def matched(price):
@@ -522,6 +541,10 @@ def check_levels(raw, cands, close, atr14):
             problems.append("One target was not near any level the code proposed, so it was dropped.")
         elif top is None or price <= top:
             problems.append("A target was not above the highest entry zone, so it was dropped.")
+        elif stance == "bullish" and price <= close:
+            problems.append("A target was not above the last close for a bullish view, so it was dropped.")
+        elif stance == "bearish" and price >= close:
+            problems.append("A target was not below the last close for a bearish view, so it was dropped.")
         elif isinstance(horizon, bool) or not isinstance(horizon, int) or \
                 not HORIZON_DAYS[0] <= horizon <= HORIZON_DAYS[1]:
             problems.append("A target's horizon was outside 5 to 120 trading days, so it was dropped.")
@@ -547,8 +570,8 @@ def check_levels(raw, cands, close, atr14):
         stop = {"price": round_price(sp), "rationale": _text(rs.get("rationale"), TEXT_LIMITS["rationale"]),
                 "ref": m["id"]}
     if not zones or not targets or not stop_ok:
-        return None, None, None, problems
-    return zones, targets, stop, problems
+        return None, None, None, list(dict.fromkeys(problems))
+    return zones, targets, stop, list(dict.fromkeys(problems))
 
 
 def validate_ticker_answer(data, doc):
@@ -571,10 +594,10 @@ def validate_ticker_answer(data, doc):
     cands, close, atr14 = doc_levels(doc)
     if not cands or close is None:
         raise InvalidOutput("the document has no candidate levels")
-    zones, targets, stop, problems = check_levels(data, cands, close, atr14)
+    zones, targets, stop, problems = check_levels(data, cands, close, atr14, stance)
     levels_source = "model"
     if zones is None:
-        plan = levels_mod.fallback_plan(cands, close, atr14)
+        plan = levels_mod.fallback_plan(cands, close, atr14, stance)
         zones, targets, stop = plan["entry_zones"], plan["targets"], plan["stop"]
         levels_source = "code"
         problems.append(LEVELS_FROM_CODE)

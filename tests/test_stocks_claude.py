@@ -141,6 +141,37 @@ class ValidationTests(unittest.TestCase):
         self.assertIn(a["stop"]["price"], allowed)
         self.assertEqual(a["summary"], ans["summary"])  # the texts are kept
 
+    def test_a_bearish_answer_never_gets_an_upside_target(self):
+        ans = good_answer(self.doc)
+        ans["stance"] = "bearish"
+        close = self.doc["technicals"]["close"]
+        self.assertGreater(ans["targets"][0]["price"], close)
+        a = claude.validate_ticker_answer(ans, self.doc)
+        self.assertEqual((a["stance"], a["levels_source"], a["targets"]), ("bearish", "code", []))
+        self.assertIn("A target was not below the last close for a bearish view, so it was dropped.", a["problems"])
+        self.assertEqual(a["stop"]["ref"], "atr_m3")
+        self.assertEqual(a["entry_zones"][0]["low_ref"], "atr_m2")
+
+    def test_the_code_assessment_follows_its_own_stance(self):
+        d = copy.deepcopy(self.doc)
+        d["learner"] = dict(d.get("learner") or {}, probabilities={"5": 0.4, "20": 0.3, "60": 0.4})
+        a = claude.code_assessment(d)
+        self.assertEqual((a["stance"], a["targets"]), ("bearish", []))
+        d["learner"]["probabilities"]["20"] = 0.7
+        a = claude.code_assessment(d)
+        self.assertEqual(a["stance"], "bullish")
+        self.assertTrue(all(t["price"] > d["technicals"]["close"] for t in a["targets"]))
+
+    def test_a_repeated_problem_is_listed_once(self):
+        ans = good_answer(self.doc)
+        far = round(self.doc["technicals"]["close"] * 1.37, 2)
+        ans["targets"] = [{"price": far, "horizon_days": 20, "rationale": "x"},
+                          {"price": round(far * 1.1, 2), "horizon_days": 30, "rationale": "y"}]
+        a = claude.validate_ticker_answer(ans, self.doc)
+        line = "One target was not near any level the code proposed, so it was dropped."
+        self.assertEqual(a["problems"].count(line), 1)
+        self.assertEqual(len(a["problems"]), len(set(a["problems"])))
+
     def test_tolerance_and_the_other_rules(self):
         ans = good_answer(self.doc)
         atr = self.doc["levels"]["atr14"]
@@ -293,7 +324,7 @@ class CallTests(unittest.TestCase):
         jobs, d = self.jobs(5)
         one = claude.reservation_usd(jobs[0]["request"], CFG)
         # Room for one worst case: after the first call its actual cost plus the next worst case is too much.
-        cfg = dict(CFG, max_run_usd=one * 1.2, parallel_requests=1)
+        cfg = dict(CFG, max_run_usd=one * 1.05, parallel_requests=1)
         client = self.answer_client(d)
         results, cap, lines = self.run_with(client, [dict(j, kind="ticker") for j in jobs], cfg)
         outcomes = [r["outcome"] for r in results]
@@ -302,10 +333,11 @@ class CallTests(unittest.TestCase):
         self.assertIn("Spend cap reached: 4 tickers got code levels only.", lines)
         a, note = claude.assessment_from(d, results[-1])
         self.assertEqual(note, claude.UNAVAILABLE["spend_cap"])
-        # The worst case counts max_tokens at the output price, twice with fallbacks.
+        # The worst case counts max_tokens at the output price, and with fallbacks once more at the
+        # highest output price a fallback model has (claude-opus-5, 25 dollars per million).
         r = jobs[0]["request"]
         chars = len(r["messages"][0]["content"]) + len(claude.SYSTEM_TICKER)
-        self.assertAlmostEqual(one, CFG["max_output_tokens"] * 10 / 1e6 * 2 + chars / 3 * 2 / 1e6)
+        self.assertAlmostEqual(one, CFG["max_output_tokens"] * (10 + 25) / 1e6 + chars / 3 * 2 / 1e6)
 
     def test_cost_from_iterations_at_each_model(self):
         use = F.usage(iterations=[

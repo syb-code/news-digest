@@ -40,6 +40,8 @@
   // Adaptive thinking is billed as output, so output is a range.
   const TYPICAL = { stockIn: 15000, stockOut: [3000, 6000], overviewIn: 7000, overviewOut: [2000, 4000] };
   const TRADING_DAYS_A_MONTH = 21;
+  // A run's spend cap in US dollars, as in config.yml (stocks.max_run_usd); the worker's list may send its own.
+  const MAX_RUN_USD = 3.0;
   const TICKER_RE = /^[A-Z]{1,6}(?:-[A-Z]{1,3})?$/;
   const MAX_TICKERS = 30;
   const DISCLAIMER = 'Not financial advice. This is an automated reading of public data for one person, and it can be wrong. Do your own research before you buy or sell anything.';
@@ -59,6 +61,7 @@
   let overviewState = '';    // 'ok', 'none' (404) or 'error'
   const docs = new Map();    // ticker -> { doc } | { none: true } | { error: text }
   const loading = new Set();
+  let docEpoch = 0;          // bumped when the documents are dropped; an answer from before it is dropped too
   let current = 'market';
   let manageOpen = false;
   let editing = false;
@@ -80,7 +83,13 @@
   const obj = (v) => (v && typeof v === 'object' && !Array.isArray(v) ? v : {});
   const arr = (v) => (Array.isArray(v) ? v : []);
   const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
-  const isDay = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
+  // A real calendar day as YYYY-MM-DD: 2026-13-01 or 2026-02-30 is not one (Intl throws on it).
+  function isDay(v) {
+    if (typeof v !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(v)) return false;
+    const [y, m, d] = v.split('-').map(Number);
+    const t = new Date(Date.UTC(y, m - 1, d));
+    return t.getUTCFullYear() === y && t.getUTCMonth() === m - 1 && t.getUTCDate() === d;
+  }
   function txt(v, max) {
     if (typeof v !== 'string') return '';
     const s = v.replace(/\s+/g, ' ').trim();
@@ -270,8 +279,9 @@
     const model = models.indexOf(st.model) >= 0 ? st.model : (models.indexOf(DEFAULT_MODEL) >= 0 ? DEFAULT_MODEL : models[0]);
     const rf = obj(b.refresh);
     const max = Number.isInteger(b.max) && b.max > 0 && b.max <= MAX_TICKERS ? b.max : MAX_TICKERS;
+    const cap = isNum(st.max_run_usd) && st.max_run_usd > 0 && st.max_run_usd <= 1000 ? st.max_run_usd : MAX_RUN_USD;
     return {
-      tickers, max, model, models,
+      tickers, max, model, models, cap,
       refresh: { requestedAt: time(rf.requested_at), availableAt: time(rf.available_at) },
       overviewAt: time(obj(b.overview).generated_at),
     };
@@ -291,8 +301,7 @@
     list = null;
     overview = null;
     overviewState = '';
-    docs.clear();
-    loading.clear();
+    dropDocs();
     current = 'market';
     manageOpen = false;
     editing = false;
@@ -358,7 +367,7 @@
     if (r.kind === 'stale') return;
     if (r.kind !== 'ok') { showMsg('warn', problem(r, 'Could not load the new results')); return; }
     list = normList(r.body);
-    docs.clear();
+    dropDocs();
     await loadOverview();
     if (g !== gen || !list) return;
     if (current !== 'market' && !entry(current)) current = 'market';
@@ -373,10 +382,11 @@
   // in memory only.
   function prefetch() {
     const g = gen;
+    const ep = docEpoch;
     const queue = list.tickers.filter((e) => e.status !== 'pending' && !docs.has(e.ticker)).map((e) => e.ticker)
       .slice(0, PREFETCH_MAX);
     const run = async () => {
-      while (queue.length && g === gen) {
+      while (queue.length && g === gen && ep === docEpoch) {
         const t = queue.shift();
         if (docs.has(t) || loading.has(t)) continue;
         const kind = await fetchDoc(t);
@@ -385,10 +395,15 @@
     };
     run();
   }
+  // Every document and every request for one is forgotten (after a run, a request from before it
+  // could otherwise bring back an old analysis).
+  function dropDocs() { docEpoch += 1; docs.clear(); loading.clear(); }
   async function fetchDoc(t) {
+    const ep = docEpoch;
     loading.add(t);
     const r = await api('/stocks/t/' + encodeURIComponent(t));
     if (r.kind === 'stale') return r.kind;
+    if (ep !== docEpoch) return 'stale';
     loading.delete(t);
     const b = obj(r.body);
     if (r.kind === 'ok') {
@@ -486,13 +501,34 @@
   }
 
   // ---------- settings: model, the list, add ----------
-  function costRange(model, n) {
+  // A trading day's rough cost from typical token counts, held at the run's spend cap: a run stops
+  // asking the model there and the stocks after it get levels from the code. fit: the stocks that
+  // fit under the cap at the high end of the typical cost.
+  function costRange(model, n, cap) {
     const p = MODEL_PRICES[model];
-    if (!p) return '';
+    if (!p) return null;
     const one = (inT, outT) => (inT * p.input + outT * p.output) / 1e6;
-    const [lo, hi] = [0, 1].map((k) => n * one(TYPICAL.stockIn, TYPICAL.stockOut[k]) + one(TYPICAL.overviewIn, TYPICAL.overviewOut[k]));
-    const fmt = (x) => (x < 0.01 ? 'less than $0.01' : usd(x));
-    return { lo, hi, text: fmt(lo) === fmt(hi) ? fmt(lo) : fmt(lo) + ' to ' + usd(hi) };
+    const stock = [0, 1].map((k) => one(TYPICAL.stockIn, TYPICAL.stockOut[k]));
+    const ov = [0, 1].map((k) => one(TYPICAL.overviewIn, TYPICAL.overviewOut[k]));
+    const [lo, hi] = [0, 1].map((k) => n * stock[k] + ov[k]);
+    return { lo: Math.min(lo, cap), hi: Math.min(hi, cap), capped: hi > cap, fit: Math.max(0, Math.floor((cap - ov[1]) / stock[1])) };
+  }
+  // Cents, "less than $0.01" below a cent, and whole dollars from $10 when whole is set.
+  function roughUsd(x, whole) {
+    if (x < 0.01) return 'less than $0.01';
+    return whole && x >= 10 ? '$' + NF0.format(x) : usd(x);
+  }
+  function roughRange(lo, hi, whole) {
+    const a = roughUsd(lo, whole);
+    const b = roughUsd(hi, whole);
+    if (a === b) return lo < 0.01 ? a : 'about ' + a;
+    return lo < 0.01 ? 'up to about ' + b : 'about ' + a + ' to ' + b;
+  }
+  function capLine(c, cap, name, max) {
+    const at = 'A run stops asking the model at its ' + usd(cap) + ' spend cap';
+    if (c.fit < 1) return at + ', which leaves no room for a stock with ' + name + '. Every stock gets levels from the code.';
+    if (c.capped) return at + ', which fits about ' + plural(c.fit, 'stock', 'stocks') + ' with ' + name + '. The others get levels from the code.';
+    return at + ', which fits ' + (c.fit >= max ? 'a full list of ' + plural(max, 'stock', 'stocks') : 'about ' + plural(c.fit, 'stock', 'stocks')) + ' with ' + name + '.';
   }
   function renderManage() {
     const focusId = manage.contains(document.activeElement) ? document.activeElement.id || '' : '';
@@ -511,21 +547,21 @@
     const sel = h('select', 'input');
     sel.id = 'st-model';
     list.models.forEach((id) => {
-      const c = costRange(id, n);
-      const o = h('option', '', MODEL_NAMES[id] + (c ? ', about ' + c.text + ' a day' : ''));
+      const c = costRange(id, n, list.cap);
+      const o = h('option', '', MODEL_NAMES[id] + (c ? ', ' + roughRange(c.lo, c.hi) + ' a day' + (c.capped ? ', capped' : '') : ''));
       o.value = id;
       sel.appendChild(o);
     });
     sel.value = list.model;
     sel.disabled = editing;
     sel.addEventListener('change', onModel);
-    const c = costRange(list.model, n);
+    const c = costRange(list.model, n, list.cap);
     // Whole dollars from $10 a month; cents below, so Haiku's few cents do not read as $0.
-    const monthly = (x) => (x >= 10 ? usd(x).replace(/\.\d\d$/, '') : usd(x));
-    const month = c ? monthly(c.lo * TRADING_DAYS_A_MONTH) + ' to ' + monthly(c.hi * TRADING_DAYS_A_MONTH) : '';
+    const month = c ? roughRange(c.lo * TRADING_DAYS_A_MONTH, c.hi * TRADING_DAYS_A_MONTH, true) : '';
     add(m, lab, sel,
       h('p', 'hint', 'Rough cost for ' + plural(n, 'stock', 'stocks') + ' and the market summary on each trading day, from typical token counts' +
-        (month ? ': about ' + month + ' a month with ' + MODEL_NAMES[list.model] + '.' : '.')),
+        (month ? ': ' + month + ' a month with ' + MODEL_NAMES[list.model] + '.' : '.')),
+      c ? h('p', 'hint', capLine(c, list.cap, MODEL_NAMES[list.model], list.max)) : null,
       h('p', 'hint', 'Saved in the worker. The next run uses it.'));
 
     // the list
@@ -800,6 +836,10 @@
     }
   }
   function renderPanel() {
+    // A rebuilt panel keeps the keyboard focus: on the same stock's button in Your stocks, else the panel.
+    const active = document.activeElement;
+    const inside = !!active && panels.contains(active);
+    const back = inside && active.classList.contains('st-open') ? active.getAttribute('data-ticker') || '' : '';
     observers.forEach((o) => o.disconnect());
     observers.clear();
     countdowns = [];
@@ -812,7 +852,17 @@
     const tab = tabsEl.querySelector('[data-key="' + current + '"]');
     if (tab) p.setAttribute('aria-labelledby', tab.id);
     panels.appendChild(p);
-    if (current === 'market') renderMarket(p); else renderTicker(p, current);
+    try {
+      if (current === 'market') renderMarket(p); else renderTicker(p, current);
+    } catch (e) {
+      // the last resort: whatever broke, the panel says so and the disclaimer stays
+      p.textContent = '';
+      add(p, add(h('div', 'st-grid'), add(card('Not available', '', 'st-c12'), h('p', 'hint', 'This tab could not be shown.'))), footer([], DISCLAIMER));
+    }
+    if (inside) {
+      const f = back ? p.querySelector('.st-open[data-ticker="' + back + '"]') : null;
+      (f || p).focus({ preventScroll: true });
+    }
   }
 
   // ---------- building blocks ----------
@@ -823,6 +873,14 @@
     if (tag) add(head, h('span', 'tag', tag));
     c.appendChild(head);
     return c;
+  }
+  // One card from its builder; a value that breaks the builder leaves that card alone "Not available".
+  function safe(title, cls, build) {
+    try { return build(); } catch (e) {
+      const c = card(title, '', cls);
+      add(c, h('p', 'hint', 'Not available. This part of the page could not be shown.'));
+      return c;
+    }
   }
   function note(text, cls) { return text ? h('p', 'hint ' + (cls || ''), text) : null; }
   function notes(list2) { const out = h('div', 'st-notes'); strs(list2, 400, 6).forEach((t) => add(out, h('p', 'hint', t))); return out.firstChild ? out : null; }
@@ -908,17 +966,18 @@
         add(c, b);
       }
       c.classList.add('st-c12');
-      add(grid, c, yoursCard());
+      add(grid, c, safe('Your stocks', 'st-c12', yoursCard));
       add(p, grid, footer([], DISCLAIMER));
       return;
     }
     const ov = overview;
-    add(grid, add(h('div', 'st-c7 st-stack'), summaryCard(ov), newsCard(ov)), calendarCard(ov), macroCard(ov), yoursCard());
+    add(grid, add(h('div', 'st-c7 st-stack'), safe('What matters this week', 'st-summary', () => summaryCard(ov)), safe('Macro news', 'st-newscard', () => newsCard(ov))),
+      safe('Upcoming catalysts', 'st-c5', () => calendarCard(ov)), safe('Macro dashboard', 'st-c12', () => macroCard(ov)), safe('Your stocks', 'st-c12', yoursCard));
     p.appendChild(grid);
     const s = obj(ov.summary);
     const lines = [];
     if (s.source === 'model' && modelName(ov.model)) lines.push('Summary by ' + modelName(ov.model) + (costText(ov.cost) ? ', cost ' + costText(ov.cost) : '') + '.');
-    lines.push('Generated ' + stamp(ov.generated_at) + '. Data as of ' + day(ov.data_as_of) + '.');
+    lines.push(madeLine(ov));
     p.appendChild(footer(lines, ov.disclaimer));
     minuteTimer = setInterval(tickCountdowns, 60000);
   }
@@ -1123,11 +1182,11 @@
       name.type = 'button';
       add(name, h('span', 'st-open-t', e.ticker), h('span', 'st-open-n', e.name || statusWord(e.status)));
       name.setAttribute('aria-label', 'Open ' + e.ticker + (e.name ? ', ' + e.name : ''));
+      name.setAttribute('data-ticker', e.ticker);
       name.addEventListener('click', () => select(e.ticker, true));
-      const hit = hitInfo(e.ticker);
       const hitCell = h('span', 'st-hit');
-      if (hit) add(hitCell, share(hit.rate), h('span', 'st-hit-n', hit.kind + ', ' + NF0.format(hit.n)));
-      else hitCell.textContent = loading.has(e.ticker) ? 'Loading' : NA;
+      hitCell.setAttribute('data-ticker', e.ticker);
+      fillHit(hitCell, e.ticker);
       const stance = h('span', 'st-stance');
       const sc = stanceChip(e.stance);
       if (sc) add(stance, sc);
@@ -1139,12 +1198,27 @@
       note('Hit rate: how often the learner called the direction right over its longest horizon, on graded live calls once there are 10, else on its backtest. Each stock learns only from its own history.'));
     return c;
   }
+  function fillHit(cell, t) {
+    const hit = hitInfo(t);
+    cell.textContent = '';
+    if (hit) add(cell, share(hit.rate), h('span', 'st-hit-n', hit.kind + ', ' + NF0.format(hit.n)));
+    else cell.textContent = loading.has(t) ? 'Loading' : NA;
+  }
+  // A document came in: only the hit rate cells change, in place, so the keyboard focus stays put.
   function refreshYours() {
-    const old = panels.querySelector('#st-yours');
-    if (old && list) old.replaceWith(yoursCard());
+    if (!list) return;
+    panels.querySelectorAll('#st-yours .st-hit[data-ticker]').forEach((cell) => fillHit(cell, cell.getAttribute('data-ticker')));
   }
 
   // ---------- a ticker tab ----------
+  // The cards of a ticker tab in order: title and grid classes (for the "Not available" stand-in), builder.
+  const TICKER_CARDS = [
+    ['Price chart', 'st-c12 st-chartcard', chartCard], ['Assessment', 'st-c8 st-assess', assessmentCard],
+    ["What this stock's learner says", 'st-c4 st-learner', learnerCard], ['Technicals', 'st-c4', technicalsCard],
+    ['Support and resistance', 'st-c4', levelsCard], ['Valuation', 'st-c4', valuationCard], ['Short selling', 'st-c12 st-shorts', shortsCard],
+    ['Company insiders', 'st-c12', insidersCard], ['Famous funds', 'st-c12', fundsCard], ['Members of Congress, best effort', 'st-c12', congressCard],
+    ['Macro impact', 'st-c12', macroImpactCard],
+  ];
   function renderTicker(p, t) {
     const e = entry(t) || normEntry({ ticker: t });
     const rec = docs.get(t);
@@ -1173,7 +1247,9 @@
       return;
     }
     const doc = rec.doc;
-    add(p, tickerHead(t, doc, e));
+    let head;
+    try { head = tickerHead(t, doc, e); } catch (err) { head = tickerHead(t, null, e); }
+    add(p, head);
     const ns = notes(doc.notes);
     if (ns) { ns.classList.add('msg', 'is-info'); add(p, ns); }
     const grid = h('div', 'st-grid');
@@ -1182,17 +1258,24 @@
       add(c, h('p', '', 'SEC and Tiingo do not know ' + t + '. Check the symbol, or remove it in Settings.'));
       add(grid, c);
     } else {
-      add(grid, chartCard(doc), assessmentCard(doc), learnerCard(doc), technicalsCard(doc), levelsCard(doc), valuationCard(doc),
-        shortsCard(doc), insidersCard(doc), fundsCard(doc), congressCard(doc), macroImpactCard(doc));
+      TICKER_CARDS.forEach(([title, cls, build]) => add(grid, safe(title, cls, () => build(doc))));
     }
-    add(p, grid, footer(tickerFootLines(doc), doc.disclaimer));
+    let lines = [];
+    try { lines = tickerFootLines(doc); } catch (err) { lines = []; }
+    add(p, grid, footer(lines, doc.disclaimer));
   }
+  // The footer says who wrote the assessment only when there is one (not for an unknown ticker),
+  // and leaves out a date it does not have.
   function tickerFootLines(doc) {
     const lines = [];
+    const a = obj(doc.assessment);
     if (doc.llm === true && modelName(doc.model)) lines.push('Assessment by ' + modelName(doc.model) + (costText(doc.cost) ? ', cost ' + costText(doc.cost) : '') + '.');
-    else lines.push('No model wrote an assessment today; the stance and levels come from the code.');
-    lines.push('Generated ' + stamp(doc.generated_at) + '. Data as of ' + day(doc.data_as_of) + '.');
+    else if (doc.status !== 'unknown_ticker' && (a.source === 'model' || a.source === 'code')) lines.push('No model wrote an assessment today; the stance and levels come from the code.');
+    lines.push(madeLine(doc));
     return lines;
+  }
+  function madeLine(d) {
+    return [time(d.generated_at) !== null ? 'Generated ' + stamp(d.generated_at) + '.' : '', isDay(d.data_as_of) ? 'Data as of ' + day(d.data_as_of) + '.' : ''].filter(Boolean).join(' ');
   }
   function tickerHead(t, doc, e) {
     const hd = obj(doc && doc.header);
@@ -1447,6 +1530,14 @@
     return { show, hide, cur: () => cur, start, n, offChart: plan.filter((L) => !L.on) };
   }
 
+  // A chart draws after its card is in the page; a value that breaks it leaves a note in its place.
+  function drawSafe(holder, draw) {
+    try { return draw(); } catch (e) {
+      holder.textContent = '';
+      add(holder, h('p', 'hint', 'Not available. The chart could not be drawn.'));
+      return null;
+    }
+  }
   function chartCard(doc) {
     const cd = chartData(doc);
     const c = card('Price chart', cd ? 'Adjusted daily prices' : '', 'st-c12 st-chartcard');
@@ -1501,7 +1592,7 @@
       const w = Math.round(holder.clientWidth || 0);
       if (!w || (!force && Math.abs(w - drawnW) < 4)) return;
       drawnW = w;
-      ctl = drawPrice(holder, cd, plan, ui);
+      ctl = drawSafe(holder, () => drawPrice(holder, cd, plan, ui));
       legend.textContent = '';
       [[candles() ? 'Daily candles' : 'Close', candles() ? 'st-sw-candle' : 'st-sw-close'], ['20 day average', 'st-sw-s20'], ['50 day average', 'st-sw-s50'], ['200 day average', 'st-sw-s200']]
         .concat(plan.some((L) => L.kind === 'zone') ? [['Entry zone', 'st-sw-zone']] : [])
@@ -1571,7 +1662,7 @@
     });
     arr(a.targets).map(obj).forEach((z, i) => {
       if (!isNum(z.price)) return;
-      rows.push(['Target ' + (i + 1) + (Number.isInteger(z.horizon_days) ? ', ' + z.horizon_days + ' days' : ''), money(z.price), dist(z.price, close), lbl(z.ref), txt(z.rationale, 300)]);
+      rows.push(['Target ' + (i + 1) + (Number.isInteger(z.horizon_days) ? ', ' + plural(z.horizon_days, 'day', 'days') : ''), money(z.price), dist(z.price, close), lbl(z.ref), txt(z.rationale, 300)]);
     });
     const st = obj(a.stop);
     if (isNum(st.price)) rows.push(['Stop', money(st.price), dist(st.price, close), lbl(st.ref), txt(st.rationale, 300)]);
@@ -1588,6 +1679,7 @@
       }
     } else add(c, h('p', 'hint', 'No price points today.'));
     if (a.levels_source === 'code') add(c, note('Levels from the code: they come from the ticker\'s own support, resistance, averages and ATR bands, not from the model.', 'hint-note'));
+    if (stance === 'bearish' && rows.length && !arr(a.targets).some((t) => isNum(obj(t).price))) add(c, note('No target: the view is bearish, so there is no upside target. The entry zone is a level to watch, not a signal to buy.', 'hint-note'));
     const cmm = txt(a.change_my_mind, 400);
     if (cmm) add(c, h('h4', 'st-sub', 'What would change my mind'), h('p', '', cmm));
     const risks = strs(a.risks, 240, 5);
@@ -1643,7 +1735,7 @@
     const cands = arr(lv.candidates).map(obj).filter((x) => isNum(x.price) && txt(x.label, 80));
     if (cands.length) {
       const det = h('details', 'st-details');
-      add(det, h('summary', '', 'All ' + cands.length + ' prices a plan may use'));
+      add(det, h('summary', '', cands.length === 1 ? 'The one price a plan may use' : 'All ' + cands.length + ' prices a plan may use'));
       cands.sort((x, y) => y.price - x.price);
       add(det, table('Candidate prices', [['Price', 'num'], ['From close', 'num'], ['What it is']], cands.map((x) => [money(x.price), dist(x.price, close), txt(x.label, 80)])));
       add(c, det);
@@ -1764,7 +1856,7 @@
     add(left, chips);
     add(left, kv([
       ['This stock\'s own average', isNum(L.mean) ? share(L.mean, 1) + (isNum(L.std) ? ', give or take ' + share(L.std, 1) : '') : NA],
-      ['Percentile', isNum(L.percentile) ? NF0.format(L.percentile) + 'th of ' + (Number.isInteger(L.n) ? NF0.format(L.n) + ' days' : 'the year') : NA],
+      ['Percentile', isNum(L.percentile) ? 'Higher than ' + NF0.format(L.percentile) + ' percent of the last ' + (Number.isInteger(L.n) && L.n > 0 ? plural(L.n, 'day', 'days') : 'year') : NA],
       ['5 day average', isNum(a5.ratio) ? share(a5.ratio, 1) + (isNum(a5.z) ? ', z ' + NF2S.format(a5.z) : '') + (zWord(a5.label) ? ', ' + txt(a5.label, 30) : '') : NA],
       ['Short volume', isNum(L.short_volume) ? compact(L.short_volume) + ' of ' + compact(L.total_volume) + ' shares' : NA],
     ]));
@@ -1784,7 +1876,7 @@
       };
       add(right, h('h4', 'st-sub', 'Daily short volume ratio, against its own average'), ro, holder);
       let drawnW = 0;
-      const redraw = () => { const w = Math.round(holder.clientWidth || 0); if (w && Math.abs(w - drawnW) >= 4) { drawnW = w; drawRatio(holder, dates, ratio, L.mean, L.std, readout); } };
+      const redraw = () => { const w = Math.round(holder.clientWidth || 0); if (w && Math.abs(w - drawnW) >= 4) { drawnW = w; drawSafe(holder, () => drawRatio(holder, dates, ratio, L.mean, L.std, readout)); } };
       if (typeof ResizeObserver === 'function') { const o = new ResizeObserver(redraw); o.observe(holder); observers.add(o); }
       requestAnimationFrame(redraw);
       const legend = h('ul', 'st-legend');
@@ -1843,7 +1935,7 @@
   const CHANGE_WORDS = { new: ['New', 'c-cyan'], added: ['Added', 'c-cyan'], trimmed: ['Trimmed', 'c-ox'], exited: ['Exited', 'c-ox'], unchanged: ['Unchanged', ''] };
   function fundsCard(doc) {
     const f = obj(obj(doc.holders).funds);
-    const c = card('Famous funds', Number.isInteger(f.funds_checked) ? f.funds_checked + ' funds checked' : '13F', 'st-c12');
+    const c = card('Famous funds', Number.isInteger(f.funds_checked) ? plural(f.funds_checked, 'fund checked', 'funds checked') : '13F', 'st-c12');
     const rows = arr(f.rows).map(obj).filter((r) => txt(r.fund, 80));
     const st = holdersStatus(f, 'None of the funds checked held it in their last two reports.');
     if (st && !rows.length) { add(c, st, note(txt(f.note, 300))); return c; }

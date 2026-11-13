@@ -852,7 +852,7 @@ def _date_diff(a, b):
 
 def valuation_block(eps, bars, fred_data, fx_cfg, as_of):
     """Valuation (8.5): trailing P/E from SEC diluted EPS, in dollars."""
-    from stocks.data import fred
+    from stocks.data import fred, sec
 
     eps = eps if isinstance(eps, dict) else {}
     last = bars[-1] if bars else {}
@@ -864,6 +864,12 @@ def valuation_block(eps, bars, fred_data, fx_cfg, as_of):
             "note": eps.get("note")}
     if eps.get("status") != "ok" or eps.get("eps_ttm") is None:
         base["note"] = eps.get("note") or "No earnings per share in the SEC data yet."
+        return base
+    ended = _date_diff(eps.get("latest_end"), as_of)
+    if ended is not None and ended > sec.EPS_MAX_AGE_DAYS.get(eps.get("basis"), sec.EPS_MAX_AGE_DAYS["four_quarters"]):
+        # Earnings that ended years ago (a filer that stopped tagging EPS, kept in a saved cache)
+        # give no P/E: the rule of sec.eps_summary, applied again to the saved summary.
+        base["note"] = sec.STALE_EPS_NOTE
         return base
     ttm = float(eps["eps_ttm"])
     base["eps_ttm"] = ttm
@@ -960,12 +966,19 @@ def congress_block(trades, coverage, days, as_of):
 
 
 def header_block(ticker, ident, bars):
+    """Header (8.1). last_close is the raw close. The day's move comes from the
+    adjusted closes, so a split on the last day is not shown as a crash;
+    prev_close is the previous close on the last close's basis, so change is
+    last_close minus prev_close."""
     ident = ident or {}
     last = bars[-1] if bars else {}
     prev = bars[-2] if len(bars) > 1 else {}
-    lc, pc = round_price(last.get("raw_close")), round_price(prev.get("raw_close"))
-    change = None if lc is None or pc is None else round_price(lc - pc)
-    pct = None if change is None or not pc else round_pct(change / pc * 100.0)
+    lc = round_price(last.get("raw_close"))
+    adj_last, adj_prev = round_price(last.get("close")), round_price(prev.get("close"))
+    ratio = adj_last / adj_prev if adj_last and adj_prev and adj_last > 0 and adj_prev > 0 else None
+    pc = None if lc is None or ratio is None else round_price(lc / ratio)
+    change = None if pc is None else round_price(lc - lc / ratio)
+    pct = None if ratio is None else round_pct((ratio - 1.0) * 100.0)
     return {"ticker": ticker, "name": ident.get("name"), "cik": ident.get("cik"),
             "exchanges": list(ident.get("exchanges") or []), "filer_type": ident.get("filer_type") or "unknown",
             "currency": "USD", "first_date": bars[0]["date"] if bars else None, "last_close": lc,
@@ -1206,7 +1219,9 @@ def phase_analyze(args, deps, red, paths, now):
 
 def apply_assessment(paths, cfg, i, tickers, doc, st, result, identities):
     """Put one ticker's assessment (the model's, checked, or the code's) into
-    its document and its own state, and write both. True when the model wrote it."""
+    its document and its own state, and write both. True when the model wrote
+    it, "levels_from_code" when the model wrote it but its levels failed the
+    checks, False when the code wrote it."""
     from stocks import claude
     from stocks.analysis import learner
 
@@ -1219,11 +1234,13 @@ def apply_assessment(paths, cfg, i, tickers, doc, st, result, identities):
     llm = result["outcome"] == "ok"
     served = result["served_by"] if llm else None
     doc["assessment"] = assessment
-    doc["llm"] = llm
+    doc["llm"] = bool(llm)
     doc["model"] = served
     doc["cost"] = result["cost"]
     if note:
         doc["notes"] = [x for x in doc.get("notes") or [] if x not in claude.UNAVAILABLE.values()] + [note]
+    if llm and assessment.get("levels_source") == "code":
+        llm = "levels_from_code"
     st = learner.attach_assessment(st, st.get("last_as_of") or doc.get("data_as_of"), assessment, lessons, served,
                                    cfg["lessons_cap"], tuple(tickers), names)
     st = learner.trim_state(st, stocks.STATE_MAX_BYTES, insider_days=cfg["insider_days"],
@@ -1266,16 +1283,28 @@ def phase_claude(args, deps, red, paths, now):
             red.warn(f"Could not set up the Claude client ({privacy.error_name(e)}); every ticker keeps its code levels.")
 
     jobs, owners = [], []
+    # A request that cannot be built costs that one answer, never the others.
     if isinstance(overview, dict):
-        jobs.append(claude.overview_job(overview, today, cfg, model))
-        owners.append(None)
-    market = claude.market_inputs(overview or {}, today)
+        try:
+            jobs.append(claude.overview_job(overview, today, cfg, model))
+            owners.append(None)
+        except Exception as e:
+            red.warn(f"The overview request could not be built ({privacy.error_name(e)}); it has no summary today.")
+    try:
+        market = claude.market_inputs(overview or {}, today)
+    except Exception as e:
+        market = {"macro": [], "calendar": []}
+        red.warn(f"The market inputs could not be read ({privacy.error_name(e)}); the tickers are asked without them.")
     for i, t in enumerate(tickers):
         doc, st = docs[i], states[i]
         if not isinstance(doc, dict) or not isinstance(st, dict) or not claude.has_levels(doc):
             continue
-        context = learner.claude_context(st)  # this ticker's own track record and lessons only
-        jobs.append(claude.ticker_job(doc, context, market, cfg, model, f"Assessment {i + 1} of {n}"))
+        try:
+            context = learner.claude_context(st)  # this ticker's own track record and lessons only
+            jobs.append(claude.ticker_job(doc, context, market, cfg, model, f"Assessment {i + 1} of {n}"))
+        except Exception as e:
+            red.warn(f"Ticker {i + 1} of {n} keeps its code levels ({privacy.error_name(e)}).")
+            continue
         owners.append(i)
     if client is not None:
         red.log(f"Asking {model} (effort {cfg['effort']}) for {plural(len(jobs), 'answer')}: "
@@ -1303,6 +1332,8 @@ def phase_claude(args, deps, red, paths, now):
                 red.warn(f"Ticker {i + 1} of {n} keeps its code levels ({privacy.error_name(e)}).")
                 llm = False
             counts["model" if llm else "code"] += 1
+            if llm == "levels_from_code":
+                counts["model_code_levels"] = counts.get("model_code_levels", 0) + 1
         if isinstance(overview, dict):
             overview["run"]["cost_usd"] = round(base_cost + counts["total"], 6)
             overview["run"]["model"] = model
@@ -1322,7 +1353,10 @@ def phase_claude(args, deps, red, paths, now):
     if isinstance(overview, dict):
         overview["run"]["model"] = model
         write_json(paths.overview, overview)
-    red.log(f"Assessments: {counts['model']} written by the model, {counts['code']} with levels from the code.")
+    swapped = counts.get("model_code_levels", 0)
+    red.log(f"Assessments: {counts['model']} written by the model"
+            + (f" ({swapped} of them with levels from the code, since the model's did not pass the checks)" if swapped else "")
+            + f", {counts['code']} from the code alone.")
     run = read_json(paths.run, {}) or {}
     run["cost_usd"] = round(base_cost + counts["total"], 6)
     write_json(paths.run, run)

@@ -147,11 +147,13 @@ def match_candidate(price, cands, atr14):
     return best
 
 
-def fallback_plan(cands, close, atr14):
+def fallback_plan(cands, close, atr14, stance=None):
     """The code's plan from candidates only: entry zone from close minus two
     ATR to close minus one ATR, the nearest level at least one ATR above the
     close as the target (20 days), close minus three ATR as the stop. Empty
-    lists and a null stop when there is no ATR yet (fewer than 14 bars)."""
+    lists and a null stop when there is no ATR yet (fewer than 14 bars).
+    With a bearish stance there is no target: an upside target would
+    contradict the view, so the plan is only a pullback zone to watch and a stop."""
     by_id = {c["id"]: c for c in cands}
     lo, hi, st = by_id.get("atr_m2"), by_id.get("atr_m1"), by_id.get("atr_m3")
     a, c = num(atr14), num(close)
@@ -167,7 +169,7 @@ def fallback_plan(cands, close, atr14):
         if cand["price"] >= c + a:
             eligible.append(cand)
     targets = []
-    if eligible:
+    if eligible and stance != "bearish":
         t = min(eligible, key=lambda x: (x["price"], x["id"]))
         targets.append({"price": t["price"], "horizon_days": 20, "rationale": RATIONALE_TARGET, "ref": t["id"]})
     return {

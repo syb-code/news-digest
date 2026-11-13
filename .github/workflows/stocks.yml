@@ -34,7 +34,8 @@ run-name: Stocks (${{ inputs.reason }})
 #             (public PDFs) with pypdf, the one third-party package here
 #             (requirements-stocks.lock, wheels only), and uploads every
 #             member's trades as the artifact stocks-congress. It is public
-#             data and holds no tracked ticker: the filtering happens in the
+#             data and holds all of them, so it can include tracked tickers,
+#             but it is never filtered to them: the filtering happens in the
 #             private job. The private job checks the artifact before use.
 #   analyze   the "digest" environment. One step per phase of
 #             scripts/stocks/run.py, each with only the secrets it needs:
