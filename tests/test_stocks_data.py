@@ -463,7 +463,7 @@ class SecIdentityTest(unittest.TestCase):
     def test_company_tickers(self):
         m = ticker_map()
         self.assertEqual(len(m), 24)
-        self.assertEqual(m["AAPL"], {"cik": 320193, "name": "Apple Inc.", "classes": 1})
+        self.assertEqual(m["AAPL"], {"cik": 320193, "name": "Apple Inc.", "classes": 1, "key_ciks": 1})
         self.assertEqual(m["GOOGL"]["classes"], 2)
         self.assertIn("BRK-B", m)
         with self.assertRaises(ValueError):
@@ -480,7 +480,7 @@ class SecIdentityTest(unittest.TestCase):
         ident = sec.identity("aapl", m, fj("sec_submissions_aapl.json"), cusips=["037833100", "bad", "037833100"])
         self.assertEqual(ident, {"ticker": "AAPL", "cik": 320193, "name": "Apple Inc.", "filer_type": "domestic",
                                  "exchanges": ["Nasdaq"], "cusips": ["037833100"], "finra_symbol": "AAPL",
-                                 "issuer_key": "APPLE", "classes": 1})
+                                 "issuer_key": "APPLE", "classes": 1, "key_ciks": 1})
         brk = sec.identity("BRK.B", m, None)
         self.assertEqual((brk["ticker"], brk["finra_symbol"], brk["filer_type"], brk["classes"]),
                          ("BRK-B", "BRK/B", "unknown", 2))
@@ -636,7 +636,8 @@ class SecForm4Test(unittest.TestCase):
             "code": "S", "code_label": "Open market or private sale", "acquired_disposed": "D", "shares": 151.0,
             "price": 343.08, "value": 51805.08, "shares_after": 39417.0, "ownership": "D", "nature": None,
             "plan_10b5_1": True, "derivative": False, "security": "Common Stock",
-            "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/form4.xml"})
+            "url": "https://www.sec.gov/Archives/edgar/data/320193/000114036126040127/form4.xml",
+            "period": "2026-10-15", "amends": None})
         self.assertEqual(tx[7]["security"], "Restricted Stock Unit")
         self.assertIsNone(tx[7]["price"])
 
@@ -1686,6 +1687,212 @@ class ConventionsTest(unittest.TestCase):
                     self.assertTrue(m in stdlib or m in ("stocks",) or m in allowed_third_party, f"{name}: {m}")
                     if m == "pypdf":
                         self.assertEqual(name, "congress.py")
+
+
+# ================================================================ review fixes
+
+def _form4_xml(doc_type, owner_cik, period, shares, original=None):
+    orig = f"<dateOfOriginalSubmission>{original}</dateOfOriginalSubmission>" if original else ""
+    return f"""<?xml version="1.0"?><ownershipDocument><documentType>{doc_type}</documentType>
+    <periodOfReport>{period}</periodOfReport>{orig}
+    <reportingOwner><reportingOwnerId><rptOwnerCik>{owner_cik}</rptOwnerCik><rptOwnerName>Example Owner B</rptOwnerName>
+    </reportingOwnerId><reportingOwnerRelationship><isDirector>1</isDirector></reportingOwnerRelationship></reportingOwner>
+    <nonDerivativeTable><nonDerivativeTransaction><securityTitle><value>Common Stock</value></securityTitle>
+    <transactionDate><value>{period}</value></transactionDate><transactionCoding><transactionCode>A</transactionCode>
+    </transactionCoding><transactionAmounts><transactionShares><value>{shares}</value></transactionShares>
+    <transactionPricePerShare><value>0</value></transactionPricePerShare>
+    <transactionAcquiredDisposedCode><value>A</value></transactionAcquiredDisposedCode></transactionAmounts>
+    <postTransactionAmounts><sharesOwnedFollowingTransaction><value>{shares}</value></sharesOwnedFollowingTransaction>
+    </postTransactionAmounts><ownershipNature><directOrIndirectOwnership><value>D</value></directOrIndirectOwnership>
+    </ownershipNature></nonDerivativeTransaction></nonDerivativeTable></ownershipDocument>""".encode("utf-8")
+
+
+class ReviewFixesDataTest(unittest.TestCase):
+    """Defects found in review of the data layer, each with its fix."""
+
+    def test_sec_spacing_holds_across_threads(self):
+        import threading
+        import time as _time
+        from concurrent.futures import ThreadPoolExecutor
+
+        stamps, lock = [], threading.Lock()
+
+        def transport(method, url, headers, body, timeout):
+            with lock:
+                stamps.append(_time.monotonic())
+            _time.sleep(0.01)  # server latency
+            return 200, {}, b"{}"
+
+        http = HttpClient(UA, transport=transport, sec_interval=0.05)
+
+        def work(_):
+            for _ in range(6):
+                http.get("https://data.sec.gov/submissions/CIK0000000001.json")
+
+        with ThreadPoolExecutor(3) as pool:
+            list(pool.map(work, range(3)))
+        stamps.sort()
+        gaps = [b - a for a, b in zip(stamps, stamps[1:])]
+        self.assertEqual(len(stamps), 18)
+        self.assertEqual(http.requests, 18)
+        self.assertGreaterEqual(min(gaps), 0.045)
+
+    def test_a_redirect_to_another_host_drops_the_key(self):
+        import email.message
+        import urllib.request
+        from stocks.data import _NoRedirectAcrossSchemes
+
+        req = urllib.request.Request("https://api.tiingo.com/tiingo/daily/EXMPL/prices",
+                                     headers={"Authorization": "Token SECRET", "User-Agent": UA})
+        h = _NoRedirectAcrossSchemes()
+        away = h.redirect_request(req, io.BytesIO(b""), 302, "Found", email.message.Message(),
+                                  "https://elsewhere.example.net/x")
+        self.assertNotIn("SECRET", json.dumps(dict(away.header_items())))
+        self.assertEqual(dict(away.header_items()).get("User-agent"), UA)
+        same = h.redirect_request(req, io.BytesIO(b""), 302, "Found", email.message.Message(),
+                                  "https://api.tiingo.com/tiingo/daily/EXMPL/prices?x=1")
+        self.assertIn("SECRET", json.dumps(dict(same.header_items())))
+
+    def test_an_unexpected_transport_error_never_carries_its_message(self):
+        def transport(method, url, headers, body, timeout):
+            raise ValueError("Invalid header value b'Token SECRET\\n'")
+
+        http = HttpClient(UA, transport=transport)
+        with self.assertRaises(FetchError) as e:
+            http.get("https://api.tiingo.com/tiingo/daily/EXMPL/prices")
+        self.assertEqual(e.exception.reason, "request could not be sent")
+        self.assertTrue(e.exception.__suppress_context__)
+        self.assertNotIn("SECRET", str(e.exception))
+        http2, t, _ = client({})
+        with self.assertRaises(prices.PriceError) as e2:
+            prices.fetch_bars(http2, "EXMPL", "secret\nkey", date(2026, 1, 1))
+        self.assertEqual(e2.exception.kind, "auth")
+        self.assertEqual(t.calls, [])
+        self.assertNotIn("secret", str(e2.exception))
+
+    @staticmethod
+    def _quarters(year, value):
+        return [{"start": f"{year}-01-01", "end": f"{year}-03-31", "val": value, "form": "10-Q", "filed": f"{year}-05-01"},
+                {"start": f"{year}-04-01", "end": f"{year}-06-30", "val": value, "form": "10-Q", "filed": f"{year}-08-01"},
+                {"start": f"{year}-07-01", "end": f"{year}-09-30", "val": value, "form": "10-Q", "filed": f"{year}-11-01"},
+                {"start": f"{year}-10-01", "end": f"{year}-12-31", "val": value, "form": "10-K",
+                 "filed": f"{year + 1}-02-01"}]
+
+    def test_eps_uses_the_concept_that_ends_latest(self):
+        old, new = self._quarters(2021, 1.0), self._quarters(2025, 0.5)
+        facts = {"facts": {"us-gaap": {
+            "EarningsPerShareBasicAndDiluted": {"units": {"USD/shares": old}},
+            "EarningsPerShareBasic": {"units": {"USD/shares": new}}}}}
+        e = sec.eps_summary(facts, today=date(2026, 11, 13))
+        self.assertEqual((e["concept"], e["eps_ttm"], e["latest_end"]),
+                         ("us-gaap:EarningsPerShareBasic", 2.0, "2025-12-31"))
+        # The same unit preference: an old USD unit loses to a current EUR one.
+        units = {"facts": {"ifrs-full": {"DilutedEarningsLossPerShare": {"units": {
+            "USD/shares": self._quarters(2021, 1.0), "EUR/shares": self._quarters(2025, 0.25)}}}}}
+        e = sec.eps_summary(units)
+        self.assertEqual((e["unit"], e["eps_ttm"]), ("EUR/shares", 1.0))
+        # A tie goes to the contract order (diluted first, USD first).
+        tie = {"facts": {"us-gaap": {"EarningsPerShareDiluted": {"units": {"USD/shares": new}},
+                                     "EarningsPerShareBasic": {"units": {"USD/shares": self._quarters(2025, 0.6)}}}}}
+        self.assertEqual(sec.eps_summary(tie)["concept"], "us-gaap:EarningsPerShareDiluted")
+
+    def test_eps_too_old_to_use(self):
+        facts = {"facts": {"us-gaap": {"EarningsPerShareDiluted": {"units": {"USD/shares": self._quarters(2021, 1.0)}}}}}
+        self.assertEqual(sec.eps_summary(facts)["status"], "ok")               # without a date, as before
+        e = sec.eps_summary(facts, today=date(2026, 11, 13))
+        self.assertEqual((e["status"], e["note"]), ("not_available", sec.STALE_EPS_NOTE))
+        self.assertEqual(sec.eps_summary(facts, today=date(2022, 6, 1))["status"], "ok")
+
+    def test_a_name_shared_by_two_companies_is_matched_only_by_cusip(self):
+        m = sec.parse_company_tickers({
+            "0": {"cik_str": 27419, "ticker": "TGT", "title": "TARGET CORP"},
+            "1": {"cik_str": 1000001, "ticker": "EXMPL", "title": "Target Group Inc."},
+            "2": {"cik_str": 320193, "ticker": "AAPL", "title": "Apple Inc."}})
+        self.assertEqual((m["TGT"]["key_ciks"], m["EXMPL"]["key_ciks"], m["AAPL"]["key_ciks"]), (2, 2, 1))
+        table = {"holdings": {"87612E106": {"cusip": "87612E106", "name": "TARGET CORP", "title": "COM",
+                                            "shares": 10.0, "value_usd": 1000.0, "rows": 1}}}
+        ident = sec.identity("EXMPL", m, None)
+        self.assertEqual(sec.match_holding_detail(table, ident), (None, sec.SHARED_KEY_NOTE))
+        pick = {"cik": 1, "period": "2026-06-30", "accession": "0001193125-26-352200", "form": "13F-HR",
+                "filed": "2026-08-14", "merge": []}
+        entry, cusip, _ = sec.period_entry(table, ident, pick)
+        self.assertEqual((entry["shares"], cusip), (0.0, None))              # no CUSIP is learned from a guess
+        tgt = dict(sec.identity("TGT", m, None), cusips=["87612E106"])
+        self.assertEqual(sec.match_holding(table, tgt)["shares"], 10.0)      # by CUSIP
+        self.assertEqual(sec.match_holding(table, ident, {"EXMPL": {"names": ["TARGET CORP"]}})["shares"], 10.0)
+        self.assertIsNone(sec.identity("AAPL", {}, None)["key_ciks"])        # no map: a name match is not safe
+        self.assertIsNone(sec.match_holding(q2(), dict(sec.identity("ALLY", {}, None), name="Ally Financial Inc.",
+                                                       issuer_key="ALLY FINANCIAL")))
+
+    def test_a_renamed_issuer_is_compared_by_cusip(self):
+        p1 = {"cik": 1067983, "period": "2026-03-31", "accession": "0001193125-26-200000", "form": "13F-HR",
+              "filed": "2026-05-15", "merge": []}
+        p2 = {"cik": 1067983, "period": "2026-06-30", "accession": "0001193125-26-352200", "form": "13F-HR",
+              "filed": "2026-08-14", "merge": []}
+        funds = [{"name": "Berkshire Hathaway", "cik": 1067983}]
+        tables = {p1["period"]: q1(), p2["period"]: q2()}
+        for ticker, want in (("BAC", "trimmed"), ("CB", "unchanged")):
+            # An earlier run read the older quarter first: the old name did not match.
+            ident = sec.identity(ticker, ticker_map(), None)
+            periods = {}
+            for pick in (p1, p2):
+                entry, cusip, _ = sec.period_entry(tables[pick["period"]], ident, pick)
+                periods[pick["period"]] = entry
+                if cusip and cusip not in ident["cusips"]:
+                    ident["cusips"].append(cusip)
+            self.assertEqual(periods[p1["period"]]["shares"], 0.0)
+            # The CUSIP learned from the new name asks for the old quarter again.
+            again = sec.periods_to_read(periods, [p2, p1], sec.known_cusips(ident))
+            self.assertEqual(again, [p1])
+            self.assertEqual(sec.periods_to_read(periods, [p2, p1]), [])      # without CUSIPs: as before
+            entry, _, _ = sec.period_entry(tables[p1["period"]], ident, p1)
+            periods[p1["period"]] = entry
+            self.assertEqual(sec.periods_to_read(periods, [p2, p1], sec.known_cusips(ident)), [])
+            rows, checked = sec.ticker_fund_rows(funds, {"1067983": {"periods": periods}}, {1067983: [p2, p1]})
+            self.assertEqual((checked, rows[0]["change"]), (1, want))
+
+    def test_an_amendment_replaces_the_original_form4(self):
+        ref4 = {"cik": 1000001, "accession": "0001000001-26-000001", "form": "4", "filed": "2026-09-11",
+                "report_date": "2026-09-09", "document": "form4.xml"}
+        ref4a = {"cik": 1000001, "accession": "0001000001-26-000002", "form": "4/A", "filed": "2026-10-13",
+                 "report_date": "2026-09-09", "document": "form4.xml"}
+        orig = sec.parse_form4(_form4_xml("4", "0000000007", "2026-09-09", 172507), ref4)
+        amend = sec.parse_form4(_form4_xml("4/A", "0000000007", "2026-09-09", 160418, "2026-09-11"), ref4a)
+        other = sec.parse_form4(_form4_xml("4", "0000000008", "2026-09-09", 5), dict(ref4, accession="0001000001-26-000003"))
+        self.assertEqual((amend[0]["amends"], amend[0]["period"], orig[0]["amends"]), ("2026-09-11", "2026-09-09", None))
+        kept = sec.drop_amended(orig + amend + other)
+        self.assertEqual(sorted(t["shares"] for t in kept), [5.0, 160418.0])
+        # The original is already cached from an earlier run, the amendment is new.
+        subs = {"cik": 1000001, "filings": {"recent": {
+            "accessionNumber": [ref4a["accession"], ref4["accession"]], "filingDate": ["2026-10-13", "2026-09-11"],
+            "reportDate": ["2026-09-09", "2026-09-09"], "form": ["4/A", "4"],
+            "primaryDocument": ["xslF345X05/form4.xml", "xslF345X05/form4.xml"]}}}
+        url = sec.form4_url(ref4a)
+        http, _, _ = client({url: ok(_form4_xml("4/A", "0000000007", "2026-09-09", 160418, "2026-09-11"))})
+        out = sec.insider_transactions(http, subs, date(2025, 11, 13),
+                                       cached={"seen": {ref4["accession"]: "2026-09-11"}, "transactions": orig})
+        self.assertEqual([t["shares"] for t in out["transactions"]], [160418.0])
+
+    def test_insider_reads_stop_on_a_403_from_sec(self):
+        subs = {"cik": 1000001, "filings": {"recent": {
+            "accessionNumber": [f"0001000001-26-00000{i}" for i in range(1, 6)],
+            "filingDate": ["2026-10-0" + str(i) for i in range(5, 0, -1)], "reportDate": [""] * 5,
+            "form": ["4"] * 5, "primaryDocument": ["form4.xml"] * 5}}}
+        t = FakeTransport({})
+        t.routes = {sec.form4_url({"cik": 1000001, "accession": f"0001000001-26-00000{i}", "document": "form4.xml"}):
+                    ok(b"denied", status=403) for i in range(1, 6)}
+        c = Clock()
+        http = HttpClient(UA, transport=t, sleep=c.sleep, clock=c)
+        out = sec.insider_transactions(http, subs, date(2025, 11, 13))
+        self.assertEqual((len(t.calls), out["failed"], out["skipped"], out["status"]), (1, 1, 4, "partial"))
+
+    def test_short_interest_symbol_never_spells_another_company(self):
+        for raw, want in (("AAPL", "AAPL"), ("BRK-B", "BRKB"), ("BRK/B", "BRKB"), ("BF.B", "BFB"),
+                          ("T-PC", None), ("NE-WT", None), ("BC-PC", None)):
+            self.assertEqual(finra.si_symbol(raw), want, raw)
+        http, t, _ = client({})
+        self.assertEqual(finra.short_interest(http, "T-PC", date(2026, 1, 1), date(2026, 11, 12)), [])
+        self.assertEqual(t.calls, [])
 
 
 if __name__ == "__main__":

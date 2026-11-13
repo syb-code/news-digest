@@ -15,6 +15,7 @@ HTTP) or ValueError (bad data); the caller decides what to log.
 import http.client
 import json
 import socket
+import threading
 import time
 import urllib.error
 import urllib.parse
@@ -93,13 +94,28 @@ def _decompress_raw_deflate(raw, max_bytes):
     return out + d.flush()
 
 
+_SECRET_HEADERS = ("authorization", "cookie", "proxy-authorization")
+
+
 class _NoRedirectAcrossSchemes(urllib.request.HTTPRedirectHandler):
-    """Follows redirects only to https URLs."""
+    """Follows redirects only to https URLs, and never carries a credential
+    header to another host (urllib copies every header to the new request)."""
 
     def redirect_request(self, req, fp, code, msg, headers, newurl):
-        if urllib.parse.urlsplit(newurl).scheme != "https":
+        target = urllib.parse.urlsplit(newurl)
+        if target.scheme != "https":
             raise urllib.error.HTTPError(req.full_url, code, "redirect refused", headers, fp)
-        return super().redirect_request(req, fp, code, msg, headers, newurl)
+        new = super().redirect_request(req, fp, code, msg, headers, newurl)
+        if new is not None:
+            old_host = (urllib.parse.urlsplit(req.full_url).hostname or "").lower()
+            if (target.hostname or "").lower() != old_host:
+                for name in list(new.headers):
+                    if name.lower() in _SECRET_HEADERS:
+                        del new.headers[name]
+                for name in list(new.unredirected_hdrs):
+                    if name.lower() in _SECRET_HEADERS:
+                        del new.unredirected_hdrs[name]
+        return new
 
 
 def urllib_transport(max_bytes=40_000_000, clock=time.monotonic):
@@ -170,6 +186,7 @@ class HttpClient:
         self._started = clock()
         self.budget = None if budget is None else float(budget)
         self._last_sec = None
+        self._lock = threading.Lock()  # one client is shared by the fetch threads
         self._cache = {}
         self._cache_bytes = 0
         self._cache_cap = int(cache_bytes)
@@ -196,12 +213,17 @@ class HttpClient:
     def get(self, url, *, headers=None, allow=(), cache=False):
         """GET url. cache=True keeps a 2xx answer in memory for the rest of the
         run (the same URL is not requested twice)."""
-        if cache and url in self._cache:
-            return self._cache[url]
+        if cache:
+            with self._lock:
+                hit = self._cache.get(url)
+            if hit is not None:
+                return hit
         resp = self._request("GET", url, headers, None, allow)
-        if cache and 200 <= resp.status < 300 and self._cache_bytes + len(resp.body) <= self._cache_cap:
-            self._cache[url] = resp
-            self._cache_bytes += len(resp.body)
+        if cache and 200 <= resp.status < 300:
+            with self._lock:
+                if url not in self._cache and self._cache_bytes + len(resp.body) <= self._cache_cap:
+                    self._cache[url] = resp
+                    self._cache_bytes += len(resp.body)
         return resp
 
     def post_json(self, url, payload, *, headers=None, allow=()):
@@ -211,14 +233,24 @@ class HttpClient:
         return self._request("POST", url, h, body, allow)
 
     def _space_sec(self, host):
+        """Waits for this request's slot to an SEC host. The slot is reserved
+        under a lock, so threads sharing the client stay sec_interval apart."""
         if host not in SEC_HOSTS or self.sec_interval <= 0:
             return
-        now = self._clock()
-        if self._last_sec is not None:
-            wait = self._last_sec + self.sec_interval - now
-            if wait > 0:
-                self._sleep(wait)
-        self._last_sec = self._clock()
+        with self._lock:
+            now = self._clock()
+            slot = now if self._last_sec is None else max(now, self._last_sec + self.sec_interval)
+            self._last_sec = slot
+        wait = slot - now
+        if wait > 0:
+            self._sleep(wait)
+
+    def _count(self, failed=False):
+        with self._lock:
+            if failed:
+                self.failures += 1
+            else:
+                self.requests += 1
 
     def _request(self, method, url, headers, body, allow):
         parts = urllib.parse.urlsplit(str(url))
@@ -240,25 +272,30 @@ class HttpClient:
                 raise FetchError("time budget used up")
             timeout = self.timeout if left is None else max(1.0, min(self.timeout, left))
             self._space_sec(host)
-            self.requests += 1
+            self._count()
             try:
                 status, rheaders, raw = self._transport(method, url, send, body, timeout)
             except FetchError:
-                self.failures += 1
+                self._count(failed=True)
                 raise
             except _CONNECTION_ERRORS:
-                self.failures += 1
+                self._count(failed=True)
                 if server_retries > 0 and not self.out_of_time(RETRY_WAIT):
                     server_retries -= 1
                     self._sleep(RETRY_WAIT)
                     continue
                 raise FetchError("connection error") from None
+            except Exception:
+                # Anything else (http.client's ValueError for a header value, for
+                # one) can quote a header in its message: a key must not escape.
+                self._count(failed=True)
+                raise FetchError("request could not be sent") from None
             rheaders = {str(k).lower(): str(v) for k, v in (rheaders or {}).items()}
             status = int(status)
             if 200 <= status < 300 or status in allow:
                 data = _decompress(raw or b"", rheaders.get("content-encoding"), self.max_bytes)
                 return Response(status, rheaders, data)
-            self.failures += 1
+            self._count(failed=True)
             if status == 429:
                 if rate_retries > 0:
                     wait = _retry_after(rheaders.get("retry-after"))

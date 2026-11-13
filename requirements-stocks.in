@@ -1,0 +1,14 @@
+# Packages for the congress job of .github/workflows/stocks.yml only: it reads
+# the House periodic transaction reports (public PDFs) with pypdf, with no
+# secret and no other package. The private analyze job of the same workflow
+# installs requirements-brief.lock (the Anthropic SDK and PyYAML); the stock
+# analysis itself (scripts/stocks/) uses the standard library only.
+#
+# 6.9.2 was published on 2026-03-23; 7.0.0 and 7.0.1 (November 2026) are too
+# new to pin.
+#
+# Regenerate with Python 3.12 and pip-tools:
+#   pip-compile --generate-hashes --allow-unsafe -o requirements-stocks.lock requirements-stocks.in
+# and install with:
+#   pip install --require-hashes --only-binary :all: -r requirements-stocks.lock
+pypdf==6.9.2

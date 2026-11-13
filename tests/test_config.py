@@ -176,5 +176,78 @@ class LoadConfigTests(unittest.TestCase):
         self.assert_rejected("feeds: [\n", "could not be read")
 
 
+
+class StocksSectionTests(unittest.TestCase):
+    """The stocks section (contract 14): defaults, the model allowlist, and the
+    rule that the ticker list never lives in config.yml."""
+
+    setUp = LoadConfigTests.setUp
+    load = LoadConfigTests.load
+    assert_rejected = LoadConfigTests.assert_rejected
+
+    def stocks(self, text):
+        return self.load(text)["stocks"]
+
+    def test_the_committed_section_matches_the_defaults(self):
+        committed = config.load_config(check=("stocks",))["stocks"]
+        self.assertEqual(committed, config.DEFAULTS["stocks"])
+        import stocks
+
+        self.assertEqual(tuple(committed["models"]), stocks.ALLOWED_MODELS)
+        self.assertEqual(committed["model"], stocks.DEFAULT_MODEL)
+        self.assertEqual(committed["models"]["claude-sonnet-5-5"],
+                         {"input": 2.0, "output": 10.0, "cache_read": 0.1, "fallbacks": "default"})
+        self.assertEqual(committed["models"]["claude-opus-5-5"],
+                         {"input": 4.0, "output": 20.0, "cache_read": 0.2, "fallbacks": "default"})
+        self.assertEqual(committed["models"]["claude-haiku-5-5"],
+                         {"input": 0.1, "output": 0.5, "cache_read": 0.01, "fallbacks": "none"})
+        self.assertEqual(len(committed["funds"]), 16)
+        self.assertEqual(len({f["cik"] for f in committed["funds"]}), 16)
+        self.assertEqual([m["id"] for m in committed["macro"]][:3], ["fed_funds", "dgs2", "dgs10"])
+
+    def test_a_partial_section_is_completed(self):
+        cfg = self.stocks("stocks:\n  effort: high\n  models:\n    claude-opus-5-5: {input: 5}\n")
+        self.assertEqual(cfg["effort"], "high")
+        self.assertEqual(cfg["models"]["claude-opus-5-5"]["input"], 5.0)
+        self.assertEqual(cfg["models"]["claude-opus-5-5"]["output"], 20.0)
+        self.assertEqual(cfg["max_run_usd"], 3.0)
+
+    def test_haiku_never_gets_fallbacks(self):
+        cfg = self.stocks("stocks:\n  models:\n    claude-haiku-5-5: {fallbacks: default}\n")
+        self.assertEqual(cfg["models"]["claude-haiku-5-5"]["fallbacks"], "none")
+
+    def test_the_ticker_list_is_refused_anywhere_in_the_section(self):
+        for text in ("stocks:\n  tickers: [EXMPL]\n", "stocks:\n  trading_days:\n    tickers: []\n",
+                     "stocks:\n  funds:\n    - {name: A, cik: 1, tickers: [EXMPL]}\n"):
+            with self.subTest(text=text):
+                self.assert_rejected(text, "The ticker list is private: keep it in the Worker, not in config.yml.")
+
+    def test_bad_values_name_the_key(self):
+        cases = [
+            ("stocks:\n  model: claude-fable-5-2\n", "stocks.model"),
+            ("stocks:\n  models:\n    claude-fable-5-2: {input: 1, output: 1, cache_read: 1}\n", "stocks.models"),
+            ("stocks:\n  models:\n    claude-opus-5-5: {fallbacks: sometimes}\n", "fallbacks"),
+            ("stocks:\n  models:\n    claude-opus-5-5: {output: -1}\n", "stocks.models.claude-opus-5-5.output"),
+            ("stocks:\n  effort: extreme\n", "stocks.effort"),
+            ("stocks:\n  max_output_tokens: 0\n", "stocks.max_output_tokens"),
+            ("stocks:\n  parallel_requests: true\n", "stocks.parallel_requests"),
+            ("stocks:\n  max_run_usd: -1\n", "stocks.max_run_usd"),
+            ("stocks:\n  horizons: [5, 5]\n", "stocks.horizons"),
+            ("stocks:\n  horizons: [0]\n", "stocks.horizons"),
+            ("stocks:\n  horizons: []\n", "stocks.horizons"),
+            ("stocks:\n  funds: [{name: A, cik: 1}, {name: B, cik: 1}]\n", "twice"),
+            ("stocks:\n  funds: [{name: A, cik: x}]\n", "stocks.funds[0].cik"),
+            ("stocks:\n  macro: [{id: x, label: X, series: [bad id], transform: level}]\n", "stocks.macro.x.series"),
+            ("stocks:\n  macro: [{id: x, label: X, series: [DGS10], transform: cube}]\n", "transform"),
+            ("stocks:\n  macro: [{id: x, label: X, series: [DGS10], transform: range}]\n", "two series"),
+            ("stocks:\n  fx:\n    EUR: {series: DEXUSEU, quote: sideways}\n", "stocks.fx.EUR.quote"),
+            ("stocks:\n  fx:\n    euro: {series: DEXUSEU, quote: usd_per_unit}\n", "currency codes"),
+            ("stocks:\n  trading_days:\n    data_ready: '25:00'\n", "stocks.trading_days.data_ready"),
+        ]
+        for text, key in cases:
+            with self.subTest(text=text):
+                self.assert_rejected(text, key)
+
+
 if __name__ == "__main__":
     unittest.main()

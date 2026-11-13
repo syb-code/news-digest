@@ -34,8 +34,9 @@ anthropic is imported inside functions only, so this module loads without it.
 import json
 import re
 import threading
+import time
 from concurrent.futures import ThreadPoolExecutor
-from datetime import date, timedelta
+from datetime import timedelta
 
 import stocks
 from stocks import ALLOWED_MODELS, DEFAULT_MODEL, FALLBACK_MODELS, plain, round_price
@@ -86,6 +87,8 @@ UNAVAILABLE = {
     "api_error": "The assessment is unavailable today: the Claude API did not answer.",
     "invalid": "The assessment is unavailable today: the answer did not pass the checks.",
     "no_levels": "The assessment is unavailable today: there are not enough prices for levels yet.",
+    "too_large": "The assessment is unavailable today: the data was too large to send.",
+    "out_of_time": "The assessment is unavailable today: the run ran out of time before asking.",
 }
 
 SYSTEM_TICKER = """You write a daily assessment of one stock for one private investor, who reads it before the US market opens.
@@ -728,17 +731,24 @@ def _read_answer(message, validate):
     raise InvalidOutput("no answer text passed the checks")
 
 
-def run_job(client, job, cfg, cap, stop_flag, budget_seconds=None):
+def run_job(client, job, cfg, cap, stop_flag, budget_seconds=None, deadline=None, clock=time.monotonic):
     """One call. job: {"label", "request", "validate"}. Returns {"outcome":
     "ok" | "spend_cap" | "auth" | "refusal" | "max_tokens" | "stopped" |
-    "too_slow" | "api_error" | "invalid" | "skipped", "value", "cost",
-    "served_by", "note"}; never raises for an API problem."""
+    "too_slow" | "api_error" | "invalid" | "out_of_time" | "skipped",
+    "value", "cost", "served_by", "note"}; never raises for an API problem.
+    With deadline (a clock() time), a call that could not finish before it
+    (its budget is longer than the time left) is not sent."""
     request = job["request"]
     out = {"outcome": "skipped", "value": None, "cost": empty_cost(), "served_by": None, "note": None,
            "stop_reason": None}
     if stop_flag.is_set():
         out["note"] = "skipped because the API key was refused"
         out["outcome"] = "auth"
+        return out
+    budget = CALL_BUDGET_SECONDS if budget_seconds is None else budget_seconds
+    if deadline is not None and deadline - clock() < budget:
+        out["outcome"] = "out_of_time"
+        out["note"] = "not sent, the step was running out of time"
         return out
     amount = reservation_usd(request, cfg)
     if not cap.reserve(amount):
@@ -783,17 +793,21 @@ def run_job(client, job, cfg, cap, stop_flag, budget_seconds=None):
     return out
 
 
-def run_jobs(client, jobs, cfg, log=stocks.log, budget_seconds=None):
+def run_jobs(client, jobs, cfg, log=stocks.log, budget_seconds=None, on_result=None, deadline=None,
+             clock=time.monotonic):
     """Every job through a pool of cfg["parallel_requests"] threads, in the
     order given (the overview first, then the tickers in config order).
     Returns (results in job order, SpendCap). Logs one line per job, then
-    the spend line, without any ticker."""
+    the spend line, without any ticker. on_result(index, result) runs as
+    each call ends (one at a time), so a result is kept even when the step
+    is stopped before the last call ends."""
     cap = SpendCap(cfg["max_run_usd"])
     stop_flag = threading.Event()
     lock = threading.Lock()
 
-    def one(job):
-        result = run_job(client, job, cfg, cap, stop_flag, budget_seconds)
+    def one(indexed):
+        index, job = indexed
+        result = run_job(client, job, cfg, cap, stop_flag, budget_seconds, deadline, clock)
         c = result["cost"]
         if result["served_by"]:
             line = (f"{job['label']}: {result['served_by']}, {result['stop_reason']}, {c['input_tokens']:,} in, "
@@ -807,11 +821,91 @@ def run_jobs(client, jobs, cfg, log=stocks.log, budget_seconds=None):
             line = f"{job['label']}: {result['note']}."
         with lock:
             log(line)
+            if on_result is not None:
+                on_result(index, result)
         return result
 
     workers = max(1, min(int(cfg.get("parallel_requests") or 1), len(jobs) or 1))
     with ThreadPoolExecutor(max_workers=workers, thread_name_prefix="claude") as pool:
-        results = list(pool.map(one, jobs))
+        results = list(pool.map(one, list(enumerate(jobs))))
     slow = sum(1 for r in results if r["outcome"] == "too_slow")
+    skipped = sum(1 for j, r in zip(jobs, results) if r["outcome"] == "spend_cap" and j.get("kind") == "ticker")
+    if skipped:
+        log(f"Spend cap reached: {skipped} ticker{'s' if skipped != 1 else ''} got code levels only.")
+    late = sum(1 for j, r in zip(jobs, results) if r["outcome"] == "out_of_time" and j.get("kind") == "ticker")
+    if late:
+        log(f"Out of time: {late} ticker{'s' if late != 1 else ''} got code levels only.")
     log(cap.line(slow))
     return results, cap
+
+
+# ---------------------------------------------------------------- jobs and their results
+
+def overview_job(overview, today, cfg, model):
+    """The overview call (10.5): market data only, never a ticker."""
+    text, payload = overview_message(overview, today, cfg["max_input_chars"])
+    request = build_request(cfg, model, SYSTEM_OVERVIEW, text, overview_schema(payload),
+                            cfg["overview_max_output_tokens"])
+    return {"kind": "overview", "label": "Overview", "request": request, "too_large": len(text) > cfg["max_input_chars"],
+            "validate": lambda data: validate_overview_answer(data, payload)}
+
+
+def ticker_job(doc, learner_context, market, cfg, model, label):
+    """One ticker's call (10.2 to 10.4), built from that ticker's document and
+    learner context and the shared market inputs only."""
+    text, cuts = ticker_message(doc, learner_context, market, cfg["max_input_chars"])
+    request = build_request(cfg, model, SYSTEM_TICKER, text, TICKER_SCHEMA, cfg["max_output_tokens"])
+    return {"kind": "ticker", "label": label, "request": request, "cuts": cuts,
+            "too_large": len(text) > cfg["max_input_chars"],
+            "validate": lambda data: validate_ticker_answer(data, doc)}
+
+
+def has_levels(doc):
+    cands, close, _ = doc_levels(doc or {})
+    return bool(cands) and close is not None
+
+
+def unavailable_result(outcome):
+    """A result for a call that was never sent."""
+    notes = {"no_key": "no Claude key is set", "too_large": "the data was too large to send",
+             "no_levels": "there are not enough prices for levels yet", "auth": "the API key was refused"}
+    return {"outcome": outcome, "value": None, "cost": empty_cost(), "served_by": None,
+            "note": notes.get(outcome, "not sent"), "stop_reason": None}
+
+
+def run_all(client, jobs, cfg, log=stocks.log, budget_seconds=None, on_result=None, deadline=None,
+            clock=time.monotonic):
+    """run_jobs for the jobs that can be sent; a job marked too_large is not
+    sent. With no client (no key), nothing is sent. Results in job order;
+    on_result(job index, result) runs for every job as its result is known."""
+    results = [None] * len(jobs)
+    send = []
+    for i, job in enumerate(jobs):
+        if client is None:
+            results[i] = unavailable_result("no_key")
+        elif job.get("too_large"):
+            results[i] = unavailable_result("too_large")
+            log(f"{job['label']}: not sent, the data was too large.")
+        else:
+            send.append(i)
+    if on_result is not None:
+        for i, r in enumerate(results):
+            if r is not None:
+                on_result(i, r)
+    cap = SpendCap(cfg["max_run_usd"])
+    if send:
+        relay = None if on_result is None else (lambda k, r: on_result(send[k], r))
+        sent, cap = run_jobs(client, [jobs[i] for i in send], cfg, log, budget_seconds, relay, deadline, clock)
+        for i, r in zip(send, sent):
+            results[i] = r
+    return results, cap
+
+
+def assessment_from(doc, result):
+    """(assessment, note) for a ticker document: the validated answer, or the
+    code assessment with a plain "unavailable today" note."""
+    if result and result.get("outcome") == "ok" and isinstance(result.get("value"), dict):
+        return result["value"], None
+    outcome = (result or {}).get("outcome") or "api_error"
+    note = UNAVAILABLE.get(outcome, UNAVAILABLE["api_error"])
+    return code_assessment(doc, [note]), note

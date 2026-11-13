@@ -425,16 +425,34 @@ class DailyUpdateTest(unittest.TestCase):
         self.assertEqual(graded["scorecard"]["assessments"],
                          {"n": 1, "stance_hit_rate": 1.0, "target": 1, "stop": 0, "neither": 0})
 
-    def test_feature_change_rebuilds_the_model(self):
+    def test_a_one_day_outage_of_a_shared_input_keeps_the_model(self):
         f = Fixtures.get()
         bars, spy, fred, sv = f["a"]
-        st = update(f["sa"], (bars, spy, {}, sv), LATER)                # FRED could not be read today
+        before = boot("AAPL", cut(f["a"], 1))
+        self.assertIn("vix_rel", before["features"])
+        st = update(before, (bars, spy, {}, sv), LATER)                 # FRED could not be read today
+        self.assertEqual(st["features"], before["features"])
+        self.assertEqual(st["backtest"], before["backtest"])            # no rebuild for a one-day outage
+        self.assertEqual(st["model"]["params"], before["model"]["params"])
+        self.assertEqual(st["predictions"][-1]["imputed"], ["d_dgs10_5", "vix_rel"])
+        self.assertEqual(len(st["predictions"]), 2)
+        back = update(st, f["a"], "2026-11-15T13:50:00+00:00")         # FRED is back
+        self.assertEqual(back["features"], before["features"])
+        self.assertEqual(back["backtest"], before["backtest"])
+        spy_out = update(before, (bars, [], fred, sv), LATER)           # SPY failed instead
+        self.assertEqual(spy_out["features"], before["features"])
+        self.assertEqual(spy_out["backtest"], before["backtest"])
+
+    def test_a_lasting_outage_rebuilds_without_the_feature(self):
+        f = Fixtures.get()
+        bars, spy, fred, sv = f["a"]
+        old = boot("AAPL", cut(f["a"], learner.HOLD_MAX_BARS + 3))
+        st = update(old, (bars, spy, {}, sv), LATER)
         self.assertNotIn("vix_rel", st["features"])
         self.assertEqual(st["backtest"]["created"], LATER)
         self.assertEqual(len(st["model"]["params"]["5"]["w"]), len(st["features"]))
-        self.assertEqual(len(st["predictions"]), 1)
-        back = update(st, f["a"], "2026-11-15T13:50:00+00:00")
-        self.assertEqual(back["features"], f["sa"]["features"])
+        same_day = update(f["sa"], (bars, spy, {}, sv), LATER)          # a second run the same day keeps the fit
+        self.assertEqual(same_day["features"], f["sa"]["features"])
 
     def test_quarterly_backtest_refresh(self):
         data = make(460, 14)
@@ -473,14 +491,15 @@ class IsolationTest(unittest.TestCase):
         with self.assertRaises(IsolationError):
             learner.check_state("AAPL", dict(st, identity={"ticker": "MSFT"}))
         named = dict(st, lessons=[{"date": "2026-11-12", "text": "Moves with MSFT on earnings.", "source": "model"}])
-        with self.assertRaises(IsolationError):
-            learner.check_state("AAPL", named, ("MSFT", "AAPL"))
-        learner.check_state("AAPL", named, ("AAPL",))                          # the ticker itself is not "another"
+        # A lesson never costs the whole state: check_state passes it, prune_lessons drops that lesson.
+        self.assertIs(learner.check_state("AAPL", named, ("MSFT", "AAPL")), named)
+        self.assertEqual(learner.prune_lessons(named, ("MSFT", "AAPL"))["lessons"], [])
+        self.assertEqual(len(named["lessons"]), 1)                              # the input is not changed
+        self.assertEqual(len(learner.prune_lessons(named, ("AAPL",))["lessons"]), 1)  # the ticker itself
         dotted = dict(st, lessons=[{"date": "2026-11-12", "text": "Unlike BRK.B it pays no dividend."}])
-        with self.assertRaises(IsolationError):
-            learner.check_state("AAPL", dotted, ("BRK-B",))
+        self.assertEqual(learner.prune_lessons(dotted, ("BRK-B",))["lessons"], [])
         lower = dict(st, lessons=[{"date": "2026-11-12", "text": "The msft pattern did not repeat."}])
-        learner.check_state("AAPL", lower, ("MSFT",))                          # whole word, case-sensitive
+        self.assertEqual(len(learner.prune_lessons(lower, ("MSFT",))["lessons"]), 1)  # case-sensitive
         for bad in (None, [], dict(st, kind="stocks.ticker"), dict(st, version=2), dict(st, predictions={})):
             with self.assertRaises(ValueError):
                 learner.check_state("AAPL", bad)
@@ -495,10 +514,11 @@ class IsolationTest(unittest.TestCase):
             learner.daily_update(f["sa"], *f["a"], CFG, LATER, ticker="MSFT")
         with self.assertRaises(IsolationError):
             learner.bootstrap(f["sb"], *f["a"], CFG, LATER, ticker="AAPL")
-        named = learner.attach_assessment(f["sa"], "2026-11-12", assessment(), ["Quiet weeks end in gaps."], "m", 12)
+        named = learner.attach_assessment(f["sa"], "2026-11-12", assessment(), ["Quiet weeks end in gaps.",
+                                                                                "Gaps up fade."], "m", 12)
         named["lessons"][0]["text"] = "Follows MSFT."              # as if edited by hand in KV
-        with self.assertRaises(IsolationError):
-            learner.daily_update(named, *f["a"], CFG, LATER, ticker="AAPL", others=("MSFT",))
+        st = learner.daily_update(named, *f["a"], CFG, LATER, ticker="AAPL", others=("MSFT",))
+        self.assertEqual([l["text"] for l in st["lessons"]], ["Gaps up fade."])   # only that lesson goes
         learner.daily_update(f["sa"], *f["a"], CFG, LATER, ticker="AAPL", others=("MSFT",))
 
     def test_same_output_alone_together_and_in_either_order(self):
@@ -698,6 +718,83 @@ class TrimTest(unittest.TestCase):
         with self.assertRaises(ValueError):
             learner.trim_state(st, 100)
         self.assertEqual(size_of(st), full)                                      # the input is never changed
+
+    def test_a_stock_with_many_insider_reports_keeps_its_newest(self):
+        st = copy.deepcopy(Fixtures.get()["sa"])
+        rows = [{"date": f"2026-{1 + i // 200:02d}-{1 + i % 28:02d}", "filed": "2026-10-02", "owner": "o",
+                 "note": "z" * 600} for i in range(1600)]
+        st["caches"] = {"form4": {"seen": {"0000000001-26-000001": "2026-10-02"}, "transactions": rows}}
+        cap = size_of(st) // 3
+        t = learner.trim_state(st, cap)
+        kept = t["caches"]["form4"]["transactions"]
+        self.assertLessEqual(size_of(t), cap)
+        self.assertGreaterEqual(len(kept), learner.FORM4_FLOOR)
+        self.assertLess(len(kept), len(rows))
+        self.assertEqual(t["caches"]["form4"]["trimmed_before"], min(r["date"] for r in kept))
+        self.assertEqual(max(r["date"] for r in kept), max(r["date"] for r in rows))   # the newest stay
+        self.assertEqual(t["caches"]["form4"]["seen"], st["caches"]["form4"]["seen"])  # read filings stay read
+        self.assertEqual(len(t["predictions"]), len(st["predictions"]))                # calls are not cut first
+
+
+class LessonFilterTest(unittest.TestCase):
+    """Review fixes: the lesson filter neither wipes a state nor drops
+    ordinary words, and still catches other tickers and companies."""
+
+    def test_short_symbols_and_market_words(self):
+        for text, sym in (("A close below the 50 day average led to a deeper dip.", "A"),
+                          ("The S&P 500 led the move.", "S"), ("Rates in the U.S. rose.", "U"),
+                          ("The P/E looks high.", "E"), ("AI headlines lifted it.", "AI"),
+                          ("T-bill yields rose.", "T"), ("It trades near the US average.", "US")):
+            self.assertFalse(learner.names_ticker(text, (sym,)), text)
+        for text, sym in (("Moves with $A on earnings.", "A"), ("Unlike (AI) it fell.", "AI"),
+                          ("Follows NVDX's lead.", "NVDX"), ("A $NVDX gap faded.", "NVDX"),
+                          ("Follows NVDX.", "NVDX"), ("The NVDX-led rally faded.", "NVDX")):
+            self.assertTrue(learner.names_ticker(text, (sym,)), text)
+
+    def test_adding_a_ticker_never_wipes_another_state(self):
+        st = learner.new_state("EXMPL", NOW)
+        st["lessons"] = [{"date": "2026-11-12", "text": "A close below the 50 day average led to a deeper dip.",
+                          "source": "model"},
+                         {"date": "2026-11-12", "text": "RSI above 70 did not cap gains on this stock.",
+                          "source": "model"}]
+        for added in ("A", "AI", "S", "U"):
+            self.assertIs(learner.check_state("EXMPL", st, ("EXMPL", "MSFT", added)), st)
+            self.assertEqual(len(learner.prune_lessons(st, ("EXMPL", "MSFT", added))["lessons"]), 2, added)
+        # A three letter ticker that is also a word costs only the lesson that uses it.
+        self.assertEqual([l["text"][:3] for l in learner.prune_lessons(st, ("EXMPL", "RSI"))["lessons"]], ["A c"])
+
+    def test_company_names(self):
+        kept = learner.clean_lessons(["The first target was hit within ten days after the gap up."], [], "EXMPL",
+                                     ("EXMPL", "TGT", "GAP"), ("Target Corporation", "Gap, Inc."))
+        self.assertEqual(len(kept), 1)
+        dropped = learner.clean_lessons(["Moves with Super Micro on AI server news."], [], "EXMPL",
+                                        ("EXMPL", "SMCI"), ("Super Micro Computer, Inc.",))
+        self.assertEqual(dropped, [])
+        for text, name in (("Trades like Target after earnings.", "Target Corporation"),
+                           ("Moves with Examplecorp handset news.", "EXAMPLECORP INC/DE"),
+                           ("Moves with Microsoft.", "MICROSOFT CORP"),
+                           ("Follows ebay on retail days.", "eBay Inc."),
+                           ("Follows Esempio Tessile.", "Esempio Tessile S.p.A."),
+                           ("Like Bank of America it fell.", "BANK OF AMERICA CORP /DE/")):
+            self.assertTrue(learner.names_company(text, (name,)), text)
+        for text, name in (("Bank stocks fell with rates.", "BANK OF AMERICA CORP /DE/"),
+                           ("Energy names rallied.", "Exampleton Energy, Inc."),
+                           ("The gap closed in two days.", "Gap, Inc.")):
+            self.assertFalse(learner.names_company(text, (name,)), text)
+        self.assertEqual(learner.company_core("EXAMPLECORP INC/DE"), "EXAMPLECORP")
+
+
+class WarmingNoteTest(unittest.TestCase):
+    def test_note_names_the_horizon_that_uses_the_base_rate(self):
+        st = learner.new_state("EXMPL", NOW)
+        st["model"] = {"kind": "logistic_l2", "status": "warming_up", "params": {
+            "5": {"kind": "logistic_l2"}, "20": {"kind": "base_rate"}}, "training": {"bars": 220}}
+        note = learner.confidence_note(st)
+        self.assertEqual(note, "Low confidence, 220 days of history. Too little history to fit the 20 day model, "
+                               "so the 20 day call is the base rate.")
+        st["model"]["params"]["5"] = {"kind": "base_rate"}
+        self.assertTrue(learner.confidence_note(st).endswith("Too little history to fit a model, so the call is "
+                                                            "the base rate."))
 
 
 if __name__ == "__main__":

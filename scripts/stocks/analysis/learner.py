@@ -59,6 +59,7 @@ EXCURSION_MIN_N = 120
 ASSESS_HORIZON = 20
 LOW_CONFIDENCE_BARS = 504
 KEEP_OLD_GRADED = 400
+FORM4_FLOOR = 100          # Form 4 transactions always kept when a state must shrink
 SHORT_KEEP = 300
 LESSONS_PER_RUN = 2
 LESSON_CHARS = 200
@@ -66,6 +67,14 @@ BINS = ((0.0, 0.2), (0.2, 0.4), (0.4, 0.6), (0.6, 0.8), (0.8, 1.0))
 CORPORATE_WORDS = {"inc", "incorporated", "corp", "corporation", "co", "company", "ltd", "limited", "plc",
                    "llc", "lp", "l", "p", "holdings", "holding", "group", "sa", "s", "a", "nv", "n", "v", "ag",
                    "se", "spa", "the", "class", "cl", "com", "de", "new"}
+# First words too common to stand for a company on their own ("Bank of America").
+COMMON_FIRST_WORDS = {"the", "first", "american", "america", "united", "national", "general", "international",
+                      "global", "new", "bank", "great", "southern", "northern", "western", "eastern", "central",
+                      "pacific", "atlantic", "royal", "capital", "financial", "energy", "home", "golden",
+                      "digital", "advanced", "applied", "super", "west", "east", "north", "south", "big", "blue",
+                      "green", "red", "black", "white", "first", "trust", "community", "standard", "universal"}
+FUNCTION_WORDS = {"of", "and", "the", "&", "for", "de", "la", "in", "on", "at", "to"}
+HOLD_MAX_BARS = 5          # days a fit stands while a shared input is missing
 
 
 class IsolationError(ValueError):
@@ -125,40 +134,108 @@ def _ticker_spellings(sym):
     return {sym, sym.replace("-", "."), sym.replace("-", "/")}
 
 
+def _mentions(text, sym):
+    """True when text holds sym as a ticker (case-sensitive). A symbol of one
+    or two letters counts only in an explicit form, "$A" or "(A)", since "A",
+    "AI" or "US" are ordinary words. A longer one counts as a whole word that
+    is not part of "S&P", "P/E" or "U.S." ("MSFT's" and "$MSFT" count)."""
+    letters = sum(1 for ch in sym if ch.isalpha())
+    for m in re.finditer(re.escape(sym), text):
+        a, b = m.start(), m.end()
+        before = text[a - 1] if a else ""
+        after = text[b] if b < len(text) else ""
+        if letters <= 2:
+            if (before == "$" and not after.isalnum()) or (before == "(" and after == ")"):
+                return True
+            continue
+        if (before and (before.isalnum() or before in "&/")) or (after and (after.isalnum() or after in "&/")):
+            continue
+        if before and before in ".-" and a >= 2 and text[a - 2].isalpha():
+            continue
+        if after == "." and b + 1 < len(text) and text[b + 1].isalpha():
+            continue
+        return True
+    return False
+
+
 def names_ticker(text, others):
-    """True when text names one of the tickers in others as a whole word
-    (case-sensitive; "BRK-B" also as "BRK.B" and "BRK/B")."""
+    """True when text names one of the tickers in others (see _mentions;
+    "BRK-B" also as "BRK.B" and "BRK/B")."""
     s = str(text or "")
     for sym in others:
-        if sym and any(_word_re(sp).search(s) for sp in _ticker_spellings(str(sym))):
+        if sym and any(_mentions(s, sp) for sp in _ticker_spellings(str(sym))):
             return True
     return False
 
 
 def company_core(name):
-    """A company name without its trailing corporate words: "Apple Inc." -> "Apple"."""
-    words = re.sub(r"[.,'()]", " ", str(name or "")).split()
+    """A company name without its trailing corporate words and state suffix:
+    "Apple Inc." -> "Apple", "EXAMPLE CORP/DE" -> "EXAMPLE"."""
+    words = re.sub(r"[.,'()/]", " ", str(name or "")).split()
     while words and words[-1].lower() in CORPORATE_WORDS:
         words.pop()
     return " ".join(words)
 
 
+def company_forms(name):
+    """(phrases matched ignoring case, words matched only when capitalized)
+    that name a company: the full name, its core of two or more words, the
+    first two words of a longer core ("Super Micro"), and its first word
+    unless that word is common ("Target" names Target, "target" does not; a
+    brand written in lower case, such as "eBay", matches any case)."""
+    full = " ".join(str(name or "").split())
+    core = company_core(name)
+    words = core.split()
+    phrases, proper = set(), set()
+    if len(full) >= 3:
+        phrases.add(full)
+    if len(words) >= 2 and len(core) >= 3:
+        phrases.add(core)
+    if len(words) >= 3 and words[1].lower() not in FUNCTION_WORDS and len(words[0]) + len(words[1]) >= 5:
+        phrases.add(words[0] + " " + words[1])
+    if words and len(words[0]) >= 3 and (len(words) == 1 or words[0].lower() not in COMMON_FIRST_WORDS):
+        if words[0][:1].islower():
+            phrases.add(words[0])
+        else:
+            proper.add(words[0])
+    return phrases, proper
+
+
 def names_company(text, names):
-    """True when text names one of the companies, in full or without its
-    corporate suffix, as whole words, ignoring case."""
+    """True when text names one of the companies (see company_forms), as
+    whole words."""
     s = str(text or "")
     for name in names:
-        for cand in {str(name or "").strip(), company_core(name)}:
-            if len(cand) >= 3 and _word_re(cand, re.IGNORECASE).search(s):
+        phrases, proper = company_forms(name)
+        for cand in phrases:
+            if _word_re(cand, re.IGNORECASE).search(s):
+                return True
+        for cand in proper:
+            if any(s[m.start()].isupper() for m in _word_re(cand, re.IGNORECASE).finditer(s)):
                 return True
     return False
 
 
+def prune_lessons(state, others=(), other_names=()):
+    """A copy of state without the lessons that name another tracked ticker or
+    company; every other lesson, and the rest of the state, is kept."""
+    st = copy.deepcopy(state)
+    ticker = st.get("ticker") if isinstance(st, dict) else None
+    rest = tuple(o for o in others if o and o != ticker)
+    lessons = st.get("lessons") if isinstance(st, dict) else None
+    if isinstance(lessons, list):
+        st["lessons"] = [l for l in lessons
+                         if not names_ticker(l.get("text") if isinstance(l, dict) else l, rest)
+                         and not names_company(l.get("text") if isinstance(l, dict) else l, other_names)]
+    return st
+
+
 def check_state(ticker, state, others=(), *, cik=None):
     """Refuse a state that is not ticker's own. Raises IsolationError (wrong
-    ticker, a CIK that is not the ticker's, an unknown top-level key, a
-    lesson naming another tracked ticker) or ValueError (not a state of this
-    kind and version); returns the state unchanged."""
+    ticker, a CIK that is not the ticker's, an unknown top-level key) or
+    ValueError (not a state of this kind and version); returns the state
+    unchanged. A lesson that names another tracked ticker is not a reason to
+    throw the whole state away: prune_lessons drops just that lesson."""
     if not isinstance(state, dict):
         raise ValueError("The state is not an object.")
     if state.get("kind") != "stocks.state" or state.get("version") != STATE_VERSION:
@@ -185,11 +262,6 @@ def check_state(ticker, state, others=(), *, cik=None):
             raise ValueError("The state has a field of the wrong type.")
     if any(f not in FEATURES for f in state.get("features") or []):
         raise ValueError("The state names an unknown feature.")
-    rest = tuple(o for o in others if o and o != ticker)
-    for lesson in state.get("lessons") or []:
-        text = lesson.get("text") if isinstance(lesson, dict) else lesson
-        if names_ticker(text, rest):
-            raise IsolationError("A lesson names another tracked ticker.")
     return state
 
 
@@ -741,6 +813,32 @@ def _needs_bootstrap(st, names, dates):
     return len(dates) - bisect.bisect_right(dates, made) >= REBOOT_BARS
 
 
+def _outage(st, names, cols, bars):
+    """The features of the state's list that have no data at all today while
+    the rest of the list is unchanged: a shared input (SPY or a FRED series)
+    failed for the day. [] when that is not the case, when there is no fitted
+    model, or when the last fit is more than HOLD_MAX_BARS bars old (the
+    source is gone, so the model is rebuilt without it)."""
+    stored = [f for f in st.get("features") or [] if f in FEATURES]
+    missing = [f for f in stored if f not in names]
+    if not missing or any(v is not None for f in missing for v in cols[f]):
+        return []
+    if [f for f in stored if f not in missing] != list(names):
+        return []
+    model = st.get("model") or {}
+    params = model.get("params") or {}
+    if model.get("kind") != "logistic_l2" or model.get("status") != "ok" or not params:
+        return []
+    fitted = [p.get("fitted_on") for p in params.values() if isinstance(p, dict)]
+    if any(not isinstance(d, str) or len(p.get("w") or []) != len(stored)
+           for d, p in zip(fitted, params.values())):
+        return []
+    dates = [b["date"] for b in bars]
+    if len(dates) - bisect.bisect_right(dates, min(fitted)) > HOLD_MAX_BARS:
+        return []
+    return missing
+
+
 def _run(state, bars, spy, fred, short_volume, cfg, now, force, ticker=None, others=()):
     if not isinstance(state, dict):
         raise ValueError("The state is not an object.")
@@ -749,11 +847,23 @@ def _run(state, bars, spy, fred, short_volume, cfg, now, force, ticker=None, oth
     bars = clean_bars(bars)
     if len(bars) < 2:
         raise ValueError("Not enough price bars.")
-    st = copy.deepcopy(state)
+    st = prune_lessons(state, others)
     _fill(st)
     horizons = c["horizons"]
     cols = feature_columns(bars, spy, fred, short_volume)
     names = select_features(cols, len(bars), horizons, c["min_train_rows"])
+    held = [] if force else _outage(st, names, cols, bars)
+    if held:
+        # Yesterday's feature list and fit stand; today's missing values count
+        # as their training mean (recorded in the entry's "imputed").
+        names = list(st["features"])
+        _grade_inplace(st, bars)
+        as_of = bars[-1]["date"]
+        params = st["model"]["params"]
+        status = st["model"]["status"]
+        st["model"]["excursions"] = excursions(bars)
+        st["model"]["training"] = dict(st["model"].get("training") or {}, bars=len(bars))
+        return _log_call(st, bars, cols, names, params, horizons, as_of, status, now)
     rows = _rows(bars, cols, names, horizons)
     _grade_inplace(st, bars)
     as_of = bars[-1]["date"]
@@ -823,6 +933,12 @@ def _run(state, bars, spy, fred, short_volume, cfg, now, force, ticker=None, oth
                      "refits": refits, "bars": len(bars), "feature_rows": len(rows),
                      "first_bar": bars[0]["date"]},
     }
+    return _log_call(st, bars, cols, names, params, horizons, as_of, status, now)
+
+
+def _log_call(st, bars, cols, names, params, horizons, as_of, status, now):
+    """Log (or, on a second run the same day, update) the day's call, and
+    recompute the live scorecards."""
     last_i = len(bars) - 1
     x = [_value(cols, f, last_i) for f in names]
     p_up = {str(h): round(predict(params[str(h)], x), 4) for h in horizons}
@@ -910,6 +1026,7 @@ def attach_assessment(state, as_of, assessment, lessons, model, cap, others=(), 
     entry = next((e for e in reversed(st["predictions"]) if e.get("as_of") == as_of), None)
     if entry is not None and isinstance(assessment, dict):
         entry["assessment"] = _compact_assessment(assessment, model)
+    st = prune_lessons(st, others, other_names)
     new = clean_lessons(lessons, st["lessons"], st["ticker"], others, other_names)
     lessons = st["lessons"] + [{"date": as_of, "text": t, "source": "model"} for t in new]
     keep = max(0, int(cap))
@@ -930,7 +1047,14 @@ def confidence_note(state):
     if bars < LOW_CONFIDENCE_BARS or model.get("status") != "ok":
         note = f"Low confidence, {bars} days of history."
         if model.get("status") != "ok":
-            note += " Too little history to fit a model, so the call is the base rate."
+            params = model.get("params") or {}
+            fitted = [k for k, p in params.items() if isinstance(p, dict) and p.get("kind") == "logistic_l2"]
+            base = sorted((k for k in params if k not in fitted), key=lambda k: int(k) if str(k).isdigit() else 0)
+            if fitted and base:
+                days = " and ".join(f"{k} day" for k in base)
+                note += f" Too little history to fit the {days} model, so the {days} call is the base rate."
+            else:
+                note += " Too little history to fit a model, so the call is the base rate."
         return note
     return None
 
@@ -1008,8 +1132,11 @@ def trim_state(state, max_bytes, *, insider_days=365, congress_days=365, bootstr
     only while too large: graded calls older than the newest 400, Form 4
     transactions older than insider_days, congress trades older than
     congress_days, short volume rows beyond 300, price rows beyond
-    bootstrap_years * 252 + 300; then the oldest calls. Raises ValueError
-    when even that is not enough."""
+    bootstrap_years * 252 + 300; then, for a stock whose insiders file
+    hundreds of reports a year, the oldest Form 4 transactions beyond the
+    newest FORM4_FLOOR (caches.form4.trimmed_before records where the list
+    now starts); then the oldest calls. Raises ValueError when even that is
+    not enough."""
     st = copy.deepcopy(state)
     if size_of(st) <= max_bytes:
         return st
@@ -1047,7 +1174,18 @@ def trim_state(state, max_bytes, *, insider_days=365, congress_days=365, bootstr
             if pr["rows"] and isinstance(pr["rows"][0], list) and pr["rows"][0]:
                 pr["first_date"] = pr["rows"][0][0]
 
-    for step in (old_graded, form4, congress, shorts, prices):
+    def form4_newest():
+        f4 = caches.get("form4")
+        if not isinstance(f4, dict) or not isinstance(f4.get("transactions"), list):
+            return
+        rows = sorted(f4["transactions"], key=lambda t: (str(t.get("date") or ""), str(t.get("filed") or "")),
+                      reverse=True)
+        while len(rows) > FORM4_FLOOR and size_of(st) > max_bytes:
+            rows = rows[:max(FORM4_FLOOR, len(rows) * 3 // 4)]
+            f4["transactions"] = rows
+            f4["trimmed_before"] = min(str(t.get("date") or t.get("filed") or "") for t in rows)
+
+    for step in (old_graded, form4, congress, shorts, prices, form4_newest):
         step()
         if size_of(st) <= max_bytes:
             return st

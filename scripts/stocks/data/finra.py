@@ -14,6 +14,7 @@ The daily file CNMSshvolYYYYMMDD.txt on cdn.finra.org is the fallback when the
 API fails, read only for the few recent trading days the cache lacks. A day
 with no file answers 403 (an S3 AccessDenied page), not 404.
 """
+import re
 from datetime import date, datetime, timedelta
 
 from stocks.data import FetchError
@@ -177,15 +178,29 @@ def parse_short_interest(rows, symbol=None):
     return [by_date[d] for d in sorted(by_date)]
 
 
+_ONE_LETTER_CLASS_RE = re.compile(r"^([A-Z]{1,6})[/.\-]([A-Z])$")
+_PLAIN_RE = re.compile(r"^[A-Z]{1,6}$")
+
+
 def si_symbol(symbol):
     """The short interest dataset spells class shares without a separator:
-    BRK/B (or BRK-B) is BRKB there, while the short volume data uses BRK/B."""
-    return str(symbol).replace("/", "").replace("-", "").replace(".", "")
+    BRK/B (or BRK-B) is BRKB there, while the short volume data uses BRK/B.
+    Only a one-letter share class is joined; a longer suffix (a preferred
+    share or a warrant, T-PC or NE-WT) gives None, because joining it would
+    spell another company's common stock (TPC, NEWT)."""
+    s = str(symbol or "").strip().upper()
+    if _PLAIN_RE.match(s):
+        return s
+    m = _ONE_LETTER_CLASS_RE.match(s)
+    return m.group(1) + m.group(2) if m else None
 
 
 def short_interest(http, symbol, start, end):
-    """ShortInterestRows for symbol (either spelling) from start to end."""
+    """ShortInterestRows for symbol (either spelling) from start to end; [] for
+    a symbol the dataset cannot be asked about (see si_symbol)."""
     sym = si_symbol(symbol)
+    if sym is None:
+        return []
     rows = _query(http, SI, "symbolCode", sym, "settlementDate", start, end)
     return parse_short_interest(rows, sym)
 

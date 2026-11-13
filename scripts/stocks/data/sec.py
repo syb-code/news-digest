@@ -37,8 +37,14 @@ DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 _DTD_RE = re.compile(rb"<!\s*(?:DOCTYPE|ENTITY)", re.IGNORECASE)
 
 NO_EPS_NOTE = "No earnings per share in the SEC data yet."
+STALE_EPS_NOTE = "The latest earnings per share in the SEC data are too old to use."
+# Days from the end of the latest period after which EPS is not used: about 15
+# months for four quarters, 21 for a fiscal year (a 20-F comes up to 4 months
+# after the year ends).
+EPS_MAX_AGE_DAYS = {"four_quarters": 460, "annual": 640}
 NOTICE_NOTE = "Holdings for this quarter are reported by another manager."
 AMBIGUOUS_NOTE = "Several share classes match; add the CUSIP to the overrides."
+SHARED_KEY_NOTE = "Another company has a similar name, so 13F holdings are matched only by CUSIP; add it to the overrides."
 MAX_FORM4 = 120
 
 EPS_CONCEPTS = (
@@ -212,8 +218,17 @@ def parse_company_tickers(doc):
         per_cik[cik] = per_cik.get(cik, 0) + 1
     if not out:
         raise ValueError("the ticker map is empty")
+    # How many companies (CIKs) share each issuer_key: a 13F name match is only
+    # safe for a key that one company has (TARGET, GRAHAM and FIRST BANCORP are
+    # each the key of several registrants).
+    key_ciks = {}
+    for v in out.values():
+        k = issuer_key(v["name"])
+        if k:
+            key_ciks.setdefault(k, set()).add(v["cik"])
     for v in out.values():
         v["classes"] = per_cik[v["cik"]]
+        v["key_ciks"] = len(key_ciks.get(issuer_key(v["name"]), ())) or 1
     return out
 
 
@@ -307,6 +322,10 @@ def identity(ticker, tickers_map, subs, cusips=None):
         if not name:
             name = " ".join(str(subs.get("name") or "").split()) or None
     classes = entry.get("classes")
+    key_ciks = entry.get("key_ciks")
+    if key_ciks is None and name and tickers_map:
+        k = issuer_key(name)
+        key_ciks = len({v.get("cik") for v in tickers_map.values() if issuer_key(v.get("name")) == k}) or None
     if classes is None and cik is not None:
         classes = sum(1 for v in (tickers_map or {}).values() if v.get("cik") == cik) or None
     if classes is None and isinstance(subs, dict) and isinstance(subs.get("tickers"), list):
@@ -332,6 +351,8 @@ def identity(ticker, tickers_map, subs, cusips=None):
         "finra_symbol": finra_symbol(t),
         "issuer_key": issuer_key(name) if name else None,
         "classes": classes or 1,
+        # None when the SEC map is not at hand: a name match is then not safe.
+        "key_ciks": (key_ciks or 1) if tickers_map else None,
     }
 
 
@@ -348,30 +369,26 @@ def company_facts(http, cik):
     return doc
 
 
-def eps_for(http, cik):
+def eps_for(http, cik, today=None):
     """EpsSummary for a CIK that never raises: a failed request gives
     not_available with a plain note."""
     try:
-        return eps_summary(company_facts(http, cik))
+        return eps_summary(company_facts(http, cik), today=today)
     except FetchError:
         return not_available_eps("Earnings per share could not be read from the SEC today.")
     except ValueError:
         return not_available_eps("The SEC data for earnings per share could not be read.")
 
 
-def _eps_unit(units):
-    """The (unit, rows) of a concept: USD/shares when present, else the
-    per-share unit with the most rows."""
+def _eps_units(units):
+    """The (unit, rows) pairs of a concept's per-share units, in preference
+    order: USD/shares first, then the unit with the most rows."""
     if not isinstance(units, dict):
-        return None, []
+        return []
     per_share = {u: rows for u, rows in units.items()
-                 if isinstance(u, str) and re.match(r"^[A-Z]{3}/shares$", u) and isinstance(rows, list)}
-    if not per_share:
-        return None, []
-    if "USD/shares" in per_share and per_share["USD/shares"]:
-        return "USD/shares", per_share["USD/shares"]
-    unit = sorted(per_share, key=lambda u: (-len(per_share[u]), u))[0]
-    return unit, per_share[unit]
+                 if isinstance(u, str) and re.match(r"^[A-Z]{3}/shares$", u) and isinstance(rows, list) and rows}
+    order = sorted(per_share, key=lambda u: (u != "USD/shares", -len(per_share[u]), u))
+    return [(u, per_share[u]) for u in order]
 
 
 def _periods(rows):
@@ -436,38 +453,61 @@ def not_available_eps(note=NO_EPS_NOTE):
             "note": note}
 
 
-def eps_summary(facts):
+def _eps_candidate(taxonomy, name, unit, rows):
+    """The EpsSummary one concept and unit give, or None."""
+    quarters, annual = _summarize_eps(rows)
+    last4 = quarters[-4:]
+    latest_filed = max((_day(r.get("filed")) or "" for r in rows if isinstance(r, dict)), default="") or None
+    base = {"status": "ok", "concept": f"{taxonomy}:{name}", "unit": unit, "currency": unit.split("/")[0],
+            "latest_filed": latest_filed, "note": None}
+    four = (len(last4) == 4
+            and 250 <= (date.fromisoformat(last4[-1]["end"]) - date.fromisoformat(last4[0]["end"])).days <= 300
+            and (annual is None or annual["end"] <= last4[-1]["end"]))
+    if four:
+        return dict(base, basis="four_quarters", eps_ttm=round(sum(q["eps"] for q in last4), 4),
+                    quarters=[_quarter_out(q) for q in last4], annual=_annual_out(annual),
+                    latest_end=last4[-1]["end"])
+    if annual is not None:
+        return dict(base, basis="annual", eps_ttm=round(annual["eps"], 4),
+                    quarters=[_quarter_out(q) for q in quarters[-4:]], annual=_annual_out(annual),
+                    latest_end=annual["end"])
+    return None
+
+
+def eps_summary(facts, today=None):
     """Trailing earnings per share (EpsSummary): the sum of the last four
     discrete quarters (Q4 derived as the year minus the first nine months),
     else the latest fiscal year (the usual case for 20-F filers), else
-    not_available."""
+    not_available.
+
+    Every concept and per-share unit is tried and the one whose result ends
+    latest wins (the concept order, then USD, breaks a tie): a filer that
+    stopped tagging one concept years ago still tags another one today. With
+    today (a date), a result that ends more than EPS_MAX_AGE_DAYS before it is
+    not used (STALE_EPS_NOTE)."""
     all_facts = facts.get("facts") if isinstance(facts, dict) else None
     if not isinstance(all_facts, dict):
         return not_available_eps()
+    best, best_key, rank = None, None, 0
     for taxonomy, name in EPS_CONCEPTS:
         concept = (all_facts.get(taxonomy) or {}).get(name) if isinstance(all_facts.get(taxonomy), dict) else None
         if not isinstance(concept, dict):
             continue
-        unit, rows = _eps_unit(concept.get("units"))
-        if not rows:
-            continue
-        quarters, annual = _summarize_eps(rows)
-        last4 = quarters[-4:]
-        latest_filed = max((_day(r.get("filed")) or "" for r in rows if isinstance(r, dict)), default="") or None
-        base = {"status": "ok", "concept": f"{taxonomy}:{name}", "unit": unit, "currency": unit.split("/")[0],
-                "latest_filed": latest_filed, "note": None}
-        four = (len(last4) == 4
-                and 250 <= (date.fromisoformat(last4[-1]["end"]) - date.fromisoformat(last4[0]["end"])).days <= 300
-                and (annual is None or annual["end"] <= last4[-1]["end"]))
-        if four:
-            return dict(base, basis="four_quarters", eps_ttm=round(sum(q["eps"] for q in last4), 4),
-                        quarters=[_quarter_out(q) for q in last4], annual=_annual_out(annual),
-                        latest_end=last4[-1]["end"])
-        if annual is not None:
-            return dict(base, basis="annual", eps_ttm=round(annual["eps"], 4),
-                        quarters=[_quarter_out(q) for q in quarters[-4:]], annual=_annual_out(annual),
-                        latest_end=annual["end"])
-    return not_available_eps()
+        for unit, rows in _eps_units(concept.get("units")):
+            rank += 1
+            found = _eps_candidate(taxonomy, name, unit, rows)
+            if found is None:
+                continue
+            key = (found["latest_end"], -rank)
+            if best_key is None or key > best_key:
+                best, best_key = found, key
+    if best is None:
+        return not_available_eps()
+    if today is not None:
+        age = (_as_date(today) - date.fromisoformat(best["latest_end"])).days
+        if age > EPS_MAX_AGE_DAYS[best["basis"]]:
+            return not_available_eps(STALE_EPS_NOTE)
+    return best
 
 
 def eps_due(subs, cache, now, max_age_days=30):
@@ -572,6 +612,8 @@ def parse_form4(xml, ref):
     plan = _bool(_text(root, "aff10b5One"))
     period = _day(_text(root, "periodOfReport"))
     form = str(ref.get("form") or _text(root, "documentType") or "4")
+    # An amendment restates the original filing (filed on dateOfOriginalSubmission).
+    original = _day(_text(root, "dateOfOriginalSubmission")) if form.upper() == "4/A" else None
     url = form4_url(ref)
     out = []
     for table, row_name, derivative in (("nonDerivativeTable", "nonDerivativeTransaction", False),
@@ -603,8 +645,22 @@ def parse_form4(xml, ref):
                 "derivative": derivative,
                 "security": _value(tx, "securityTitle"),
                 "url": url,
+                "period": period or _day(ref.get("report_date")),
+                "amends": original,
             })
     return out
+
+
+def drop_amended(txns):
+    """Transactions without the rows a Form 4/A restates: the original Form 4
+    rows of the same owner and period of report filed on the amendment's
+    dateOfOriginalSubmission."""
+    amended = {(t.get("owner_cik"), t.get("period"), t.get("amends")) for t in txns
+               if str(t.get("form") or "").upper() == "4/A" and t.get("amends") and t.get("period")}
+    if not amended:
+        return list(txns)
+    return [t for t in txns if not (str(t.get("form") or "").upper() == "4"
+                                    and (t.get("owner_cik"), t.get("period"), t.get("filed")) in amended)]
 
 
 def insider_transactions(http, subs, since, cached=None, limit=MAX_FORM4):
@@ -629,7 +685,8 @@ def insider_transactions(http, subs, since, cached=None, limit=MAX_FORM4):
             read += 1
         except (FetchError, ValueError) as e:
             failed += 1
-            if isinstance(e, FetchError) and (e.status == 429 or e.reason == "time budget used up"):
+            # 429, or 403 from SEC (its answer to too many requests), or no time left: stop asking.
+            if isinstance(e, FetchError) and (e.status in (403, 429) or e.reason == "time budget used up"):
                 break
     skipped = max(0, len(refs) - read - failed)
     seen = {k: v for k, v in seen.items() if str(v or "") >= since_s}
@@ -640,8 +697,8 @@ def insider_transactions(http, subs, since, cached=None, limit=MAX_FORM4):
         if k not in keys:
             keys.add(k)
             unique.append(t)
-    txns = sorted(unique, key=lambda t: (str(t.get("date") or ""), str(t.get("filed") or ""),
-                                         str(t.get("accession") or "")), reverse=True)
+    txns = sorted(drop_amended(unique), key=lambda t: (str(t.get("date") or ""), str(t.get("filed") or ""),
+                                                       str(t.get("accession") or "")), reverse=True)
     status = "ok" if failed == 0 and skipped == 0 else "partial"
     return {"transactions": txns, "seen": seen, "status": status, "read": read, "failed": failed,
             "skipped": skipped}
@@ -986,7 +1043,11 @@ def match_holding_detail(table, ident, overrides=None):
         if c in holdings:
             return holdings[c], None
     keys = set()
-    if ident.get("issuer_key"):
+    key_ciks = ident.get("key_ciks", 1)
+    shared = key_ciks is None or int(key_ciks) > 1
+    if shared:
+        pass  # another company has the same key: only a CUSIP or an override name may match
+    elif ident.get("issuer_key"):
         keys.add(ident["issuer_key"])
     elif ident.get("name"):
         keys.add(issuer_key(ident["name"]))
@@ -996,7 +1057,7 @@ def match_holding_detail(table, ident, overrides=None):
             keys.add(k)
     keys.discard("")
     if not keys:
-        return None, None
+        return None, (SHARED_KEY_NOTE if shared else None)
     found = [h for h in holdings.values() if issuer_key(h.get("name")) in keys]
     found = [h for h in found if not _DEBT_RE.search(str(h.get("title") or "").upper())]
     if not found:
@@ -1066,9 +1127,13 @@ def period_entry(table, ident, pick, overrides=None):
     and a note when the match was ambiguous. The table is a shared read-only
     input; nothing of another ticker is read or written."""
     holding, note = match_holding_detail(table, ident, overrides)
+    known = set(known_cusips(ident, overrides))
+    if holding:
+        known.add(holding["cusip"])
     entry = {"accession": pick["accession"], "form": pick["form"], "filed": pick["filed"],
              "shares": float(holding["shares"]) if holding else 0.0,
-             "value_usd": float(holding["value_usd"]) if holding else 0.0}
+             "value_usd": float(holding["value_usd"]) if holding else 0.0,
+             "cusips": sorted(known)}
     merged = [m["accession"] for m in pick.get("merge") or ()]
     if merged:
         entry["merge"] = merged
@@ -1084,11 +1149,34 @@ def entry_current(entry, pick):
         list(entry.get("merge") or []) == [m["accession"] for m in pick.get("merge") or ()]
 
 
-def periods_to_read(fund_periods_cache, picks):
+def known_cusips(ident, overrides=None):
+    """The CUSIPs a ticker is matched by: its identity's and its overrides'."""
+    out = []
+    ov = _override_for(overrides, ident or {})
+    for c in list((ident or {}).get("cusips") or ()) + list(ov.get("cusips") or ()):
+        c = str(c or "").strip().upper()
+        if CUSIP_RE.match(c) and c not in out:
+            out.append(c)
+    return out
+
+
+def periods_to_read(fund_periods_cache, picks, cusips=None):
     """The picks whose period one ticker's cache (caches.funds[cik]["periods"])
-    lacks or holds from other filings."""
+    lacks or holds from other filings. With cusips (the ticker's CUSIPs now),
+    also an entry that found no shares while the ticker had fewer CUSIPs: the
+    company may have been listed under another name in that filing, and a
+    CUSIP learned since then can find it (compare by CUSIP, never by name)."""
     cache = fund_periods_cache if isinstance(fund_periods_cache, dict) else {}
-    return [p for p in picks or () if not entry_current(cache.get(p["period"]), p)]
+    now = {str(c) for c in cusips or ()}
+    out = []
+    for p in picks or ():
+        entry = cache.get(p["period"])
+        if not entry_current(entry, p):
+            out.append(p)
+        elif now and not float(entry.get("shares") or 0.0) > 0 and \
+                {str(c) for c in entry.get("cusips") or ()} < now:
+            out.append(p)
+    return out
 
 
 def ticker_fund_rows(funds, fund_cache, picks_by_cik):

@@ -26,6 +26,9 @@ VIEWER = os.path.join(DOCS, "learn", "viewer.html")
 CONFIG_JS = os.path.join(DOCS, "assets", "js", "config.js")
 APP_JS = os.path.join(DOCS, "assets", "js", "app.js")
 SLIDES_JS = os.path.join(DOCS, "assets", "learn", "slides.js")
+STOCKS_JS = os.path.join(DOCS, "assets", "js", "stocks.js")
+STYLE_CSS = os.path.join(DOCS, "assets", "css", "style.css")
+CONFIG_YML = os.path.join(support.ROOT, "config.yml")
 SLIDES_CSS = os.path.join(DOCS, "assets", "learn", "slides.css")
 FONTS = os.path.join(DOCS, "assets", "learn", "fonts")
 
@@ -531,6 +534,383 @@ class SlideshowBehaviorTests(unittest.TestCase):
         self.assertTrue(fit["arrowDown"])
         self.assertEqual(fit["space"], ["slide-2", True])
         self.assertEqual(fit["spaceAtTheEnd"], "slide-3")
+
+
+# ---------------------------------------------------------------- the private stock section
+# docs/assets/js/stocks.js fills the hidden section of index.html from the Worker, only while
+# the access key is set. These checks read the files; StocksBrowserTests below runs the page.
+
+STOCK_ROUTES = {"/stocks/list", "/stocks/overview", "/stocks/t/", "/stocks/tickers", "/stocks/settings",
+                "/stocks/refresh"}
+LINK_HOSTS = {"sec.gov", "house.gov", "federalreserve.gov", "bls.gov", "bea.gov", "finra.org", "senate.gov"}
+
+
+def js_constant(code, name):
+    """The literal assigned to `const NAME = ...;` in a script, as text."""
+    found = re.search(r"const " + name + r" = (.+?);\n", code, flags=re.S)
+    if not found:
+        raise AssertionError(name + " is not defined")
+    return found.group(1)
+
+
+class StockSectionPageTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.text = read(INDEX)
+        cls.page = Page(cls.text)
+        start = cls.text.index('<section class="stocks"')
+        cls.section = cls.text[start:cls.text.index("</section>", start)]
+
+    def attrs(self, id_):
+        found = [a for _, a in self.page.tags if a.get("id") == id_]
+        self.assertEqual(len(found), 1, id_)
+        return found[0]
+
+    def test_the_section_and_its_nav_link_are_hidden(self):
+        self.assertIn("hidden", self.attrs("stocks"))
+        self.assertIn("hidden", self.attrs("nav-stocks"))
+        self.assertEqual(self.attrs("nav-stocks").get("href"), "#stocks")
+        self.assertIn("hidden", self.attrs("st-manage"))
+
+    def test_the_section_holds_only_its_heading_and_empty_containers(self):
+        # A visitor's copy of the page carries no stock data and no control: stocks.js builds them.
+        no_comments = re.sub(r"<!--.*?-->", "", self.section, flags=re.S)
+        words = " ".join(re.sub(r"<[^>]+>", " ", no_comments).split())
+        self.assertEqual(words, "04 Stocks")
+        for id_ in ("st-meta", "st-toolbar", "st-msg", "st-manage", "st-tabs", "st-panels"):
+            self.assertRegex(no_comments, r'id="' + id_ + r'"[^>]*>\s*</(div|span)>', id_)
+        self.assertNotRegex(no_comments, r"<(input|select|button|form|table|svg|a)\b")
+
+    def test_it_sits_between_the_intro_and_the_controls(self):
+        t = self.text
+        self.assertLess(t.index('<section class="intro"'), t.index('<section class="stocks"'))
+        self.assertLess(t.index('<section class="stocks"'), t.index('<div class="controls-band">'))
+
+    def test_stocks_js_loads_last_deferred_at_its_own_version(self):
+        scripts = [a for tag, a in self.page.tags if tag == "script"]
+        names = [a["src"].split("?")[0] for a in scripts]
+        self.assertEqual(names[-1], "assets/js/stocks.js")
+        self.assertLess(names.index("assets/js/app.js"), names.index("assets/js/stocks.js"))
+        self.assertIn("defer", scripts[-1])
+        version = re.search(r"stocks\.js v(\d+)", read(STOCKS_JS)).group(1)
+        self.assertEqual(scripts[-1]["src"], "assets/js/stocks.js?v=" + version)
+
+
+class StockScriptTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.script = read(STOCKS_JS)
+        cls.code = strip_js_comments(cls.script)
+
+    def test_every_request_goes_through_the_bridge(self):
+        self.assertIn("window.NewsDigest", self.code)
+        self.assertIn("bridge.workerFetch(", self.code)
+        self.assertNotRegex(self.code, r"(?<![.\w])fetch\(|XMLHttpRequest|WebSocket|EventSource|sendBeacon|import\(")
+        self.assertEqual(len(re.findall(r"workerFetch\(", self.code)), 1)  # one helper, api(), makes every call
+
+    def test_it_asks_only_for_the_contracts_routes(self):
+        self.assertEqual(set(re.findall(r"'(/stocks/[a-z/]*)'", self.code)), STOCK_ROUTES)
+        self.assertNotRegex(self.code, r"/stocks/ingest")
+
+    def test_no_stock_data_in_storage_the_address_or_the_title(self):
+        self.assertNotRegex(self.code, r"localStorage|sessionStorage|indexedDB|document\.cookie|caches\.")
+        self.assertNotRegex(self.code, r"location\.(hash|search|href)\s*=|pushState|replaceState|document\.title")
+        self.assertNotRegex(self.code, r"console\.")
+
+    def test_no_markup_from_strings(self):
+        self.assertIsNone(HTML_SINKS.search(self.code), HTML_SINKS.search(self.code))
+        self.assertIn("textContent", self.code)
+        self.assertIn("createElementNS", self.code)
+
+    def test_only_https_links_to_public_data_hosts(self):
+        self.assertIn("p.protocol !== 'https:'", self.code)
+        # The SVG namespace is a name, not a link, and the only http: string allowed.
+        self.assertEqual(self.code.count("'http://www.w3.org/2000/svg'"), 1)
+        self.assertNotRegex(self.code.replace("'http://www.w3.org/2000/svg'", ""), r"['\"]http:")
+        hosts = set(re.findall(r"'([a-z.]+)'", js_constant(self.code, "LINK_HOSTS")))
+        self.assertEqual(hosts, LINK_HOSTS)
+
+    def test_it_finds_every_element_it_asks_for(self):
+        wanted = set(re.findall(r"\$\('([a-z-]+)'\)", self.code))
+        static = {"stocks", "nav-stocks", "st-meta", "st-toolbar", "st-msg", "st-manage", "st-tabs", "st-panels"}
+        self.assertTrue(static <= wanted, static - wanted)
+        built = set(re.findall(r"\.id = '([a-z-]+)'", self.code))  # the controls stocks.js makes itself
+        self.assertEqual(wanted - Page(read(INDEX)).ids() - built, set())
+
+    def test_the_models_prices_and_rules_match_python_and_config(self):
+        import yaml
+
+        import stocks_support  # noqa: F401  (puts scripts/ on sys.path)
+        import stocks
+
+        with open(CONFIG_YML, encoding="utf-8") as f:
+            cfg = yaml.safe_load(f)["stocks"]
+        models = re.findall(r"'([a-z0-9-]+)'", js_constant(self.code, "STOCKS_MODELS"))
+        self.assertEqual(tuple(models), tuple(stocks.ALLOWED_MODELS))
+        self.assertEqual(set(models), set(cfg["models"]))
+        self.assertEqual(js_constant(self.code, "DEFAULT_MODEL"), "'" + stocks.DEFAULT_MODEL + "'")
+        prices = {m: {k: float(v) for k, v in re.findall(r"(input|output|cache_read): ([0-9.]+)", body)}
+                  for m, body in re.findall(r"'([a-z0-9-]+)': \{([^}]*)\}", js_constant(self.code, "MODEL_PRICES"))}
+        self.assertEqual(prices, {m: {k: float(cfg["models"][m][k]) for k in ("input", "output", "cache_read")}
+                                  for m in cfg["models"]})
+        self.assertEqual(js_constant(self.code, "TICKER_RE"), "/" + stocks.TICKER_RE.pattern + "/")
+        self.assertEqual(int(js_constant(self.code, "MAX_TICKERS")), stocks.MAX_TICKERS)
+        self.assertEqual(js_constant(self.code, "DISCLAIMER"), "'" + stocks.DISCLAIMER + "'")
+
+    def test_plain_punctuation(self):
+        for path in (STOCKS_JS, STYLE_CSS, INDEX, APP_JS):
+            self.assertNotRegex(read(path), "[–—]", os.path.basename(path))
+
+    def test_chart_colours_are_tokens_for_both_themes(self):
+        css = read(STYLE_CSS)
+        for name in ("--ch-s20", "--ch-s50", "--ch-s200"):
+            self.assertEqual(len(re.findall(name + r":\s*#[0-9a-f]{6}", css)), 3, name)  # light, OS dark, chosen dark
+        self.assertNotRegex(self.code, r"#[0-9a-fA-F]{6}\b")  # no colour is written by the script
+
+
+class StockBridgeTests(unittest.TestCase):
+    def test_app_js_exposes_one_frozen_bridge(self):
+        code = strip_js_comments(read(APP_JS))
+        self.assertEqual(code.count("window.NewsDigest"), 1)
+        bridge = re.search(r"window\.NewsDigest = Object\.freeze\(\{(.*?)\}\);", code, flags=re.S)
+        self.assertIsNotNone(bridge)
+        keys = re.findall(r"^\s*(\w+)\s*(?::|,)", bridge.group(1), flags=re.M)
+        self.assertEqual(keys, ["workerFetch", "hasWorker", "hasKey", "onKeyChange"])
+        # The guard's 401 still forgets the key, which tells stocks.js to empty its section.
+        self.assertIn("if (fromGuard && res.status === 401)", code)
+        self.assertIn("keyListeners.slice().forEach", code)
+
+
+# Runs the published page in headless chromium (playwright) against a stand-in Worker that
+# serves stocks_support's example documents, the way the deploy job publishes it: the worker's
+# origin added to connect-src and written into config.js. Prints what happened as JSON.
+STOCKS_HARNESS = r"""
+const { execSync } = require('child_process');
+let pw;
+try { pw = require(execSync('npm root -g').toString().trim() + '/playwright'); } catch (e) { process.exit(3); }
+const fs = require('fs'); const path = require('path'); const http = require('http');
+const [docsDir, siteDir, fixDir] = process.argv.slice(2);
+const ORIGIN = 'https://worker.example.com';
+const KEY = 'test-access-key-123';
+execSync('cp -R ' + JSON.stringify(docsDir) + ' ' + JSON.stringify(siteDir));
+const idx = path.join(siteDir, 'index.html');
+fs.writeFileSync(idx, fs.readFileSync(idx, 'utf8').replace("connect-src 'self'", "connect-src 'self' " + ORIGIN));
+fs.writeFileSync(path.join(siteDir, 'assets/js/config.js'), 'window.NEWS_DIGEST_CONFIG = { workerUrl: "' + ORIGIN + '" };\n');
+const doc = JSON.parse(fs.readFileSync(path.join(fixDir, 'doc.json'), 'utf8'));
+const overview = JSON.parse(fs.readFileSync(path.join(fixDir, 'overview.json'), 'utf8'));
+const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
+
+function worker() {
+  const w = { tickers: ['AAPL', 'EXMPL'], model: 'claude-sonnet-5-5', refreshed: false, calls: [] };
+  w.handle = (method, url, headers, body) => {
+    const p = new URL(url).pathname;
+    w.calls.push([method, p, body || '', headers.authorization === 'Bearer ' + KEY]);
+    const json = (status, b, extra) => ({ status, headers: Object.assign({ 'content-type': 'application/json' }, extra || {}), body: JSON.stringify(b) });
+    if (headers.authorization !== 'Bearer ' + KEY) return json(401, { error: 'unauthorized' }, { 'x-guard': 'deny' });
+    if (p === '/stocks/list') return json(200, { max: 30,
+      tickers: w.tickers.map((t) => (t === 'AAPL' ? { ticker: t, status: doc.status, name: doc.header.name, close: doc.header.last_close, change_pct: doc.header.change_pct, stance: doc.assessment.stance, confidence: doc.assessment.confidence, data_as_of: doc.data_as_of, generated_at: doc.generated_at } : { ticker: t, status: 'pending' })),
+      settings: { model: w.model, default_model: 'claude-sonnet-5-5', allowed_models: ['claude-opus-5-5', 'claude-sonnet-5-5', 'claude-haiku-5-5'] },
+      refresh: { min_minutes: 30, requested_at: null, available_at: null }, overview: { generated_at: overview.generated_at } });
+    if (p === '/stocks/overview') return json(200, overview);
+    if (p === '/stocks/t/AAPL') return json(200, doc);
+    if (p.startsWith('/stocks/t/')) return json(404, { error: 'no analysis yet' });
+    if (p === '/stocks/settings') { w.model = JSON.parse(body).model; return json(200, { ok: true, model: w.model }); }
+    if (p === '/stocks/tickers') {
+      const b = JSON.parse(body);
+      w.tickers = b.action === 'add' ? w.tickers.concat([b.ticker]) : w.tickers.filter((t) => t !== b.ticker);
+      return json(200, { ok: true, changed: true, tickers: w.tickers });
+    }
+    if (p === '/stocks/refresh') return json(202, { ok: true, requested_at: new Date().toISOString(), available_at: new Date(Date.now() + 1800000).toISOString() });
+    return json(404, { error: 'not found' });
+  };
+  return w;
+}
+
+(async () => {
+  const srv = http.createServer((req, res) => {
+    let p = decodeURIComponent(new URL(req.url, 'http://x').pathname);
+    if (p.endsWith('/')) p += 'index.html';
+    const f = path.join(siteDir, p);
+    if (!f.startsWith(siteDir) || !fs.existsSync(f) || fs.statSync(f).isDirectory()) { res.writeHead(404); res.end(); return; }
+    res.writeHead(200, { 'content-type': TYPES[path.extname(f)] || 'application/octet-stream' });
+    res.end(fs.readFileSync(f));
+  });
+  await new Promise((ok) => srv.listen(0, '127.0.0.1', ok));
+  const base = 'http://127.0.0.1:' + srv.address().port + '/index.html';
+  let browser;
+  try { browser = await pw.chromium.launch(); } catch (e) { srv.close(); process.exit(3); }
+  const out = {};
+  const open = async (w, key, scheme, width) => {
+    const ctx = await browser.newContext({ viewport: { width: width || 1280, height: 900 }, colorScheme: scheme || 'dark', reducedMotion: 'reduce' });
+    const page = await ctx.newPage();
+    const errors = [];
+    page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
+    page.on('pageerror', (e) => errors.push(e.message));
+    await page.addInitScript(() => document.addEventListener('securitypolicyviolation', (e) => console.error('CSP violation ' + e.violatedDirective)));
+    if (key) await page.addInitScript((k) => localStorage.setItem('nd_worker_key_v1', k), key);
+    if (scheme) await page.addInitScript((t) => localStorage.setItem('theme', t), scheme);
+    await page.route(ORIGIN + '/**', async (route) => {
+      const q = route.request();
+      const r = w.handle(q.method(), q.url(), q.headers(), q.postData());
+      await route.fulfill({ status: r.status, body: r.body, headers: Object.assign({ 'access-control-allow-origin': '*', 'access-control-expose-headers': 'x-guard', 'access-control-allow-headers': 'authorization, content-type' }, r.headers) });
+    });
+    await page.goto(base);
+    await page.waitForTimeout(800);
+    return { ctx, page, errors };
+  };
+  const shown = (page) => page.evaluate(() => [!document.getElementById('stocks').hidden, !document.getElementById('nav-stocks').hidden, document.getElementById('st-panels').children.length]);
+  try {
+    { // a visitor
+      const w = worker();
+      const { ctx, page, errors } = await open(w, '');
+      out.visitor = { shown: await shown(page), calls: w.calls.length, errors };
+      await ctx.close();
+    }
+    for (const scheme of ['dark', 'light']) { // the key holder
+      const w = worker();
+      const { ctx, page, errors } = await open(w, KEY, scheme);
+      await page.waitForSelector('.st-tile');
+      const r = { shown: await shown(page) };
+      r.market = await page.evaluate(() => ({
+        tabs: Array.from(document.querySelectorAll('[role=tab]')).map((t) => t.getAttribute('data-key')),
+        catalysts: document.querySelectorAll('#st-panel .st-c5 tbody tr').length, tiles: document.querySelectorAll('.st-tile').length,
+        news: document.querySelectorAll('.st-news-i').length, headline: document.querySelector('.st-headline').textContent,
+        yours: document.querySelectorAll('#st-yours tbody tr').length, disclaimer: document.querySelector('.st-disclaimer').textContent }));
+      await page.click('[role=tab][data-key="AAPL"]');
+      await page.waitForSelector('.st-chart svg');
+      r.ticker = await page.evaluate(() => ({
+        name: document.querySelector('.st-tname').textContent, candles: document.querySelectorAll('.st-ch-candles rect').length,
+        lines: ['s20', 's50', 's200', 'rsi', 'ratio'].filter((k) => document.querySelector('.st-ch-' + k)).length,
+        guides: document.querySelectorAll('.st-ch-guide').length, cards: document.querySelectorAll('#st-panel .st-card').length,
+        insiders: document.querySelectorAll('#st-panel a[href^="https://www.sec.gov/"]').length, disclaimer: document.querySelector('.st-disclaimer').textContent,
+        styled: document.querySelectorAll('#stocks [style]').length, wide: document.documentElement.scrollWidth > window.innerWidth }));
+      if (scheme === 'dark') {
+        await page.click('#st-settings');
+        await page.selectOption('#st-model', 'claude-haiku-5-5');
+        await page.waitForFunction(() => /Haiku 5\.5/.test(document.getElementById('st-msg').textContent));
+        await page.fill('#st-ticker', 'not a ticker');
+        await page.click('#st-add-btn');
+        await page.fill('#st-ticker', 'brk.b');
+        await page.click('#st-add-btn');
+        await page.waitForSelector('.st-remove[data-ticker="BRK-B"]');
+        await page.click('.st-remove[data-ticker="EXMPL"]');
+        await page.click('.st-remove[data-ticker="EXMPL"]');
+        await page.waitForFunction(() => /Removed EXMPL/.test(document.getElementById('st-msg').textContent));
+        await page.click('#st-run');
+        await page.waitForFunction(() => /Started/.test(document.getElementById('st-msg').textContent));
+        r.posts = w.calls.filter((c) => c[0] === 'POST').map((c) => c[1] + ' ' + c[2]);
+        r.runDisabled = await page.evaluate(() => document.getElementById('st-run').disabled);
+        r.allKeyed = w.calls.every((c) => c[3]);
+        r.storage = await page.evaluate(() => Object.keys(localStorage).sort().concat(Object.keys(sessionStorage)));
+        r.address = await page.evaluate(() => location.hash + location.search);
+        await page.evaluate(() => { localStorage.setItem('nd_worker_key_v1', 'wrong'); window.dispatchEvent(new StorageEvent('storage', { key: 'nd_worker_key_v1' })); });
+        await page.waitForFunction(() => localStorage.getItem('nd_worker_key_v1') === null && document.getElementById('stocks').hidden);
+        r.after401 = { shown: await shown(page), key: await page.evaluate(() => localStorage.getItem('nd_worker_key_v1')) };
+        r.errors = errors.filter((e) => !/status of 401/.test(e));
+      } else r.errors = errors;
+      out[scheme] = r;
+      await ctx.close();
+    }
+    { // a phone
+      const w = worker();
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 360);
+      await page.waitForSelector('.st-tile');
+      const market = await page.evaluate(() => document.documentElement.scrollWidth);
+      await page.click('[role=tab][data-key="AAPL"]');
+      await page.waitForSelector('.st-chart svg');
+      out.phone = { widths: [market, await page.evaluate(() => document.documentElement.scrollWidth)], errors };
+      await ctx.close();
+    }
+  } finally {
+    await browser.close();
+    srv.close();
+  }
+  console.log(JSON.stringify(out));
+})().catch((e) => { console.error(e && e.stack || e); process.exit(1); });
+"""
+
+
+@unittest.skipUnless(shutil.which("node"), "needs node")
+class StocksBrowserTests(unittest.TestCase):
+    """docs/ in headless chromium with a stand-in Worker; skipped when playwright or chromium is missing."""
+
+    @classmethod
+    def setUpClass(cls):
+        import stocks_support
+
+        tmp = tempfile.mkdtemp(prefix="news-digest-stocks-")
+        cls.addClassCleanup(shutil.rmtree, tmp)
+        fix = os.path.join(tmp, "fixtures")
+        os.mkdir(fix)
+        cls.doc = stocks_support.example_document("AAPL")
+        cls.overview = stocks_support.example_overview()
+        for name, value in (("doc.json", cls.doc), ("overview.json", cls.overview)):
+            with open(os.path.join(fix, name), "w", encoding="utf-8") as f:
+                json.dump(value, f, allow_nan=False)
+        harness = os.path.join(tmp, "harness.js")
+        with open(harness, "w", encoding="utf-8") as f:
+            f.write(STOCKS_HARNESS)
+        res = subprocess.run(["node", harness, DOCS, os.path.join(tmp, "site"), fix],
+                             capture_output=True, text=True, timeout=180)
+        if res.returncode == 3:
+            raise unittest.SkipTest("needs playwright with chromium")
+        if res.returncode != 0:
+            raise AssertionError("the stocks browser harness failed: " + res.stderr[-2000:])
+        cls.got = json.loads(res.stdout)
+
+    def test_a_visitor_sees_nothing_and_sends_nothing(self):
+        self.assertEqual(self.got["visitor"], {"shown": [False, False, 0], "calls": 0, "errors": []})
+
+    def test_the_key_holder_sees_the_market_tab_first(self):
+        for scheme in ("dark", "light"):
+            got = self.got[scheme]
+            self.assertEqual(got["shown"], [True, True, 1], scheme)
+            m = got["market"]
+            self.assertEqual(m["tabs"], ["market", "AAPL", "EXMPL"])
+            self.assertEqual(m["catalysts"], len(self.overview["calendar"]))
+            self.assertEqual(m["tiles"], len(self.overview["macro"]))
+            self.assertEqual(m["news"], len(self.overview["news"]))
+            self.assertEqual(m["headline"], self.overview["summary"]["headline"])
+            self.assertEqual(m["yours"], 2)
+            self.assertEqual(m["disclaimer"], self.overview["disclaimer"])
+
+    def test_a_ticker_tab_draws_the_chart_and_every_block(self):
+        for scheme in ("dark", "light"):
+            t = self.got[scheme]["ticker"]
+            self.assertTrue(t["name"].startswith("AAPL"), scheme)
+            self.assertEqual(t["candles"], 126)          # the default range: six months of daily candles
+            self.assertEqual(t["lines"], 5)              # SMA 20, 50, 200, RSI and the short volume ratio
+            self.assertEqual(t["guides"], 2)             # RSI 30 and 70
+            self.assertEqual(t["cards"], 11)
+            self.assertGreaterEqual(t["insiders"], 2)    # the Form 4 and the 13F links
+            self.assertEqual(t["disclaimer"], self.doc["disclaimer"])
+            self.assertEqual((t["styled"], t["wide"]), (0, False))
+
+    def test_edits_send_exactly_the_contracts_requests(self):
+        got = self.got["dark"]
+        self.assertEqual(got["posts"], [
+            '/stocks/settings {"model":"claude-haiku-5-5"}',
+            '/stocks/tickers {"action":"add","ticker":"BRK-B"}',
+            '/stocks/tickers {"action":"remove","ticker":"EXMPL"}',
+            "/stocks/refresh {}",
+        ])
+        self.assertTrue(got["runDisabled"])
+        self.assertTrue(got["allKeyed"])
+
+    def test_nothing_is_stored_or_put_in_the_address(self):
+        got = self.got["dark"]
+        self.assertEqual(got["storage"], ["nd_worker_key_v1", "theme"])  # the key and the theme the harness set
+        self.assertEqual(got["address"], "")
+
+    def test_the_guards_401_forgets_the_key_and_empties_the_section(self):
+        self.assertEqual(self.got["dark"]["after401"], {"shown": [False, False, 0], "key": None})
+
+    def test_no_console_errors_or_policy_violations(self):
+        for name in ("dark", "light", "phone"):
+            self.assertEqual(self.got[name]["errors"], [], name)
+
+    def test_a_phone_never_scrolls_sideways(self):
+        self.assertEqual(self.got["phone"]["widths"], [360, 360])
 
 
 if __name__ == "__main__":

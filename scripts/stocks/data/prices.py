@@ -111,7 +111,8 @@ def fetch_bars(http, ticker, api_key, start, end=None):
     """Bars from start (a date) to end (a date or None for the latest)."""
     if not isinstance(ticker, str) or not TICKER_RE.match(ticker):
         raise ValueError("not a ticker")
-    if not api_key:
+    api_key = str(api_key or "").strip()
+    if not api_key or any(c in api_key for c in "\r\n\x00"):
         raise PriceError("no Tiingo key", "auth")
     params = {"startDate": start.isoformat()}
     if end is not None:

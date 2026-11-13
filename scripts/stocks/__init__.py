@@ -1,8 +1,18 @@
-"""The private stock section (contract section 3.1).
+"""The private stock section of the dashboard: the names every module shares.
 
-A minimal version of the shared surface, written by the data layer so its
-modules import. The run layer owns this file and may replace it with the full
-version; the names and behavior below follow the contract.
+    data/       public sources (Tiingo, SEC, FINRA, FRED, the calendars, news,
+                House reports); they never print
+    analysis/   indicators, levels, short volume, macro impact and the per
+                ticker learner; pure and deterministic
+    claude.py   the overview and the per ticker assessments, checked in code
+    run.py      the phases of the workflow step by step (config, fetch,
+                analyze, claude, upload, local)
+    privacy.py  masking and redaction: the logs are public
+    worker_client.py  the Worker's ingest routes, where everything private lives
+
+The ticker list is never in this repository: it lives in the Worker's KV
+namespace. Standard library only, apart from anthropic (claude.py, inside
+functions) and pypdf (data/congress.py, inside the PDF function).
 """
 import json
 import math
