@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-13T20:00:17+00:00",
+  "generated_at": "2026-11-14T20:00:16+00:00",
   "items": [
+    {
+      "id": "c9ef94e73692db9ee84ff054754b2b51",
+      "title": "The SEC Rule That Could Transform Small-Cap Capital Raising | Cromwell Coulson",
+      "url": "https://www.youtube.com/watch?v=8dmI6LkStH0",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-14T16:45:41+00:00",
+      "first_seen": "2026-11-14T20:00:16+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Cromwell Coulson, CEO of OTC Markets Group (OTCM), joins Jack to explain how the over-the-counter...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "0d1039c736e08c17b3752bcfff293cc6",
+      "title": "Washington Fired Jensen Huang",
+      "url": "https://www.youtube.com/watch?v=1kf1QWG_YKQ",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-14T14:35:53+00:00",
+      "first_seen": "2026-11-14T20:00:16+00:00",
+      "summary": "Jensen Huang’s exit from Nvidia marks the start of a harder line on China, chip export controls, and corporate power in Washington. NLW breaks down the fight over chip policy, the congressional hearings ahead, the doubts about the spy claims, and what Nvidia’s leadership...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "31a350be1dfd663e46cfb32cf5d4ff1f",
       "title": "Deep Learning Weekly: Issue 481",
@@ -590,23 +620,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "0bbacb21e21669fa13a8857fbdc86c6b",
-      "title": "Everything Important in Anthropic s IPO Prospectus",
-      "url": "https://www.youtube.com/watch?v=IwCkMupiZ4s",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-10-28T10:49:16+00:00",
-      "first_seen": "2026-10-28T10:49:16+00:00",
-      "summary": "Anthropic’s full S1 reveals a business scaling faster than any company before, alongside massive long-term compute commitments. NLW breaks down the revenue, margins, customer growth, and risk disclosures that will shape how investors view the IPO. In the headlines: OpenAI’s...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "83b0bd6990884d10d770aa4c5d74ecd9",
       "title": "Different by Design",
       "url": "https://designplusai.com/p/different-by-design",
@@ -880,20 +893,6 @@
       "themes": [
         "AI/ML"
       ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "c9edfa7ab8feac03de0d17562a529ac0",
-      "title": "The Final Phase of This Bull Market Will Be Massive | Charles Lemonides",
-      "url": "https://www.youtube.com/watch?v=6Sa4fhfgTLY",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-12T19:25:31+00:00",
-      "first_seen": "2026-10-12T19:25:31+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Charles Lemonides, CIO and founder of ValueWorks LLC, joins Other People’s Money to discuss why the...",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [],
       "bucket": "deeper"
     },
     {
