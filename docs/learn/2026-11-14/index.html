@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <!-- The daily learning briefing as a slideshow. The commit job copies this file, unchanged, to
+       docs/learn/YYYY-MM-DD/index.html, so every path here is relative to a dated folder: the
+       briefing is ./briefing.json and the shared assets are two folders up.
+       Strict policy: scripts, styles and fonts load only from this site, the page fetches only
+       its own briefing, and there is no inline script, inline style or event-handler attribute. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Learning briefing</title>
+  <meta name="description" content="The day's learning briefing: a few topics worth knowing, why they matter and what to read first.">
+  <meta name="theme-color" content="#070708">
+  <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../../assets/learn/fonts/dm-serif-display-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../../assets/learn/fonts/outfit-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <!-- The dashboard's theme script: it sets data-theme on <html> from localStorage 'theme' before
+       first paint, so the slides open in the palette the reader chose on the dashboard. -->
+  <script src="../../assets/js/theme.js?v=1"></script>
+  <link rel="stylesheet" href="../../assets/learn/slides.css?v=3">
+  <script src="../../assets/learn/slides.js?v=3" defer></script>
+</head>
+<body>
+<a class="skip" href="#deck">Skip to the slides</a>
+
+<header class="bar">
+  <a class="bar-home" href="../../">News digest</a>
+  <p class="bar-date" id="bar-date"></p>
+  <a class="bar-link" id="pptx-link" href="./briefing.pptx" download hidden>Download .pptx</a>
+</header>
+
+<main class="deck" id="deck" aria-roledescription="slideshow" aria-label="Learning briefing" tabindex="-1">
+  <section class="slide is-current slide-status" id="status" aria-live="polite">
+    <div class="slide-inner">
+      <p class="eyebrow">Learning briefing</p>
+      <h1 class="status-title" id="status-title">Loading the briefing…</h1>
+      <p class="status-text" id="status-text"></p>
+      <noscript><p class="status-text">This slideshow needs JavaScript. The slides are also in briefing.pptx in this folder.</p></noscript>
+      <p class="status-actions" id="status-actions" hidden><a class="pill" href="../../">Back to the dashboard</a></p>
+    </div>
+  </section>
+</main>
+
+<nav class="controls" id="controls" aria-label="Slides" hidden>
+  <button type="button" class="nav-btn" id="prev" aria-label="Previous slide"><span aria-hidden="true">&#8592;</span><span class="nav-word">Previous</span></button>
+  <div class="counter">
+    <p class="count" id="count" aria-hidden="true"></p>
+    <progress class="progress" id="progress" max="1" value="1" aria-hidden="true"></progress>
+    <p class="vh" id="count-live" aria-live="polite" aria-atomic="true"></p>
+  </div>
+  <button type="button" class="nav-btn nav-primary" id="next" aria-label="Next slide"><span class="nav-word">Next</span><span aria-hidden="true">&#8594;</span></button>
+</nav>
+</body>
+</html>

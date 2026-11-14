@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-13",
+  "latest": "2026-11-14",
   "days": [
+    {
+      "date": "2026-11-14",
+      "topics": [
+        "NVIDIA tutorial builds a robot pick-and-place simulation with SimReady assets",
+        "Claude Code v2.1.325 fixes a decoding bug and guides recovery",
+        "OpenAI introduces ChatGPT Wallet so agents can buy with approval",
+        "llama.cpp hits v1.0.0 with API cleanup and FP8 KV caches",
+        "Hugging Face post frames llama.cpp 1.0 as a local AI foundation"
+      ]
+    },
     {
       "date": "2026-11-13",
       "topics": [

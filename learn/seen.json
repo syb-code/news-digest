@@ -415,6 +415,137 @@
         "Latent Space"
       ],
       "primary": false
+    },
+    {
+      "id": "build-a-robot-pick-and-place-simulation-with-simready-assets",
+      "title": "NVIDIA tutorial builds a robot pick-and-place simulation with SimReady assets",
+      "date": "2026-11-14",
+      "logged_at": "2026-11-14T13:47:50+00:00",
+      "terms": [
+        "assets",
+        "pick",
+        "place",
+        "robot",
+        "simready",
+        "simulation",
+        "build"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "claude-code-releases-v2-1-325",
+      "title": "Claude Code v2.1.325 fixes a decoding bug and guides recovery",
+      "date": "2026-11-14",
+      "logged_at": "2026-11-14T13:47:50+00:00",
+      "terms": [
+        "v2.1.325",
+        "code",
+        "added",
+        "autostash",
+        "blocks",
+        "cell",
+        "clear",
+        "compressed",
+        "continue",
+        "decoded",
+        "edited",
+        "fixed"
+      ],
+      "urls": [
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.325"
+      ],
+      "sources": [
+        "Claude Code releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "introducing-chatgpt-wallet",
+      "title": "OpenAI introduces ChatGPT Wallet so agents can buy with approval",
+      "date": "2026-11-14",
+      "logged_at": "2026-11-14T13:47:50+00:00",
+      "terms": [
+        "wallet",
+        "chatgpt",
+        "introducing",
+        "card",
+        "complete",
+        "existing",
+        "protections",
+        "purchases",
+        "secure",
+        "approval",
+        "dots",
+        "user"
+      ],
+      "urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet"
+      ],
+      "sources": [
+        "OpenAI news"
+      ],
+      "primary": true
+    },
+    {
+      "id": "llama-cpp-releases-v1-0-0",
+      "title": "llama.cpp hits v1.0.0 with API cleanup and FP8 KV caches",
+      "date": "2026-11-14",
+      "logged_at": "2026-11-14T13:47:50+00:00",
+      "terms": [
+        "llama.cpp",
+        "apple",
+        "attestations",
+        "cpu",
+        "ios",
+        "macos",
+        "website",
+        "fix",
+        "24.04",
+        "26.04",
+        "arm64",
+        "cuda"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12373",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12374",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12375",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12376",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12377",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12378",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12379",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "llama-cpp-v1-0-0-a-stronger-foundation-for-the-local-ai",
+      "title": "Hugging Face post frames llama.cpp 1.0 as a local AI foundation",
+      "date": "2026-11-14",
+      "logged_at": "2026-11-14T13:47:50+00:00",
+      "terms": [
+        "ecosystem",
+        "foundation",
+        "stronger",
+        "local",
+        "v1.0.0",
+        "llama.cpp"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
     }
   ]
 }
