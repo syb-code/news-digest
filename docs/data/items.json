@@ -1,9 +1,41 @@
 {
-  "generated_at": "2026-11-14T20:00:16+00:00",
+  "generated_at": "2026-11-15T13:46:03+00:00",
   "items": [
     {
+      "id": "e096839007051dd76edc8c2c049d324f",
+      "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
+      "url": "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-15T13:31:28+00:00",
+      "first_seen": "2026-11-15T13:46:03+00:00",
+      "summary": "Listen now | Mona Sarantakos on going from a weekend with OpenClaw to shipping the fastest-growing consumer AI product in history",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "56cbb2e72e1c3c8ff125a8f488720815",
+      "title": "🧠 Community Wisdom: When you become the bottleneck for your AI agents, the PULL framework for PMs, product growth vs. growth marketing, boosting feedback response rates, and more",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-when-you-become",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-14T21:15:46+00:00",
+      "first_seen": "2026-11-15T13:46:03+00:00",
+      "summary": "Community Wisdom 305",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
       "id": "c9ef94e73692db9ee84ff054754b2b51",
-      "title": "The SEC Rule That Could Transform Small-Cap Capital Raising | Cromwell Coulson",
+      "title": "OTC Markets CEO: “Capital Formation Is Broken” | Cromwell Coulson",
       "url": "https://www.youtube.com/watch?v=8dmI6LkStH0",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -804,22 +836,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "b71a58c097aa4071af5203b9d53a78ba",
-      "title": "“Claude cuts my TikTok”: How this creator is scaling video with AI | Brooke Lacey",
-      "url": "https://www.lennysnewsletter.com/p/claude-cuts-my-tiktok-how-this-creator",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-19T12:04:52+00:00",
-      "first_seen": "2026-10-19T12:04:52+00:00",
-      "summary": "Watch now (37 mins) | 🎙️ Brooke Lacey shows live how Claude Code turns a raw phone video into a captioned, jump-cut TikTok in about 15 seconds",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
       "id": "21bb579dcedcbf8ada3e16d3676d675f",
       "title": "AI Credit in Detention: Coreweave's Debt Panic & Jim Bianco's Bull Case for Bonds (Finally!)",
       "url": "https://www.youtube.com/watch?v=bygJZ4o0SJE",
@@ -834,22 +850,6 @@
         "AI/ML"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "3de97cce9e7a733127f39ea8353fe594",
-      "title": "Inside the black box of AI: How AI models actually think | Emmanuel Ameisen (Anthropic)",
-      "url": "https://www.lennysnewsletter.com/p/a-mind-expanding-conversation-on",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-18T12:31:36+00:00",
-      "first_seen": "2026-10-18T12:31:36+00:00",
-      "summary": "Listen now (72 mins) | Emmanuel Ameisen of Anthropic explains what looking inside language models reveals about planning, consciousness, and AI safety",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     },
     {
       "id": "0342c11555e704e4ab6f843ff9ed217d",

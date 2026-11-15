@@ -546,6 +546,122 @@
         "Hugging Face blog"
       ],
       "primary": true
+    },
+    {
+      "id": "b12414-cuda-hip-refactor-the-use-of-sync-warp-primitives",
+      "title": "llama.cpp raises ROCm requirement to 6.3 in warp primitive refactor",
+      "date": "2026-11-15",
+      "logged_at": "2026-11-15T13:48:21+00:00",
+      "terms": [
+        "31617",
+        "b12414",
+        "hip",
+        "primitives",
+        "warp",
+        "refactor",
+        "sync",
+        "cuda",
+        "6.3",
+        "increases",
+        "requirement",
+        "rocm"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12414"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "llama-cpp-releases-b12405",
+      "title": "llama.cpp pushes eight builds with server, grammar and test fixes",
+      "date": "2026-11-15",
+      "logged_at": "2026-11-15T13:48:21+00:00",
+      "terms": [
+        "llama.cpp",
+        "add",
+        "tests",
+        "12.8",
+        "cuda12",
+        "cuda12.8",
+        "vulkan",
+        "cuda",
+        "test",
+        "b12405",
+        "b12406",
+        "b12407"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12405",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12406",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12407",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12408",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12409",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12410",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12411",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12412",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12413"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "metas-muse-how-we-launched-the-most-successful-consumer",
+      "title": "Meta's Muse lead on going from weekend prototype to launch",
+      "date": "2026-11-15",
+      "logged_at": "2026-11-15T13:48:21+00:00",
+      "terms": [
+        "consumer",
+        "launched",
+        "mona",
+        "sarantakos",
+        "successful",
+        "meta",
+        "muse",
+        "product",
+        "fastest",
+        "growing",
+        "openclaw",
+        "weekend"
+      ],
+      "urls": [
+        "https://www.lennysnewsletter.com/p/metas-muse-how-we-launched-the-most"
+      ],
+      "sources": [
+        "Lenny’s Newsletter (Substack)"
+      ],
+      "primary": false
+    },
+    {
+      "id": "vllm-releases-v0-34-0rc4",
+      "title": "vLLM cuts a fourth release candidate for v0.34.0",
+      "date": "2026-11-15",
+      "logged_at": "2026-11-15T13:48:21+00:00",
+      "terms": [
+        "v0.34.0rc4",
+        "vllm",
+        "67296",
+        "gate",
+        "give",
+        "num",
+        "runner",
+        "speculat",
+        "warmup",
+        "test",
+        "tests",
+        "release"
+      ],
+      "urls": [
+        "https://github.com/vllm-project/vllm/releases/tag/v0.34.0rc4"
+      ],
+      "sources": [
+        "vLLM releases"
+      ],
+      "primary": true
     }
   ]
 }

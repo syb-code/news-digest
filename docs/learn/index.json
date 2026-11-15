@@ -1,6 +1,15 @@
 {
-  "latest": "2026-11-14",
+  "latest": "2026-11-15",
   "days": [
+    {
+      "date": "2026-11-15",
+      "topics": [
+        "llama.cpp pushes eight builds with server, grammar and test fixes",
+        "vLLM cuts a fourth release candidate for v0.34.0",
+        "llama.cpp raises ROCm requirement to 6.3 in warp primitive refactor",
+        "Meta's Muse lead on going from weekend prototype to launch"
+      ]
+    },
     {
       "date": "2026-11-14",
       "topics": [
