@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-15T13:46:03+00:00",
+  "generated_at": "2026-11-15T20:00:26+00:00",
   "items": [
+    {
+      "id": "91f70b7d93b6562e47acaccdff7e1cec",
+      "title": "The Bond Squeeze’s Consequences for Stocks, Gold, and AI | Jan van Eck",
+      "url": "https://www.youtube.com/watch?v=X7Bw1_nzatI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-15T19:27:32+00:00",
+      "first_seen": "2026-11-15T20:00:26+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ VanEck CEO Jan van Eck joins Monetary Matters to walk through his firm’s Q4 outlook, “The Bond...",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "e096839007051dd76edc8c2c049d324f",
       "title": "Meta’s Muse: How we launched the most successful consumer product this year | Mona Sarantakos",
@@ -878,22 +894,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "87851ac4274bdfd9b7187057446f6d4d",
-      "title": "Why the AI Bubble Will Pop Before the Fundamental Cycle Turns | Ben Inker | GMO",
-      "url": "https://www.youtube.com/watch?v=0Zi5dOjN45Q",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-14T13:00:35+00:00",
-      "first_seen": "2026-10-14T13:00:35+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Ben Inker, Co-Head of Asset Allocation at GMO, joins Other People’s Money to discuss why the IPOs and...",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
     },
     {
       "id": "c2e951074de24bbc730eaadedcb86d21",
