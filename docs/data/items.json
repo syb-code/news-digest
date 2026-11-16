@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-16T13:46:04+00:00",
+  "generated_at": "2026-11-16T20:00:19+00:00",
   "items": [
+    {
+      "id": "6a3272d428ebdac4822e8a071cc94208",
+      "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-fable-52-review-how-i-fight",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-16T16:02:55+00:00",
+      "first_seen": "2026-11-16T20:00:19+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
+      "read_minutes": 10,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "5c89bdd6d685b0263e02686ae5414544",
       "title": "How I fight token fraud as a solo founder",
@@ -817,20 +833,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "deeper"
-    },
-    {
-      "id": "8578bfdc1f55beec78edfc572fd2a891",
-      "title": "Claude Duet is beautiful. I still forgot to use it",
-      "url": "https://www.lennysnewsletter.com/p/claude-duet-is-beautiful-i-still",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-21T20:25:18+00:00",
-      "first_seen": "2026-10-21T20:25:18+00:00",
-      "summary": "Watch now (16 mins) | 🎙️ I tested Claude Duet, Anthropic's beautifully designed new personal agent, on real work to see if it can beat my personal agent fatigue and make the cut",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     },
     {
       "id": "837d8ebe30760ef352012a2e36326533",
