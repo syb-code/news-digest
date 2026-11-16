@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-15",
+  "latest": "2026-11-16",
   "days": [
+    {
+      "date": "2026-11-16",
+      "topics": [
+        "OpenAI says GPT-6 Astra helped prove a lattice Standard Model idea",
+        "llama.cpp ships a day of template, server and GPU fixes",
+        "LVMH's media division partners with OpenAI on journalism and ChatGPT",
+        "Codex 0.171.0 alphas land with no release notes",
+        "A solo founder on six token fraud attacks and killing trials"
+      ]
+    },
     {
       "date": "2026-11-15",
       "topics": [

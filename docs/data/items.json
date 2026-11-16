@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-15T20:00:26+00:00",
+  "generated_at": "2026-11-16T13:46:04+00:00",
   "items": [
+    {
+      "id": "5c89bdd6d685b0263e02686ae5414544",
+      "title": "How I fight token fraud as a solo founder",
+      "url": "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-16T13:04:09+00:00",
+      "first_seen": "2026-11-16T13:46:04+00:00",
+      "summary": "Watch now (40 mins) | 🎙️ After losing tens of thousands of dollars to token fraud, I walk through six attack patterns, the defenses I built, and why I killed free trials",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
     {
       "id": "91f70b7d93b6562e47acaccdff7e1cec",
       "title": "The Bond Squeeze’s Consequences for Stocks, Gold, and AI | Jan van Eck",
@@ -832,22 +846,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "e82a8343f7d5050b10f692c7cb0a9451",
-      "title": "🎙️ How I AI: Meta Muse Wonder + How Brooke Lacey is scaling video with AI",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-meta-muse-wonder-how-brooke",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-19T15:03:35+00:00",
-      "first_seen": "2026-10-19T15:03:35+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny's Podcast Network",
-      "read_minutes": 7,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "deeper"
     },

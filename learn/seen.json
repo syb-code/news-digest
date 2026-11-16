@@ -662,6 +662,145 @@
         "vLLM releases"
       ],
       "primary": true
+    },
+    {
+      "id": "a-step-toward-defining-the-standard-model-on-a-lattice",
+      "title": "OpenAI says GPT-6 Astra helped prove a lattice Standard Model idea",
+      "date": "2026-11-16",
+      "logged_at": "2026-11-16T13:48:16+00:00",
+      "terms": [
+        "defining",
+        "lattice",
+        "standard",
+        "step",
+        "toward",
+        "definition",
+        "detailed",
+        "explore",
+        "nonperturbative",
+        "candidate",
+        "helped",
+        "proof"
+      ],
+      "urls": [
+        "https://openai.com/index/step-toward-defining-the-standard-model"
+      ],
+      "sources": [
+        "OpenAI news"
+      ],
+      "primary": true
+    },
+    {
+      "id": "how-i-fight-token-fraud-as-a-solo-founder",
+      "title": "A solo founder on six token fraud attacks and killing trials",
+      "date": "2026-11-16",
+      "logged_at": "2026-11-16T13:48:16+00:00",
+      "terms": [
+        "fraud",
+        "solo",
+        "token",
+        "fight",
+        "founder",
+        "attack",
+        "defenses",
+        "dollars",
+        "losing",
+        "patterns",
+        "tens",
+        "thousands"
+      ],
+      "urls": [
+        "https://www.lennysnewsletter.com/p/how-i-fight-token-fraud-as-a-solo"
+      ],
+      "sources": [
+        "Lenny’s Newsletter (Substack)"
+      ],
+      "primary": false
+    },
+    {
+      "id": "llama-cpp-releases-b12428",
+      "title": "llama.cpp ships a day of template, server and GPU fixes",
+      "date": "2026-11-16",
+      "logged_at": "2026-11-16T13:48:16+00:00",
+      "terms": [
+        "llama.cpp",
+        "12.8",
+        "26.04",
+        "cuda12",
+        "cuda12.8",
+        "ubuntu26.04",
+        "zdnn",
+        "libraries",
+        "b12428",
+        "b12430",
+        "b12431",
+        "b12432"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12428",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12430",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12431",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12432",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12433",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12435",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12436",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12438"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "lvmhs-media-division-announces-strategic-partnership-with",
+      "title": "LVMH's media division partners with OpenAI on journalism and ChatGPT",
+      "date": "2026-11-16",
+      "logged_at": "2026-11-16T13:48:16+00:00",
+      "terms": [
+        "division",
+        "lvmh",
+        "media",
+        "announces",
+        "partnership",
+        "strategic",
+        "openai",
+        "accessible",
+        "announce",
+        "journalism",
+        "publications",
+        "support"
+      ],
+      "urls": [
+        "https://openai.com/index/lvmh-media-division-partnership"
+      ],
+      "sources": [
+        "OpenAI news"
+      ],
+      "primary": true
+    },
+    {
+      "id": "openai-codex-releases-0-171-0-alpha-6",
+      "title": "Codex 0.171.0 alphas land with no release notes",
+      "date": "2026-11-16",
+      "logged_at": "2026-11-16T13:48:16+00:00",
+      "terms": [
+        "0.171.0",
+        "releases0.171.0",
+        "codex",
+        "openai",
+        "alpha.6",
+        "alpha.7",
+        "release0.171.0",
+        "release"
+      ],
+      "urls": [
+        "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.6",
+        "https://github.com/openai/codex/releases/tag/rust-v0.171.0-alpha.7"
+      ],
+      "sources": [
+        "OpenAI Codex releases"
+      ],
+      "primary": true
     }
   ]
 }
