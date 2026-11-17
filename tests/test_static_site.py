@@ -541,8 +541,11 @@ class SlideshowBehaviorTests(unittest.TestCase):
 # the access key is set. These checks read the files; StocksBrowserTests below runs the page.
 
 STOCK_ROUTES = {"/stocks/list", "/stocks/overview", "/stocks/t/", "/stocks/tickers", "/stocks/settings",
-                "/stocks/refresh"}
+                "/stocks/refresh", "/stocks/run", "/stocks/stop"}
+# The data hosts a document may link to. github.com is not one of them: the one GitHub link, to a
+# run's page, has its own exact check (RUN_LINK), so a document can never link to github.com.
 LINK_HOSTS = {"sec.gov", "house.gov", "federalreserve.gov", "bls.gov", "bea.gov", "finra.org", "senate.gov"}
+STOCKS_WORKER_JS = os.path.join(support.ROOT, "worker", "stocks.js")
 
 
 def js_constant(code, name):
@@ -630,6 +633,20 @@ class StockScriptTests(unittest.TestCase):
         hosts = set(re.findall(r"'([a-z.]+)'", js_constant(self.code, "LINK_HOSTS")))
         self.assertEqual(hosts, LINK_HOSTS)
 
+    def test_the_one_github_link_is_a_run_page_only(self):
+        pattern = re.search(r"const RUN_LINK = /(.*)/;", self.code).group(1)
+        self.assertEqual(pattern, r"^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/actions\/runs\/\d{1,20}$")
+        self.assertIn("p.hostname === 'github.com' && p.href === u", self.code)
+        self.assertNotIn("github.com", js_constant(self.code, "LINK_HOSTS"))
+
+    def test_the_run_states_match_the_worker(self):
+        worker = strip_js_comments(read(STOCKS_WORKER_JS))
+        def listed(code, name):
+            return re.findall(r"[\'\"]([a-z_]+)[\'\"]", re.search(r"const " + name + r" = \[(.*?)\];", code, flags=re.S).group(1))
+        self.assertEqual(listed(self.code, "RUN_ACTIVE"), listed(worker, "STOCKS_RUN_ACTIVE"))
+        self.assertEqual(listed(self.code, "RUN_CONCLUSIONS"), listed(worker, "STOCKS_RUN_CONCLUSIONS"))
+        self.assertTrue(set(listed(self.code, "RUN_FAILED")) <= set(listed(worker, "STOCKS_RUN_CONCLUSIONS")))
+
     def test_it_finds_every_element_it_asks_for(self):
         wanted = set(re.findall(r"\$\('([a-z-]+)'\)", self.code))
         static = {"stocks", "nav-stocks", "st-meta", "st-toolbar", "st-msg", "st-manage", "st-tabs", "st-panels"}
@@ -705,17 +722,43 @@ execSync('cp -R ' + JSON.stringify(docsDir) + ' ' + JSON.stringify(siteDir));
 const idx = path.join(siteDir, 'index.html');
 fs.writeFileSync(idx, fs.readFileSync(idx, 'utf8').replace("connect-src 'self'", "connect-src 'self' " + ORIGIN));
 fs.writeFileSync(path.join(siteDir, 'assets/js/config.js'), 'window.NEWS_DIGEST_CONFIG = { workerUrl: "' + ORIGIN + '" };\n');
+// The same site under /fast/ with quick looks at the run state (1 s, and 0.3 s for 3 s after Stop the
+// run), for the cases that follow a run through several looks.
+execSync('cp -R ' + JSON.stringify(siteDir) + ' ' + JSON.stringify(siteDir + '.fast'));
+fs.renameSync(siteDir + '.fast', path.join(siteDir, 'fast'));
+{
+  const sj = path.join(siteDir, 'fast', 'assets/js/stocks.js');
+  let code = fs.readFileSync(sj, 'utf8');
+  for (const [a, b] of [['const RUN_CHECK_MS = 30 * 1000;', 'const RUN_CHECK_MS = 1000;'],
+    ['const STOP_CHECK_MS = 10 * 1000;', 'const STOP_CHECK_MS = 300;'], ['const STOP_CHECK_FOR_MS = 2 * 60 * 1000;', 'const STOP_CHECK_FOR_MS = 3000;']]) {
+    if (!code.includes(a)) throw new Error('stocks.js no longer has ' + a);
+    code = code.replace(a, b);
+  }
+  fs.writeFileSync(sj, code);
+}
 const doc = JSON.parse(fs.readFileSync(path.join(fixDir, 'doc.json'), 'utf8'));
 const overview = JSON.parse(fs.readFileSync(path.join(fixDir, 'overview.json'), 'utf8'));
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json', '.svg': 'image/svg+xml', '.woff2': 'font/woff2' };
 
+// The worker's GET /stocks/run: nothing going, and a run of GitHub's list as the worker passes it on.
+const IDLE = { checked: true, active: false, can_start: true, available_at: null, requested_at: null, run: null };
+const iso = (ms) => new Date(Date.now() + ms).toISOString();
+const ghRun = (id, status, conclusion, kind, url) => ({ id, status, conclusion: conclusion || null, kind: kind || 'manual',
+  created_at: iso(-60000), updated_at: iso(-10000), started_at: iso(-55000), url: url || 'https://github.com/owner/news-digest/actions/runs/' + id });
+const state = (run, more) => Object.assign({}, IDLE, { active: !!run && run.status !== 'completed', can_start: !run || run.status === 'completed', run }, more || {});
+
 // opts: tickers, docs (ticker -> document), meta (ticker -> list fields), settings (more list
-// settings), refresh, overview, model, delay (path -> ms, once), abort (a path prefix that fails).
+// settings), refresh, overview, model, delay (path -> ms, once), abort (a path prefix that fails),
+// run (the /stocks/run answer) and runStatus, stop (the /stocks/stop answer) and afterStop (the run
+// state from then on), refreshAnswer (the /stocks/refresh answer) and afterRefresh (likewise).
+// w.runSeq, when set: the /stocks/run answers in turn, the last one kept.
 function worker(opts) {
   opts = opts || {};
   const w = { tickers: (opts.tickers || ['AAPL', 'EXMPL']).slice(), docs: opts.docs || { AAPL: doc }, meta: opts.meta || {},
     settings: opts.settings || {}, refresh: opts.refresh || null, overview: opts.overview || overview, delay: opts.delay || {},
-    abort: opts.abort || '', model: opts.model || 'claude-sonnet-5-5', calls: [] };
+    abort: opts.abort || '', model: opts.model || 'claude-sonnet-5-5', calls: [],
+    run: opts.run || IDLE, runStatus: opts.runStatus || 200, stop: opts.stop || { status: 200, body: { ok: true, stopped: 1 } },
+    afterStop: opts.afterStop || null, refreshAnswer: opts.refreshAnswer || null, afterRefresh: opts.afterRefresh || null };
   const entry = (t) => {
     const d = w.docs[t];
     const e = d ? { ticker: t, status: d.status, name: (d.header || {}).name, close: (d.header || {}).last_close, change_pct: (d.header || {}).change_pct, stance: (d.assessment || {}).stance, confidence: (d.assessment || {}).confidence, data_as_of: d.data_as_of, generated_at: d.generated_at } : { ticker: t, status: 'pending' };
@@ -738,7 +781,16 @@ function worker(opts) {
       w.tickers = b.action === 'add' ? w.tickers.concat([b.ticker]) : w.tickers.filter((t) => t !== b.ticker);
       return json(200, { ok: true, changed: true, tickers: w.tickers });
     }
-    if (p === '/stocks/refresh') return json(202, { ok: true, requested_at: new Date().toISOString(), available_at: new Date(Date.now() + 1800000).toISOString() });
+    if (p === '/stocks/refresh') {
+      if (w.afterRefresh) w.run = w.afterRefresh();
+      const a = w.refreshAnswer ? w.refreshAnswer() : { status: 202, body: { ok: true, requested_at: iso(0), available_at: iso(1800000) } };
+      return json(a.status, a.body);
+    }
+    if (p === '/stocks/run') {
+      if (w.runSeq && w.runSeq.length) w.run = w.runSeq.length > 1 ? w.runSeq.shift() : w.runSeq[0];
+      return json(w.runStatus, w.runStatus === 200 ? w.run : { error: 'not found' });
+    }
+    if (p === '/stocks/stop') { if (w.afterStop) w.run = w.afterStop(); return json(w.stop.status, w.stop.body); }
     return json(404, { error: 'not found' });
   };
   return w;
@@ -755,10 +807,11 @@ function worker(opts) {
   });
   await new Promise((ok) => srv.listen(0, '127.0.0.1', ok));
   const base = 'http://127.0.0.1:' + srv.address().port + '/index.html';
+  const fastBase = 'http://127.0.0.1:' + srv.address().port + '/fast/index.html';
   let browser;
   try { browser = await pw.chromium.launch(); } catch (e) { srv.close(); process.exit(3); }
   const out = {};
-  const open = async (w, key, scheme, width, quiet) => {
+  const open = async (w, key, scheme, width, quiet, fast) => {
     const ctx = await browser.newContext({ viewport: { width: width || 1280, height: 900 }, colorScheme: scheme || 'dark', reducedMotion: 'reduce' });
     const page = await ctx.newPage();
     const errors = [];
@@ -775,7 +828,7 @@ function worker(opts) {
       if (w.delay[p]) { const ms = w.delay[p]; delete w.delay[p]; await new Promise((ok) => setTimeout(ok, ms)); }
       await route.fulfill({ status: r.status, body: r.body, headers: Object.assign({ 'access-control-allow-origin': '*', 'access-control-expose-headers': 'x-guard', 'access-control-allow-headers': 'authorization, content-type' }, r.headers) });
     });
-    await page.goto(base);
+    await page.goto(fast ? fastBase : base);
     await page.waitForTimeout(800);
     return { ctx, page, errors };
   };
@@ -878,7 +931,7 @@ function worker(opts) {
       newer.header.name = 'Newer Example Inc.';
       const w = worker({ overview: Object.assign(copy(overview), { generated_at: new Date(now - 3600000).toISOString() }),
         refresh: { min_minutes: 30, requested_at: new Date(now - 60000).toISOString(), available_at: new Date(now + 1740000).toISOString() },
-        delay: { '/stocks/t/AAPL': 2500 } });
+        run: state(ghRun(400, 'in_progress')), delay: { '/stocks/t/AAPL': 2500 } });
       const { ctx, page, errors } = await open(w, KEY, 'dark');
       w.overview = Object.assign(copy(overview), { generated_at: new Date().toISOString() });
       w.docs = { AAPL: newer };
@@ -938,6 +991,205 @@ function worker(opts) {
         await ctx.close();
       }
     }
+    // ---------- the run on GitHub: GET /stocks/run and POST /stocks/stop ----------
+    const bar = (page) => page.evaluate(() => {
+      const run = document.getElementById('st-run');
+      const stop = document.getElementById('st-stop');
+      const a = document.querySelector('#st-toolbar a');
+      return { lines: Array.from(document.querySelectorAll('#st-toolbar .st-bar-info p')).map((x) => x.textContent),
+        runDisabled: run.disabled, stop: stop ? { text: stop.textContent, cls: stop.className, disabled: stop.disabled, busy: stop.getAttribute('aria-busy') } : null,
+        link: a ? { href: a.getAttribute('href'), text: a.textContent, target: a.target, rel: a.rel } : null,
+        buttons: Array.from(document.querySelectorAll('#st-toolbar button')).map((b) => b.id),
+        msg: document.getElementById('st-msg').textContent, msgLines: Array.from(document.querySelectorAll('#st-msg p')).map((x) => x.textContent),
+        focus: document.activeElement ? document.activeElement.id : '',
+        wide: document.documentElement.scrollWidth, styled: document.querySelectorAll('#stocks [style]').length };
+    });
+    // A time as the page writes it: 12:27 PM today, Nov 16, 12:27 PM another day.
+    const moment = (page, t) => page.evaluate((t) => {
+      const d = new Date(t);
+      const c = new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit' }).format(d);
+      return d.toDateString() === new Date().toDateString() ? c : new Intl.DateTimeFormat('en-US', { month: 'short', day: 'numeric', hour: 'numeric', minute: '2-digit' }).format(d);
+    }, t);
+    const posts = (w, path) => w.calls.filter((c) => c[0] === 'POST' && c[1] === path).length;
+    const reads = (w) => w.calls.filter((c) => c[1] === '/stocks/run').length;
+    out.runs = {};
+    { // a run is going: Stop the run, one POST, then Run analysis now once GitHub says it is over
+      const going = ghRun(501, 'in_progress');
+      const w = worker({ run: state(going), afterStop: () => state(Object.assign({}, going, { status: 'completed', conclusion: 'cancelled', updated_at: iso(0) })),
+        delay: { '/stocks/stop': 800 } });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 390);
+      await page.waitForSelector('#st-stop');
+      const r = { going: await bar(page), started: await moment(page, going.started_at) };
+      await page.click('#st-stop');
+      await page.waitForFunction(() => document.getElementById('st-stop') && document.getElementById('st-stop').textContent === 'Stopping');
+      r.busy = await bar(page);
+      await page.waitForFunction(() => /^Stopped\./.test(document.getElementById('st-msg').textContent));
+      r.stopped = await bar(page);
+      r.readsBefore = reads(w);
+      await page.waitForFunction(() => !document.getElementById('st-run').disabled, null, { timeout: 20000 });
+      r.after = await bar(page);
+      r.stoppedAt = await moment(page, w.run.run.updated_at);
+      r.stops = posts(w, '/stocks/stop');
+      r.refreshes = posts(w, '/stocks/refresh');
+      r.readsAfter = reads(w);
+      r.errors = errors;
+      out.runs.going = r;
+      await ctx.close();
+    }
+    for (const [label, run, width] of [['failed', ghRun(502, 'completed', 'failure'), 390], ['timedOut', ghRun(503, 'completed', 'timed_out', 'scheduled'), 0],
+      ['cancelled', ghRun(504, 'completed', 'cancelled'), 0], ['succeeded', ghRun(505, 'completed', 'success'), 0],
+      ['evilHost', ghRun(506, 'completed', 'failure', 'manual', 'https://evil.example/owner/news-digest/actions/runs/506'), 0],
+      ['lookalike', ghRun(507, 'completed', 'failure', 'manual', 'https://github.com.evil.example/owner/news-digest/actions/runs/507'), 0],
+      ['query', ghRun(508, 'completed', 'failure', 'manual', 'https://github.com/owner/news-digest/actions/runs/508?x=1'), 0],
+      ['plainHttp', ghRun(509, 'completed', 'failure', 'manual', 'http://github.com/owner/news-digest/actions/runs/509'), 0]]) {
+      // The claim of the old 30 minute rule is still on: GitHub's view frees the button all the same.
+      const now = Date.now();
+      const w = worker({ run: state(run, { requested_at: iso(-300000) }), refresh: { min_minutes: 30, requested_at: new Date(now - 300000).toISOString(), available_at: new Date(now + 1500000).toISOString() } });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', width);
+      out.runs[label] = Object.assign(await bar(page), { at: await moment(page, run.updated_at), errors });
+      await ctx.close();
+    }
+    { // inside the start grace: no Stop, and the time it is free again
+      const at = Date.now() + 90000;
+      const w = worker({ run: Object.assign({}, IDLE, { can_start: false, available_at: new Date(at).toISOString(), requested_at: iso(-30000) }) });
+      const { ctx, page, errors } = await open(w, KEY, 'dark');
+      out.runs.grace = Object.assign(await bar(page), { at: await page.evaluate((t) => new Intl.DateTimeFormat('en-US', { hour: 'numeric', minute: '2-digit' }).format(new Date(t)), at), errors });
+      await ctx.close();
+    }
+    { // after Run analysis now: GitHub lists the run, it fails, and the page stops waiting at once
+      const w = worker({ refreshAnswer: () => ({ status: 202, body: { ok: true, requested_at: iso(0), available_at: iso(2000) } }),
+        afterRefresh: () => state(Object.assign(ghRun(510, 'completed', 'failure'), { created_at: iso(1000), updated_at: iso(1500) })) });
+      const { ctx, page, errors } = await open(w, KEY, 'dark');
+      await page.click('#st-run');
+      await page.waitForFunction(() => /^Started\./.test(document.getElementById('st-msg').textContent));
+      const r = { waiting: await bar(page) };
+      await page.waitForFunction(() => /stopped with an error/.test(document.getElementById('st-toolbar').textContent), null, { timeout: 15000 });
+      r.ended = await bar(page);
+      const polls = w.calls.filter((c) => c[1] === '/stocks/overview').length;
+      await page.waitForTimeout(500);
+      r.overviewAfter = w.calls.filter((c) => c[1] === '/stocks/overview').length - polls;
+      r.errors = errors;
+      out.runs.follow = r;
+      await ctx.close();
+    }
+    { // Run analysis now while a run is going (another tab, or the schedule): 409, then Stop shows
+      const w = worker({ refreshAnswer: () => ({ status: 409, body: { error: 'a run is going', active: true } }),
+        afterRefresh: () => state(ghRun(511, 'queued', null, 'scheduled')) });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 0, /status of 409/); // the browser logs the 409 it was sent
+      await page.click('#st-run');
+      await page.waitForSelector('#st-stop');
+      out.runs.busy409 = Object.assign(await bar(page), { errors });
+      await ctx.close();
+    }
+    for (const [label, opts, quiet] of [
+      ['unread', { run: Object.assign({}, IDLE, { checked: false, reason: 'GitHub could not be read', can_start: false }) }],
+      ['notSetUp', { run: Object.assign({}, IDLE, { checked: false, reason: 'not set up', can_start: false }) }],
+      ['oldWorker', { runStatus: 404 }, /status of 404/]]) {
+      // Without GitHub's view the list's rule stands: a start 10 minutes ago, results in since.
+      const now = Date.now();
+      const w = worker(Object.assign({ refresh: { min_minutes: 30, requested_at: new Date(now - 600000).toISOString(), available_at: new Date(now + 1200000).toISOString() },
+        overview: Object.assign(copy(overview), { generated_at: new Date(now - 300000).toISOString() }) }, opts));
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 0, quiet);
+      out.runs[label] = Object.assign(await bar(page), { errors });
+      await ctx.close();
+    }
+    // ---------- following a run through several looks (the /fast/ site) ----------
+    // A wait that does not throw: whether it came, so a page that never gets there fails its own test.
+    const until = (page, fn, ms) => page.waitForFunction(fn, null, { timeout: ms || 10000 }).then(() => true, () => false);
+    const ended = (page) => until(page, () => /stopped with an error/.test(document.getElementById('st-toolbar').textContent));
+    { // the run before failed at startup 20 s ago; GitHub has not listed the new run after several looks
+      const before = Object.assign(ghRun(520, 'completed', 'startup_failure'), { created_at: iso(-20000), updated_at: iso(-15000) });
+      const w = worker({ run: state(before),
+        refreshAnswer: () => ({ status: 202, body: { ok: true, requested_at: iso(0), available_at: iso(120000) } }),
+        afterRefresh: () => Object.assign({}, IDLE, { can_start: false, available_at: iso(120000), requested_at: iso(0), run: before }) });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 390, null, true);
+      const r = { before: await bar(page) };
+      await page.click('#st-run');
+      await page.waitForFunction(() => /^Started\./.test(document.getElementById('st-msg').textContent));
+      r.started = await bar(page);
+      const reads0 = reads(w);
+      await page.waitForTimeout(3500);
+      r.later = await bar(page);
+      r.looks = reads(w) - reads0;
+      await page.evaluate(() => document.getElementById('st-run').click()); // a click on the off button does nothing
+      await page.waitForTimeout(300);
+      r.refreshes = posts(w, '/stocks/refresh');
+      r.errors = errors;
+      out.runs.awaited = r;
+      await ctx.close();
+    }
+    for (const kind of ['scheduled', 'manual']) {
+      // A run is going; one look gets the worker's "GitHub could not be read"; then the run fails.
+      const going = ghRun(530, 'in_progress', null, kind);
+      const failed = Object.assign({}, going, { status: 'completed', conclusion: 'failure', updated_at: iso(0) });
+      const UNREAD = Object.assign({}, IDLE, { checked: false, reason: 'GitHub could not be read', can_start: true });
+      const seq = [state(going), UNREAD, state(going), state(failed)];
+      const w = worker(kind === 'scheduled' ? { run: seq[0] } : {
+        refreshAnswer: () => ({ status: 202, body: { ok: true, requested_at: iso(0), available_at: iso(120000) } }),
+        afterRefresh: () => { w.runSeq = seq.slice(); return w.run; } });
+      if (kind === 'scheduled') w.runSeq = seq.slice();
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 390, null, true);
+      if (kind === 'manual') await page.click('#st-run');
+      await until(page, () => !!document.getElementById('st-stop'));
+      const r = { going: await bar(page) };
+      await until(page, () => /Could not check GitHub/.test(document.getElementById('st-toolbar').textContent));
+      r.blip = await bar(page);
+      await until(page, () => !/Could not check GitHub/.test(document.getElementById('st-toolbar').textContent));
+      r.back = await bar(page);
+      await ended(page);
+      r.ended = await bar(page);
+      r.reads = reads(w);
+      r.errors = errors;
+      out.runs['blip' + kind[0].toUpperCase() + kind.slice(1)] = r;
+      await ctx.close();
+    }
+    { // GitHub could not be read when the page loaded; after Run analysis now it can, and the run is going
+      const w = worker({ run: Object.assign({}, IDLE, { checked: false, reason: 'GitHub could not be read' }),
+        afterRefresh: () => state(ghRun(535, 'in_progress')) });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 0, null, true);
+      const r = { before: await bar(page) };
+      await page.click('#st-run');
+      await until(page, () => !!document.getElementById('st-stop'));
+      r.after = await bar(page);
+      r.errors = errors;
+      out.runs.unreadFirst = r;
+      await ctx.close();
+    }
+    { // the run started here saves its results, then ends with an error (the congress job, say)
+      const w = worker({ refreshAnswer: () => ({ status: 202, body: { ok: true, requested_at: iso(0), available_at: iso(120000) } }),
+        afterRefresh: () => {
+          w.overview = Object.assign(copy(overview), { generated_at: iso(700), run: Object.assign({}, overview.run, { reason: 'manual', finished_at: iso(700) }) });
+          return state(Object.assign(ghRun(540, 'completed', 'failure'), { created_at: iso(500), updated_at: iso(900) }));
+        } });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 390, null, true);
+      const lists0 = w.calls.filter((c) => c[1] === '/stocks/list').length;
+      await page.click('#st-run');
+      await until(page, () => document.getElementById('st-msg').textContent === 'New results are in.');
+      await ended(page);
+      out.runs.savedThenFailed = Object.assign(await bar(page), { lists: w.calls.filter((c) => c[1] === '/stocks/list').length - lists0,
+        at: await moment(page, w.run.run.updated_at), errors });
+      await ctx.close();
+    }
+    { // Stop the run is taken, but GitHub still lists the run as going when the wait after it is over
+      const going = ghRun(550, 'in_progress');
+      const w = worker({ run: state(going) });
+      const { ctx, page, errors } = await open(w, KEY, 'dark', 390, null, true);
+      await page.waitForSelector('#st-stop');
+      await page.click('#st-stop');
+      await page.waitForFunction(() => /^Stopped\./.test(document.getElementById('st-msg').textContent));
+      const r = { stopped: await bar(page) };
+      await until(page, () => /^GitHub has not stopped the run yet\./.test(document.getElementById('st-msg').textContent));
+      r.notYet = await bar(page);
+      await page.waitForTimeout(1500);
+      r.later = await bar(page);
+      w.run = state(Object.assign({}, going, { status: 'completed', conclusion: 'cancelled', updated_at: iso(0) })); // GitHub stops it after all
+      await until(page, () => !document.getElementById('st-run').disabled);
+      r.ended = await bar(page);
+      r.stops = posts(w, '/stocks/stop');
+      r.errors = errors;
+      out.runs.neverStops = r;
+      await ctx.close();
+    }
   } finally {
     await browser.close();
     srv.close();
@@ -968,7 +1220,7 @@ class StocksBrowserTests(unittest.TestCase):
         with open(harness, "w", encoding="utf-8") as f:
             f.write(STOCKS_HARNESS)
         res = subprocess.run(["node", harness, DOCS, os.path.join(tmp, "site"), fix],
-                             capture_output=True, text=True, timeout=180)
+                             capture_output=True, text=True, timeout=300)
         if res.returncode == 3:
             raise unittest.SkipTest("needs playwright with chromium")
         if res.returncode != 0:
@@ -1078,6 +1330,174 @@ class StocksBrowserTests(unittest.TestCase):
         self.assertEqual(self.got["badValues"]["unknown"]["cards"], ["Unknown ticker"])
         self.assertEqual(len(foot), 2)
         self.assertRegex(foot[0], r"^Generated [A-Z][a-z]{2} \d{1,2}, \d{1,2}:\d{2} [AP]M\.$")
+
+    # ---------------------------------------------------------------- the run on GitHub
+
+    def test_a_run_that_is_going_shows_stop_and_one_click_stops_it(self):
+        r = self.got["runs"]["going"]
+        going = r["going"]
+        self.assertEqual(going["lines"][-1], "A run is going. Started at " + r["started"] + " by hand.")
+        self.assertTrue(going["runDisabled"])
+        self.assertEqual(going["stop"], {"text": "Stop the run", "cls": "btn btn-sm", "disabled": False, "busy": None})
+        self.assertEqual(going["buttons"], ["st-run", "st-stop", "st-settings"])
+        # While the worker answers: Stopping, busy.
+        self.assertEqual(r["busy"]["stop"], {"text": "Stopping", "cls": "btn btn-sm", "disabled": True, "busy": "true"})
+        stopped = r["stopped"]
+        self.assertEqual(stopped["msg"], "Stopped. Run analysis now is ready once GitHub has stopped it, usually within a minute.")
+        self.assertEqual(stopped["lines"][-1], "The run is stopping. GitHub usually takes under a minute.")
+        self.assertIsNone(stopped["stop"])
+        self.assertTrue(stopped["runDisabled"])  # not before GitHub says the run is over
+        self.assertEqual(stopped["focus"], "st-msg")  # the clicked button is gone
+        after = r["after"]
+        self.assertFalse(after["runDisabled"])
+        self.assertIsNone(after["stop"])
+        self.assertEqual(after["lines"], ["The last run was stopped at " + r["stoppedAt"] + "."])
+        self.assertEqual((r["stops"], r["refreshes"]), (1, 0))  # exactly one POST /stocks/stop
+        self.assertGreater(r["readsAfter"], r["readsBefore"])  # it looked again before it freed the button
+        self.assertEqual(r["errors"], [])
+
+    def test_a_run_that_ended_with_an_error_links_to_github(self):
+        runs = self.got["runs"]
+        failed = runs["failed"]
+        self.assertEqual(failed["lines"], ["The last run stopped with an error at " + failed["at"] + ". See what happened on GitHub"])
+        self.assertEqual(failed["link"], {"href": "https://github.com/owner/news-digest/actions/runs/502",
+                                          "text": "See what happened on GitHub", "target": "_blank", "rel": "noopener noreferrer"})
+        # The claim of the old 30 minute rule is still on, but the run is over: the button is free.
+        self.assertFalse(failed["runDisabled"])
+        self.assertIsNone(failed["stop"])
+        self.assertEqual(runs["timedOut"]["lines"][0],
+                         "The last run stopped with an error at " + runs["timedOut"]["at"] + ". See what happened on GitHub")
+        # Anything but a run page on github.com over https is no link.
+        for label in ("evilHost", "lookalike", "query", "plainHttp"):
+            got = runs[label]
+            self.assertIsNone(got["link"], label)
+            self.assertEqual(got["lines"], ["The last run stopped with an error at " + got["at"] + "."], label)
+
+    def test_a_stopped_run_and_a_finished_run(self):
+        runs = self.got["runs"]
+        self.assertEqual(runs["cancelled"]["lines"], ["The last run was stopped at " + runs["cancelled"]["at"] + "."])
+        self.assertRegex(runs["succeeded"]["lines"][0], r"^Last run [A-Z][a-z]{2} \d{1,2}, ")  # the overview's line, as before
+        for label in ("cancelled", "succeeded"):
+            self.assertFalse(runs[label]["runDisabled"], label)
+            self.assertIsNone(runs[label]["stop"], label)
+            self.assertIsNone(runs[label]["link"], label)
+
+    def test_inside_the_start_grace_the_button_waits(self):
+        grace = self.got["runs"]["grace"]
+        self.assertEqual(grace["lines"][-1], "Run analysis now is available again at " + grace["at"] + ".")
+        self.assertTrue(grace["runDisabled"])
+        self.assertIsNone(grace["stop"])
+
+    def test_the_page_stops_waiting_when_the_run_it_started_fails(self):
+        follow = self.got["runs"]["follow"]
+        self.assertIn("Waiting for the results of the run you started. This page checks every 2 minutes while it is open.",
+                      follow["waiting"]["lines"])
+        self.assertTrue(follow["waiting"]["runDisabled"])
+        ended = follow["ended"]
+        self.assertTrue(ended["lines"][0].startswith("The last run stopped with an error at "), ended["lines"])
+        self.assertFalse([line for line in ended["lines"] if line.startswith("Waiting")])
+        self.assertEqual(ended["msg"], "")  # "Started. Results in about 15 minutes." is gone
+        self.assertFalse(ended["runDisabled"])
+        self.assertEqual(follow["overviewAfter"], 0)  # and no more looks for results
+        self.assertEqual(follow["errors"], [])
+
+    def test_run_analysis_now_while_a_run_is_going_offers_stop(self):
+        busy = self.got["runs"]["busy409"]
+        self.assertEqual(busy["msg"], "A run is already going. Stop it first, or wait for its results.")
+        self.assertTrue(busy["lines"][-1].startswith("A run is going. Started at "), busy["lines"])
+        self.assertTrue(busy["lines"][-1].endswith(" on schedule."), busy["lines"])
+        self.assertTrue(busy["runDisabled"])
+        self.assertEqual(busy["stop"]["text"], "Stop the run")
+        self.assertEqual(busy["focus"], "st-msg")
+
+    def test_without_githubs_view_the_page_works_as_before(self):
+        runs = self.got["runs"]
+        self.assertIn("Could not check GitHub for a run just now.", runs["unread"]["lines"])
+        for label in ("unread", "notSetUp", "oldWorker"):
+            got = runs[label]
+            self.assertRegex(got["lines"][-1], r"^Run analysis now is available again at \d{1,2}:\d{2}\s[AP]M\.$", label)
+            self.assertTrue(got["runDisabled"], label)
+            self.assertIsNone(got["stop"], label)
+            if label != "unread":
+                self.assertFalse([line for line in got["lines"] if "GitHub" in line], label)
+
+    def test_the_run_states_raise_no_errors_and_fit_a_phone(self):
+        runs = self.got["runs"]
+        for label, got in runs.items():
+            self.assertEqual(got["errors"], [], label)
+        for got in (runs["going"]["going"], runs["going"]["stopped"], runs["going"]["after"], runs["failed"],
+                    runs["awaited"]["later"], runs["blipManual"]["blip"], runs["blipScheduled"]["blip"],
+                    runs["savedThenFailed"], runs["neverStops"]["notYet"]):
+            self.assertEqual((got["wide"], got["styled"]), (390, 0))
+
+    def test_a_start_waits_for_its_own_run_not_the_one_before(self):
+        r = self.got["runs"]["awaited"]
+        # Before the click, the run before is the newest run: it stopped at startup.
+        self.assertTrue(r["before"]["lines"][0].startswith("The last run stopped with an error at "), r["before"]["lines"])
+        self.assertFalse(r["before"]["runDisabled"])
+        waiting = "Waiting for the results of the run you started. This page checks every 2 minutes while it is open."
+        for label in ("started", "later"):
+            got = r[label]
+            # The worker still names the run before as the newest run; the page waits for its own.
+            self.assertEqual(got["lines"][-1], waiting, label)
+            self.assertRegex(got["lines"][0], r"^Last run [A-Z][a-z]{2} \d{1,2}, ", label)
+            self.assertFalse([line for line in got["lines"] if "error" in line or "stopped" in line], label)
+            self.assertTrue(got["runDisabled"], label)
+            self.assertIsNone(got["stop"], label)
+            self.assertEqual(got["msgLines"][0], "Started. Results in about 15 minutes.", label)
+        self.assertGreaterEqual(r["looks"], 3)  # it kept looking
+        self.assertEqual(r["refreshes"], 1)  # and a second click started nothing
+
+    def test_one_unread_answer_does_not_end_the_following(self):
+        for label in ("blipScheduled", "blipManual"):
+            r = self.got["runs"][label]
+            for state in ("going", "blip", "back"):
+                got = r[state]
+                self.assertTrue(got["runDisabled"], (label, state))
+                self.assertEqual((got["stop"] or {}).get("text"), "Stop the run", (label, state))
+                self.assertTrue([line for line in got["lines"] if line.startswith("A run is going.")], (label, state))
+            self.assertIn("Could not check GitHub for a run just now.", r["blip"]["lines"])
+            self.assertNotIn("Could not check GitHub for a run just now.", r["back"]["lines"])
+            # The next looks came, and the page saw the run end.
+            self.assertGreaterEqual(r["reads"], 4, label)
+            ended = r["ended"]
+            self.assertTrue(ended["lines"][0].startswith("The last run stopped with an error at "), (label, ended["lines"]))
+            self.assertFalse([line for line in ended["lines"] if line.startswith("Waiting")], label)
+            self.assertFalse(ended["runDisabled"], label)
+            self.assertIsNone(ended["stop"], label)
+        self.assertEqual(self.got["runs"]["blipManual"]["ended"]["msg"], "")  # "Started." is gone with the waiting
+
+    def test_a_page_without_githubs_view_looks_again_while_it_waits(self):
+        r = self.got["runs"]["unreadFirst"]
+        self.assertIn("Could not check GitHub for a run just now.", r["before"]["lines"])
+        self.assertIsNone(r["before"]["stop"])
+        after = r["after"]
+        self.assertEqual((after["stop"] or {}).get("text"), "Stop the run")
+        self.assertTrue([line for line in after["lines"] if line.startswith("A run is going. Started at ")], after["lines"])
+        self.assertNotIn("Could not check GitHub for a run just now.", after["lines"])
+        self.assertTrue(after["runDisabled"])
+
+    def test_a_run_that_saved_its_results_then_failed_keeps_them(self):
+        got = self.got["runs"]["savedThenFailed"]
+        self.assertEqual(got["msg"], "New results are in.")
+        self.assertGreaterEqual(got["lists"], 1)  # the section loaded again
+        self.assertRegex(got["lines"][0], r"^Last run [A-Z][a-z]{2} \d{1,2}, \d{1,2}:\d{2} [AP]M, started by hand\. ")
+        self.assertEqual(got["lines"][1], "The last run stopped with an error at " + got["at"] + ". See what happened on GitHub")
+        self.assertEqual(len(got["lines"]), 2)  # no waiting line
+        self.assertFalse(got["runDisabled"])
+
+    def test_a_stop_that_does_not_take_says_so(self):
+        r = self.got["runs"]["neverStops"]
+        self.assertEqual(r["stopped"]["msgLines"], ["Stopped. Run analysis now is ready once GitHub has stopped it, usually within a minute."])
+        for label in ("notYet", "later"):
+            got = r[label]
+            self.assertEqual(got["msgLines"], ["GitHub has not stopped the run yet.", "Try Stop the run again."], label)
+            self.assertEqual(got["stop"], {"text": "Stop the run", "cls": "btn btn-sm", "disabled": False, "busy": None}, label)
+            self.assertTrue(got["runDisabled"], label)
+        self.assertEqual(r["stops"], 1)
+        # When GitHub does stop it later, the warning goes.
+        self.assertEqual((r["ended"]["msg"], r["ended"]["stop"], r["ended"]["runDisabled"]), ("", None, False))
+        self.assertTrue(r["ended"]["lines"][0].startswith("The last run was stopped at "), r["ended"]["lines"])
 
     def test_the_cost_estimate_rounds_and_stops_at_the_spend_cap(self):
         cost = self.got["cost"]

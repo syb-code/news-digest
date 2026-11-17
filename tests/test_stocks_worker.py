@@ -22,6 +22,7 @@
 
 Tickers here are public examples (AAPL, BRK-B, MSFT) or made up.
 """
+import datetime
 import json
 import os
 import re
@@ -132,19 +133,47 @@ const require = createRequire(import.meta.url);
 const { Miniflare } = require(process.argv[2]);
 const script = readFileSync(process.argv[3], "utf8");
 const plan = JSON.parse(readFileSync(process.argv[4], "utf8"));
-const GITHUB = `export default { async fetch(request, env) {
-  const log = JSON.parse((await env.LOG.get("log")) || "[]");
+// GitHub: every request is logged. The list of stocks.yml runs answers the
+// case's runs (a list of runs, {status} for an error, {raw} for a body as it
+// is); a cancel answers the case's cancels[id], 202 by default; any other
+// request takes the next of the case's answers, 204 by default. One request at
+// a time touches the log and the answers, so requests sent together lose none.
+const GITHUB = `let chain = Promise.resolve();
+function locked(fn) { const p = chain.then(fn); chain = p.catch(() => {}); return p; }
+export default { async fetch(request, env) {
   const body = request.method === "GET" ? null : await request.text();
-  log.push({ url: request.url, method: request.method, auth: request.headers.get("authorization"),
-             agent: request.headers.get("user-agent"), body });
-  await env.LOG.put("log", JSON.stringify(log));
-  const answers = JSON.parse((await env.LOG.get("answers")) || "[]");
-  const answer = answers.length ? answers.shift() : 204;
-  await env.LOG.put("answers", JSON.stringify(answers));
+  const path = new URL(request.url).pathname;
+  const isList = request.method === "GET" && path.endsWith("/actions/workflows/stocks.yml/runs");
+  const cancelId = request.method === "POST" && path.endsWith("/cancel") ? path.split("/").at(-2) : null;
+  const answer = await locked(async () => {
+    const log = JSON.parse((await env.LOG.get("log")) || "[]");
+    log.push({ url: request.url, method: request.method, auth: request.headers.get("authorization"),
+               agent: request.headers.get("user-agent"), body });
+    await env.LOG.put("log", JSON.stringify(log));
+    if (isList || cancelId) return null;
+    const answers = JSON.parse((await env.LOG.get("answers")) || "[]");
+    const next = answers.length ? answers.shift() : 204;
+    await env.LOG.put("answers", JSON.stringify(answers));
+    return next;
+  });
+  if (isList) {
+    const runs = JSON.parse((await env.LOG.get("runs")) || "[]");
+    if (Array.isArray(runs)) return new Response(JSON.stringify({ total_count: runs.length, workflow_runs: runs }), { status: 200 });
+    if (runs.raw !== undefined) return new Response(runs.raw, { status: 200 });
+    return new Response(JSON.stringify({ message: "Server said " + runs.status }), { status: runs.status });
+  }
+  if (cancelId) {
+    const status = JSON.parse((await env.LOG.get("cancels")) || "{}")[cancelId] || 202;
+    return new Response(JSON.stringify(status === 202 ? {} : { message: "Server said " + status }), { status });
+  }
   if (typeof answer === "object" && answer.delay) await new Promise((resolve) => setTimeout(resolve, answer.delay));
   if (typeof answer === "object") return new Response(JSON.stringify(answer.body), { status: answer.status });
   return new Response(answer === 204 ? null : JSON.stringify({ message: "Server said " + answer }), { status: answer });
 } };`;
+// "ago:N" anywhere in a seed or a list of runs is the time N seconds before the case runs.
+const when = (v) => (typeof v === "string" && /^ago:-?\d+$/.test(v) ? new Date(Date.now() - Number(v.slice(4)) * 1000).toISOString()
+  : Array.isArray(v) ? v.map(when)
+  : v && typeof v === "object" ? Object.fromEntries(Object.entries(v).map(([k, x]) => [k, when(x)])) : v);
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 // A body sent slowly ({first, wait}: the first bytes, a pause, the rest) or
 // one that sends n bytes and then stays open.
@@ -204,9 +233,11 @@ for (const inst of plan) {
   for (const c of inst.cases) {
     await log.put("log", "[]");
     await log.put("answers", JSON.stringify(c.answers || []));
+    await log.put("runs", JSON.stringify(c.runs === undefined ? [] : when(c.runs)));
+    await log.put("cancels", JSON.stringify(c.cancels || {}));
     for (const [k, v] of Object.entries(c.seed || {})) {
       if (v === null) await kv.delete(k);
-      else await kv.put(k, JSON.stringify(v));
+      else await kv.put(k, JSON.stringify(when(v)));
     }
     let seen = {};
     if (c.scheduled) {
@@ -279,6 +310,29 @@ LONE = chr(0xD800) * 60  # a lone surrogate: also 6 bytes a character in JSON, a
 SPELLINGS = [chr(c) for c in range(0x10000) if chr(c).isspace()] + [chr(0xFEFF), chr(0x200B), chr(0)]
 OVERRIDES = {"AAPL": {"names": ["Apple"]}, "aapl": {"cusips": ["037833100"]}, "msft": {"names": ["Microsoft"]},
              "ZZZQ": {"names": ["Made up"]}}
+
+
+REPO_RUNS = "https://github.com/owner/news-digest/actions/runs/"
+LIST_URL = "https://api.github.com/repos/owner/news-digest/actions/workflows/stocks.yml/runs?branch=main&per_page=20"
+HOSTILE_URL = "https://evil.example/owner/news-digest/actions/runs/41"
+
+
+def gh_run(id_, status, conclusion=None, ago=60, title="Stocks (manual)", **extra):
+    """One run as GitHub's list shows it, created `ago` seconds before the case runs."""
+    run = {"id": id_, "name": "Stocks", "status": status, "conclusion": conclusion, "event": "workflow_dispatch",
+           "display_title": title, "created_at": f"ago:{ago}", "updated_at": f"ago:{max(ago - 30, 0)}",
+           "run_started_at": f"ago:{ago}", "html_url": REPO_RUNS + str(id_), "head_branch": "main"}
+    run.update(extra)
+    return run
+
+
+# Runs that must not reach the page as they are: GitHub's own link and a made-up
+# title, a status and a conclusion outside the lists, times that are not times,
+# and ids that are not run ids (those runs are dropped).
+HOSTILE = [gh_run(41, "hacking", "pwned", title="Stocks (manual) <img src=x onerror=alert(1)>",
+                  html_url=HOSTILE_URL, created_at="yesterday", updated_at=12345, run_started_at=None),
+           gh_run("42", "queued"), gh_run(-43, "queued"), gh_run(44.5, "queued"), gh_run(2 ** 60, "queued"),
+           gh_run(True, "queued"), "not a run", None]
 
 
 def heavy(ticker, text):
@@ -395,6 +449,113 @@ PLAN = [
     {"name": "no repo", "kv": True, "bindings": {k: v for k, v in FULL.items() if k != "GH_REPO"}, "cases": [
         {"name": "refresh", "method": "POST", "path": "/stocks/refresh", "headers": key()},
         {"name": "cron 05:45", "scheduled": "2026-07-15T12:45:00Z"},
+        {"name": "run", "path": "/stocks/run", "headers": key(), "runs": [gh_run(1, "in_progress")]},
+        {"name": "run, a claim", "path": "/stocks/run", "headers": key(), "seed": {"stocks:refresh": {"requested_at": "ago:300"}}},
+        {"name": "stop", "method": "POST", "path": "/stocks/stop", "headers": key(), "keys": ["stocks:refresh"]},
+    ]},
+    {"name": "no token", "kv": True, "bindings": {k: v for k, v in FULL.items() if k != "GH_DISPATCH_TOKEN"}, "cases": [
+        {"name": "run", "path": "/stocks/run", "headers": key()},
+        {"name": "stop", "method": "POST", "path": "/stocks/stop", "headers": key()},
+    ]},
+    {"name": "runs", "kv": True, "bindings": FULL, "cases": [
+        # GET /stocks/run in each state
+        {"name": "run, no key", "path": "/stocks/run", "headers": {"origin": PAGES}},
+        {"name": "run, the ingest key", "path": "/stocks/run", "headers": key(INGEST)},
+        {"name": "run, wrong method", "method": "POST", "path": "/stocks/run", "headers": key(), "body": {}},
+        {"name": "run, none", "path": "/stocks/run", "headers": key(), "seed": {"stocks:refresh": None}},
+        {"name": "run, queued", "path": "/stocks/run", "headers": key(), "runs": [gh_run(11, "queued", ago=20)]},
+        {"name": "run, in progress", "path": "/stocks/run", "headers": key(),
+         "runs": [gh_run(10, "completed", "success", ago=86400, title="Stocks (scheduled)"),
+                  gh_run(12, "in_progress", ago=300, title="Stocks (scheduled)")]},
+        {"name": "run, failed", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:100"}}, "runs": [gh_run(13, "completed", "failure", ago=90)]},
+        {"name": "run, cancelled", "path": "/stocks/run", "headers": key(),
+         "runs": [gh_run(14, "completed", "cancelled", ago=200)]},
+        {"name": "run, starting", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:20"}}, "runs": []},
+        {"name": "run, starting with an older run listed", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:20"}},
+         "runs": [gh_run(15, "completed", "success", ago=3600, title="Stocks (scheduled)")]},
+        {"name": "run, listed within the clock skew", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:20"}}, "runs": [gh_run(16, "queued", ago=50)]},
+        {"name": "run, unreadable", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:60"}}, "runs": {"status": 500}},
+        {"name": "run, bad json", "path": "/stocks/run", "headers": key(), "seed": {"stocks:refresh": None},
+         "runs": {"raw": "{not json"}},
+        {"name": "run, no list in the answer", "path": "/stocks/run", "headers": key(), "runs": {"raw": '{"total_count": 1}'}},
+        {"name": "run, hostile", "path": "/stocks/run", "headers": key(), "runs": HOSTILE},
+        # POST /stocks/stop
+        {"name": "stop, no key", "method": "POST", "path": "/stocks/stop", "headers": {"origin": PAGES}},
+        {"name": "stop, wrong method", "path": "/stocks/stop", "headers": key()},
+        {"name": "stop, two going", "method": "POST", "path": "/stocks/stop", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:300"}}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(21, "in_progress", ago=250), gh_run(20, "pending", ago=260, title="Stocks (scheduled)"),
+                  gh_run(19, "completed", "success", ago=3600)]},
+        {"name": "stop, one already ending", "method": "POST", "path": "/stocks/stop", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:300"}}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(22, "in_progress", ago=250)], "cancels": {"22": 409}},
+        {"name": "stop, a cancel fails", "method": "POST", "path": "/stocks/stop", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:300"}}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(23, "in_progress", ago=250), gh_run(24, "queued", ago=100)], "cancels": {"24": 500}},
+        {"name": "stop, inside the grace", "method": "POST", "path": "/stocks/stop", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:20"}}, "keys": ["stocks:refresh"], "runs": []},
+        {"name": "stop, nothing going", "method": "POST", "path": "/stocks/stop", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:600"}}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(25, "completed", "success", ago=550)]},
+        {"name": "stop, unreadable", "method": "POST", "path": "/stocks/stop", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:300"}}, "keys": ["stocks:refresh"], "runs": {"status": 502}},
+        # POST /stocks/refresh against the runs
+        {"name": "refresh, a run is going", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": OLD_RUN}}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(31, "in_progress", ago=120, title="Stocks (scheduled)")]},
+        # inside the grace and inside the old 30 minutes, but the run is listed and over
+        {"name": "refresh, right after a failed run", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:90"}}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(32, "completed", "failure", ago=80)]},
+        {"name": "refresh, right after a stop", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": None}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(33, "completed", "cancelled", ago=120)]},
+        {"name": "refresh, inside the grace", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:30"}}, "keys": ["stocks:refresh"], "runs": []},
+        {"name": "refresh, unreadable, inside 30 minutes", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:300"}}, "runs": {"status": 500}},
+        {"name": "refresh, bad json, inside 30 minutes", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:300"}}, "runs": {"raw": "<html>"}},
+        {"name": "refresh, unreadable, after 30 minutes", "method": "POST", "path": "/stocks/refresh", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:3600"}}, "runs": {"status": 500}, "keys": ["stocks:refresh"]},
+        {"name": "refresh, then stop inside the grace, then the run state", "seed": {"stocks:refresh": None},
+         "together": [{"method": "POST", "path": "/stocks/refresh", "headers": key()},
+                      {"method": "POST", "path": "/stocks/stop", "headers": key(), "after": 600},
+                      {"path": "/stocks/run", "headers": key(), "after": 700}]},
+        # A run that ended in the minute before the click is not the run asked for: GitHub has not
+        # listed the new one yet (the stand-in never does), so the start grace holds.
+        *[{"name": f"two refreshes in turn, {label}", "seed": seed, "runs": runs,
+           "together": [{"method": "POST", "path": "/stocks/refresh", "headers": key()},
+                        {"method": "POST", "path": "/stocks/refresh", "headers": key(), "after": 1500},
+                        {"path": "/stocks/run", "headers": key(), "after": 1800}]}
+          for label, seed, runs in (
+              ("a run stopped 40 s before", {"stocks:refresh": None}, [gh_run(50, "completed", "cancelled", ago=40)]),
+              ("a run stopped 58 s before", {"stocks:refresh": None}, [gh_run(50, "completed", "cancelled", ago=58)]),
+              ("a start that failed 50 s before", {"stocks:refresh": {"requested_at": "ago:55"}},
+               [gh_run(51, "completed", "startup_failure", ago=50)]),
+              ("a scheduled run that finished 30 s before", {"stocks:refresh": None},
+               [gh_run(52, "completed", "success", ago=30, title="Stocks (scheduled)")]),
+              ("a run stopped 90 s before", {"stocks:refresh": None}, [gh_run(53, "completed", "cancelled", ago=90)]))],
+        {"name": "run, stop, run, a run stopped 45 s before", "seed": {"stocks:refresh": None}, "keys": ["stocks:refresh"],
+         "runs": [gh_run(54, "completed", "cancelled", ago=45)],
+         "together": [{"method": "POST", "path": "/stocks/refresh", "headers": key()},
+                      {"method": "POST", "path": "/stocks/stop", "headers": key(), "after": 1000},
+                      {"method": "POST", "path": "/stocks/refresh", "headers": key(), "after": 2000}]},
+        # The claim names the newest run listed when it was written; a run with a higher id is the one asked for.
+        {"name": "run, the run asked for is listed", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:20", "after_id": 55}},
+         "runs": [gh_run(56, "queued", ago=5), gh_run(55, "completed", "failure", ago=30)]},
+        {"name": "run, only the run before is listed", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:20", "after_id": 55}},
+         "runs": [gh_run(55, "completed", "failure", ago=30)]},
+        {"name": "run, the claim is older than the grace", "path": "/stocks/run", "headers": key(),
+         "seed": {"stocks:refresh": {"requested_at": "ago:130", "after_id": 55}},
+         "runs": [gh_run(55, "completed", "failure", ago=140)]},
     ]},
     {"name": "github refuses", "kv": True, "bindings": FULL, "cases": [
         {"name": "refresh", "method": "POST", "path": "/stocks/refresh", "headers": key(), "answers": [403],
@@ -405,7 +566,8 @@ PLAN = [
          "answers": [{"status": 204, "delay": 800}],
          "together": [{"method": "POST", "path": "/stocks/refresh", "headers": key()},
                       {"method": "POST", "path": "/stocks/refresh", "headers": key(), "after": 100}]},
-        {"name": "refresh refused, the run before is kept", "seed": {"stocks:refresh": {"requested_at": OLD_RUN}},
+        {"name": "refresh refused, the run before is kept",
+         "seed": {"stocks:refresh": {"requested_at": OLD_RUN, "after_id": 40}},
          "method": "POST", "path": "/stocks/refresh", "headers": key(), "answers": [403], "keys": ["stocks:refresh"]},
     ]},
     {"name": "edges", "kv": True, "bindings": FULL, "cases": [
@@ -435,6 +597,29 @@ PLAN = [
            "body": {"action": "remove", "ticker": f"{ch}brk.b{ch}"}} for ch in SPELLINGS],
     ]},
 ]
+
+
+# Each case of "runs" starts from the claim it names, none when it names none.
+for _case in next(i for i in PLAN if i["name"] == "runs")["cases"]:
+    _case.setdefault("seed", {"stocks:refresh": None})
+
+
+def seconds_between(a, b):
+    """Seconds from one ISO time to another."""
+    def parse(v):
+        return datetime.datetime.fromisoformat(v.replace("Z", "+00:00"))
+
+    return round((parse(b) - parse(a)).total_seconds())
+
+
+def dispatches(seen):
+    """The requests that asked GitHub to start a run."""
+    return [c for c in seen["github"] if c["method"] == "POST" and c["url"].endswith("/dispatches")]
+
+
+def cancels(seen):
+    """The run ids GitHub was asked to cancel, in order."""
+    return [int(c["url"].split("/")[-2]) for c in seen["github"] if c["url"].endswith("/cancel")]
 
 
 @unittest.skipUnless(shutil.which("node") and find_miniflare(), "needs node and miniflare")
@@ -562,22 +747,26 @@ class WorkerdTests(unittest.TestCase):
     def test_refresh_is_rate_limited_and_starts_stocks_yml(self):
         status, body = self.status("refresh")
         self.assertEqual((status, body["ok"]), (202, True))
+        # GitHub's list of runs first (nothing going), then the start.
         calls = self.r("refresh")["github"]
-        self.assertEqual(len(calls), 1)
-        self.assertEqual(calls[0]["url"],
-                         "https://api.github.com/repos/owner/news-digest/actions/workflows/stocks.yml/dispatches")
-        self.assertEqual(json.loads(calls[0]["body"]), {"ref": "main", "inputs": {"reason": "manual"}})
-        self.assertEqual(calls[0]["auth"], f"Bearer {TOKEN}")
+        self.assertEqual([(c["method"], c["url"]) for c in calls], [
+            ("GET", LIST_URL),
+            ("POST", "https://api.github.com/repos/owner/news-digest/actions/workflows/stocks.yml/dispatches")])
+        self.assertEqual(json.loads(calls[1]["body"]), {"ref": "main", "inputs": {"reason": "manual"}})
+        for c in calls:
+            self.assertEqual((c["auth"], c["agent"]), (f"Bearer {TOKEN}", "news-digest-stocks"))
+        # GitHub lists no run yet: the start grace of 2 minutes, not 30.
+        self.assertEqual(seconds_between(body["requested_at"], body["available_at"]), 120)
         seen = self.r("refresh again")
         self.assertEqual((seen["status"], seen["body"]["error"], seen["guard"]),
                          (429, "a run was started recently", None))
-        self.assertTrue(1700 <= seen["body"]["retry_after_seconds"] <= 1800)
-        self.assertEqual(seen["github"], [])
+        self.assertTrue(60 <= seen["body"]["retry_after_seconds"] <= 120, seen["body"])
+        self.assertEqual(dispatches(seen), [])
         self.assertEqual(self.status("refresh", "no repo")[0], 500)
         refused = self.r("refresh", "github refuses")
         self.assertEqual((refused["status"], refused["kv"]["stocks:refresh"]), (502, None))
         retried = self.r("refresh, 5xx then taken", "github refuses")
-        self.assertEqual((retried["status"], len(retried["github"])), (202, 2))
+        self.assertEqual((retried["status"], len(dispatches(retried))), (202, 2))
         self.assertIsNotNone(retried["kv"]["stocks:refresh"])
 
     def test_remove_forgets_everything_and_the_list_stops_at_thirty(self):
@@ -640,11 +829,11 @@ class WorkerdTests(unittest.TestCase):
         seen = self.r("refresh, two together while GitHub is slow", "github refuses")
         self.assertEqual([a["status"] for a in seen["answers"]], [202, 429])
         self.assertEqual(seen["answers"][1]["body"]["error"], "a run was started recently")
-        self.assertEqual(len(seen["github"]), 1)
+        self.assertEqual(len(dispatches(seen)), 1)
         # GitHub refuses: the record of the run before is put back as it was.
         kept = self.r("refresh refused, the run before is kept", "github refuses")
-        self.assertEqual((kept["status"], len(kept["github"])), (502, 1))
-        self.assertEqual(kept["kv"]["stocks:refresh"]["value"], {"requested_at": OLD_RUN})
+        self.assertEqual((kept["status"], len(dispatches(kept))), (502, 1))
+        self.assertEqual(kept["kv"]["stocks:refresh"]["value"], {"requested_at": OLD_RUN, "after_id": 40})
 
     def test_a_remove_during_an_upload_wins(self):
         seen = self.r("remove during an upload", "edges")
@@ -694,13 +883,212 @@ class WorkerdTests(unittest.TestCase):
         for code, want in (("001c", 200), ("0085", 200), ("feff", 400)):
             self.assertEqual(self.status(f"spelling {code}", "edges")[0], want, code)
 
+    # ------------------------------------------------------------ the runs: GET /stocks/run, POST /stocks/stop
+
+    def test_the_run_routes_sit_behind_the_guard(self):
+        for name in ("run, no key", "run, the ingest key", "stop, no key"):
+            seen = self.r(name, "runs")
+            self.assertEqual((seen["status"], seen["guard"], seen["github"]), (401, "deny", []), name)
+        self.assertEqual(self.status("run, wrong method", "runs"), (405, {"error": "use GET"}))
+        self.assertEqual(self.status("stop, wrong method", "runs"), (405, {"error": "use POST"}))
+        seen = self.r("run, none", "runs")
+        self.assertEqual((seen["cache"], seen["cors"], seen["guard"]), ("no-store", PAGES, None))
+
+    def test_the_run_state_reads_githubs_list_of_runs(self):
+        seen = self.r("run, none", "runs")
+        self.assertEqual((seen["status"], seen["body"]), (200, {
+            "checked": True, "active": False, "can_start": True, "available_at": None, "requested_at": None, "run": None}))
+        self.assertEqual([(c["method"], c["url"], c["auth"]) for c in seen["github"]],
+                         [("GET", LIST_URL, f"Bearer {TOKEN}")])
+        status, body = self.status("run, queued", "runs")
+        self.assertEqual((status, body["checked"], body["active"], body["can_start"]), (200, True, True, False))
+        self.assertEqual(body["run"], {"id": 11, "status": "queued", "conclusion": None, "kind": "manual",
+                                       "created_at": body["run"]["created_at"], "updated_at": body["run"]["updated_at"],
+                                       "started_at": body["run"]["started_at"], "url": REPO_RUNS + "11"})
+        self.assertRegex(body["run"]["created_at"], r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\.\d{3}Z$")
+        # Newest first, whatever GitHub's order.
+        body = self.status("run, in progress", "runs")[1]
+        self.assertEqual((body["active"], body["can_start"], body["run"]["id"], body["run"]["status"], body["run"]["kind"]),
+                         (True, False, 12, "in_progress", "scheduled"))
+        body = self.status("run, failed", "runs")[1]
+        self.assertEqual((body["active"], body["can_start"], body["available_at"]), (False, True, None))
+        self.assertEqual((body["run"]["status"], body["run"]["conclusion"]), ("completed", "failure"))
+        body = self.status("run, cancelled", "runs")[1]
+        self.assertEqual((body["can_start"], body["run"]["conclusion"], body["run"]["url"]), (True, "cancelled", REPO_RUNS + "14"))
+
+    def test_a_run_still_being_created_holds_the_start_for_two_minutes(self):
+        for name in ("run, starting", "run, starting with an older run listed"):
+            body = self.status(name, "runs")[1]
+            self.assertEqual((body["checked"], body["active"], body["can_start"]), (True, False, False), name)
+            self.assertEqual(seconds_between(body["requested_at"], body["available_at"]), 120, name)
+        self.assertEqual(self.status("run, starting with an older run listed", "runs")[1]["run"]["id"], 15)
+        # A run created a little before the claim, by GitHub's clock, is the one asked for.
+        body = self.status("run, listed within the clock skew", "runs")[1]
+        self.assertEqual((body["active"], body["can_start"], body["available_at"]), (True, False, None))
+
+    def test_without_github_the_claim_rule_of_30_minutes_stands(self):
+        body = self.status("run, unreadable", "runs")[1]
+        self.assertEqual((body["checked"], body["reason"], body["active"], body["can_start"], body["run"]),
+                         (False, "GitHub could not be read", False, False, None))
+        self.assertEqual(seconds_between(body["requested_at"], body["available_at"]), 1800)
+        for name in ("run, bad json", "run, no list in the answer"):
+            body = self.status(name, "runs")[1]
+            self.assertEqual((body["checked"], body["reason"], body["can_start"]), (False, "GitHub could not be read", True), name)
+        # Not set up: no request to GitHub, the claim alone, and still 200 so the page works.
+        for inst in ("no repo", "no token"):
+            seen = self.r("run", inst)
+            self.assertEqual((seen["status"], seen["body"], seen["github"]), (200, {
+                "checked": False, "reason": "not set up", "active": False, "can_start": True, "available_at": None,
+                "requested_at": None, "run": None}, []), inst)
+        body = self.status("run, a claim", "no repo")[1]
+        self.assertEqual((body["checked"], body["can_start"]), (False, False))
+        self.assertEqual(seconds_between(body["requested_at"], body["available_at"]), 1800)
+
+    def test_githubs_link_and_title_never_reach_the_page(self):
+        status, body = self.status("run, hostile", "runs")
+        self.assertEqual(status, 200)
+        # Only run 41 has a run id; its link is built from GH_REPO and the id.
+        self.assertEqual(body["run"], {"id": 41, "status": "unknown", "conclusion": None, "kind": "unknown",
+                                       "created_at": None, "updated_at": None, "started_at": None,
+                                       "url": REPO_RUNS + "41"})
+        self.assertEqual((body["active"], body["can_start"]), (False, True))  # a status GitHub may add never holds the button
+        text = json.dumps(self.r("run, hostile", "runs")["body"])
+        for leak in ("evil.example", "onerror", "<img", "hacking", "pwned", "yesterday"):
+            self.assertNotIn(leak, text)
+
+    def test_stop_cancels_exactly_the_runs_that_are_going_and_clears_the_claim(self):
+        seen = self.r("stop, two going", "runs")
+        self.assertEqual((seen["status"], seen["body"]), (200, {"ok": True, "stopped": 2}))
+        self.assertEqual(cancels(seen), [21, 20])
+        for c in seen["github"]:
+            if c["url"].endswith("/cancel"):
+                self.assertEqual((c["method"], c["auth"]), ("POST", f"Bearer {TOKEN}"))
+                self.assertTrue(c["url"].startswith("https://api.github.com/repos/owner/news-digest/actions/runs/"))
+        self.assertEqual(dispatches(seen), [])
+        self.assertIsNone(seen["kv"]["stocks:refresh"])
+        # 409: GitHub is already ending that run, which counts as stopped.
+        seen = self.r("stop, one already ending", "runs")
+        self.assertEqual((seen["status"], seen["body"], cancels(seen)), (200, {"ok": True, "stopped": 1}, [22]))
+        self.assertIsNone(seen["kv"]["stocks:refresh"])
+        # Nothing going: nothing to cancel, and the claim goes.
+        seen = self.r("stop, nothing going", "runs")
+        self.assertEqual((seen["status"], seen["body"], cancels(seen)), (200, {"ok": True, "stopped": 0}, []))
+        self.assertIsNone(seen["kv"]["stocks:refresh"])
+
+    def test_stop_keeps_the_claim_when_github_does_not_stop_a_run(self):
+        seen = self.r("stop, a cancel fails", "runs")
+        self.assertEqual(seen["status"], 502)
+        self.assertEqual(seen["body"], {"error": "GitHub did not stop the run: GitHub answered 500 Server said 500", "stopped": 1})
+        self.assertEqual(cancels(seen), [24, 23])
+        self.assertIsNotNone(seen["kv"]["stocks:refresh"])
+        seen = self.r("stop, unreadable", "runs")
+        self.assertEqual((seen["status"], seen["body"], cancels(seen)),
+                         (502, {"error": "GitHub could not be read, so nothing was stopped"}, []))
+        self.assertIsNotNone(seen["kv"]["stocks:refresh"])
+        for inst in ("no repo", "no token"):
+            seen = self.r("stop", inst)
+            self.assertEqual((seen["status"], seen["body"], seen["github"]),
+                             (500, {"error": "this worker cannot stop runs: set GH_REPO and GH_DISPATCH_TOKEN"}, []), inst)
+        self.assertIsNotNone(self.r("stop", "no repo")["kv"]["stocks:refresh"])
+
+    def test_stop_inside_the_grace_says_the_run_is_still_starting(self):
+        seen = self.r("stop, inside the grace", "runs")
+        self.assertEqual((seen["status"], seen["body"]["error"]), (409, "the run is still starting, try again in a minute"))
+        self.assertTrue(60 <= seen["body"]["retry_after_seconds"] <= 100, seen["body"])
+        self.assertEqual(cancels(seen), [])
+        self.assertIsNotNone(seen["kv"]["stocks:refresh"])
+        # Start, then Stop before GitHub lists the run, then the state: still starting.
+        start, stop, state = self.r("refresh, then stop inside the grace, then the run state", "runs")["answers"]
+        self.assertEqual(start["status"], 202)
+        self.assertEqual((stop["status"], stop["body"]["error"]), (409, "the run is still starting, try again in a minute"))
+        self.assertEqual((state["status"], state["body"]["can_start"], state["body"]["requested_at"]),
+                         (200, False, start["body"]["requested_at"]))
+        self.assertEqual(state["body"]["available_at"], start["body"]["available_at"])
+
+    def test_a_run_that_ended_just_before_the_click_is_not_the_run_asked_for(self):
+        for label in ("a run stopped 40 s before", "a run stopped 58 s before", "a start that failed 50 s before",
+                      "a scheduled run that finished 30 s before", "a run stopped 90 s before"):
+            seen = self.r(f"two refreshes in turn, {label}", "runs")
+            first, second, state = seen["answers"]
+            self.assertEqual((first["status"], second["status"]), (202, 429), label)
+            self.assertEqual(second["body"]["error"], "a run was started recently", label)
+            self.assertTrue(100 <= second["body"]["retry_after_seconds"] <= 120, (label, second["body"]))
+            self.assertEqual(len(dispatches(seen)), 1, label)  # one run, not two
+            body = state["body"]
+            self.assertEqual((body["checked"], body["active"], body["can_start"]), (True, False, False), label)
+            self.assertEqual(body["available_at"], first["body"]["available_at"], label)
+        # Run, Stop before GitHub lists the run, Run again: the run is still starting, and the claim stays.
+        seen = self.r("run, stop, run, a run stopped 45 s before", "runs")
+        start, stop, again = seen["answers"]
+        self.assertEqual(start["status"], 202)
+        self.assertEqual((stop["status"], stop["body"]["error"]), (409, "the run is still starting, try again in a minute"))
+        self.assertEqual((again["status"], again["body"]["error"]), (429, "a run was started recently"))
+        self.assertEqual((len(dispatches(seen)), cancels(seen)), (1, []))
+        self.assertEqual(seen["kv"]["stocks:refresh"]["value"], {"requested_at": start["body"]["requested_at"], "after_id": 54})
+
+    def test_the_claim_knows_the_run_it_was_written_after(self):
+        seen = self.r("refresh, right after a failed run", "runs")
+        self.assertEqual(seen["kv"]["stocks:refresh"]["value"], {"requested_at": seen["body"]["requested_at"], "after_id": 32})
+        seen = self.r("refresh, inside the grace", "runs")  # refused: the claim is not touched
+        self.assertNotIn("after_id", seen["kv"]["stocks:refresh"]["value"])
+        # Without GitHub's list there is no run id to keep.
+        seen = self.r("refresh, unreadable, after 30 minutes", "runs")
+        self.assertEqual(seen["kv"]["stocks:refresh"]["value"], {"requested_at": seen["body"]["requested_at"]})
+        body = self.status("run, the run asked for is listed", "runs")[1]
+        self.assertEqual((body["active"], body["can_start"], body["available_at"], body["run"]["id"]), (True, False, None, 56))
+        body = self.status("run, only the run before is listed", "runs")[1]
+        self.assertEqual((body["active"], body["can_start"], body["run"]["id"]), (False, False, 55))
+        self.assertEqual(seconds_between(body["requested_at"], body["available_at"]), 120)
+        # After the grace, a run that was asked for but never listed no longer holds the button.
+        body = self.status("run, the claim is older than the grace", "runs")[1]
+        self.assertEqual((body["active"], body["can_start"], body["available_at"]), (False, True, None))
+
+    def test_refresh_is_refused_while_a_run_is_going(self):
+        seen = self.r("refresh, a run is going", "runs")
+        self.assertEqual((seen["status"], seen["body"], seen["guard"]), (409, {"error": "a run is going", "active": True}, None))
+        self.assertEqual(dispatches(seen), [])
+        self.assertEqual(seen["kv"]["stocks:refresh"]["value"], {"requested_at": OLD_RUN})  # no claim written
+
+    def test_a_failed_or_stopped_run_frees_the_start_at_once(self):
+        for name in ("refresh, right after a failed run", "refresh, right after a stop"):
+            seen = self.r(name, "runs")
+            self.assertEqual((seen["status"], seen["body"]["ok"]), (202, True), name)
+            self.assertEqual(len(dispatches(seen)), 1, name)
+            self.assertEqual(seen["kv"]["stocks:refresh"]["value"]["requested_at"], seen["body"]["requested_at"], name)
+            self.assertEqual(seconds_between(seen["body"]["requested_at"], seen["body"]["available_at"]), 120, name)
+
+    def test_refresh_inside_the_grace_answers_429(self):
+        seen = self.r("refresh, inside the grace", "runs")
+        self.assertEqual((seen["status"], seen["body"]["error"]), (429, "a run was started recently"))
+        self.assertTrue(60 <= seen["body"]["retry_after_seconds"] <= 90, seen["body"])
+        self.assertEqual(dispatches(seen), [])
+
+    def test_refresh_falls_back_to_30_minutes_when_github_cannot_be_read(self):
+        for name in ("refresh, unreadable, inside 30 minutes", "refresh, bad json, inside 30 minutes"):
+            seen = self.r(name, "runs")
+            self.assertEqual((seen["status"], seen["body"]["error"]), (429, "a run was started recently"), name)
+            self.assertTrue(1400 <= seen["body"]["retry_after_seconds"] <= 1500, seen["body"])
+            self.assertEqual(dispatches(seen), [], name)
+        seen = self.r("refresh, unreadable, after 30 minutes", "runs")
+        self.assertEqual((seen["status"], len(dispatches(seen))), (202, 1))
+        self.assertEqual(seconds_between(seen["body"]["requested_at"], seen["body"]["available_at"]), 1800)
+
+    def test_the_run_log_lines_hold_no_id_of_a_secret(self):
+        logs = "\n".join(self.got["runs: logs"])
+        self.assertIn("Stocks: stop asked, 2 runs cancelled", logs)
+        self.assertIn("Stocks: stop asked, 1 run cancelled", logs)
+        self.assertIn("Stocks: stop asked, 1 of 2 runs cancelled: GitHub answered 500", logs)
+        self.assertIn("Stocks: stop asked, but the list of runs could not be read, so nothing was stopped", logs)
+        for leak in (TOKEN, ACCESS, INGEST, "evil.example", "onerror", "Bearer"):
+            self.assertNotIn(leak, logs)
+
 
 BLOCK = r"""
 import { readFileSync } from "node:fs";
 const text = readFileSync(process.argv[2], "utf8");
 const logs = [];
 console.log = (...parts) => logs.push(parts.join(" "));
-const block = new Function(text + "\nreturn { stocksSave, stocksRefreshRestore };")();
+const block = new Function(text + "\nreturn { stocksSave, stocksRefreshRestore, stocksRunOf };")();
 const out = {};
 // KV refuses every write, with a message that names the key.
 const refusing = {
@@ -720,14 +1108,24 @@ const flaky = {
   async put(name, value) { if (refusals-- > 0) throw new Error("KV PUT failed: 429"); writes.push([name, value]); },
   async delete(name) { if (refusals-- > 0) throw new Error("KV DELETE failed: 429"); writes.push([name, null]); },
 };
-for (const [label, before, refuse] of [["put back", "2026-01-02T03:04:05.000Z", 1], ["deleted", null, 1],
-  ["refused twice", null, 2]]) {
+for (const [label, before, refuse] of [["put back", { requested_at: "2026-01-02T03:04:05.000Z", after_id: 41 }, 1],
+  ["put back, no id", { requested_at: "2026-01-02T03:04:05.000Z" }, 0], ["deleted", null, 1], ["refused twice", null, 2]]) {
   writes.length = 0;
   refusals = refuse;
   const started = Date.now();
   await block.stocksRefreshRestore({ STOCKS_KV: flaky }, before);
   out[label] = { writes: [...writes], ms: Date.now() - started, logs: logs.splice(0) };
 }
+// One run of GitHub's list at a time, as GitHub might send it.
+const repo = "owner/news-digest";
+const good = { id: 7, status: "completed", conclusion: "timed_out", display_title: "Stocks (scheduled)",
+  created_at: "2026-11-17T20:26:00Z", updated_at: "2026-11-17T20:27:05.5Z", run_started_at: "2026-11-17T20:26:03Z",
+  html_url: "https://evil.example/x" };
+out.runOf = [good, { ...good, id: 0 }, { ...good, id: Number.MAX_SAFE_INTEGER + 1 }, { ...good, id: "7" },
+  { ...good, status: "toString", conclusion: "constructor", display_title: "__proto__" },
+  { ...good, created_at: "2026-11-17", updated_at: "+275760-09-13T00:00:00Z", run_started_at: "2026-02-30T00:00:00Z" },
+  { ...good, created_at: "2026-11-17T20:26:00+01:00", updated_at: "2026-11-17T24:00:00Z" },
+  { ...good, display_title: ["Stocks (manual)"] }, null, 7].map((r) => block.stocksRunOf(r, repo));
 process.stdout.write(JSON.stringify(out) + "\n");
 """
 
@@ -756,14 +1154,30 @@ class BlockTests(unittest.TestCase):
 
     def test_the_refresh_record_is_put_back_on_the_second_try(self):
         put_back = self.got["put back"]
-        self.assertEqual(put_back["writes"], [["stocks:refresh", '{"requested_at":"2026-01-02T03:04:05.000Z"}']])
+        # The whole record of the run before, the run id it was written after included.
+        self.assertEqual(put_back["writes"], [["stocks:refresh", '{"requested_at":"2026-01-02T03:04:05.000Z","after_id":41}']])
         self.assertGreaterEqual(put_back["ms"], 1000)  # KV takes one write a second for a key
+        self.assertEqual(self.got["put back, no id"]["writes"], [["stocks:refresh", '{"requested_at":"2026-01-02T03:04:05.000Z"}']])
         self.assertEqual(self.got["deleted"]["writes"], [["stocks:refresh", None]])
-        for label in ("put back", "deleted"):
+        for label in ("put back", "put back, no id", "deleted"):
             self.assertEqual(self.got[label]["logs"], [], label)
         self.assertEqual(self.got["refused twice"]["writes"], [])
         self.assertEqual(self.got["refused twice"]["logs"],
-                         ["Stocks: the refresh limit could not be put back, so the next manual run waits 30 minutes"])
+                         ["Stocks: the refresh limit could not be put back, so the next manual run may wait up to 30 minutes"])
+
+    def test_one_run_of_githubs_list_keeps_only_checked_fields(self):
+        good, *rest = self.got["runOf"]
+        self.assertEqual(good, {"id": 7, "status": "completed", "conclusion": "timed_out", "kind": "scheduled",
+                                "created_at": "2026-11-17T20:26:00.000Z", "updated_at": "2026-11-17T20:27:05.500Z",
+                                "started_at": "2026-11-17T20:26:03.000Z",
+                                "url": "https://github.com/owner/news-digest/actions/runs/7"})
+        no_id, too_big, text_id, odd_names, odd_times, offsets, list_title, none, number = rest
+        self.assertEqual([no_id, too_big, text_id, none, number], [None] * 5)
+        self.assertEqual((odd_names["status"], odd_names["conclusion"], odd_names["kind"]), ("unknown", None, "unknown"))
+        # Not a full ISO time, beyond four digits of year, or no such day: no time.
+        self.assertEqual((odd_times["created_at"], odd_times["updated_at"], odd_times["started_at"]), (None, None, None))
+        self.assertEqual((offsets["created_at"], offsets["updated_at"]), (None, None))  # GitHub's times are UTC
+        self.assertEqual(list_title["kind"], "unknown")
 
 
 class ClientTests(unittest.TestCase):

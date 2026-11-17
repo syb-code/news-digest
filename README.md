@@ -47,7 +47,7 @@ A Cloudflare cron trigger starts the runs (`worker/scheduler.js`, and `worker/st
 | `.github/workflows/daily.yml` | The morning and noon runs. |
 | `worker/` | Blocks to paste into your Cloudflare Worker: `auth-guard.js` (the lock), `scheduler.js` (the clock), `sources.js` (add and remove X accounts from the dashboard) and `stocks.js` (the private stock section). `worker.js` is all four in one file, for a Worker with no summaries code of its own. |
 | `scripts/stocks/` | The private stock run: data from public sources (`data/`), indicators and the per ticker learner (`analysis/`), Claude (`claude.py`) and the phases of the run (`run.py`). Standard library only, apart from the Anthropic SDK. |
-| `.github/workflows/stocks.yml` | The stock run. Started by the Worker at 5:45 AM and by "Run analysis now". |
+| `.github/workflows/stocks.yml` | The stock run. Started by the Worker at 5:45 AM and by "Run analysis now", stopped by "Stop the run". |
 | `.github/workflows/sources.yml` | Adds or removes one X account in `data/x_accounts.json`, then starts a noon run to publish it. Started by the Worker when the owner edits the list. |
 | `data/x_accounts.json` | The X accounts on the dashboard. Without it, `feeds.twitter_embeds` in `config.yml` is used. |
 | `tests/` | Offline tests: `python3 -m unittest discover -s tests`. |
@@ -81,6 +81,16 @@ A section of the dashboard that only the holder of the Worker's access key sees.
 
 **Data sources.** Prices from Tiingo (a free key). Filings from SEC EDGAR, short data from FINRA, macro series from FRED, calendars and news from the Federal Reserve, BLS and BEA, all without a key. Senate trades only with an optional Financial Modeling Prep key.
 
+**Starting and stopping a run.** **Run analysis now** on the dashboard starts a run at once. Before it starts one, the Worker reads GitHub's list of stock runs:
+
+- While a run is queued or going, the button is off and the page says when the run started. **Stop the run** sits next to it and stops every stock run that is going. The button comes back once GitHub has stopped the run, usually within a minute.
+- A run that failed or was stopped frees the button at once. A failed run links to its page on GitHub, so you can see what happened.
+- GitHub can take up to a minute to list a run it was asked to start, so after a start the button waits until GitHub lists the new run, for at most 2 minutes. A run that ended just before the click does not count as the new one.
+- A run can save its results and still end with an error. The page then shows the new results and the error line under them.
+- When the Worker cannot read GitHub, the old rule stands: one start every 30 minutes.
+
+The page asks the Worker's `GET /stocks/run` whether a run is going, and sends `POST /stocks/refresh` to start one and `POST /stocks/stop` to stop it. All three need the access key. The full list of routes is at the top of `worker/stocks.js`.
+
 **Model and cost.** The default is `claude-sonnet-5-5`; you can switch between `claude-opus-5-5`, `claude-sonnet-5-5` and `claude-haiku-5-5` on the dashboard. One call per ticker and one for the overview, each checked in code. With Sonnet and eight tickers a trading day costs about $0.55 to $0.80 (about $12 to $17 a month); Opus about twice that, Haiku about a twentieth. A run stops asking Claude once its worst case would pass `stocks.max_run_usd` in `config.yml` ($3.00); the tickers it skips keep the code's levels. Prices and limits are in the `stocks` section of `config.yml`, which never holds a ticker.
 
 ## Security design
@@ -100,7 +110,7 @@ The repository and the page are public, so everything is built on the assumption
 - **Only the owner can change it.** Others can read and copy the code. They cannot push to it, and a fork or a copy gets none of the secrets or variables.
 - **No workflow runs on pull requests**, and every job is off unless the variable `DIGEST_ENABLED` is `true`.
 - **No third-party code runs next to a secret or a write token.** Feeds are fetched in a job with no secret. The Claude step installs only the Anthropic SDK. The commit job installs nothing and copies only checked files. The email runs on the standard library. Every package is pinned by hash.
-- **Only the key holder edits the X accounts.** The dashboard sends the edit to the Worker, which checks the access key and then starts a workflow with a token that can start workflows and nothing else. The workflow checks the handle again, runs no third-party code, and is the only thing that writes the list.
+- **Only the key holder edits the X accounts.** The dashboard sends the edit to the Worker, which checks the access key and then starts a workflow with a token limited to this repository's Actions. The Worker uses it only to start a run, read the list of runs and stop a run. The workflow checks the handle again, runs no third-party code, and is the only thing that writes the list.
 - **The Worker is locked.** `worker/auth-guard.js` refuses any request without the access key, so visitors can browse the dashboard but only the owner can spend the AI budget.
 - **Stock data stays private.** The ticker list is never in a file or a workflow input. The stock job masks every ticker before it prints anything, logs counts only, keeps its files in a private temporary folder and deletes it, and saves its results only in the Worker. The Worker's ingest routes take their own key, compared in constant time, and refuse browsers. Visitors of the dashboard get nothing of it: the section stays hidden without the key.
 - **The pages load only their own files.** A strict Content-Security-Policy allows no inline script or style. Feed text and model text are always rendered as text, and only `https` links are kept.
@@ -127,9 +137,9 @@ About 30 minutes. You need a GitHub account, a Cloudflare account (free), a Clau
    - Get a free Tiingo key at tiingo.com. In the `digest` environment add the secrets `TIINGO_API_KEY`, and `SEC_USER_AGENT` with a name and an email address, such as `news-digest you@example.com` (SEC, BLS and FRED refuse requests without one). Optional: `FMP_API_KEY` for Senate trades.
    - Generate an ingest key with `openssl rand -base64 32`. Add it as the `digest` secret `STOCKS_INGEST_KEY` and, with the same value, as the Worker secret `STOCKS_INGEST_KEY`. It must not be your `ACCESS_KEY`.
    - In Cloudflare create a KV namespace (Storage & Databases > KV) and bind it to the Worker as `STOCKS_KV` (your Worker > Settings > Bindings).
-   - Paste the new `worker/worker.js`, or `worker/stocks.js` below the other blocks with the last line from its header, and deploy.
+   - Paste the new `worker/worker.js`, or `worker/stocks.js` below the other blocks with the last line from its header, and deploy. The Worker starts, reads and stops the stock runs with the same `GH_DISPATCH_TOKEN`: its Actions "Read and write" permission covers all three, so it needs nothing more.
    - Add the repository variable `STOCKS_ENABLED` with the value `true`.
-   - On the dashboard, with your key set, open Stocks, add your tickers and click **Run analysis now**. The results appear about 15 minutes later. From then on the run starts by itself at 5:45 AM on NYSE trading days.
+   - On the dashboard, with your key set, open Stocks, add your tickers and click **Run analysis now**. The results appear about 15 minutes later. While it runs, **Stop the run** stops it. From then on the run starts by itself at 5:45 AM on NYSE trading days.
 
 `.env.example` lists every setting by name, with empty values. Real values never go in a file. `.gitignore` only applies to `git add`, and uploading a folder on github.com commits everything in it, so keep credential files outside the project folder.
 

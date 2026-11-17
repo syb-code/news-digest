@@ -5,8 +5,9 @@ run-name: Stocks (${{ inputs.reason }})
 # analysis per ticker, for the owner only. The owner's Cloudflare Worker starts
 # this workflow through workflow_dispatch: every morning at 5:45 AM
 # America/Los_Angeles from its cron (worker/stocks.js, next to the daily run),
-# and when the owner clicks "Run analysis now" on the dashboard (at most once
-# every 30 minutes). It can also be run by hand: Actions > Stocks > Run workflow.
+# and when the owner clicks "Run analysis now" on the dashboard (not while a
+# run is going; "Stop the run" cancels one). It can also be run by hand:
+# Actions > Stocks > Run workflow.
 #
 # The privacy model. This repository, its Actions logs and its artifacts are
 # public. The ticker list, the settings, every analysis and what each ticker
