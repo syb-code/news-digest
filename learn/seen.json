@@ -801,6 +801,133 @@
         "OpenAI Codex releases"
       ],
       "primary": true
+    },
+    {
+      "id": "7-things-ai-native-companies-do-differently",
+      "title": "A video on what AI-native companies do differently",
+      "date": "2026-11-17",
+      "logged_at": "2026-11-17T13:48:12+00:00",
+      "terms": [
+        "companies",
+        "differently",
+        "native",
+        "important",
+        "subscribe",
+        "wherever",
+        "brief",
+        "discussions",
+        "helps",
+        "show",
+        "understand",
+        "learn"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=zXrty-ZAIUo"
+      ],
+      "sources": [
+        "@AIDailyBrief"
+      ],
+      "primary": false
+    },
+    {
+      "id": "advancing-computer-use-agents-for-healthcare-teams",
+      "title": "OpenAI points computer-use agents at healthcare team workflows",
+      "date": "2026-11-17",
+      "logged_at": "2026-11-17T13:48:12+00:00",
+      "terms": [
+        "advancing",
+        "healthcare",
+        "computer",
+        "teams"
+      ],
+      "urls": [
+        "https://openai.com/index/advancing-computer-use-for-healthcare-teams"
+      ],
+      "sources": [
+        "OpenAI news"
+      ],
+      "primary": true
+    },
+    {
+      "id": "agent-native-by-design-a-programming-language-for-agentic",
+      "title": "Researchers propose a programming language built for agentic applications",
+      "date": "2026-11-17",
+      "logged_at": "2026-11-17T13:48:12+00:00",
+      "terms": [
+        "programming",
+        "applications",
+        "native",
+        "design",
+        "language",
+        "agentic",
+        "application",
+        "components",
+        "connect",
+        "coordinated",
+        "developers",
+        "dispatches"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.21298v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "best-practices-for-writing-denied-topics-in-amazon-bedrock",
+      "title": "AWS shares eight rules for precise Bedrock Guardrails denied topics",
+      "date": "2026-11-17",
+      "logged_at": "2026-11-17T13:48:12+00:00",
+      "terms": [
+        "denied",
+        "practices",
+        "topics",
+        "writing",
+        "guardrails",
+        "amazon",
+        "bedrock",
+        "block",
+        "blocks",
+        "category",
+        "describing",
+        "enough"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/best-practices-for-writing-denied-topics-in-amazon-bedrock-guardrails/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "broadening-access-to-ai-for-scientists",
+      "title": "OpenAI expands free frontier model access to 200,000 researchers",
+      "date": "2026-11-17",
+      "logged_at": "2026-11-17T13:48:12+00:00",
+      "terms": [
+        "broadening",
+        "scientists",
+        "access",
+        "200",
+        "academic",
+        "expanding",
+        "program",
+        "worldwide",
+        "000",
+        "researchers",
+        "offer",
+        "free"
+      ],
+      "urls": [
+        "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+      ],
+      "sources": [
+        "OpenAI news"
+      ],
+      "primary": true
     }
   ]
 }

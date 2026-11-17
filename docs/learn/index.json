@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-16",
+  "latest": "2026-11-17",
   "days": [
+    {
+      "date": "2026-11-17",
+      "topics": [
+        "OpenAI points computer-use agents at healthcare team workflows",
+        "Researchers propose a programming language built for agentic applications",
+        "AWS shares eight rules for precise Bedrock Guardrails denied topics",
+        "OpenAI expands free frontier model access to 200,000 researchers",
+        "A video on what AI-native companies do differently"
+      ]
+    },
     {
       "date": "2026-11-16",
       "topics": [

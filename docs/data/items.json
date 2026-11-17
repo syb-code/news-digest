@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-16T20:00:19+00:00",
+  "generated_at": "2026-11-17T13:46:08+00:00",
   "items": [
+    {
+      "id": "c10601476e432bea894e547f9a45f487",
+      "title": "Americans Will Buy Anthropic Whether They Want to Or Not | David Shapiro",
+      "url": "https://www.youtube.com/watch?v=cqrWhiksSCI",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-17T13:00:05+00:00",
+      "first_seen": "2026-11-17T13:46:08+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Jack Farley is joined by OpenVC's David Shapiro to discuss the massive liquidity event the Anthropic...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "ce265686073e8c7b0d9dfab6900fb5fc",
+      "title": "7 Things AI-Native Companies Do Differently",
+      "url": "https://www.youtube.com/watch?v=zXrty-ZAIUo",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-17T01:24:07+00:00",
+      "first_seen": "2026-11-17T13:46:08+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "6a3272d428ebdac4822e8a071cc94208",
       "title": "🎙️ How I AI: Fable 5.2 Review + How I fight token fraud as a solo founder + Building a Claude Code family OS",
@@ -668,22 +698,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "a696c4cc450a19676c2d7ef9c0d88d8a",
-      "title": "AI Can Now Create Worlds You Can Change in Real Time",
-      "url": "https://www.youtube.com/watch?v=HOgj6cJ9oxQ",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-10-29T09:55:12+00:00",
-      "first_seen": "2026-10-29T09:55:12+00:00",
-      "summary": "Google’s Genie 4 shows how close AI is to inventing playable worlds on the fly, with big implications for gaming and robotics. NLW breaks down real-time prompting, generative audio, and the Gemini reasoning loop behind the new world model. In the headlines: Anthropic acquires...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "51ee3009bc0051c2b731b69d5ee5dc37",
       "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
       "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
@@ -848,22 +862,6 @@
       "themes": [
         "AI/ML",
         "Tech/Earnings"
-      ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "21bb579dcedcbf8ada3e16d3676d675f",
-      "title": "AI Credit in Detention: Coreweave's Debt Panic & Jim Bianco's Bull Case for Bonds (Finally!)",
-      "url": "https://www.youtube.com/watch?v=bygJZ4o0SJE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-18T13:30:01+00:00",
-      "first_seen": "2026-10-18T13:30:01+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Jim Bianco of Bianco Research called the 2022 bond bear market and stayed bearish on bonds for six...",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "deeper"
     },
