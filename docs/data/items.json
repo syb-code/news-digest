@@ -1,6 +1,20 @@
 {
-  "generated_at": "2026-11-17T13:46:08+00:00",
+  "generated_at": "2026-11-17T20:00:19+00:00",
   "items": [
+    {
+      "id": "3b0ed9ae2a25d56b3b3d05ff82371050",
+      "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
+      "url": "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-17T18:02:02+00:00",
+      "first_seen": "2026-11-17T20:00:19+00:00",
+      "summary": "Over $40,000 in value, exclusively for Lenny’s Newsletter subscribers",
+      "read_minutes": 9,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
     {
       "id": "c10601476e432bea894e547f9a45f487",
       "title": "Americans Will Buy Anthropic Whether They Want to Or Not | David Shapiro",
@@ -799,20 +813,6 @@
       "first_seen": "2026-10-25T12:31:34+00:00",
       "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
       "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
-      "id": "177140e12c20cbc8dd41f17f9cce8b10",
-      "title": "🧠 Community Wisdom: Negotiating a lowball offer, designers earning a seat in product decisions, resources for building an MCP server, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-negotiating-a-lowball",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-24T15:11:42+00:00",
-      "first_seen": "2026-10-24T15:11:42+00:00",
-      "summary": "Community Wisdom 303",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
