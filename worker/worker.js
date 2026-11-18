@@ -547,8 +547,13 @@ async function handleSources(request, env, ctx) {
 // What it does:
 //   - The dashboard (with the key) reads the list, the market overview and
 //     one analysis per ticker, adds and removes tickers, picks the Claude
-//     model, and can ask for a run now ("Run analysis now", at most once
-//     every 30 minutes). These routes run behind protect() from
+//     model, asks for a run now ("Run analysis now") and stops a run that is
+//     going ("Stop the run"). Before it starts a run, the Worker reads
+//     GitHub's list of stocks.yml runs: no start while a run is queued or
+//     going, and none until GitHub lists the run it was asked for (at most 2
+//     minutes). A run that failed or was stopped frees the button at once.
+//     When GitHub cannot be read, the old rule stands: at most one start
+//     every 30 minutes. These routes run behind protect() from
 //     worker/auth-guard.js, like every other web request.
 //   - The GitHub job (.github/workflows/stocks.yml) reads the list and each
 //     ticker's learning state, and saves the states, the analyses and the
@@ -583,8 +588,8 @@ async function handleSources(request, env, ctx) {
 //        GitHub:     Settings > Environments > digest > Add secret,
 //                    name STOCKS_INGEST_KEY
 //      GH_DISPATCH_TOKEN and GH_REPO (see worker/scheduler.js) also start
-//      stocks.yml; the token needs nothing more than Actions "Read and write"
-//      on this one repository.
+//      stocks.yml, read its list of runs and stop a run; the token needs
+//      nothing more than Actions "Read and write" on this one repository.
 //
 //   4. Edit code: paste this whole file right below worker/sources.js, which
 //      sits below worker/scheduler.js and the access guard. Then make the last
@@ -613,7 +618,10 @@ async function handleSources(request, env, ctx) {
 //   curl -i https://<your-worker>.workers.dev/stocks/ingest/config -H "Authorization: Bearer <STOCKS_INGEST_KEY>"
 //     answers 200 with {"version": 1, "tickers": [], ...};
 //   curl -i https://<your-worker>.workers.dev/stocks/list -H "Authorization: Bearer <ACCESS_KEY>"
-//     answers 200 (500 means STOCKS_KV is not bound).
+//     answers 200 (500 means STOCKS_KV is not bound);
+//   curl -i https://<your-worker>.workers.dev/stocks/run -H "Authorization: Bearer <ACCESS_KEY>"
+//     answers 200 with "checked": true once GitHub's list of runs can be read
+//     ("reason": "not set up" means GH_REPO or GH_DISPATCH_TOKEN is missing).
 //
 // Routes behind the access key (JSON, cache-control: no-store):
 //   GET  /stocks/list        the list in order, with each analysis's summary
@@ -623,7 +631,14 @@ async function handleSources(request, env, ctx) {
 //                            that ticker's analysis, learning state and overrides
 //   GET  /stocks/settings    the model and the allowed models
 //   POST /stocks/settings    {"model": "..."}, one of STOCKS_MODELS
-//   POST /stocks/refresh     starts stocks.yml now, at most once every 30 minutes
+//   GET  /stocks/run         whether a stocks.yml run is going, and the newest run:
+//                            {checked, active, can_start, available_at, requested_at, run}
+//   POST /stocks/stop        stops every stocks.yml run that is queued or going: 200 {ok, stopped},
+//                            409 while a run asked for is still being created, 502 when GitHub
+//                            cannot be read or does not stop a run
+//   POST /stocks/refresh     starts stocks.yml now: 409 while a run is going, 429 until GitHub lists
+//                            the run of the last start, at most 2 minutes (30 minutes when GitHub
+//                            cannot be read)
 // Ingest routes (STOCKS_INGEST_KEY, no browser):
 //   GET  /stocks/ingest/config, GET and PUT /stocks/ingest/state/<T>,
 //   PUT  /stocks/ingest/ticker/<T>, PUT /stocks/ingest/overview
@@ -648,6 +663,17 @@ const STOCKS_TIME = "05:45"; // America/Los_Angeles, the morning cron of worker/
 const STOCKS_RETRY_MS = 10000;
 const STOCKS_RECENT_MS = 120000;
 const STOCKS_NO_KV = "STOCKS_KV is not bound on this worker";
+// GitHub takes a few seconds to a minute to list a run it was asked to start:
+// for this long after a start with no run listed, the run is still being created.
+const STOCKS_START_GRACE_MS = 2 * 60 * 1000;
+const STOCKS_CLOCK_SKEW_MS = 60 * 1000; // between this Worker's clock and GitHub's
+const STOCKS_RUNS_MAX_BYTES = 1048576; // of GitHub's list of runs, read at most
+const STOCKS_RUN_ACTIVE = ["requested", "queued", "in_progress", "waiting", "pending"];
+const STOCKS_RUN_STATUSES = [...STOCKS_RUN_ACTIVE, "completed"];
+const STOCKS_RUN_CONCLUSIONS = ["success", "failure", "cancelled", "skipped", "timed_out", "action_required", "neutral",
+  "stale", "startup_failure"];
+const STOCKS_RUN_KINDS = { "Stocks (manual)": "manual", "Stocks (scheduled)": "scheduled" }; // run-name of stocks.yml
+const STOCKS_ISO_TIME = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,9})?Z$/; // GitHub's times are UTC
 
 function stocksAnswer(status, body) {
   return new Response(JSON.stringify(body), {
@@ -955,19 +981,32 @@ async function handleStocks(request, env, ctx) {
     return stocksAnswer(200, { ok: true, model });
   }
   if (path === "/stocks/refresh") return only("POST") || stocksRefresh(env);
+  if (path === "/stocks/run") return only("GET") || stocksRunAnswer(env);
+  if (path === "/stocks/stop") return only("POST") || stocksStop(env);
   return stocksAnswer(404, { error: "not found" });
 }
 
+// The claim of the last manual start, stocks:refresh: {requested_at, after_id}.
+// after_id is the highest run id GitHub listed when the claim was written (none
+// when GitHub could not be read): the run asked for gets a higher one.
 async function stocksRefreshInfo(env) {
   const doc = await stocksRead(env, "stocks:refresh");
   const at = doc && typeof doc.requested_at === "string" ? Date.parse(doc.requested_at) : NaN;
-  if (!Number.isFinite(at)) return { requested_at: null, available_at: null, wait_ms: 0 };
+  if (!Number.isFinite(at)) return { requested_at: null, available_at: null, wait_ms: 0, after_id: null };
   const available = at + STOCKS_REFRESH_MIN_MS;
   return {
     requested_at: new Date(at).toISOString(),
     available_at: new Date(available).toISOString(),
     wait_ms: Math.max(0, available - Date.now()),
+    after_id: Number.isSafeInteger(doc.after_id) && doc.after_id >= 0 ? doc.after_id : null,
   };
+}
+
+// The claim as it is stored, or null when there is none.
+function stocksClaimRecord(claim) {
+  if (!claim || !claim.requested_at) return null;
+  return claim.after_id === null || claim.after_id === undefined
+    ? { requested_at: claim.requested_at } : { requested_at: claim.requested_at, after_id: claim.after_id };
 }
 
 async function stocksListAnswer(env) {
@@ -1071,46 +1110,223 @@ function stocksRepoReady(env) {
   return /^[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+$/.test(String(env.GH_REPO || "")) && !!env.GH_DISPATCH_TOKEN;
 }
 
-// Puts stocks:refresh back to the run before (or none) when GitHub did not
-// take the run. KV takes one write a second for a key, so a refused write is
-// tried once more a second later.
-async function stocksRefreshRestore(env, requestedAt) {
+// Writes the claim record to stocks:refresh, or deletes it when the record is
+// null. KV takes one write a second for a key, so a refused write is tried once
+// more a second later. True when it was written.
+async function stocksRefreshSet(env, record) {
   for (let attempt = 1; attempt <= 2; attempt += 1) {
     try {
-      if (requestedAt) await env.STOCKS_KV.put("stocks:refresh", JSON.stringify({ requested_at: requestedAt }));
+      if (record) await env.STOCKS_KV.put("stocks:refresh", JSON.stringify(record));
       else await env.STOCKS_KV.delete("stocks:refresh");
-      return;
+      return true;
     } catch {
       if (attempt === 1) await new Promise((resolve) => setTimeout(resolve, 1100));
     }
   }
-  console.log("Stocks: the refresh limit could not be put back, so the next manual run waits 30 minutes");
+  return false;
+}
+
+// Puts stocks:refresh back as it was before (the whole record, or none) when GitHub did not take the run.
+async function stocksRefreshRestore(env, record) {
+  if (await stocksRefreshSet(env, record)) return;
+  console.log("Stocks: the refresh limit could not be put back, so the next manual run may wait up to 30 minutes");
+}
+
+// A time from GitHub as an ISO string, or null. Date.parse turns February 30
+// into March 2, so the day and the time must come back as they were sent.
+function stocksTime(value) {
+  if (typeof value !== "string" || !STOCKS_ISO_TIME.test(value)) return null;
+  const at = Date.parse(value);
+  if (!Number.isFinite(at)) return null;
+  const iso = new Date(at).toISOString();
+  return iso.slice(0, 19) === value.slice(0, 19) ? iso : null;
+}
+
+// One run from GitHub's list with only what the dashboard needs, each field
+// checked: null when the id is not a run id. GitHub's own link and title are
+// never passed on: the link is built from GH_REPO and the id, and the title
+// only says which kind of run it is.
+function stocksRunOf(run, repo) {
+  if (!run || typeof run !== "object") return null;
+  const id = run.id;
+  if (!Number.isSafeInteger(id) || id <= 0) return null;
+  // A status GitHub may add later counts as not going, so it never holds the button for good.
+  const status = STOCKS_RUN_STATUSES.includes(run.status) ? run.status : "unknown";
+  const conclusion = STOCKS_RUN_CONCLUSIONS.includes(run.conclusion) ? run.conclusion : null;
+  const title = typeof run.display_title === "string" ? run.display_title : "";
+  return {
+    id,
+    status,
+    conclusion,
+    kind: Object.hasOwn(STOCKS_RUN_KINDS, title) ? STOCKS_RUN_KINDS[title] : "unknown",
+    created_at: stocksTime(run.created_at),
+    updated_at: stocksTime(run.updated_at),
+    started_at: stocksTime(run.run_started_at),
+    url: `https://github.com/${repo}/actions/runs/${id}`,
+  };
+}
+
+// The recent runs of stocks.yml on main, newest first, or null when GitHub
+// cannot be read (no answer, not 2xx, too large, not JSON). The token goes to
+// api.github.com only.
+async function stocksRuns(env) {
+  const repo = String(env.GH_REPO);
+  const url = `https://api.github.com/repos/${repo}/actions/workflows/${STOCKS_WORKFLOW}/runs`
+    + `?branch=${STOCKS_BRANCH}&per_page=20`;
+  try {
+    const response = await fetch(url, { method: "GET", headers: stocksHeaders(env) });
+    if (!response.ok) {
+      if (response.body) response.body.cancel().catch(() => {});
+      return null;
+    }
+    const read = await stocksBody(response, STOCKS_RUNS_MAX_BYTES);
+    if (read.error) return null;
+    const doc = JSON.parse(read.text);
+    if (!doc || typeof doc !== "object" || !Array.isArray(doc.workflow_runs)) return null;
+    const runs = doc.workflow_runs.slice(0, 100).map((run) => stocksRunOf(run, repo)).filter(Boolean);
+    const at = (run) => (run.created_at ? Date.parse(run.created_at) : -Infinity);
+    return runs.sort((a, b) => (at(b) - at(a)) || (b.id - a.id));
+  } catch {
+    return null;
+  }
+}
+
+// The one view of the runs that GET /stocks/run, POST /stocks/stop and POST
+// /stocks/refresh share. claim is the stocks:refresh record.
+//   GitHub can be read: active when a run is queued or going. A claim younger
+//     than STOCKS_START_GRACE_MS with the run it asked for not listed yet is a
+//     run still being created (starting). can_start when neither. GitHub's run
+//     ids only grow, so the run asked for is one with an id above the claim's
+//     after_id. A run that ended a moment before the click is not it. Only a
+//     claim without after_id (written while GitHub could not be read) goes by
+//     the time: a run created since the claim, less the clock skew.
+//   GitHub cannot be read, or GH_REPO or the token is missing (checked false):
+//     the 30 minute rule of the claim alone.
+async function stocksRunState(env) {
+  const claim = await stocksRefreshInfo(env);
+  const ready = stocksRepoReady(env);
+  const runs = ready ? await stocksRuns(env) : null;
+  if (!runs) {
+    return {
+      checked: false, reason: ready ? "GitHub could not be read" : "not set up", active: false,
+      can_start: claim.wait_ms <= 0, available_at: claim.wait_ms > 0 ? claim.available_at : null, wait_ms: claim.wait_ms,
+      starting: false, run: null, runs: [], active_runs: [], claim,
+    };
+  }
+  const now = Date.now();
+  const claimAt = claim.requested_at ? Date.parse(claim.requested_at) : null;
+  const age = claimAt === null ? null : now - claimAt;
+  const listed = claim.after_id !== null
+    ? runs.some((run) => run.id > claim.after_id)
+    : runs.some((run) => run.created_at && Date.parse(run.created_at) >= claimAt - STOCKS_CLOCK_SKEW_MS);
+  const starting = age !== null && age < STOCKS_START_GRACE_MS && age > -STOCKS_CLOCK_SKEW_MS && !listed;
+  const activeRuns = runs.filter((run) => STOCKS_RUN_ACTIVE.includes(run.status));
+  const graceEnd = claimAt === null ? now : claimAt + STOCKS_START_GRACE_MS;
+  return {
+    checked: true, reason: null, active: activeRuns.length > 0, can_start: !activeRuns.length && !starting,
+    available_at: starting ? new Date(graceEnd).toISOString() : null, wait_ms: starting ? Math.max(0, graceEnd - now) : 0,
+    starting, run: runs[0] || null, runs, active_runs: activeRuns, claim,
+  };
+}
+
+async function stocksRunAnswer(env) {
+  const state = await stocksRunState(env);
+  const body = { checked: state.checked };
+  if (!state.checked) body.reason = state.reason;
+  return stocksAnswer(200, {
+    ...body, active: state.active, can_start: state.can_start, available_at: state.available_at,
+    requested_at: state.claim.requested_at, run: state.run,
+  });
+}
+
+// Asks GitHub to cancel one run. { ok } when it took the request (202) or the
+// run is already ending or over (409); otherwise what went wrong.
+async function stocksCancel(repo, id, env) {
+  const url = `https://api.github.com/repos/${repo}/actions/runs/${id}/cancel`;
+  try {
+    const response = await fetch(url, { method: "POST", headers: stocksHeaders(env) });
+    if (response.status === 202 || response.status === 409) return { ok: true, status: response.status };
+    return { ok: false, problem: `GitHub answered ${response.status} ${await stocksErrorDetail(response)}`.trim() };
+  } catch (err) {
+    return { ok: false, problem: `GitHub could not be reached (${err && err.name ? err.name : "error"})` };
+  }
+}
+
+// Stops every stocks.yml run that is queued or going, then clears the claim so
+// Run analysis now is free once GitHub has stopped them.
+async function stocksStop(env) {
+  if (!stocksRepoReady(env)) {
+    console.log("Stocks: set GH_REPO (owner/name) and the GH_DISPATCH_TOKEN secret on this Worker");
+    return stocksAnswer(500, { error: "this worker cannot stop runs: set GH_REPO and GH_DISPATCH_TOKEN" });
+  }
+  const state = await stocksRunState(env);
+  if (!state.checked) {
+    console.log("Stocks: stop asked, but the list of runs could not be read, so nothing was stopped");
+    return stocksAnswer(502, { error: "GitHub could not be read, so nothing was stopped" });
+  }
+  if (!state.active_runs.length && state.starting) {
+    return stocksAnswer(409, {
+      error: "the run is still starting, try again in a minute",
+      retry_after_seconds: Math.max(1, Math.ceil(state.wait_ms / 1000)),
+    });
+  }
+  const repo = String(env.GH_REPO);
+  let stopped = 0;
+  let problem = "";
+  for (const run of state.active_runs) {
+    const result = await stocksCancel(repo, run.id, env);
+    if (result.ok) stopped += 1;
+    else if (!problem) problem = result.problem;
+  }
+  const runs = (n) => `${n} ${n === 1 ? "run" : "runs"}`;
+  if (problem) {
+    // The claim stays: a run that is still going keeps Run analysis now off.
+    console.log(`Stocks: stop asked, ${stopped} of ${runs(state.active_runs.length)} cancelled: ${problem}`);
+    return stocksAnswer(502, { error: `GitHub did not stop the run: ${problem}`, stopped });
+  }
+  if (state.claim.requested_at && !(await stocksRefreshSet(env, null))) {
+    console.log("Stocks: the refresh limit could not be cleared after the stop, so the next manual run may wait up to 30 minutes");
+  }
+  console.log(`Stocks: stop asked, ${runs(stopped)} cancelled`);
+  return stocksAnswer(200, { ok: true, stopped });
 }
 
 async function stocksRefresh(env) {
-  const info = await stocksRefreshInfo(env);
-  if (info.wait_ms > 0) {
-    return stocksAnswer(429, { error: "a run was started recently", retry_after_seconds: Math.ceil(info.wait_ms / 1000) });
+  const state = await stocksRunState(env);
+  if (state.checked && state.active) return stocksAnswer(409, { error: "a run is going", active: true });
+  if (!state.can_start) {
+    return stocksAnswer(429, { error: "a run was started recently", retry_after_seconds: Math.max(1, Math.ceil(state.wait_ms / 1000)) });
   }
   if (!stocksRepoReady(env)) {
     console.log("Stocks: set GH_REPO (owner/name) and the GH_DISPATCH_TOKEN secret on this Worker");
     return stocksAnswer(500, { error: "this worker cannot start runs: set GH_REPO and GH_DISPATCH_TOKEN" });
   }
   const repo = String(env.GH_REPO);
+  const hold = state.checked ? STOCKS_START_GRACE_MS : STOCKS_REFRESH_MIN_MS;
+  // A second request that came in while GitHub's list was read has written its
+  // claim by now: it starts the run, this one is refused.
+  const latest = await stocksRefreshInfo(env);
+  if (latest.requested_at && latest.requested_at !== state.claim.requested_at) {
+    const left = Date.parse(latest.requested_at) + hold - Date.now();
+    return stocksAnswer(429, { error: "a run was started recently", retry_after_seconds: Math.max(1, Math.ceil(left / 1000)) });
+  }
   // The record is written before GitHub is asked, so a second request while
   // GitHub answers is refused; it is put back as it was if GitHub does not take the run.
+  // It keeps the highest run id GitHub listed just now: the run asked for gets a higher one.
   const now = Date.now();
   const requested = new Date(now).toISOString();
-  await env.STOCKS_KV.put("stocks:refresh", JSON.stringify({ requested_at: requested }));
+  const record = { requested_at: requested };
+  if (state.checked) record.after_id = state.runs.reduce((max, run) => Math.max(max, run.id), 0);
+  await env.STOCKS_KV.put("stocks:refresh", JSON.stringify(record));
   let result = await stocksDispatch(repo, "manual", env);
   if (!result.ok && result.unsure) result = await stocksDispatch(repo, "manual", env);
   if (!result.ok) {
-    await stocksRefreshRestore(env, info.requested_at);
+    await stocksRefreshRestore(env, stocksClaimRecord(state.claim));
     console.log(`Stocks: the manual run did not start: ${result.problem}`);
     return stocksAnswer(502, { error: `the run did not start: ${result.problem}` });
   }
   console.log(`Stocks: started a manual run, GitHub answered ${result.status}`);
-  return stocksAnswer(202, { ok: true, requested_at: requested, available_at: new Date(now + STOCKS_REFRESH_MIN_MS).toISOString() });
+  return stocksAnswer(202, { ok: true, requested_at: requested, available_at: new Date(now + hold).toISOString() });
 }
 
 // ---------------------------------------------------------------- routing

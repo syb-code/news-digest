@@ -1,4 +1,4 @@
-/* News digest dashboard, stocks.js v1.
+/* News digest dashboard, stocks.js v2.
    The owner's private stock section. It shows only while the site has a worker, an access key is
    set in this browser and the worker's GET /stocks/list answers. A visitor's page sends no request
    and shows nothing: the section and its nav link stay hidden and empty.
@@ -9,7 +9,8 @@
      page title, and nothing is logged.
    - The page runs under a strict Content-Security-Policy. Every value reaches the DOM through
      textContent, charts are SVG built with createElementNS and styled by classes only, and links
-     are https to a short list of public data hosts (digest items: any https address). */
+     are https to a short list of public data hosts (digest items: any https address; the toolbar:
+     one run's page on github.com, checked by RUN_LINK). */
 (() => {
   'use strict';
 
@@ -48,6 +49,15 @@
   const LINK_HOSTS = ['sec.gov', 'house.gov', 'federalreserve.gov', 'bls.gov', 'bea.gov', 'finra.org', 'senate.gov'];
   const POLL_MS = 2 * 60 * 1000;          // after "Run analysis now": look for new results this often
   const POLL_FOR_MS = 40 * 60 * 1000;     // and for this long
+  const RUN_CHECK_MS = 30 * 1000;         // while a run is going or starting: ask the worker for its state this often
+  const STOP_CHECK_MS = 10 * 1000;        // after "Stop the run": this often
+  const STOP_CHECK_FOR_MS = 2 * 60 * 1000; // and for this long
+  // GitHub's run states, as worker/stocks.js passes them on (tests check).
+  const RUN_ACTIVE = ['requested', 'queued', 'in_progress', 'waiting', 'pending'];
+  const RUN_CONCLUSIONS = ['success', 'failure', 'cancelled', 'skipped', 'timed_out', 'action_required', 'neutral', 'stale', 'startup_failure'];
+  const RUN_FAILED = ['failure', 'timed_out', 'startup_failure', 'action_required'];
+  // The one GitHub address this page links to: a run's page in the owner's repository.
+  const RUN_LINK = /^https:\/\/github\.com\/[A-Za-z0-9_.-]+\/[A-Za-z0-9_.-]+\/actions\/runs\/\d{1,20}$/;
   const RANGES = [['3M', 63], ['6M', 126], ['1Y', 252], ['All', 0]];
   const STOP_KINDS = { rate: true, unconfigured: true, network: true, timeout: true, nokey: true, noworker: true };
   const PREFETCH_MAX = 4;                 // documents loaded before their tab is opened
@@ -74,6 +84,14 @@
   let pollBase = null;
   let pollUntil = 0;
   let pollTimer = 0;
+  let runState = null;       // the normalized /stocks/run answer, null before it came
+  let stateTimer = 0;        // the next look at the run state
+  let stateDue = false;      // a look came due while the page was hidden
+  let stateFailed = false;   // the last look did not get GitHub's view: no answer, or none from GitHub
+  let stopBusy = false;
+  let stopUntil = 0;         // after Stop the run: the page waits for GitHub to stop it until then
+  let startedNote = false;   // the message says a run was started
+  let stopNote = false;      // the message says GitHub has not stopped the run yet
   let minuteTimer = 0;
   let countdowns = [];
   const timers = new Set();
@@ -288,6 +306,46 @@
   }
   function entry(t) { return list ? list.tickers.find((e) => e.ticker === t) || null : null; }
 
+  // The worker's GET /stocks/run: whether GitHub has a stocks run queued or going, and the newest run.
+  // checked is false when the worker could not read GitHub's list (or is not set up for it); then
+  // the page keeps the list's 30 minute rule, as before.
+  function normRunState(body) {
+    const b = obj(body);
+    const checked = b.checked === true;
+    return {
+      checked,
+      reason: checked ? '' : txt(b.reason, 80),
+      active: checked && b.active === true,
+      canStart: checked && b.can_start === true,
+      availableAt: checked ? time(b.available_at) : null,
+      run: checked ? normRun(b.run) : null,
+    };
+  }
+  function normRun(v) {
+    const o = obj(v);
+    if (!Number.isSafeInteger(o.id) || o.id <= 0) return null;
+    const status = oneOf(o.status, RUN_ACTIVE.concat(['completed'])) || 'unknown';
+    return {
+      id: o.id,
+      active: RUN_ACTIVE.indexOf(status) >= 0,
+      status,
+      conclusion: status === 'completed' ? oneOf(o.conclusion, RUN_CONCLUSIONS) : '',
+      kind: oneOf(o.kind, ['manual', 'scheduled']),
+      createdAt: time(o.created_at),
+      updatedAt: time(o.updated_at),
+      startedAt: time(o.started_at),
+      url: runUrl(o.url),
+    };
+  }
+  // A run's page on GitHub, exactly as the worker builds it, or nothing.
+  function runUrl(u) {
+    if (typeof u !== 'string' || !RUN_LINK.test(u)) return '';
+    let p;
+    try { p = new URL(u); } catch (e) { return ''; }
+    return p.protocol === 'https:' && p.hostname === 'github.com' && p.href === u ? u : '';
+  }
+  const NOT_CHECKED = { checked: false, reason: '', active: false, canStart: false, availableAt: null, run: null };
+
   // ---------- showing, hiding, loading ----------
   function reveal() { section.hidden = false; navLink.hidden = false; }
   function teardown() {
@@ -312,6 +370,14 @@
     pollBase = null;
     pollUntil = 0;
     pollTimer = 0;
+    runState = null;
+    stateTimer = 0;
+    stateDue = false;
+    stateFailed = false;
+    stopBusy = false;
+    stopUntil = 0;
+    startedNote = false;
+    stopNote = false;
     countdowns = [];
     [metaEl, toolbar, msgEl, manage, tabsEl, panels].forEach((e) => { e.textContent = ''; });
     msgEl.classList.remove('is-info');
@@ -336,11 +402,12 @@
       list = normList(r.body);
       reveal();
       clearMsg();
-      await loadOverview();
+      await Promise.all([loadOverview(), loadRunState()]);
       if (g !== gen || !list) return;
       if (current !== 'market' && !entry(current)) current = 'market';
       renderAll();
       resumePolling();
+      scheduleRunCheck();
       prefetch();
       return;
     }
@@ -351,6 +418,14 @@
     } else {
       showOnly(problem(r, 'Could not load the stock list'), '', () => { teardown(); load(); });
     }
+  }
+  // The run state for the toolbar. A worker without the route, or one that cannot be reached, leaves
+  // the page as it was before: the list's 30 minute rule, and no note.
+  async function loadRunState() {
+    const r = await api('/stocks/run');
+    if (r.kind === 'stale') return;
+    runState = r.kind === 'ok' ? normRunState(r.body) : NOT_CHECKED;
+    stateFailed = r.kind !== 'ok' && r.kind !== 'http'; // no answer: worth another look while a run is awaited
   }
   async function loadOverview() {
     const r = await api('/stocks/overview');
@@ -420,6 +495,8 @@
 
   // ---------- messages ----------
   function showMsg(kind, text, more, retry) {
+    startedNote = false;
+    stopNote = false;
     msgEl.textContent = '';
     msgEl.classList.toggle('is-info', kind === 'info');
     add(msgEl, h('p', '', text));
@@ -430,7 +507,7 @@
       add(msgEl, b);
     }
   }
-  function clearMsg() { msgEl.textContent = ''; msgEl.classList.remove('is-info'); }
+  function clearMsg() { startedNote = false; stopNote = false; msgEl.textContent = ''; msgEl.classList.remove('is-info'); }
 
   // ---------- rendering: frame ----------
   function renderAll() {
@@ -446,11 +523,50 @@
     metaEl.textContent = plural(n, 'stock', 'stocks') + (asOf ? ', data as of ' + dayShort(asOf) : '');
   }
 
-  function runWaitMs() { const at = list && list.refresh.availableAt; return at ? at - Date.now() : 0; }
+  // GitHub's view of the runs when the worker could read it, else null: then the list's 30 minute rule applies.
+  function checkedState() { return runState && runState.checked ? runState : null; }
+  function runGoing() { const st = checkedState(); return !!(st && st.active); }
+  function runHalting() { return runGoing() && stopUntil > Date.now(); }
+  // How long until Run analysis now is free: the worker's start grace when it read GitHub, else the list's rule.
+  function runWaitMs() {
+    const st = checkedState();
+    if (st) return st.active || st.canStart || !st.availableAt ? 0 : Math.max(0, st.availableAt - Date.now());
+    const at = list && list.refresh.availableAt; return at ? at - Date.now() : 0;
+  }
+  function runBlocked() {
+    const st = checkedState();
+    return runBusy || stopBusy || (st ? !st.canStart : runWaitMs() > 0);
+  }
   function polling() { return !!pollTimer && Date.now() < pollUntil; }
+  // 12:27 PM today, Nov 16, 12:27 PM on another day.
+  function moment(t) { return new Date(t).toDateString() === new Date().toDateString() ? clock(t) : fmtStamp.format(t); }
+  function endedBadly(run) { return !!run && run.status === 'completed' && (run.conclusion === 'cancelled' || RUN_FAILED.indexOf(run.conclusion) >= 0); }
+  function goingLine(run) {
+    const at = run && run.active ? run.startedAt || run.createdAt : null;
+    const by = run && run.kind === 'manual' ? ' by hand' : run && run.kind === 'scheduled' ? ' on schedule' : '';
+    return 'A run is going.' + (at ? ' Started at ' + moment(at) + by + '.' : '');
+  }
+  // The newest run's line when it ended badly: with an error, or stopped.
+  function endedLine(run) {
+    if (!endedBadly(run)) return null;
+    const at = run.updatedAt || run.createdAt;
+    const when = at ? ' at ' + moment(at) : '';
+    if (run.conclusion === 'cancelled') return h('p', 'st-run', 'The last run was stopped' + when + '.');
+    const p = h('p', 'st-run', 'The last run stopped with an error' + when + '.');
+    if (run.url) {
+      const a = h('a', '', 'See what happened on GitHub');
+      a.href = run.url;
+      a.target = '_blank';
+      a.rel = 'noopener noreferrer';
+      add(p, ' ', a);
+    }
+    return p;
+  }
+  // When the results on the page were made: the overview's run, or the overview itself.
+  function resultsAt() { return time(obj(overview && overview.run).finished_at) || time(overview && overview.generated_at); }
   function runLine() {
     const run = overview ? obj(overview.run) : {};
-    const at = time(run.finished_at) || time(overview && overview.generated_at);
+    const at = resultsAt();
     if (!at) return overviewState === 'none' ? 'No run has finished yet. The first one fills this section.' : '';
     const parts = ['Last run ' + fmtStamp.format(at) + (run.reason === 'manual' ? ', started by hand.' : ', on schedule.')];
     if (Number.isInteger(run.tickers)) {
@@ -469,8 +585,24 @@
     toolbar.textContent = '';
     const bar = h('div', 'st-bar');
     const info = h('div', 'st-bar-info');
-    const line = runLine();
+    const st = checkedState();
+    const going = runGoing();
+    const halting = runHalting();
+    // While the page waits for a run GitHub has not listed yet, the newest run listed is the one
+    // before it, and how that one ended is no news.
+    const awaited = !!st && !going && !st.canStart && polling();
+    const ended = st && !going && !awaited ? endedLine(st.run) : null;
+    // A run can save its results and still end with an error (the congress job, say): the results
+    // line stays when the results came after the run began, and the ended line goes below it.
+    const made = resultsAt();
+    const instead = !!ended && !(made && st.run.createdAt && made >= st.run.createdAt);
+    const line = instead ? '' : runLine();
     if (line) add(info, h('p', 'st-run', line));
+    if (ended) add(info, ended);
+    if (going) add(info, h('p', 'st-run', halting ? 'The run is stopping. GitHub usually takes under a minute.' : goingLine(st.run)));
+    if ((st && stateFailed) || (runState && !runState.checked && runState.reason && runState.reason !== 'not set up')) {
+      add(info, h('p', 'st-next', 'Could not check GitHub for a run just now.'));
+    }
     const wait = runWaitMs();
     let next = '';
     if (polling()) next = 'Waiting for the results of the run you started. This page checks every 2 minutes while it is open.';
@@ -479,9 +611,17 @@
     const acts = h('div', 'st-bar-acts');
     const run = button('btn btn-primary btn-sm', runBusy ? 'Starting the run' : 'Run analysis now');
     run.id = 'st-run';
-    run.disabled = runBusy || wait > 0;
+    run.disabled = runBlocked();
     if (runBusy) run.setAttribute('aria-busy', 'true');
     run.addEventListener('click', onRun);
+    let stop = null;
+    if (going && !halting) {
+      stop = button('btn btn-sm', stopBusy ? 'Stopping' : 'Stop the run');
+      stop.id = 'st-stop';
+      stop.disabled = stopBusy;
+      if (stopBusy) stop.setAttribute('aria-busy', 'true');
+      stop.addEventListener('click', onStop);
+    }
     const set = button('btn btn-sm', manageOpen ? 'Close settings' : 'Settings');
     set.id = 'st-settings';
     set.setAttribute('aria-expanded', String(manageOpen));
@@ -493,10 +633,11 @@
       const first = manageOpen ? manage.querySelector('select, input') : null;
       if (first) first.focus(); else { const s = $('st-settings'); if (s) s.focus(); }
     });
-    add(acts, run, set);
+    add(acts, run, stop, set);
     add(bar, info, acts);
     add(toolbar, bar);
-    if (wait > 0) runTimer = later(renderToolbar, wait + 1000);
+    // With GitHub's view, scheduleRunCheck looks again when the grace ends; without it, the list's time.
+    if (!st && wait > 0) runTimer = later(renderToolbar, wait + 1000);
     if (hadFocus) { const f = $(hadFocus); if (f && !f.disabled) f.focus(); }
   }
 
@@ -709,7 +850,7 @@
 
   // ---------- run analysis now ----------
   async function onRun() {
-    if (runBusy || runWaitMs() > 0) return;
+    if (runBlocked()) return;
     runBusy = true;
     renderToolbar();
     clearMsg();
@@ -721,11 +862,23 @@
     if (r.kind === 'ok' && b.ok === true) {
       list.refresh.requestedAt = time(b.requested_at) || Date.now();
       list.refresh.availableAt = time(b.available_at) || Date.now() + 30 * 60000;
+      // GitHub lists the run within a minute or so: until then it is starting, and the page follows it.
+      const st = checkedState();
+      if (st) runState = Object.assign({}, st, { active: false, canStart: false, availableAt: list.refresh.availableAt, run: null });
       startPolling(before);
       showMsg('info', 'Started. Results in about 15 minutes.', 'This page checks for them every 2 minutes while it is open.');
+      startedNote = true;
+    } else if (r.kind === 'http' && r.status === 409) {
+      showMsg('info', 'A run is already going. Stop it first, or wait for its results.');
+      const g = gen;
+      if (!(await readRunState()) || g !== gen) return;
+      const st = checkedState();
+      if (st && stateFailed) runState = Object.assign({}, st, { active: true, canStart: false });
     } else if (r.kind === 'http' && r.status === 429) {
       const secs = isNum(b.retry_after_seconds) && b.retry_after_seconds > 0 ? Math.min(b.retry_after_seconds, 86400) : 30 * 60;
       list.refresh.availableAt = Date.now() + secs * 1000;
+      const st = checkedState();
+      if (st) runState = Object.assign({}, st, { canStart: false, availableAt: list.refresh.availableAt });
       showMsg('info', 'A run was started recently.', 'Run analysis now is available again at ' + clock(list.refresh.availableAt) + '.');
     } else if (r.kind === 'http' && r.status === 500) {
       showMsg('warn', 'The worker cannot start runs yet.', workerSays(r) ? 'It said: ' + sentence(workerSays(r)) : 'Set GH_REPO and GH_DISPATCH_TOKEN on the worker.');
@@ -735,6 +888,7 @@
       showMsg('warn', problem(r, 'Could not start a run'));
     }
     renderToolbar();
+    scheduleRunCheck();
     // The clicked button is gone or turned off, so the message takes the focus.
     const again = $('st-run');
     if (again && !again.disabled) again.focus();
@@ -745,6 +899,7 @@
     pollUntil = Date.now() + POLL_FOR_MS;
     schedulePoll();
   }
+  function stopPolling() { pollUntil = 0; pollTimer = cancel(pollTimer); }
   function schedulePoll() {
     pollTimer = cancel(pollTimer);
     if (Date.now() >= pollUntil) { pollUntil = 0; return; }
@@ -764,19 +919,140 @@
     schedulePoll();
     renderToolbar();
   }
-  // A run the owner started a little while ago, and whose results are not in yet.
+  // A run the owner started a little while ago, and whose results are not in yet. Not when GitHub
+  // says no run is going or starting: that run is over.
   function resumePolling() {
     const req = list.refresh.requestedAt;
     const done = overview ? time(overview.generated_at) : null;
-    if (req && Date.now() - req < POLL_FOR_MS && (!done || done < req) && !polling()) {
+    const st = checkedState();
+    const over = !!st && !st.active && st.canStart;
+    if (req && !over && Date.now() - req < POLL_FOR_MS && (!done || done < req) && !polling()) {
       pollBase = done;
       pollUntil = req + POLL_FOR_MS;
       schedulePoll();
       renderToolbar();
     }
   }
+
+  // ---------- following the run on GitHub ----------
+  // One look at the run state. A look that gets no answer, or an answer without GitHub's view while
+  // the page has one, is a failed look: the last view stays, so a run the page follows stays followed
+  // (Stop the run included) and the next look comes on time. False when the page was torn down.
+  async function readRunState() {
+    const r = await api('/stocks/run');
+    if (r.kind === 'stale') return false;
+    const next = r.kind === 'ok' ? normRunState(r.body) : null;
+    if (next && (next.checked || !checkedState())) {
+      runState = next;
+      stateFailed = false;
+    } else {
+      stateFailed = true;
+    }
+    return true;
+  }
+  // The next look: every 10 seconds for 2 minutes after Stop the run, every 30 seconds while a run is
+  // going or starting (sooner when the start grace ends, but never more often than every 5 seconds,
+  // since the worker's clock may be behind this one), none otherwise.
+  function scheduleRunCheck() {
+    stateTimer = cancel(stateTimer);
+    const st = checkedState();
+    if (!st) {
+      // No view of GitHub yet because a look failed: while the page waits for a run it started, it
+      // looks again, so it can tell when that run is over.
+      const retry = stateFailed || (!!runState && !!runState.reason && runState.reason !== 'not set up');
+      if (polling() && retry) stateTimer = later(checkRun, RUN_CHECK_MS);
+      return;
+    }
+    const now = Date.now();
+    let ms = 0;
+    if (stopUntil > now) ms = STOP_CHECK_MS;
+    else if (st.active || (stateFailed && !st.canStart)) ms = RUN_CHECK_MS;
+    else if (!st.canStart) ms = st.availableAt ? Math.min(RUN_CHECK_MS, Math.max(5000, st.availableAt - now + 1000)) : RUN_CHECK_MS;
+    if (ms) stateTimer = later(checkRun, ms);
+  }
+  // A look on the timer. When the run the page followed is over, the waiting ends after one last
+  // look at the results.
+  async function checkRun() {
+    stateTimer = 0;
+    if (document.visibilityState === 'hidden') { stateDue = true; return; }
+    stateDue = false;
+    const g = gen;
+    const before = checkedState();
+    if (!(await readRunState()) || g !== gen) return;
+    const st = checkedState();
+    if (stopUntil && !runGoing()) stopUntil = 0;
+    else if (stopUntil && !stateFailed && Date.now() >= stopUntil) {
+      // GitHub still lists the run as going when the wait after Stop the run is over: say so, once.
+      stopUntil = 0;
+      showMsg('warn', 'GitHub has not stopped the run yet.', 'Try Stop the run again.');
+      stopNote = true;
+    }
+    const followed = polling() || !!(before && (before.active || !before.canStart));
+    if (!stateFailed && st && followed && !st.active && st.canStart) {
+      if (stopNote) clearMsg(); // the run did end after all
+      // However the run ended, one last look at the results: a run can save them and still end
+      // with an error. One that ended badly brings nothing more, so the waiting ends either way.
+      if (!(await lastLook(!endedBadly(st.run))) || g !== gen) return;
+    }
+    renderToolbar();
+    scheduleRunCheck();
+  }
+  // One last look at the overview after a run ended: new results reload the section, and the
+  // waiting ends either way (after a run that finished, a look that does not reach the worker
+  // leaves the waiting on: mayWait). False when the page was torn down meanwhile.
+  async function lastLook(mayWait) {
+    const g = gen;
+    const waited = polling();
+    const until = pollUntil;
+    const base = waited ? pollBase : (overview ? time(overview.generated_at) : null);
+    stopPolling();
+    const r = await api('/stocks/overview');
+    if (r.kind === 'stale' || g !== gen) return false;
+    const at = r.kind === 'ok' ? time(obj(r.body).generated_at) : null;
+    if (at && at !== base) { await reloadAll('New results are in.'); return g === gen; }
+    if (mayWait && r.kind !== 'ok' && r.kind !== 'http' && waited) { pollUntil = until; schedulePoll(); return true; }
+    if (waited && startedNote) clearMsg();
+    return true;
+  }
+
+  // ---------- stop the run ----------
+  async function onStop() {
+    if (stopBusy || !runGoing()) return;
+    stopBusy = true;
+    renderToolbar();
+    clearMsg();
+    const r = await post('/stocks/stop', {});
+    if (r.kind === 'stale') return;
+    stopBusy = false;
+    const b = obj(r.body);
+    if (r.kind === 'ok' && b.ok === true) {
+      const n = Number.isInteger(b.stopped) && b.stopped > 0 ? b.stopped : 0;
+      stopPolling(); // a stopped run brings no results
+      showMsg('info', n ? 'Stopped. Run analysis now is ready once GitHub has stopped it, usually within a minute.' : 'Nothing was running.');
+      stopUntil = Date.now() + STOP_CHECK_FOR_MS;
+      const g = gen;
+      if (!n && (!(await readRunState()) || g !== gen)) return;
+    } else if (r.kind === 'http' && r.status === 409) {
+      showMsg('info', sentence(workerSays(r)) || 'The run is still starting. Try again in a minute.');
+    } else if (r.kind === 'http' && r.status === 500) {
+      showMsg('warn', 'The worker cannot stop runs yet.', workerSays(r) ? 'It said: ' + sentence(workerSays(r)) : 'Set GH_REPO and GH_DISPATCH_TOKEN on the worker.');
+    } else if (r.kind === 'http' && r.status === 502) {
+      showMsg('warn', 'GitHub did not stop the run.', 'Try again in a minute.');
+    } else {
+      showMsg('warn', problem(r, 'Could not stop the run'));
+    }
+    if (stopUntil && !runGoing()) stopUntil = 0;
+    renderToolbar();
+    scheduleRunCheck();
+    // The clicked button may be gone (the run is stopping), so the next button or the message takes the focus.
+    const again = $('st-stop') || $('st-run');
+    if (again && !again.disabled) again.focus();
+    else { msgEl.tabIndex = -1; msgEl.focus(); }
+  }
   document.addEventListener('visibilitychange', () => {
-    if (document.visibilityState === 'visible' && pollTimer && Date.now() < pollUntil) { pollTimer = cancel(pollTimer); pollTick(); }
+    if (document.visibilityState !== 'visible') return;
+    if (pollTimer && Date.now() < pollUntil) { pollTimer = cancel(pollTimer); pollTick(); }
+    if (stateDue) { stateTimer = cancel(stateTimer); checkRun(); }
   });
 
   // ---------- tabs ----------
