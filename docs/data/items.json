@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-17T20:00:19+00:00",
+  "generated_at": "2026-11-18T00:21:13+00:00",
   "items": [
+    {
+      "id": "4812dca4c6cccf2304aee61a2a1d858b",
+      "title": "5 Questions Shaping AI This Week",
+      "url": "https://www.youtube.com/watch?v=X8Nfe1smEYI",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-17T22:52:08+00:00",
+      "first_seen": "2026-11-18T00:21:13+00:00",
+      "summary": "Anthropic’s IPO could change how Wall Street judges the entire AI industry, while the fight over Jensen Huang’s future could reshape its most important chipmaker. NLW breaks down five questions defining the week: how Anthropic’s debut will land, whether OpenAI will release a...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "3b0ed9ae2a25d56b3b3d05ff82371050",
       "title": "35 premium tools free for a year—now with OpenRouter, LangChain, Sentry, TextExpander, and Ploy 💥",
@@ -17,7 +33,7 @@
     },
     {
       "id": "c10601476e432bea894e547f9a45f487",
-      "title": "Americans Will Buy Anthropic Whether They Want to Or Not | David Shapiro",
+      "title": "The Anthropic IPO Will Trigger a Massive VC Liquidity Wave | David Shapiro",
       "url": "https://www.youtube.com/watch?v=cqrWhiksSCI",
       "source": "@Monetary-Matters",
       "source_type": "youtube",
@@ -677,22 +693,6 @@
       "read_minutes": 8,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
-    },
-    {
-      "id": "dd47cf40e209756847ec8784f32bfb8a",
-      "title": "New Leading AI Models as Benchmarks Shift",
-      "url": "https://www.youtube.com/watch?v=Dz4_db_rRDE",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-10-30T10:22:26+00:00",
-      "first_seen": "2026-10-30T10:22:26+00:00",
-      "summary": "Artificial Analysis overhauls the Intelligence Index with version five, and the new benchmarks reshuffle the AI model leaderboard. NLW breaks down what changed, why private datasets and agentic tasks matter, and how the gap between US and open weight models widened. In the...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
       "bucket": "deeper"
     },
     {
