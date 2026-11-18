@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-18T00:21:13+00:00",
+  "generated_at": "2026-11-18T20:00:19+00:00",
   "items": [
+    {
+      "id": "adf595f99f7e0d64ac4c807fab68a00b",
+      "title": "How Business AI Use is Changing",
+      "url": "https://www.youtube.com/watch?v=YN4fId6Jn8k",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-18T16:50:20+00:00",
+      "first_seen": "2026-11-18T20:00:19+00:00",
+      "summary": "Business AI usage is growing much faster than spending as token prices fall and buyers gain leverage. NLW breaks down new data from Ramp, Databricks, and Arcana on model switching, spend concentration, and where enterprise agents really stand. In the headlines: the Nvidia...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "4812dca4c6cccf2304aee61a2a1d858b",
       "title": "5 Questions Shaping AI This Week",
@@ -664,22 +680,6 @@
         "AI/ML"
       ],
       "bucket": "highlight"
-    },
-    {
-      "id": "fc8d01c795a9a70cd1ad4b85c3149f62",
-      "title": "How the Most AI Pilled Company in the World Works",
-      "url": "https://www.youtube.com/watch?v=A2DeaJXO6Fg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-10-31T13:40:30+00:00",
-      "first_seen": "2026-10-31T13:40:30+00:00",
-      "summary": "Spawn’s ten-person team shipped 77,000 code changes in a month with an always-on fleet of AI agents. NLW breaks down the systems behind that output, why human taste and ambition still matter, and five practical lessons other businesses can apply. In the headlines: legal AI...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
     },
     {
       "id": "9145cdae05d2f15a937e30849092c3b1",
