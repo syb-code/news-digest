@@ -928,6 +928,147 @@
         "OpenAI news"
       ],
       "primary": true
+    },
+    {
+      "id": "35-premium-tools-free-for-a-year-now-with-openrouter",
+      "title": "Lenny's bundle adds OpenRouter, LangChain and Sentry to free tools",
+      "date": "2026-11-18",
+      "logged_at": "2026-11-18T13:48:06+00:00",
+      "terms": [
+        "langchain",
+        "openrouter",
+        "ploy",
+        "sentry",
+        "textexpander",
+        "premium",
+        "tools",
+        "free",
+        "exclusively",
+        "subscribers",
+        "000",
+        "value"
+      ],
+      "urls": [
+        "https://www.lennysnewsletter.com/p/35-premium-tools-free-for-a-yearnow"
+      ],
+      "sources": [
+        "Lenny’s Newsletter (Substack)"
+      ],
+      "primary": false
+    },
+    {
+      "id": "amazon-sagemaker-ai-real-time-endpoints-now-support-kv",
+      "title": "SageMaker endpoints add KV cache aware routing for inference",
+      "date": "2026-11-18",
+      "logged_at": "2026-11-18T13:48:06+00:00",
+      "terms": [
+        "endpoints",
+        "aware",
+        "routing",
+        "cache",
+        "sagemaker",
+        "support",
+        "amazon",
+        "real",
+        "cached",
+        "component",
+        "holding",
+        "instance"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-real-time-endpoints-now-support-kv-cache-aware-routing/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "announcing-ai-data-preparation-capabilities-in-amazon",
+      "title": "SageMaker adds AI tools for building training and eval datasets",
+      "date": "2026-11-18",
+      "logged_at": "2026-11-18T13:48:06+00:00",
+      "terms": [
+        "announcing",
+        "datasets",
+        "preparation",
+        "capabilities",
+        "quality",
+        "workflows",
+        "high",
+        "development",
+        "sagemaker",
+        "amazon",
+        "build",
+        "data"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/announcing-ai-data-preparation-capabilities-in-amazon-sagemaker-build-high-quality-datasets-for-model-development-workflows/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "inference-after-coding-agents",
+      "title": "Coding agents threaten statistical inference and need outside sandboxes",
+      "date": "2026-11-18",
+      "logged_at": "2026-11-18T13:48:06+00:00",
+      "terms": [
+        "coding",
+        "external",
+        "sandboxes",
+        "research",
+        "inference",
+        "post",
+        "code",
+        "actions",
+        "argue",
+        "becoming",
+        "carrying",
+        "cause"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.23174v1",
+        "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/"
+      ],
+      "sources": [
+        "Simon Willison",
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "introducing-gpt-6-2-astra-and-sol",
+      "title": "OpenAI ships GPT-6.2 Astra and Sol at lower prices",
+      "date": "2026-11-18",
+      "logged_at": "2026-11-18T13:48:06+00:00",
+      "terms": [
+        "gpt6.2",
+        "astra",
+        "sol",
+        "6.2",
+        "gpt",
+        "frontier",
+        "introducing",
+        "work",
+        "600",
+        "main",
+        "reviews",
+        "reviews6.2"
+      ],
+      "urls": [
+        "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+        "https://openai.com/index/introducing-gpt-6-2-astra-sol",
+        "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/"
+      ],
+      "sources": [
+        "Latent Space",
+        "OpenAI news",
+        "Simon Willison"
+      ],
+      "primary": true
     }
   ]
 }

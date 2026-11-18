@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-17",
+  "latest": "2026-11-18",
   "days": [
+    {
+      "date": "2026-11-18",
+      "topics": [
+        "OpenAI ships GPT-6.2 Astra and Sol at lower prices",
+        "Coding agents threaten statistical inference and need outside sandboxes",
+        "SageMaker endpoints add KV cache aware routing for inference",
+        "SageMaker adds AI tools for building training and eval datasets",
+        "Lenny's bundle adds OpenRouter, LangChain and Sentry to free tools"
+      ]
+    },
     {
       "date": "2026-11-17",
       "topics": [
