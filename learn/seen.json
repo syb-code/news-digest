@@ -1069,6 +1069,151 @@
         "Simon Willison"
       ],
       "primary": true
+    },
+    {
+      "id": "ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20",
+      "title": "OpenAI ships GPT-6.2 Astra and Sol with cheaper benchmark costs",
+      "date": "2026-11-19",
+      "logged_at": "2026-11-19T13:48:04+00:00",
+      "terms": [
+        "6.2",
+        "gpt6.2",
+        "astra",
+        "gpt",
+        "600",
+        "guidance",
+        "main",
+        "reviews6.2",
+        "workhorse",
+        "ainews",
+        "mattgsouthern",
+        "prompting"
+      ],
+      "urls": [
+        "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+        "https://www.searchenginejournal.com/openai-gpt-6-2-astra-prompting-guidance/597877/"
+      ],
+      "sources": [
+        "Latent Space",
+        "Search Engine Journal"
+      ],
+      "primary": false
+    },
+    {
+      "id": "introducing-gemini-4-neon",
+      "title": "Google DeepMind releases Gemini 4 Neon, a middle-tier frontier contender",
+      "date": "2026-11-19",
+      "logged_at": "2026-11-19T13:48:04+00:00",
+      "terms": [
+        "neon",
+        "gemini4",
+        "gemini",
+        "contender",
+        "gdm",
+        "ainews",
+        "sol",
+        "introducing",
+        "opus",
+        "middle",
+        "november18",
+        "scores61"
+      ],
+      "urls": [
+        "https://deepmind.google/blog/introducing-gemini-4-neon/",
+        "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/"
+      ],
+      "sources": [
+        "Google DeepMind blog",
+        "Latent Space"
+      ],
+      "primary": true
+    },
+    {
+      "id": "managing-frontier-ai-risk-from-training-to-deployment",
+      "title": "OpenAI describes its layered approach to frontier AI risk",
+      "date": "2026-11-19",
+      "logged_at": "2026-11-19T13:48:04+00:00",
+      "terms": [
+        "training",
+        "frontier",
+        "27b",
+        "daisyrose",
+        "efficiency",
+        "managing",
+        "pushing",
+        "risk",
+        "deployment",
+        "post",
+        "blocking",
+        "manages"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+        "https://openai.com/index/managing-frontier-ai-risk"
+      ],
+      "sources": [
+        "Hugging Face blog",
+        "OpenAI news"
+      ],
+      "primary": true
+    },
+    {
+      "id": "reducing-inference-cost-of-coding-agents-with-timeout",
+      "title": "Cutting coding agent costs with small models and cost per task",
+      "date": "2026-11-19",
+      "logged_at": "2026-11-19T13:48:04+00:00",
+      "terms": [
+        "coding",
+        "cost",
+        "airbnb",
+        "cascades",
+        "operate",
+        "reducing",
+        "timeout",
+        "engineering",
+        "task",
+        "per",
+        "bedrock",
+        "inference"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.24324v1",
+        "https://aws.amazon.com/blogs/machine-learning/how-airbnb-uses-cost-per-task-to-operate-coding-agents-on-amazon-bedrock/"
+      ],
+      "sources": [
+        "AWS machine learning blog",
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "why-your-fine-tuning-job-takes-longer-than-the-flops-say",
+      "title": "Fine-tuning time estimates and when full fine-tuning beats LoRA",
+      "date": "2026-11-19",
+      "logged_at": "2026-11-19T13:48:04+00:00",
+      "terms": [
+        "fine",
+        "tuning",
+        "customization",
+        "fft",
+        "flops",
+        "longer",
+        "full",
+        "serverless",
+        "takes",
+        "job",
+        "sagemaker",
+        "gap"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/full-fine-tuning-fft-on-sagemaker-ai-serverless-model-customization/",
+        "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time"
+      ],
+      "sources": [
+        "AWS machine learning blog",
+        "Hugging Face blog"
+      ],
+      "primary": true
     }
   ]
 }

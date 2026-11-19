@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-18",
+  "latest": "2026-11-19",
   "days": [
+    {
+      "date": "2026-11-19",
+      "topics": [
+        "Google DeepMind releases Gemini 4 Neon, a middle-tier frontier contender",
+        "OpenAI describes its layered approach to frontier AI risk",
+        "Cutting coding agent costs with small models and cost per task",
+        "Fine-tuning time estimates and when full fine-tuning beats LoRA",
+        "OpenAI ships GPT-6.2 Astra and Sol with cheaper benchmark costs"
+      ]
+    },
     {
       "date": "2026-11-18",
       "topics": [
