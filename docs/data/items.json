@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-18T20:00:19+00:00",
+  "generated_at": "2026-11-19T20:00:30+00:00",
   "items": [
+    {
+      "id": "7630e4dc10fdc41e0e69fe5233b814b6",
+      "title": "The $250 Billion Copper Crisis is Only Getting Worse | Rick Rule",
+      "url": "https://www.youtube.com/watch?v=Z-sZ4SRM6qA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-19T15:05:33+00:00",
+      "first_seen": "2026-11-19T20:00:30+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Jack Farley is joined by legendary resource investor Rick Rule to break down the impending $250 billion...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
+    {
+      "id": "534ea0334af9e2f690c87cc09b1ca244",
+      "title": "Why the AI Kids Hate Astra 6.2",
+      "url": "https://www.youtube.com/watch?v=uSzew8QPRX0",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-19T13:50:08+00:00",
+      "first_seen": "2026-11-19T20:00:30+00:00",
+      "summary": "OpenAI’s GPT-6.2 Astra and Sol launch drew some of the worst first impressions on record, yet the efficiency numbers tell a different story. NLW breaks down the benchmarks, the early tester backlash, and what the release says about OpenAI’s push toward cost-efficient...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "adf595f99f7e0d64ac4c807fab68a00b",
       "title": "How Business AI Use is Changing",
@@ -572,22 +602,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "07cf7c9c4177259be6827075233e519b",
-      "title": "AI Won’t Make Our Minds Useless According to 400 Years of History",
-      "url": "https://www.youtube.com/watch?v=9VHxHcU0uVY",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-02T23:44:29+00:00",
-      "first_seen": "2026-11-02T23:44:29+00:00",
-      "summary": "What if abundant intelligence makes human ambition expand rather than human relevance disappear? NLW explores Venkatesh Rao’s “Cognitive Mercantilism,” which uses the history of capitalism to challenge assumptions about AI and our intellectual future. From the agricultural...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "26a5689567ca60e4f83169d6d5ef1934",
       "title": "Michael Howell: Pain Now, Money Printing Later",
       "url": "https://www.youtube.com/watch?v=dYRYNvzuV-Q",
@@ -846,23 +860,6 @@
       "read_minutes": 8,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
-    },
-    {
-      "id": "837d8ebe30760ef352012a2e36326533",
-      "title": "Is The AI Trade Over? | Jack & Max on Panic in AI Credit, SpaceX Earnings, and Semis",
-      "url": "https://www.youtube.com/watch?v=jvWdaw2Hreg",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-21T10:02:25+00:00",
-      "first_seen": "2026-10-21T10:02:25+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Ares piece referenced...",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
       "bucket": "deeper"
     },
     {
