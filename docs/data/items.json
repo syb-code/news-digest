@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-19T20:00:30+00:00",
+  "generated_at": "2026-11-20T13:46:06+00:00",
   "items": [
+    {
+      "id": "c4509bd3f99304c366f530698c21ef0c",
+      "title": "The 10 Biggest Days in AI History",
+      "url": "https://www.youtube.com/watch?v=xskAzAc_0ws",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-20T01:59:59+00:00",
+      "first_seen": "2026-11-20T13:46:06+00:00",
+      "summary": "Anthropic’s first day of trading makes a fitting moment to look back at the biggest days in AI history. NLW counts down ten dates, from the founding of OpenAI and the launch of ChatGPT to the DeepSeek sell-off, the agentic era, and the Anthropic IPO. Honorable mentions...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "7630e4dc10fdc41e0e69fe5233b814b6",
       "title": "The $250 Billion Copper Crisis is Only Getting Worse | Rick Rule",
@@ -564,22 +580,6 @@
       "published": "2026-11-04T12:43:33+00:00",
       "first_seen": "2026-11-04T12:43:33+00:00",
       "summary": "RSI is the three-letter acronym on everyone’s mind as AI models edge closer to self-improvement. NLW connects Elon Musk’s warning about the cost of GrokBot, a new MIT paper on one model editing another model’s weights, and Anthropic’s updated S1 language on recursive...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "d1eb23798e4cad5c8c4edbbbda6d01d7",
-      "title": "How to Deslopify Your AI",
-      "url": "https://www.youtube.com/watch?v=QSZKZHeGZr4",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-03T14:49:14+00:00",
-      "first_seen": "2026-11-03T14:49:14+00:00",
-      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
       "read_minutes": 1,
       "duration_sec": null,
       "themes": [

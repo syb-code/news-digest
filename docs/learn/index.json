@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-19",
+  "latest": "2026-11-20",
   "days": [
+    {
+      "date": "2026-11-20",
+      "topics": [
+        "SkillBridge finds and repairs agent skills that break across operating systems",
+        "Medical LLMs can get the right answer through broken reasoning",
+        "AgentCore harness moves to Strands with hooks, caching and tools",
+        "SageMaker now flags latency drift and idle GPUs automatically",
+        "Copper supply worries, and why physical inputs shape AI costs"
+      ]
+    },
     {
       "date": "2026-11-19",
       "topics": [

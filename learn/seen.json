@@ -1214,6 +1214,145 @@
         "Hugging Face blog"
       ],
       "primary": true
+    },
+    {
+      "id": "amazon-bedrock-agentcore-harness-adds-strands-harness",
+      "title": "AgentCore harness moves to Strands with hooks, caching and tools",
+      "date": "2026-11-20",
+      "logged_at": "2026-11-20T13:48:01+00:00",
+      "terms": [
+        "defaults",
+        "strands",
+        "hooks",
+        "lifecycle",
+        "agentcore",
+        "harness",
+        "adds",
+        "bedrock",
+        "tools",
+        "amazon",
+        "automatic",
+        "caching"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and",
+      "title": "SageMaker now flags latency drift and idle GPUs automatically",
+      "date": "2026-11-20",
+      "logged_at": "2026-11-20T13:48:01+00:00",
+      "terms": [
+        "detects",
+        "idle",
+        "missed",
+        "endpoints",
+        "gpus",
+        "latency",
+        "optimizations",
+        "drift",
+        "sagemaker",
+        "inference",
+        "amazon",
+        "apply"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "skillbridge-cost-aware-diagnosis-and-repair-of-cross-os",
+      "title": "SkillBridge finds and repairs agent skills that break across operating systems",
+      "date": "2026-11-20",
+      "logged_at": "2026-11-20T13:48:01+00:00",
+      "terms": [
+        "cross",
+        "running",
+        "compatibility",
+        "defects",
+        "diagnosis",
+        "repair",
+        "shortfalls",
+        "skillbridge",
+        "capacity",
+        "region",
+        "regional",
+        "skills"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.26256v1",
+        "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/"
+      ],
+      "sources": [
+        "AWS machine learning blog",
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "the-250-billion-copper-crisis-is-only-getting-worse-rick",
+      "title": "Copper supply worries, and why physical inputs shape AI costs",
+      "date": "2026-11-20",
+      "logged_at": "2026-11-20T13:48:01+00:00",
+      "terms": [
+        "copper",
+        "getting",
+        "rick",
+        "rule",
+        "250",
+        "billion",
+        "crisis",
+        "worse",
+        "break",
+        "impending",
+        "legendary",
+        "farley"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=Z-sZ4SRM6qA"
+      ],
+      "sources": [
+        "@Monetary-Matters"
+      ],
+      "primary": false
+    },
+    {
+      "id": "verifiable-logic-in-medical-llms-a-critical-review-of",
+      "title": "Medical LLMs can get the right answer through broken reasoning",
+      "date": "2026-11-20",
+      "logged_at": "2026-11-20T13:48:01+00:00",
+      "terms": [
+        "review",
+        "inference",
+        "clinical",
+        "grounding",
+        "logic",
+        "medical",
+        "neuro",
+        "symbolic",
+        "critical",
+        "verifiable",
+        "optimization",
+        "sagemaker"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.25898v1",
+        "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/"
+      ],
+      "sources": [
+        "AWS machine learning blog",
+        "arXiv agents"
+      ],
+      "primary": true
     }
   ]
 }

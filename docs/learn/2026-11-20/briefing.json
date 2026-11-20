@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T13:46:37+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 4659,
+    "output_tokens": 5547,
+    "cost_usd": 0.129576
+  },
+  "email_summary": "Today: SkillBridge, a cheaper way to find and fix agent skills that break across operating systems, and a critical review of how medical LLMs hide invalid reasoning behind right answers. Plus two AWS launches, AgentCore harness hooks and SageMaker endpoint findings, and an off-lane look at copper supply.",
+  "topics": [
+    {
+      "id": "skillbridge-cost-aware-diagnosis-and-repair-of-cross-os",
+      "title": "SkillBridge finds and repairs agent skills that break across operating systems",
+      "lanes": [
+        "Best skills",
+        "Agents and loops",
+        "Best processes"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 19, a paper titled SkillBridge appeared in the arXiv agents feed. It addresses a specific and growing problem. LLM agents now reuse executable capabilities packaged as skills, but a skill that works on one operating system can fail on another. The authors argue this happens because assumptions about the OS are scattered across several places at once: the guide text, the scripts, the metadata, the install contracts, and the local entrypoints.\n\nThe obvious way to find these defects is to run every skill on every OS. The paper says that is expensive. Many runs spend model tokens, runner time and human review effort before it becomes clear whether a failure is really caused by the OS or by something else.\n\nSkillBridge is described as a contract-based workflow with three parts. The feed summary is cut off at that point, so the three stages, the repair method, and any results or numbers are not available here. Treat the details as unknown until you read the abstract or paper.\n\nThe topic also carries a second item that is a different story. AWS published a post the same day on cross-Region inference routing in Amazon SageMaker AI. It gives an application one invocation path across existing endpoints and inference components in one or more Regions and accounts. The router prefers its own Region and moves new requests elsewhere only when the local destination cannot serve reliably. It shares the theme of portability and resilience but is not related to SkillBridge.",
+      "why_it_matters": "If you write or share agent skills, the core claim is worth taking seriously even before you see the method. A skill is not one file. It is prose instructions, scripts, metadata and install steps, and each can quietly assume bash, a POSIX path, or a tool that only exists on macOS or Linux. Teammates on Windows, CI runners and cloud sandboxes will hit those assumptions first.\n\nA cheap thing to try today is a static pass over your skills before any execution. Search the guide text and scripts for hard-coded paths, shell-specific syntax, and package manager commands, and write down which OS each skill actually supports in its metadata. That is roughly the idea of a contract: make the assumptions explicit so you can check them without spending tokens on full runs.\n\nFor process, the cost framing matters. Running a full matrix of skills times operating systems through an agent burns budget and reviewer time. Triage first, then execute only the cases that are likely OS-related.\n\nThe SageMaker routing item points at the same lesson at the infrastructure level: declare where things can run and fail over deliberately, rather than discovering limits in production.",
+      "read_first": [
+        {
+          "title": "SkillBridge: Cost-Aware Diagnosis and Repair of Cross-OS Compatibility Defects in Agent Skills",
+          "url": "https://arxiv.org/abs/2611.26256v1",
+          "source": "arXiv agents",
+          "why": "It is the primary source, and the feed summary stops before describing the three-part workflow and any results."
+        },
+        {
+          "title": "Keep inference running through regional capacity shortfalls with cross-Region inference routing in Amazon SageMaker AI",
+          "url": "https://aws.amazon.com/blogs/machine-learning/keep-inference-running-through-regional-capacity-shortfalls-with-cross-region-inference-routing-in-amazon-sagemaker-ai/",
+          "source": "AWS machine learning blog",
+          "why": "Read it if you serve models on SageMaker and need a fallback when one Region runs short of capacity."
+        }
+      ],
+      "open_question": "Should skill formats require an explicit OS compatibility contract in their metadata, or can agents reliably infer it from the scripts and guide text on their own?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 2,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 6,
+        "score": 5.7
+      }
+    },
+    {
+      "id": "verifiable-logic-in-medical-llms-a-critical-review-of",
+      "title": "Medical LLMs can get the right answer through broken reasoning",
+      "lanes": [
+        "Best practices",
+        "Agents and loops",
+        "Efficiencies"
+      ],
+      "off_lane": false,
+      "what_happened": "A critical review posted to arXiv on November 19 looks at how clinical large language models are evaluated and why the usual approach falls short. Clinical models are mostly judged on whether the final answer is correct. The authors point out that a model can reach a fluent, plausible output through invalid reasoning, and that static benchmarks do not catch this. They name three failure types that can pass conventional evaluation: confident hallucination, causally invalid inference, and spurious demographic shortcuts.\n\nThe review is organized around four paradigms. The first is how clinical hallucination arises and why static metrics miss it. The second is what the authors call the agentic hallucination cascade, which, from the name, concerns errors that propagate through multi-step agent workflows. The feed summary is truncated there, so the other two paradigms are not described in the items, though the title points to agentic clinical reasoning optimization and neuro-symbolic grounding as themes.\n\nThe topic is paired with an unrelated item. On November 20, AWS published part two of its review of 2026 SageMaker AI inference launches. It covers 13 more launches, bringing the year's total to 26, across configuration recommendations, fitting more models on each GPU, serving models too large for one instance, cross-Region routing, and post-launch tuning. It is useful on its own, but it says nothing about medical reasoning.",
+      "why_it_matters": "The medical setting is extreme, but the lesson applies to anyone who evaluates AI output. If your evals only check the final answer, you are measuring outcomes, not reasoning, and a model can score well while relying on shortcuts that will fail on the next case.\n\nConcrete things to try. Add checks on intermediate steps, not just the answer. For agent workflows, log every tool call and intermediate claim, and grade whether each step is supported by what came before. An error early in a loop can be repeated and amplified by later steps, which is the cascade idea the review names.\n\nAlso probe for shortcuts. Swap demographic or surface features in test cases while holding the substance fixed, and see whether the answer changes. If it does, your model is leaning on something it should not.\n\nGrounding the model in structured rules or a symbolic checker, which the title suggests the review covers, is one route to verifiable steps. Even outside medicine, a deterministic validator on key claims can be cheaper than more model calls.\n\nIf you also run inference on AWS, the SageMaker roundup is a quick way to catch cost features you may have missed this year.",
+      "read_first": [
+        {
+          "title": "Verifiable Logic in Medical LLMs: A Critical Review of Agentic Clinical Reasoning Optimization and Neuro-Symbolic Grounding",
+          "url": "https://arxiv.org/abs/2611.25898v1",
+          "source": "arXiv agents",
+          "why": "The summary is cut off after two of the four paradigms, so the full review is needed for the grounding and optimization sections."
+        },
+        {
+          "title": "Amazon SageMaker Inference: 2026 launches in review, part 2",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-inference-2026-launches-in-review-part-2/",
+          "source": "AWS machine learning blog",
+          "why": "A single catalog of 13 inference launches is a fast efficiency check if you serve models on SageMaker."
+        }
+      ],
+      "open_question": "How do you grade reasoning steps at scale without relying on another LLM judge that may share the same blind spots?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 2,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 7,
+        "score": 5.7
+      }
+    },
+    {
+      "id": "amazon-bedrock-agentcore-harness-adds-strands-harness",
+      "title": "AgentCore harness moves to Strands with hooks, caching and tools",
+      "lanes": [
+        "Efficiencies",
+        "Agents and loops",
+        "Best practices"
+      ],
+      "off_lane": false,
+      "what_happened": "AWS announced on November 19 that the Amazon Bedrock AgentCore harness now runs on the open-source Strands harness. The change brings several defaults and features together.\n\nFirst, there is a recommended model and a set of task-oriented defaults, which suggests the harness now ships with opinions about how an agent should be configured out of the box rather than leaving every choice to the builder.\n\nSecond, it adds automatic prompt caching and what AWS calls proactive context management. The post summary does not explain how context is managed, for example whether it summarizes, trims, or offloads earlier turns, so that detail needs the full post.\n\nThird, there are new built-in tools. The summary does not list them.\n\nFourth, and most notable for control, it adds lifecycle hooks. These let you run deterministic allow or deny checks at defined points in the agent loop. In practice that means code you write, not a model, decides whether a step proceeds.\n\nThis is a single source, the AWS machine learning blog, and it is a vendor announcement. There is no independent coverage or benchmark in the items, so claims about performance or savings are unverified here.",
+      "why_it_matters": "Lifecycle hooks are the part to pay attention to. Guardrails that live inside a prompt can be ignored or talked around. A deterministic check at a fixed point in the loop, for example before a tool call runs or before output is returned, gives you a place to enforce rules like blocking writes to production, capping spend, or requiring approval for certain actions. If you build agents on any framework, look for the equivalent hook points and move your hard rules there.\n\nAutomatic prompt caching matters for cost. Agent loops resend long system prompts and tool definitions on every turn, so caching the stable prefix can cut both latency and token spend. Check that your prompts keep stable content at the front so the cache can actually hit.\n\nThe move onto open-source Strands is also worth noting. It means the harness logic is inspectable, and patterns you learn there may carry over if you run agents elsewhere.\n\nOne caution: recommended models and defaults are a starting point. Run your own evals before and after adopting them, since defaults tuned for typical tasks may not match yours.",
+      "read_first": [
+        {
+          "title": "Amazon Bedrock AgentCore harness adds Strands harness defaults, built-in tools, and lifecycle hooks",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-bedrock-agentcore-harness-adds-strands-harness-defaults-built-in-tools-and-lifecycle-hooks/",
+          "source": "AWS machine learning blog",
+          "why": "It is the only source and the place to find which tools were added and exactly where the hooks fire."
+        }
+      ],
+      "open_question": "As harnesses bundle a recommended model, defaults and context management, how much of your agent's behavior is still yours to evaluate and tune?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 6,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and",
+      "title": "SageMaker now flags latency drift and idle GPUs automatically",
+      "lanes": [
+        "Efficiencies",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 19, AWS announced that Amazon SageMaker AI now monitors generative AI inference endpoints by default and tells you when a change could improve performance or lower cost.\n\nAccording to the post summary, the service tracks three things: latency, GPU utilization, and serving configuration. From those it produces findings. The title names the kinds of findings: latency drift, idle GPUs, and missed optimizations.\n\nFindings arrive through AWS Health, the service AWS uses for account and resource notifications. Each one comes with what AWS describes as a one-click path to benchmark alternatives in SageMaker Studio. The important detail is the order of operations: you benchmark the alternative first, and only then decide whether to apply the change. The summary does not say the service changes anything on its own.\n\nThe item does not say which optimizations it can recommend, how drift thresholds are set, whether there is a charge, or how to turn it off. It is a single vendor source with no independent reports yet.\n\nThis launch fits a wider pattern in the same week. AWS also published a review of 26 SageMaker inference launches from 2026, including post-launch tuning, which suggests ongoing optimization after deployment is a theme for the platform this year.",
+      "why_it_matters": "Most teams deploy an inference endpoint, confirm it works, and stop looking. Over weeks, traffic shifts, a GPU sits mostly idle, or a newer serving option would have been cheaper. This launch turns that neglect into a notification, which is useful if you run models on SageMaker.\n\nThings to do. Make sure someone actually receives AWS Health events for your account, or the findings will go nowhere. Treat each finding as a hypothesis, and use the benchmark step with your own representative traffic, not just default load, before applying anything.\n\nEven if you do not use SageMaker, copy the pattern. Track p50 and p95 latency over time, alert on drift, and track GPU utilization per endpoint. An endpoint running at low utilization is a direct candidate for a smaller instance, packing more models per GPU, or batching. If you self-host with vLLM or similar, the same metrics tell you when quantization or a smaller model is worth testing.\n\nThe lane tag on frontier models is a stretch here. The real story is efficiency: catching waste after launch, when most of the cost accrues.",
+      "read_first": [
+        {
+          "title": "Amazon SageMaker AI now detects latency drift, idle GPUs, and missed optimizations on your inference endpoints",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-sagemaker-ai-now-detects-latency-drift-idle-gpus-and-missed-optimizations-on-your-inference-endpoints/",
+          "source": "AWS machine learning blog",
+          "why": "It is the primary announcement and should list which optimizations it can suggest and how findings are delivered."
+        }
+      ],
+      "open_question": "Will teams trust automated cost findings enough to act on them, or will they become another ignored alert stream?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "the-250-billion-copper-crisis-is-only-getting-worse-rick",
+      "title": "Copper supply worries, and why physical inputs shape AI costs",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "This is the off-lane pick. On November 19, the Monetary Matters channel on YouTube posted an episode in which host Jack Farley talks with resource investor Rick Rule. The title frames the subject as a 250 billion dollar copper crisis that is only getting worse.\n\nThe feed summary is very thin. Most of it is a sponsor message for an ETF from Sarmaya Partners, followed by one line saying the conversation breaks down the impending 250 billion dollar problem before the text cuts off. The item does not explain what the 250 billion figure measures, whether it refers to a supply gap, investment shortfall or something else, what timeframe is meant, or what evidence is offered.\n\nIt is also worth being clear about the source. This is an investing podcast, not a primary source like a government agency, mining company report or research paper. It is sponsored, and the guest speaks as an investor with views on resource markets. The item contains no mention of AI or data centers. Any connection to AI work comes from the reader's context, not from the episode summary.\n\nSo the honest summary is this: a well-known resource investor argues copper supply is under serious strain, and the details are only available by watching the episode.",
+      "why_it_matters": "It is easy to treat AI cost as a software problem: tokens, caching, model size. Underneath are physical inputs. Data centers, power grids, transformers and cooling all depend on metals and electrical equipment, and copper is a major one in wiring and power infrastructure. That is general background, not a claim from the episode, but it is why a commodity story deserves a few minutes from someone who builds with AI.\n\nThe practical takeaway is not to trade copper. It is to remember that compute prices and capacity are not guaranteed to keep falling smoothly. Supply constraints in power and hardware can show up as regional capacity shortfalls, higher prices, or waits for GPUs. The same week, AWS shipped cross-Region routing for exactly the case where one Region cannot serve.\n\nThat argues for the efficiency habits in today's other topics: watch utilization, cache prompts, try smaller or quantized models, and design so a workload can move. Teams that get more out of each GPU are less exposed to whatever happens upstream.\n\nWatch skeptically, given the sponsorship and investor framing.",
+      "read_first": [
+        {
+          "title": "The $250 Billion Copper Crisis is Only Getting Worse | Rick Rule",
+          "url": "https://www.youtube.com/watch?v=Z-sZ4SRM6qA",
+          "source": "@Monetary-Matters",
+          "why": "It is the only source, and the summary gives almost none of the argument, so the episode itself is the only way to judge it."
+        }
+      ],
+      "open_question": "How much of the future cost of AI inference will be set by physical supply chains like power and metals rather than by model and software efficiency?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}
