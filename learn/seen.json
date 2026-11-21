@@ -1353,6 +1353,149 @@
         "arXiv agents"
       ],
       "primary": true
+    },
+    {
+      "id": "claude-code-releases-v2-1-330",
+      "title": "Claude Code v2.1.330 adds enterprise sign-in and automatic charts",
+      "date": "2026-11-21",
+      "logged_at": "2026-11-21T13:47:54+00:00",
+      "terms": [
+        "v2.1.330",
+        "code",
+        "added",
+        "applies",
+        "auth",
+        "automatic",
+        "available",
+        "charts",
+        "cloud",
+        "config",
+        "draws",
+        "easel"
+      ],
+      "urls": [
+        "https://github.com/anthropics/claude-code/releases/tag/v2.1.330"
+      ],
+      "sources": [
+        "Claude Code releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "combatting-adversarial-distillation",
+      "title": "OpenAI describes its layered defense against adversarial distillation",
+      "date": "2026-11-21",
+      "logged_at": "2026-11-21T13:47:54+00:00",
+      "terms": [
+        "adversarial",
+        "combatting",
+        "distillation",
+        "approach",
+        "capability",
+        "combines",
+        "detection",
+        "enforcement",
+        "extraction",
+        "layered",
+        "protect",
+        "safeguards"
+      ],
+      "urls": [
+        "https://openai.com/index/combatting-adversarial-distillation"
+      ],
+      "sources": [
+        "OpenAI news"
+      ],
+      "primary": true
+    },
+    {
+      "id": "cut-self-hosted-llm-cost-and-latency-with-the-distributed",
+      "title": "AWS agent skill sets up distributed KV caching for self-hosted models",
+      "date": "2026-11-21",
+      "logged_at": "2026-11-21T13:47:54+00:00",
+      "terms": [
+        "caching",
+        "cut",
+        "distributed",
+        "hosted",
+        "latency",
+        "skill",
+        "llm",
+        "cost",
+        "self",
+        "agent",
+        "elasticache",
+        "evaluates"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/cut-self-hosted-llm-cost-and-latency-with-the-distributed-kv-caching-agent-skill/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "llama-cpp-releases-b12591",
+      "title": "llama.cpp builds add Inkling 2 Mini and tighten core code",
+      "date": "2026-11-21",
+      "logged_at": "2026-11-21T13:47:54+00:00",
+      "terms": [
+        "llama.cpp",
+        "cuda",
+        "vulkan",
+        "12.8",
+        "cuda12",
+        "cuda12.8",
+        "llama",
+        "add",
+        "ggml",
+        "b12591",
+        "b12596",
+        "b12597"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12591",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12596",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12597",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12599",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12600",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12602",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12603",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12604",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12606"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "new-in-aws-quick-more-capable-flows-an-updated-web",
+      "title": "AWS Quick adds chat flows, multi-agent answers and marketing data",
+      "date": "2026-11-21",
+      "logged_at": "2026-11-21T13:47:54+00:00",
+      "terms": [
+        "aws",
+        "capable",
+        "experience",
+        "flows",
+        "quick",
+        "web",
+        "together",
+        "updated",
+        "work",
+        "agents",
+        "amplitude",
+        "answers"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/new-in-aws-quick-more-capable-flows-an-updated-web-experience-and-agents-that-work-together/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
     }
   ]
 }

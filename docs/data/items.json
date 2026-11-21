@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-20T13:46:06+00:00",
+  "generated_at": "2026-11-21T13:46:04+00:00",
   "items": [
+    {
+      "id": "4c5d38c629cff3751b74d72b480a5304",
+      "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
+      "url": "https://lastweekin.ai/p/last-week-in-ai-348-ipo-correction",
+      "source": "Last Week in AI (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-21T08:41:43+00:00",
+      "first_seen": "2026-11-21T13:46:04+00:00",
+      "summary": "Anthropic's $81B IPO, AI stocks enter a correction, Huang resigns from Nvidia, Trump and Xi agree on military AI",
+      "read_minutes": 14,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "3ccaf51caf44ac97f35e0ee73468ae16",
+      "title": "Deep Learning Weekly: Issue 482",
+      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-482",
+      "source": "Deep Learning Weekly",
+      "source_type": "rss",
+      "published": "2026-11-20T20:40:29+00:00",
+      "first_seen": "2026-11-21T13:46:04+00:00",
+      "summary": "Introducing GPT-6.2 Astra and Sol, External sandboxes for coding agents, a paper on Self-Improvement Memory Enables Continual Recursive Self-Improvement, and many more!",
+      "read_minutes": 6,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
     {
       "id": "c4509bd3f99304c366f530698c21ef0c",
       "title": "The 10 Biggest Days in AI History",
@@ -1359,20 +1389,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "9c2a0c6f55befa26bba0879b2a9543bc",
-      "title": "Deep Learning Weekly: Issue 462",
-      "url": "https://www.deeplearningweekly.com/p/deep-learning-weekly-issue-462",
-      "source": "Deep Learning Weekly",
-      "source_type": "rss",
-      "published": "2026-07-02T18:00:36+00:00",
-      "first_seen": "2026-07-02T18:00:36+00:00",
-      "summary": "GPT-5.6 Sol, Scaling Laws, a paper on Memory is Reconstructed, Not Retrieved: Graph Memory for LLM Agents, and many more!",
-      "read_minutes": 5,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "877e1e7407d0b2633c567245bd5e075f",
       "title": "Kindness by design",
       "url": "https://designplusai.com/p/kindness-by-design",
@@ -1413,22 +1429,6 @@
       "published": "2026-05-26T05:10:23+00:00",
       "first_seen": "2026-05-26T05:10:23+00:00",
       "summary": "Google unveils AI model Gemini 3.5 and AI agent Gemini Spark, Omni turns images, audio, and text into video, Musk loses OpenAI court battle",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "53cae1d9f02d2360fb72f847d2df20ed",
-      "title": "LWiAI Podcast #245 - TML-Interaction, Claude For Legal, Sam Altman on Stand",
-      "url": "https://lastweekin.ai/p/lwiai-podcast-245-tml-interaction",
-      "source": "Last Week in AI (Substack)",
-      "source_type": "rss",
-      "published": "2026-05-20T07:45:49+00:00",
-      "first_seen": "2026-05-20T07:45:49+00:00",
-      "summary": "OpenAI launches new voice intelligence features in its API, Thinking Machines drops a new, highly responsive model designed for humanlike interactions in real time, and more!",
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [

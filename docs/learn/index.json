@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-20",
+  "latest": "2026-11-21",
   "days": [
+    {
+      "date": "2026-11-21",
+      "topics": [
+        "Claude Code v2.1.330 adds enterprise sign-in and automatic charts",
+        "OpenAI describes its layered defense against adversarial distillation",
+        "AWS agent skill sets up distributed KV caching for self-hosted models",
+        "llama.cpp builds add Inkling 2 Mini and tighten core code",
+        "AWS Quick adds chat flows, multi-agent answers and marketing data"
+      ]
+    },
     {
       "date": "2026-11-20",
       "topics": [
