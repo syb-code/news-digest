@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-21T13:46:04+00:00",
+  "generated_at": "2026-11-21T20:00:16+00:00",
   "items": [
+    {
+      "id": "b7d6acc247ce1a80b20b2bef238c74c6",
+      "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
+      "url": "https://www.lennysnewsletter.com/p/community-wisdom-handling-context",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-21T16:49:56+00:00",
+      "first_seen": "2026-11-21T20:00:16+00:00",
+      "summary": "Community Wisdom 306",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
     {
       "id": "4c5d38c629cff3751b74d72b480a5304",
       "title": "Last Week in AI #348 - IPO->Correction, new GPTs and Geminis, Nvidia’s Fate",
@@ -846,20 +862,6 @@
         "AI/ML"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "ba5981041350ccd3408b403ce4e0bc77",
-      "title": "An 86-minute guide to finding PMF | Rob Snyder (Author, The Power of Pull)",
-      "url": "https://www.lennysnewsletter.com/p/an-86-minute-guide-to-finding-pmf",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-25T12:31:34+00:00",
-      "first_seen": "2026-10-25T12:31:34+00:00",
-      "summary": "Listen now (86 mins) | The founder who helped over 50 startups hit $1M ARR shares his PULL framework for finding real product-market fit",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
     },
     {
       "id": "f515f8a68302088870424597ae10d11b",
