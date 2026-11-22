@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-21T20:00:16+00:00",
+  "generated_at": "2026-11-22T13:46:05+00:00",
   "items": [
+    {
+      "id": "33c13f20540ccac5d8ed003627bdddae",
+      "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+      "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-22T13:31:53+00:00",
+      "first_seen": "2026-11-22T13:46:05+00:00",
+      "summary": "Sherif Mansour on why PMs are thriving in the AI era, the artist PM advantage, and why juniors are your secret weapon now",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
     {
       "id": "b7d6acc247ce1a80b20b2bef238c74c6",
       "title": "🧠 Community Wisdom: Handling context switching with multiple agents, giving feedback on AI-generated designs, getting AI to write less like AI, why PMs don’t share what they’re really working on",
@@ -830,22 +846,6 @@
         "AI/ML"
       ],
       "bucket": "deeper"
-    },
-    {
-      "id": "3f3d3f73c228dc894222eceada1d84cc",
-      "title": "Why Reddit built its own AI prototyping tool | Blair Metcalf",
-      "url": "https://www.lennysnewsletter.com/p/why-reddit-built-its-own-ai-prototyping",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-26T12:04:20+00:00",
-      "first_seen": "2026-10-26T12:04:20+00:00",
-      "summary": "Watch now (30 mins) | 🎙️ Reddit’s principal UX engineer shows how a custom Figma MCP and Cursor pipeline takes any designer from blank slate to shareable, production-shaped prototype in minutes—no Git required",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
     },
     {
       "id": "3cd23eeccdef3e6b415aaf15c396a514",

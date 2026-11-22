@@ -1,0 +1,136 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T13:46:35+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 6166,
+    "output_tokens": 5002,
+    "cost_usd": 0.124704
+  },
+  "email_summary": "Today: a busy day of llama.cpp builds with scale tensor fixes, server batching and new mobile GPU kernels, plus Ollama v0.40.17 adding Inkling 2 Mini from Thinking Machines for Apple silicon. AWS Quick gains a Meta ads connector, and Lenny's Newsletter talks with Sherif Mansour about product managers in the AI era.",
+  "topics": [
+    {
+      "id": "llama-cpp-releases-b12622",
+      "title": "llama.cpp ships eight builds with model, server and GPU fixes",
+      "lanes": [
+        "Local inference",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 22, the ggml-org team published a run of llama.cpp builds, from b12622 to b12631. Eight of them appear in today's feed. Builds b12623 and b12630 are not included, so this is a partial picture of the day.\n\nThe headline build, b12622, makes llama.cpp apply .scale tensors automatically and fixes a correctness issue (pull request 32669). The notes mention removing a special \"_s\" overload of the MoE feed forward builder, using a precision policy called llama_prec_policy, and removing a w_s argument from the LoRA matrix multiply path. In plain terms, models that ship separate scale tensors should now load and compute correctly without special handling.\n\nOther builds are smaller. b12624 makes chat pass reasoning_effort = none to models that support it. b12625 fixes a memory reallocation flag for two model types named clef and vllm-decision2. b12626 fixes a Vulkan memset bug for unaligned ranges on GPUs with separate memory. b12627 lets the server fit non-causal batches, the kind used for embeddings and reranking, into one micro batch. b12628 adds Vulkan support for non-contiguous inputs to the SCALE operation. b12629 adds OpenCL cooperative matrix GEMM kernels for the Adreno 850 mobile GPU across Q4_0, Q5_0, Q8_0, Q4_K, Q5_K and Q6_K quantizations. b12631 updates a WebGPU support check for GDN.\n\nTwo notes, b12628 and b12629, say the work was assisted by Opus 5.5. The build matrix also lists the KleidiAI enabled Apple Silicon build as disabled. The feed text is release notes only, so there are no benchmark numbers to report.",
+      "why_it_matters": "If you run models locally, the .scale tensor change in b12622 is the one to check. Quantized and mixed precision checkpoints increasingly carry scale tensors, and a correctness fix means earlier builds may have produced subtly wrong outputs for some models. Rerun a small eval set on any model you depend on after upgrading, and compare against your last results rather than assuming the new numbers are better.\n\nThe server change in b12627 matters if you use llama-server for embeddings or reranking in a retrieval pipeline. Fitting non-causal batches into one micro batch should cut overhead, so it is worth timing a batch of embedding calls before and after.\n\nThe reasoning_effort = none change gives you a cleaner way to turn off thinking for reasoning models when you want short, cheap answers. Try it on routing or classification steps where thinking adds latency without accuracy.\n\nThe Adreno 850 kernels point at phones and small devices as real targets for quantized models. If you build anything on device, watch for benchmarks on that chip.\n\nFinally, the Opus 5.5 assisted commits are a small sign that coding agents now write low level kernels in a major open project, under human review. That is a useful reference point for how far you can trust agents with performance code.",
+      "read_first": [
+        {
+          "title": "llama.cpp releases: b12622",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+          "source": "llama.cpp releases",
+          "why": "It carries the correctness fix for scale tensors, the change most likely to affect your outputs."
+        },
+        {
+          "title": "llama.cpp releases: b12627",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+          "source": "llama.cpp releases",
+          "why": "It explains the server batching change that can speed up embedding and reranking workloads."
+        },
+        {
+          "title": "llama.cpp releases: b12629",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+          "source": "llama.cpp releases",
+          "why": "It shows the new Adreno 850 kernels and which quantization formats they cover."
+        }
+      ],
+      "open_question": "Which models were silently affected by the scale tensor correctness issue, and how large was the quality gap before b12622?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 9,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "meta-ads-is-now-available-in-aws-quick",
+      "title": "AWS Quick adds a Meta ads connector for natural language campaigns",
+      "lanes": [
+        "Best processes",
+        "Efficiencies",
+        "AI in marketing"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 22, the AWS machine learning blog announced that AWS Quick now has a Meta ads AI connector. According to the post's summary, Meta advertisers can use natural language inside Quick to create, manage and analyze campaigns while staying connected to Meta's ad management network.\n\nThe connector is not only for reading data. The summary says users can create and manage campaigns, which implies write actions against live ad accounts, not just reporting. It also says Meta ad data can be combined with first party and third party sources in Quick to build dashboards, documents, slide decks and automated workflows.\n\nThat is the extent of what the feed provides. There is a single source, the AWS blog itself, so this is a vendor announcement without outside coverage or user reports. The summary does not say which Meta ad actions are supported, how permissions and approvals work, what the pricing is, which regions are covered, or whether the connector is generally available or in preview. It also does not describe how the connector is built, for example whether it uses MCP or a proprietary integration, or which models power the natural language layer.\n\nSo the confirmed facts are narrow: a Meta ads connector exists in AWS Quick, it supports natural language campaign creation, management and analysis, and it lets you mix Meta data with other sources for reporting and automation. Anything beyond that needs the full post.",
+      "why_it_matters": "For marketing teams, this is another sign that ad platforms are becoming tools an AI assistant can act on directly. Asking in plain language for last week's spend by audience, then joining it with CRM or sales data, can save hours of export and spreadsheet work. That is the efficiency case, and it is real if your data already lives near AWS.\n\nThe process question is the bigger one. Once an assistant can create and change campaigns, a misread prompt can spend money. Before you let anyone use write actions, decide who can approve changes, set spend limits on the Meta side, and keep a log of what the assistant did. Treat it like giving a new hire access to the ad account.\n\nFor reliable results, build a small test set of common questions, such as cost per result by campaign over a date range, and check the answers against Meta Ads Manager. Natural language analytics tools often get attribution windows and date boundaries wrong, so verify those first.\n\nWatch whether Google Ads, LinkedIn and other platforms follow with similar connectors, and whether the pattern converges on a shared protocol like MCP. That would decide whether you build your marketing automation inside one vendor's workspace or keep it portable.",
+      "read_first": [
+        {
+          "title": "Meta ads is now available in AWS Quick",
+          "url": "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/",
+          "source": "AWS machine learning blog",
+          "why": "It is the only source and should spell out which actions, permissions and data sources the connector supports."
+        }
+      ],
+      "open_question": "How should teams set guardrails when an AI assistant can both analyze and change live ad spend, and who owns the mistakes it makes?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "ollama-releases-v0-40-17",
+      "title": "Ollama v0.40.17 adds Inkling 2 Mini for Apple silicon",
+      "lanes": [
+        "Local inference",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "Ollama published v0.40.17 on November 21. The headline addition is Inkling 2 Mini, a model from Thinking Machines.\n\nAccording to the release notes, Inkling 2 Mini is a 26 billion parameter model with 5.4 billion parameters active per token, which indicates a mixture of experts design. The notes say it uses looped layers, which give it more computation per token than its size suggests. It fits on a Mac at about 20GB.\n\nThe model handles text and images, supports tool calls, and has a thinking mode. The release claims a score of 79.2 percent on SWE-Bench Verified, a benchmark of real GitHub issues used to measure coding ability. That figure comes from the release notes, and the feed contains no independent verification or comparison against other models.\n\nYou run it with the command ollama run inkling-2-mini. There is an important limit: in this release the model is supported on Apple silicon only. The notes say PC support will follow in an upcoming release, with no date given.\n\nThe release notes continue with a What's Changed section that begins with a line about ollama launch claude, but the feed text is cut off there. So there are other changes in this release that the item does not describe, and it is not possible to say what they are from the feed alone.\n\nThis is a single primary source. There is no coverage from Thinking Machines itself in today's items, so details like license, context length and training data are not available here.",
+      "why_it_matters": "If the numbers hold, this is a notable point on the local coding curve. A model with only 5.4 billion active parameters runs fast, and 20GB fits on a Mac with 32GB of memory or more. A 79.2 percent SWE-Bench Verified claim would make it a serious candidate for a local coding agent that keeps code on your machine.\n\nThe looped layer idea is worth understanding. Reusing layers spends more compute per token without growing the weights, which trades speed for quality differently from simply picking a bigger model. Expect generation to be slower than the active parameter count alone suggests, and measure tokens per second yourself.\n\nWhat to try: if you are on Apple silicon, pull it and run it against a few real tasks from your own repositories, not just benchmarks. Test tool calling through your agent loop, since tool call formatting is where local models most often break. Compare it with whatever cloud model you use for the same tasks, and note where it fails.\n\nIf you are on Windows or Linux, wait for PC support and watch whether llama.cpp adds looped layer support too, since that would spread the model to more runtimes and quantizations. Also check the license before building it into anything shipped.",
+      "read_first": [
+        {
+          "title": "Ollama releases: v0.40.17",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.17",
+          "source": "Ollama releases",
+          "why": "It is the only source and contains the model details, the run command and the rest of the changes the feed cuts off."
+        }
+      ],
+      "open_question": "Does a 79.2 percent SWE-Bench Verified score from a 5.4 billion active parameter model hold up in real agent loops on local hardware, or does it depend on scaffolding the release does not describe?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 5,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "first-principles-what-it-takes-to-be-a-great-product",
+      "title": "Sherif Mansour on product managers thriving in the AI era",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "Lenny's Newsletter published an episode on November 22 titled First principles: What it takes to be a great product manager in the AI era, featuring Sherif Mansour.\n\nThe feed summary is short. It says Mansour discusses three ideas: why product managers are thriving in the AI era, what he calls the artist PM advantage, and why junior team members are now a secret weapon.\n\nThat is all the item provides. The summary does not explain what an artist PM is, what evidence supports the claim that PMs are thriving, or why juniors in particular gain from AI tools. It also does not describe Mansour's current role, so this briefing does not state it. Lenny's Newsletter is an interview and essay publication rather than a primary source, so these are one practitioner's views, not data.\n\nThe topic sits outside the reader's usual lanes. It was included to widen the view, on the idea that how product roles change with AI shapes what builders are asked to build and how teams decide what is worth shipping.\n\nRead the summary as an agenda for the conversation rather than a set of conclusions. The three claims are framed as provocations, especially the one about juniors, which runs against a common worry that AI tools reduce demand for entry level staff.",
+      "why_it_matters": "Even if you do not manage product, the claims touch your work. When building a prototype gets cheap, the scarce skill shifts to deciding what to build and judging whether it is good. That is plausibly what an artist PM means: someone with taste who can shape a product directly with AI tools instead of only writing specs. If that is right, builders who develop product judgment, and PMs who learn to build, both gain leverage.\n\nThe point about juniors is worth testing in your own team. People who started their careers with AI tools may have fewer old habits to unlearn and may adopt agent workflows faster. Try pairing a junior with a coding agent on a real feature and see what they produce and where they need review. That gives you evidence instead of an opinion.\n\nThere is also a process lesson. If more people can ship prototypes, teams need lighter ways to review and evaluate them, so quality does not depend on who happened to build something. Simple evals, shared prompt libraries and clear review steps become product infrastructure.\n\nListen with skepticism. One interview is not a trend, and the strongest claims deserve examples you can check.",
+      "read_first": [
+        {
+          "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
+          "url": "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to",
+          "source": "Lenny’s Newsletter (Substack)",
+          "why": "It is the only source and the place to find what Mansour actually means by the artist PM and the junior advantage."
+        }
+      ],
+      "open_question": "If juniors with AI tools are a secret weapon, how do they build the judgment that senior people developed through years of doing the work by hand?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

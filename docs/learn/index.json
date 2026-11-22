@@ -1,6 +1,15 @@
 {
-  "latest": "2026-11-21",
+  "latest": "2026-11-22",
   "days": [
+    {
+      "date": "2026-11-22",
+      "topics": [
+        "llama.cpp ships eight builds with model, server and GPU fixes",
+        "AWS Quick adds a Meta ads connector for natural language campaigns",
+        "Ollama v0.40.17 adds Inkling 2 Mini for Apple silicon",
+        "Sherif Mansour on product managers thriving in the AI era"
+      ]
+    },
     {
       "date": "2026-11-21",
       "topics": [

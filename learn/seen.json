@@ -1496,6 +1496,122 @@
         "AWS machine learning blog"
       ],
       "primary": true
+    },
+    {
+      "id": "first-principles-what-it-takes-to-be-a-great-product",
+      "title": "Sherif Mansour on product managers thriving in the AI era",
+      "date": "2026-11-22",
+      "logged_at": "2026-11-22T13:47:47+00:00",
+      "terms": [
+        "great",
+        "mansour",
+        "principles",
+        "sherif",
+        "takes",
+        "era",
+        "manager",
+        "product",
+        "advantage",
+        "artist",
+        "juniors",
+        "secret"
+      ],
+      "urls": [
+        "https://www.lennysnewsletter.com/p/first-principles-what-it-takes-to"
+      ],
+      "sources": [
+        "Lenny’s Newsletter (Substack)"
+      ],
+      "primary": false
+    },
+    {
+      "id": "llama-cpp-releases-b12622",
+      "title": "llama.cpp ships eight builds with model, server and GPU fixes",
+      "date": "2026-11-22",
+      "logged_at": "2026-11-22T13:47:47+00:00",
+      "terms": [
+        "llama.cpp",
+        "12.8",
+        "cuda12.8",
+        "libraries",
+        "non",
+        "assisted",
+        "fix",
+        "b12622",
+        "b12623",
+        "b12624",
+        "b12625",
+        "b12626"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12622",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12623",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12624",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12625",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12626",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12627",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12628",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12629",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12631"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "meta-ads-is-now-available-in-aws-quick",
+      "title": "AWS Quick adds a Meta ads connector for natural language campaigns",
+      "date": "2026-11-22",
+      "logged_at": "2026-11-22T13:47:47+00:00",
+      "terms": [
+        "ads",
+        "available",
+        "aws",
+        "quick",
+        "meta",
+        "advertisers",
+        "analyze",
+        "campaigns",
+        "combine",
+        "connected",
+        "connector",
+        "create"
+      ],
+      "urls": [
+        "https://aws.amazon.com/blogs/machine-learning/meta-ads-is-now-available-in-aws-quick/"
+      ],
+      "sources": [
+        "AWS machine learning blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "ollama-releases-v0-40-17",
+      "title": "Ollama v0.40.17 adds Inkling 2 Mini for Apple silicon",
+      "date": "2026-11-22",
+      "logged_at": "2026-11-22T13:47:47+00:00",
+      "terms": [
+        "ollama",
+        "v0.40.17",
+        "20gb",
+        "26b",
+        "5.4b",
+        "79.2",
+        "active",
+        "apple",
+        "bench",
+        "computation",
+        "fits",
+        "follow"
+      ],
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.17"
+      ],
+      "sources": [
+        "Ollama releases"
+      ],
+      "primary": true
     }
   ]
 }
