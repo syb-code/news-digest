@@ -1,6 +1,53 @@
 {
-  "generated_at": "2026-11-23T13:46:15+00:00",
+  "generated_at": "2026-11-23T20:00:26+00:00",
   "items": [
+    {
+      "id": "9f3581da8606ef2b87034591ab28d294",
+      "title": "Gavin Baker on Why Jensen Matters So Much to Nvidia",
+      "url": "https://www.youtube.com/watch?v=2XhpxKX3d0M",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-23T18:29:16+00:00",
+      "first_seen": "2026-11-23T20:00:26+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Recorded on November 18 at the TomorrowX Summit, after Nvidia's earnings but before Nvidia's board...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML",
+        "Tech/Earnings"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "9ae27dd1abd9892b5522aa3231fc75c0",
+      "title": "🎙️ How I AI: OpenClaw for executives: Automate every 1% annoyance",
+      "url": "https://www.lennysnewsletter.com/p/how-i-ai-openclaw-for-executives",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-23T16:01:48+00:00",
+      "first_seen": "2026-11-23T20:00:26+00:00",
+      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
+      "read_minutes": 4,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "ada9a122a8175ea506b4ee3661a0c153",
+      "title": "Why Some Are Claiming Gemini Neon is Better than Fable",
+      "url": "https://www.youtube.com/watch?v=3TH7QVL59V4",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-23T14:48:09+00:00",
+      "first_seen": "2026-11-23T20:00:26+00:00",
+      "summary": "Gemini 4 Neon is earning real praise, and Google is finally back in the conversation at the top of the model race. NLW breaks down the benchmarks, early reactions, and why a different perspective can matter more than a better one. In the headlines: Anthropic’s first day as a...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "deeper"
+    },
     {
       "id": "7539044b1be47321321b40858ae2e815",
       "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
@@ -664,22 +711,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "2ac72f08a5ea49d404c4ce3d5a9cb44e",
-      "title": "AI Lurches Towards RSI",
-      "url": "https://www.youtube.com/watch?v=Es59icF3nZg",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-04T12:43:33+00:00",
-      "first_seen": "2026-11-04T12:43:33+00:00",
-      "summary": "RSI is the three-letter acronym on everyone’s mind as AI models edge closer to self-improvement. NLW connects Elon Musk’s warning about the cost of GrokBot, a new MIT paper on one model editing another model’s weights, and Anthropic’s updated S1 language on recursive...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "55ee47b1179a919de653b72a0eb690ac",
       "title": "Lenny’s Newsletter holiday gift guide 2026",
       "url": "https://www.lennysnewsletter.com/p/lennys-newsletter-holiday-gift-guide-057",
@@ -818,20 +849,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "51ee3009bc0051c2b731b69d5ee5dc37",
-      "title": "Grok vs. Dot vs. Muse vs. Claude Duet: which one crushes the competition?",
-      "url": "https://www.lennysnewsletter.com/p/grok-vs-dot-vs-muse-vs-claude-duet",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-28T12:04:22+00:00",
-      "first_seen": "2026-10-28T12:04:22+00:00",
-      "summary": "Listen now | 🎙️ I ranked Grok Bot, Dot, Muse, and Claude Duet across 9 real tasks—and the scores told me which agent runs my work and which runs my life",
-      "read_minutes": 2,
-      "duration_sec": null,
-      "themes": [],
-      "bucket": "highlight"
-    },
-    {
       "id": "83b0bd6990884d10d770aa4c5d74ecd9",
       "title": "Different by Design",
       "url": "https://designplusai.com/p/different-by-design",
@@ -858,22 +875,6 @@
       "duration_sec": null,
       "themes": [
         "Macro/Fed"
-      ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "3cd23eeccdef3e6b415aaf15c396a514",
-      "title": "The Reflexive Risk in Financing AI Buildout Is Real, Says Investor Who Nailed AI Hardware Trade",
-      "url": "https://www.youtube.com/watch?v=rzQhjayCgB0",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-25T16:34:23+00:00",
-      "first_seen": "2026-10-25T16:34:23+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Citrini teamed up with Anthropic and used Claude to design scorpion antivenom candidates in just 64...",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
       ],
       "bucket": "deeper"
     },
