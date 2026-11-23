@@ -1612,6 +1612,122 @@
         "Ollama releases"
       ],
       "primary": true
+    },
+    {
+      "id": "35-ai-prompts-examples-for-seo-updated-november-2026-via",
+      "title": "Search Engine Journal updates its AI prompts for SEO list",
+      "date": "2026-11-23",
+      "logged_at": "2026-11-23T13:48:14+00:00",
+      "terms": [
+        "examples",
+        "seo",
+        "theshelleywalsh",
+        "november",
+        "prompts",
+        "updated",
+        "sejournal",
+        "deeper",
+        "insights",
+        "post35",
+        "verified",
+        "connected"
+      ],
+      "urls": [
+        "https://www.searchenginejournal.com/ai-prompts-examples-for-seo-2026/596734/"
+      ],
+      "sources": [
+        "Search Engine Journal"
+      ],
+      "primary": false
+    },
+    {
+      "id": "b12653-ggml-update-cmake-math-library-check-32864",
+      "title": "ggml fixes a CMake math library check that breaks Windows builds",
+      "date": "2026-11-23",
+      "logged_at": "2026-11-23T13:48:14+00:00",
+      "terms": [
+        "32864",
+        "b12653",
+        "cmake",
+        "check",
+        "library",
+        "math",
+        "ggml",
+        "cause",
+        "clause",
+        "command",
+        "commit",
+        "constant"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12653"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "llama-cpp-releases-b12643",
+      "title": "llama.cpp ships fixes for Qwen3 audio, chat templates and kernels",
+      "date": "2026-11-23",
+      "logged_at": "2026-11-23T13:48:14+00:00",
+      "terms": [
+        "llama.cpp",
+        "assisted",
+        "authored",
+        "libraries",
+        "b12643",
+        "b12644",
+        "b12645",
+        "b12646",
+        "b12647",
+        "b12648",
+        "b12649",
+        "b12650"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12644",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12646",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12647",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12649",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12650",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12651"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "the-shocking-nvidia-smci-connection-revealed-carson-block",
+      "title": "Carson Block discusses Nvidia and Super Micro on a finance podcast",
+      "date": "2026-11-23",
+      "logged_at": "2026-11-23T13:48:14+00:00",
+      "terms": [
+        "block",
+        "carson",
+        "connection",
+        "revealed",
+        "shocking",
+        "smci",
+        "nvidia",
+        "muddy",
+        "waters",
+        "sits",
+        "wiethe",
+        "max"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=VkvoRQ8QlMA"
+      ],
+      "sources": [
+        "@Monetary-Matters"
+      ],
+      "primary": false
     }
   ]
 }

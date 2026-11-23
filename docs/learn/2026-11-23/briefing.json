@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T13:47:02+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 6223,
+    "output_tokens": 5555,
+    "cost_usd": 0.135992
+  },
+  "email_summary": "Today: a busy day of llama.cpp releases covering Qwen3 audio, chat template fixes and new OpenCL and WebGPU kernels, plus a small CMake fix that matters if you embed ggml. Also an updated set of AI prompts for SEO from Search Engine Journal, and an off-lane listen on Carson Block discussing Nvidia and Super Micro.",
+  "topics": [
+    {
+      "id": "llama-cpp-releases-b12643",
+      "title": "llama.cpp ships fixes for Qwen3 audio, chat templates and kernels",
+      "lanes": [
+        "Local inference",
+        "Frontier models",
+        "Agents and loops"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 23, 2026, the llama.cpp project published a run of tagged releases, from b12643 to b12651. Each is a small change, so the story is the batch, not any single headline feature.\n\nThe first, b12643, fixes how the multimodal library (mtmd) handles the tail of audio for Qwen3-Omni and Qwen3-ASR. Zero-padding of audio was producing extra tokens, and the fix removes them. The pull request (#32697) adds a test that reproduces the bug reported in issue #32689. It also replaces magic numbers with a helper called qwen3a_tokens_for_frames and only pads when needed.\n\nTwo releases touch chat handling. b12645 fixes chat template detection for LFM2.5-VL (#32843). b12650 improves the parser and grammar for a format called inkling (#32833). The items do not explain what inkling is or which models use it.\n\nSeveral releases add backend work. b12648 adds an OpenCL q4_k GEMM kernel for speculative decoding verification, co-authored by an engineer with a Qualcomm address, and turns it on for batches of two or more on what the notes call X2. b12649 adds the xielu activation to OpenCL. b12651 adds the ROLL operation to the WebGPU backend, with tests kept portable across backends. b12646 adds a generic fallback for tensor memset in ggml-backend, and b12647 narrows a test to compare only guaranteed GDN snapshot slots.\n\nTwo OpenCL changes are marked Assisted-by: Codex. The build list covers macOS, iOS, Linux on x64, arm64 and s390x, Vulkan and CUDA 12.8, and the KleidiAI macOS build is listed as disabled. The tags b12644 and b12652 are not in today's items.",
+      "why_it_matters": "If you run models locally, this batch tells you where llama.cpp is moving. Multimodal and audio models are now first-class, and the bugs being fixed are the subtle kind. Extra tokens from audio padding would not crash anything. They would quietly change transcripts or answers near the end of a clip. If you use Qwen3-ASR or Qwen3-Omni through llama.cpp, upgrade and rerun any audio evals you have, paying attention to the last seconds of each file.\n\nThe chat template fixes matter for agents and tool use. When a template is misdetected, a model gets prompts in the wrong shape and tool calls or structured output degrade without an obvious error. If you serve LFM2.5-VL, check that your outputs changed after upgrading, and keep a small set of golden prompts you compare across versions.\n\nThe OpenCL q4_k kernel for speculative verification points at faster inference on Qualcomm-class mobile and laptop GPUs with common 4-bit weights. If you target Snapdragon devices, it is worth benchmarking speculative decoding again. WebGPU gaining operations means more models can run in a browser.\n\nThe Assisted-by: Codex tag is a small process signal: a major open source project is accepting agent-assisted kernel code with explicit disclosure. That is a pattern worth copying in your own repos.",
+      "read_first": [
+        {
+          "title": "llama.cpp releases: b12643",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12643",
+          "source": "llama.cpp releases",
+          "why": "It shows a careful fix for a quiet correctness bug in Qwen3 audio, with a reproducing test, which is the most likely change to affect real outputs."
+        },
+        {
+          "title": "llama.cpp releases: b12648",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12648",
+          "source": "llama.cpp releases",
+          "why": "It is the main performance change, a new OpenCL kernel for speculative decoding on 4-bit weights, co-written with Qualcomm."
+        },
+        {
+          "title": "llama.cpp releases: b12645",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12645",
+          "source": "llama.cpp releases",
+          "why": "It is a short read on a template detection fix that can silently change how a vision model is prompted."
+        }
+      ],
+      "open_question": "As llama.cpp adds more audio, vision and chat formats, how should local builders test for silent regressions like padding tokens or misdetected templates before they reach users?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 7,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "b12653-ggml-update-cmake-math-library-check-32864",
+      "title": "ggml fixes a CMake math library check that breaks Windows builds",
+      "lanes": [
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "Also on November 23, 2026, llama.cpp published release b12653, which changes how ggml's CMake build checks for a math library (#32864). It is a build system fix, not a model or performance change.\n\nThe release note explains the problem. ggml's CMake file used the DEFINED operator inside an if() check on the MATH_LIBRARY variable. On Windows, a parent project that includes ggml may itself call find_library(MATH_LIBRARY). When no math library is found, CMake sets the variable to MATH_LIBRARY-NOTFOUND. Because the variable now exists, the DEFINED check evaluates to true, so ggml behaves as if a math library had been found and tries to use it.\n\nThe fix removes the DEFINED operator and tests the value itself. The note cites the CMake documentation for if(): a constant is false if it is 0, OFF, NO, FALSE, N, IGNORE, NOTFOUND, the empty string, or ends in the suffix -NOTFOUND. So MATH_LIBRARY-NOTFOUND now evaluates to false, which is the intended behavior.\n\nThe item does not say who reported the issue, which parent projects were affected, or what exact error users saw. The summary is cut off, so there may be more detail in the full release note. What is clear is the scope: the change affects people who build ggml as part of a larger CMake project, most visibly on Windows. People who download prebuilt llama.cpp binaries or build llama.cpp on its own are unlikely to notice anything.\n\nThis is the only item in the topic, and it comes from the primary source, the llama.cpp release page.",
+      "why_it_matters": "Many builders do not use llama.cpp as a standalone tool. They vendor ggml or llama.cpp into their own app, a desktop product, a game engine plugin, or a language binding, and build it with CMake alongside other dependencies. That is exactly where this bug lives. A parent project's variable leaking into a subproject's check is a classic integration failure, and on Windows it can show up as a confusing link error that looks unrelated to inference.\n\nIf you ship a Windows app with embedded local inference, pull this version and rebuild in a clean CI environment. If you have local workarounds, such as forcing MATH_LIBRARY to an empty value or patching ggml's CMake file, you may be able to remove them. Check your fork or submodule pin, since small build fixes like this are easy to miss when you only upgrade for model support.\n\nThere is also a broader practice point. Local inference is now a dependency in real products, and build reliability is part of model reliability. A useful habit is to keep a CI job that builds your app with the latest ggml on each target platform, including Windows, so you catch both breakages and fixes early. When an agent or a teammate proposes a dependency bump, a green cross-platform build is cheap evidence that it is safe.",
+      "read_first": [
+        {
+          "title": "b12653: ggml : update cmake MATH_LIBRARY check (#32864)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12653",
+          "source": "llama.cpp releases",
+          "why": "It is the only source and explains the bug, the CMake rule behind it and the fix in a few lines."
+        }
+      ],
+      "open_question": "As more apps embed ggml directly, should projects like llama.cpp offer a more isolated build interface so parent project variables cannot leak into their checks?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 1,
+        "score": 2.9
+      }
+    },
+    {
+      "id": "35-ai-prompts-examples-for-seo-updated-november-2026-via",
+      "title": "Search Engine Journal updates its AI prompts for SEO list",
+      "lanes": [
+        "AI in marketing",
+        "Best practices"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 23, 2026, Search Engine Journal published an updated version of its article 35 AI Prompts and Examples For SEO, credited to Shelley Walsh. The headline marks it as updated for November 2026, which suggests a refresh of an existing guide rather than a brand new piece.\n\nThe feed summary is short. It says the prompts are meant to be used with verified data, native AI tools, and connected sources, in order to get deeper insights from tool data. That framing is the main fact we have. The emphasis is not on asking a chatbot to write content from nothing, but on pairing prompts with real data from SEO tools and with AI features built into those tools, plus sources connected to the model.\n\nThe items do not list the 35 prompts, name the specific tools, or say which AI models were tested. They also do not say what changed from the earlier version of the article, or whether the examples include measured results. Anyone wanting those details has to read the article itself.\n\nThis is a single source from a trade publication, not a primary source such as a search engine or AI vendor. It is practical guidance from a practitioner outlet, so it should be read as one team's playbook rather than as evidence about how search or AI answers work. Still, the direction it signals is consistent with how marketing teams describe their work with AI in general: grounding the model in your own data rather than relying on what it remembers.",
+      "why_it_matters": "For anyone building or using AI for marketing, the useful idea here is the shift from clever prompts to grounded prompts. A prompt that asks a model to suggest keywords from memory gives plausible but unverifiable output. A prompt that runs over your own exported search console data, crawl results, or rank tracker data gives output you can check. That is the same lesson careful teams learn in every AI lane: context beats phrasing.\n\nIf you build tools for marketers, this points to a concrete product pattern. Connect the model to the data the user already trusts, through file uploads, APIs, or MCP-style connectors, and design prompts that cite rows or URLs from that data. Then you can test the outputs, because there is a ground truth.\n\nIf you use these prompts yourself, treat the list as a starting library, not a finished workflow. Pick three prompts that match recurring tasks, such as content gap analysis or title rewrites, run them on real data, and compare the output with what an analyst would conclude. Keep the prompts that survive in a shared file with example inputs and expected outputs, which is a lightweight eval. Watch for any claims in the article about AI answers in search, and check them against primary sources before changing strategy.",
+      "read_first": [
+        {
+          "title": "35 AI Prompts & Examples For SEO (Updated November 2026) via @sejournal, @theshelleywalsh",
+          "url": "https://www.searchenginejournal.com/ai-prompts-examples-for-seo-2026/596734/",
+          "source": "Search Engine Journal",
+          "why": "It is the only item and the summary is thin, so the article is the only way to see the actual prompts and what changed in this update."
+        }
+      ],
+      "open_question": "When SEO prompts run over connected tool data, how should teams check that the model's conclusions actually follow from that data rather than from its general training?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 4,
+        "score": 2.2
+      }
+    },
+    {
+      "id": "the-shocking-nvidia-smci-connection-revealed-carson-block",
+      "title": "Carson Block discusses Nvidia and Super Micro on a finance podcast",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "On November 22, 2026, the YouTube channel Monetary Matters posted an episode of its show Other People's Money titled The Shocking Nvidia and SMCI Connection Revealed. In it, host Max Wiethe sits down with Carson Block, the founder of Muddy Waters Capital. SMCI is the stock ticker for Super Micro Computer, a server maker that builds systems around Nvidia GPUs.\n\nThat is close to all the feed tells us. The summary opens with a sponsor message for Sarmaya Partners and its LENS ETF, then introduces the guests, and is cut off before describing the substance of the conversation. The items do not say what the connection in the title is, what claims Block makes, whether he holds a position in either company, or what evidence is discussed.\n\nThe title is written to attract clicks, with words like shocking and revealed, and it should be read that way. Muddy Waters Capital is known as an investment firm, and the summary itself does not characterize its strategy, so any view of what Block argues here would be a guess. This is a single, non-primary source: an interview on a finance channel, not a filing, a company statement, or reporting with documents.\n\nThis topic is off the reader's usual lanes. It was included to widen the view beyond tools and models toward the companies and money behind the hardware that AI runs on.",
+      "why_it_matters": "Most builders treat GPUs and servers as a given. You pick a cloud, an instance type, or a box with enough memory, and move on. But the hardware layer is a market with its own risks, and those risks reach your work through prices, availability, and vendor stability. When investors argue about the relationship between a chip maker and the companies that package its chips into servers, they are arguing about the supply chain your inference costs depend on.\n\nThere are two practical takeaways. First, avoid single points of failure in your stack. If your product only runs on one GPU vendor through one server or cloud provider, you are exposed to shocks you cannot control. The local inference work in today's other topics, with backends for Vulkan, OpenCL, WebGPU and Apple Silicon, is one way to keep options open.\n\nSecond, practice the same evidence discipline you would apply to a benchmark claim. A provocative title from a well-known skeptic is a prompt to look for primary documents, not a conclusion. If you listen, note which claims are backed by filings or data and which are opinion. That habit transfers directly to reading model launch posts and vendor marketing.",
+      "read_first": [
+        {
+          "title": "The Shocking Nvidia & SMCI Connection Revealed | Carson Block",
+          "url": "https://www.youtube.com/watch?v=VkvoRQ8QlMA",
+          "source": "@Monetary-Matters",
+          "why": "The feed summary is cut off before the substance, so the episode itself is the only way to learn what Block actually claims."
+        }
+      ],
+      "open_question": "How much should builders factor the financial health and incentives of hardware vendors into their choice of inference platform, compared with pure price and performance?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

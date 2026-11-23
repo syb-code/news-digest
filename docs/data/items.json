@@ -1,6 +1,36 @@
 {
-  "generated_at": "2026-11-22T13:46:05+00:00",
+  "generated_at": "2026-11-23T13:46:15+00:00",
   "items": [
+    {
+      "id": "7539044b1be47321321b40858ae2e815",
+      "title": "OpenClaw for executives: Automate every 1% annoyance | Ankit Maheshwari (Innovaccer)",
+      "url": "https://www.lennysnewsletter.com/p/openclaw-for-executives-automate",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-23T13:04:43+00:00",
+      "first_seen": "2026-11-23T13:46:15+00:00",
+      "summary": "Watch now (31 mins) | 🎙️ Ankit Maheshwari (CTO, Innovaccer) walks me through the OpenClaw Jarvis he runs on a Mac Mini to clear every 1% annoyance in his life",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [],
+      "bucket": "highlight"
+    },
+    {
+      "id": "07e5bf8fd225388316e7c2806a6c12b7",
+      "title": "The Shocking Nvidia & SMCI Connection Revealed | Carson Block",
+      "url": "https://www.youtube.com/watch?v=VkvoRQ8QlMA",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-22T22:33:31+00:00",
+      "first_seen": "2026-11-23T13:46:15+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ In this episode of Other People's Money, Max Wiethe sits down with Muddy Waters Capital founder Carson...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "33c13f20540ccac5d8ed003627bdddae",
       "title": "First principles: What it takes to be a great product manager in the AI era | Sherif Mansour",
@@ -832,22 +862,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "0384f20033d62b96b9b9643b3f90dcb0",
-      "title": "🎙️ How I AI: Claude Duet honest review + Why Reddit built its own AI prototyping tool",
-      "url": "https://www.lennysnewsletter.com/p/how-i-ai-claude-duet-honest-review",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-26T15:00:53+00:00",
-      "first_seen": "2026-10-26T15:00:53+00:00",
-      "summary": "Your weekly listens from How I AI, part of the Lenny’s Podcast Network",
-      "read_minutes": 6,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "3cd23eeccdef3e6b415aaf15c396a514",
       "title": "The Reflexive Risk in Financing AI Buildout Is Real, Says Investor Who Nailed AI Hardware Trade",
       "url": "https://www.youtube.com/watch?v=rzQhjayCgB0",
@@ -860,23 +874,6 @@
       "duration_sec": null,
       "themes": [
         "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "f515f8a68302088870424597ae10d11b",
-      "title": "George Noble: AI Hyperscaler Earnings Go NEGATIVE by 2030",
-      "url": "https://www.youtube.com/watch?v=dbMBhjCgcFE",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-23T20:17:16+00:00",
-      "first_seen": "2026-10-23T20:17:16+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ George Noble, the former Fidelity portfolio manager who ran the Fidelity Overseas Fund and started his...",
-      "read_minutes": 4,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
       ],
       "bucket": "deeper"
     },

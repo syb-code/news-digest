@@ -1,6 +1,15 @@
 {
-  "latest": "2026-11-22",
+  "latest": "2026-11-23",
   "days": [
+    {
+      "date": "2026-11-23",
+      "topics": [
+        "llama.cpp ships fixes for Qwen3 audio, chat templates and kernels",
+        "ggml fixes a CMake math library check that breaks Windows builds",
+        "Search Engine Journal updates its AI prompts for SEO list",
+        "Carson Block discusses Nvidia and Super Micro on a finance podcast"
+      ]
+    },
     {
       "date": "2026-11-22",
       "topics": [
