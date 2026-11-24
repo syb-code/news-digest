@@ -1728,6 +1728,149 @@
         "@Monetary-Matters"
       ],
       "primary": false
+    },
+    {
+      "id": "b12672-metal-add-nvfp4-support-32825",
+      "title": "llama.cpp brings NVFP4 to Apple Metal, Ollama speeds up decode",
+      "date": "2026-11-24",
+      "logged_at": "2026-11-24T13:48:02+00:00",
+      "terms": [
+        "metal",
+        "nvfp4",
+        "decode",
+        "add",
+        "32825",
+        "b12672",
+        "19843",
+        "draft",
+        "prefill",
+        "rc0",
+        "rounds",
+        "v0.40.18"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12672",
+        "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0"
+      ],
+      "sources": [
+        "Ollama releases",
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "b12679-opencl-add-c8-q6-k-coopk-gemm-for-up-to-n-8-spec",
+      "title": "Agent-assisted kernels target speculative decoding and skinny GEMMs",
+      "date": "2026-11-24",
+      "logged_at": "2026-11-24T13:48:02+00:00",
+      "terms": [
+        "gemm",
+        "add",
+        "32909",
+        "69529",
+        "b12679",
+        "c8",
+        "coopk",
+        "n8",
+        "perf",
+        "plans",
+        "q6",
+        "qwen4exp"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+        "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0"
+      ],
+      "sources": [
+        "llama.cpp releases",
+        "vLLM releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "gavin-baker-on-why-jensen-matters-so-much-to-nvidia",
+      "title": "Gavin Baker explains why Jensen Huang matters to Nvidia",
+      "date": "2026-11-24",
+      "logged_at": "2026-11-24T13:48:02+00:00",
+      "terms": [
+        "baker",
+        "gavin",
+        "matters",
+        "much",
+        "jensen",
+        "nvidia",
+        "earnings",
+        "november18",
+        "summit",
+        "tomorrowx",
+        "recorded",
+        "board"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=2XhpxKX3d0M"
+      ],
+      "sources": [
+        "@Monetary-Matters"
+      ],
+      "primary": false
+    },
+    {
+      "id": "jensen-is-back-as-ceo-after-white-house-advocacy",
+      "title": "Jensen Huang returns as Nvidia CEO, OpenAI shares its pretraining curve",
+      "date": "2026-11-24",
+      "logged_at": "2026-11-24T13:48:02+00:00",
+      "terms": [
+        "jensen",
+        "back",
+        "advocacy",
+        "ainews",
+        "pretraining",
+        "white",
+        "curve",
+        "house",
+        "joined",
+        "microsoft",
+        "shows",
+        "ceo"
+      ],
+      "urls": [
+        "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+        "https://www.youtube.com/watch?v=3m3nnfJfAxA"
+      ],
+      "sources": [
+        "@AIDailyBrief",
+        "Latent Space"
+      ],
+      "primary": false
+    },
+    {
+      "id": "why-some-are-claiming-gemini-neon-is-better-than-fable",
+      "title": "Gemini 4 Neon earns praise and wins a blind SEO test",
+      "date": "2026-11-24",
+      "logged_at": "2026-11-24T13:48:02+00:00",
+      "terms": [
+        "neon",
+        "gemini",
+        "real",
+        "blind",
+        "claiming",
+        "haynes",
+        "marie",
+        "tested3",
+        "won",
+        "won5",
+        "seo",
+        "tested"
+      ],
+      "urls": [
+        "https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/",
+        "https://www.youtube.com/watch?v=3TH7QVL59V4"
+      ],
+      "sources": [
+        "@AIDailyBrief",
+        "Search Engine Journal"
+      ],
+      "primary": false
     }
   ]
 }

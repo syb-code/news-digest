@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-23T20:00:26+00:00",
+  "generated_at": "2026-11-24T13:46:05+00:00",
   "items": [
+    {
+      "id": "ddc9eba956b0da78a63d88755fe472f5",
+      "title": "Jensen is Back as CEO After White House Advocacy",
+      "url": "https://www.youtube.com/watch?v=3m3nnfJfAxA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-24T00:01:02+00:00",
+      "first_seen": "2026-11-24T13:46:05+00:00",
+      "summary": "Jensen Huang is back as Nvidia CEO, and the White House played a major role in the reversal. NLW traces the path from the scandal and resignation to the reinstatement, the market surge, and the questions about state power, private power, and a new kind of too big to fail. The...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "9f3581da8606ef2b87034591ab28d294",
       "title": "Gavin Baker on Why Jensen Matters So Much to Nvidia",
@@ -677,23 +693,6 @@
       "read_minutes": 3,
       "duration_sec": null,
       "themes": [],
-      "bucket": "deeper"
-    },
-    {
-      "id": "2385459a358adc27f47faf30bf36e134",
-      "title": "How the Midterm Results Change AI",
-      "url": "https://www.youtube.com/watch?v=rSzMJZEgYeU",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-05T12:39:41+00:00",
-      "first_seen": "2026-11-05T12:39:41+00:00",
-      "summary": "Democrats sweep the midterms, and data centers proved to be a vote loser across both parties. NLW breaks down the key races in Ohio, Texas, Georgia, Michigan, and California, plus 41 data center ballot measures on track to pass. Likely policy shifts on whistleblower...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Housing (CA/SD)"
-      ],
       "bucket": "deeper"
     },
     {

@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T13:46:38+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 4837,
+    "output_tokens": 6682,
+    "cost_usd": 0.152988
+  },
+  "email_summary": "Today: llama.cpp adds NVFP4 on Apple Metal while Ollama speeds up Metal decode, new speculative-decoding and GEMM kernels land in llama.cpp and vLLM, Jensen Huang returns as Nvidia CEO alongside OpenAI's published pretraining curve, Gemini 4 Neon wins a blind SEO test, and Gavin Baker explains why Jensen matters to Nvidia.",
+  "topics": [
+    {
+      "id": "b12672-metal-add-nvfp4-support-32825",
+      "title": "llama.cpp brings NVFP4 to Apple Metal, Ollama speeds up decode",
+      "lanes": [
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 23, llama.cpp release b12672 added NVFP4 support to its Metal backend, the code path that runs models on Apple Silicon GPUs. The release notes say the work follows the existing MXFP4 path.\n\nThe change adds decoding for the UE4M3 scale format and NVFP4 dequantizers. It also adds a dedicated matrix-vector kernel with a MUL_MAT_ID version for mixture-of-experts routing, small-batch and MMA variants, the mul_mm and mul_mm_id and tensor-op variants, and get_rows and cpy kernels. The type is now enabled in supports_op, so the backend reports it can run these operations instead of falling back.\n\nThe author tested it on an M5 Max with an NVFP4 GGUF of NVIDIA Nemotron 3.5 Lightning 30B-A3B published under ggml-org. They also ran test-backend-ops covering MUL_MAT, MUL_MAT_ID, W4A8 and W4A4, CPY and GET_ROWS. The notes carry an Assisted-by line, which suggests an AI tool helped write the code, though the summary is cut off before naming it.\n\nA day later, on November 24, Ollama tagged v0.40.18-rc0, a release candidate. It adds Metal kernels only for a model family called Inkling2, each with a fallback to the stock graph, and gated by GPU generation and size class. The list includes short BF16 products, deduplicated NVFP4 and MXFP8 expert gathers with fused SwiGLU, fused loop controllers and residual mixing, split attention, fused short convolutions, faster prefill, an ordered window cache that appends in place, and an 8-bit draft model with a 4-bit vocabulary head. The notes stress the draft only proposes tokens. Neither item gives speed numbers.",
+      "why_it_matters": "NVFP4 is a 4-bit format tied to Nvidia's newer hardware, and models are starting to ship in it. Until now, a Mac user with an NVFP4 checkpoint would likely have needed a different quantization. With Metal support, the same 4-bit weights can run on a laptop and on a data center GPU, which makes it easier to test locally what you will later serve.\n\nThe tested model matters too. A 30B mixture-of-experts model with about 3B active parameters is the kind of model that fits on a high-memory Mac and decodes quickly, because only a slice of the weights is used per token. The MUL_MAT_ID kernels are what make that routing fast.\n\nWhat to try: if you have an Apple Silicon machine with enough memory, pull the NVFP4 Nemotron GGUF in a recent llama.cpp build and compare tokens per second and output quality against a Q4_K or MXFP4 version of a similar model. Measure on your own prompts, since neither release publishes benchmarks.\n\nFor Ollama users, this is a release candidate, so treat it as something to test, not deploy. The pattern is worth watching: per-model fused kernels with stock fallbacks, plus small quantized draft models for speculative decoding, are how local runtimes are squeezing more speed out of the same hardware.",
+      "read_first": [
+        {
+          "title": "b12672: metal : add NVFP4 support (#32825)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12672",
+          "source": "llama.cpp releases",
+          "why": "It lists exactly which kernels now support NVFP4 on Metal and which model and tests were used."
+        },
+        {
+          "title": "v0.40.18-rc0: inkling2: faster Metal decode, prefill and draft rounds (#19843)",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.18-rc0",
+          "source": "Ollama releases",
+          "why": "It shows the per-model kernel and speculative decoding tricks Ollama is using to speed up Macs."
+        }
+      ],
+      "open_question": "How does NVFP4 quality and speed on Apple Silicon compare with established GGUF quantizations like Q4_K, and will model makers start shipping NVFP4 as the default 4-bit release?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 2,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 5.7
+      }
+    },
+    {
+      "id": "b12679-opencl-add-c8-q6-k-coopk-gemm-for-up-to-n-8-spec",
+      "title": "Agent-assisted kernels target speculative decoding and skinny GEMMs",
+      "lanes": [
+        "Local inference",
+        "Agents and loops"
+      ],
+      "off_lane": false,
+      "what_happened": "Two small but telling inference releases landed on November 24.\n\nllama.cpp b12679 adds an OpenCL kernel described as a c8 q6_k coopk GEMM for up to n=8 spec verify. In plain terms, it is a matrix multiply for Q6_K quantized weights aimed at verifying up to eight tokens at once, which is what the main model does during speculative decoding when it checks a draft model's guesses. The release notes contain almost nothing beyond the title: an Assisted-by: Codex line and a co-author, Hongqiang Wang, with a Qualcomm email address. OpenCL is the backend llama.cpp uses on Qualcomm Adreno GPUs, so this most likely targets phones and Snapdragon laptops, though the item does not say so directly.\n\nvLLM v0.34.1rc0, a release candidate, adds SM100 TP=2 and TP=8 skinny GEMM plans for a model labeled Qwen4Exp. SM100 refers to Nvidia's Blackwell data center GPUs, and TP means tensor parallelism across two or eight GPUs. Skinny GEMMs are matrix multiplies where one dimension is small, typical of decoding with small batches. The commit is co-authored by an account called vllm-agent.\n\nBoth items are thin. Neither gives benchmarks, and neither explains the design in its summary. What they share is clear, though: both are performance work on the small-batch regime, and both credit an AI agent as a contributor.",
+      "why_it_matters": "Speculative decoding is becoming standard for faster local and served inference, and its bottleneck is the verify step, where the big model scores a handful of draft tokens. A kernel tuned for exactly one to eight tokens is a sign that runtimes now treat this as a first-class workload, not an edge case. If you run models on Snapdragon devices, try speculative decoding with a Q6_K target model on a build that includes b12679 and measure tokens per second against plain decoding.\n\nThe vLLM change matters if you serve on Blackwell with tensor parallelism. Small-batch decode is where latency lives for interactive agents, so plans tuned for skinny shapes can cut per-token time. Check the rc on a staging setup before upgrading.\n\nThe agent co-authorship is the part to watch for the Agents and loops lane. Codex helped write an OpenCL kernel, and a named vllm-agent co-authored a GEMM plan. Kernel tuning is a good fit for agent loops because there is a clear correctness test and a clear speed metric to optimize. If your team has similar narrow, measurable performance tasks, they are strong candidates for a coding agent with a benchmark harness in the loop, with humans reviewing the result.",
+      "read_first": [
+        {
+          "title": "b12679: opencl: add c8 q6_k coopk GEMM for up to n=8 spec verify (#32909)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12679",
+          "source": "llama.cpp releases",
+          "why": "It is the primary record of the speculative verify kernel and shows the Codex and Qualcomm credits."
+        },
+        {
+          "title": "v0.34.1rc0: [Perf][Qwen4Exp] Add SM100 TP=2 and TP=8 skinny GEMM plans (#69529)",
+          "url": "https://github.com/vllm-project/vllm/releases/tag/v0.34.1rc0",
+          "source": "vLLM releases",
+          "why": "It shows the same small-batch focus on Blackwell servers, co-authored by an agent account."
+        }
+      ],
+      "open_question": "As agents write more low-level kernels, what review and testing practices will projects need to trust code that few humans can easily read?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 2,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 5,
+        "score": 5.7
+      }
+    },
+    {
+      "id": "jensen-is-back-as-ceo-after-white-house-advocacy",
+      "title": "Jensen Huang returns as Nvidia CEO, OpenAI shares its pretraining curve",
+      "lanes": [
+        "Best skills",
+        "Best processes",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "According to two commentary sources published November 24, Jensen Huang has been reinstated as Nvidia's CEO. Latent Space dates the reinstatement to November 23 and describes it simply as Nvidia reinstating its founder.\n\nThe AI Daily Brief episode says the White House played a major role in the reversal. Host NLW traces the sequence from a scandal and Huang's resignation to his reinstatement and a market surge that followed. The episode also raises questions about state power, private power and what it calls a new kind of too big to fail. The summaries do not describe the scandal itself, what the White House did specifically, or the size of the market move, so those details should be checked in the full sources.\n\nThe Latent Space newsletter pairs the Nvidia news with a second story. It reports that OpenAI published its internal pretraining loss curve and proposed a shared training limit, and the headline says Microsoft joined that effort. The summary does not say what the limit is, how it would be measured, or who else has signed on.\n\nNeither source is a primary one. There is no Nvidia statement, White House statement or OpenAI publication among the items, so the details here rest on secondhand reporting and commentary. Both stories are new since last week.",
+      "why_it_matters": "For builders, Nvidia leadership is not abstract. Its roadmap decides what hardware, formats and software you can count on, from NVFP4 to CUDA libraries. A leadership crisis and a government-backed reversal suggest Nvidia is now treated as strategic infrastructure. That can mean more stability for supply, but also more policy influence over who gets chips and on what terms. If your plans depend on specific GPU availability or pricing, it is worth revisiting how exposed you are to one vendor.\n\nThe OpenAI story may matter more over time for the Frontier models lane. A published pretraining loss curve gives outsiders a rare look at how a lab tracks progress, and a proposed shared training limit, backed by Microsoft, could shape how big future models get and how fast. For your own work, the practical step is to read what OpenAI actually published, note what metric the limit uses, and think about how a cap would change the pace of new model releases you plan around.\n\nFor Best processes, both stories point to the same habit: track the governance around your key suppliers, not just their product launches. Keep a short list of dependencies, model providers and hardware vendors, and note which of them now sit inside policy decisions.",
+      "read_first": [
+        {
+          "title": "[AINews] Jensen Is Back! and OpenAI Shows Its Pretraining Curve, joined by Microsoft",
+          "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/",
+          "source": "Latent Space",
+          "why": "It covers both the reinstatement and OpenAI's loss curve and training limit proposal in one place."
+        },
+        {
+          "title": "Jensen is Back as CEO After White House Advocacy",
+          "url": "https://www.youtube.com/watch?v=3m3nnfJfAxA",
+          "source": "@AIDailyBrief",
+          "why": "It walks through the path from resignation to reinstatement and the questions about state power."
+        }
+      ],
+      "open_question": "If labs agree on a shared training limit, who would verify compliance, and would it slow frontier progress or just shift competition to inference and post-training?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 2,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 4,
+        "score": 4.2
+      }
+    },
+    {
+      "id": "why-some-are-claiming-gemini-neon-is-better-than-fable",
+      "title": "Gemini 4 Neon earns praise and wins a blind SEO test",
+      "lanes": [
+        "Frontier models",
+        "AI in marketing",
+        "Best practices"
+      ],
+      "off_lane": false,
+      "what_happened": "Google's Gemini 4 Neon is drawing strong early reactions, according to two sources published November 23.\n\nThe AI Daily Brief episode says Neon is earning real praise and that Google is back in the conversation at the top of the model race. Host NLW covers its benchmarks and early reactions, and argues that a model with a different perspective can matter more than one that is simply better. The episode title says some people claim Neon beats Fable. The items do not say who makes Fable or which benchmarks were compared, so that claim should be checked in the episode itself. The headlines section mentions Anthropic's first day as something, but the summary cuts off.\n\nSearch Engine Journal published a hands-on test by Marie Haynes, a well-known SEO consultant. She blind-tested three Gemini models on six real SEO questions: Gemini 4 Neon, Gemini 4 Hydrogen and Gemini 3.8 Flash. Neon won five of the six. The article also breaks down what each model really costs per prompt, though the summary does not give the figures.\n\nThis is one practitioner's test with six questions, not a large benchmark, and the commentary source is opinion. No Google announcement or system card is among the items, so details on Neon's release, pricing and context window are not confirmed here.",
+      "why_it_matters": "Two lessons stand out for builders, beyond the horse race.\n\nFirst, the method. Marie Haynes ran a blind test on real questions from her own work and paired quality with cost per prompt. That is a small, cheap eval any team can copy. Collect six to twenty real tasks, hide model names, score the answers, and put the cost next to each result. It will tell you more about fit than public leaderboards do, and it makes the tradeoff visible when a bigger model wins most but costs several times more.\n\nSecond, the marketing angle. If Neon is strong on SEO reasoning, it is a useful tool for audits, content briefs and explaining ranking changes. It also matters because Gemini models likely shape how Google thinks about answers, so understanding how they reason about search questions is worth time for anyone in search marketing. Try Neon on your own SEO questions next to your current model before switching.\n\nFor Frontier models, the point about a different perspective is worth taking seriously. Using two strong models from different labs as a second opinion, or in a review step, can catch errors a single model repeats. Watch for an official system card and independent benchmarks before reading too much into early praise.",
+      "read_first": [
+        {
+          "title": "I Blind-Tested 3 Gemini Models On Real SEO Questions, Neon Won 5 Of 6 via @sejournal, @marie_haynes",
+          "url": "https://www.searchenginejournal.com/blind-test-of-gemini-4-neon-vs-hydrogen-vs-3-8-flash-on-real-seo-questions-here-is-what-won-and-what-it-costs/598384/",
+          "source": "Search Engine Journal",
+          "why": "It shows a simple blind eval on real work with costs per prompt that you can copy for your own tasks."
+        },
+        {
+          "title": "Why Some Are Claiming Gemini Neon is Better than Fable",
+          "url": "https://www.youtube.com/watch?v=3TH7QVL59V4",
+          "source": "@AIDailyBrief",
+          "why": "It gives the wider picture of benchmarks, reactions and the comparison with Fable."
+        }
+      ],
+      "open_question": "Does Neon's lead hold on larger, task-specific evals, and is its quality gain worth the cost difference against Hydrogen or Flash for routine work?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 2,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 8,
+        "score": 4.2
+      }
+    },
+    {
+      "id": "gavin-baker-on-why-jensen-matters-so-much-to-nvidia",
+      "title": "Gavin Baker explains why Jensen Huang matters to Nvidia",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "The Monetary Matters channel published a conversation with investor Gavin Baker on November 23 under the title Gavin Baker on Why Jensen Matters So Much to Nvidia.\n\nThe episode was recorded on November 18 at the TomorrowX Summit. The description notes it was recorded after Nvidia's earnings but before a board action, though the summary cuts off at that point. Given the timing and the separate reports of Huang's reinstatement on November 23, the conversation likely took place during the period between his departure and his return, but the item does not confirm what the board did or when.\n\nThe summary is mostly a sponsor message for an ETF, and it gives almost no detail on Baker's actual arguments. From the title, the core subject is how much Nvidia's success depends on Huang personally. Anyone wanting the reasoning will need to watch the episode itself.\n\nThis is a single source, not a primary one, and it is commentary from an investor, not reporting. It sits off the reader's usual lanes and is included to widen the view. It pairs naturally with today's other Nvidia story, which covers Huang's return as CEO with White House involvement and a market surge afterward. Together they give a sense of how markets and investors read the role of one founder at the company that supplies most AI compute.",
+      "why_it_matters": "This one is about markets, not models, but it touches every builder in a quiet way. Almost all AI work today runs on Nvidia hardware and software at some point, from the GPUs behind APIs to the CUDA libraries under local runtimes. When an investor argues that the company's direction depends heavily on one person, that is a statement about key-person risk in the supply chain your work rests on.\n\nThe practical takeaway is resilience. Know which parts of your stack would be hurt by a shift in Nvidia's priorities, pricing or supply. Today's other topics show alternatives maturing: llama.cpp running on Apple Metal and Qualcomm GPUs through OpenCL, and new low-bit formats working across vendors. Keeping your code portable across at least two backends is cheap insurance.\n\nThere is also a lesson for how teams work. The same key-person question applies inside your own organization. If one person holds the knowledge of your prompts, evals or deployment setup, write it down and spread it. Founder-led focus can be a strength, as Baker's title suggests, but processes that survive a sudden absence are what keep work moving.",
+      "read_first": [
+        {
+          "title": "Gavin Baker on Why Jensen Matters So Much to Nvidia",
+          "url": "https://www.youtube.com/watch?v=2XhpxKX3d0M",
+          "source": "@Monetary-Matters",
+          "why": "It is the only item here and gives an investor's view of how much Nvidia rests on Huang, recorded during the leadership crisis."
+        }
+      ],
+      "open_question": "How much of Nvidia's lead lives in its founder versus its software ecosystem, and how would we know until it is tested?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

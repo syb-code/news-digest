@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-23",
+  "latest": "2026-11-24",
   "days": [
+    {
+      "date": "2026-11-24",
+      "topics": [
+        "llama.cpp brings NVFP4 to Apple Metal, Ollama speeds up decode",
+        "Agent-assisted kernels target speculative decoding and skinny GEMMs",
+        "Jensen Huang returns as Nvidia CEO, OpenAI shares its pretraining curve",
+        "Gemini 4 Neon earns praise and wins a blind SEO test",
+        "Gavin Baker explains why Jensen Huang matters to Nvidia"
+      ]
+    },
     {
       "date": "2026-11-23",
       "topics": [
