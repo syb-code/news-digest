@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T13:46:38+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 3783,
+    "output_tokens": 10911,
+    "cost_usd": 0.233352
+  },
+  "email_summary": "Today: Gemini 4 Neon leads early benchmarks, AIChipBench tests coding agents on stateful LLM hardware, IBM Research shares an Indic voice agent built with CUGA, and a paper proposes behavioral attestation against hijacked agents. Off lane, a look at Jensen Huang's reported return to Nvidia and a claimed AI proof of the Riemann hypothesis.",
+  "topics": [
+    {
+      "id": "ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier",
+      "title": "Gemini 4 Neon tops two independent benchmarks this week",
+      "lanes": [
+        "Frontier models",
+        "Best skills",
+        "Best processes"
+      ],
+      "off_lane": false,
+      "what_happened": "Two secondhand sources published on November 25, 2026 report that Google DeepMind's new Gemini 4 Neon model performs at or near the top of the field. Neither is a primary source. There is no Google announcement, model card or system card among today's items, so the details below come from commentators, not the lab.\n\nLatent Space's AINews issue, dated November 24 in its summary, frames the release as Google DeepMind's full return as a frontier lab. It reports two concrete results. First, Neon beats models called Astra and Fable on LiveBench, a public benchmark. The item does not say who makes Astra and Fable or give the scores, so the size of the lead is unknown. Second, Neon cut the runtime of Theo's TypeScript to Rust benchmark by 48.6 percent. That reads as a coding task where the model's output ran faster, but the summary does not explain the setup.\n\nLenny's Newsletter published a 32 minute episode of its How I AI series built on a personal 25-task benchmark. The author says GPT-6.2 disappointed, Claude Opus 5.5 is the least annoying daily driver, and Gemini 4 Neon is now the top pick. This is one practitioner's hands-on testing, not a standardized eval, and the item does not list the tasks or the scoring.\n\nSo the two sources agree that Neon is strong, but the evidence is one leaderboard mention, one coding anecdote and one personal bench. Pricing, context length, availability and safety documentation are not covered in the items.",
+      "why_it_matters": "If you build on one model vendor, a credible shift at the top is the moment to rerun your own evals rather than trust headlines. Two sources agreeing is a signal to test, not a reason to switch.\n\nThe Lenny item also models a skill worth having: a personal benchmark of 25 or so real tasks you actually do. Build one if you have not. Keep the prompts fixed, store expected outputs or a grading rubric, and rerun it whenever a new model lands. That turns launch week from vibes into a one hour decision.\n\nThe 48.6 percent runtime result points at something leaderboards often miss: the quality of generated code, not just whether it passes. If you use coding agents for performance work or language migrations, add a speed or resource check to your test harness alongside correctness.\n\nFor process, treat model choice as routing, not a one time commitment. The Lenny author already separates top pick from least annoying daily driver. Teams can do the same: keep a thin abstraction over providers, log which model handled which task, and compare cost and failure rates per task type. Wait for Google's own model card and pricing before moving production traffic.",
+      "read_first": [
+        {
+          "title": "[AINews] Gemini 4 Neon marks GDM's full return as a Frontier Lab",
+          "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+          "source": "Latent Space",
+          "why": "It has the concrete numbers, the LiveBench result and the 48.6 percent runtime cut, plus the broader framing of the release."
+        },
+        {
+          "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+          "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+          "source": "Lenny’s Newsletter (Substack)",
+          "why": "It shows how one practitioner runs a 25-task personal benchmark, a method you can copy for your own model decisions."
+        }
+      ],
+      "open_question": "Do Neon's wins hold up on private, task-specific evals once Google publishes a system card and pricing, or is this a launch-week lead that narrows as others ship?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 2,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 9,
+        "score": 4.2
+      }
+    },
+    {
+      "id": "aichipbench-benchmarking-llm-agents-for-automated-ai",
+      "title": "AIChipBench tests whether coding agents can build correct LLM hardware",
+      "lanes": [
+        "Frontier models",
+        "Agents and loops",
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "A paper posted to arXiv on November 24, 2026 introduces AIChipBench, a benchmark for LLM coding agents asked to design AI accelerator hardware. Only the abstract summary is in today's item, and it is cut off, so results and agent rankings are not available here.\n\nThe core problem it targets is subtle. A language model decoder carries state from one decoding step to the next. In hardware, a wrong state update can leave the current token correct while corrupting output several tokens later. That means a design can pass output tests and still be wrong, a failure mode simple input and output checks miss.\n\nThe benchmark asks what coding agents need in order to build such hardware correctly. Agents implement decoders for quantized versions of Qwen3.5, Gemma 3, Gemma 4 and Llama 3.2 in synthesizable register-transfer-level code, or RTL, the level of description chip designers turn into real circuits. The agents work against an executable integer reference, a software model of the exact integer arithmetic the hardware should reproduce.\n\nThe summary ends there. How correctness is graded across many tokens, which agents were tested and how well they did are not in the item.\n\nWhat is new is the target. Most coding agent benchmarks measure software tasks. This one points agents at hardware for running the same small, quantized open models people already run locally, and it builds the evaluation around a known way that tests give false confidence.",
+      "why_it_matters": "Even if you never write RTL, the lesson about delayed failure transfers directly to agent work. Many systems you build carry state across steps: agent memory, conversation history, a cache, a multi-step data pipeline. A bug there can let step one look right and break step five. If your evals only check the immediate output, you share the blind spot this paper describes.\n\nPractical move: for any stateful component an agent writes or changes, test over sequences, not single calls. Compare against a reference implementation over many steps, the way AIChipBench uses an executable integer reference. Golden traces, replayed long sessions and diffing intermediate state are cheap ways to start.\n\nFor the Local inference lane, the model choice is telling. Quantized Qwen3.5, Gemma 3, Gemma 4 and Llama 3.2 are the class of models people run on laptops and single GPUs. Research on custom silicon for exactly these models suggests continued pressure toward cheaper, specialized inference for small models.\n\nFor Agents and loops, watch whether the full results show agents need specific tools, such as simulators or detailed state inspection, to succeed. That would be another data point that agent capability depends heavily on the feedback the environment gives them.",
+      "read_first": [
+        {
+          "title": "AIChipBench: Benchmarking LLM Agents for Automated AI Accelerator Design",
+          "url": "https://arxiv.org/abs/2611.33093v1",
+          "source": "arXiv agents",
+          "why": "It is the only source and the full paper holds the results, agent comparisons and grading method that the truncated summary leaves out."
+        }
+      ],
+      "open_question": "If agents only get stateful designs right with a precise executable reference, how should teams build references for stateful software where no clean spec exists?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 5,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "an-indic-voice-agent-with-cuga",
+      "title": "IBM Research shares an Indic voice agent built with CUGA",
+      "lanes": [
+        "Best skills",
+        "Frontier models",
+        "Agents and loops"
+      ],
+      "off_lane": false,
+      "what_happened": "IBM Research published a post on the Hugging Face blog on November 25, 2026 titled An Indic Voice Agent with CUGA. That is close to everything today's data says about it. The feed item has no summary, so the contents of the post, including which languages it covers, which speech recognition and speech synthesis models it uses, and how the agent is evaluated, cannot be reported here without guessing.\n\nWhat can be said from the title and source: the post is a primary source from the team behind the work, published on a platform where research groups often share models and tutorials. Indic points to languages of the Indian subcontinent, and voice agent points to a system that listens and speaks rather than only exchanging text. CUGA is named as the building block, apparently an agent framework or component from IBM, but the item does not define it, so treat that as an assumption to check when you read the post.\n\nThe ranking program placed this topic in the Best skills, Frontier models and Agents and loops lanes and marked it new since last week, with a single source. There is no independent coverage, no benchmark numbers and no comparison with other voice agent stacks in the items.\n\nIf you plan to rely on it, read the post itself for the architecture, model choices, any code or demo links, and stated limitations. Until then, treat it as a pointer to a hands-on build write-up rather than a news event with known results.",
+      "why_it_matters": "Voice agents in languages other than English are where many builders hit real friction. Speech recognition quality drops, people switch languages within a sentence, tokenizers can be less efficient for some scripts, and evals written in English do not transfer. A worked example from a research lab, if it includes code, is the kind of tutorial that teaches a real capability rather than a demo.\n\nWhen you read it, look for three things you can reuse. First, the pipeline shape: whether it chains speech to text, an agent and text to speech, or uses an end to end speech model, and where the latency goes. Second, how tool calls are handled when the user speaks rather than types, since spoken requests are vaguer and often need confirmation steps. Third, how it is tested, especially with mixed language input and noisy audio.\n\nIf you serve users in India or any multilingual market, set up a small eval set of real spoken requests in your target languages before picking a stack. Measure word error rate, task success and end to end latency together. That lets you compare any framework, CUGA included, on your own terms.",
+      "read_first": [
+        {
+          "title": "An Indic Voice Agent with CUGA",
+          "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+          "source": "Hugging Face blog",
+          "why": "The feed gave no summary, so the post itself is the only way to learn the architecture, models and evaluation."
+        }
+      ],
+      "open_question": "Does a general agent framework handle Indic voice well out of the box, or does most of the real work sit in language specific speech models and eval sets the framework does not provide?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 4,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "attestation-is-all-you-need-toward-a-zero-trust",
+      "title": "Researchers propose behavioral attestation to catch hijacked AI agents",
+      "lanes": [
+        "Agents and loops",
+        "Best practices"
+      ],
+      "off_lane": false,
+      "what_happened": "A paper posted to arXiv on November 24, 2026, titled Attestation is All You Need, proposes a security approach for AI agents running in high performance computing, or HPC, environments. Only the abstract summary is in today's item and it is truncated, so mechanism details and evaluation results are not available here.\n\nThe authors start from a trend: agents are beginning to automate data analysis, orchestration and simulation steering on HPC clusters. They argue this creates a threat existing cluster defenses do not address, which they call the hijacked authorized agent. The agent has legitimate credentials and permissions, so access controls let it through. The problem is that its behavior has been subverted.\n\nThe abstract lists four ways that can happen: prompt injection, poisoned shared data, compromised tools, and multi-agent coordination, where one agent influences another. Once hijacked, an agent can exfiltrate sensitive data through legitimate encrypted LLM API traffic. That is the key point. The data leaves over the same channel the agent uses for normal work, so monitoring that looks for unusual destinations or readable payloads would not flag it.\n\nTheir proposal is behavioral attestation as a runtime defense. From the title and abstract, the idea appears to be continuously verifying that an agent behaves as expected while it runs, in line with zero trust principles where nothing is trusted just because it is authorized. How behavior is measured, what counts as a deviation and what the overhead is are in the full paper, not the summary.",
+      "why_it_matters": "The hijacked authorized agent is not only an HPC problem. It describes any coding agent with repo and shell access, any support agent with CRM access, and any MCP setup where an agent can call tools and also send text to a hosted model. If an attacker can get instructions into a file, web page, ticket or tool response the agent reads, the agent's own permissions become the attacker's.\n\nConcrete steps worth taking now. Scope credentials per task, not per agent, so a hijacked run can reach less. Log every tool call with its arguments and review those logs, since behavior is what changes when an agent is subverted. Define expected behavior for routine jobs, such as which tools, which directories and roughly how much data, and alert on departures. Treat tool outputs and shared data as untrusted input, the same way you treat user input.\n\nThe exfiltration point deserves attention. Whatever an agent reads can end up in a prompt to an external API. If sensitive data must not leave, the guardrail has to sit before the model call, through redaction or by keeping that data out of the agent's reach, because the encrypted traffic will look normal.\n\nWatch whether the full paper shows attestation catching attacks without too many false alarms.",
+      "read_first": [
+        {
+          "title": "Attestation is All You Need: Toward a Zero-Trust Architecture for HPC AI Agents",
+          "url": "https://arxiv.org/abs/2611.32958v1",
+          "source": "arXiv agents",
+          "why": "The full paper explains how behavioral attestation works and whether it was tested, which the truncated abstract does not cover."
+        }
+      ],
+      "open_question": "Can runtime behavioral checks tell a hijacked agent from a legitimate one that solves a task in an unusual way, without drowning operators in alerts or missing slow, careful exfiltration?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 5,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "what-happens-to-ai-now",
+      "title": "AI Daily Brief reads Jensen Huang's return and a Riemann claim",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "The AI Daily Brief YouTube channel published an episode on November 24, 2026 titled What Happens to AI Now. Only a short, truncated description is in today's data, so what follows is the episode's framing, not verified facts.\n\nAccording to the description, two events signal a new phase for AI. The first is Jensen Huang's return to Nvidia. The wording implies he had left or been removed and has now been reinstated, and the episode says the president played a role in that reinstatement. The item does not explain why he left, when, or what the president's involvement was, and there is no primary source such as an Nvidia statement among today's items.\n\nThe second is a reported AI proof of the Riemann hypothesis, one of the most famous open problems in mathematics. The description itself says reported. There is no paper, no lab announcement and no word on review by mathematicians in the data. A claim of this size would normally need expert verification, so treat it as unconfirmed.\n\nThe host, NLW, breaks down the political fallout he expects and the many lenses through which people are reading the Huang story. The description also mentions a headlines segment, but it is cut off, so those stories are unknown.\n\nThis topic sits outside your lanes and was included to widen the view. It rests on one non-primary source.",
+      "why_it_matters": "Two forces in this story shape what you build even if you never touch chips or proofs.\n\nFirst, supply and politics. Nvidia sits under nearly every frontier model and most cloud inference. Leadership turmoil there, especially with government involvement, can ripple into GPU pricing, allocation and export rules. If your costs or roadmap depend on one provider's capacity, this is a good moment to know your fallback: a second inference provider, a smaller model that runs on hardware you already own, or batching and caching to cut demand.\n\nSecond, claims and verification. A reported AI proof of a famous problem is exactly the kind of headline that spreads before anyone checks it. The habit to practice is the one your evals and reviews already need: separate the claim from the evidence, find the primary source, and wait for independent confirmation before acting. If it holds up, it says something real about AI on long, checkable reasoning. Proofs that can be checked by machine are the ideal case for agent loops with a strict verifier.\n\nFor now, note the story, do not plan around it, and look for primary sources.",
+      "read_first": [
+        {
+          "title": "What Happens to AI Now",
+          "url": "https://www.youtube.com/watch?v=-olL-f4RGrw",
+          "source": "@AIDailyBrief",
+          "why": "It is the only source today and gives the host's full framing of both stories and the political context the summary cuts off."
+        }
+      ],
+      "open_question": "If an AI proof of the Riemann hypothesis is confirmed, does it change what we should expect from agents on long, verifiable tasks in ordinary work, or does it stay specific to formal mathematics?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

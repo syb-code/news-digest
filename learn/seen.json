@@ -1871,6 +1871,134 @@
         "Search Engine Journal"
       ],
       "primary": false
+    },
+    {
+      "id": "aichipbench-benchmarking-llm-agents-for-automated-ai",
+      "title": "AIChipBench tests whether coding agents can build correct LLM hardware",
+      "date": "2026-11-25",
+      "logged_at": "2026-11-25T13:48:34+00:00",
+      "terms": [
+        "accelerator",
+        "aichipbench",
+        "automated",
+        "benchmarking",
+        "llm",
+        "design",
+        "3.2",
+        "asks",
+        "carries",
+        "correct",
+        "correctly",
+        "corrupt"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.33093v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier",
+      "title": "Gemini 4 Neon tops two independent benchmarks this week",
+      "date": "2026-11-25",
+      "logged_at": "2026-11-25T13:48:34+00:00",
+      "terms": [
+        "neon",
+        "gemini4",
+        "gemini",
+        "benchmark",
+        "beat",
+        "gdm",
+        "ainews",
+        "full",
+        "marks",
+        "return",
+        "lab",
+        "6.2"
+      ],
+      "urls": [
+        "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/",
+        "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude"
+      ],
+      "sources": [
+        "Latent Space",
+        "Lenny’s Newsletter (Substack)"
+      ],
+      "primary": false
+    },
+    {
+      "id": "an-indic-voice-agent-with-cuga",
+      "title": "IBM Research shares an Indic voice agent built with CUGA",
+      "date": "2026-11-25",
+      "logged_at": "2026-11-25T13:48:34+00:00",
+      "terms": [
+        "cuga",
+        "indic",
+        "voice"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "attestation-is-all-you-need-toward-a-zero-trust",
+      "title": "Researchers propose behavioral attestation to catch hijacked AI agents",
+      "date": "2026-11-25",
+      "logged_at": "2026-11-25T13:48:34+00:00",
+      "terms": [
+        "attestation",
+        "hpc",
+        "trust",
+        "zero",
+        "architecture",
+        "toward",
+        "need",
+        "adversary",
+        "authorized",
+        "beginning",
+        "behavioral",
+        "cluster"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.32958v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "what-happens-to-ai-now",
+      "title": "AI Daily Brief reads Jensen Huang's return and a Riemann claim",
+      "date": "2026-11-25",
+      "logged_at": "2026-11-25T13:48:34+00:00",
+      "terms": [
+        "happens",
+        "hypothesis",
+        "lenses",
+        "many",
+        "phase",
+        "political",
+        "president",
+        "reported",
+        "riemann",
+        "signal",
+        "fallout",
+        "proof"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=-olL-f4RGrw"
+      ],
+      "sources": [
+        "@AIDailyBrief"
+      ],
+      "primary": false
     }
   ]
 }

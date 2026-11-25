@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-24",
+  "latest": "2026-11-25",
   "days": [
+    {
+      "date": "2026-11-25",
+      "topics": [
+        "Gemini 4 Neon tops two independent benchmarks this week",
+        "AIChipBench tests whether coding agents can build correct LLM hardware",
+        "IBM Research shares an Indic voice agent built with CUGA",
+        "Researchers propose behavioral attestation to catch hijacked AI agents",
+        "AI Daily Brief reads Jensen Huang's return and a Riemann claim"
+      ]
+    },
     {
       "date": "2026-11-24",
       "topics": [

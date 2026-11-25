@@ -1,6 +1,38 @@
 {
-  "generated_at": "2026-11-24T13:46:05+00:00",
+  "generated_at": "2026-11-25T13:46:05+00:00",
   "items": [
+    {
+      "id": "e99e7b15b82cdd883bb9a2b754e01f05",
+      "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
+      "url": "https://www.lennysnewsletter.com/p/gemini-4-neon-beat-gpt-62-and-claude",
+      "source": "Lenny’s Newsletter (Substack)",
+      "source_type": "rss",
+      "published": "2026-11-25T13:04:21+00:00",
+      "first_seen": "2026-11-25T13:46:05+00:00",
+      "summary": "Watch now (32 mins) | 🎙️ My late-2026 How I AI bench: GPT-6.2 disappointed me, Opus 5.5 is my least annoying daily driver, and Gemini 4 Neon is now my top pick",
+      "read_minutes": 2,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "highlight"
+    },
+    {
+      "id": "56f2f357977a5beb9e76423b1dda047b",
+      "title": "What Happens to AI Now",
+      "url": "https://www.youtube.com/watch?v=-olL-f4RGrw",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-24T23:36:35+00:00",
+      "first_seen": "2026-11-25T13:46:05+00:00",
+      "summary": "Jensen Huang's return to Nvidia and a reported AI proof of the Riemann hypothesis signal a new phase for AI. NLW breaks down the president's role in the reinstatement, the political fallout ahead, and the many lenses through which people read the story. In the headlines: the...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "ddc9eba956b0da78a63d88755fe472f5",
       "title": "Jensen is Back as CEO After White House Advocacy",
@@ -666,22 +698,6 @@
       "bucket": "deeper"
     },
     {
-      "id": "06009be9d24e146dce42513525b34dce",
-      "title": "How a Data Center Slowdown Benefits Big Tech",
-      "url": "https://www.youtube.com/watch?v=ssEWGHjKHTM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-06T14:00:10+00:00",
-      "first_seen": "2026-11-06T14:00:10+00:00",
-      "summary": "A data center slowdown after the blue wave could help Big Tech, and market reactions point to a more mixed AI trade than the doom headlines suggest. NLW breaks down why hyperscalers may welcome political cover to trim CapEx, what new state leaders will likely demand, and...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "8d9f893dabcc2c371495deda92f71d9c",
       "title": "The End of Cheap Capital & What it Means for Markets | Russell Clark",
       "url": "https://www.youtube.com/watch?v=eGK-0hidn8A",
@@ -795,22 +811,6 @@
       "first_seen": "2026-11-01T13:31:36+00:00",
       "summary": "Listen now (88 mins) | Hector Serrano on building Wispr Flow’s paid-UGC machine, hiring young talent over polished resumes, and why the best marketers are “allergic to AI”",
       "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "highlight"
-    },
-    {
-      "id": "437d380586727463e8aa55fa57f62aac",
-      "title": "🧠 Community Wisdom: The biggest sources of interruptions for PMs, hiring junior PMs with case studies vs. behavioral interviews, building a product harness for AI-driven development, and more",
-      "url": "https://www.lennysnewsletter.com/p/community-wisdom-the-biggest-sources",
-      "source": "Lenny’s Newsletter (Substack)",
-      "source_type": "rss",
-      "published": "2026-10-31T16:14:41+00:00",
-      "first_seen": "2026-10-31T16:14:41+00:00",
-      "summary": "Community Wisdom 304",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
