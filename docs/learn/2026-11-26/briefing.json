@@ -1,0 +1,153 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T13:46:41+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 3714,
+    "output_tokens": 5717,
+    "cost_usd": 0.129196
+  },
+  "email_summary": "Today: an arXiv framework for user-directed agentic feeds, a llama.cpp CUDA fix for large tensors, a new benchmark for multi-user voice agents, NVIDIA's thin-on-detail Nemotron 3.5 Parse post on Hugging Face, and, off lane, a Thanksgiving guide to talking about AI with skeptics.",
+  "topics": [
+    {
+      "id": "agentic-waterfall-an-intent-driven-information-discovery",
+      "title": "Agentic Waterfall lets users steer their own recommendation feed",
+      "lanes": [
+        "Agents and loops",
+        "Best practices"
+      ],
+      "off_lane": false,
+      "what_happened": "A new paper posted to arXiv on November 25, 2026, titled Agentic Waterfall: An Intent-Driven Information Discovery Framework for Reclaiming User Control in the Attention Economy, proposes a different shape for personalized feeds. Today, most feeds infer what you want from clicks and dwell time, and the user has little direct say.\n\nThe authors formalize a new problem they call the Agentic Waterfall Feed. In it, users actively direct recommendations, and the system adapts to needs that change over time. Those needs are inferred from two signals together: explicit requests the user makes, and their browsing behavior.\n\nTo address this problem, they present the Agentic Waterfall framework. Its core is a language model controller. The controller keeps a persistent user state, meaning a running record of what the user wants, and it coordinates three jobs: retrieving content, ranking it, and updating the user state as new requests and behavior come in.\n\nThe paper also says it contributes an evaluation resource for the task, named after the framework. The feed summary is cut off at that point, so the details of what this benchmark measures, how large it is, and what results the framework achieved are not in the material available here. There is only one source, the paper itself, so there is no outside commentary or replication yet. Treat the claims as the authors' own framing until you read the full text.\n\nWhat is new is mostly the problem definition: treating a feed as something an agent runs on the user's behalf, with state that persists across sessions, rather than a ranking model tuned for engagement.",
+      "why_it_matters": "If you build agents, this paper describes a pattern you probably already face: a controller that holds long-lived state about a user and decides when to call retrieval, when to rerank, and when to update its memory. Seeing it formalized as a task with its own evaluation is useful, because state management is where many agent loops quietly fail. The state drifts, goes stale, or overweights one stray request.\n\nFor best practices, the interesting move is mixing explicit intent with implicit behavior. Try this in your own assistants or search tools: keep a small, inspectable user state object, log which signal caused each update, and let users see and edit it. That gives you a review surface and a guardrail against the agent inventing preferences.\n\nIt also matters for anyone shipping recommendation or content products. A feed that answers to stated goals instead of engagement is a different product promise, and it needs different metrics. Watch for the benchmark details in the full paper. If it measures how well a system tracks changing intent over a session, it could become a template for evaluating your own memory-backed agents, which are hard to test with single-turn evals.",
+      "read_first": [
+        {
+          "title": "Agentic Waterfall: An Intent-Driven Information Discovery Framework for Reclaiming User Control in the Attention Economy",
+          "url": "https://arxiv.org/abs/2611.34407v1",
+          "source": "arXiv agents",
+          "why": "It is the only source, and the full text holds the benchmark design and results that the feed summary cuts off."
+        }
+      ],
+      "open_question": "When explicit requests and browsing behavior disagree, which should the controller trust, and how should it tell the user it made that call?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "b12777-cuda-loop-over-ne2-ne3-in-non-contiguous-concat-33006",
+      "title": "llama.cpp fixes CUDA concat crash on very large tensors",
+      "lanes": [
+        "Frontier models",
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 26, 2026, the llama.cpp project published release b12777, which contains one focused CUDA fix, merged as pull request #33006.\n\nThe bug was in the kernel that concatenates non-contiguous tensors on NVIDIA GPUs. That kernel mapped two of the destination tensor's dimensions, ne[2] and ne[3], directly onto the CUDA launch grid's y and z dimensions, gridDim.y and gridDim.z. CUDA caps each of those at 65535. When a tensor was large enough in those dimensions to exceed that limit, the kernel launch failed with the error \"invalid configuration argument\".\n\nThe fix caps the grid size at the hardware limit and has the kernel loop over any remaining rows itself, so each thread block handles more than one slice when needed. This is a standard pattern in CUDA programming, often called a grid-stride style loop. The release notes say it fixes issue #32956, which is where the failure was reported.\n\nThe release note also carries the line \"Assisted-by: Claude Opus 5.5\", indicating the contributor used that model while preparing the change. The note does not say how much of the work the model did.\n\nThe item does not say which models or workloads triggered the bug. Concat operations show up in places like KV cache handling and some attention or multimodal paths, but the release notes do not name a specific case, so it is not clear who was affected in practice. There is only this one source.",
+      "why_it_matters": "For local inference, this is the kind of fix that matters more than its size suggests. Failures like \"invalid configuration argument\" tend to appear only at larger shapes, such as long contexts, big batches, or large models, so they hit exactly when you push a single GPU harder. If you saw unexplained CUDA launch errors in llama.cpp on large inputs, updating to b12777 or later is the first thing to try, and issue #32956 is worth checking to see if it matches your symptoms.\n\nThere is also a general lesson for anyone writing or reviewing GPU code with AI help: hardware limits like the 65535 grid cap are easy to miss because small test cases never reach them. Add tests with extreme shapes to your own kernels or custom ops.\n\nThe \"Assisted-by\" line touches the frontier models lane and best processes. Open source projects are starting to disclose model assistance in commits. That is a useful governance habit to copy in your own team: record when a model helped, so reviewers know where to look harder and you can later judge where AI help paid off.",
+      "read_first": [
+        {
+          "title": "b12777: CUDA: loop over ne2/ne3 in non-contiguous concat (#33006)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12777",
+          "source": "llama.cpp releases",
+          "why": "The release page links the fix and the original issue, so you can see the exact change and whether it matches errors you have hit."
+        }
+      ],
+      "open_question": "How many other kernels in local inference stacks map tensor dimensions straight onto grid limits, and would extreme-shape testing find them before users do?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "bench-benchmarking-multi-user-task-completion-in-shared",
+      "title": "μ-Bench tests voice agents serving several people at once",
+      "lanes": [
+        "Agents and loops",
+        "Best practices",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "A paper posted to arXiv on November 25, 2026 introduces μ-Bench, a benchmark for voice agents that work with more than one person in the same conversation.\n\nThe authors start from a setting most agent evaluations skip. A voice agent in a shared space, such as a home or an office, may get requests from several people that depend on each other. It has to complete them while respecting each person's authority, privacy, and task constraints. One user may be allowed to do something another is not, and one user's information may not be something the agent should reveal to another.\n\nThey argue that existing evaluations cover this poorly, especially when participants react throughout a session instead of giving one fixed request.\n\nμ-Bench evaluates joint task completion in closed-loop, full-duplex, multi-user voice interaction. Full-duplex means people and the agent can speak at the same time, as in real conversation, rather than strictly taking turns. Closed-loop means the simulated participants respond to what the agent does. Each simulated participant acts from an isolated profile of goals, knowledge, and permissions, and adapts to the agent's speech and to the outcomes of its tool calls.\n\nThe feed summary is cut off after that, so the number of tasks, the models tested, and the results are not available here. There is a single source, the paper, and no independent coverage yet.",
+      "why_it_matters": "Most agent evals assume one user with one goal. Real deployments in meeting rooms, homes, cars, and support lines break that assumption, and the failures are serious: acting on a request from someone without permission, or leaking one person's details to another. μ-Bench names these risks and builds a way to test them, which is directly useful for the agents and best practices lanes.\n\nEven if you never build a voice product, the design is worth borrowing. Simulated users with isolated profiles of goals, knowledge, and permissions are a practical way to test any agent that serves a team, such as a shared Slack bot or a coding agent used by several engineers. Try writing two or three conflicting user profiles for your own agent and check whether it keeps permissions and private context separate.\n\nFor the frontier models lane, watch whether model providers start reporting multi-user results alongside single-user tool benchmarks. If the paper shows that strong models still fail at per-user authority, that is a sign to put explicit permission checks in your tool layer rather than trusting the model to remember who is allowed to do what.",
+      "read_first": [
+        {
+          "title": "$μ$-Bench: Benchmarking Multi-User Task Completion in Shared Interaction Voice Agents",
+          "url": "https://arxiv.org/abs/2611.34920v1",
+          "source": "arXiv agents",
+          "why": "It is the only source, and the full paper holds the task list, models tested, and results that the summary leaves out."
+        }
+      ],
+      "open_question": "Should per-user authority live in the model's reasoning at all, or should it always be enforced outside the model in the tool and permission layer?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 4,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "building-on-nemotron-3-5-parse-open-data-fine-tuning-and",
+      "title": "NVIDIA posts guide to building on Nemotron 3.5 Parse",
+      "lanes": [
+        "Best skills",
+        "Frontier models",
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 26, 2026, a post appeared on the Hugging Face blog under NVIDIA's account titled Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference.\n\nThat title is almost everything the feed gives us. The item came through with an empty summary, and there is only this one source, so the facts here are thin. Based on the title alone, the post covers three things about a model called Nemotron 3.5 Parse: open data related to it, how to fine-tune it, and ways to run it faster at inference time.\n\nThe name suggests a parsing model in NVIDIA's Nemotron family, most likely aimed at extracting structure from documents, but the item does not confirm what Parse does, what inputs it handles, how big it is, what license it uses, or what was released alongside the post. It also does not say which datasets are open, what fine-tuning method is described, or what inference speedups are claimed and on what hardware. The phrase \"Building on\" suggests the model was released earlier and this post is a follow-up for developers, but that is an inference from the title, not a stated fact.\n\nBecause NVIDIA is the publisher, this is a primary source. Anyone interested should read the post directly rather than rely on this summary, which cannot add detail that the feed did not provide. If later coverage appears, it should fill in the specifics.",
+      "why_it_matters": "Even with little detail, the shape of this post lines up with three of your lanes. A guide that pairs a model with open data and fine-tuning instructions is a real skill opportunity: adapting a small specialist model to your own documents is one of the more valuable capabilities a builder can learn right now, and open training data makes it easier to see what the model was taught and where it may fail.\n\nFor local inference, a focus on faster inference hints that the model is meant to run efficiently, possibly on a single GPU. If you run document pipelines, a specialist parser can be much cheaper than sending every page to a large frontier model.\n\nConcrete steps: read the post and note the model size, license, and supported hardware. If it fits, run it on a small sample of your own messy documents, such as scanned PDFs, tables, or forms, and compare output quality and cost against what you use today. Keep that sample as a reusable eval set. Watch for whether the fine-tuning recipe needs a large dataset or works with a few hundred labeled pages, since that decides whether it is practical for a small team.",
+      "read_first": [
+        {
+          "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+          "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+          "source": "Hugging Face blog",
+          "why": "It is the only source and the feed carried no summary, so the post itself is the only way to learn what was actually released."
+        }
+      ],
+      "open_question": "For document parsing, does a fine-tuned small specialist model now beat a general frontier model on your own data once cost and speed are counted?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "how-to-talk-about-ai-at-thanksgiving",
+      "title": "Answering the AI questions skeptics bring to the dinner table",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "On November 25, 2026, the AI Daily Brief channel on YouTube published an episode titled How to Talk About AI at Thanksgiving. The host, NLW, goes through fifteen of the AI questions he thinks are most likely to come up at a holiday table and gives a direct answer to each.\n\nAccording to the feed summary, the topics run from jobs and kids to whether AI is a bubble and whether it is dangerous, the so-called doom question. The summary does not list all fifteen questions or quote the answers, so the specific positions he takes are not available here.\n\nThe one stance the summary does describe is about approach rather than content. NLW makes the case for inviting skeptics into the conversation instead of trying to win them over. In other words, the goal is to take people's concerns seriously and draw them in, not to win the argument.\n\nThe summary ends with \"Also...\", which suggests the episode covers other material as well, but what that is cannot be told from the item.\n\nThis is a single source, it is commentary rather than a primary source, and it is not tied to any of your usual lanes. It is included to widen the view. The date is the point: it lands the day before Thanksgiving in the United States, when many people who work with AI will be asked to explain it to family members who do not.",
+      "why_it_matters": "This is off lane, but the skill underneath it matters a lot for builders. Explaining AI to people who are worried or doubtful is part of the job. You do it with managers deciding on budgets, colleagues afraid for their roles, legal and compliance teams, and customers who do not trust automated answers. A rollout often succeeds or fails on that conversation more than on the model.\n\nThe advice to invite skeptics in rather than convert them maps well onto process work. Skeptics are often your best reviewers. They spot failure cases, privacy risks, and bad incentives that enthusiasts skip. Try bringing one into your next pilot as a named reviewer, with a clear way to log objections, and treat their concerns as test cases for your evals.\n\nIt is also a useful exercise in clarity. Pick three of the common questions, such as jobs, bubbles, and safety, and write a short, honest answer to each in plain language, including what you do not know. If you cannot do it simply, that is a sign your own picture is fuzzy. Those answers will be reusable in internal memos, onboarding, and customer conversations.",
+      "read_first": [
+        {
+          "title": "How to Talk About AI at Thanksgiving",
+          "url": "https://www.youtube.com/watch?v=9DrvWVeBZEM",
+          "source": "@AIDailyBrief",
+          "why": "It is the only source and the full episode contains the fifteen questions and answers that the summary only hints at."
+        }
+      ],
+      "open_question": "Can builders hold an honest middle position on jobs and bubbles that skeptics find credible, when the people building AI also have a stake in its success?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

@@ -1,6 +1,54 @@
 {
-  "generated_at": "2026-11-25T13:46:05+00:00",
+  "generated_at": "2026-11-26T13:46:10+00:00",
   "items": [
+    {
+      "id": "3bfef131fe4e3aad7033c61bfbfa2406",
+      "title": "When AI Labs Rival Nations",
+      "url": "https://www.youtube.com/watch?v=_KDnFZ3uuC8",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-26T13:40:00+00:00",
+      "first_seen": "2026-11-26T13:46:10+00:00",
+      "summary": "The AI Daily Brief helps you understand the most important news and discussions in AI. Subscribe to the podcast version of The AI Daily Brief wherever you listen: https://pod.link/1680633614 Get it ad free at http://patreon.com/aidailybrief Learn more about the show...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "1a62d3c01610320085085f7f5fce8e00",
+      "title": "How to Talk About AI at Thanksgiving",
+      "url": "https://www.youtube.com/watch?v=9DrvWVeBZEM",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-25T21:42:35+00:00",
+      "first_seen": "2026-11-26T13:46:10+00:00",
+      "summary": "Fifteen of the most likely AI questions to come up at the Thanksgiving table get a direct answer, from jobs and kids to bubbles and doom. NLW breaks down how to handle each one, with the case for inviting skeptics into the conversation instead of trying to win them over. Also...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
+    {
+      "id": "4e75ae978c38d487434378e7c9be0da1",
+      "title": "Why Asian Investors Turned Bearish on AI Before Wall Street (And What They See Right Now)",
+      "url": "https://www.youtube.com/watch?v=yj88iIHhcAo",
+      "source": "@Monetary-Matters",
+      "source_type": "youtube",
+      "published": "2026-11-25T20:41:16+00:00",
+      "first_seen": "2026-11-26T13:46:10+00:00",
+      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Recorded at the TomorrowX Summit, Jack sits down with Kenneth Tay, head of content at Funda, the...",
+      "read_minutes": 3,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "e99e7b15b82cdd883bb9a2b754e01f05",
       "title": "Gemini 4 Neon beat GPT-6.2 and Claude in my 25-task AI benchmark",
@@ -591,22 +639,6 @@
       "bucket": "highlight"
     },
     {
-      "id": "55996c6b1c6e0df4f843ce93a0bff011",
-      "title": "Agentic Video is Real and Here's What You Should Try",
-      "url": "https://www.youtube.com/watch?v=M-o7viCDaBw",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-09T18:01:43+00:00",
-      "first_seen": "2026-11-09T18:01:43+00:00",
-      "summary": "Opus 5.5 is unlocking a step change in AI video editing, much like Opus 4.5 did for agentic coding. NLW breaks down the eight changes behind agentic video and the use cases knowledge workers should try first. Ideas range from concept videos and meeting highlights to...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
       "id": "bfd0c8051728ba8d04986b8921c451f1",
       "title": "🎙️ How I AI: How this founder built a better Duolingo with Codex",
       "url": "https://www.lennysnewsletter.com/p/how-i-ai-how-this-founder-built-a",
@@ -663,23 +695,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "09dc72c9876a3d06fdcdf7b0058879df",
-      "title": "Companies Are Spending 5x More on AI Now",
-      "url": "https://www.youtube.com/watch?v=INC89yHLexM",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-06T21:24:30+00:00",
-      "first_seen": "2026-11-06T21:24:30+00:00",
-      "summary": "Menlo’s latest enterprise AI report shows spending per company up nearly five times in a year, driven by agents. NLW breaks down ten key stats on frontier model demand, Anthropic’s rising market share, coding agent revenue, and whether AI is eating SaaS. In the headlines: AI...",
-      "read_minutes": 1,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML",
-        "Tech/Earnings"
-      ],
-      "bucket": "deeper"
     },
     {
       "id": "a2ea674d5f48cb218c1adfb86c0417bb",
@@ -860,22 +875,6 @@
       "duration_sec": null,
       "themes": [],
       "bucket": "highlight"
-    },
-    {
-      "id": "859edd7299362af5e1f923416ed4d988",
-      "title": "The Fed Put Is Dead: Why Stagflation & a Bear Market Are Next | Vincent Deluard",
-      "url": "https://www.youtube.com/watch?v=CH6rqNVSJJw",
-      "source": "@Monetary-Matters",
-      "source_type": "youtube",
-      "published": "2026-10-27T13:53:46+00:00",
-      "first_seen": "2026-10-27T13:53:46+00:00",
-      "summary": "This episode is brought to you by Sarmaya Partners. Learn more about Sarmaya’s LENS ETF, their full data and comparison, including performance here: https://sarmayaetf.com/ Vincent Deluard, Director of Global Macro Strategy at StoneX, breaks down why a broader equity bear...",
-      "read_minutes": 3,
-      "duration_sec": null,
-      "themes": [
-        "Macro/Fed"
-      ],
-      "bucket": "deeper"
     },
     {
       "id": "441668e5a315567f68f8784d68dff272",

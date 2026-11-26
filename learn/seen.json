@@ -1999,6 +1999,140 @@
         "@AIDailyBrief"
       ],
       "primary": false
+    },
+    {
+      "id": "agentic-waterfall-an-intent-driven-information-discovery",
+      "title": "Agentic Waterfall lets users steer their own recommendation feed",
+      "date": "2026-11-26",
+      "logged_at": "2026-11-26T13:48:09+00:00",
+      "terms": [
+        "driven",
+        "economy",
+        "reclaiming",
+        "waterfall",
+        "control",
+        "discovery",
+        "information",
+        "intent",
+        "user",
+        "attention",
+        "agentic",
+        "framework"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.34407v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "b12777-cuda-loop-over-ne2-ne3-in-non-contiguous-concat-33006",
+      "title": "llama.cpp fixes CUDA concat crash on very large tensors",
+      "date": "2026-11-26",
+      "logged_at": "2026-11-26T13:48:09+00:00",
+      "terms": [
+        "33006",
+        "b12777",
+        "concat",
+        "contiguous",
+        "ne2",
+        "ne3",
+        "non",
+        "loop",
+        "cuda",
+        "32956",
+        "65535",
+        "argument"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12777"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "bench-benchmarking-multi-user-task-completion-in-shared",
+      "title": "μ-Bench tests voice agents serving several people at once",
+      "date": "2026-11-26",
+      "logged_at": "2026-11-26T13:48:09+00:00",
+      "terms": [
+        "completion",
+        "shared",
+        "bench",
+        "benchmarking",
+        "multi",
+        "voice",
+        "user",
+        "interaction",
+        "task",
+        "act",
+        "adapting",
+        "authority"
+      ],
+      "urls": [
+        "https://arxiv.org/abs/2611.34920v1"
+      ],
+      "sources": [
+        "arXiv agents"
+      ],
+      "primary": true
+    },
+    {
+      "id": "building-on-nemotron-3-5-parse-open-data-fine-tuning-and",
+      "title": "NVIDIA posts guide to building on Nemotron 3.5 Parse",
+      "date": "2026-11-26",
+      "logged_at": "2026-11-26T13:48:09+00:00",
+      "terms": [
+        "nemotron3.5",
+        "parse",
+        "3.5",
+        "fine",
+        "nemotron",
+        "tuning",
+        "inference",
+        "faster",
+        "building",
+        "data",
+        "open"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "how-to-talk-about-ai-at-thanksgiving",
+      "title": "Answering the AI questions skeptics bring to the dinner table",
+      "date": "2026-11-26",
+      "logged_at": "2026-11-26T13:48:09+00:00",
+      "terms": [
+        "talk",
+        "thanksgiving",
+        "bubbles",
+        "case",
+        "doom",
+        "fifteen",
+        "handle",
+        "inviting",
+        "jobs",
+        "likely",
+        "skeptics",
+        "trying"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=9DrvWVeBZEM"
+      ],
+      "sources": [
+        "@AIDailyBrief"
+      ],
+      "primary": false
     }
   ]
 }

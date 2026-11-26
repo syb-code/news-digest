@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-25",
+  "latest": "2026-11-26",
   "days": [
+    {
+      "date": "2026-11-26",
+      "topics": [
+        "Agentic Waterfall lets users steer their own recommendation feed",
+        "llama.cpp fixes CUDA concat crash on very large tensors",
+        "μ-Bench tests voice agents serving several people at once",
+        "NVIDIA posts guide to building on Nemotron 3.5 Parse",
+        "Answering the AI questions skeptics bring to the dinner table"
+      ]
+    },
     {
       "date": "2026-11-25",
       "topics": [
