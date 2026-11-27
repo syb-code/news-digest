@@ -1,6 +1,22 @@
 {
-  "generated_at": "2026-11-27T13:46:04+00:00",
+  "generated_at": "2026-11-27T20:00:15+00:00",
   "items": [
+    {
+      "id": "932dcd88a89f0e12bc6f9495d0bd5662",
+      "title": "AI is Too Big to Fail",
+      "url": "https://www.youtube.com/watch?v=jEVuZeU9yoA",
+      "source": "@AIDailyBrief",
+      "source_type": "youtube",
+      "published": "2026-11-27T18:18:21+00:00",
+      "first_seen": "2026-11-27T20:00:15+00:00",
+      "summary": "AI has become so central to national security and the economy that Washington may not be able to let the industry fail, even as Democrats push for a no bailout pledge. NLW breaks down the Schiff resolution, the Jensen Huang saga, and why any rescue of AI companies would look...",
+      "read_minutes": 1,
+      "duration_sec": null,
+      "themes": [
+        "AI/ML"
+      ],
+      "bucket": "deeper"
+    },
     {
       "id": "3bfef131fe4e3aad7033c61bfbfa2406",
       "title": "When AI Labs Rival Nations",
@@ -586,22 +602,6 @@
       "first_seen": "2026-11-10T15:04:03+00:00",
       "summary": "PMs are winning, engineers are plateauing, designers are hurting, and the biggest AI hiring boom isn’t in software",
       "read_minutes": 10,
-      "duration_sec": null,
-      "themes": [
-        "AI/ML"
-      ],
-      "bucket": "deeper"
-    },
-    {
-      "id": "7cafb4413fa4942c322c05937aed4008",
-      "title": "Nvidia CEO Admits Cheating with Suspected Chinese Spy",
-      "url": "https://www.youtube.com/watch?v=TGDVsntuFd0",
-      "source": "@AIDailyBrief",
-      "source_type": "youtube",
-      "published": "2026-11-10T15:03:35+00:00",
-      "first_seen": "2026-11-10T15:03:35+00:00",
-      "summary": "The Nvidia CEO’s admission of an affair with a woman US officials believe is a Chinese spy raises big questions about chip export policy, congressional scrutiny, and the AI build-out. NLW breaks down the New York Times reporting, the board investigation, the market whiplash...",
-      "read_minutes": 1,
       "duration_sec": null,
       "themes": [
         "AI/ML"
