@@ -1,0 +1,166 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T13:46:36+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 5716,
+    "output_tokens": 6441,
+    "cost_usd": 0.151684
+  },
+  "email_summary": "Today: a new llama.cpp benchmark dashboard for AMD Ryzen and Radeon, the llama.cpp v1.1.0 release with new models and API changes, an Ollama v0.40.19 release candidate, a Hugging Face post on generating video with LTX-2.5 on AWS Trainium3, and an off-lane look at why Asian investors cooled on AI before Wall Street.",
+  "topics": [
+    {
+      "id": "introducing-the-llama-cpp-benchmark-dashboard-for-amd-ryzen",
+      "title": "llama.cpp gets a benchmark dashboard for AMD Ryzen and Radeon",
+      "lanes": [
+        "Frontier models",
+        "Local inference",
+        "Best skills"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 26, 2026, the Hugging Face blog published a post under the ggml-org account titled \"Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon.\" ggml-org is the organization behind llama.cpp, so this is a primary source from the project itself.\n\nThat is close to all the feed tells us. The item came with no summary text, so the details are not in front of us. We do not know from the feed which Ryzen or Radeon parts are covered, which backends are measured (llama.cpp supports several GPU paths, including Vulkan, which appears in other releases today), which models and quantizations are tested, how often results refresh, or whether the dashboard is run by the project, by AMD, or by contributors. It would be guessing to fill those in, so this briefing does not.\n\nWhat the title does establish is the shape of the thing. It is a dashboard, which suggests ongoing published numbers rather than a one-off blog chart. It targets AMD consumer hardware specifically, both CPUs with integrated graphics (Ryzen) and discrete GPUs (Radeon). And it lives with the llama.cpp project, which means the numbers should come from the same code most local inference tools build on, including Ollama, which bumps its bundled llama-server in today's release.\n\nThe timing also fits a busy week for llama.cpp. The same day, the project tagged v1.1.0, and on November 27 it shipped build b12809, which among other things fixes an RDNA regression in the Vulkan backend. RDNA is the architecture behind recent Radeon GPUs. Whether the dashboard caught that regression is not stated anywhere in the items.",
+      "why_it_matters": "If you run models on your own hardware, the hardest question is usually not which model, but what speed you will actually get on the machine you own or are about to buy. NVIDIA and Apple Silicon have had plenty of community numbers. AMD has been patchier, partly because results swing a lot between backends and driver versions. A dashboard maintained alongside llama.cpp could give you a reference point that tracks the code as it changes, rather than a stale forum thread.\n\nConcrete things to do. If you have a Ryzen laptop or a Radeon card, read the post and compare its numbers with your own run of llama-bench on the same model and quantization. A big gap points to a config problem, such as the wrong backend or offload settings. If you are choosing hardware for a small office or a dev box, use the dashboard to compare prompt processing and token generation separately, since agents with long contexts lean on the first and chat leans on the second.\n\nIt is also a good process lesson. Continuous benchmarks catch regressions, like the RDNA one fixed in today's Vulkan build. If you ship anything on top of local inference, a small benchmark run in CI on your target hardware is cheap insurance.",
+      "read_first": [
+        {
+          "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+          "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+          "source": "Hugging Face blog",
+          "why": "It is the only source and comes straight from the llama.cpp maintainers, so it will tell you what hardware, backends and models the dashboard actually covers."
+        }
+      ],
+      "open_question": "Will the dashboard publish results per backend and driver version, so you can tell whether a slowdown comes from llama.cpp, the Vulkan or ROCm stack, or the hardware itself?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 6,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "llama-cpp-releases-v1-1-0",
+      "title": "llama.cpp v1.1.0 adds models, audio support and a new batch API",
+      "lanes": [
+        "Local inference",
+        "Efficiencies",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "llama.cpp tagged v1.1.0 on November 26, 2026, and followed it with several numbered builds on November 27.\n\nThe v1.1.0 overview lists new model support: the Inkling 2 family (base, Mini and DSpark), Domyn Edge 4B, Zaya1 8B, RAON-1-mini and Hy4 flash. It splits DFlash speculative decoding into separate draft methods. It deprecates the old llama_batch API in favour of llama_batch_ext. It adds a large set of text to speech and audio models: Kokoro, Zonos3-Mini, tiny-voca, VoxCPM2, MiniMax-Music3, YuE2, Fish S2, Higgs v3 and VibeVoice-ASR, and Kyutai Hibiki. It also mentions token-aware chat parsing, named tool choice, and something automatic per-tensor. The feed summary cuts off there, so the full list is longer than what we can see.\n\nThe follow-up builds are mostly fixes. b12814 lets the mixture of experts cache work when experts are selected on a different backend than the cache, a case that shows up with Inkling 2 loop passes under a layer split. b12812 fixes a Metal bug where a fused top-k kernel could run at the same time as the router matmul feeding it, which produced nondeterministic expert routing on Apple Silicon. b12815 fixes a CUDA over-read in NVFP4 matrix multiplication. b12810 fixes accuracy in Qualcomm Hexagon scaling and drops a hybrid mode. b12809 adds Vulkan flash attention bias support for Inkling 2 Mini and fixes an RDNA regression. b12808 aligns a SYCL q6_K dequantization path with the canonical kernel.\n\nOne UI change stands out: b12811 lets the browser UI share conversations to Hugging Face datasets as agent traces, using a Sign in with Hugging Face flow.",
+      "why_it_matters": "For local inference, this release touches three things builders care about: what you can run, how fast, and whether your code keeps compiling.\n\nOn what you can run, the audio list is the bigger shift. Speech recognition, text to speech and music models running through the same runtime as your LLM means a fully local voice agent gets simpler to assemble. Named tool choice and token-aware chat parsing matter for agents, since forcing a specific tool and parsing tool calls reliably are where local agent loops tend to break.\n\nOn speed, splitting speculative decoding into separate draft methods should make it easier to try different drafting strategies and measure which one helps your model. Test it on your own prompts rather than trusting general claims.\n\nOn compatibility, if you call the C API directly or maintain bindings, the llama_batch deprecation is your to-do item. Plan the move to llama_batch_ext now rather than when the old API is removed.\n\nFinally, a reliability note. The Metal fix shows that MoE models could give nondeterministic outputs on Macs before b12812. If you run evals locally on Apple Silicon with MoE models and saw unexplained variance, rerun them on a current build. The trace sharing feature is also worth a look if you collect agent traces for evals.",
+      "read_first": [
+        {
+          "title": "llama.cpp releases: v1.1.0",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0",
+          "source": "llama.cpp releases",
+          "why": "The full release notes list every new model and the API deprecation, which the feed summary cuts short."
+        },
+        {
+          "title": "llama.cpp releases: b12812",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+          "source": "llama.cpp releases",
+          "why": "It explains a real nondeterminism bug in MoE routing on Metal that could have skewed local eval results."
+        },
+        {
+          "title": "llama.cpp releases: b12811",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+          "source": "llama.cpp releases",
+          "why": "It shows how conversations from the browser UI can be saved to Hugging Face datasets as agent traces, useful for building eval sets."
+        }
+      ],
+      "open_question": "How long will the old llama_batch API stay around before removal, and how quickly will downstream tools like Ollama and language bindings move to llama_batch_ext?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 8,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "ollama-releases-v0-40-19",
+      "title": "Ollama v0.40.19 release candidate speeds up Inkling 2",
+      "lanes": [
+        "Local inference",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "Ollama published v0.40.19-rc0 on November 26, 2026. The rc0 tag means this is a first release candidate, not a final release, even though the feed title calls it v0.40.19.\n\nThe changelog is short and lists three changes.\n\nFirst, a change by dhiltgen for Inkling 2 titled \"faster short histories, draft proposals and conv snapshots.\" From the title, it targets three areas: speed when the conversation history is short, draft proposals (likely tied to speculative decoding, though the changelog does not say so), and conversation snapshots. The changelog gives no numbers or further detail.\n\nSecond, a change by pdevine to the MLX runner that compacts Engram history buffers. The MLX runner is the path Ollama uses for Apple's MLX framework on Apple Silicon. The changelog does not explain what Engram is or how much memory the compaction saves.\n\nThird, also by pdevine, a bump of the bundled llama-server. The changelog does not say which llama.cpp build it moves to. Given the timing, it may pick up some of the v1.1.0 work released the same day, including Inkling 2 family support, but that is an inference, not something the item states.\n\nThe full changelog compares v0.40.18 to v0.40.19-rc0. Pull request numbers are 19881, 19913 and 19917. There is no other coverage of this release in today's feeds, so performance claims and compatibility notes beyond these three lines are not available.",
+      "why_it_matters": "Ollama is how many builders run local models without touching llama.cpp directly, so its releases decide when new upstream work actually reaches you.\n\nThe Inkling 2 changes are the headline. Inkling 2 appears all over this week's llama.cpp builds too, with new support in v1.1.0 and fixes for its MoE cache and Vulkan flash attention. If you are evaluating Inkling 2 locally, this is a sign the model family is getting active tuning in both runtimes, and that early benchmarks may already be out of date. Rerun your timings after upgrading.\n\nThe short history speedup matters most for agent loops that make many small calls, such as tool routing or classification steps, where latency per call adds up. Snapshotting conversations could help with branching or retrying an agent step without reprocessing the whole context, though the changelog does not confirm how it is exposed.\n\nThe MLX buffer compaction is relevant if you run on a Mac with limited unified memory, where memory pressure decides how large a context you can hold.\n\nPractical advice: treat rc0 as a candidate. Try it on a dev machine, compare speed and outputs against v0.40.18 on your own prompts, and wait for the final tag before rolling it to a team.",
+      "read_first": [
+        {
+          "title": "Ollama releases: v0.40.19",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0",
+          "source": "Ollama releases",
+          "why": "It is the only source, and the linked pull requests are where you will find the detail behind each one-line change."
+        }
+      ],
+      "open_question": "Which llama.cpp build does the bumped llama-server include, and does it carry the Metal MoE routing fix that landed upstream on November 27?",
+      "reading_minutes": 2,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "taking-trainium3-to-the-track-generating-videos-with-ltx-2-5",
+      "title": "Hugging Face shows LTX-2.5 video generation on AWS Trainium3",
+      "lanes": [
+        "Best skills",
+        "Frontier models",
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 27, 2026, the Hugging Face blog published \"Taking Trainium3 to the Track: Generating Videos with LTX-2.5.\"\n\nThe feed gives only the title, with no summary, so the details have to come from the post itself. From the title alone, the post is about running LTX-2.5, a video generation model, on Trainium3. Trainium is Amazon Web Services' line of custom machine learning chips, and Trainium3 is the generation named here. The phrase \"to the track\" suggests a hands-on or performance-focused walkthrough, but the feed does not say whether it is a tutorial, a benchmark, a launch announcement, or some mix.\n\nThings we cannot confirm from the item: what speed or cost numbers are reported, which software stack is used (AWS ships its own Neuron SDK for Trainium, but the item does not mention it), whether code or a notebook is provided, which video lengths and resolutions were tested, and whether the post compares Trainium3 against GPUs. It also does not tell us who LTX-2.5 comes from or what changed from earlier LTX versions.\n\nThe post is a primary source, published by Hugging Face on its own blog, and it is new this week. It is the only item on this topic, so there is no second source to check it against. Read it with that in mind, particularly if it contains price or throughput claims, since those tend to depend heavily on configuration.\n\nThe topic was tagged for skills, frontier models and local inference, though Trainium is cloud hardware rather than something you run at home.",
+      "why_it_matters": "Video generation is one of the most expensive workloads in AI right now, and most of it runs on NVIDIA GPUs. A worked example of a recent video model on non-NVIDIA cloud silicon is useful for two reasons.\n\nFirst, cost and availability. If you build anything that generates video, for marketing content, product demos or prototyping, your bill is driven by accelerator hours. Alternative chips can change that equation, but only if the model actually runs well on them. A public walkthrough lowers the risk of trying.\n\nSecond, portability as a skill. Moving a model between hardware stacks, compiling for a different backend, and verifying output quality stays the same is a real and growing capability. Even if you never touch Trainium, reading how a team handled a large diffusion-style video model on unfamiliar hardware teaches you what tends to break: unsupported operations, memory layout, and compile times.\n\nWhat to try: if the post includes code, run it on the smallest instance it supports and measure seconds per generated clip and cost per clip yourself. Compare against what you pay today on GPUs. Check output quality side by side, since numerical differences across hardware can show up as visual artifacts. If the post lacks reproducible code, treat its numbers as directional only.",
+      "read_first": [
+        {
+          "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+          "url": "https://huggingface.co/blog/video-trainium3",
+          "source": "Hugging Face blog",
+          "why": "It is the only source and the feed carried no summary, so the post itself is the only way to see the setup, numbers and code."
+        }
+      ],
+      "open_question": "Does running LTX-2.5 on Trainium3 actually lower the cost per usable video clip compared with GPUs, once compile time, engineering effort and quality checks are counted?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "why-asian-investors-turned-bearish-on-ai-before-wall-street",
+      "title": "Why Asian investors turned cautious on AI before Wall Street",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "On November 25, 2026, the Monetary Matters YouTube channel posted an episode titled \"Why Asian Investors Turned Bearish on AI Before Wall Street (And What They See Right Now).\"\n\nThe feed summary is thin and mostly about the episode's framing. It says the episode was recorded at the TomorrowX Summit, that the host, Jack, sits down with Kenneth Tay, head of content at Funda, and that the episode is sponsored by Sarmaya Partners, which promotes an ETF. The summary cuts off before describing any of the actual arguments.\n\nSo what we know is limited. The title makes a claim: that investors in Asia became bearish on AI earlier than investors on Wall Street, and that the guest will explain what they are seeing now. The feed does not tell us which investors, which markets, what time period, what evidence is used, or what \"bearish on AI\" means here. It could mean skepticism about AI company valuations, about chip and data center spending, about the supply chain, or about AI revenue in general. We cannot tell from the item.\n\nIt is also worth being clear about the source. This is not a primary source. It is an interview on a finance channel, recorded at a summit, with a sponsor that sells an investment product. That does not make it wrong, but it is opinion and market commentary, not data. There is a single source and nothing else in today's feeds to check it against.\n\nThis topic sits outside the reader's lanes on purpose. It is here to give a view of AI from the money side rather than the builder side.",
+      "why_it_matters": "Builders tend to watch model releases and tooling. Investors watch whether all of it pays for itself. Their mood eventually reaches you through prices, funding and vendor stability.\n\nIf sentiment turns against AI spending, a few things can follow that affect your work. API providers may change pricing as they shift from growth to margins. Smaller vendors and startups you depend on may struggle to raise money, so a tool in your stack could disappear or get acquired. Data center and chip buildouts could slow, which shapes how much cheap capacity exists in a year or two.\n\nThere is a practical takeaway even if you never trade a stock. Reduce single-vendor risk where it is cheap to do so. Keep prompts and evals portable across providers. Know which parts of your product could run on a local or open-weight model if pricing changed. This week's llama.cpp and Ollama releases are a reminder that the local option keeps getting better.\n\nWhen you watch the episode, listen for specific evidence, such as spending numbers, earnings or supply chain signals from Asian manufacturers, rather than mood. And keep the sponsor in mind when weighing any investment conclusions.",
+      "read_first": [
+        {
+          "title": "Why Asian Investors Turned Bearish on AI Before Wall Street (And What They See Right Now)",
+          "url": "https://www.youtube.com/watch?v=yj88iIHhcAo",
+          "source": "@Monetary-Matters",
+          "why": "It is the only source, and the feed summary stops before the actual arguments, so the episode is the only way to judge the evidence behind the claim."
+        }
+      ],
+      "open_question": "If investor caution about AI spending is real, will it show up first as higher API prices, slower model releases, or vendor consolidation, and which of those would hit your stack hardest?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

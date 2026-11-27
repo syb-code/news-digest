@@ -1,6 +1,16 @@
 {
-  "latest": "2026-11-26",
+  "latest": "2026-11-27",
   "days": [
+    {
+      "date": "2026-11-27",
+      "topics": [
+        "llama.cpp gets a benchmark dashboard for AMD Ryzen and Radeon",
+        "llama.cpp v1.1.0 adds models, audio support and a new batch API",
+        "Ollama v0.40.19 release candidate speeds up Inkling 2",
+        "Hugging Face shows LTX-2.5 video generation on AWS Trainium3",
+        "Why Asian investors turned cautious on AI before Wall Street"
+      ]
+    },
     {
       "date": "2026-11-26",
       "topics": [

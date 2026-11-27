@@ -2133,6 +2133,140 @@
         "@AIDailyBrief"
       ],
       "primary": false
+    },
+    {
+      "id": "introducing-the-llama-cpp-benchmark-dashboard-for-amd-ryzen",
+      "title": "llama.cpp gets a benchmark dashboard for AMD Ryzen and Radeon",
+      "date": "2026-11-27",
+      "logged_at": "2026-11-27T13:48:08+00:00",
+      "terms": [
+        "amd",
+        "dashboard",
+        "radeon",
+        "ryzen",
+        "benchmark",
+        "introducing",
+        "llama.cpp"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "llama-cpp-releases-v1-1-0",
+      "title": "llama.cpp v1.1.0 adds models, audio support and a new batch API",
+      "date": "2026-11-27",
+      "logged_at": "2026-11-27T13:48:08+00:00",
+      "terms": [
+        "llama.cpp",
+        "arm64",
+        "cpu",
+        "disabled",
+        "enabled",
+        "intel",
+        "kleidiai",
+        "linux",
+        "ubuntu",
+        "x64",
+        "xcframework",
+        "24.04"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12806",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12807",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12808",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12809",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12810",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12811",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12812",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12814",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12815",
+        "https://github.com/ggml-org/llama.cpp/releases/tag/v1.1.0"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "ollama-releases-v0-40-19",
+      "title": "Ollama v0.40.19 release candidate speeds up Inkling 2",
+      "date": "2026-11-27",
+      "logged_at": "2026-11-27T13:48:08+00:00",
+      "terms": [
+        "ollama",
+        "v0.40.19",
+        "19881",
+        "19913",
+        "19917",
+        "buffers",
+        "bump",
+        "changelog",
+        "conv",
+        "dhiltgen",
+        "engram",
+        "full"
+      ],
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.19-rc0"
+      ],
+      "sources": [
+        "Ollama releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "taking-trainium3-to-the-track-generating-videos-with-ltx-2-5",
+      "title": "Hugging Face shows LTX-2.5 video generation on AWS Trainium3",
+      "date": "2026-11-27",
+      "logged_at": "2026-11-27T13:48:08+00:00",
+      "terms": [
+        "generating",
+        "ltx",
+        "ltx2.5",
+        "taking",
+        "trainium3",
+        "2.5",
+        "track"
+      ],
+      "urls": [
+        "https://huggingface.co/blog/video-trainium3"
+      ],
+      "sources": [
+        "Hugging Face blog"
+      ],
+      "primary": true
+    },
+    {
+      "id": "why-asian-investors-turned-bearish-on-ai-before-wall-street",
+      "title": "Why Asian investors turned cautious on AI before Wall Street",
+      "date": "2026-11-27",
+      "logged_at": "2026-11-27T13:48:08+00:00",
+      "terms": [
+        "asian",
+        "bearish",
+        "turned",
+        "investors",
+        "right",
+        "street",
+        "wall",
+        "see",
+        "funda",
+        "kenneth",
+        "tay",
+        "content"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=yj88iIHhcAo"
+      ],
+      "sources": [
+        "@Monetary-Matters"
+      ],
+      "primary": false
     }
   ]
 }
