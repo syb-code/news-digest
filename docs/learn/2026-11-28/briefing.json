@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T13:46:30+00:00",
+  "model": "claude-opus-5-5",
+  "llm": true,
+  "usage": {
+    "input_tokens": 3191,
+    "output_tokens": 5065,
+    "cost_usd": 0.114064
+  },
+  "email_summary": "Today's briefing covers Ollama's v0.40.20 release candidate and the v0.40.19 changes behind it, another thin OpenAI Codex alpha build, and a llama.cpp commit adding a backward pass for CONCAT in ggml. For a wider view, an AI Daily Brief episode asks whether AI has become too big to fail, and what that means for people who build on it.",
+  "topics": [
+    {
+      "id": "ollama-releases-v0-40-20-rc0",
+      "title": "Ollama ships v0.40.19 and a v0.40.20 release candidate",
+      "lanes": [
+        "Local inference",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 27, Ollama published two releases on its GitHub page: v0.40.19 and a release candidate for the next version, v0.40.20-rc0.\n\nThe release candidate's note has a single line: \"bump llama-server\", linked to pull request 19953. It does not say which upstream llama-server version it now tracks or what changed as a result. On the evidence here, rc0 looks mainly like a dependency update to the llama.cpp server component that Ollama bundles.\n\nThe v0.40.19 notes say more. They list three changes. First, a change called \"inkling2: faster short histories, draft proposals and conv snapshots\" by dhiltgen in pull request 19881. Second, \"mlxrunner: compact Engram history buffers\" by pdevine in pull request 19913. Third, another \"bump llama-server\", also by pdevine, in pull request 19917. The full changelog link compares v0.40.18 with v0.40.19-rc0.\n\nThe feed text is thin, so some care is needed. The items do not explain what inkling2 or Engram are, how much faster \"faster short histories\" is, or what \"draft proposals\" and \"conv snapshots\" mean in practice. Draft proposals could relate to speculative decoding, where a draft step proposes tokens for a larger model to check. Conv snapshots could mean saved conversation state. Neither is confirmed in the notes, and the actual pull requests are the place to check. What the items do show is that Ollama ships often. It moved through two llama-server bumps in one day's releases, and it is working on both its llama.cpp path and its MLX runner for Apple hardware.\n\nNo benchmarks, model lists or compatibility notes appear in either item.",
+      "why_it_matters": "If you run local models through Ollama, these releases touch the two engines that do the actual work. One is the bundled llama-server, which serves GGUF models on most hardware. The other is the MLX runner, which matters on Apple silicon Macs. Changes to either can shift speed, memory use and output, even when the release notes are one line long.\n\nThere are three practical moves. First, treat release candidates as a test channel, not production. If you have a local agent or a chat tool that depends on Ollama, try rc0 on a second machine or in a separate install, and keep your production version pinned until the final v0.40.20 ships. Second, keep a small benchmark of your own: a few prompts at your usual context length, with time to first token, tokens per second and peak memory recorded. A llama-server bump is exactly the kind of change that can move these numbers in either direction, and you will only know if you measure. Third, if you work on a Mac, the mlxrunner change to compact history buffers suggests attention to memory during long conversations. Watch whether long multi-turn sessions use less RAM after upgrading.\n\nThe \"faster short histories\" note is worth checking against your workload. Many agent loops send short, repeated exchanges, so a gain there could help responsiveness in real use. Read the linked pull requests before you assume what changed.",
+      "read_first": [
+        {
+          "title": "Ollama releases: v0.40.19",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+          "source": "Ollama releases",
+          "why": "This is the release with real content, listing the inkling2, MLX runner and llama-server changes with links to each pull request."
+        },
+        {
+          "title": "Ollama releases: v0.40.20-rc0",
+          "url": "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0",
+          "source": "Ollama releases",
+          "why": "Check this to see what the release candidate adds on top of v0.40.19 before you decide whether to test it."
+        }
+      ],
+      "open_question": "With llama-server bumped twice in quick succession, how much of Ollama's speed and behavior is now set by upstream llama.cpp rather than by Ollama itself, and how should you track both when something changes?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "openai-codex-releases-0-174-0-alpha-9",
+      "title": "OpenAI pushes Codex 0.174.0-alpha.9 with no published notes",
+      "lanes": [
+        "Agents and loops",
+        "Frontier models"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 27, OpenAI published a new pre-release of its Codex command line tool on GitHub, tagged rust-v0.174.0-alpha.9. The tag name shows that this build comes from the Rust codebase of Codex, the open source coding agent that runs in a terminal and can read files, run commands and edit code on a developer's machine.\n\nThat is close to all the feed tells us. The release text in the item is just \"Release 0.174.0-alpha.9\". There are no listed changes, no pull request links, no mention of new models, tools or settings, and no notes on fixes. The feed summary also may not capture everything on the GitHub page, so the release page itself is worth a look before drawing conclusions.\n\nWhat can be read from the version number is limited but useful. It is the ninth alpha build in the 0.174.0 line, which points to a fast pre-release cadence, with several builds before a stable 0.174.0 appears. Alpha builds are usually meant for early testers and automated pipelines, not for general use, and they can contain unfinished features or behavior that changes before the stable release.\n\nThe item does not say whether this build changes how Codex calls models, which models it uses by default, how it handles sandboxing and approvals, or how it supports tools such as MCP servers. Any claim about those would be a guess. The honest summary is that a new alpha exists, it was published by OpenAI as a primary source, and its contents are not described in the material we have.",
+      "why_it_matters": "Coding agents like Codex act on your files and your shell, so a version change is not cosmetic. A new build can change which commands run without asking, how the agent plans multi-step edits, or how it reads your project context. When release notes are empty, the burden of checking moves to you.\n\nIf you use Codex in daily work or in CI, pin a specific stable version and upgrade on purpose, not by default. Do not point automated pipelines at alpha builds unless you are deliberately testing. If you want to try alpha.9, run it in a throwaway branch or a container, with approval settings at their most cautious, and compare its behavior on a few real tasks you already know the answer to. A short personal eval set, such as a bug fix, a refactor and a test-writing task, makes it easy to see whether a new build is better, worse or just different.\n\nIt is also worth watching the compare view between alpha tags on GitHub. The commit list there often shows more than the release text, including changes to tool handling, config options and agent loop behavior. For anyone building their own agent, Codex's open source repository is a working reference for how a production coding agent handles sandboxing, approvals and tool calls, and following its alphas shows those choices being made in public.",
+      "read_first": [
+        {
+          "title": "OpenAI Codex releases: 0.174.0-alpha.9",
+          "url": "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9",
+          "source": "OpenAI Codex releases",
+          "why": "It is the only source, and the release page and its linked commits may contain detail the feed summary left out."
+        }
+      ],
+      "open_question": "When a coding agent ships many alphas with little or no release text, what is the minimum testing a team should require before letting a new version touch real repositories?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 3,
+        "score": 3.7
+      }
+    },
+    {
+      "id": "b12832-ggml-add-concat-backward-pass-32151",
+      "title": "llama.cpp adds a backward pass for CONCAT in ggml",
+      "lanes": [
+        "Local inference"
+      ],
+      "off_lane": false,
+      "what_happened": "On November 28, the llama.cpp project published build b12832. It contains one change to ggml, the tensor library underneath llama.cpp: a backward pass for the CONCAT operation, from pull request 32151, signed off by gianni-cor of tether.io.\n\nCONCAT joins two tensors along a chosen dimension. A forward pass computes the result. A backward pass computes gradients, which are needed for training or fine-tuning. Until now, the release suggests, ggml could concatenate tensors but could not send gradients back through that step.\n\nThe notes describe the method plainly. Each input's gradient is a view of the output gradient at that input's offset along the joined dimension, then made contiguous in memory. In other words, the first input gets the first slice of the incoming gradient, and the second input gets the slice after it.\n\nThe notes also describe how the change is tested. Inputs a and b are marked as parameters so the gradient checking mode exercises the operation, and a limit called grad_nmax was raised to 40000 so the default tensor shapes still fit. The test weights the output by random values between 1 and 2. The reason given is that with a plain sum, every gradient equals 1, so a slice taken at the wrong offset would still look correct and the test would pass. Cases where input b is transposed are not gradient checked. They only cover the forward pass.\n\nThe item does not say which models or training features will use this, or how it affects inference speed. It is a building block, not a user-facing feature.",
+      "why_it_matters": "Most people use llama.cpp for inference: running quantized models on a laptop or a single GPU. Each backward pass added to ggml widens what can be trained or fine-tuned inside the same stack, without moving to PyTorch. CONCAT shows up in many model designs, so supporting gradients through it removes one obstacle for anyone experimenting with on-device training or adapters in ggml. If you follow local fine-tuning, this is a small step worth tracking along with other ops that gain backward passes.\n\nThe more portable lesson is in the test. The author noticed that a plain sum makes every gradient 1, so a bug that grabs the wrong slice would still pass. Weighting the output with random values makes each position distinct, so errors show up. This applies directly to how you test AI systems. Evals that score every output the same way, or check only that something came back, can pass while the system is wrong. Build tests where a wrong answer actually produces a different result: vary inputs, use cases where the location of the answer matters, and check specific values rather than totals.\n\nAlso note the stated gap. Transposed inputs are covered only in the forward direction. Good engineering notes say what is not tested, and your own eval reports should do the same.",
+      "read_first": [
+        {
+          "title": "b12832: ggml : add CONCAT backward pass (#32151)",
+          "url": "https://github.com/ggml-org/llama.cpp/releases/tag/b12832",
+          "source": "llama.cpp releases",
+          "why": "The release note explains both the gradient method and the testing choice, and the testing reasoning is a useful pattern for any eval work."
+        }
+      ],
+      "open_question": "As ggml gains more backward passes, at what point does training or fine-tuning in llama.cpp become a practical option for builders who today only use it for inference?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": true,
+        "new_since_last_week": true,
+        "lane_hits": 1,
+        "score": 2.9
+      }
+    },
+    {
+      "id": "ai-is-too-big-to-fail",
+      "title": "Is AI now too big to fail in Washington?",
+      "lanes": [],
+      "off_lane": true,
+      "what_happened": "On November 27, The AI Daily Brief published an episode titled \"AI is Too Big to Fail\". The host, NLW, argues that AI has become so central to national security and the economy that Washington may not be able to let the industry fail.\n\nThe feed summary mentions three threads. The first is a push by Democrats for a no-bailout pledge, meaning a public commitment that the government will not rescue AI companies if they get into trouble. The second is what the summary calls the Schiff resolution, which the episode breaks down. Based on the summary, it appears tied to that no-bailout push, though the item does not give its text or status. The third is what the summary calls \"the Jensen Huang saga\", referring to the head of Nvidia. The summary does not say what that saga involves.\n\nThe summary ends partway through a sentence about why any rescue of AI companies would look a certain way, so the episode's full conclusion is not in the feed. This is a single source, a commentary show rather than a primary document, and the summary is short. It would be a mistake to treat its framing as established fact. What it does show is that the question of public support for AI companies is now part of the political debate, with at least one formal resolution and a public argument about pledges.\n\nThere are no figures in the item on company finances, investment levels or specific firms at risk.",
+      "why_it_matters": "This topic sits outside the usual technical lanes, but it touches every builder in a quieter way. Whatever you build likely depends on a small number of model providers and chip suppliers. If those companies are seen as too important to fail, that shapes how they behave, how they price, and how regulators treat them. If they are not protected, a stumble at one provider could hit your product directly.\n\nThe practical response is the same either way: reduce single points of failure. Keep your prompts, evals and tool definitions portable so you can switch providers with days of work, not months. Test your core flows against at least one alternative model, including an open weight model you can run yourself. Local inference tools like Ollama and llama.cpp, covered elsewhere in today's briefing, are part of that hedge. Track your spending per provider, and know what you would do if prices rose sharply or access was restricted.\n\nIt is also worth watching the policy side. Resolutions and pledges like the one discussed here can turn into rules about procurement, disclosure or which vendors government buyers prefer. If you sell to public sector or regulated customers, those shifts can change which models you are allowed to use. Treat the political debate as one input to your vendor risk planning, not background noise.",
+      "read_first": [
+        {
+          "title": "AI is Too Big to Fail",
+          "url": "https://www.youtube.com/watch?v=jEVuZeU9yoA",
+          "source": "@AIDailyBrief",
+          "why": "It is the only source, and watching it is the only way to get the full argument, since the feed summary is cut off."
+        }
+      ],
+      "open_question": "If the largest AI providers come to be treated as too big to fail, does that make building on them safer for small teams, or does it reduce the pressure on those providers to stay reliable and fairly priced?",
+      "reading_minutes": 3,
+      "signals": {
+        "sources": 1,
+        "primary": false,
+        "new_since_last_week": true,
+        "lane_hits": 0,
+        "score": 1.0
+      }
+    }
+  ]
+}

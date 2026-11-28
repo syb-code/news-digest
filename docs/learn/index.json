@@ -1,6 +1,15 @@
 {
-  "latest": "2026-11-27",
+  "latest": "2026-11-28",
   "days": [
+    {
+      "date": "2026-11-28",
+      "topics": [
+        "Ollama ships v0.40.19 and a v0.40.20 release candidate",
+        "OpenAI pushes Codex 0.174.0-alpha.9 with no published notes",
+        "llama.cpp adds a backward pass for CONCAT in ggml",
+        "Is AI now too big to fail in Washington?"
+      ]
+    },
     {
       "date": "2026-11-27",
       "topics": [

@@ -2267,6 +2267,110 @@
         "@Monetary-Matters"
       ],
       "primary": false
+    },
+    {
+      "id": "ai-is-too-big-to-fail",
+      "title": "Is AI now too big to fail in Washington?",
+      "date": "2026-11-28",
+      "logged_at": "2026-11-28T13:47:42+00:00",
+      "terms": [
+        "fail",
+        "able",
+        "bailout",
+        "economy",
+        "even",
+        "national",
+        "pledge",
+        "rescue",
+        "resolution",
+        "saga",
+        "schiff",
+        "become"
+      ],
+      "urls": [
+        "https://www.youtube.com/watch?v=jEVuZeU9yoA"
+      ],
+      "sources": [
+        "@AIDailyBrief"
+      ],
+      "primary": false
+    },
+    {
+      "id": "b12832-ggml-add-concat-backward-pass-32151",
+      "title": "llama.cpp adds a backward pass for CONCAT in ggml",
+      "date": "2026-11-28",
+      "logged_at": "2026-11-28T13:47:42+00:00",
+      "terms": [
+        "32151",
+        "b12832",
+        "backward",
+        "concat",
+        "pass",
+        "add",
+        "ggml",
+        "40000",
+        "along",
+        "checked",
+        "checks",
+        "contiguous"
+      ],
+      "urls": [
+        "https://github.com/ggml-org/llama.cpp/releases/tag/b12832"
+      ],
+      "sources": [
+        "llama.cpp releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "ollama-releases-v0-40-20-rc0",
+      "title": "Ollama ships v0.40.19 and a v0.40.20 release candidate",
+      "date": "2026-11-28",
+      "logged_at": "2026-11-28T13:47:42+00:00",
+      "terms": [
+        "ollama",
+        "rc0",
+        "v0.40.19",
+        "v0.40.20",
+        "bump",
+        "llama",
+        "server",
+        "19881",
+        "19913",
+        "19917",
+        "19953",
+        "buffers"
+      ],
+      "urls": [
+        "https://github.com/ollama/ollama/releases/tag/v0.40.19",
+        "https://github.com/ollama/ollama/releases/tag/v0.40.20-rc0"
+      ],
+      "sources": [
+        "Ollama releases"
+      ],
+      "primary": true
+    },
+    {
+      "id": "openai-codex-releases-0-174-0-alpha-9",
+      "title": "OpenAI pushes Codex 0.174.0-alpha.9 with no published notes",
+      "date": "2026-11-28",
+      "logged_at": "2026-11-28T13:47:42+00:00",
+      "terms": [
+        "0.174.0",
+        "alpha.9",
+        "releases0.174.0",
+        "codex",
+        "openai",
+        "release0.174.0",
+        "release"
+      ],
+      "urls": [
+        "https://github.com/openai/codex/releases/tag/rust-v0.174.0-alpha.9"
+      ],
+      "sources": [
+        "OpenAI Codex releases"
+      ],
+      "primary": true
     }
   ]
 }
